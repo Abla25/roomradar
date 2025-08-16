@@ -14,7 +14,7 @@ RSS_URL = os.environ["RSS_URL"]
 
 MAX_BATCH = 3
 MIN_BATCH = 1
-BACKOFF_SECONDS = 32
+BACKOFF_SECONDS = 62
 
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
