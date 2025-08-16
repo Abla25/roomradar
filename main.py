@@ -121,7 +121,7 @@ def send_to_notion(data):
             "Camere": {"rich_text": [{"text": {"content": data["Camere"]}}]},
             "Affidabilita": {"number": float(data["Affidabilita"]) if data["Affidabilita"] else None},
             "Motivo_Rating": {"rich_text": [{"text": {"content": data["Motivo_Rating"]}}]},
-            "Data_DB": {"date": {"start": time.strftime("%Y-%m-%d")}},
+            "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
             "Link": {"url": data.get("link", "")}
         }
     }
