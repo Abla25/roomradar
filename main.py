@@ -39,7 +39,6 @@ Per ogni post pertinente, genera un dizionario con:
   "Camere": "...",
   "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5),
   "Motivo_Rating": "...",
-  "Data_Pubblicazione": data ISO 8601 (la trovi nella sezione del file xml relativa a ciascun post tra i tag <pubDate>),
 }}
 Rispondi SOLO con JSON. Nessun testo aggiuntivo.
 POST:
@@ -122,7 +121,7 @@ def send_to_notion(data):
             "Camere": {"rich_text": [{"text": {"content": data["Camere"]}}]},
             "Affidabilita": {"number": float(data["Affidabilita"]) if data["Affidabilita"] else None},
             "Motivo_Rating": {"rich_text": [{"text": {"content": data["Motivo_Rating"]}}]},
-            "Data_Pubblicazione": {"date": {"start": data["Data_Pubblicazione"]}},
+            "Data_DB": {"date": {"start": time.strftime("%Y-%m-%d")}},
             "Link": {"url": data.get("link", "")}
         }
     }
