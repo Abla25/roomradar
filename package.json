@@ -1,0 +1,11 @@
+{
+  "name": "notion-real-estate-portal",
+  "version": "1.0.0",
+  "description": "Portale immobiliare alimentato da Notion",
+  "scripts": {
+    "build": "node fetch-listings.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
