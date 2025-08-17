@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2025-08-17T19:15:12.926Z",
-  "count": 39,
+  "generatedAt": "2025-08-17T20:17:58.250Z",
+  "count": 41,
   "results": [
+    {
+      "id": "252b5f64-9329-8134-b665-f9c3383945e0",
+      "title": "Monolocale in affitto",
+      "overview": "Monolocale in affitto nel centro della città",
+      "description": "Disponible !! Acogedor estudio en Pleno centro de La ciudad",
+      "price": "",
+      "zone": "Centro della città",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma mancano dettagli",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T20:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292729040959605/"
+    },
+    {
+      "id": "252b5f64-9329-81b9-b471-c0c8874ca0e1",
+      "title": "Appartamento vacanziale",
+      "overview": "Appartamento vacanziale vicino a Plaza España",
+      "description": "APARTAMENTO VACACIONAL CERCA DE PLAZA ESPAÑA",
+      "price": "",
+      "zone": "Plaza España",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T20:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292747867624389/"
+    },
     {
       "id": "252b5f64-9329-817d-ba9d-d200d2d04677",
       "title": "Appartamento vacanziale vicino a Plaza España",
