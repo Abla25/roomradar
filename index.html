@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Rent Finder – Database Notion</title>
+  <title>Rent Finder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * {
@@ -13,339 +13,231 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      background: #ffffff;
       color: #1d1d1f;
-      line-height: 1.6;
-      min-height: 100vh;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
 
     header {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      background: #fafafa;
+      border-bottom: 1px solid #e5e5e7;
       padding: 2rem 0;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 3rem;
     }
 
-    .header-content {
-      max-width: 1200px;
+    .container {
+      max-width: 1000px;
       margin: 0 auto;
-      text-align: center;
       padding: 0 2rem;
     }
 
     h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      background: linear-gradient(135deg, #007AFF, #5856D6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #1d1d1f;
+      text-align: center;
       margin-bottom: 0.5rem;
     }
 
     .header-subtitle {
-      font-size: 1.1rem;
+      text-align: center;
       color: #86868b;
-      font-weight: 400;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
+      font-size: 1rem;
     }
 
     .filters {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-radius: 20px;
+      background: #fafafa;
+      border-radius: 12px;
       padding: 2rem;
       margin-bottom: 3rem;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border: 1px solid #e5e5e7;
     }
 
-    .filters h3 {
-      font-size: 1.3rem;
-      margin-bottom: 1.5rem;
-      color: #1d1d1f;
-      font-weight: 600;
-    }
-
-    .filter-grid {
+    .filter-row {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1.5rem;
-    }
-
-    .filter-group {
-      display: flex;
-      flex-direction: column;
+      align-items: end;
     }
 
     .filter-group label {
-      font-size: 0.9rem;
+      display: block;
+      font-size: 0.875rem;
       font-weight: 500;
-      color: #86868b;
+      color: #1d1d1f;
       margin-bottom: 0.5rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
 
     .filter-group input,
     .filter-group select {
-      padding: 1rem;
-      border: 2px solid #e5e5e7;
-      border-radius: 12px;
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #d1d1d6;
+      border-radius: 8px;
       background: #ffffff;
-      font-size: 1rem;
-      transition: all 0.3s ease;
+      font-size: 0.875rem;
       font-family: inherit;
+      transition: border-color 0.2s ease;
     }
 
     .filter-group input:focus,
     .filter-group select:focus {
       outline: none;
       border-color: #007AFF;
-      box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.1);
     }
 
-    .filter-group input:hover,
-    .filter-group select:hover {
-      border-color: #007AFF;
-    }
-
-    .listings-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-      gap: 2rem;
+    .listings {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-radius: 20px;
-      padding: 2rem;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, #007AFF, #5856D6, #FF2D92);
-      transform: scaleX(0);
-      transition: transform 0.3s ease;
+      background: #ffffff;
+      border: 1px solid #e5e5e7;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.2s ease;
     }
 
     .card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      border-color: #007AFF;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
-    .card:hover::before {
-      transform: scaleX(1);
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
     }
 
-    .card h2 {
-      font-size: 1.4rem;
+    .card-title {
+      font-size: 1.25rem;
       font-weight: 600;
       color: #1d1d1f;
-      margin-bottom: 1rem;
-      line-height: 1.3;
+      margin: 0;
+      flex: 1;
+      margin-right: 1rem;
+    }
+
+    .card-price {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #007AFF;
+      white-space: nowrap;
     }
 
     .card-meta {
       display: flex;
-      flex-wrap: wrap;
       gap: 1rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
     }
 
-    .meta-item {
+    .meta-tag {
       background: #f2f2f7;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      font-weight: 500;
       color: #1d1d1f;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 16px;
+      font-size: 0.875rem;
+      font-weight: 500;
     }
 
-    .meta-item.zone {
-      background: #e3f2fd;
-      color: #1976d2;
-    }
-
-    .meta-item.rooms {
-      background: #f3e5f5;
-      color: #7b1fa2;
-    }
-
-    .meta-item.price {
-      background: #e8f5e8;
-      color: #388e3c;
-    }
-
-    .meta-item.reliability {
-      background: #fff3e0;
-      color: #f57c00;
-    }
-
-    .card-overview {
-      margin-bottom: 1.5rem;
-      position: relative;
-    }
-
-    .overview-text {
+    .card-description {
       color: #86868b;
+      margin-bottom: 1.5rem;
       line-height: 1.6;
-      transition: all 0.3s ease;
-    }
-
-    .overview-text.expanded {
-      color: #1d1d1f;
-    }
-
-    .read-more-btn {
-      background: none;
-      border: none;
-      color: #007AFF;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      padding: 0.5rem 0;
-      transition: color 0.3s ease;
-      font-family: inherit;
-    }
-
-    .read-more-btn:hover {
-      color: #0056b3;
     }
 
     .card-actions {
       display: flex;
       gap: 1rem;
-      margin-top: 1.5rem;
+      align-items: center;
     }
 
     .btn {
-      padding: 0.8rem 1.5rem;
+      padding: 0.75rem 1.5rem;
       border: none;
-      border-radius: 12px;
-      font-size: 0.9rem;
-      font-weight: 600;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 500;
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: all 0.2s ease;
       font-family: inherit;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      text-align: center;
     }
 
     .btn-primary {
-      background: linear-gradient(135deg, #007AFF, #5856D6);
+      background: #007AFF;
       color: white;
-      flex: 1;
     }
 
     .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0, 122, 255, 0.3);
+      background: #0056b3;
     }
 
     .btn-secondary {
       background: #f2f2f7;
       color: #1d1d1f;
-      border: 2px solid #e5e5e7;
     }
 
     .btn-secondary:hover {
       background: #e5e5e7;
-      border-color: #d1d1d6;
     }
 
     .loading {
       text-align: center;
       padding: 4rem 2rem;
-      font-size: 1.1rem;
       color: #86868b;
-    }
-
-    .loading-spinner {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      border: 3px solid #f3f3f3;
-      border-top: 3px solid #007AFF;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-      margin-bottom: 1rem;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
     }
 
     .error {
       text-align: center;
-      padding: 4rem 2rem;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      border-radius: 20px;
-      margin: 2rem 0;
-    }
-
-    .error h3 {
-      color: #ff3b30;
-      margin-bottom: 1rem;
+      padding: 2rem;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: 8px;
+      color: #dc2626;
     }
 
     .no-results {
       text-align: center;
-      padding: 4rem 2rem;
+      padding: 3rem 2rem;
       color: #86868b;
-      font-size: 1.1rem;
+    }
+
+    .stats {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: #fafafa;
+      border-radius: 8px;
+      color: #86868b;
+      font-size: 0.875rem;
     }
 
     @media (max-width: 768px) {
       .container {
-        padding: 1rem;
+        padding: 0 1rem;
       }
       
-      .filters {
-        padding: 1.5rem;
-      }
-      
-      .filter-grid {
+      .filter-row {
         grid-template-columns: 1fr;
       }
       
-      .listings-grid {
-        grid-template-columns: 1fr;
+      .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
       }
       
-      .card {
-        padding: 1.5rem;
+      .card-price {
+        font-size: 1.25rem;
       }
       
       h1 {
@@ -356,16 +248,15 @@
 </head>
 <body>
   <header>
-    <div class="header-content">
+    <div class="container">
       <h1>🏠 Rent Finder</h1>
-      <p class="header-subtitle">Annunci aggiornati da Notion (via GitHub Actions)</p>
+      <p class="header-subtitle">Database Notion aggiornato automaticamente</p>
     </div>
   </header>
 
   <div class="container">
     <div class="filters">
-      <h3>🔍 Filtri di ricerca</h3>
-      <div class="filter-grid">
+      <div class="filter-row">
         <div class="filter-group">
           <label>Zona</label>
           <select id="filter-zone">
@@ -373,35 +264,34 @@
           </select>
         </div>
         <div class="filter-group">
-          <label>Numero di camere</label>
+          <label>Camere</label>
           <select id="filter-rooms">
             <option value="">Tutte</option>
           </select>
         </div>
         <div class="filter-group">
-          <label>Affidabilità minima</label>
+          <label>Affidabilità min.</label>
           <select id="filter-reliability">
             <option value="">Tutte</option>
-            <option value="1">≥ 1 ⭐</option>
-            <option value="2">≥ 2 ⭐</option>
-            <option value="3">≥ 3 ⭐</option>
-            <option value="4">≥ 4 ⭐</option>
-            <option value="5">≥ 5 ⭐</option>
+            <option value="1">≥ 1</option>
+            <option value="2">≥ 2</option>
+            <option value="3">≥ 3</option>
+            <option value="4">≥ 4</option>
+            <option value="5">≥ 5</option>
           </select>
         </div>
         <div class="filter-group">
-          <label>Prezzo massimo (€)</label>
-          <input type="number" id="filter-price" placeholder="Es. 1200">
+          <label>Prezzo max (€)</label>
+          <input type="number" id="filter-price" placeholder="1200">
         </div>
       </div>
     </div>
 
-    <div id="loading" class="loading">
-      <div class="loading-spinner"></div>
-      <div>Caricamento annunci...</div>
-    </div>
+    <div id="stats" class="stats" style="display: none;"></div>
+
+    <div id="loading" class="loading">Caricamento annunci...</div>
     
-    <div id="listings"></div>
+    <div id="listings" class="listings"></div>
   </div>
 
   <script>
@@ -409,35 +299,74 @@
 
     async function loadListings() {
       try {
+        console.log("Caricamento dati...");
         const response = await fetch("public/data.json");
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         const data = await response.json();
+        console.log("Dati ricevuti:", data);
+        
+        // Controlla la struttura dei dati
+        if (data.results && Array.isArray(data.results)) {
+          allListings = data.results;
+          console.log(`Caricati ${allListings.length} annunci`);
+        } else if (Array.isArray(data)) {
+          allListings = data;
+          console.log(`Caricati ${allListings.length} annunci (array diretto)`);
+        } else {
+          console.log("Struttura dati inaspettata:", data);
+          allListings = [];
+        }
 
-        allListings = (data.results || []);
         document.getElementById('loading').style.display = 'none';
         populateFilters();
         applyFilters();
+        updateStats();
+        
       } catch (error) {
-        console.error("Errore:", error);
+        console.error("Errore nel caricamento:", error);
         document.getElementById('loading').style.display = 'none';
         document.getElementById('listings').innerHTML = `
           <div class="error">
-            <h3>⚠️ Errore nel caricamento</h3>
-            <p>Verifica che il workflow abbia generato <code>public/data.json</code></p>
-            <p style="font-size: 0.9rem; color: #86868b; margin-top: 1rem;">${error.message}</p>
+            <h3>Errore nel caricamento</h3>
+            <p>${error.message}</p>
+            <p style="margin-top: 1rem; font-size: 0.875rem;">
+              Verifica che il file <code>public/data.json</code> esista e sia accessibile.
+            </p>
           </div>
         `;
       }
     }
 
+    function updateStats() {
+      const statsDiv = document.getElementById('stats');
+      if (allListings.length > 0) {
+        const total = allListings.length;
+        const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].length;
+        const avgPrice = Math.round(allListings.reduce((sum, l) => sum + (parseInt(l.price) || 0), 0) / total);
+        
+        statsDiv.innerHTML = `
+          <strong>${total}</strong> annunci totali • 
+          <strong>${zones}</strong> zone • 
+          Prezzo medio: <strong>€${avgPrice}</strong>
+        `;
+        statsDiv.style.display = 'block';
+      }
+    }
+
     function populateFilters() {
-      const zones = [...new Set(allListings.map(i => i.zone).filter(Boolean))].sort();
-      const rooms = [...new Set(allListings.map(i => i.rooms).filter(Boolean))].sort();
+      const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].sort();
+      const rooms = [...new Set(allListings.map(l => l.rooms).filter(Boolean))].sort();
 
       const zoneSelect = document.getElementById('filter-zone');
+      zoneSelect.innerHTML = '<option value="">Tutte le zone</option>';
       zones.forEach(z => zoneSelect.add(new Option(z, z)));
 
       const roomsSelect = document.getElementById('filter-rooms');
+      roomsSelect.innerHTML = '<option value="">Tutte</option>';
       rooms.forEach(r => roomsSelect.add(new Option(r, r)));
     }
 
@@ -447,12 +376,14 @@
       const minReliability = parseInt(document.getElementById('filter-reliability').value) || 0;
       const maxPrice = parseInt(document.getElementById('filter-price').value) || Infinity;
 
-      const filtered = allListings.filter(l =>
-        (!zone || l.zone === zone) &&
-        (!rooms || l.rooms === rooms) &&
-        (l.reliability >= minReliability) &&
-        (parseInt(l.price) <= maxPrice)
-      );
+      const filtered = allListings.filter(l => {
+        const zoneMatch = !zone || l.zone === zone;
+        const roomsMatch = !rooms || l.rooms === rooms;
+        const reliabilityMatch = (l.reliability || 0) >= minReliability;
+        const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
+        
+        return zoneMatch && roomsMatch && reliabilityMatch && priceMatch;
+      });
 
       renderListings(filtered);
     }
@@ -464,7 +395,7 @@
       if (listings.length === 0) {
         container.innerHTML = `
           <div class="no-results">
-            <h3>🔍 Nessun annuncio trovato</h3>
+            <h3>Nessun annuncio trovato</h3>
             <p>Prova a modificare i filtri di ricerca</p>
           </div>
         `;
@@ -476,62 +407,53 @@
         div.className = "card";
 
         const overview = l.overview || "";
-        const shortText = overview.length > 120 ? overview.slice(0, 120) + "..." : overview;
-        const isLong = overview.length > 120;
+        const shortText = overview.length > 150 ? overview.slice(0, 150) + "..." : overview;
+        const isLong = overview.length > 150;
 
         div.innerHTML = `
-          <h2>${l.title || "Senza titolo"}</h2>
-          
-          <div class="card-meta">
-            <span class="meta-item zone">📍 ${l.zone || "N/A"}</span>
-            <span class="meta-item rooms">🛏️ ${l.rooms || "N/A"}</span>
-            <span class="meta-item price">💰 €${l.price || "N/A"}</span>
-            <span class="meta-item reliability">⭐ ${l.reliability}</span>
+          <div class="card-header">
+            <h3 class="card-title">${l.title || "Senza titolo"}</h3>
+            <div class="card-price">€${l.price || "N/A"}</div>
           </div>
           
-          <div class="card-overview">
-            <p class="overview-text">${shortText}</p>
-            ${isLong ? `<button class="read-more-btn">Leggi di più</button>` : ""}
+          <div class="card-meta">
+            <span class="meta-tag">📍 ${l.zone || "N/A"}</span>
+            <span class="meta-tag">🛏️ ${l.rooms || "N/A"}</span>
+            <span class="meta-tag">⭐ ${l.reliability || "N/A"}</span>
+          </div>
+          
+          <div class="card-description">
+            ${shortText}
           </div>
           
           <div class="card-actions">
             <a href="${l.link}" target="_blank" class="btn btn-primary">
-              🔗 Vedi su Facebook
+              Vedi su Facebook
             </a>
-            ${isLong ? `<button class="btn btn-secondary expand-btn">📖 Espandi</button>` : ""}
+            ${isLong ? `<button class="btn btn-secondary expand-btn">Leggi tutto</button>` : ""}
           </div>
         `;
 
         container.appendChild(div);
 
         if (isLong) {
-          const readMoreBtn = div.querySelector(".read-more-btn");
           const expandBtn = div.querySelector(".expand-btn");
-          const overviewText = div.querySelector(".overview-text");
+          const description = div.querySelector(".card-description");
           
-          readMoreBtn.addEventListener("click", () => toggleOverview(overviewText, overview, shortText, readMoreBtn, expandBtn));
-          expandBtn.addEventListener("click", () => toggleOverview(overviewText, overview, shortText, readMoreBtn, expandBtn));
+          expandBtn.addEventListener("click", () => {
+            if (description.textContent === shortText) {
+              description.textContent = overview;
+              expandBtn.textContent = "Comprimi";
+            } else {
+              description.textContent = shortText;
+              expandBtn.textContent = "Leggi tutto";
+            }
+          });
         }
       });
     }
 
-    function toggleOverview(overviewText, fullText, shortText, readMoreBtn, expandBtn) {
-      const isExpanded = overviewText.classList.contains("expanded");
-      
-      if (isExpanded) {
-        overviewText.classList.remove("expanded");
-        overviewText.textContent = shortText;
-        readMoreBtn.textContent = "Leggi di più";
-        if (expandBtn) expandBtn.textContent = "📖 Espandi";
-      } else {
-        overviewText.classList.add("expanded");
-        overviewText.textContent = fullText;
-        readMoreBtn.textContent = "Leggi meno";
-        if (expandBtn) expandBtn.textContent = "📖 Comprimi";
-      }
-    }
-
-    // Event listeners per i filtri
+    // Event listeners
     document.getElementById('filter-zone').addEventListener('change', applyFilters);
     document.getElementById('filter-rooms').addEventListener('change', applyFilters);
     document.getElementById('filter-reliability').addEventListener('change', applyFilters);
