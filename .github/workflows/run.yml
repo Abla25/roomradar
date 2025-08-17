@@ -2,7 +2,7 @@ name: CARICHIIII
 
 on:
   schedule:
-    - cron: "0 * * * *"   # ogni ora
+   # - cron: "0 * * * *"   # ogni ora
   workflow_dispatch:      # avvio manuale
 
 jobs:
