@@ -110,9 +110,6 @@
     }
 
     .card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
       margin-bottom: 1rem;
     }
 
@@ -121,15 +118,7 @@
       font-weight: 600;
       color: #1d1d1f;
       margin: 0;
-      flex: 1;
-      margin-right: 1rem;
-    }
-
-    .card-price {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #007AFF;
-      white-space: nowrap;
+      margin-bottom: 0.5rem;
     }
 
     .card-meta {
@@ -152,12 +141,84 @@
       color: #86868b;
       margin-bottom: 1.5rem;
       line-height: 1.6;
+      position: relative;
+    }
+
+    .ai-label {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      width: 20px;
+      height: 20px;
+      background: #007AFF;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: help;
+      transition: all 0.2s ease;
+      z-index: 10;
+    }
+
+    .ai-label:hover {
+      background: #0056b3;
+      transform: scale(1.1);
+    }
+
+    .ai-tooltip {
+      position: absolute;
+      top: -40px;
+      right: 0;
+      background: #1d1d1f;
+      color: white;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease;
+      z-index: 20;
+    }
+
+    .ai-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      right: 10px;
+      border: 5px solid transparent;
+      border-top-color: #1d1d1f;
+    }
+
+    .ai-label:hover .ai-tooltip {
+      opacity: 1;
+      visibility: visible;
     }
 
     .card-actions {
       display: flex;
-      gap: 1rem;
+      justify-content: space-between;
       align-items: center;
+      gap: 1rem;
+    }
+
+    .action-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .card-price {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #007AFF;
+      background: #f0f9ff;
+      padding: 0.5rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid #bae6fd;
     }
 
     .btn {
@@ -187,6 +248,8 @@
     .btn-secondary {
       background: #f2f2f7;
       color: #1d1d1f;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
     }
 
     .btn-secondary:hover {
@@ -235,6 +298,71 @@
       color: #0369a1;
     }
 
+    .pagination-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 3rem;
+      padding: 1.5rem;
+      background: #fafafa;
+      border-radius: 12px;
+      border: 1px solid #e5e5e7;
+    }
+
+    .pagination-info {
+      color: #86868b;
+      font-size: 0.875rem;
+    }
+
+    .pagination-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .pagination-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid #d1d1d6;
+      background: #ffffff;
+      color: #1d1d1f;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      transition: all 0.2s ease;
+    }
+
+    .pagination-btn:hover {
+      border-color: #007AFF;
+      background: #f0f9ff;
+    }
+
+    .pagination-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .pagination-btn.active {
+      background: #007AFF;
+      color: white;
+      border-color: #007AFF;
+    }
+
+    .items-per-page {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 0.75rem;
+      color: #86868b;
+    }
+
+    .items-per-page select {
+      margin-left: 0.5rem;
+      padding: 0.25rem 0.5rem;
+      border: 1px solid #d1d1d6;
+      border-radius: 4px;
+      background: #ffffff;
+      font-size: 0.75rem;
+    }
+
     @media (max-width: 768px) {
       .container {
         padding: 0 1rem;
@@ -244,14 +372,19 @@
         grid-template-columns: 1fr;
       }
       
-      .card-header {
+      .card-actions {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
+        align-items: stretch;
       }
       
-      .card-price {
-        font-size: 1.25rem;
+      .action-left {
+        justify-content: space-between;
+      }
+      
+      .pagination-controls {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
       }
       
       h1 {
@@ -270,6 +403,16 @@
 
   <div class="container">
     <div class="filters">
+      <div class="items-per-page">
+        Annunci per pagina:
+        <select id="items-per-page">
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
+      
       <div class="filter-row">
         <div class="filter-group">
           <label>Zona</label>
@@ -307,11 +450,15 @@
     <div id="loading" class="loading">Caricamento annunci...</div>
     
     <div id="listings" class="listings"></div>
+    
+    <div id="pagination" class="pagination-controls" style="display: none;"></div>
   </div>
 
   <script>
     let allListings = [];
     let filteredListings = [];
+    let currentPage = 1;
+    let itemsPerPage = 20;
 
     // Forza refresh per evitare cache
     if (performance.navigation.type === 1) {
@@ -386,6 +533,8 @@
           <strong>DEBUG INFO:</strong><br>
           • Annunci totali caricati: ${allListings.length}<br>
           • Annunci filtrati: ${filteredListings.length}<br>
+          • Pagina corrente: ${currentPage}<br>
+          • Annunci per pagina: ${itemsPerPage}<br>
           • Timestamp: ${new Date().toLocaleString()}<br>
           • URL file: public/data.json
         `;
@@ -444,17 +593,24 @@
       });
 
       console.log(`Annunci filtrati: ${filteredListings.length} su ${allListings.length}`);
-      renderListings(filteredListings);
+      currentPage = 1; // Reset alla prima pagina quando si applicano i filtri
+      renderListings();
+      updatePagination();
       updateDebugInfo();
     }
 
-    function renderListings(listings) {
+    function renderListings() {
       const container = document.getElementById('listings');
       container.innerHTML = "";
       
-      console.log(`=== RENDERING ${listings.length} ANNUNCI ===`);
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const pageListings = filteredListings.slice(startIndex, endIndex);
       
-      if (listings.length === 0) {
+      console.log(`=== RENDERING PAGINA ${currentPage} ===`);
+      console.log(`Mostrando annunci ${startIndex + 1}-${Math.min(endIndex, filteredListings.length)} su ${filteredListings.length}`);
+      
+      if (pageListings.length === 0) {
         container.innerHTML = `
           <div class="no-results">
             <h3>Nessun annuncio trovato</h3>
@@ -464,20 +620,21 @@
         return;
       }
 
-      listings.forEach((l, index) => {
-        console.log(`Rendering annuncio ${index + 1}:`, l.title || "Senza titolo");
+      pageListings.forEach((l, index) => {
+        console.log(`Rendering annuncio ${startIndex + index + 1}:`, l.title || "Senza titolo");
         
         const div = document.createElement("div");
         div.className = "card";
 
-        const overview = l.overview || "";
-        const shortText = overview.length > 150 ? overview.slice(0, 150) + "..." : overview;
-        const isLong = overview.length > 150;
+        // Usa "Descrizione_originale" se disponibile, altrimenti "overview"
+        const description = l.Descrizione_originale || l.overview || "";
+        const shortText = description.length > 200 ? description.slice(0, 200) + "..." : description;
+        const isLong = description.length > 200;
+        const isAISummary = !l.Descrizione_originale && l.overview; // Se non c'è descrizione originale ma c'è overview
 
         div.innerHTML = `
           <div class="card-header">
             <h3 class="card-title">${l.title || "Senza titolo"}</h3>
-            <div class="card-price">€${l.price || "N/A"}</div>
           </div>
           
           <div class="card-meta">
@@ -488,13 +645,22 @@
           
           <div class="card-description">
             ${shortText}
+            ${isAISummary ? `
+              <div class="ai-label" title="Riassunto dell'inserzione generato con AI">
+                i
+                <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
+              </div>
+            ` : ''}
           </div>
           
           <div class="card-actions">
-            <a href="${l.link}" target="_blank" class="btn btn-primary">
-              Vedi su Facebook
-            </a>
-            ${isLong ? `<button class="btn btn-secondary expand-btn">Leggi tutto</button>` : ""}
+            <div class="action-left">
+              <a href="${l.link}" target="_blank" class="btn btn-primary">
+                Vedi su Facebook
+              </a>
+              ${isLong ? `<button class="btn btn-secondary expand-btn">Leggi di più</button>` : ""}
+            </div>
+            <div class="card-price">€${l.price || "N/A"}</div>
           </div>
         `;
 
@@ -502,21 +668,110 @@
 
         if (isLong) {
           const expandBtn = div.querySelector(".expand-btn");
-          const description = div.querySelector(".card-description");
+          const descriptionEl = div.querySelector(".card-description");
           
           expandBtn.addEventListener("click", () => {
-            if (description.textContent === shortText) {
-              description.textContent = overview;
+            if (descriptionEl.textContent === shortText) {
+              descriptionEl.textContent = description;
               expandBtn.textContent = "Comprimi";
             } else {
-              description.textContent = shortText;
-              expandBtn.textContent = "Leggi tutto";
+              descriptionEl.textContent = shortText;
+              expandBtn.textContent = "Leggi di più";
             }
           });
         }
       });
       
-      console.log(`Rendering completato: ${listings.length} annunci visualizzati`);
+      console.log(`Rendering completato: ${pageListings.length} annunci visualizzati`);
+    }
+
+    function updatePagination() {
+      const paginationDiv = document.getElementById('pagination');
+      const totalPages = Math.ceil(filteredListings.length / itemsPerPage);
+      
+      if (totalPages <= 1) {
+        paginationDiv.style.display = 'none';
+        return;
+      }
+      
+      paginationDiv.style.display = 'flex';
+      
+      const startIndex = (currentPage - 1) * itemsPerPage + 1;
+      const endIndex = Math.min(currentPage * itemsPerPage, filteredListings.length);
+      
+      paginationDiv.innerHTML = `
+        <div class="pagination-info">
+          Mostrando annunci ${startIndex}-${endIndex} di ${filteredListings.length}
+        </div>
+        <div class="pagination-buttons">
+          <button class="pagination-btn" onclick="goToPage(1)" ${currentPage === 1 ? 'disabled' : ''}>
+            ⏮️ Prima
+          </button>
+          <button class="pagination-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>
+            ◀️ Precedente
+          </button>
+          ${generatePageNumbers(currentPage, totalPages)}
+          <button class="pagination-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>
+            Successiva ▶️
+          </button>
+          <button class="pagination-btn" onclick="goToPage(${totalPages})" ${currentPage === totalPages ? 'disabled' : ''}>
+            Ultima ⏭️
+          </button>
+        </div>
+      `;
+    }
+
+    function generatePageNumbers(current, total) {
+      let pages = [];
+      const maxVisible = 5;
+      
+      if (total <= maxVisible) {
+        for (let i = 1; i <= total; i++) {
+          pages.push(i);
+        }
+      } else {
+        if (current <= 3) {
+          for (let i = 1; i <= 4; i++) pages.push(i);
+          pages.push('...');
+          pages.push(total);
+        } else if (current >= total - 2) {
+          pages.push(1);
+          pages.push('...');
+          for (let i = total - 3; i <= total; i++) pages.push(i);
+        } else {
+          pages.push(1);
+          pages.push('...');
+          for (let i = current - 1; i <= current + 1; i++) pages.push(i);
+          pages.push('...');
+          pages.push(total);
+        }
+      }
+      
+      return pages.map(page => {
+        if (page === '...') {
+          return '<span style="padding: 0.5rem 1rem; color: #86868b;">...</span>';
+        }
+        return `<button class="pagination-btn ${page === current ? 'active' : ''}" onclick="goToPage(${page})">${page}</button>`;
+      }).join('');
+    }
+
+    function goToPage(page) {
+      const totalPages = Math.ceil(filteredListings.length / itemsPerPage);
+      if (page >= 1 && page <= totalPages) {
+        currentPage = page;
+        renderListings();
+        updatePagination();
+        updateDebugInfo();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function changeItemsPerPage() {
+      itemsPerPage = parseInt(document.getElementById('items-per-page').value);
+      currentPage = 1;
+      renderListings();
+      updatePagination();
+      updateDebugInfo();
     }
 
     // Event listeners
@@ -524,6 +779,7 @@
     document.getElementById('filter-rooms').addEventListener('change', applyFilters);
     document.getElementById('filter-reliability').addEventListener('change', applyFilters);
     document.getElementById('filter-price').addEventListener('input', applyFilters);
+    document.getElementById('items-per-page').addEventListener('change', changeItemsPerPage);
 
     // Carica gli annunci all'avvio
     console.log("=== AVVIO APPLICAZIONE ===");
