@@ -1197,6 +1197,9 @@
     function applySorting() {
       const sortBy = document.getElementById('sort-by').value;
       
+      console.log("=== APPLICAZIONE ORDINAMENTO ===");
+      console.log("Tipo di ordinamento:", sortBy);
+      
       filteredListings.sort((a, b) => {
         switch (sortBy) {
           case 'date-desc':
@@ -1215,6 +1218,13 @@
             return 0;
         }
       });
+
+      console.log("Ordinamento applicato, primi 3 elementi:", filteredListings.slice(0, 3));
+      
+      // Reset alla prima pagina e aggiorna la visualizzazione
+      currentPage = 1;
+      renderListings();
+      updatePagination();
     }
 
     function renderListings() {
