@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Rent Finder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <style>
     * {
       margin: 0;
@@ -221,6 +224,17 @@
       font-size: 0.875rem;
     }
 
+    .debug-info {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      font-family: monospace;
+      font-size: 0.875rem;
+      color: #0369a1;
+    }
+
     @media (max-width: 768px) {
       .container {
         padding: 0 1rem;
@@ -287,6 +301,7 @@
       </div>
     </div>
 
+    <div id="debug" class="debug-info" style="display: none;"></div>
     <div id="stats" class="stats" style="display: none;"></div>
 
     <div id="loading" class="loading">Caricamento annunci...</div>
@@ -296,38 +311,61 @@
 
   <script>
     let allListings = [];
+    let filteredListings = [];
+
+    // Forza refresh per evitare cache
+    if (performance.navigation.type === 1) {
+      console.log("Pagina ricaricata - pulizia cache");
+    }
 
     async function loadListings() {
       try {
-        console.log("Caricamento dati...");
-        const response = await fetch("public/data.json");
+        console.log("=== INIZIO CARICAMENTO DATI ===");
+        console.log("Timestamp:", new Date().toISOString());
+        
+        // Aggiungi timestamp per evitare cache
+        const response = await fetch("public/data.json?t=" + Date.now());
         
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
         
         const data = await response.json();
-        console.log("Dati ricevuti:", data);
+        console.log("=== DATI RICEVUTI ===");
+        console.log("Tipo di dati:", typeof data);
+        console.log("È un array?", Array.isArray(data));
+        console.log("Ha proprietà 'results'?", data.hasOwnProperty('results'));
+        console.log("Proprietà dell'oggetto:", Object.keys(data));
         
         // Controlla la struttura dei dati
         if (data.results && Array.isArray(data.results)) {
           allListings = data.results;
-          console.log(`Caricati ${allListings.length} annunci`);
+          console.log(`Caricati ${allListings.length} annunci da data.results`);
         } else if (Array.isArray(data)) {
           allListings = data;
-          console.log(`Caricati ${allListings.length} annunci (array diretto)`);
+          console.log(`Caricati ${allListings.length} annunci da array diretto`);
         } else {
           console.log("Struttura dati inaspettata:", data);
           allListings = [];
+        }
+
+        console.log("=== DETTAGLI ANNUNCI ===");
+        console.log("Primi 3 annunci:", allListings.slice(0, 3));
+        console.log("Ultimi 3 annunci:", allListings.slice(-3));
+        
+        if (allListings.length > 0) {
+          console.log("Esempio annuncio:", allListings[0]);
+          console.log("Proprietà disponibili:", Object.keys(allListings[0]));
         }
 
         document.getElementById('loading').style.display = 'none';
         populateFilters();
         applyFilters();
         updateStats();
+        updateDebugInfo();
         
       } catch (error) {
-        console.error("Errore nel caricamento:", error);
+        console.error("=== ERRORE NEL CARICAMENTO ===", error);
         document.getElementById('loading').style.display = 'none';
         document.getElementById('listings').innerHTML = `
           <div class="error">
@@ -338,6 +376,20 @@
             </p>
           </div>
         `;
+      }
+    }
+
+    function updateDebugInfo() {
+      const debugDiv = document.getElementById('debug');
+      if (allListings.length > 0) {
+        debugDiv.innerHTML = `
+          <strong>DEBUG INFO:</strong><br>
+          • Annunci totali caricati: ${allListings.length}<br>
+          • Annunci filtrati: ${filteredListings.length}<br>
+          • Timestamp: ${new Date().toLocaleString()}<br>
+          • URL file: public/data.json
+        `;
+        debugDiv.style.display = 'block';
       }
     }
 
@@ -361,6 +413,9 @@
       const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].sort();
       const rooms = [...new Set(allListings.map(l => l.rooms).filter(Boolean))].sort();
 
+      console.log("Zone disponibili:", zones);
+      console.log("Camere disponibili:", rooms);
+
       const zoneSelect = document.getElementById('filter-zone');
       zoneSelect.innerHTML = '<option value="">Tutte le zone</option>';
       zones.forEach(z => zoneSelect.add(new Option(z, z)));
@@ -376,7 +431,10 @@
       const minReliability = parseInt(document.getElementById('filter-reliability').value) || 0;
       const maxPrice = parseInt(document.getElementById('filter-price').value) || Infinity;
 
-      const filtered = allListings.filter(l => {
+      console.log("=== APPLICAZIONE FILTRI ===");
+      console.log("Filtri attivi:", { zone, rooms, minReliability, maxPrice });
+
+      filteredListings = allListings.filter(l => {
         const zoneMatch = !zone || l.zone === zone;
         const roomsMatch = !rooms || l.rooms === rooms;
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
@@ -385,12 +443,16 @@
         return zoneMatch && roomsMatch && reliabilityMatch && priceMatch;
       });
 
-      renderListings(filtered);
+      console.log(`Annunci filtrati: ${filteredListings.length} su ${allListings.length}`);
+      renderListings(filteredListings);
+      updateDebugInfo();
     }
 
     function renderListings(listings) {
       const container = document.getElementById('listings');
       container.innerHTML = "";
+      
+      console.log(`=== RENDERING ${listings.length} ANNUNCI ===`);
       
       if (listings.length === 0) {
         container.innerHTML = `
@@ -402,7 +464,9 @@
         return;
       }
 
-      listings.forEach(l => {
+      listings.forEach((l, index) => {
+        console.log(`Rendering annuncio ${index + 1}:`, l.title || "Senza titolo");
+        
         const div = document.createElement("div");
         div.className = "card";
 
@@ -451,6 +515,8 @@
           });
         }
       });
+      
+      console.log(`Rendering completato: ${listings.length} annunci visualizzati`);
     }
 
     // Event listeners
@@ -460,6 +526,7 @@
     document.getElementById('filter-price').addEventListener('input', applyFilters);
 
     // Carica gli annunci all'avvio
+    console.log("=== AVVIO APPLICAZIONE ===");
     loadListings();
   </script>
 </body>
