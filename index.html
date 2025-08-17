@@ -23,30 +23,110 @@
     }
 
     header {
-      background: #fafafa;
-      border-bottom: 1px solid #e5e5e7;
-      padding: 2rem 0;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      padding: 3rem 0;
       margin-bottom: 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 122, 255, 0.03) 0%, rgba(88, 86, 214, 0.03) 100%);
+      pointer-events: none;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .header-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #007AFF, #5856D6);
+      border-radius: 24px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 8px 32px rgba(0, 122, 255, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .header-logo:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(0, 122, 255, 0.4);
+    }
+
+    .header-logo-icon {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #1d1d1f 0%, #434344 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .header-subtitle {
+      font-size: 1.2rem;
+      color: #86868b;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding: 0.75rem 2rem;
+      border-radius: 50px;
+      display: inline-block;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #007AFF, #5856D6);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 1rem;
+      box-shadow: 0 4px 16px rgba(0, 122, 255, 0.3);
+    }
+
+    .header-badge-icon {
+      width: 12px;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
     }
 
     .container {
       max-width: 1000px;
       margin: 0 auto;
       padding: 0 2rem;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      color: #1d1d1f;
-      text-align: center;
-      margin-bottom: 0.5rem;
-    }
-
-    .header-subtitle {
-      text-align: center;
-      color: #86868b;
-      font-size: 1rem;
     }
 
     .filters {
@@ -524,8 +604,20 @@
 <body>
   <header>
     <div class="container">
-      <h1>🏠 Rent Finder</h1>
-      <p class="header-subtitle">Database Notion aggiornato automaticamente</p>
+      <div class="header-content">
+        <div class="header-logo">
+          <span class="header-logo-icon">🏠</span>
+        </div>
+        
+        <h1>RoomRadar</h1>
+        
+        <p class="header-subtitle">Beta Test - Barcellona</p>
+        
+        <div class="header-badge">
+          <div class="header-badge-icon"></div>
+          Database Notion • Aggiornamento automatico
+        </div>
+      </div>
     </div>
   </header>
 
