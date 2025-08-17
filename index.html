@@ -126,6 +126,7 @@
       gap: 1rem;
       margin-bottom: 1rem;
       flex-wrap: wrap;
+      align-items: center;
     }
 
     .meta-tag {
@@ -135,6 +136,49 @@
       border-radius: 16px;
       font-size: 0.875rem;
       font-weight: 500;
+    }
+
+    .meta-tag.zone {
+      background: #e3f2fd;
+      color: #1976d2;
+    }
+
+    .meta-tag.reliability {
+      background: #fff3e0;
+      color: #f57c00;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.4rem 1rem;
+    }
+
+    .card-overview-ai {
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .overview-ai-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.8rem;
+      color: #0369a1;
+      font-weight: 500;
+    }
+
+    .overview-ai-icon {
+      width: 14px;
+      height: 14px;
+    }
+
+    .overview-ai-text {
+      color: #1d1d1f;
+      line-height: 1.5;
+      font-size: 0.875rem;
     }
 
     .card-description {
@@ -228,13 +272,13 @@
     }
 
     .card-price {
-      font-size: 1rem;
-      font-weight: 600;
-      color: #007AFF;
-      background: #f0f9ff;
-      padding: 0.5rem 0.75rem;
-      border-radius: 8px;
-      border: 1px solid #bae6fd;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #86868b;
+      background: #f9f9f9;
+      padding: 0.4rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid #e5e5e7;
     }
 
     .btn {
@@ -453,12 +497,6 @@
           </select>
         </div>
         <div class="filter-group">
-          <label>Camere</label>
-          <select id="filter-rooms">
-            <option value="">Tutte</option>
-          </select>
-        </div>
-        <div class="filter-group">
           <label>Affidabilità min.</label>
           <select id="filter-reliability">
             <option value="">Tutte</option>
@@ -476,7 +514,6 @@
       </div>
     </div>
 
-    <div id="debug" class="debug-info" style="display: none;"></div>
     <div id="stats" class="stats" style="display: none;"></div>
 
     <div id="loading" class="loading">Caricamento annunci...</div>
@@ -559,19 +596,7 @@
     }
 
     function updateDebugInfo() {
-      const debugDiv = document.getElementById('debug');
-      if (allListings.length > 0) {
-        debugDiv.innerHTML = `
-          <strong>DEBUG INFO:</strong><br>
-          • Annunci totali caricati: ${allListings.length}<br>
-          • Annunci filtrati: ${filteredListings.length}<br>
-          • Pagina corrente: ${currentPage}<br>
-          • Annunci per pagina: ${itemsPerPage}<br>
-          • Timestamp: ${new Date().toLocaleString()}<br>
-          • URL file: public/data.json
-        `;
-        debugDiv.style.display = 'block';
-      }
+      // Funzione rimossa - debug info non più necessarie
     }
 
     function updateStats() {
@@ -592,43 +617,34 @@
 
     function populateFilters() {
       const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].sort();
-      const rooms = [...new Set(allListings.map(l => l.rooms).filter(Boolean))].sort();
 
       console.log("Zone disponibili:", zones);
-      console.log("Camere disponibili:", rooms);
 
       const zoneSelect = document.getElementById('filter-zone');
       zoneSelect.innerHTML = '<option value="">Tutte le zone</option>';
       zones.forEach(z => zoneSelect.add(new Option(z, z)));
-
-      const roomsSelect = document.getElementById('filter-rooms');
-      roomsSelect.innerHTML = '<option value="">Tutte</option>';
-      rooms.forEach(r => roomsSelect.add(new Option(r, r)));
     }
 
     function applyFilters() {
       const zone = document.getElementById('filter-zone').value;
-      const rooms = document.getElementById('filter-rooms').value;
       const minReliability = parseInt(document.getElementById('filter-reliability').value) || 0;
       const maxPrice = parseInt(document.getElementById('filter-price').value) || Infinity;
 
       console.log("=== APPLICAZIONE FILTRI ===");
-      console.log("Filtri attivi:", { zone, rooms, minReliability, maxPrice });
+      console.log("Filtri attivi:", { zone, minReliability, maxPrice });
 
       filteredListings = allListings.filter(l => {
         const zoneMatch = !zone || l.zone === zone;
-        const roomsMatch = !rooms || l.rooms === rooms;
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
         const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
         
-        return zoneMatch && roomsMatch && reliabilityMatch && priceMatch;
+        return zoneMatch && reliabilityMatch && priceMatch;
       });
 
       console.log(`Annunci filtrati: ${filteredListings.length} su ${allListings.length}`);
       currentPage = 1; // Reset alla prima pagina quando si applicano i filtri
       renderListings();
       updatePagination();
-      updateDebugInfo();
     }
 
     function renderListings() {
@@ -664,16 +680,21 @@
         const isLong = description.length > 200;
         const isAISummary = !l.Descrizione_originale && !l.description && l.overview; // Solo se non ci sono altri campi descrizione
 
-        // Formatta la data
-        const formatDate = (dateString) => {
+        // Formatta la data e l'ora
+        const formatDateTime = (dateString) => {
           if (!dateString) return "Data non disponibile";
           try {
             const date = new Date(dateString);
-            return date.toLocaleDateString('it-IT', {
+            const dateStr = date.toLocaleDateString('it-IT', {
               day: '2-digit',
               month: '2-digit',
               year: 'numeric'
             });
+            const timeStr = date.toLocaleTimeString('it-IT', {
+              hour: '2-digit',
+              minute: '2-digit'
+            });
+            return `${dateStr} alle ${timeStr}`;
           } catch (e) {
             return dateString;
           }
@@ -688,14 +709,25 @@
             <svg class="date-icon" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
             </svg>
-            Aggiunto il: ${formatDate(l.dateAdded)}
+            Aggiunto il: ${formatDateTime(l.dateAdded)}
           </div>
           
           <div class="card-meta">
-            <span class="meta-tag">📍 ${l.zone || "N/A"}</span>
-            <span class="meta-tag">🛏️ ${l.rooms || "N/A"}</span>
-            <span class="meta-tag">⭐ ${l.reliability || "N/A"}</span>
+            <span class="meta-tag zone">Zona: ${l.zone || "N/A"}</span>
+            <span class="meta-tag reliability">⭐ ${l.reliability || "N/A"}</span>
           </div>
+          
+          ${l.overview ? `
+            <div class="card-overview-ai">
+              <div class="overview-ai-header">
+                <svg class="overview-ai-icon" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+                </svg>
+                Riassunto AI
+              </div>
+              <div class="overview-ai-text">${l.overview}</div>
+            </div>
+          ` : ''}
           
           <div class="card-description">
             ${shortText}
@@ -714,7 +746,7 @@
               </a>
               ${isLong ? `<button class="btn btn-secondary expand-btn">Leggi di più</button>` : ""}
             </div>
-            <div class="card-price">€${l.price || "N/A"}</div>
+            <div class="card-price">Prezzo: €${l.price || "N/A"}</div>
           </div>
         `;
 
@@ -830,7 +862,6 @@
 
     // Event listeners
     document.getElementById('filter-zone').addEventListener('change', applyFilters);
-    document.getElementById('filter-rooms').addEventListener('change', applyFilters);
     document.getElementById('filter-reliability').addEventListener('change', applyFilters);
     document.getElementById('filter-price').addEventListener('input', applyFilters);
     document.getElementById('items-per-page').addEventListener('change', changeItemsPerPage);
