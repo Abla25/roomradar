@@ -124,7 +124,7 @@
     .card-meta {
       display: flex;
       gap: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       flex-wrap: wrap;
       align-items: center;
     }
@@ -146,17 +146,16 @@
     .meta-tag.reliability {
       background: #fff3e0;
       color: #f57c00;
-      font-weight: 600;
-      font-size: 0.9rem;
-      padding: 0.4rem 1rem;
+      font-weight: 500;
+      font-size: 0.875rem;
+      padding: 0.25rem 0.75rem;
     }
 
     .card-overview-ai {
-      background: #f0f9ff;
-      border: 1px solid #bae6fd;
-      border-radius: 8px;
-      padding: 1rem;
-      margin-bottom: 1rem;
+      background: #f8fafc;
+      border-left: 3px solid #007AFF;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
       position: relative;
     }
 
@@ -165,27 +164,42 @@
       align-items: center;
       gap: 0.5rem;
       margin-bottom: 0.5rem;
-      font-size: 0.8rem;
-      color: #0369a1;
+      font-size: 0.75rem;
+      color: #007AFF;
       font-weight: 500;
     }
 
     .overview-ai-icon {
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
     }
 
     .overview-ai-text {
       color: #1d1d1f;
-      line-height: 1.5;
-      font-size: 0.875rem;
+      line-height: 1.4;
+      font-size: 0.8rem;
     }
 
     .card-description {
       color: #86868b;
-      margin-bottom: 1.5rem;
-      line-height: 1.6;
+      margin-bottom: 1rem;
+      line-height: 1.5;
       position: relative;
+    }
+
+    .read-more-link {
+      color: #007AFF;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      margin-left: 0.5rem;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .read-more-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
     }
 
     .ai-label {
@@ -246,7 +260,7 @@
     .card-date {
       color: #86868b;
       font-size: 0.8rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -603,13 +617,15 @@
       const statsDiv = document.getElementById('stats');
       if (allListings.length > 0) {
         const total = allListings.length;
-        const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].length;
-        const avgPrice = Math.round(allListings.reduce((sum, l) => sum + (parseInt(l.price) || 0), 0) / total);
+        const now = new Date();
+        const timeStr = now.toLocaleTimeString('it-IT', {
+          hour: '2-digit',
+          minute: '2-digit'
+        });
         
         statsDiv.innerHTML = `
           <strong>${total}</strong> annunci totali • 
-          <strong>${zones}</strong> zone • 
-          Prezzo medio: <strong>€${avgPrice}</strong>
+          Aggiornato alle <strong>${timeStr}</strong>
         `;
         statsDiv.style.display = 'block';
       }
@@ -676,8 +692,8 @@
 
         // Usa "Descrizione_originale" se disponibile, altrimenti "description", infine "overview"
         const description = l.Descrizione_originale || l.description || l.overview || "";
-        const shortText = description.length > 200 ? description.slice(0, 200) + "..." : description;
-        const isLong = description.length > 200;
+        const shortText = description.length > 150 ? description.slice(0, 150) + "..." : description;
+        const isLong = description.length > 150;
         const isAISummary = !l.Descrizione_originale && !l.description && l.overview; // Solo se non ci sono altri campi descrizione
 
         // Formatta la data e l'ora
@@ -713,8 +729,8 @@
           </div>
           
           <div class="card-meta">
-            <span class="meta-tag zone">Zona: ${l.zone || "N/A"}</span>
             <span class="meta-tag reliability">⭐ ${l.reliability || "N/A"}</span>
+            <span class="meta-tag zone">Zona: ${l.zone || "N/A"}</span>
           </div>
           
           ${l.overview ? `
@@ -731,6 +747,7 @@
           
           <div class="card-description">
             ${shortText}
+            ${isLong ? `<span class="read-more-link">Leggi di più</span>` : ''}
             ${isAISummary ? `
               <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
                 i
@@ -744,7 +761,6 @@
               <a href="${l.link}" target="_blank" class="btn btn-primary">
                 Vedi su Facebook
               </a>
-              ${isLong ? `<button class="btn btn-secondary expand-btn">Leggi di più</button>` : ""}
             </div>
             <div class="card-price">Prezzo: €${l.price || "N/A"}</div>
           </div>
@@ -753,16 +769,32 @@
         container.appendChild(div);
 
         if (isLong) {
-          const expandBtn = div.querySelector(".expand-btn");
+          const readMoreLink = div.querySelector(".read-more-link");
           const descriptionEl = div.querySelector(".card-description");
           
-          expandBtn.addEventListener("click", () => {
-            if (descriptionEl.textContent === shortText) {
-              descriptionEl.textContent = description;
-              expandBtn.textContent = "Comprimi";
+          readMoreLink.addEventListener("click", () => {
+            if (descriptionEl.textContent.includes(shortText)) {
+              descriptionEl.innerHTML = `
+                ${description}
+                <span class="read-more-link">Comprimi</span>
+                ${isAISummary ? `
+                  <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
+                    i
+                    <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
+                  </span>
+                ` : ''}
+              `;
             } else {
-              descriptionEl.textContent = shortText;
-              expandBtn.textContent = "Leggi di più";
+              descriptionEl.innerHTML = `
+                ${shortText}
+                <span class="read-more-link">Leggi di più</span>
+                ${isAISummary ? `
+                  <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
+                    i
+                    <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
+                  </span>
+                ` : ''}
+              `;
             }
           });
         }
