@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2025-08-17T21:15:37.542Z",
-  "count": 41,
+  "generatedAt": "2025-08-17T22:16:37.258Z",
+  "count": 42,
   "results": [
+    {
+      "id": "252b5f64-9329-81f3-ba6f-f5344aa3f4ee",
+      "title": "Affitto camera in centro a Barcellona",
+      "overview": "Affitto camera in centro a Barcellona per persona sola",
+      "description": "Se alquila habitación en pleno centro de Barcelona  L3 Drassane en 450+100 de fianza para persona sola y que le gusten los animales.",
+      "price": "450+100",
+      "zone": "Centro di Barcellona",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "Informazioni sufficienti, foto presente, contatto non specificato",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T22:10:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292822447616931/"
+    },
     {
       "id": "252b5f64-9329-8134-b665-f9c3383945e0",
       "title": "Monolocale in affitto",
