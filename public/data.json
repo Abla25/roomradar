@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2025-08-17T18:20:42.533Z",
-  "count": 36,
+  "generatedAt": "2025-08-17T19:15:12.926Z",
+  "count": 39,
   "results": [
+    {
+      "id": "252b5f64-9329-817d-ba9d-d200d2d04677",
+      "title": "Appartamento vacanziale vicino a Plaza España",
+      "overview": "Appartamento vacanziale disponibile a 30€ al giorno",
+      "description": "APARTAMENTO VACACIONAL CERCA DE PLAZA ESPAÑA 30E POR DÍA",
+      "price": "30€ al giorno",
+      "zone": "Plaza España",
+      "rooms": "Non specificate",
+      "reliability": 4,
+      "reliabilityReason": "Il post è un'offerta di affitto e contiene una foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T19:09:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292644080968101/"
+    },
+    {
+      "id": "252b5f64-9329-8101-a967-dd87d0ac189a",
+      "title": "Appartamento vacanziale vicino a Plaza España",
+      "overview": "Appartamento vacanziale vicino a Plaza España, ideale per agosto",
+      "description": "APARTAMENTO VACACIONAL CERCA DE PLAZA ESPAÑA NO TE QUEDES SIN SINTIO ESTE AGOSTÓ",
+      "price": "non specificato",
+      "zone": "Plaza España",
+      "rooms": "non specificato",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni insufficienti, mancano dettagli sul prezzo e sulle caratteristiche dell'appartamento",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T19:08:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292708800961629/"
+    },
+    {
+      "id": "252b5f64-9329-818c-b3b2-e16492192daa",
+      "title": "Camera ampia in appartamento condiviso",
+      "overview": "Camera ampia in appartamento dúplex, zona Igualada",
+      "description": "Alquilo habitación amplia en piso dúplex acepto parejas con críos ambiente familiar",
+      "price": "non specificato",
+      "zone": "Igualada",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma mancano dettagli sul prezzo e sulle foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-17T19:08:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292713220961187/"
+    },
     {
       "id": "252b5f64-9329-81f4-97c2-e85d4d79ac80",
       "title": "Uomo cerca donna per condivisione appartamento",
