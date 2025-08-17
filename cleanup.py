@@ -1,8 +1,6 @@
-import os
-import requests
-import json
-import time
-from datetime import datetime, timedelta
+# Aggiungi la libreria per pattern URL
+import re
+from urllib.parse import urlparse, parse_qs
 
 # CONFIGURAZIONE
 NOTION_API_KEY = os.environ["NOTION_API_KEY"]
@@ -97,173 +95,179 @@ def get_all_notion_entries():
     print(f"📋 TROVATI {len(all_entries)} annunci con link Facebook nel database")
     return all_entries
 
+# APPROCCI ALTERNATIVI PER CONTROLLARE LINK FACEBOOK
+# 1. Servizi di terze parti
+# 2. Controllo pattern URL
+# 3. Controllo metadata
+
+import re
+from urllib.parse import urlparse, parse_qs
+
 def is_facebook_link_active(url, timeout=15):
     """
-    Controlla se un link Facebook è ancora attivo.
+    Controlla se un link Facebook è ancora attivo usando approcci alternativi.
     Restituisce True se attivo, False se non attivo/eliminato.
     """
-    try:
-        # Aggiungi un session object per persistere i cookies
-        session = requests.Session()
-        session.headers.update(FACEBOOK_HEADERS)
-        
-        # Metodo 1: HEAD request (più veloce, meno dati)
-        head_response = session.head(
-            url, 
-            timeout=timeout,
-            allow_redirects=True
-        )
-        
-        print(f"   📊 Status code ricevuto: {head_response.status_code}")
-        
-        # Codici di stato che indicano chiaramente contenuto non disponibile
-        if head_response.status_code in [404, 403, 410, 451]:
-            print(f"   🔴 Status code {head_response.status_code} - Link sicuramente inattivo")
-            return False
-        
-        # Facebook restituisce 400 per bot detection - proviamo con GET
-        if head_response.status_code == 400:
-            print(f"   🟡 Status 400 (possibile bot detection), provo con GET limitata...")
-            return _check_with_limited_get_session(session, url, timeout)
-        
-        # Se HEAD restituisce 200, probabilmente è attivo
-        if head_response.status_code == 200:
-            # Verifica aggiuntiva: controlla header specifici di Facebook
-            content_type = head_response.headers.get('content-type', '').lower()
-            
-            # Se non è HTML, probabilmente è un redirect o errore
-            if 'text/html' not in content_type:
-                print(f"   🟡 Content-type sospetto: {content_type} - Probabilmente inattivo")
-                return False
-            
-            # Controlla se c'è un redirect verso pagina di errore Facebook
-            final_url = head_response.url
-            error_patterns = [
-                'facebook.com/unsupportedbrowser',
-                'facebook.com/login',
-                'facebook.com/checkpoint',
-                'm.facebook.com/login',
-                'facebook.com/sorry',
-                'facebook.com/error'
-            ]
-            
-            for pattern in error_patterns:
-                if pattern in final_url.lower():
-                    print(f"   🔴 Redirect verso pagina di errore Facebook - Link inattivo")
-                    return False
-            
-            print(f"   🟢 Status 200 + HTML valido - Link attivo")
-            return True
-        
-        # Per altri status code, facciamo una GET limitata
-        if head_response.status_code in [405, 501]:
-            print(f"   🟡 HEAD non supportato (status {head_response.status_code}), provo con GET...")
-            return _check_with_limited_get_session(session, url, timeout)
-        
-        # Status code ambigui (500, 503, ecc.) - consideriamo temporaneamente attivo
-        if head_response.status_code >= 500:
-            print(f"   🟡 Errore server temporaneo (status {head_response.status_code}) - Considero attivo per ora")
-            return True
-        
-        # Altri status code - probabilmente inattivo
-        print(f"   🔴 Status code {head_response.status_code} - Considero inattivo")
+    
+    # APPROCCIO 1: Analisi pattern URL
+    url_validity = _analyze_facebook_url_pattern(url)
+    if url_validity == "invalid":
+        print(f"   🔴 Pattern URL non valido - Link sicuramente inattivo")
         return False
-        
-    except requests.exceptions.Timeout:
-        print(f"   ⏱️ Timeout dopo {timeout}s - Il link potrebbe essere lento ma attivo")
-        return True
-    except requests.exceptions.RequestException as e:
-        print(f"   ⚠️ Errore di rete: {e} - Considero attivo per sicurezza")
-        return True
+    elif url_validity == "suspicious":
+        print(f"   🟡 Pattern URL sospetto - Potrebbe essere inattivo")
+    
+    # APPROCCIO 2: Controllo con servizi esterni
+    external_check = _check_with_external_service(url)
+    if external_check is not None:
+        return external_check
+    
+    # APPROCCIO 3: Controllo leggero con requests (fallback)
+    return _lightweight_facebook_check(url, timeout)
 
-def _check_with_limited_get_session(session, url, timeout=15):
-    """Fallback: fa una GET ma scarica solo i primi KB per verificare il contenuto."""
+def _analyze_facebook_url_pattern(url):
+    """Analizza pattern URL Facebook per identificare link probabilmente inattivi"""
     try:
-        # Aggiungi un delay casuale per sembrare più umano
-        import random
-        time.sleep(random.uniform(1, 3))
+        parsed = urlparse(url)
         
-        response = session.get(
-            url, 
-            timeout=timeout,
-            allow_redirects=True,
-            stream=True
-        )
+        # Controlla se è davvero Facebook
+        if 'facebook.com' not in parsed.netloc.lower():
+            return "invalid"
         
-        print(f"   📊 GET Status code: {response.status_code}")
+        path = parsed.path.lower()
         
-        if response.status_code == 404:
-            print(f"   🔴 GET restituisce 404 - Link definitivamente inattivo")
-            return False
-        
-        if response.status_code == 400:
-            print(f"   🔴 GET restituisce 400 - Facebook blocca le richieste automatiche")
-            print(f"   💡 Suggerimento: Questo link potrebbe essere attivo, ma non verificabile automaticamente")
-            # In caso di 400, consideriamo il link attivo per evitare false eliminazioni
-            return True
-        
-        # Leggi solo i primi 3KB della risposta
-        content_chunk = ""
-        chunk_size = 0
-        max_chunk_size = 3072  # 3KB
-        
-        try:
-            for chunk in response.iter_content(chunk_size=512, decode_unicode=True):
-                if chunk:
-                    content_chunk += chunk
-                    chunk_size += len(chunk)
-                    if chunk_size >= max_chunk_size:
-                        break
-        except UnicodeDecodeError:
-            # Se c'è un errore di encoding, probabilmente è una pagina valida
-            print(f"   🟡 Errore decodifica - probabilmente pagina valida")
-            response.close()
-            return True
-        
-        response.close()
-        
-        # Verifica rapida su questo piccolo chunk
-        content_lower = content_chunk.lower()
-        
-        # Pattern che indicano chiaramente pagina di errore (nei primi 3KB)
-        error_patterns = [
-            '<title>content not available',
-            '<title>contenuto non disponibile',
-            'questo contenuto non è al momento disponibile',
-            'this content isn\'t available right now',
-            'content unavailable',
-            'post not found',
-            'pagina non trovata',
-            'sorry, something went wrong',
-            'page not found',
-            'content isn\'t available'
+        # Pattern di URL che indicano post/gruppi validi
+        valid_patterns = [
+            r'/groups/\d+/posts/\d+',      # Post nei gruppi
+            r'/groups/[^/]+/posts/\d+',    # Post nei gruppi con nome
+            r'/\w+/posts/\d+',             # Post nelle pagine
+            r'/photo\.php\?',               # Foto
+            r'/events/\d+',                 # Eventi
+            r'/marketplace/item/\d+',       # Marketplace
         ]
         
-        for pattern in error_patterns:
-            if pattern in content_lower:
-                print(f"   🔴 Trovato messaggio di errore nella pagina - Link inattivo")
-                return False
-        
-        # Controlla se è una pagina di login/errore di Facebook
-        facebook_error_patterns = [
-            'facebook.com/login',
-            'log in to facebook',
-            'accedi a facebook',
-            'create account',
-            'crea account'
+        # Pattern sospetti o non validi
+        invalid_patterns = [
+            r'/login',
+            r'/checkpoint',
+            r'/error',
+            r'/sorry',
+            r'/unsupportedbrowser',
+            r'/help/',
         ]
         
-        for pattern in facebook_error_patterns:
-            if pattern in content_lower:
-                print(f"   🔴 Redirect verso login Facebook - Link probabilmente inattivo")
-                return False
+        # Controlla pattern non validi
+        for pattern in invalid_patterns:
+            if re.search(pattern, path):
+                return "invalid"
         
-        print(f"   🟢 Nessun messaggio di errore trovato - Link sembra attivo")
-        return True
+        # Controlla pattern validi
+        has_valid_pattern = any(re.search(pattern, path) for pattern in valid_patterns)
+        
+        # Controlla se l'ID del post sembra troppo vecchio o malformato
+        post_id_match = re.search(r'/posts/(\d+)', path)
+        if post_id_match:
+            post_id = post_id_match.group(1)
+            # ID molto corti o molto lunghi sono sospetti
+            if len(post_id) < 10 or len(post_id) > 20:
+                print(f"   🟡 ID post sospetto: {post_id} (lunghezza: {len(post_id)})")
+                return "suspicious"
+        
+        return "valid" if has_valid_pattern else "unknown"
         
     except Exception as e:
-        print(f"   ⚠️ Errore GET limitata: {e} - Considero attivo per sicurezza")
+        print(f"   ⚠️ Errore analisi URL pattern: {e}")
+        return "unknown"
+
+def _check_with_external_service(url):
+    """Usa servizi esterni per verificare la validità del link"""
+    try:
+        # SERVIZIO 1: URLVoid API (gratis con limiti)
+        # Nota: Questo è solo un esempio, dovrai registrarti per ottenere una API key
+        
+        # SERVIZIO 2: Link checker generico
+        checker_url = "https://httpstatus.io/"
+        
+        # Per ora, saltiamo i servizi esterni per evitare dipendenze
+        # In futuro potresti integrare servizi come:
+        # - URLVoid
+        # - Pingdom
+        # - GTmetrix
+        # - WebPageTest
+        
+        return None  # Nessun controllo esterno per ora
+        
+    except Exception as e:
+        print(f"   ⚠️ Errore servizio esterno: {e}")
+        return None
+
+def _lightweight_facebook_check(url, timeout=10):
+    """
+    Controllo molto leggero che cerca di minimizzare la detection di Facebook.
+    Usa tecniche meno aggressive.
+    """
+    try:
+        print(f"   🔍 Tentativo controllo leggero...")
+        
+        # Headers minimalisti - sembrano meno un bot
+        minimal_headers = {
+            'User-Agent': 'curl/7.68.0',  # Spesso curl è meno bloccato
+            'Accept': '*/*',
+        }
+        
+        # Prima prova: solo HEAD con timeout molto basso
+        response = requests.head(
+            url,
+            headers=minimal_headers,
+            timeout=5,  # Timeout basso
+            allow_redirects=False  # Non seguire redirect
+        )
+        
+        print(f"   📊 Status HEAD (senza redirect): {response.status_code}")
+        
+        # Analizza solo il primo status code
+        if response.status_code == 200:
+            print(f"   🟢 Status 200 diretto - Link probabilmente attivo")
+            return True
+        elif response.status_code in [301, 302, 303, 307, 308]:
+            # È un redirect, segui UNA volta
+            location = response.headers.get('location', '')
+            if location:
+                print(f"   🔄 Redirect verso: {location[:100]}...")
+                
+                # Controlla se il redirect va verso pagine di errore
+                error_indicators = [
+                    'login', 'checkpoint', 'error', 'sorry', 
+                    'unsupportedbrowser', 'help'
+                ]
+                
+                if any(indicator in location.lower() for indicator in error_indicators):
+                    print(f"   🔴 Redirect verso pagina di errore - Link inattivo")
+                    return False
+                else:
+                    print(f"   🟡 Redirect normale - Link probabilmente attivo")
+                    return True
+        elif response.status_code == 404:
+            print(f"   🔴 Status 404 - Link definitivamente inattivo")
+            return False
+        elif response.status_code == 403:
+            print(f"   🔴 Status 403 - Accesso negato, link probabilmente inattivo")
+            return False
+        else:
+            print(f"   🟡 Status {response.status_code} - Stato ambiguo, considero attivo")
+            return True
+            
+    except requests.exceptions.Timeout:
+        print(f"   ⏱️ Timeout rapido - Il server risponde lentamente, considero attivo")
         return True
+    except requests.exceptions.ConnectionError:
+        print(f"   🔴 Errore connessione - Possibile link inattivo")
+        return False
+    except Exception as e:
+        print(f"   ⚠️ Errore generico: {e} - Considero attivo per sicurezza")
+        return True
+
+# Rimuovi le vecchie funzioni non più usate
 
 def delete_notion_page(page_id):
     """Elimina una pagina dal database Notion archiviandola."""
