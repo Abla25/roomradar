@@ -120,9 +120,40 @@
       border: 1px solid #e5e5e7;
     }
 
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .filter-group label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #1d1d1f;
+      margin-bottom: 0.5rem;
+    }
+
+    .filter-group input,
+    .filter-group select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #d1d1d6;
+      border-radius: 8px;
+      background: #ffffff;
+      font-size: 0.875rem;
+      font-family: inherit;
+      transition: border-color 0.2s ease;
+    }
+
+    .filter-group input:focus,
+    .filter-group select:focus {
+      outline: none;
+      border-color: #007AFF;
+    }
+
     .filter-row {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(4, 1fr);
       gap: 1.5rem;
       align-items: end;
       margin-bottom: 1.5rem;
@@ -798,6 +829,12 @@
     .pagination-btn.active:hover {
       background: #0056b3;
       border-color: #0056b3;
+    }
+
+    @media (max-width: 1200px) {
+      .filter-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     @media (max-width: 768px) {
