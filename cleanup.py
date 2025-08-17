@@ -17,14 +17,24 @@ HEADERS_NOTION = {
     "Notion-Version": "2022-06-28"
 }
 
-# Headers per simulare un browser normale
+# Headers per simulare un browser reale più moderno
 FACEBOOK_HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3',
-    'Accept-Encoding': 'gzip, deflate',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'Accept-Language': 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Accept-Encoding': 'gzip, deflate, br',
     'Connection': 'keep-alive',
     'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Cache-Control': 'max-age=0',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'DNT': '1',
+    'Referer': 'https://www.google.com/',
 }
 
 def get_all_notion_entries():
@@ -87,24 +97,34 @@ def get_all_notion_entries():
     print(f"📋 TROVATI {len(all_entries)} annunci con link Facebook nel database")
     return all_entries
 
-def is_facebook_link_active(url, timeout=10):
+def is_facebook_link_active(url, timeout=15):
     """
     Controlla se un link Facebook è ancora attivo.
     Restituisce True se attivo, False se non attivo/eliminato.
     """
     try:
+        # Aggiungi un session object per persistere i cookies
+        session = requests.Session()
+        session.headers.update(FACEBOOK_HEADERS)
+        
         # Metodo 1: HEAD request (più veloce, meno dati)
-        head_response = requests.head(
+        head_response = session.head(
             url, 
-            headers=FACEBOOK_HEADERS, 
             timeout=timeout,
             allow_redirects=True
         )
+        
+        print(f"   📊 Status code ricevuto: {head_response.status_code}")
         
         # Codici di stato che indicano chiaramente contenuto non disponibile
         if head_response.status_code in [404, 403, 410, 451]:
             print(f"   🔴 Status code {head_response.status_code} - Link sicuramente inattivo")
             return False
+        
+        # Facebook restituisce 400 per bot detection - proviamo con GET
+        if head_response.status_code == 400:
+            print(f"   🟡 Status 400 (possibile bot detection), provo con GET limitata...")
+            return _check_with_limited_get_session(session, url, timeout)
         
         # Se HEAD restituisce 200, probabilmente è attivo
         if head_response.status_code == 200:
@@ -122,7 +142,9 @@ def is_facebook_link_active(url, timeout=10):
                 'facebook.com/unsupportedbrowser',
                 'facebook.com/login',
                 'facebook.com/checkpoint',
-                'm.facebook.com/login'
+                'm.facebook.com/login',
+                'facebook.com/sorry',
+                'facebook.com/error'
             ]
             
             for pattern in error_patterns:
@@ -136,7 +158,7 @@ def is_facebook_link_active(url, timeout=10):
         # Per altri status code, facciamo una GET limitata
         if head_response.status_code in [405, 501]:
             print(f"   🟡 HEAD non supportato (status {head_response.status_code}), provo con GET...")
-            return _check_with_limited_get(url, timeout)
+            return _check_with_limited_get_session(session, url, timeout)
         
         # Status code ambigui (500, 503, ecc.) - consideriamo temporaneamente attivo
         if head_response.status_code >= 500:
@@ -148,43 +170,62 @@ def is_facebook_link_active(url, timeout=10):
         return False
         
     except requests.exceptions.Timeout:
-        print(f"   ⏱️ Timeout - Il link potrebbe essere lento ma attivo")
+        print(f"   ⏱️ Timeout dopo {timeout}s - Il link potrebbe essere lento ma attivo")
         return True
     except requests.exceptions.RequestException as e:
         print(f"   ⚠️ Errore di rete: {e} - Considero attivo per sicurezza")
         return True
 
-def _check_with_limited_get(url, timeout=10):
+def _check_with_limited_get_session(session, url, timeout=15):
     """Fallback: fa una GET ma scarica solo i primi KB per verificare il contenuto."""
     try:
-        response = requests.get(
+        # Aggiungi un delay casuale per sembrare più umano
+        import random
+        time.sleep(random.uniform(1, 3))
+        
+        response = session.get(
             url, 
-            headers=FACEBOOK_HEADERS, 
             timeout=timeout,
             allow_redirects=True,
             stream=True
         )
         
+        print(f"   📊 GET Status code: {response.status_code}")
+        
         if response.status_code == 404:
             print(f"   🔴 GET restituisce 404 - Link definitivamente inattivo")
             return False
         
-        # Leggi solo i primi 2KB della risposta
+        if response.status_code == 400:
+            print(f"   🔴 GET restituisce 400 - Facebook blocca le richieste automatiche")
+            print(f"   💡 Suggerimento: Questo link potrebbe essere attivo, ma non verificabile automaticamente")
+            # In caso di 400, consideriamo il link attivo per evitare false eliminazioni
+            return True
+        
+        # Leggi solo i primi 3KB della risposta
         content_chunk = ""
         chunk_size = 0
-        max_chunk_size = 2048
+        max_chunk_size = 3072  # 3KB
         
-        for chunk in response.iter_content(chunk_size=512, decode_unicode=True):
-            if chunk:
-                content_chunk += chunk
-                chunk_size += len(chunk)
-                if chunk_size >= max_chunk_size:
-                    break
+        try:
+            for chunk in response.iter_content(chunk_size=512, decode_unicode=True):
+                if chunk:
+                    content_chunk += chunk
+                    chunk_size += len(chunk)
+                    if chunk_size >= max_chunk_size:
+                        break
+        except UnicodeDecodeError:
+            # Se c'è un errore di encoding, probabilmente è una pagina valida
+            print(f"   🟡 Errore decodifica - probabilmente pagina valida")
+            response.close()
+            return True
         
         response.close()
         
         # Verifica rapida su questo piccolo chunk
         content_lower = content_chunk.lower()
+        
+        # Pattern che indicano chiaramente pagina di errore (nei primi 3KB)
         error_patterns = [
             '<title>content not available',
             '<title>contenuto non disponibile',
@@ -192,12 +233,29 @@ def _check_with_limited_get(url, timeout=10):
             'this content isn\'t available right now',
             'content unavailable',
             'post not found',
-            'pagina non trovata'
+            'pagina non trovata',
+            'sorry, something went wrong',
+            'page not found',
+            'content isn\'t available'
         ]
         
         for pattern in error_patterns:
             if pattern in content_lower:
                 print(f"   🔴 Trovato messaggio di errore nella pagina - Link inattivo")
+                return False
+        
+        # Controlla se è una pagina di login/errore di Facebook
+        facebook_error_patterns = [
+            'facebook.com/login',
+            'log in to facebook',
+            'accedi a facebook',
+            'create account',
+            'crea account'
+        ]
+        
+        for pattern in facebook_error_patterns:
+            if pattern in content_lower:
+                print(f"   🔴 Redirect verso login Facebook - Link probabilmente inattivo")
                 return False
         
         print(f"   🟢 Nessun messaggio di errore trovato - Link sembra attivo")
@@ -260,10 +318,11 @@ def main():
             active_count += 1
             print(f"   ✅ RISULTATO: LINK ATTIVO - Mantieni")
         
-        # Pausa per non sovraccaricare Facebook
+        # Pausa per non sovraccaricare Facebook (aumentata)
         if i < len(entries) - 1:
-            print("   ⏳ Pausa 3 secondi...")
-            time.sleep(3)
+            delay = 5 + (i % 3)  # Delay variabile tra 5-7 secondi
+            print(f"   ⏳ Pausa {delay} secondi per evitare rate limiting...")
+            time.sleep(delay)
     
     print("\n" + "=" * 60)
     print("📊 RIEPILOGO FINALE:")
