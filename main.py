@@ -128,6 +128,17 @@ def similarity_score(a: str, b: str) -> float:
         return 0.0
     return fuzz.token_set_ratio(a_norm, b_norm) / 100.0
 
+def safe_number(value):
+    if value is None:
+        return None
+    try:
+        text = str(value).strip()
+        if text == "":
+            return None
+        return float(text)
+    except Exception:
+        return None
+
 def get_existing_pages():
     """Recupera pagine esistenti con campi utili per il confronto duplicati."""
     pages = []
@@ -258,19 +269,28 @@ def parse_llm_json(raw_text, retries=3):
 
 def send_to_notion(data):
     """Invia i dati a Notion. Restituisce l'ID pagina se creato, altrimenti None."""
+    titolo = data.get("Titolo_parafrasato", "")
+    overview = data.get("Overview", "")
+    descr = data.get("Descrizione_originale", "")
+    prezzo = data.get("Prezzo", "")
+    zona = data.get("Zona", "")
+    camere = data.get("Camere", "")
+    affidabilita = safe_number(data.get("Affidabilita"))
+    motivo = data.get("Motivo_Rating", "")
+    link_url = data.get("link", "")
     payload = {
         "parent": {"database_id": NOTION_DATABASE_ID},
         "properties": {
-            "Titolo_parafrasato": {"title": [{"text": {"content": data["Titolo_parafrasato"]}}]},
-            "Overview": {"rich_text": [{"text": {"content": data["Overview"]}}]},
-            "Descrizione_originale": {"rich_text": [{"text": {"content": data["Descrizione_originale"]}}]},
-            "Prezzo": {"rich_text": [{"text": {"content": data["Prezzo"]}}]},
-            "Zona": {"rich_text": [{"text": {"content": data["Zona"]}}]},
-            "Camere": {"rich_text": [{"text": {"content": data["Camere"]}}]},
-            "Affidabilita": {"number": float(data["Affidabilita"]) if data["Affidabilita"] else None},
-            "Motivo_Rating": {"rich_text": [{"text": {"content": data["Motivo_Rating"]}}]},
+            "Titolo_parafrasato": {"title": [{"text": {"content": titolo}}]},
+            "Overview": {"rich_text": [{"text": {"content": overview}}]},
+            "Descrizione_originale": {"rich_text": [{"text": {"content": descr}}]},
+            "Prezzo": {"rich_text": [{"text": {"content": prezzo}}]},
+            "Zona": {"rich_text": [{"text": {"content": zona}}]},
+            "Camere": {"rich_text": [{"text": {"content": camere}}]},
+            "Affidabilita": {"number": affidabilita},
+            "Motivo_Rating": {"rich_text": [{"text": {"content": motivo}}]},
             "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
-            "Link": {"url": data.get("link", "")},
+            "Link": {"url": link_url},
             "Status": {"status": {"name": "Attivo"}}
         }
     }
