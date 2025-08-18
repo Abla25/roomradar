@@ -17,21 +17,40 @@ MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free"
 # Configurazione RSS URLs - Supporto per multiple feed
 RSS_URLS = []
 
+print("🔍 Debug: Controllo secrets disponibili...")
+print(f"🔍 Debug: RSS_URL presente: {'RSS_URL' in os.environ}")
+print(f"🔍 Debug: RSS_URL_1 presente: {'RSS_URL_1' in os.environ}")
+print(f"🔍 Debug: RSS_URL_2 presente: {'RSS_URL_2' in os.environ}")
+print(f"🔍 Debug: RSS_URL_3 presente: {'RSS_URL_3' in os.environ}")
+
 # Cerca RSS_URL_1, RSS_URL_2, RSS_URL_3, etc.
 i = 1
 while f"RSS_URL_{i}" in os.environ:
     url = os.environ[f"RSS_URL_{i}"]
+    print(f"🔍 Debug: Trovato RSS_URL_{i}: '{url}'")
     if url and url.strip():  # Verifica che l'URL non sia vuoto
         RSS_URLS.append(url.strip())
+        print(f"✅ Aggiunto RSS_URL_{i}: {url.strip()}")
+    else:
+        print(f"⚠️ RSS_URL_{i} è vuoto o contiene solo spazi")
     i += 1
 
 # Fallback per compatibilità con il formato legacy (singolo URL)
 if not RSS_URLS and "RSS_URL" in os.environ:
     url = os.environ["RSS_URL"]
+    print(f"🔍 Debug: Trovato RSS_URL: '{url}'")
     if url and url.strip():
         RSS_URLS.append(url.strip())
+        print(f"✅ Aggiunto RSS_URL: {url.strip()}")
+    else:
+        print(f"⚠️ RSS_URL è vuoto o contiene solo spazi")
 
 if not RSS_URLS:
+    print("❌ Nessun RSS URL valido trovato nei secrets")
+    print("🔍 Debug: Tutte le variabili d'ambiente che iniziano con RSS_URL:")
+    for key, value in os.environ.items():
+        if key.startswith("RSS_URL"):
+            print(f"  {key}: '{value}'")
     raise ValueError("❌ Nessun RSS URL configurato. Definisci RSS_URL_1, RSS_URL_2, RSS_URL_3, etc. o RSS_URL (singolo).")
 
 print(f"📡 Configurati {len(RSS_URLS)} feed RSS:")
