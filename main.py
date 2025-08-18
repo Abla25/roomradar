@@ -20,8 +20,20 @@ CACHE_FILE = "rejected_urls_cache.json"
 CACHE_CLEANUP_HOURS = 48
 MAX_CACHE_SIZE = 1000  # Massimo numero di URL in cache
 
+# Cache in memoria per performance
+_cache_data = None
+_cache_last_load = None
+
 def load_rejected_cache():
     """Carica la cache degli URL scartati dall'AI con TTL individuale."""
+    global _cache_data, _cache_last_load
+    
+    # Controlla se il file è stato modificato
+    if os.path.exists(CACHE_FILE):
+        file_mtime = os.path.getmtime(CACHE_FILE)
+        if _cache_data is not None and _cache_last_load == file_mtime:
+            return _cache_data  # Usa cache in memoria
+    
     if os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
@@ -42,20 +54,31 @@ def load_rejected_cache():
                 if expired_urls:
                     print(f"🗑️ Rimossi {len(expired_urls)} URL scaduti dalla cache (TTL {CACHE_CLEANUP_HOURS}h)")
                 
-                return {
+                _cache_data = {
                     'urls': cleaned_urls,
                     'timestamp': current_time.isoformat()
                 }
+                _cache_last_load = file_mtime
+                return _cache_data
         except Exception as e:
             print(f"⚠️ Errore caricamento cache: {e}")
     
-    return {'urls': {}, 'timestamp': datetime.now().isoformat()}
+    _cache_data = {'urls': {}, 'timestamp': datetime.now().isoformat()}
+    _cache_last_load = None
+    return _cache_data
 
 def save_rejected_cache(cache_data):
     """Salva la cache degli URL scartati dall'AI."""
+    global _cache_data, _cache_last_load
+    
     try:
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
             json.dump(cache_data, f, ensure_ascii=False, indent=2)
+        
+        # Aggiorna cache in memoria
+        _cache_data = cache_data
+        _cache_last_load = os.path.getmtime(CACHE_FILE) if os.path.exists(CACHE_FILE) else None
+        
         print(f"💾 Cache salvata in: {os.path.abspath(CACHE_FILE)}")
         print(f"📊 URL in cache: {len(cache_data['urls'])}")
     except Exception as e:
@@ -69,13 +92,13 @@ def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
     # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
     if len(cache_data['urls']) >= MAX_CACHE_SIZE:
         print(f"🗑️ Cache piena ({MAX_CACHE_SIZE} URL), rimozione URL più vecchi (FIFO)...")
-        # Ordina per timestamp (più vecchi prima) e rimuovi il 60% più vecchio
+        # Ordina per timestamp (più vecchi prima) e rimuovi il 50% più vecchio
         sorted_urls = sorted(cache_data['urls'].items(), 
                            key=lambda x: x[1]['timestamp'])
-        # Rimuovi il 60% più vecchio per fare spazio
-        remove_count = int(MAX_CACHE_SIZE * 0.6)  # 60% del limite
+        # Rimuovi il 50% più vecchio per fare spazio (corretto)
+        remove_count = int(MAX_CACHE_SIZE * 0.5)  # 50% del limite
         cache_data['urls'] = dict(sorted_urls[remove_count:])
-        print(f"🗑️ Rimossi {remove_count} URL più vecchi (FIFO - 60%)")
+        print(f"🗑️ Rimossi {remove_count} URL più vecchi (FIFO - 50%)")
     
     cache_data['urls'][url] = {
         'reason': reason,

@@ -1,5 +1,5 @@
 # Cache degli URL scartati dall'AI
-# rejected_urls_cache.json (COMMENTATO PER PERSISTENZA)
+rejected_urls_cache.json
 
 # Python
 __pycache__/

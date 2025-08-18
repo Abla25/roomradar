@@ -51,5 +51,9 @@ jobs:
       - name: Commit e push se ci sono cambiamenti
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: aggiorna public/data.json"
-          file_pattern: public/data.json
+          commit_message: "chore: aggiorna public/data.json e cache"
+          file_pattern: |
+            public/data.json
+            rejected_urls_cache.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'

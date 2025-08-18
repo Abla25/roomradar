@@ -1407,7 +1407,8 @@
           const readMoreLink = div.querySelector(".read-more-link");
           const descriptionEl = div.querySelector(".card-description");
           
-          readMoreLink.addEventListener("click", () => {
+          if (readMoreLink && descriptionEl) {
+            readMoreLink.addEventListener("click", () => {
             if (descriptionEl.textContent.includes(shortText)) {
               descriptionEl.innerHTML = `
                 ${description}
@@ -1432,6 +1433,7 @@
               `;
             }
           });
+            }
         }
       });
       
