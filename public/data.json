@@ -1,7 +1,103 @@
 {
-  "generatedAt": "2025-08-18T23:00:01.114Z",
-  "count": 62,
+  "generatedAt": "2025-08-18T23:43:13.229Z",
+  "count": 68,
   "results": [
+    {
+      "id": "253b5f64-9329-812e-86ee-ce71a762da32",
+      "title": "Affitto due camere in appartamento luminoso e tranquillo",
+      "overview": "Due camere in appartamento ristrutturato a Barcellona",
+      "description": "Alquilo 2 habitaciones en un piso luminoso y tranquilo, reformado a estrenar, con servicios incluidos, solo adultos, hay una habitación doble o de matrimonio con ventanal a la calle, y una habitación individual , precio 450€en Can Baró- Guinardó, bus 24, y 114 en la puerta, disponible desde ya se puede visitar, 617452813",
+      "price": "450€",
+      "zone": "Can Baró- Guinardó",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Presenti foto e informazioni dettagliate, sembra un annuncio affidabile",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:42:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4008811789448447/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-819c-b4d4-fa1c04ab19b6",
+      "title": "Affitto camera a Sant Boi Llobregat",
+      "overview": "Una coppia con un bambino di 1 anno e mezzo affitta una camera a Sant Boi Llobregat",
+      "description": "Rentamos habitacion..en sant boi llobregat...somos pareja con niño de 1 año y medio ..precio 300 buena convivencia ..",
+      "price": "300",
+      "zone": "Sant Boi Llobregat",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma senza foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010974962565463/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-81ef-bfc2-ed232ee947c0",
+      "title": "Stanza singola o per coppia a Barcelona",
+      "overview": "Stanza singola o per coppia a Barcelona, requisiti semplici",
+      "description": "¡Habitaciones individuales y para parejas en Barcelona! 🛏️ ⭐\n\nRequisitos sencillos para entrar a vivir, ¡sin trámites complicados!\n\nPara info sobre las habitaciones disponibles, escribir por privado.",
+      "price": "N/A",
+      "zone": "Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Annuncio con foto e informazioni chiare",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011467165849576/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-81c1-b3cb-ca714411db6d",
+      "title": "Habitación en alquiler en El Carmel",
+      "overview": "",
+      "description": "¡Habitación en alquiler en El Carmel – A solo 4 min del metro! \n\nUbicación:\nEn el barrio de El Carmel, a 4 minutos andando del metro (Línea Azul – L5). Zona tranquila y segura, rodeada de supermercados, fruterías, tiendas y todo lo que necesitas a pocos pasos.\n\nLa habitación:\nVentana al interior, amueblada ( cama está por llegar 90x190) ideal para descansar y tener tu propio espacio. El piso está completamente equipado, con Wi-Fi, lavadora, cocina funcional y baño compartido.\n\nBusco:\nPreferiblemente chico, persona tranquila, educada y con trabajo estable, para compartir un ambiente relajado y respetuoso, ambiente gayfriendly\n\nDisponible desde: 20 de agosto\n\nSi te interesa, escríbeme contándome un poco sobre ti. ¡Me encantará conocerte!",
+      "price": "N/A",
+      "zone": "El Carmel",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "Informazioni sufficienti, presenza di foto, contatti disponibili",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067325435572988/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-8199-b210-c9dc62100004",
+      "title": "Stanza in affitto a 390 euro al mese",
+      "overview": "Stanza in affitto in un appartamento condiviso",
+      "description": "Habitación en alquiler 390 mes. Piso a compartir con 1 persona y dos gatitos adorables y tranquilos. Zona Carmel entre dos parques. Para entrar en septiembre",
+      "price": "390",
+      "zone": "Carmel",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma senza foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067817135523818/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-81b4-b235-c4339a9b6706",
+      "title": "Habitación in affitto a Barcelona",
+      "overview": "Habitación in affitto a Barcelona per persona sola",
+      "description": "Se alquila habitación 400€ para persona sola  Mujer a compartir con dos chicas mas  para empezar mes En besos Barcelona",
+      "price": "400€",
+      "zone": "Barcelona",
+      "zoneMacro": "Sant Martí",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "Il prezzo è mensile, ma non ci sono informazioni sulle foto o sui contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T23:15:00.000+02:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067863662185832/",
+      "status": "Attivo"
+    },
     {
       "id": "253b5f64-9329-8147-b1b3-f76c37c2e794",
       "title": "Affitto camera a Badalona",
@@ -94,7 +190,7 @@
       "reliability": 4,
       "reliabilityReason": "Presenza di foto e informazioni dettagliate, contatti diretti con il proprietario",
       "datePublished": "",
-      "dateAdded": "2025-08-18T22:55:00.000+00:00",
+      "dateAdded": "2025-08-18T22:55:00.000+02:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010844369245189/",
       "status": "Attivo"
     },
@@ -160,7 +256,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294000887499087/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-819b-b7f5-e2bddfd60d11",
@@ -800,7 +896,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291201627779013/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-81f9-a447-d5beb797c4ab",
