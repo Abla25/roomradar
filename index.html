@@ -1409,31 +1409,19 @@
           
           if (readMoreLink && descriptionEl) {
             readMoreLink.addEventListener("click", () => {
-            if (descriptionEl.textContent.includes(shortText)) {
-              descriptionEl.innerHTML = `
-                ${description}
-                <span class="read-more-link">Comprimi</span>
-                ${isAISummary ? `
-                  <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
-                    i
-                    <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
-                  </span>
-                ` : ''}
-              `;
-            } else {
-              descriptionEl.innerHTML = `
-                ${shortText}
-                <span class="read-more-link">Leggi di più</span>
-                ${isAISummary ? `
-                  <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
-                    i
-                    <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
-                  </span>
-                ` : ''}
-              `;
-            }
-          });
-            }
+              if (descriptionEl.textContent.includes(shortText)) {
+                descriptionEl.innerHTML = `
+                  ${description}
+                  ${isAISummary ? `
+                    <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
+                      i
+                      <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
+                    </span>
+                  ` : ''}
+                `;
+              }
+            });
+          }
         }
       });
       

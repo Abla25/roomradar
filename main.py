@@ -87,6 +87,9 @@ def save_rejected_cache(cache_data):
 def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
     """Aggiunge un URL alla cache degli scartati con logica FIFO."""
     print(f"🔄 Aggiungendo URL alla cache: {url} (motivo: {reason})")
+    print(f"📁 Directory corrente: {os.getcwd()}")
+    print(f"📁 File cache: {os.path.abspath(CACHE_FILE)}")
+    
     cache_data = load_rejected_cache()
     
     # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
@@ -105,6 +108,13 @@ def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
         'timestamp': datetime.now().isoformat()
     }
     save_rejected_cache(cache_data)
+    
+    # Verifica immediata che il file sia stato creato
+    if os.path.exists(CACHE_FILE):
+        file_size = os.path.getsize(CACHE_FILE)
+        print(f"✅ Verifica: File cache creato con successo ({file_size} bytes)")
+    else:
+        print(f"❌ ERRORE: File cache NON trovato dopo il salvataggio!")
 
 def is_url_rejected(url):
     """Controlla se un URL è nella cache degli scartati."""
@@ -636,6 +646,21 @@ def call_openrouter(posts_batch, max_retries=3):
 
 def process_rss():
     """Scarica e processa i post RSS da multiple feed."""
+    # Debug iniziale per la cache
+    print(f"🔍 DEBUG CACHE: Directory corrente: {os.getcwd()}")
+    print(f"🔍 DEBUG CACHE: File cache atteso: {os.path.abspath(CACHE_FILE)}")
+    print(f"🔍 DEBUG CACHE: File cache esiste: {os.path.exists(CACHE_FILE)}")
+    if os.path.exists(CACHE_FILE):
+        file_size = os.path.getsize(CACHE_FILE)
+        print(f"🔍 DEBUG CACHE: Dimensione file: {file_size} bytes")
+    
+    # Inizializza sempre la cache (crea file vuoto se non esiste)
+    print("🔧 Inizializzazione cache...")
+    initial_cache = load_rejected_cache()
+    if not os.path.exists(CACHE_FILE):
+        save_rejected_cache(initial_cache)
+        print(f"✅ File cache inizializzato: {os.path.abspath(CACHE_FILE)}")
+    
     # Recupera i link esistenti all'inizio
     existing_links = get_existing_links()
     
@@ -645,8 +670,20 @@ def process_rss():
     if cache_count > 0:
         print(f"   📊 Età media: {avg_age:.1f}h, Più vecchio: {oldest_age:.1f}h")
     
+    # Carica pagine esistenti UNA SOLA VOLTA per tutti i feed
+    print("📋 Caricamento pagine esistenti per deduplicazione...")
+    existing_pages = get_existing_pages()
+    active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
+    print(f"📋 Caricate {len(active_pages)} pagine attive per deduplicazione")
+    
+    # Lista dinamica per i nuovi post aggiunti (per deduplicazione intra-batch)
+    newly_added_pages = []
+    
     total_new_posts = 0
     total_rejected = 0
+    
+    # Raccoglie i post aggiunti per eventuale fallback AI macro-zone (GLOBALE)
+    all_added_posts_for_ai = []
     
     for i, rss_url in enumerate(RSS_URLS, 1):
         print(f"\n📡 Processando feed RSS {i}/{len(RSS_URLS)}: {rss_url}")
@@ -694,8 +731,6 @@ def process_rss():
         batch_size = MAX_BATCH
         idx = 0
         new_posts_added = 0
-        # Raccoglie i post aggiunti per eventuale fallback AI macro-zone
-        added_posts_for_ai = []
         
         while idx < len(posts):
             current_batch = posts[idx: idx + batch_size]
@@ -728,9 +763,8 @@ def process_rss():
 
             # Se parsed è una lista di risultati
             if isinstance(parsed, list):
-                # Carica pagine esistenti (non "Scaduto") una volta per batch
-                existing_pages = get_existing_pages()
-                active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
+                # Combina pagine esistenti + nuove pagine aggiunte per deduplicazione completa
+                all_active_pages = active_pages + newly_added_pages
 
                 for post_data, original_post in zip(parsed, current_batch):
                     if post_data.get("annuncio_rilevante") == "SI":
@@ -738,7 +772,7 @@ def process_rss():
 
                         # 1) dedupe intra-batch semplice: usa la descrizione
                         new_descr = post_data.get("Descrizione_originale", "")
-                        best_page, best_score = find_best_duplicate(active_pages, new_descr)
+                        best_page, best_score = find_best_duplicate(all_active_pages, new_descr)
 
                         if best_page and best_score >= HIGH_DUP_THRESHOLD:
                             # Trovato duplicato forte: manteniamo quello più recente
@@ -766,10 +800,24 @@ def process_rss():
                                 # In assenza di created_time della nuova pagina, consideriamo best_page come quello vecchio
                                 mark_status_scaduto(old_page_id)
                                 # Aggiorna cache in RAM per non riproporlo
-                                for p in active_pages:
+                                for p in all_active_pages:
                                     if p.get("id") == old_page_id:
                                         p["Status"] = "Scaduto"
                                         break
+                                
+                                # Aggiungi la nuova pagina alla lista per deduplicazione futura
+                                new_page_data = {
+                                    "id": new_page_id,
+                                    "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                    "Titolo_parafrasato": new_item.get("Titolo_parafrasato", ""),
+                                    "Descrizione_originale": new_item.get("Descrizione_originale", ""),
+                                    "Prezzo": new_item.get("Prezzo", ""),
+                                    "Zona": new_item.get("Zona", ""),
+                                    "Zona_macro": new_item.get("Zona_macro", ""),
+                                    "Status": "",
+                                    "Link": new_item.get("link", "")
+                                }
+                                newly_added_pages.append(new_page_data)
                                 new_posts_added += 1
                             else:
                                 print("⚠️ Creazione nuova pagina fallita, skip marcatura duplicati")
@@ -790,12 +838,12 @@ def process_rss():
                                 if zona_macro:
                                     print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
                                 if zona and not zona_macro:
-                                    added_posts_for_ai.append({
+                                    all_added_posts_for_ai.append({
                                         "page_id": page_id,
                                         "zona": zona
                                     })
                                 # Aggiungi alla lista per confronti successivi in questo batch
-                                active_pages.append({
+                                new_page_data = {
                                     "id": page_id,
                                     "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
                                     "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
@@ -805,11 +853,13 @@ def process_rss():
                                     "Zona_macro": zona_macro,
                                     "Status": "",
                                     "Link": post_data.get("link", "")
-                                })
+                                }
+                                newly_added_pages.append(new_page_data)
                             else:
                                 print("⚠️ Creazione pagina fallita")
                     else:
                         print(f"❌ Post non rilevante: {original_post['title']}")
+                        print(f"🔗 URL scartato: {original_post['link']}")
                         # Aggiungi alla cache degli scartati
                         add_to_rejected_cache(original_post['link'], "AI_NOT_RELEVANT")
                         total_rejected += 1
@@ -822,28 +872,28 @@ def process_rss():
             print(f"⏳ Attendo {INITIAL_BACKOFF_SECONDS} secondi prima del prossimo batch...")
             time.sleep(INITIAL_BACKOFF_SECONDS)
 
-        # Fallback AI: per i soli post aggiunti con Zona presente ma senza Zona_macro dedotta
-        if added_posts_for_ai:
-            print(f"🧠 Fallback AI macro-zone per {len(added_posts_for_ai)} nuovi annunci senza Zona_macro (feed {i})…")
-            for item in added_posts_for_ai:
-                page_id = item["page_id"]
-                zona_txt = item["zona"]
-                ai_macro = ai_macro_zone_from_zone(zona_txt)
-                if ai_macro:
-                    # aggiorna la pagina Notion con Zona_macro
-                    try:
-                        url = f"https://api.notion.com/v1/pages/{page_id}"
-                        payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
-                        r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
-                        if r.status_code == 200:
-                            print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
-                        else:
-                            print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
-                    except Exception as e:
-                        print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
-         
         print(f"🎉 Elaborazione completata per feed {i}! Aggiunti {new_posts_added} nuovi annunci.")
         total_new_posts += new_posts_added
+
+    # Fallback AI GLOBALE: per tutti i post aggiunti con Zona presente ma senza Zona_macro dedotta
+    if all_added_posts_for_ai:
+        print(f"🧠 Fallback AI macro-zone GLOBALE per {len(all_added_posts_for_ai)} nuovi annunci senza Zona_macro...")
+        for item in all_added_posts_for_ai:
+            page_id = item["page_id"]
+            zona_txt = item["zona"]
+            ai_macro = ai_macro_zone_from_zone(zona_txt)
+            if ai_macro:
+                # aggiorna la pagina Notion con Zona_macro
+                try:
+                    url = f"https://api.notion.com/v1/pages/{page_id}"
+                    payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
+                    r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
+                    if r.status_code == 200:
+                        print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
+                    else:
+                        print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
+                except Exception as e:
+                    print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
 
     print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA!")
     print(f"   📊 Aggiunti: {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS")
@@ -851,14 +901,36 @@ def process_rss():
     final_cache_count, final_avg_age, final_oldest_age = get_cache_stats()
     print(f"   📋 Cache: {final_cache_count} URL in memoria (età media: {final_avg_age:.1f}h)")
     
-    # Verifica finale del file cache
+    # Verifica finale del file cache con debug dettagliato
+    print(f"\n🔍 DEBUG FINALE CACHE:")
+    print(f"   📁 Directory corrente: {os.getcwd()}")
+    print(f"   📁 File cache: {os.path.abspath(CACHE_FILE)}")
+    print(f"   📁 File esiste: {os.path.exists(CACHE_FILE)}")
+    
     if os.path.exists(CACHE_FILE):
         file_size = os.path.getsize(CACHE_FILE)
-        print(f"✅ File cache esistente: {CACHE_FILE} ({file_size} bytes)")
+        print(f"   ✅ File cache esistente: {CACHE_FILE} ({file_size} bytes)")
+        
+        # Leggi e mostra il contenuto del file
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                content = json.load(f)
+            url_count = len(content.get('urls', {}))
+            print(f"   📄 URL nel file: {url_count}")
+            if url_count > 0:
+                print(f"   📄 Primi 3 URL: {list(content.get('urls', {}).keys())[:3]}")
+        except Exception as e:
+            print(f"   ❌ Errore lettura file cache: {e}")
     else:
-        print(f"❌ File cache NON trovato: {CACHE_FILE}")
+        print(f"   ❌ File cache NON trovato: {CACHE_FILE}")
         if total_rejected > 0:
-            print(f"⚠️ ATTENZIONE: {total_rejected} post scartati ma file cache non trovato!")
+            print(f"   ⚠️ ATTENZIONE: {total_rejected} post scartati ma file cache non trovato!")
+        
+        # Verifica se ci sono altri file cache nella directory
+        print(f"   🔍 Cercando altri file cache nella directory...")
+        for file in os.listdir('.'):
+            if 'cache' in file.lower() or 'rejected' in file.lower():
+                print(f"   📁 Trovato file: {file}")
 
 if __name__ == "__main__":
     process_rss()
