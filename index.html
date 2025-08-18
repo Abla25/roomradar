@@ -994,6 +994,21 @@
       console.log("Pagina ricaricata - pulizia cache");
     }
 
+    // Event listeners - definiti prima di loadListings
+    function setupEventListeners() {
+      try {
+        document.getElementById('filter-zone').addEventListener('change', applyFilters);
+        document.getElementById('filter-reliability').addEventListener('change', applyFilters);
+        document.getElementById('filter-price').addEventListener('input', applyFilters);
+        document.getElementById('filter-date').addEventListener('change', applyFilters);
+        document.getElementById('sort-by').addEventListener('change', applySorting);
+        document.getElementById('items-per-page').addEventListener('change', changeItemsPerPage);
+        console.log("✅ Event listeners configurati");
+      } catch (error) {
+        console.error("❌ Errore configurazione event listeners:", error);
+      }
+    }
+
     async function loadListings() {
       try {
         console.log("=== INIZIO CARICAMENTO DATI ===");
@@ -1035,6 +1050,7 @@
         }
 
         document.getElementById('loading').style.display = 'none';
+        setupEventListeners(); // Configura event listeners dopo il caricamento
         populateFilters();
         applyFilters();
         updateStats();
@@ -1510,14 +1526,6 @@
       updatePagination();
       updateDebugInfo();
     }
-
-    // Event listeners
-    document.getElementById('filter-zone').addEventListener('change', applyFilters);
-    document.getElementById('filter-reliability').addEventListener('change', applyFilters);
-    document.getElementById('filter-price').addEventListener('input', applyFilters);
-    document.getElementById('filter-date').addEventListener('change', applyFilters);
-    document.getElementById('sort-by').addEventListener('change', applySorting);
-    document.getElementById('items-per-page').addEventListener('change', changeItemsPerPage);
 
     // Carica gli annunci all'avvio
     console.log("=== AVVIO APPLICAZIONE ===");
