@@ -14,11 +14,39 @@ NOTION_DATABASE_ID = os.environ["NOTION_DATABASE_ID"]
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free"
 
-RSS_URL = os.environ["RSS_URL"]
+# Supporto per multiple RSS URLs
+# Puoi definire gli URL come variabili separate o come una lista JSON
+RSS_URLS = []
+if "RSS_URLS" in os.environ:
+    # Se hai definito RSS_URLS come JSON array nei secrets
+    try:
+        RSS_URLS = json.loads(os.environ["RSS_URLS"])
+    except json.JSONDecodeError:
+        print("⚠️ RSS_URLS non è un JSON valido, uso formato legacy")
+        RSS_URLS = []
+
+# Fallback per compatibilità con il formato legacy (singolo URL)
+if not RSS_URLS and "RSS_URL" in os.environ:
+    RSS_URLS = [os.environ["RSS_URL"]]
+
+# Se ancora non abbiamo URL, prova a cercare RSS_URL_1, RSS_URL_2, etc.
+if not RSS_URLS:
+    i = 1
+    while f"RSS_URL_{i}" in os.environ:
+        RSS_URLS.append(os.environ[f"RSS_URL_{i}"])
+        i += 1
+
+if not RSS_URLS:
+    raise ValueError("❌ Nessun RSS URL configurato. Definisci RSS_URLS (JSON array), RSS_URL (singolo), o RSS_URL_1, RSS_URL_2, etc.")
+
+print(f"📡 Configurati {len(RSS_URLS)} feed RSS:")
+for i, url in enumerate(RSS_URLS, 1):
+    print(f"  {i}. {url}")
 
 MAX_BATCH = 3
 MIN_BATCH = 1
-BACKOFF_SECONDS = 62
+INITIAL_BACKOFF_SECONDS = 32
+MAX_BACKOFF_SECONDS = 62
 
 # Soglie similarità per deduplica (setup semplice)
 HIGH_DUP_THRESHOLD = 0.93  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
@@ -425,7 +453,7 @@ def send_to_notion(data):
         return page_id
 
 def call_openrouter(posts_batch, max_retries=3):
-    """Chiama il modello OpenRouter per un batch di post con retry e backoff fisso."""
+    """Chiama il modello OpenRouter per un batch di post con retry e backoff dinamico."""
     payload = {
         "model": MODEL_NAME,
         "messages": [
@@ -433,6 +461,8 @@ def call_openrouter(posts_batch, max_retries=3):
             {"role": "user", "content": PROMPT_TEMPLATE.format(posts=json.dumps(posts_batch, ensure_ascii=False))}
         ]
     }
+    
+    current_backoff = INITIAL_BACKOFF_SECONDS
     
     for attempt in range(max_retries):
         try:
@@ -443,11 +473,15 @@ def call_openrouter(posts_batch, max_retries=3):
             )
             
             if r.status_code == 429:
-                print(f"⏳ Rate limit raggiunto (tentativo {attempt + 1}/{max_retries}), attendo {BACKOFF_SECONDS} secondi...")
-                time.sleep(BACKOFF_SECONDS)
+                print(f"⏳ Rate limit raggiunto (tentativo {attempt + 1}/{max_retries}), attendo {current_backoff} secondi...")
+                time.sleep(current_backoff)
+                # Aumenta il backoff per il prossimo tentativo
+                current_backoff = MAX_BACKOFF_SECONDS
                 continue
             elif r.status_code != 200:
                 print(f"❌ Errore API OpenRouter: {r.text}")
+                # Aumenta il backoff per il prossimo tentativo
+                current_backoff = MAX_BACKOFF_SECONDS
                 return None
             
             data = r.json()
@@ -456,8 +490,10 @@ def call_openrouter(posts_batch, max_retries=3):
         except Exception as e:
             print(f"❌ Errore chiamata OpenRouter (tentativo {attempt + 1}/{max_retries}): {e}")
             if attempt < max_retries - 1:
-                print(f"⏳ Attendo {BACKOFF_SECONDS} secondi prima del retry...")
-                time.sleep(BACKOFF_SECONDS)
+                print(f"⏳ Attendo {current_backoff} secondi prima del retry...")
+                time.sleep(current_backoff)
+                # Aumenta il backoff per il prossimo tentativo
+                current_backoff = MAX_BACKOFF_SECONDS
     
     print(f"❌ Fallito dopo {max_retries} tentativi")
     return None
@@ -467,176 +503,199 @@ def process_rss():
     # Recupera i link esistenti all'inizio
     existing_links = get_existing_links()
     
-    feed = feedparser.parse(RSS_URL)
-    posts = []
+    total_new_posts = 0
     
-    # Filtra i post già esistenti prima di elaborarli
-    for entry in feed.entries:
-        link = entry.link
-        if link not in existing_links:
-            posts.append({
-                "title": entry.title,
-                "link": link,
-                "summary": entry.summary if "summary" in entry else ""
-            })
-        else:
-            print(f"⏭️ Post già esistente, skip: {link}")
-    
-    if not posts:
-        print("ℹ️ Nessun nuovo post da elaborare.")
-        return
+    for i, rss_url in enumerate(RSS_URLS, 1):
+        print(f"\n📡 Processando feed RSS {i}: {rss_url}")
         
-    print(f"⏳ Parsing RSS... Trovati {len(posts)} nuovi post da elaborare")
-
-    batch_size = MAX_BATCH
-    idx = 0
-    new_posts_added = 0
-    # Raccoglie i post aggiunti per eventuale fallback AI macro-zone
-    added_posts_for_ai = []
-    
-    while idx < len(posts):
-        current_batch = posts[idx: idx + batch_size]
-        print(f"📦 Elaboro batch da {len(current_batch)} post...")
-        response_text = call_openrouter(current_batch)
-        
-        # Se response_text è None, potrebbe essere dovuto a rate limiting
-        if response_text is None:
-            if batch_size > MIN_BATCH:
-                batch_size -= 1
-                print(f"↪ Retry riducendo batch a {batch_size}")
+        try:
+            feed = feedparser.parse(rss_url)
+            
+            # Verifica se il parsing è andato a buon fine
+            if feed.bozo:
+                print(f"⚠️ Errore nel parsing del feed RSS {i}: {feed.bozo_exception}")
                 continue
+                
+            if not feed.entries:
+                print(f"ℹ️ Nessun post trovato nel feed RSS {i}")
+                continue
+                
+        except Exception as e:
+            print(f"❌ Errore nell'accesso al feed RSS {i} ({rss_url}): {e}")
+            continue
+            
+        posts = []
+        
+        # Filtra i post già esistenti prima di elaborarli
+        for entry in feed.entries:
+            link = entry.link
+            if link not in existing_links:
+                posts.append({
+                    "title": entry.title,
+                    "link": link,
+                    "summary": entry.summary if "summary" in entry else ""
+                })
             else:
-                print("⚠️ Batch impossibile da elaborare, skip.")
-                idx += 1
-                batch_size = MAX_BATCH
-                continue
+                print(f"⏭️ Post già esistente, skip: {link}")
         
-        parsed = parse_llm_json(response_text)
-        if not parsed:
-            if batch_size > MIN_BATCH:
-                batch_size -= 1
-                print(f"↪ Retry riducendo batch a {batch_size}")
-                continue
-            else:
-                print("⚠️ Batch impossibile da elaborare, skip.")
-                idx += 1
-                batch_size = MAX_BATCH
-                continue
+        if not posts:
+            print("ℹ️ Nessun nuovo post da elaborare per questo feed.")
+            continue
+            
+        print(f"⏳ Parsing RSS... Trovati {len(posts)} nuovi post da elaborare")
 
-        # Se parsed è una lista di risultati
-        if isinstance(parsed, list):
-            # Carica pagine esistenti (non "Scaduto") una volta per batch
-            existing_pages = get_existing_pages()
-            active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
+        batch_size = MAX_BATCH
+        idx = 0
+        new_posts_added = 0
+        # Raccoglie i post aggiunti per eventuale fallback AI macro-zone
+        added_posts_for_ai = []
+        
+        while idx < len(posts):
+            current_batch = posts[idx: idx + batch_size]
+            print(f"📦 Elaboro batch da {len(current_batch)} post...")
+            response_text = call_openrouter(current_batch)
+            
+            # Se response_text è None, potrebbe essere dovuto a rate limiting
+            if response_text is None:
+                if batch_size > MIN_BATCH:
+                    batch_size -= 1
+                    print(f"↪ Retry riducendo batch a {batch_size}")
+                    continue
+                else:
+                    print("⚠️ Batch impossibile da elaborare, skip.")
+                    idx += 1
+                    batch_size = MAX_BATCH
+                    continue
+            
+            parsed = parse_llm_json(response_text)
+            if not parsed:
+                if batch_size > MIN_BATCH:
+                    batch_size -= 1
+                    print(f"↪ Retry riducendo batch a {batch_size}")
+                    continue
+                else:
+                    print("⚠️ Batch impossibile da elaborare, skip.")
+                    idx += 1
+                    batch_size = MAX_BATCH
+                    continue
 
-            for post_data, original_post in zip(parsed, current_batch):
-                if post_data.get("annuncio_rilevante") == "SI":
-                    post_data["link"] = original_post["link"]
+            # Se parsed è una lista di risultati
+            if isinstance(parsed, list):
+                # Carica pagine esistenti (non "Scaduto") una volta per batch
+                existing_pages = get_existing_pages()
+                active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
 
-                    # 1) dedupe intra-batch semplice: usa la descrizione
-                    new_descr = post_data.get("Descrizione_originale", "")
-                    best_page, best_score = find_best_duplicate(active_pages, new_descr)
+                for post_data, original_post in zip(parsed, current_batch):
+                    if post_data.get("annuncio_rilevante") == "SI":
+                        post_data["link"] = original_post["link"]
 
-                    if best_page and best_score >= HIGH_DUP_THRESHOLD:
-                        # Trovato duplicato forte: manteniamo quello più recente
-                        new_item = {
-                            "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
-                            "Descrizione_originale": new_descr,
-                            "Prezzo": post_data.get("Prezzo", ""),
-                            "Zona": post_data.get("Zona", ""),
-                            "Zona_macro": infer_macro_zone(
-                                post_data.get("Zona", ""),
-                                titolo=post_data.get("Titolo_parafrasato", ""),
-                                descrizione=new_descr
-                            )[0],  # Estrai solo la macro-zona
-                            "Motivo_Rating": post_data.get("Motivo_Rating", ""),
-                            "Affidabilita": post_data.get("Affidabilita", None),
-                            "Overview": post_data.get("Overview", ""),
-                            "link": post_data.get("link", ""),
-                        }
-                        # Crea la nuova pagina
-                        new_page_id = send_to_notion(new_item)
-                        if new_page_id:
-                            # Decidi chi è più vecchio: usa created_time disponibile su best_page
-                            old_page_id = best_page.get("id")
-                            # Confronto semplice: se best_page ha created_time < ora corrente → è più vecchio, marchiamo quello
-                            # In assenza di created_time della nuova pagina, consideriamo best_page come quello vecchio
-                            mark_status_scaduto(old_page_id)
-                            # Aggiorna cache in RAM per non riproporlo
-                            for p in active_pages:
-                                if p.get("id") == old_page_id:
-                                    p["Status"] = "Scaduto"
-                                    break
-                            new_posts_added += 1
-                        else:
-                            print("⚠️ Creazione nuova pagina fallita, skip marcatura duplicati")
-                    else:
-                        # Nessun duplicato forte: inseriamo normalmente
-                        page_id = send_to_notion(post_data)
-                        if page_id:
-                            new_posts_added += 1
-                            # Se abbiamo una Zona ma non siamo riusciti a inferire una Zona_macro, tentiamo in coda con AI
-                            zona = post_data.get("Zona", "")
-                            zona_macro_result = infer_macro_zone(
-                                zona,
-                                titolo=post_data.get("Titolo_parafrasato", ""),
-                                descrizione=post_data.get("Descrizione_originale", "")
-                            )
-                            zona_macro = zona_macro_result[0]
-                            zona_matched = zona_macro_result[1]
-                            if zona_macro:
-                                print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
-                            if zona and not zona_macro:
-                                added_posts_for_ai.append({
-                                    "page_id": page_id,
-                                    "zona": zona
-                                })
-                            # Aggiungi alla lista per confronti successivi in questo batch
-                            active_pages.append({
-                                "id": page_id,
-                                "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                        # 1) dedupe intra-batch semplice: usa la descrizione
+                        new_descr = post_data.get("Descrizione_originale", "")
+                        best_page, best_score = find_best_duplicate(active_pages, new_descr)
+
+                        if best_page and best_score >= HIGH_DUP_THRESHOLD:
+                            # Trovato duplicato forte: manteniamo quello più recente
+                            new_item = {
                                 "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
-                                "Descrizione_originale": post_data.get("Descrizione_originale", ""),
+                                "Descrizione_originale": new_descr,
                                 "Prezzo": post_data.get("Prezzo", ""),
                                 "Zona": post_data.get("Zona", ""),
-                                "Zona_macro": zona_macro,
-                                "Status": "",
-                                "Link": post_data.get("link", "")
-                            })
+                                "Zona_macro": infer_macro_zone(
+                                    post_data.get("Zona", ""),
+                                    titolo=post_data.get("Titolo_parafrasato", ""),
+                                    descrizione=new_descr
+                                )[0],  # Estrai solo la macro-zona
+                                "Motivo_Rating": post_data.get("Motivo_Rating", ""),
+                                "Affidabilita": post_data.get("Affidabilita", None),
+                                "Overview": post_data.get("Overview", ""),
+                                "link": post_data.get("link", ""),
+                            }
+                            # Crea la nuova pagina
+                            new_page_id = send_to_notion(new_item)
+                            if new_page_id:
+                                # Decidi chi è più vecchio: usa created_time disponibile su best_page
+                                old_page_id = best_page.get("id")
+                                # Confronto semplice: se best_page ha created_time < ora corrente → è più vecchio, marchiamo quello
+                                # In assenza di created_time della nuova pagina, consideriamo best_page come quello vecchio
+                                mark_status_scaduto(old_page_id)
+                                # Aggiorna cache in RAM per non riproporlo
+                                for p in active_pages:
+                                    if p.get("id") == old_page_id:
+                                        p["Status"] = "Scaduto"
+                                        break
+                                new_posts_added += 1
+                            else:
+                                print("⚠️ Creazione nuova pagina fallita, skip marcatura duplicati")
                         else:
-                            print("⚠️ Creazione pagina fallita")
-                else:
-                    print(f"❌ Post non rilevante: {original_post['title']}")
-        else:
-            print("⚠️ Risultato inatteso dal modello.")
-
-        idx += batch_size
-        batch_size = MAX_BATCH
-        # Assicura che ci siano sempre almeno BACKOFF_SECONDS tra le richieste
-        print(f"⏳ Attendo {BACKOFF_SECONDS} secondi prima del prossimo batch...")
-        time.sleep(BACKOFF_SECONDS)
-
-    # Fallback AI: per i soli post aggiunti con Zona presente ma senza Zona_macro dedotta
-    if added_posts_for_ai:
-        print(f"🧠 Fallback AI macro-zone per {len(added_posts_for_ai)} nuovi annunci senza Zona_macro…")
-        for item in added_posts_for_ai:
-            page_id = item["page_id"]
-            zona_txt = item["zona"]
-            ai_macro = ai_macro_zone_from_zone(zona_txt)
-            if ai_macro:
-                # aggiorna la pagina Notion con Zona_macro
-                try:
-                    url = f"https://api.notion.com/v1/pages/{page_id}"
-                    payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
-                    r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
-                    if r.status_code == 200:
-                        print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
+                            # Nessun duplicato forte: inseriamo normalmente
+                            page_id = send_to_notion(post_data)
+                            if page_id:
+                                new_posts_added += 1
+                                # Se abbiamo una Zona ma non siamo riusciti a inferire una Zona_macro, tentiamo in coda con AI
+                                zona = post_data.get("Zona", "")
+                                zona_macro_result = infer_macro_zone(
+                                    zona,
+                                    titolo=post_data.get("Titolo_parafrasato", ""),
+                                    descrizione=post_data.get("Descrizione_originale", "")
+                                )
+                                zona_macro = zona_macro_result[0]
+                                zona_matched = zona_macro_result[1]
+                                if zona_macro:
+                                    print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
+                                if zona and not zona_macro:
+                                    added_posts_for_ai.append({
+                                        "page_id": page_id,
+                                        "zona": zona
+                                    })
+                                # Aggiungi alla lista per confronti successivi in questo batch
+                                active_pages.append({
+                                    "id": page_id,
+                                    "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                    "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
+                                    "Descrizione_originale": post_data.get("Descrizione_originale", ""),
+                                    "Prezzo": post_data.get("Prezzo", ""),
+                                    "Zona": post_data.get("Zona", ""),
+                                    "Zona_macro": zona_macro,
+                                    "Status": "",
+                                    "Link": post_data.get("link", "")
+                                })
+                            else:
+                                print("⚠️ Creazione pagina fallita")
                     else:
-                        print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
-                except Exception as e:
-                    print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
-    
-    print(f"🎉 Elaborazione completata! Aggiunti {new_posts_added} nuovi annunci.")
+                        print(f"❌ Post non rilevante: {original_post['title']}")
+            else:
+                print("⚠️ Risultato inatteso dal modello.")
+
+            idx += batch_size
+            batch_size = MAX_BATCH
+            # Assicura che ci siano sempre almeno INITIAL_BACKOFF_SECONDS tra le richieste
+            print(f"⏳ Attendo {INITIAL_BACKOFF_SECONDS} secondi prima del prossimo batch...")
+            time.sleep(INITIAL_BACKOFF_SECONDS)
+
+        # Fallback AI: per i soli post aggiunti con Zona presente ma senza Zona_macro dedotta
+        if added_posts_for_ai:
+            print(f"🧠 Fallback AI macro-zone per {len(added_posts_for_ai)} nuovi annunci senza Zona_macro…")
+            for item in added_posts_for_ai:
+                page_id = item["page_id"]
+                zona_txt = item["zona"]
+                ai_macro = ai_macro_zone_from_zone(zona_txt)
+                if ai_macro:
+                    # aggiorna la pagina Notion con Zona_macro
+                    try:
+                        url = f"https://api.notion.com/v1/pages/{page_id}"
+                        payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
+                        r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
+                        if r.status_code == 200:
+                            print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
+                        else:
+                            print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
+                    except Exception as e:
+                        print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
+         
+        print(f"🎉 Elaborazione completata! Aggiunti {new_posts_added} nuovi annunci per il feed {i}.")
+        total_new_posts += new_posts_added
+
+    print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA! Aggiunti {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS.")
 
 if __name__ == "__main__":
     process_rss()
