@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2025-08-18T17:20:16.347Z",
-  "count": 55,
+  "generatedAt": "2025-08-18T18:24:22.129Z",
+  "count": 57,
   "results": [
+    {
+      "id": "253b5f64-9329-8151-abac-fbf27aeee381",
+      "title": "Stanza in affitto a Gracia",
+      "overview": "Stanza in affitto nel barrio di Gracia, solo uomini, non coppie",
+      "description": "ALQUILO HABITACION EN EL BARRIO DE GRACIA , SOLO CHICOS , NO PAREJAS",
+      "price": "",
+      "zone": "Gracia",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni sul prezzo e foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T18:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293788994186943/"
+    },
+    {
+      "id": "253b5f64-9329-81e8-9d9d-e006c08a4ab7",
+      "title": "Appartamento ammobiliato in vendita a Barcellona",
+      "overview": "Appartamento di 60m² con 2 camere da letto, salone e cucina attrezzata",
+      "description": "Piso am!ueblado , 2 habitaciones , 60 m² en Barcelona ( Calle de Mallorca ) 815 euro .\n\nContacto Whatsapp para una visita: +34 690 262 972 Apartamento de 60m2 en 3º piso con ascensor (salón) y (2 dormitorio y baño).\nSalón (sofá cama doble, mesa de café, mesa de comedor y silla, TV, luminaria y decoración)\nCocina abierta al salón (totalmente equipada: placa cerámica, nevera, lavavajillas, microondas, licuadora, etc.).\n\nContacto  Whatsapp para una visita más información y fotos:\n+34 690 262 972 \n\nGracias",
+      "price": "815 euro",
+      "zone": "Calle de Mallorca, Barcelona",
+      "zoneMacro": "Eixample",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "Annuncio completo con foto e contatto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T18:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293864674179375/"
+    },
     {
       "id": "253b5f64-9329-8168-a7c3-efcda41cbe95",
       "title": "Affitto stanza a Igualada",
