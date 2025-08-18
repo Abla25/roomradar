@@ -51,6 +51,10 @@ if not RSS_URLS:
     for key, value in os.environ.items():
         if key.startswith("RSS_URL"):
             print(f"  {key}: '{value}'")
+    print("🔍 Debug: Tutte le variabili d'ambiente disponibili:")
+    for key, value in os.environ.items():
+        if "RSS" in key or "URL" in key:
+            print(f"  {key}: '{value}'")
     raise ValueError("❌ Nessun RSS URL configurato. Definisci RSS_URL_1, RSS_URL_2, RSS_URL_3, etc. o RSS_URL (singolo).")
 
 print(f"📡 Configurati {len(RSS_URLS)} feed RSS:")

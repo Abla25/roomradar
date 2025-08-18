@@ -31,6 +31,9 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           RSS_URL: ${{ secrets.RSS_URL }}
+          RSS_URL_1: ${{ secrets.RSS_URL_1 }}
+          RSS_URL_2: ${{ secrets.RSS_URL_2 }}
+          RSS_URL_3: ${{ secrets.RSS_URL_3 }}
         run: python main.py
 
       - name: Usa Node 20
