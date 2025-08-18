@@ -40,7 +40,7 @@ Per ogni post pertinente, genera un dizionario con:
   "annuncio_rilevante": "SI" o "NO",
   "Titolo_parafrasato": "...",
   "Overview": "...",
-  "Descrizione_originale": "...",
+  "Descrizione_originale (copia e incolla la descrizione originale completa dell'annuncio)": "...",
   "Prezzo": "...",
   "Zona": "...",
   "Camere": "...",
