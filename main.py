@@ -113,7 +113,12 @@ def _extract_text_property(prop: dict) -> str:
 def _extract_status_name(prop: dict) -> str:
     if not isinstance(prop, dict):
         return ""
-    return prop.get("status", {}).get("name", "") or ""
+    # Supporta sia proprietà di tipo "status" sia "select"
+    if isinstance(prop.get("status"), dict):
+        return prop.get("status", {}).get("name", "") or ""
+    if isinstance(prop.get("select"), dict):
+        return prop.get("select", {}).get("name", "") or ""
+    return ""
 
 def normalize_text(text: str) -> str:
     text = (text or "").lower()
@@ -187,7 +192,7 @@ def get_existing_pages():
 
 def mark_status_scaduto(page_id: str):
     url = f"https://api.notion.com/v1/pages/{page_id}"
-    payload = {"properties": {"Status": {"status": {"name": "Scaduto"}}}}
+    payload = {"properties": {"Status": {"select": {"name": "Scaduto"}}}}
     res = requests.patch(url, headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
         print(f"❌ Errore aggiornamento Status=Scaduto per {page_id}: {res.text}")
@@ -291,7 +296,7 @@ def send_to_notion(data):
             "Motivo_Rating": {"rich_text": [{"text": {"content": motivo}}]},
             "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
             "Link": {"url": link_url},
-            "Status": {"status": {"name": "Attivo"}}
+            "Status": {"select": {"name": "Attivo"}}
         }
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
