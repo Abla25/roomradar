@@ -1062,7 +1062,9 @@
     function updateStats() {
       const statsDiv = document.getElementById('stats');
       if (allListings.length > 0) {
-        const total = allListings.length;
+        // Conta i post attivi (non scaduti)
+        const activeListings = allListings.filter(l => l.status !== "Scaduto");
+        const total = activeListings.length;
         const filtered = filteredListings.length;
         const hasActiveFilters = hasFilters();
         
@@ -1072,7 +1074,7 @@
           minute: '2-digit'
         });
         
-        const filterText = hasActiveFilters ? `${filtered} annunci secondo i tuoi filtri` : `${total} annunci totali`;
+        const filterText = hasActiveFilters ? `${filtered} annunci secondo i tuoi filtri` : `${total} annunci attivi`;
         
         statsDiv.innerHTML = `
           <strong>${filterText}</strong> • 
@@ -1158,7 +1160,9 @@
     }
 
     function populateFilters() {
-      const zones = [...new Set(allListings.map(l => l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || null)).filter(Boolean))].sort();
+      // Filtra solo i post attivi per popolare i filtri
+      const activeListings = allListings.filter(l => l.status !== "Scaduto");
+      const zones = [...new Set(activeListings.map(l => l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || null)).filter(Boolean))].sort();
 
       console.log("Zone disponibili:", zones);
 
@@ -1177,23 +1181,34 @@
       console.log("Filtri attivi:", { zone, minReliability, maxPrice, dateFilter });
 
       filteredListings = allListings.filter(l => {
+        // Escludi i post con status "Scaduto"
+        if (l.status === "Scaduto") {
+          return false;
+        }
+        
         const zoneLabel = l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || "");
         const zoneMatch = !zone || zoneLabel === zone;
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
         const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
         
-        // Filtro per data
+        // Filtro per data - usa dateAdded se disponibile, altrimenti datePublished
         let dateMatch = true;
-        if (dateFilter && l.dateAdded) {
-          const postDate = new Date(l.dateAdded);
-          const now = new Date();
-          const daysDiff = Math.floor((now - postDate) / (1000 * 60 * 60 * 24));
-          
-          switch (dateFilter) {
-            case '1': dateMatch = daysDiff <= 1; break;
-            case '3': dateMatch = daysDiff <= 3; break;
-            case '7': dateMatch = daysDiff <= 7; break;
-            case '30': dateMatch = daysDiff <= 30; break;
+        if (dateFilter) {
+          const postDate = l.dateAdded || l.datePublished;
+          if (postDate) {
+            const postDateObj = new Date(postDate);
+            const now = new Date();
+            const daysDiff = Math.floor((now - postDateObj) / (1000 * 60 * 60 * 24));
+            
+            switch (dateFilter) {
+              case '1': dateMatch = daysDiff <= 1; break;
+              case '3': dateMatch = daysDiff <= 3; break;
+              case '7': dateMatch = daysDiff <= 7; break;
+              case '30': dateMatch = daysDiff <= 30; break;
+            }
+          } else {
+            // Se non c'è data, non mostrare per i filtri temporali
+            dateMatch = false;
           }
         }
         

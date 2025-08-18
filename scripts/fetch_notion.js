@@ -58,6 +58,7 @@ function parseNotionPage(page) {
       if (type === "number") return props[p]?.number ?? null;
       if (type === "date") return props[p]?.date?.start || "";
       if (type === "url") return props[p]?.url || "";
+      if (type === "select") return props[p]?.select?.name || "";
       return "";
     } catch {
       return "";
@@ -77,7 +78,8 @@ function parseNotionPage(page) {
     reliabilityReason: get("Motivo_Rating", "rich"),
     datePublished: get("Data_Pubblicazione", "date"),
     dateAdded: get("Data_DB", "date"),
-    link: get("Link", "url")
+    link: get("Link", "url"),
+    status: get("Status", "select")
   };
 }
 

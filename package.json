@@ -1,0 +1,12 @@
+{
+  "name": "notion-rss-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bot per gestire RSS immobiliare con Notion",
+  "main": "main.py",
+  "scripts": {
+    "fetch": "node scripts/fetch_notion.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

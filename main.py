@@ -6,6 +6,7 @@ import feedparser
 import re
 import unicodedata
 from rapidfuzz import fuzz
+from zone_mapping import BARCELONA_MACRO_ZONES, MACRO_ZONE_MAPPING
 
 # CONFIGURAZIONE
 NOTION_API_KEY = os.environ["NOTION_API_KEY"]
@@ -23,20 +24,6 @@ BACKOFF_SECONDS = 62
 HIGH_DUP_THRESHOLD = 0.93  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
 AI_CHECK_THRESHOLD_LOW = 0.83  # non usato ora (DB piccolo), ma lasciato per futuro
 ENABLE_AI_DUP_CHECK = False
-
-# Macro-zone predefinite di Barcellona
-BARCELONA_MACRO_ZONES = [
-    "Ciutat Vella",
-    "Eixample",
-    "Gràcia",
-    "Horta Guinardó",
-    "Les Corts",
-    "Nou Barris",
-    "Sant Andreu",
-    "Sant Martí",
-    "Sants-Montjuïc",
-    "Sarrià-Sant Gervasi",
-]
 
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
@@ -153,48 +140,12 @@ def _normalize_for_zone(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
-def infer_macro_zone(zona: str, titolo: str = "", descrizione: str = "") -> str:
+def infer_macro_zone(zona: str, titolo: str = "", descrizione: str = "") -> tuple[str, str]:
     """Mappa una zona/quartiere di Barcellona in una macro-zona predefinita.
+    Ritorna (macro_zone, zona_matched) se determinabile, altrimenti ("", "").
     Se non determinabile, restituisce stringa vuota.
     Peso maggiore al match su 'zona', poi su titolo/descrizione.
     """
-    macro_to_tokens = {
-        "Ciutat Vella": [
-            "ciutat vella", "barri gotic", "el gotic", "gotic", "el born", "born",
-            "la ribera", "ribera", "sant pere", "santa caterina", "barceloneta", "el raval", "raval"
-        ],
-        "Eixample": [
-            "eixample", "dreta de l eixample", "dreta de leixample", "esquerra de l eixample",
-            "esquerra de leixample", "sagrada familia", "fort pienc", "sant antoni"
-        ],
-        "Gràcia": [
-            "gracia", "vila de gracia", "camp d en grassot", "vallcarca", "el coll", "camp d en grassot i grcia nova", "gracia nova"
-        ],
-        "Horta Guinardó": [
-            "horta", "guinardo", "el carmel", "can baro", "vall d hebron", "montbau", "la font d en fargues"
-        ],
-        "Les Corts": [
-            "les corts", "pedralbes", "la maternitat i sant ramon", "sant ramon"
-        ],
-        "Nou Barris": [
-            "nou barris", "porta", "prosperitat", "vilapicina", "canyelles", "la guineueta", "ciutat meridiana",
-            "trinitat nova", "torre baro", "les roquetes"
-        ],
-        "Sant Andreu": [
-            "sant andreu", "la sagrera", "trinitat vella", "bon pastor", "baro de viver", "navas"
-        ],
-        "Sant Martí": [
-            "sant marti", "poblenou", "el poblenou", "diagonal mar", "el besos i el maresme", "besos",
-            "el clot", "clot", "camp de l arpa", "camp de l arpa del clot", "vila olimpica", "provençals del poblenou", "provenals del poblenou", "22@"
-        ],
-        "Sants-Montjuïc": [
-            "sants", "hostafrancs", "poble sec", "badal", "la marina", "montjuic", "zona franca"
-        ],
-        "Sarrià-Sant Gervasi": [
-            "sarria", "les tres torres", "sant gervasi", "galvany", "la bonanova", "bonanova", "vallvidrera", "tibidabo", "les planes"
-        ],
-    }
-
     zona_norm = _normalize_for_zone(zona)
     titolo_norm = _normalize_for_zone(titolo)
     descr_norm = _normalize_for_zone(descrizione)
@@ -202,7 +153,8 @@ def infer_macro_zone(zona: str, titolo: str = "", descrizione: str = "") -> str:
 
     best_macro = ""
     best_score = 0
-    for macro, tokens in macro_to_tokens.items():
+    best_token = ""
+    for macro, tokens in MACRO_ZONE_MAPPING.items():
         score = 0
         for token in tokens:
             token = token.strip()
@@ -210,13 +162,21 @@ def infer_macro_zone(zona: str, titolo: str = "", descrizione: str = "") -> str:
                 continue
             if zona_norm and token in zona_norm:
                 score += 2
+                if score > best_score:
+                    best_score = score
+                    best_macro = macro
+                    best_token = token
             elif token in corpus_norm:
                 score += 1
+                if score > best_score:
+                    best_score = score
+                    best_macro = macro
+                    best_token = token
         if score > best_score:
             best_score = score
             best_macro = macro
 
-    return best_macro if best_score > 0 else ""
+    return (best_macro, best_token) if best_score > 0 else ("", "")
 
 def similarity_score(a: str, b: str) -> float:
     a_norm, b_norm = normalize_text(a), normalize_text(b)
@@ -422,11 +382,15 @@ def send_to_notion(data):
     descr = data.get("Descrizione_originale", "")
     prezzo = data.get("Prezzo", "")
     zona = data.get("Zona", "")
-    zona_macro = data.get("Zona_macro", "") or infer_macro_zone(
+    zona_macro_result = infer_macro_zone(
         zona,
         titolo=titolo,
         descrizione=descr
     )
+    zona_macro = zona_macro_result[0]  # Estrai solo la macro-zona
+    zona_matched = zona_macro_result[1]  # Zona che ha causato il match
+    if zona_macro:
+        print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
     camere = data.get("Camere", "")
     affidabilita = safe_number(data.get("Affidabilita"))
     motivo = data.get("Motivo_Rating", "")
@@ -556,7 +520,7 @@ def process_rss():
                                 post_data.get("Zona", ""),
                                 titolo=post_data.get("Titolo_parafrasato", ""),
                                 descrizione=new_descr
-                            ),
+                            )[0],  # Estrai solo la macro-zona
                             "Motivo_Rating": post_data.get("Motivo_Rating", ""),
                             "Affidabilita": post_data.get("Affidabilita", None),
                             "Overview": post_data.get("Overview", ""),
@@ -585,11 +549,15 @@ def process_rss():
                             new_posts_added += 1
                             # Se abbiamo una Zona ma non siamo riusciti a inferire una Zona_macro, tentiamo in coda con AI
                             zona = post_data.get("Zona", "")
-                            zona_macro = infer_macro_zone(
+                            zona_macro_result = infer_macro_zone(
                                 zona,
                                 titolo=post_data.get("Titolo_parafrasato", ""),
                                 descrizione=post_data.get("Descrizione_originale", "")
                             )
+                            zona_macro = zona_macro_result[0]
+                            zona_matched = zona_macro_result[1]
+                            if zona_macro:
+                                print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
                             if zona and not zona_macro:
                                 added_posts_for_ai.append({
                                     "page_id": page_id,
@@ -603,11 +571,7 @@ def process_rss():
                                 "Descrizione_originale": post_data.get("Descrizione_originale", ""),
                                 "Prezzo": post_data.get("Prezzo", ""),
                                 "Zona": post_data.get("Zona", ""),
-                                "Zona_macro": infer_macro_zone(
-                                    post_data.get("Zona", ""),
-                                    titolo=post_data.get("Titolo_parafrasato", ""),
-                                    descrizione=post_data.get("Descrizione_originale", "")
-                                ),
+                                "Zona_macro": zona_macro,
                                 "Status": "",
                                 "Link": post_data.get("link", "")
                             })
