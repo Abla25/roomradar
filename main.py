@@ -4,6 +4,7 @@ import json
 import time
 import feedparser
 import re
+import unicodedata
 from rapidfuzz import fuzz
 
 # CONFIGURAZIONE
@@ -23,39 +24,39 @@ HIGH_DUP_THRESHOLD = 0.93  # sopra questa soglia segniamo direttamente il vecchi
 AI_CHECK_THRESHOLD_LOW = 0.83  # non usato ora (DB piccolo), ma lasciato per futuro
 ENABLE_AI_DUP_CHECK = False
 
+# Macro-zone predefinite di Barcellona
+BARCELONA_MACRO_ZONES = [
+    "Ciutat Vella",
+    "Eixample",
+    "Gràcia",
+    "Horta Guinardó",
+    "Les Corts",
+    "Nou Barris",
+    "Sant Andreu",
+    "Sant Martí",
+    "Sants-Montjuïc",
+    "Sarrià-Sant Gervasi",
+]
+
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
     "Content-Type": "application/json",
     "Notion-Version": "2022-06-28"
 }
 
-# Prompt migliorato per eliminare post di ricerca camere e classificare la macro-zona
 PROMPT_TEMPLATE = """
 Analizza i post seguenti e restituisci un JSON valido per ognuno.
 Escludi tutti i post dove qualcuno CERCA una stanza o un appartamento,
-o post che non riguardano affitti reali. Gli unici post rilevanti sono quelli relativi ad inserzioni di camere/abitazioni che vengono messe in affitto.
-
-Assegna inoltre la macro-zona di Barcellona in cui ricade l'annuncio scegliendo SOLO tra queste categorie predefinite (se non deducibile usa stringa vuota):
-- Ciutat Vella
-- Eixample
-- Gràcia
-- Horta Guinardó
-- Les Corts
-- Nou Barris
-- Sant Andreu
-- Sant Martí
-- Sants-Montjuïc
-- Sarrià-Sant Gervasi
+o post che non riguardano affitti reali, o post relativi ad affitti brevi per vacanza con prezzi per giornata. Gli unici post rilevanti sono quelli relativi ad inserzioni di camere/abitazioni che vengono messe in affitto.
 
 Per ogni post pertinente, genera un dizionario con:
 {{
   "annuncio_rilevante": "SI" o "NO",
   "Titolo_parafrasato": "...",
   "Overview": "...",
-  "Descrizione_originale (copia e incolla la descrizione originale completa dell'annuncio)": "...",
+  "Descrizione_originale": "...",
   "Prezzo": "...",
   "Zona": "...",
-  "Zona_macro": una delle macro-zone elencate sopra (oppure "" se non determinabile),
   "Camere": "...",
   "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5) (4 e 5 posono essere raggiunti solo se sono presenti foto e non sembri una truffa),
   "Motivo_Rating": "...",
@@ -139,6 +140,83 @@ def normalize_text(text: str) -> str:
     text = re.sub(r"[\W_]+", " ", text, flags=re.UNICODE)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+def _normalize_for_zone(text: str) -> str:
+    if not text:
+        return ""
+    # Rimuove accenti, minuscole, normalizza spazi e apostrofi
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = text.replace("'", " ")
+    text = re.sub(r"[\W_]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def infer_macro_zone(zona: str, titolo: str = "", descrizione: str = "") -> str:
+    """Mappa una zona/quartiere di Barcellona in una macro-zona predefinita.
+    Se non determinabile, restituisce stringa vuota.
+    Peso maggiore al match su 'zona', poi su titolo/descrizione.
+    """
+    macro_to_tokens = {
+        "Ciutat Vella": [
+            "ciutat vella", "barri gotic", "el gotic", "gotic", "el born", "born",
+            "la ribera", "ribera", "sant pere", "santa caterina", "barceloneta", "el raval", "raval"
+        ],
+        "Eixample": [
+            "eixample", "dreta de l eixample", "dreta de leixample", "esquerra de l eixample",
+            "esquerra de leixample", "sagrada familia", "fort pienc", "sant antoni"
+        ],
+        "Gràcia": [
+            "gracia", "vila de gracia", "camp d en grassot", "vallcarca", "el coll", "camp d en grassot i grcia nova", "gracia nova"
+        ],
+        "Horta Guinardó": [
+            "horta", "guinardo", "el carmel", "can baro", "vall d hebron", "montbau", "la font d en fargues"
+        ],
+        "Les Corts": [
+            "les corts", "pedralbes", "la maternitat i sant ramon", "sant ramon"
+        ],
+        "Nou Barris": [
+            "nou barris", "porta", "prosperitat", "vilapicina", "canyelles", "la guineueta", "ciutat meridiana",
+            "trinitat nova", "torre baro", "les roquetes"
+        ],
+        "Sant Andreu": [
+            "sant andreu", "la sagrera", "trinitat vella", "bon pastor", "baro de viver", "navas"
+        ],
+        "Sant Martí": [
+            "sant marti", "poblenou", "el poblenou", "diagonal mar", "el besos i el maresme", "besos",
+            "el clot", "clot", "camp de l arpa", "camp de l arpa del clot", "vila olimpica", "provençals del poblenou", "provenals del poblenou", "22@"
+        ],
+        "Sants-Montjuïc": [
+            "sants", "hostafrancs", "poble sec", "badal", "la marina", "montjuic", "zona franca"
+        ],
+        "Sarrià-Sant Gervasi": [
+            "sarria", "les tres torres", "sant gervasi", "galvany", "la bonanova", "bonanova", "vallvidrera", "tibidabo", "les planes"
+        ],
+    }
+
+    zona_norm = _normalize_for_zone(zona)
+    titolo_norm = _normalize_for_zone(titolo)
+    descr_norm = _normalize_for_zone(descrizione)
+    corpus_norm = f"{titolo_norm} {descr_norm}".strip()
+
+    best_macro = ""
+    best_score = 0
+    for macro, tokens in macro_to_tokens.items():
+        score = 0
+        for token in tokens:
+            token = token.strip()
+            if not token:
+                continue
+            if zona_norm and token in zona_norm:
+                score += 2
+            elif token in corpus_norm:
+                score += 1
+        if score > best_score:
+            best_score = score
+            best_macro = macro
+
+    return best_macro if best_score > 0 else ""
 
 def similarity_score(a: str, b: str) -> float:
     a_norm, b_norm = normalize_text(a), normalize_text(b)
@@ -285,6 +363,58 @@ def parse_llm_json(raw_text, retries=3):
             time.sleep(2 ** attempt)
     return None
 
+def ai_macro_zone_from_zone(zona_text: str) -> str:
+    """Chiede al modello di mappare una zona/quartiere alla macro-zona predefinita.
+    Ritorna stringa vuota se non determinabile o risposta non valida.
+    """
+    if not zona_text:
+        return ""
+    macro_list = "\n- " + "\n- ".join(BARCELONA_MACRO_ZONES)
+    prompt = f"""
+Ti fornisco una zona/quartiere di Barcellona. Scegli quale macro-zona corrisponde, SOLO tra questa lista. Se non sei sicuro, restituisci stringa vuota.
+Lista macro-zone consentite:{macro_list}
+
+Rispondi SOLO in JSON, nel formato:
+{{
+  "Zona_macro": "<una delle macro-zone sopra oppure \"\" se incerto>"
+}}
+
+ZONA: {zona_text}
+"""
+    payload = {
+        "model": MODEL_NAME,
+        "messages": [
+            {"role": "system", "content": "Sei un assistente che classifica quartieri di Barcellona in macro-zone predefinite."},
+            {"role": "user", "content": prompt}
+        ]
+    }
+    try:
+        r = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"},
+            json=payload
+        )
+        if r.status_code != 200:
+            print(f"❌ Errore AI macro-zone: {r.text}")
+            return ""
+        content = r.json()["choices"][0]["message"]["content"]
+        parsed = parse_llm_json(content)
+        if not isinstance(parsed, dict):
+            return ""
+        # Tolleranza su chiave/maiuscole
+        key = None
+        for k in parsed.keys():
+            if k.lower() == "zona_macro":
+                key = k
+                break
+        if not key:
+            return ""
+        value = str(parsed.get(key) or "").strip()
+        return value if value in BARCELONA_MACRO_ZONES else ""
+    except Exception as e:
+        print(f"❌ Errore chiamata AI macro-zone: {e}")
+        return ""
+
 def send_to_notion(data):
     """Invia i dati a Notion. Restituisce l'ID pagina se creato, altrimenti None."""
     titolo = data.get("Titolo_parafrasato", "")
@@ -292,7 +422,11 @@ def send_to_notion(data):
     descr = data.get("Descrizione_originale", "")
     prezzo = data.get("Prezzo", "")
     zona = data.get("Zona", "")
-    zona_macro = data.get("Zona_macro", "")
+    zona_macro = data.get("Zona_macro", "") or infer_macro_zone(
+        zona,
+        titolo=titolo,
+        descrizione=descr
+    )
     camere = data.get("Camere", "")
     affidabilita = safe_number(data.get("Affidabilita"))
     motivo = data.get("Motivo_Rating", "")
@@ -377,6 +511,8 @@ def process_rss():
     batch_size = MAX_BATCH
     idx = 0
     new_posts_added = 0
+    # Raccoglie i post aggiunti per eventuale fallback AI macro-zone
+    added_posts_for_ai = []
     
     while idx < len(posts):
         current_batch = posts[idx: idx + batch_size]
@@ -416,7 +552,11 @@ def process_rss():
                             "Descrizione_originale": new_descr,
                             "Prezzo": post_data.get("Prezzo", ""),
                             "Zona": post_data.get("Zona", ""),
-                            "Zona_macro": post_data.get("Zona_macro", ""),
+                            "Zona_macro": infer_macro_zone(
+                                post_data.get("Zona", ""),
+                                titolo=post_data.get("Titolo_parafrasato", ""),
+                                descrizione=new_descr
+                            ),
                             "Motivo_Rating": post_data.get("Motivo_Rating", ""),
                             "Affidabilita": post_data.get("Affidabilita", None),
                             "Overview": post_data.get("Overview", ""),
@@ -443,6 +583,18 @@ def process_rss():
                         page_id = send_to_notion(post_data)
                         if page_id:
                             new_posts_added += 1
+                            # Se abbiamo una Zona ma non siamo riusciti a inferire una Zona_macro, tentiamo in coda con AI
+                            zona = post_data.get("Zona", "")
+                            zona_macro = infer_macro_zone(
+                                zona,
+                                titolo=post_data.get("Titolo_parafrasato", ""),
+                                descrizione=post_data.get("Descrizione_originale", "")
+                            )
+                            if zona and not zona_macro:
+                                added_posts_for_ai.append({
+                                    "page_id": page_id,
+                                    "zona": zona
+                                })
                             # Aggiungi alla lista per confronti successivi in questo batch
                             active_pages.append({
                                 "id": page_id,
@@ -451,7 +603,11 @@ def process_rss():
                                 "Descrizione_originale": post_data.get("Descrizione_originale", ""),
                                 "Prezzo": post_data.get("Prezzo", ""),
                                 "Zona": post_data.get("Zona", ""),
-                                "Zona_macro": post_data.get("Zona_macro", ""),
+                                "Zona_macro": infer_macro_zone(
+                                    post_data.get("Zona", ""),
+                                    titolo=post_data.get("Titolo_parafrasato", ""),
+                                    descrizione=post_data.get("Descrizione_originale", "")
+                                ),
                                 "Status": "",
                                 "Link": post_data.get("link", "")
                             })
@@ -465,6 +621,26 @@ def process_rss():
         idx += batch_size
         batch_size = MAX_BATCH
         time.sleep(BACKOFF_SECONDS)
+
+    # Fallback AI: per i soli post aggiunti con Zona presente ma senza Zona_macro dedotta
+    if added_posts_for_ai:
+        print(f"🧠 Fallback AI macro-zone per {len(added_posts_for_ai)} nuovi annunci senza Zona_macro…")
+        for item in added_posts_for_ai:
+            page_id = item["page_id"]
+            zona_txt = item["zona"]
+            ai_macro = ai_macro_zone_from_zone(zona_txt)
+            if ai_macro:
+                # aggiorna la pagina Notion con Zona_macro
+                try:
+                    url = f"https://api.notion.com/v1/pages/{page_id}"
+                    payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
+                    r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
+                    if r.status_code == 200:
+                        print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
+                    else:
+                        print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
+                except Exception as e:
+                    print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
     
     print(f"🎉 Elaborazione completata! Aggiunti {new_posts_added} nuovi annunci.")
 
