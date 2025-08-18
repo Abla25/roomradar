@@ -21,8 +21,10 @@ if "RSS_URLS" in os.environ:
     # Se hai definito RSS_URLS come JSON array nei secrets
     try:
         RSS_URLS = json.loads(os.environ["RSS_URLS"])
-    except json.JSONDecodeError:
-        print("⚠️ RSS_URLS non è un JSON valido, uso formato legacy")
+        print(f"✅ RSS_URLS parsato con successo: {len(RSS_URLS)} URL trovati")
+    except json.JSONDecodeError as e:
+        print(f"⚠️ RSS_URLS non è un JSON valido: {e}")
+        print(f"⚠️ Contenuto problematico: '{os.environ['RSS_URLS']}'")
         RSS_URLS = []
 
 # Fallback per compatibilità con il formato legacy (singolo URL)
