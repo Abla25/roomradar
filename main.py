@@ -21,20 +21,34 @@ CACHE_CLEANUP_HOURS = 48
 MAX_CACHE_SIZE = 1000  # Massimo numero di URL in cache
 
 def load_rejected_cache():
-    """Carica la cache degli URL scartati dall'AI."""
+    """Carica la cache degli URL scartati dall'AI con TTL individuale."""
     if os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                # Controlla se la cache è scaduta (più di 24 ore)
-                if 'timestamp' in data:
-                    cache_time = datetime.fromisoformat(data['timestamp'])
-                    if datetime.now() - cache_time > timedelta(hours=CACHE_CLEANUP_HOURS):
-                        print(f"🗑️ Cache scaduta ({CACHE_CLEANUP_HOURS}h), pulizia automatica...")
-                        return {'urls': {}, 'timestamp': datetime.now().isoformat()}
-                return data
+                
+                # Pulisci URL scaduti (TTL individuale)
+                current_time = datetime.now()
+                expired_urls = []
+                cleaned_urls = {}
+                
+                for url, url_data in data.get('urls', {}).items():
+                    url_timestamp = datetime.fromisoformat(url_data['timestamp'])
+                    if current_time - url_timestamp > timedelta(hours=CACHE_CLEANUP_HOURS):
+                        expired_urls.append(url)
+                    else:
+                        cleaned_urls[url] = url_data
+                
+                if expired_urls:
+                    print(f"🗑️ Rimossi {len(expired_urls)} URL scaduti dalla cache (TTL {CACHE_CLEANUP_HOURS}h)")
+                
+                return {
+                    'urls': cleaned_urls,
+                    'timestamp': current_time.isoformat()
+                }
         except Exception as e:
             print(f"⚠️ Errore caricamento cache: {e}")
+    
     return {'urls': {}, 'timestamp': datetime.now().isoformat()}
 
 def save_rejected_cache(cache_data):
@@ -46,17 +60,19 @@ def save_rejected_cache(cache_data):
         print(f"⚠️ Errore salvataggio cache: {e}")
 
 def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
-    """Aggiunge un URL alla cache degli scartati."""
+    """Aggiunge un URL alla cache degli scartati con logica FIFO."""
     cache_data = load_rejected_cache()
     
-    # Se la cache è piena, rimuovi gli URL più vecchi
+    # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
     if len(cache_data['urls']) >= MAX_CACHE_SIZE:
-        print(f"🗑️ Cache piena ({MAX_CACHE_SIZE} URL), rimozione URL più vecchi...")
-        # Ordina per timestamp e rimuovi i più vecchi
+        print(f"🗑️ Cache piena ({MAX_CACHE_SIZE} URL), rimozione URL più vecchi (FIFO)...")
+        # Ordina per timestamp (più vecchi prima) e rimuovi il 60% più vecchio
         sorted_urls = sorted(cache_data['urls'].items(), 
                            key=lambda x: x[1]['timestamp'])
-        # Mantieni solo i più recenti
-        cache_data['urls'] = dict(sorted_urls[-MAX_CACHE_SIZE//2:])
+        # Rimuovi il 60% più vecchio per fare spazio
+        remove_count = int(MAX_CACHE_SIZE * 0.6)  # 60% del limite
+        cache_data['urls'] = dict(sorted_urls[remove_count:])
+        print(f"🗑️ Rimossi {remove_count} URL più vecchi (FIFO - 60%)")
     
     cache_data['urls'][url] = {
         'reason': reason,
@@ -70,9 +86,25 @@ def is_url_rejected(url):
     return url in cache_data['urls']
 
 def get_cache_stats():
-    """Restituisce statistiche sulla cache."""
+    """Restituisce statistiche dettagliate sulla cache."""
     cache_data = load_rejected_cache()
-    return len(cache_data['urls'])
+    urls = cache_data['urls']
+    
+    if not urls:
+        return 0, 0, 0
+    
+    # Calcola età media degli URL in cache
+    current_time = datetime.now()
+    ages = []
+    for url_data in urls.values():
+        url_time = datetime.fromisoformat(url_data['timestamp'])
+        age_hours = (current_time - url_time).total_seconds() / 3600
+        ages.append(age_hours)
+    
+    avg_age = sum(ages) / len(ages)
+    oldest_age = max(ages)
+    
+    return len(urls), avg_age, oldest_age
 
 # Configurazione RSS URLs - Supporto per multiple feed
 RSS_URLS = []
@@ -582,8 +614,10 @@ def process_rss():
     existing_links = get_existing_links()
     
     # Carica cache degli URL scartati
-    cache_stats = get_cache_stats()
-    print(f"📋 Cache URL scartati: {cache_stats} URL in memoria")
+    cache_count, avg_age, oldest_age = get_cache_stats()
+    print(f"📋 Cache URL scartati: {cache_count} URL in memoria")
+    if cache_count > 0:
+        print(f"   📊 Età media: {avg_age:.1f}h, Più vecchio: {oldest_age:.1f}h")
     
     total_new_posts = 0
     total_rejected = 0
@@ -788,7 +822,8 @@ def process_rss():
     print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA!")
     print(f"   📊 Aggiunti: {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS")
     print(f"   🚫 Scartati: {total_rejected} post (salvati in cache)")
-    print(f"   📋 Cache: {get_cache_stats()} URL in memoria")
+    final_cache_count, final_avg_age, final_oldest_age = get_cache_stats()
+    print(f"   📋 Cache: {final_cache_count} URL in memoria (età media: {final_avg_age:.1f}h)")
 
 if __name__ == "__main__":
     process_rss()
