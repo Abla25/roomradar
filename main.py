@@ -36,16 +36,18 @@ Analizza i post seguenti e restituisci un JSON valido per ognuno.
 Escludi tutti i post dove qualcuno CERCA una stanza o un appartamento,
 o post che non riguardano affitti reali, o post relativi ad affitti brevi per vacanza con prezzi per giornata. Gli unici post rilevanti sono quelli relativi ad inserzioni di camere/abitazioni che vengono messe in affitto.
 
+IMPORTANTE: Per tutti i campi, se l'informazione non è disponibile o non può essere estratta dal post, usa sempre "N/A" come valore. Non lasciare campi vuoti e non usare "Non specificato" o simili.
+
 Per ogni post pertinente, genera un dizionario con:
 {{
   "annuncio_rilevante": "SI" o "NO",
   "Titolo_parafrasato": "...",
   "Overview": "...",
   "Descrizione_originale": "...",
-  "Prezzo": "...",
-  "Zona": "...",
-  "Camere": "...",
-  "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5) (4 e 5 posono essere raggiunti solo se sono presenti foto e non sembri una truffa),
+  "Prezzo": "..." (usa "N/A" se non disponibile),
+  "Zona": "..." (usa "N/A" se non disponibile),
+  "Camere": "..." (usa "N/A" se non disponibile),
+  "Affidabilita": numero (0-5) (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa; 4 e 5 possono essere raggiunti solo se sono presenti foto e non sembri una truffa),
   "Motivo_Rating": "...",
 }}
 Rispondi SOLO con JSON. Nessun testo aggiuntivo.
@@ -422,8 +424,8 @@ def send_to_notion(data):
         print(f"✅ Aggiunto su Notion: {data['Titolo_parafrasato']} ({page_id})")
         return page_id
 
-def call_openrouter(posts_batch):
-    """Chiama il modello OpenRouter per un batch di post."""
+def call_openrouter(posts_batch, max_retries=3):
+    """Chiama il modello OpenRouter per un batch di post con retry e backoff fisso."""
     payload = {
         "model": MODEL_NAME,
         "messages": [
@@ -431,20 +433,34 @@ def call_openrouter(posts_batch):
             {"role": "user", "content": PROMPT_TEMPLATE.format(posts=json.dumps(posts_batch, ensure_ascii=False))}
         ]
     }
-    try:
-        r = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"},
-            json=payload
-        )
-        if r.status_code != 200:
-            print(f"❌ Errore API OpenRouter: {r.text}")
-            return None
-        data = r.json()
-        return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        print(f"❌ Errore chiamata OpenRouter: {e}")
-        return None
+    
+    for attempt in range(max_retries):
+        try:
+            r = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"},
+                json=payload
+            )
+            
+            if r.status_code == 429:
+                print(f"⏳ Rate limit raggiunto (tentativo {attempt + 1}/{max_retries}), attendo {BACKOFF_SECONDS} secondi...")
+                time.sleep(BACKOFF_SECONDS)
+                continue
+            elif r.status_code != 200:
+                print(f"❌ Errore API OpenRouter: {r.text}")
+                return None
+            
+            data = r.json()
+            return data["choices"][0]["message"]["content"]
+            
+        except Exception as e:
+            print(f"❌ Errore chiamata OpenRouter (tentativo {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                print(f"⏳ Attendo {BACKOFF_SECONDS} secondi prima del retry...")
+                time.sleep(BACKOFF_SECONDS)
+    
+    print(f"❌ Fallito dopo {max_retries} tentativi")
+    return None
 
 def process_rss():
     """Scarica e processa i post RSS."""
@@ -482,8 +498,20 @@ def process_rss():
         current_batch = posts[idx: idx + batch_size]
         print(f"📦 Elaboro batch da {len(current_batch)} post...")
         response_text = call_openrouter(current_batch)
-        parsed = parse_llm_json(response_text) if response_text else None
-
+        
+        # Se response_text è None, potrebbe essere dovuto a rate limiting
+        if response_text is None:
+            if batch_size > MIN_BATCH:
+                batch_size -= 1
+                print(f"↪ Retry riducendo batch a {batch_size}")
+                continue
+            else:
+                print("⚠️ Batch impossibile da elaborare, skip.")
+                idx += 1
+                batch_size = MAX_BATCH
+                continue
+        
+        parsed = parse_llm_json(response_text)
         if not parsed:
             if batch_size > MIN_BATCH:
                 batch_size -= 1
@@ -584,6 +612,8 @@ def process_rss():
 
         idx += batch_size
         batch_size = MAX_BATCH
+        # Assicura che ci siano sempre almeno BACKOFF_SECONDS tra le richieste
+        print(f"⏳ Attendo {BACKOFF_SECONDS} secondi prima del prossimo batch...")
         time.sleep(BACKOFF_SECONDS)
 
     # Fallback AI: per i soli post aggiunti con Zona presente ma senza Zona_macro dedotta
