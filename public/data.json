@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2025-08-18T21:23:29.586Z",
+  "generatedAt": "2025-08-18T21:36:16.936Z",
   "count": 48,
   "results": [
+    {
+      "id": "253b5f64-9329-8144-b191-c4647a633007",
+      "title": "Affitto stanza per ragazza",
+      "overview": "Stanza in affitto per ragazza a partire dal 1 settembre",
+      "description": "Se alquila 1 habitación para chica sola a partir 1 de septiembre por virrei amat o por fabra puig 350 con gastos wattsap 633975841",
+      "price": "350",
+      "zone": "Virrei Amat o Fabra Puig",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "Informazioni sufficienti, incluso prezzo e zona. Contatto disponibile.",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T21:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293673117531864/",
+      "status": "Attivo"
+    },
     {
       "id": "253b5f64-9329-81cf-a59d-f2f6e13f546e",
       "title": "Affitto camera individuale a Barcelona",
@@ -720,22 +736,6 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291485527750623/",
-      "status": "Attivo"
-    },
-    {
-      "id": "250b5f64-9329-81e3-b81f-c2727f653cf3",
-      "title": "Appartamento in affitto a Proslav",
-      "overview": "Appartamento di 170mq in affitto",
-      "description": "📣КВ. ПРОСЛАВ !!! 🏡ЕТАЖ ОТ КЪЩА !!! 📌170кв.м 📞0898333098",
-      "price": "Non specificato",
-      "zone": "Proslav",
-      "zoneMacro": "",
-      "rooms": "Non specificato",
-      "reliability": 3,
-      "reliabilityReason": "Informazioni insufficienti, mancanza di foto e dettagli",
-      "datePublished": "2025-08-15T12:58:00.000+00:00",
-      "dateAdded": "",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289539517945224/",
       "status": "Attivo"
     },
     {
