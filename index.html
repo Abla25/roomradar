@@ -1162,7 +1162,7 @@
     function populateFilters() {
       // Filtra solo i post attivi per popolare i filtri
       const activeListings = allListings.filter(l => l.status !== "Scaduto");
-      const zones = [...new Set(activeListings.map(l => l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || null)).filter(Boolean))].sort();
+      const zones = [...new Set(activeListings.map(l => l.zoneMacro || null).filter(Boolean))].sort();
 
       console.log("Zone disponibili:", zones);
 
@@ -1186,8 +1186,7 @@
           return false;
         }
         
-        const zoneLabel = l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || "");
-        const zoneMatch = !zone || zoneLabel === zone;
+        const zoneMatch = !zone || l.zoneMacro === zone;
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
         const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
         
@@ -1198,13 +1197,30 @@
           if (postDate) {
             const postDateObj = new Date(postDate);
             const now = new Date();
-            const daysDiff = Math.floor((now - postDateObj) / (1000 * 60 * 60 * 24));
+            
+            // Normalizza le date per confrontare solo la data (senza ora)
+            const postDateOnly = new Date(postDateObj.getFullYear(), postDateObj.getMonth(), postDateObj.getDate());
+            const nowDateOnly = new Date(now.getFullYear(), now.getMonth(), now.getDate());
             
             switch (dateFilter) {
-              case '1': dateMatch = daysDiff <= 1; break;
-              case '3': dateMatch = daysDiff <= 3; break;
-              case '7': dateMatch = daysDiff <= 7; break;
-              case '30': dateMatch = daysDiff <= 30; break;
+              case '1': // Oggi
+                dateMatch = postDateOnly.getTime() === nowDateOnly.getTime();
+                break;
+              case '3': // Ultimi 3 giorni
+                const threeDaysAgo = new Date(nowDateOnly);
+                threeDaysAgo.setDate(nowDateOnly.getDate() - 2); // -2 perché includiamo oggi
+                dateMatch = postDateOnly >= threeDaysAgo && postDateOnly <= nowDateOnly;
+                break;
+              case '7': // Ultima settimana
+                const sevenDaysAgo = new Date(nowDateOnly);
+                sevenDaysAgo.setDate(nowDateOnly.getDate() - 6); // -6 perché includiamo oggi
+                dateMatch = postDateOnly >= sevenDaysAgo && postDateOnly <= nowDateOnly;
+                break;
+              case '30': // Ultimo mese
+                const thirtyDaysAgo = new Date(nowDateOnly);
+                thirtyDaysAgo.setDate(nowDateOnly.getDate() - 29); // -29 perché includiamo oggi
+                dateMatch = postDateOnly >= thirtyDaysAgo && postDateOnly <= nowDateOnly;
+                break;
             }
           } else {
             // Se non c'è data, non mostrare per i filtri temporali
@@ -1336,7 +1352,7 @@
           
           <div class="card-meta">
             <span class="meta-tag price">Prezzo: ${l.price || "N/A"}</span>
-            <span class="meta-tag zone">Zona: ${l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || "N/A")}</span>
+            <span class="meta-tag zone">Zona: ${l.zoneMacro || (l.zone || "N/A")}</span>
           </div>
           
           ${l.overview ? `
