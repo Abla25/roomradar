@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-08-18T19:14:40.843Z",
-  "count": 59,
+  "generatedAt": "2025-08-18T19:58:39.987Z",
+  "count": 51,
   "results": [
     {
       "id": "253b5f64-9329-811b-aea5-efa086525e5c",
@@ -15,7 +15,8 @@
       "reliabilityReason": "Informazioni sufficienti ma senza foto e prezzo",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:50:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293348644230978/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293348644230978/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-8112-a704-ef3f74f139f9",
@@ -30,7 +31,8 @@
       "reliabilityReason": "Informazioni insufficienti e senza foto",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:50:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293373727561803/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293373727561803/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-8132-8425-d2b823b6ca1d",
@@ -45,67 +47,8 @@
       "reliabilityReason": "Il post sembra una vera offerta di affitto, ma non ci sono foto",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:49:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293419297557246/"
-    },
-    {
-      "id": "253b5f64-9329-816e-9702-d3f36889572e",
-      "title": "Affitto stanza individuale per ragazzo a Barcelona",
-      "overview": "Stanza individuale in affitto a Barcelona, zona Plaza Virrei Amat, con servizi inclusi",
-      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto 672027910 David.",
-      "price": "450 Euros",
-      "zone": "Plaza Virrei Amat, Barcelona",
-      "zoneMacro": "Gràcia",
-      "rooms": "1",
-      "reliability": 4,
-      "reliabilityReason": "Informazioni complete, foto disponibile, contatto telefonico disponibile",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T18:46:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293720694193773/"
-    },
-    {
-      "id": "253b5f64-9329-8195-b540-ffffe4a00c42",
-      "title": "Affitto stanza a 380 euro",
-      "overview": "Affitto di una stanza a 380 euro, disponibile dal 23 agosto",
-      "description": "Rento una habitación en 380 para ingreso el 23 de agosto.",
-      "price": "380 euro",
-      "zone": "Non specificata",
-      "zoneMacro": "",
-      "rooms": "1",
-      "reliability": 3,
-      "reliabilityReason": "Il post è un annuncio di affitto, ma non contiene informazioni sufficienti e non ci sono foto",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T18:45:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293755167523659/"
-    },
-    {
-      "id": "253b5f64-9329-81fe-9c41-ffa1353cce46",
-      "title": "Affitto stanza nel barrio di Gracia",
-      "overview": "Affitto di una stanza nel barrio di Gracia, solo per ragazzi singoli",
-      "description": "ALQUILO HABITACION EN EL BARRIO DE GRACIA , SOLO CHICOS , NO PAREJAS",
-      "price": "Non specificato",
-      "zone": "Gracia",
-      "zoneMacro": "Gràcia",
-      "rooms": "1",
-      "reliability": 2,
-      "reliabilityReason": "Il post è un annuncio di affitto, ma non contiene informazioni sufficienti e non ci sono foto",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T18:45:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293788994186943/"
-    },
-    {
-      "id": "253b5f64-9329-81d0-b0cc-f0925364767f",
-      "title": "Appartamento ammobiliato a Barcelona",
-      "overview": "Appartamento di 60m² con 2 camere da letto e bagno",
-      "description": "Piso amueblado , 2 habitaciones , 60 m² en Barcelona ( Calle de Mallorca ) 815 euro .\n\nContacto Whatsapp para una visita: +34 690 262 972\n\nApartamento de 60m2 en 3º piso con ascensor (salón) y (2 dormitorio y baño).\nSalón (sofá cama doble, mesa de café, mesa de comedor y silla, TV, luminaria y decoración)\nCocina abierta al salón (totalmente equipada: placa cerámica, nevera, lavavajillas, microondas, licuadora, etc.).\n\nContacto  Whatsapp para una visita más información y fotos:\n+34 690 262 972 \n\nGracias",
-      "price": "815 euro",
-      "zone": "Barcelona ( Calle de Mallorca )",
-      "zoneMacro": "Gràcia",
-      "rooms": "2",
-      "reliability": 5,
-      "reliabilityReason": "Il post contiene foto, contatti e informazioni dettagliate sull'appartamento, non sembra una truffa",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T18:43:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293864674179375/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293419297557246/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-811f-be4f-e551538fb8f8",
@@ -120,7 +63,8 @@
       "reliabilityReason": "L'annuncio contiene informazioni sulla zona, prezzo e disponibilità, ma non ci sono foto visibili e non è specificato il tipo di camera",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:42:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293906004175242/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293906004175242/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-8174-a316-e985fd34d566",
@@ -135,7 +79,8 @@
       "reliabilityReason": "L'annuncio contiene informazioni sulla zona, prezzo e disponibilità, ma non ci sono foto visibili e non è specificato il tipo di camera",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:42:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293907110841798/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293907110841798/",
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-8194-98ab-feb95e11b471",
@@ -150,67 +95,8 @@
       "reliabilityReason": "L'annuncio contiene informazioni sulla zona e sulla camera, ma non specifica il prezzo e non ci sono foto visibili",
       "datePublished": "",
       "dateAdded": "2025-08-18T18:42:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293928760839633/"
-    },
-    {
-      "id": "253b5f64-9329-81c0-96de-e7976aecf311",
-      "title": "Camera in affitto per coppie",
-      "overview": "Camera in affitto per coppie",
-      "description": "Habitación en alquiler para parejas",
-      "price": "",
-      "zone": "",
-      "zoneMacro": "",
-      "rooms": "",
-      "reliability": 2,
-      "reliabilityReason": "Mancanza di informazioni e foto",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T15:13:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293667127532463/"
-    },
-    {
-      "id": "253b5f64-9329-81b9-ad4e-cfee958dcae8",
-      "title": "Camera in affitto per coppi",
-      "overview": "Camera in affitto per coppi",
-      "description": "Habitación en alquiler para parejas , deja tu número de móvil  y te mando toda la información.",
-      "price": "Non specificato",
-      "zone": "Non specificata",
-      "zoneMacro": "",
-      "rooms": "1",
-      "reliability": 2,
-      "reliabilityReason": "Informazioni insufficienti e mancanza di foto o contatti chiari",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T13:30:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293667127532463/asd"
-    },
-    {
-      "id": "253b5f64-9329-8122-bbf7-e515630519a4",
-      "title": "Affitto appartamento studio amueblado",
-      "overview": "Appartamento studio amueblado in affitto a La Sagrada Familia, Barcelona",
-      "description": "Apartamento estudio  amueblado  , en  La sagrada familia ( Barcelona ).550€ por mes.\n\nContacto solo por Whatsapp: 0034690262972\n\nEstudio de 38m2 en 3º piso con ascensor , 1 salón , 1 dormitorio y baño, cocina Separada , Cuarto de ducha , WC . Tranquilo , Lavadora.\n\nContacto Whatsapp: 0034690262972\n\nCordialmente",
-      "price": "550€",
-      "zone": "La Sagrada Familia, Barcelona",
-      "zoneMacro": "",
-      "rooms": "1",
-      "reliability": 4,
-      "reliabilityReason": "Informazioni sufficienti, contiene foto e contatti",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T10:13:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293323814233461/"
-    },
-    {
-      "id": "253b5f64-9329-8113-9aa2-e3574af3a9aa",
-      "title": "Habitazione in affitto a coppia",
-      "overview": "Habitazione in affitto a coppia non fumatrice nella zona Clot",
-      "description": "Alquilo habitación a pareja no fumadora , disponible por zona Clot ,precio 500€ gastos incluidos,no pido fianza , enviar solo mensaje al 657406259",
-      "price": "500€",
-      "zone": "Clot",
-      "zoneMacro": "",
-      "rooms": "1",
-      "reliability": 3,
-      "reliabilityReason": "Informazioni sufficienti, prezzo ragionevole, ma mancano foto e contatti più dettagliati",
-      "datePublished": "",
-      "dateAdded": "2025-08-18T08:18:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293219270910582/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293928760839633/",
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-8175-85cf-f81ba1239dab",
@@ -225,7 +111,8 @@
       "reliabilityReason": "Informazioni sufficienti, contatto disponibile",
       "datePublished": "",
       "dateAdded": "2025-08-18T03:24:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292934617605714/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292934617605714/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-8162-88ae-eba260aba16e",
@@ -240,7 +127,8 @@
       "reliabilityReason": "Il post contiene un numero di telefono e una descrizione della zona, ma non specifica il prezzo e non contiene foto",
       "datePublished": "",
       "dateAdded": "2025-08-18T01:01:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292894820943027/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292894820943027/",
+      "status": "Attivo"
     },
     {
       "id": "253b5f64-9329-81a9-91ba-c593d0d902f5",
@@ -255,7 +143,8 @@
       "reliabilityReason": "Il post contiene un numero di telefono e una descrizione della zona, ma non specifica il prezzo e non contiene foto",
       "datePublished": "",
       "dateAdded": "2025-08-18T01:01:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292895117609664/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292895117609664/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-81f3-ba6f-f5344aa3f4ee",
@@ -270,7 +159,8 @@
       "reliabilityReason": "Informazioni sufficienti, foto presente, contatto non specificato",
       "datePublished": "",
       "dateAdded": "2025-08-17T22:10:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292822447616931/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292822447616931/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-8134-b665-f9c3383945e0",
@@ -285,7 +175,8 @@
       "reliabilityReason": "Informazioni sufficienti, ma mancano dettagli",
       "datePublished": "",
       "dateAdded": "2025-08-17T20:12:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292729040959605/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292729040959605/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-81b9-b471-c0c8874ca0e1",
@@ -300,7 +191,8 @@
       "reliabilityReason": "Mancanza di informazioni",
       "datePublished": "",
       "dateAdded": "2025-08-17T20:12:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292747867624389/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292747867624389/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-817d-ba9d-d200d2d04677",
@@ -315,7 +207,8 @@
       "reliabilityReason": "Il post è un'offerta di affitto e contiene una foto",
       "datePublished": "",
       "dateAdded": "2025-08-17T19:09:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292644080968101/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292644080968101/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-8101-a967-dd87d0ac189a",
@@ -330,7 +223,8 @@
       "reliabilityReason": "Informazioni insufficienti, mancano dettagli sul prezzo e sulle caratteristiche dell'appartamento",
       "datePublished": "",
       "dateAdded": "2025-08-17T19:08:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292708800961629/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292708800961629/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-818c-b3b2-e16492192daa",
@@ -345,7 +239,8 @@
       "reliabilityReason": "Informazioni sufficienti, ma mancano dettagli sul prezzo e sulle foto",
       "datePublished": "",
       "dateAdded": "2025-08-17T19:08:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292713220961187/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292713220961187/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-81f4-97c2-e85d4d79ac80",
@@ -360,7 +255,8 @@
       "reliabilityReason": "Il post sembra un annuncio di affitto, ma mancano informazioni sul prezzo e sulle camere. Inoltre, il tono del post è più personale che professionale.",
       "datePublished": "",
       "dateAdded": "2025-08-17T17:12:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292494207649755/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292494207649755/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-813f-a0df-e1b83a309dad",
@@ -375,7 +271,8 @@
       "reliabilityReason": "L'annuncio è breve e non contiene molte informazioni, ma sembra legittimo",
       "datePublished": "",
       "dateAdded": "2025-08-17T16:17:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292459037653272/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292459037653272/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-8173-8aab-ffa9250bcaa5",
@@ -390,7 +287,8 @@
       "reliabilityReason": "L'annuncio sembra affidabile, contiene informazioni dettagliate sulla camera e sui servizi inclusi, ed è presente un numero di telefono per contattare il proprietario.",
       "datePublished": "",
       "dateAdded": "2025-08-17T15:13:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292523007646875/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292523007646875/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-8121-a5ca-d5a8e8814311",
@@ -405,7 +303,8 @@
       "reliabilityReason": "Informazioni basilari, mancano dettagli sul prezzo e foto",
       "datePublished": "",
       "dateAdded": "2025-08-17T13:24:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292395970992912/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292395970992912/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-812e-af54-dd3a6f33c4a6",
@@ -420,7 +319,8 @@
       "reliabilityReason": "Mancanza di informazioni dettagliate e di foto",
       "datePublished": "",
       "dateAdded": "2025-08-17T12:29:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292329840999525/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292329840999525/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-8164-b277-de14a11540d7",
@@ -435,7 +335,8 @@
       "reliabilityReason": "Il post contiene una descrizione chiara dell'immobile e della zona, ma non specifica il prezzo o i contatti. Inoltre, ci sono limitazioni sulla durata del soggiorno.",
       "datePublished": "",
       "dateAdded": "2025-08-17T12:28:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292387944327048/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292387944327048/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-813a-9822-cc4a93b695cc",
@@ -450,7 +351,8 @@
       "reliabilityReason": "Il post contiene una descrizione dettagliata dell'immobile, un prezzo chiaro e un contatto per WhatsApp. Tuttavia, non ci sono informazioni aggiuntive sul proprietario o sulla condizione dell'immobile.",
       "datePublished": "",
       "dateAdded": "2025-08-17T12:28:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292413700991139/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292413700991139/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-814d-b377-d0e0f9060f8c",
@@ -465,7 +367,8 @@
       "reliabilityReason": "Mancanza di informazioni dettagliate, prezzo e zona non specificati",
       "datePublished": "",
       "dateAdded": "2025-08-17T10:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292277124338130/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292277124338130/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-81ac-9d9a-f0f7eb2deef5",
@@ -480,7 +383,8 @@
       "reliabilityReason": "Mancanza di informazioni dettagliate e di un prezzo specificato",
       "datePublished": "",
       "dateAdded": "2025-08-17T10:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292281514337691/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292281514337691/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-811a-9e6d-fe02ca6d5653",
@@ -495,7 +399,8 @@
       "reliabilityReason": "L'inserzione sembra seria, ma contiene poche informazioni e potrebbe essere discriminatrice nei confronti di certe categorie di persone.",
       "datePublished": "",
       "dateAdded": "2025-08-17T09:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292204027678773/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292204027678773/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-8114-a32c-f0a6c10ae7ae",
@@ -510,7 +415,8 @@
       "reliabilityReason": "L'inserzione sembra seria e contiene informazioni utili sulla posizione e sulla disponibilità dell'appartamento, ma non specifica il prezzo.",
       "datePublished": "",
       "dateAdded": "2025-08-17T09:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292219217677254/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292219217677254/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-818e-ad46-e8b413d327af",
@@ -525,7 +431,8 @@
       "reliabilityReason": "L'annuncio sembra serio, ma manca informazione sul prezzo",
       "datePublished": "",
       "dateAdded": "2025-08-17T08:23:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291773534388489/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291773534388489/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-8157-858e-cc31d05eba16",
@@ -540,7 +447,8 @@
       "reliabilityReason": "Il post sembra genuino, ma manca di informazioni dettagliate e di contatti diretti",
       "datePublished": "",
       "dateAdded": "2025-08-17T06:25:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291658691066640/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291658691066640/",
+      "status": "Attivo"
     },
     {
       "id": "252b5f64-9329-8154-bcbf-c78c3eedcd35",
@@ -555,7 +463,8 @@
       "reliabilityReason": "Informazioni sufficienti, contatto disponibile",
       "datePublished": "",
       "dateAdded": "2025-08-17T06:21:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292135241018985/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4292135241018985/",
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-819b-8d6b-f2187e6f14c2",
@@ -570,7 +479,8 @@
       "reliabilityReason": "Informazioni sufficienti, contatto disponibile via WhatsApp, ma mancano foto e altre informazioni",
       "datePublished": "",
       "dateAdded": "2025-08-17T01:17:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291862137712962/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291862137712962/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-8181-b6c4-e5926b233514",
@@ -585,7 +495,8 @@
       "reliabilityReason": "mancanza di informazioni sulla zona e sul prezzo",
       "datePublished": "",
       "dateAdded": "2025-08-16T23:15:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291633104402532/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291633104402532/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-81fd-9c40-c05f71179724",
@@ -600,7 +511,8 @@
       "reliabilityReason": "Il prezzo sembra ragionevole e l'inserzione contiene informazioni utili, ma non ci sono foto o contatti diretti",
       "datePublished": "",
       "dateAdded": "2025-08-16T21:13:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291735357725640/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291735357725640/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-81da-9d5e-c0ddd27eb6d7",
@@ -615,7 +527,8 @@
       "reliabilityReason": "Informazioni insufficienti, nessun prezzo o contatto specificato",
       "datePublished": "",
       "dateAdded": "2025-08-16T20:15:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291684431064066/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291684431064066/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8163-8c22-eabb281543b0",
@@ -630,7 +543,8 @@
       "reliabilityReason": "Contiene informazioni limitate, manca del prezzo e della zona. Contiene contatto telefonico",
       "datePublished": "",
       "dateAdded": "2025-08-16T20:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291686831063826/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291686831063826/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-8139-beb8-ff72722efd8f",
@@ -645,7 +559,8 @@
       "reliabilityReason": "Contiene informazioni utili, ma manca del prezzo e della zona. Contiene contatto WhatsApp",
       "datePublished": "",
       "dateAdded": "2025-08-16T20:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291689934396849/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291689934396849/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8172-8398-f203c3a73fcf",
@@ -660,7 +575,8 @@
       "reliabilityReason": "Informazioni sufficienti, contiene un numero di telefono per contattare",
       "datePublished": "",
       "dateAdded": "2025-08-16T18:18:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291571904408652/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291571904408652/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-81d7-987a-d6dd6bf3ba0a",
@@ -675,7 +591,8 @@
       "reliabilityReason": "Annuncio dettagliato con foto e contatti, sembra affidabile",
       "datePublished": "",
       "dateAdded": "2025-08-16T17:14:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291215541110955/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291215541110955/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8120-b054-da9a29de5ad5",
@@ -690,7 +607,8 @@
       "reliabilityReason": "Annuncio dettagliato con foto e contatto telefonico, sembra un affitto reale",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:17:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291201627779013/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291201627779013/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-81f9-a447-d5beb797c4ab",
@@ -705,7 +623,8 @@
       "reliabilityReason": "L'annuncio contiene informazioni dettagliate sulla stanza e sulla zona, oltre a un contatto WhatsApp per ulteriori informazioni. Tuttavia, non è specificato il prezzo.",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:17:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291212861111223/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291212861111223/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-8136-b7c8-cfa1fe4493f7",
@@ -720,7 +639,8 @@
       "reliabilityReason": "Informazioni sufficienti, ma mancanza di descrizione dettagliata dell'alloggio e di contatti oltre al prezzo e alla zona.",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:10:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291252204440622/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291252204440622/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-812f-9abf-c258dc874f1e",
@@ -735,7 +655,8 @@
       "reliabilityReason": "Mancanza di informazioni sul prezzo e sulla descrizione dettagliata dell'alloggio.",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:10:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291269234438919/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291269234438919/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8135-aa8e-c3252997f0ad",
@@ -750,7 +671,8 @@
       "reliabilityReason": "Annuncio pertinente, contiene descrizione e prezzo",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:09:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291275334438309/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291275334438309/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8105-889d-eb5001f375fd",
@@ -765,7 +687,8 @@
       "reliabilityReason": "Annuncio pertinente, contiene foto e descrizione",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:09:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291288844436958/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291288844436958/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-81a1-ba05-de3c05d151a0",
@@ -780,7 +703,8 @@
       "reliabilityReason": "Informazioni complete e dettagliate, ma mancano i contatti",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:08:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291320717767104/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291320717767104/",
+      "status": "Scaduto"
     },
     {
       "id": "251b5f64-9329-81b1-a79b-d7fe4d416627",
@@ -795,7 +719,8 @@
       "reliabilityReason": "Il post contiene una foto e informazioni sulla zona, ma non specifica il prezzo",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:08:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291332851099224/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291332851099224/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-81e9-8538-cf53935a0641",
@@ -810,7 +735,8 @@
       "reliabilityReason": "Informazioni insufficienti, nessun prezzo specificato",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291480244417818/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291480244417818/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-8123-aad6-fc4107be3031",
@@ -825,7 +751,8 @@
       "reliabilityReason": "Informazioni sufficienti, prezzo specificato, servizi inclusi",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291482931084216/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291482931084216/",
+      "status": "Attivo"
     },
     {
       "id": "251b5f64-9329-816a-8982-fec26227b205",
@@ -840,7 +767,8 @@
       "reliabilityReason": "Informazioni insufficienti, nessun prezzo specificato",
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291485527750623/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4291485527750623/",
+      "status": "Attivo"
     },
     {
       "id": "250b5f64-9329-81e3-b81f-c2727f653cf3",
@@ -855,7 +783,8 @@
       "reliabilityReason": "Informazioni insufficienti, mancanza di foto e dettagli",
       "datePublished": "2025-08-15T12:58:00.000+00:00",
       "dateAdded": "",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289539517945224/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289539517945224/",
+      "status": "Attivo"
     },
     {
       "id": "250b5f64-9329-81c8-a1de-d510322c082e",
@@ -870,7 +799,8 @@
       "reliabilityReason": "L'annuncio sembra verosimile, ma mancano informazioni importanti come il prezzo e la disponibilità",
       "datePublished": "2025-08-15T12:57:00.000+00:00",
       "dateAdded": "",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289610307938145/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289610307938145/",
+      "status": "Attivo"
     },
     {
       "id": "250b5f64-9329-81ff-903f-c2798816b3f4",
@@ -885,7 +815,8 @@
       "reliabilityReason": "L'annuncio sembra serio e contiene informazioni utili, ma non è possibile verificare l'autenticità",
       "datePublished": "2025-08-15T12:57:00.000+00:00",
       "dateAdded": "",
-      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289628847936291/"
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4289628847936291/",
+      "status": "Scaduto"
     }
   ]
 }
