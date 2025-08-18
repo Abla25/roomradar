@@ -270,7 +270,8 @@ def send_to_notion(data):
             "Affidabilita": {"number": float(data["Affidabilita"]) if data["Affidabilita"] else None},
             "Motivo_Rating": {"rich_text": [{"text": {"content": data["Motivo_Rating"]}}]},
             "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
-            "Link": {"url": data.get("link", "")}
+            "Link": {"url": data.get("link", "")},
+            "Status": {"status": {"name": "Attivo"}}
         }
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
