@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2025-08-18T19:58:39.987Z",
-  "count": 51,
+  "generatedAt": "2025-08-18T20:18:24.338Z",
+  "count": 53,
   "results": [
+    {
+      "id": "253b5f64-9329-812f-b400-d202735950df",
+      "title": "Camera in affitto per coppie",
+      "overview": "Camera in affitto per coppie, lasciare il proprio numero di cellulare per ulteriori informazioni",
+      "description": "Habitación en alquiler para parejas , deja tu número de móvil  y te mando toda la información.",
+      "price": "Non specificato",
+      "zone": "Non specificata",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni e di foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T20:15:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293667127532463/",
+      "status": "Attivo"
+    },
+    {
+      "id": "253b5f64-9329-81b5-8798-dd6a4d55e055",
+      "title": "Affitto stanza nel quartiere di Gracia",
+      "overview": "Stanza in affitto nel quartiere di Gracia, solo uomini",
+      "description": "ALQUILO HABITACION EN EL BARRIO DE GRACIA , SOLO CHICOS , NO PAREJAS",
+      "price": "Non specificato",
+      "zone": "Gracia",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni e foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T20:14:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293788994186943/",
+      "status": "Attivo"
+    },
     {
       "id": "253b5f64-9329-811b-aea5-efa086525e5c",
       "title": "Camera in affitto a Horta-Guinardó",
