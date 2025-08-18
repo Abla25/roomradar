@@ -29,11 +29,23 @@ HEADERS_NOTION = {
     "Notion-Version": "2022-06-28"
 }
 
-# Prompt migliorato per eliminare post di ricerca camere
+# Prompt migliorato per eliminare post di ricerca camere e classificare la macro-zona
 PROMPT_TEMPLATE = """
 Analizza i post seguenti e restituisci un JSON valido per ognuno.
 Escludi tutti i post dove qualcuno CERCA una stanza o un appartamento,
 o post che non riguardano affitti reali. Gli unici post rilevanti sono quelli relativi ad inserzioni di camere/abitazioni che vengono messe in affitto.
+
+Assegna inoltre la macro-zona di Barcellona in cui ricade l'annuncio scegliendo SOLO tra queste categorie predefinite (se non deducibile usa stringa vuota):
+- Ciutat Vella
+- Eixample
+- Gràcia
+- Horta Guinardó
+- Les Corts
+- Nou Barris
+- Sant Andreu
+- Sant Martí
+- Sants-Montjuïc
+- Sarrià-Sant Gervasi
 
 Per ogni post pertinente, genera un dizionario con:
 {{
@@ -43,6 +55,7 @@ Per ogni post pertinente, genera un dizionario con:
   "Descrizione_originale": "...",
   "Prezzo": "...",
   "Zona": "...",
+  "Zona_macro": una delle macro-zone elencate sopra (oppure "" se non determinabile),
   "Camere": "...",
   "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5) (4 e 5 posono essere raggiunti solo se sono presenti foto e non sembri una truffa),
   "Motivo_Rating": "...",
@@ -279,6 +292,7 @@ def send_to_notion(data):
     descr = data.get("Descrizione_originale", "")
     prezzo = data.get("Prezzo", "")
     zona = data.get("Zona", "")
+    zona_macro = data.get("Zona_macro", "")
     camere = data.get("Camere", "")
     affidabilita = safe_number(data.get("Affidabilita"))
     motivo = data.get("Motivo_Rating", "")
@@ -291,6 +305,7 @@ def send_to_notion(data):
             "Descrizione_originale": {"rich_text": [{"text": {"content": descr}}]},
             "Prezzo": {"rich_text": [{"text": {"content": prezzo}}]},
             "Zona": {"rich_text": [{"text": {"content": zona}}]},
+            "Zona_macro": {"rich_text": [{"text": {"content": zona_macro}}]},
             "Camere": {"rich_text": [{"text": {"content": camere}}]},
             "Affidabilita": {"number": affidabilita},
             "Motivo_Rating": {"rich_text": [{"text": {"content": motivo}}]},
@@ -401,6 +416,7 @@ def process_rss():
                             "Descrizione_originale": new_descr,
                             "Prezzo": post_data.get("Prezzo", ""),
                             "Zona": post_data.get("Zona", ""),
+                            "Zona_macro": post_data.get("Zona_macro", ""),
                             "Motivo_Rating": post_data.get("Motivo_Rating", ""),
                             "Affidabilita": post_data.get("Affidabilita", None),
                             "Overview": post_data.get("Overview", ""),
@@ -435,6 +451,7 @@ def process_rss():
                                 "Descrizione_originale": post_data.get("Descrizione_originale", ""),
                                 "Prezzo": post_data.get("Prezzo", ""),
                                 "Zona": post_data.get("Zona", ""),
+                                "Zona_macro": post_data.get("Zona_macro", ""),
                                 "Status": "",
                                 "Link": post_data.get("link", "")
                             })

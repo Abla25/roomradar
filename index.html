@@ -431,6 +431,20 @@
       position: relative;
     }
 
+    /* Variazioni colore rating */
+    .card-rating.low {
+      background: #fee2e2; /* rosso chiaro */
+      color: #b91c1c;      /* rosso scuro */
+    }
+    .card-rating.mid {
+      background: #fff3e0; /* giallo chiaro */
+      color: #f57c00;      /* arancione */
+    }
+    .card-rating.high {
+      background: #e8f5e8; /* verde chiaro */
+      color: #388e3c;      /* verde */
+    }
+
     .rating-info {
       position: absolute;
       left: -18px;
@@ -1144,7 +1158,7 @@
     }
 
     function populateFilters() {
-      const zones = [...new Set(allListings.map(l => l.zone).filter(Boolean))].sort();
+      const zones = [...new Set(allListings.map(l => l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || null)).filter(Boolean))].sort();
 
       console.log("Zone disponibili:", zones);
 
@@ -1163,7 +1177,8 @@
       console.log("Filtri attivi:", { zone, minReliability, maxPrice, dateFilter });
 
       filteredListings = allListings.filter(l => {
-        const zoneMatch = !zone || l.zone === zone;
+        const zoneLabel = l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || "");
+        const zoneMatch = !zone || zoneLabel === zone;
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
         const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
         
@@ -1280,10 +1295,13 @@
           }
         };
 
+        const rating = parseInt(l.reliability || 0, 10);
+        const ratingClass = rating >= 4 ? 'high' : (rating <= 2 ? 'low' : 'mid');
+
         div.innerHTML = `
           <div class="card-header">
             <h3 class="card-title" onclick="window.open('${l.link}', '_blank')">${l.title || "Senza titolo"}</h3>
-            <div class="card-rating">
+            <div class="card-rating ${ratingClass}">
               ${l.reliabilityReason ? `
                 <div class="rating-info" title="Motivo dell'affidabilità">
                   i
@@ -1303,7 +1321,7 @@
           
           <div class="card-meta">
             <span class="meta-tag price">Prezzo: ${l.price || "N/A"}</span>
-            <span class="meta-tag zone">Zona: ${l.zone || "N/A"}</span>
+            <span class="meta-tag zone">Zona: ${l.zoneMacro ? `${l.zoneMacro}${l.zone ? ", " + l.zone : ""}` : (l.zone || "N/A")}</span>
           </div>
           
           ${l.overview ? `

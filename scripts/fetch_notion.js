@@ -71,6 +71,7 @@ function parseNotionPage(page) {
     description: get("Descrizione_originale", "rich"),
     price: get("Prezzo", "rich"),
     zone: get("Zona", "rich"),
+    zoneMacro: get("Zona_macro", "rich"),
     rooms: get("Camere", "rich"),
     reliability: get("Affidabilita", "number") || 0,
     reliabilityReason: get("Motivo_Rating", "rich"),
