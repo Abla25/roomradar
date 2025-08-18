@@ -56,11 +56,14 @@ def save_rejected_cache(cache_data):
     try:
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
             json.dump(cache_data, f, ensure_ascii=False, indent=2)
+        print(f"💾 Cache salvata in: {os.path.abspath(CACHE_FILE)}")
+        print(f"📊 URL in cache: {len(cache_data['urls'])}")
     except Exception as e:
         print(f"⚠️ Errore salvataggio cache: {e}")
 
 def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
     """Aggiunge un URL alla cache degli scartati con logica FIFO."""
+    print(f"🔄 Aggiungendo URL alla cache: {url} (motivo: {reason})")
     cache_data = load_rejected_cache()
     
     # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
@@ -824,6 +827,15 @@ def process_rss():
     print(f"   🚫 Scartati: {total_rejected} post (salvati in cache)")
     final_cache_count, final_avg_age, final_oldest_age = get_cache_stats()
     print(f"   📋 Cache: {final_cache_count} URL in memoria (età media: {final_avg_age:.1f}h)")
+    
+    # Verifica finale del file cache
+    if os.path.exists(CACHE_FILE):
+        file_size = os.path.getsize(CACHE_FILE)
+        print(f"✅ File cache esistente: {CACHE_FILE} ({file_size} bytes)")
+    else:
+        print(f"❌ File cache NON trovato: {CACHE_FILE}")
+        if total_rejected > 0:
+            print(f"⚠️ ATTENZIONE: {total_rejected} post scartati ma file cache non trovato!")
 
 if __name__ == "__main__":
     process_rss()
