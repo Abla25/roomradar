@@ -1,9 +1,9 @@
 name: CARICHIIII
 
-on:
-  schedule:
+# on:
+#  schedule:
    # - cron: "0 * * * *"   # ogni ora
-  workflow_dispatch:      # avvio manuale
+#  workflow_dispatch:      # avvio manuale
 
 jobs:
   run-script:
