@@ -5,6 +5,7 @@ import time
 import feedparser
 import re
 import unicodedata
+from datetime import datetime, timedelta
 from rapidfuzz import fuzz
 from zone_mapping import BARCELONA_MACRO_ZONES, MACRO_ZONE_MAPPING
 
@@ -13,6 +14,65 @@ NOTION_API_KEY = os.environ["NOTION_API_KEY"]
 NOTION_DATABASE_ID = os.environ["NOTION_DATABASE_ID"]
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free"
+
+# Cache per URL scartati dall'AI
+CACHE_FILE = "rejected_urls_cache.json"
+CACHE_CLEANUP_HOURS = 48
+MAX_CACHE_SIZE = 1000  # Massimo numero di URL in cache
+
+def load_rejected_cache():
+    """Carica la cache degli URL scartati dall'AI."""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # Controlla se la cache è scaduta (più di 24 ore)
+                if 'timestamp' in data:
+                    cache_time = datetime.fromisoformat(data['timestamp'])
+                    if datetime.now() - cache_time > timedelta(hours=CACHE_CLEANUP_HOURS):
+                        print(f"🗑️ Cache scaduta ({CACHE_CLEANUP_HOURS}h), pulizia automatica...")
+                        return {'urls': {}, 'timestamp': datetime.now().isoformat()}
+                return data
+        except Exception as e:
+            print(f"⚠️ Errore caricamento cache: {e}")
+    return {'urls': {}, 'timestamp': datetime.now().isoformat()}
+
+def save_rejected_cache(cache_data):
+    """Salva la cache degli URL scartati dall'AI."""
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache_data, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"⚠️ Errore salvataggio cache: {e}")
+
+def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
+    """Aggiunge un URL alla cache degli scartati."""
+    cache_data = load_rejected_cache()
+    
+    # Se la cache è piena, rimuovi gli URL più vecchi
+    if len(cache_data['urls']) >= MAX_CACHE_SIZE:
+        print(f"🗑️ Cache piena ({MAX_CACHE_SIZE} URL), rimozione URL più vecchi...")
+        # Ordina per timestamp e rimuovi i più vecchi
+        sorted_urls = sorted(cache_data['urls'].items(), 
+                           key=lambda x: x[1]['timestamp'])
+        # Mantieni solo i più recenti
+        cache_data['urls'] = dict(sorted_urls[-MAX_CACHE_SIZE//2:])
+    
+    cache_data['urls'][url] = {
+        'reason': reason,
+        'timestamp': datetime.now().isoformat()
+    }
+    save_rejected_cache(cache_data)
+
+def is_url_rejected(url):
+    """Controlla se un URL è nella cache degli scartati."""
+    cache_data = load_rejected_cache()
+    return url in cache_data['urls']
+
+def get_cache_stats():
+    """Restituisce statistiche sulla cache."""
+    cache_data = load_rejected_cache()
+    return len(cache_data['urls'])
 
 # Configurazione RSS URLs - Supporto per multiple feed
 RSS_URLS = []
@@ -521,7 +581,12 @@ def process_rss():
     # Recupera i link esistenti all'inizio
     existing_links = get_existing_links()
     
+    # Carica cache degli URL scartati
+    cache_stats = get_cache_stats()
+    print(f"📋 Cache URL scartati: {cache_stats} URL in memoria")
+    
     total_new_posts = 0
+    total_rejected = 0
     
     for i, rss_url in enumerate(RSS_URLS, 1):
         print(f"\n📡 Processando feed RSS {i}/{len(RSS_URLS)}: {rss_url}")
@@ -544,15 +609,19 @@ def process_rss():
             
         posts = []
         
-        # Filtra i post già esistenti prima di elaborarli
+        # Filtra i post già esistenti e quelli nella cache degli scartati
         for entry in feed.entries:
             link = entry.link
             if link not in existing_links:
-                posts.append({
-                    "title": entry.title,
-                    "link": link,
-                    "summary": entry.summary if "summary" in entry else ""
-                })
+                if is_url_rejected(link):
+                    print(f"🚫 Post scartato (in cache): {link}")
+                    total_rejected += 1
+                else:
+                    posts.append({
+                        "title": entry.title,
+                        "link": link,
+                        "summary": entry.summary if "summary" in entry else ""
+                    })
             else:
                 print(f"⏭️ Post già esistente, skip: {link}")
         
@@ -681,6 +750,9 @@ def process_rss():
                                 print("⚠️ Creazione pagina fallita")
                     else:
                         print(f"❌ Post non rilevante: {original_post['title']}")
+                        # Aggiungi alla cache degli scartati
+                        add_to_rejected_cache(original_post['link'], "AI_NOT_RELEVANT")
+                        total_rejected += 1
             else:
                 print("⚠️ Risultato inatteso dal modello.")
 
@@ -713,7 +785,10 @@ def process_rss():
         print(f"🎉 Elaborazione completata per feed {i}! Aggiunti {new_posts_added} nuovi annunci.")
         total_new_posts += new_posts_added
 
-    print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA! Aggiunti {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS.")
+    print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA!")
+    print(f"   📊 Aggiunti: {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS")
+    print(f"   🚫 Scartati: {total_rejected} post (salvati in cache)")
+    print(f"   📋 Cache: {get_cache_stats()} URL in memoria")
 
 if __name__ == "__main__":
     process_rss()
