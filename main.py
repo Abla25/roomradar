@@ -3,6 +3,8 @@ import requests
 import json
 import time
 import feedparser
+import re
+from rapidfuzz import fuzz
 
 # CONFIGURAZIONE
 NOTION_API_KEY = os.environ["NOTION_API_KEY"]
@@ -15,6 +17,11 @@ RSS_URL = os.environ["RSS_URL"]
 MAX_BATCH = 3
 MIN_BATCH = 1
 BACKOFF_SECONDS = 62
+
+# Soglie similarità per deduplica (setup semplice)
+HIGH_DUP_THRESHOLD = 0.93  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
+AI_CHECK_THRESHOLD_LOW = 0.83  # non usato ora (DB piccolo), ma lasciato per futuro
+ENABLE_AI_DUP_CHECK = False
 
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
@@ -37,7 +44,7 @@ Per ogni post pertinente, genera un dizionario con:
   "Prezzo": "...",
   "Zona": "...",
   "Camere": "...",
-  "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5),
+  "Affidabilita" (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa,...): numero (0-5) (4 e 5 posono essere raggiunti solo se sono presenti foto e non sembri una truffa),
   "Motivo_Rating": "...",
 }}
 Rispondi SOLO con JSON. Nessun testo aggiuntivo.
@@ -93,6 +100,147 @@ def get_existing_links():
     print(f"📋 Trovati {len(existing_links)} link esistenti nel database")
     return existing_links
 
+def _extract_text_property(prop: dict) -> str:
+    """Estrae plain text da una property Notion di tipo title/rich_text."""
+    if not isinstance(prop, dict):
+        return ""
+    if "title" in prop:
+        return " ".join([t.get("plain_text", "") for t in prop.get("title", [])]).strip()
+    if "rich_text" in prop:
+        return " ".join([t.get("plain_text", "") for t in prop.get("rich_text", [])]).strip()
+    return ""
+
+def _extract_status_name(prop: dict) -> str:
+    if not isinstance(prop, dict):
+        return ""
+    return prop.get("status", {}).get("name", "") or ""
+
+def normalize_text(text: str) -> str:
+    text = (text or "").lower()
+    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r"[\W_]+", " ", text, flags=re.UNICODE)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def similarity_score(a: str, b: str) -> float:
+    a_norm, b_norm = normalize_text(a), normalize_text(b)
+    if not a_norm or not b_norm:
+        return 0.0
+    return fuzz.token_set_ratio(a_norm, b_norm) / 100.0
+
+def get_existing_pages():
+    """Recupera pagine esistenti con campi utili per il confronto duplicati."""
+    pages = []
+    has_more = True
+    next_cursor = None
+
+    while has_more:
+        query_payload = {
+            "page_size": 100
+        }
+        if next_cursor:
+            query_payload["start_cursor"] = next_cursor
+
+        try:
+            response = requests.post(
+                f"https://api.notion.com/v1/databases/{NOTION_DATABASE_ID}/query",
+                headers=HEADERS_NOTION,
+                json=query_payload
+            )
+            if response.status_code != 200:
+                print(f"❌ Errore recupero pagine esistenti: {response.text}")
+                break
+
+            data = response.json()
+            for page in data.get("results", []):
+                props = page.get("properties", {})
+                pages.append({
+                    "id": page.get("id"),
+                    "created_time": page.get("created_time"),
+                    "Titolo_parafrasato": _extract_text_property(props.get("Titolo_parafrasato", {})),
+                    "Descrizione_originale": _extract_text_property(props.get("Descrizione_originale", {})),
+                    "Prezzo": _extract_text_property(props.get("Prezzo", {})),
+                    "Zona": _extract_text_property(props.get("Zona", {})),
+                    "Status": _extract_status_name(props.get("Status", {})),
+                    "Link": props.get("Link", {}).get("url", "")
+                })
+
+            has_more = data.get("has_more", False)
+            next_cursor = data.get("next_cursor")
+        except Exception as e:
+            print(f"❌ Errore durante il recupero delle pagine: {e}")
+            break
+
+    print(f"📋 Pagine caricate per confronto duplicati: {len(pages)}")
+    return pages
+
+def mark_status_scaduto(page_id: str):
+    url = f"https://api.notion.com/v1/pages/{page_id}"
+    payload = {"properties": {"Status": {"status": {"name": "Scaduto"}}}}
+    res = requests.patch(url, headers=HEADERS_NOTION, json=payload)
+    if res.status_code != 200:
+        print(f"❌ Errore aggiornamento Status=Scaduto per {page_id}: {res.text}")
+    else:
+        print(f"🗂️ Impostato Status=Scaduto per pagina {page_id}")
+
+def find_best_duplicate(existing_pages: list, new_descr: str):
+    """Ritorna (best_page, best_score) se trova un candidato duplicato, altrimenti (None, 0)."""
+    best_page = None
+    best_score = 0.0
+    for p in existing_pages:
+        descr = p.get("Descrizione_originale", "")
+        if not descr:
+            continue
+        score = similarity_score(new_descr, descr)
+        if score > best_score:
+            best_score = score
+            best_page = p
+    return best_page, best_score
+
+def ai_same_listing_check(a_post: dict, b_post: dict) -> dict | None:
+    """Verifica AI pairwise se due annunci descrivono lo stesso immobile."""
+    prompt = f"""
+Confronta i due annunci qui sotto. Rispondi SOLO JSON:
+{{
+  "same_listing": "SI" o "NO",
+  "confidence": numero tra 0 e 1,
+  "reason": "..."
+}}
+
+Annuncio A:
+Titolo: {a_post.get("Titolo_parafrasato","")}
+Zona: {a_post.get("Zona","")}
+Prezzo: {a_post.get("Prezzo","")}
+Descrizione: {a_post.get("Descrizione_originale","")}
+
+Annuncio B:
+Titolo: {b_post.get("Titolo_parafrasato","")}
+Zona: {b_post.get("Zona","")}
+Prezzo: {b_post.get("Prezzo","")}
+Descrizione: {b_post.get("Descrizione_originale","")}
+"""
+    payload = {
+        "model": MODEL_NAME,
+        "messages": [
+            {"role": "system", "content": "Sei un assistente che decide se due annunci immobiliari descrivono la stessa stanza/immobile."},
+            {"role": "user", "content": prompt}
+        ]
+    }
+    try:
+        r = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"},
+            json=payload
+        )
+        if r.status_code != 200:
+            print(f"❌ Errore AI pairwise: {r.text}")
+            return None
+        content = r.json()["choices"][0]["message"]["content"]
+        return parse_llm_json(content)
+    except Exception as e:
+        print(f"❌ Errore chiamata AI pairwise: {e}")
+        return None
+
 def parse_llm_json(raw_text, retries=3):
     """Tenta di parsare JSON da testo grezzo con retry."""
     for attempt in range(retries):
@@ -109,7 +257,7 @@ def parse_llm_json(raw_text, retries=3):
     return None
 
 def send_to_notion(data):
-    """Invia i dati a Notion."""
+    """Invia i dati a Notion. Restituisce l'ID pagina se creato, altrimenti None."""
     payload = {
         "parent": {"database_id": NOTION_DATABASE_ID},
         "properties": {
@@ -128,8 +276,12 @@ def send_to_notion(data):
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
         print(f"❌ Errore aggiunta Notion: {res.text}")
+        return None
     else:
-        print(f"✅ Aggiunto su Notion: {data['Titolo_parafrasato']}")
+        page = res.json()
+        page_id = page.get("id")
+        print(f"✅ Aggiunto su Notion: {data['Titolo_parafrasato']} ({page_id})")
+        return page_id
 
 def call_openrouter(posts_batch):
     """Chiama il modello OpenRouter per un batch di post."""
@@ -204,11 +356,64 @@ def process_rss():
 
         # Se parsed è una lista di risultati
         if isinstance(parsed, list):
+            # Carica pagine esistenti (non "Scaduto") una volta per batch
+            existing_pages = get_existing_pages()
+            active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
+
             for post_data, original_post in zip(parsed, current_batch):
                 if post_data.get("annuncio_rilevante") == "SI":
                     post_data["link"] = original_post["link"]
-                    send_to_notion(post_data)
-                    new_posts_added += 1
+
+                    # 1) dedupe intra-batch semplice: usa la descrizione
+                    new_descr = post_data.get("Descrizione_originale", "")
+                    best_page, best_score = find_best_duplicate(active_pages, new_descr)
+
+                    if best_page and best_score >= HIGH_DUP_THRESHOLD:
+                        # Trovato duplicato forte: manteniamo quello più recente
+                        new_item = {
+                            "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
+                            "Descrizione_originale": new_descr,
+                            "Prezzo": post_data.get("Prezzo", ""),
+                            "Zona": post_data.get("Zona", ""),
+                            "Motivo_Rating": post_data.get("Motivo_Rating", ""),
+                            "Affidabilita": post_data.get("Affidabilita", None),
+                            "Overview": post_data.get("Overview", ""),
+                            "link": post_data.get("link", ""),
+                        }
+                        # Crea la nuova pagina
+                        new_page_id = send_to_notion(new_item)
+                        if new_page_id:
+                            # Decidi chi è più vecchio: usa created_time disponibile su best_page
+                            old_page_id = best_page.get("id")
+                            # Confronto semplice: se best_page ha created_time < ora corrente → è più vecchio, marchiamo quello
+                            # In assenza di created_time della nuova pagina, consideriamo best_page come quello vecchio
+                            mark_status_scaduto(old_page_id)
+                            # Aggiorna cache in RAM per non riproporlo
+                            for p in active_pages:
+                                if p.get("id") == old_page_id:
+                                    p["Status"] = "Scaduto"
+                                    break
+                            new_posts_added += 1
+                        else:
+                            print("⚠️ Creazione nuova pagina fallita, skip marcatura duplicati")
+                    else:
+                        # Nessun duplicato forte: inseriamo normalmente
+                        page_id = send_to_notion(post_data)
+                        if page_id:
+                            new_posts_added += 1
+                            # Aggiungi alla lista per confronti successivi in questo batch
+                            active_pages.append({
+                                "id": page_id,
+                                "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
+                                "Descrizione_originale": post_data.get("Descrizione_originale", ""),
+                                "Prezzo": post_data.get("Prezzo", ""),
+                                "Zona": post_data.get("Zona", ""),
+                                "Status": "",
+                                "Link": post_data.get("link", "")
+                            })
+                        else:
+                            print("⚠️ Creazione pagina fallita")
                 else:
                     print(f"❌ Post non rilevante: {original_post['title']}")
         else:
