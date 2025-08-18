@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2025-08-18T10:20:33.634Z",
-  "count": 47,
+  "generatedAt": "2025-08-18T11:19:00.674Z",
+  "count": 50,
   "results": [
+    {
+      "id": "253b5f64-9329-8180-b6e5-f6305834d546",
+      "title": "Habitación para pareja en alquiler",
+      "overview": "Habitación disponible para pareja sin niños en zona Can Vidalet",
+      "description": "El 1de setiembre estará disponible una habitación para pareja sin niños,de preferencia latinos zona can vidalet",
+      "price": "",
+      "zone": "Can Vidalet",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni insufficienti, non ci sono contatti o foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T11:14:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293188940913615/"
+    },
+    {
+      "id": "253b5f64-9329-8120-8dd2-d7f851fdc346",
+      "title": "Camera in affitto a Horta-Guinardó",
+      "overview": "Camera con letto matrimoniale, vicino alla metropolitana El Carmel",
+      "description": "¡SE ALQUILA HABITACIÓN! \n📍 Horta-Guinardó – El Carmel (Barcelona) 🛏️Cama doble\n🚇 A pocos minutos del metro El Carmel.",
+      "price": "Non specificato",
+      "zone": "Horta-Guinardó",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Non ci sono foto, ma il contatto è presente e la descrizione è dettagliata",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T11:11:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293348644230978/"
+    },
+    {
+      "id": "253b5f64-9329-81bd-9167-c13d8288099c",
+      "title": "Camera in affitto a Igualada",
+      "overview": "Camera in appartamento doppio per coppie, senza bambini",
+      "description": "Alquilo habitación en igualada en apartamento dúplex parejas asepto nenes para alquilar ya",
+      "price": "Non specificato",
+      "zone": "Igualada",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Non ci sono foto, ma il contatto è presente",
+      "datePublished": "",
+      "dateAdded": "2025-08-18T11:11:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4293373727561803/"
+    },
     {
       "id": "253b5f64-9329-8122-bbf7-e515630519a4",
       "title": "Affitto appartamento studio amueblado",
