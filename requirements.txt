@@ -2,6 +2,3 @@ requests
 feedparser
 rapidfuzz
 beautifulsoup4
-flask
-flask-cors
-python-dotenv

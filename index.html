@@ -110,7 +110,7 @@
       max-width: 1000px;
       margin: 0 auto;
       padding: 0 2rem;
-      padding-bottom: 4rem;
+      margin-bottom: 3rem;
     }
 
     .filters {
@@ -653,8 +653,6 @@
       padding: 0.25rem 0.75rem;
     }
 
-
-
     .card-overview-ai {
       background: #f8fafc;
       border-left: 3px solid #007AFF;
@@ -782,78 +780,6 @@
       align-items: center;
       gap: 1rem;
     }
-
-    .report-button {
-      background: none;
-      border: none;
-      color: #86868b;
-      cursor: pointer;
-      padding: 0.5rem;
-      border-radius: 6px;
-      transition: all 0.2s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      font-family: inherit;
-    }
-
-    .report-button:hover {
-      background: #f2f2f7;
-      color: #ff3b30;
-    }
-
-    .report-button.reported {
-      color: #ff3b30;
-      background: #fff5f5;
-    }
-
-    .report-button svg {
-      width: 16px;
-      height: 16px;
-      transition: all 0.2s ease;
-    }
-
-    .report-button:hover svg {
-      transform: scale(1.1);
-    }
-
-    .report-tooltip {
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #1d1d1f;
-      color: white;
-      padding: 0.5rem 0.75rem;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      font-weight: 500;
-      white-space: nowrap;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.2s ease;
-      z-index: 20;
-      margin-bottom: 8px;
-      font-family: inherit;
-    }
-
-    .report-tooltip::after {
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      border: 5px solid transparent;
-      border-top-color: #1d1d1f;
-    }
-
-    .report-button:hover .report-tooltip {
-      opacity: 1;
-      visibility: visible;
-    }
-
-
 
     .action-left {
       display: flex;
@@ -1185,8 +1111,6 @@
     
     <div id="pagination" class="pagination-controls" style="display: none;"></div>
   </div>
-
-
 
   <script>
     let allListings = [];
@@ -1617,17 +1541,9 @@
             </div>
             
             <div class="card-actions">
-              <div class="action-left">
-                <a href="${l.link}" target="_blank" class="btn btn-primary">
-                  Vedi su Facebook
-                </a>
-              </div>
-              <button class="report-button" onclick="reportItem('${l.id || l.link}', '${l.title || 'Senza titolo'}')" title="Segnala inserzione">
-                <svg fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
-                </svg>
-                <div class="report-tooltip">Segnala l'articolo</div>
-              </button>
+              <a href="${l.link}" target="_blank" class="btn btn-primary">
+                Vedi su Facebook
+              </a>
             </div>
           </div>
         `;
@@ -1657,9 +1573,6 @@
       });
       
       console.log(`Rendering completato: ${pageListings.length} annunci visualizzati`);
-      
-      // Controlla gli elementi già segnalati dopo il rendering
-      checkReportedItems();
     }
 
     function updatePagination() {
@@ -1754,75 +1667,6 @@
     // Carica gli annunci all'avvio
     console.log("=== AVVIO APPLICAZIONE ===");
     loadListings();
-
-    // Variabili globali per le segnalazioni
-    let reportedItems = JSON.parse(localStorage.getItem('reportedItems') || '[]');
-
-    // Funzione per segnalare un elemento direttamente al database Notion
-    async function reportItem(itemId, itemTitle) {
-      // Controlla se già segnalato
-      if (reportedItems.includes(itemId)) {
-        return;
-      }
-
-      try {
-        // Invia segnalazione al server
-        const response = await fetch('/api/report', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            itemId: itemId,
-            itemTitle: itemTitle,
-            timestamp: new Date().toISOString(),
-            userAgent: navigator.userAgent
-          })
-        });
-
-        if (response.ok) {
-          // Aggiungi alla lista delle segnalazioni locali
-          reportedItems.push(itemId);
-          localStorage.setItem('reportedItems', JSON.stringify(reportedItems));
-
-          // Aggiorna l'aspetto del pulsante
-          updateReportButton(itemId);
-
-          console.log('Segnalazione inviata con successo:', itemTitle);
-        } else {
-          console.error('Errore nell\'invio della segnalazione:', response.statusText);
-        }
-      } catch (error) {
-        console.error('Errore di rete:', error);
-      }
-    }
-
-    function updateReportButton(itemId) {
-      const reportButtons = document.querySelectorAll('.report-button');
-      reportButtons.forEach(button => {
-        if (button.onclick.toString().includes(itemId)) {
-          button.classList.add('reported');
-          button.innerHTML = `
-            <svg fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-            </svg>
-            Segnalato
-          `;
-          button.disabled = true;
-        }
-      });
-    }
-
-    function checkReportedItems() {
-      reportedItems.forEach(itemId => {
-        updateReportButton(itemId);
-      });
-    }
-
-    // Controlla gli elementi già segnalati al caricamento
-    document.addEventListener('DOMContentLoaded', function() {
-      checkReportedItems();
-    });
   </script>
 </body>
 </html>
