@@ -389,7 +389,6 @@
       border: 1px solid #e5e5e7;
       border-radius: 12px;
       padding: 1.5rem;
-      padding-right: 2rem; /* Più spazio a destra per la miniatura */
       transition: all 0.2s ease;
       display: flex;
       gap: 1rem;
@@ -399,19 +398,14 @@
     .card-content {
       flex: 1;
       min-width: 0; /* Permette al contenuto di ridursi */
-      margin-right: 180px; /* Spazio per l'immagine responsive a destra (160px + 20px padding) */
     }
 
 
 
     .card-thumbnail {
-      position: absolute;
-      top: 120px; /* Sotto il ranking (header + date + meta) */
-      right: 0;
-      width: 160px; /* Larghezza fissa */
-      height: auto; /* Altezza adattiva */
-      min-height: 120px; /* Altezza minima */
-      max-height: 200px; /* Altezza massima */
+      flex-shrink: 0;
+      width: 120px;
+      height: 90px;
       border-radius: 8px;
       overflow: hidden;
       background: #f8f9fa;
@@ -419,9 +413,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
       transition: all 0.2s ease;
       cursor: pointer;
-      z-index: 10; /* Assicura che sia sopra il contenuto */
     }
 
     .card-thumbnail:hover {
@@ -987,7 +981,7 @@
       }
       
       .card-thumbnail-placeholder {
-        display: none; /* Nasconde il placeholder su mobile per post senza immagini */
+        display: flex; /* Mostra il placeholder anche su mobile */
       }
       
       .card-actions {
@@ -1475,16 +1469,20 @@
         const rating = parseInt(l.reliability || 0, 10);
         const ratingClass = rating >= 4 ? 'high' : (rating <= 2 ? 'low' : 'mid');
 
-        // Crea la miniatura (solo se c'è un'immagine)
-        const thumbnailHtml = l.imageUrl ? `
+        // Crea la miniatura (con immagine o emoticon casa)
+        const thumbnailHtml = `
           <div class="card-thumbnail" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Apri annuncio: ${l.title || 'Senza titolo'}">
-            <div class="card-thumbnail-loading">Caricamento...</div>
-            <img src="${l.imageUrl}" alt="Immagine annuncio: ${l.title || 'Senza titolo'}" 
-                 onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Errore caricamento</div>'"
-                 onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
-                 loading="lazy">
+            ${l.imageUrl ? `
+              <div class="card-thumbnail-loading">Caricamento...</div>
+              <img src="${l.imageUrl}" alt="Immagine annuncio: ${l.title || 'Senza titolo'}" 
+                   onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Errore caricamento</div>'"
+                   onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
+                   loading="lazy">
+            ` : `
+              <div class="card-thumbnail-placeholder">🏠</div>
+            `}
           </div>
-        ` : '';
+        `;
 
         div.innerHTML = `
           ${thumbnailHtml}
