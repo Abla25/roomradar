@@ -408,8 +408,10 @@
       position: absolute;
       top: 120px; /* Sotto il ranking (header + date + meta) */
       right: 0;
-      width: 160px; /* Miniatura più grande */
-      height: 120px; /* Proporzione 4:3 mantenuta */
+      width: 160px; /* Larghezza fissa */
+      height: auto; /* Altezza adattiva */
+      min-height: 120px; /* Altezza minima */
+      max-height: 200px; /* Altezza massima */
       border-radius: 8px;
       overflow: hidden;
       background: #f8f9fa;
@@ -508,6 +510,7 @@
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 0.75rem;
+      position: relative;
     }
 
     .card-title {
@@ -535,6 +538,7 @@
       white-space: nowrap;
       flex-shrink: 0;
       position: relative;
+
     }
 
     /* Variazioni colore rating */
