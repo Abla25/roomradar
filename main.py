@@ -598,8 +598,8 @@ def send_to_notion(data):
     link_url = data.get("link", "")
     immagini = data.get("Immagini", [])
     
-    # Prendi la prima immagine se disponibile, altrimenti stringa vuota
-    prima_immagine = immagini[0] if immagini else ""
+    # Prendi la prima immagine se disponibile, altrimenti null
+    prima_immagine = immagini[0] if immagini else None
     if prima_immagine:
         print(f"🖼️ Salvando immagine per: {titolo[:50]}...")
     
