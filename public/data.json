@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2025-08-19T16:16:26.624Z",
-  "count": 116,
+  "generatedAt": "2025-08-19T17:12:38.569Z",
+  "count": 117,
   "results": [
+    {
+      "id": "254b5f64-9329-819e-a5f1-e1b75312ce48",
+      "title": "Stanza disponibile ad Hospitalet",
+      "overview": "Stanza disponibile a fine agosto ad Hospitalet, barrio Santa Eulalia",
+      "description": "Habitación disponible para fines de mes de agosto por Hospitalet,barrio santa Eulalia preferente para mujer más información al wasap 632432649",
+      "price": "N/A",
+      "zone": "Hospitalet, barrio Santa Eulalia",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "L'annuncio sembra genuino, ma non contiene foto e ha poche informazioni",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T17:10:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294899114075931/",
+      "status": "Attivo",
+      "imageUrl": ""
+    },
     {
       "id": "254b5f64-9329-81bf-8d4d-c042a865cfaa",
       "title": "Affitto stanza individuale a Badalona",
@@ -101,7 +118,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T15:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4012145652448394/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": "https://scontent.fktu2-1.fna.fbcdn.net/v/t39.30808-6/534210164_10231330137145828_6819614159413978386_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AtSsYE25I0oQ7kNvwGuErca&_nc_oc=Adl7HAkdHVr8EajNPsGNGZaeiZzuybWA1YqymS1ADo45FDfpGZfer5gj1Yt-KTlBbEk&_nc_zt=23&_nc_ht=scontent.fktu2-1.fna&_nc_gid=8JgOC9_nPfDeKnFEewAmaQ&oh=00_AfW4Uj-XaysdHlt2aAEhoZKOAUA3wFysTGBc2uYxpP4bEA&oe=68AA443E"
     },
     {
       "id": "254b5f64-9329-8197-9e6a-c0190fb3e4e5",
@@ -117,7 +135,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T15:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294782110754298/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81a5-8f5d-db23bd271ab8",
@@ -133,7 +152,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T15:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294802100752299/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-811c-b07e-c9a29826c80d",
@@ -149,7 +169,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T14:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068229658815899/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-819b-b957-c2af0b28dfc9",
@@ -165,7 +186,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T14:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068248568814008/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-815b-a8ce-dd3c63b3a562",
@@ -181,7 +203,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T14:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068322552139943/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8163-bcfc-c029935ab970",
@@ -197,7 +220,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T13:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294692720763237/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8157-b1d1-c05038805437",
@@ -213,7 +237,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T12:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011382552524704/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8118-92d9-d6d61eb5dcfb",
@@ -229,7 +254,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T12:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068271205478411/",
-      "status": "Attivo"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8182-8486-ea5675673ce8",
@@ -245,7 +271,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T12:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294613990771110/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8127-b624-d0e63150b611",
@@ -261,7 +288,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T12:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294644310768078/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8187-9595-c4c993b22774",
@@ -277,7 +305,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T10:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010980365898256/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8170-92fb-d5b54a01cb49",
@@ -293,7 +322,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T10:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068140635491468/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8111-b215-c9d0d12c611a",
@@ -309,7 +339,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T10:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068209438817921/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-812c-8522-d112e26233d0",
@@ -325,7 +356,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011859095810383/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8197-b5c2-eebac4182bf3",
@@ -341,7 +373,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011923685803924/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8130-958c-f9ea0823c69a",
@@ -357,7 +390,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011934339136192/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8188-a97f-eb939b9e494c",
@@ -373,7 +407,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011941929135433/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81cb-81f0-e76941eafcc6",
@@ -389,7 +424,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011957419133884/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-814c-b4f8-dad9736d4cd2",
@@ -405,7 +441,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011957545800538/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81f8-8122-e95bd360b972",
@@ -421,7 +458,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068171505488381/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81c2-8ad9-ceeb9e275965",
@@ -437,7 +475,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068175152154683/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81fc-9379-fd370c5e9e28",
@@ -453,7 +492,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294497697449406/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-818f-aba3-cb3174598b2a",
@@ -469,7 +509,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T08:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011927009136925/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81dd-8bc6-c7e6ed0dbada",
@@ -485,7 +526,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T08:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068142995491232/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81c5-bdcb-fc908b23f65d",
@@ -501,7 +543,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T08:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068143915491140/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-818a-9f9f-fe86d84e901d",
@@ -517,7 +560,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T08:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294445407454635/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8102-a52e-dea7c90f01a5",
@@ -533,7 +577,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T07:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068094392162759/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-818d-88ba-eac12ae0e4bf",
@@ -549,7 +594,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T07:11:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294372504128592/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-815c-a5ef-d7a2726ebfbf",
@@ -565,7 +611,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T07:11:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294423480790161/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-812d-a18f-e42035496adb",
@@ -581,7 +628,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T06:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011812905815002/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81b3-aaeb-fcefc3d66049",
@@ -597,7 +645,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T05:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068050528833812/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-812a-8a3e-c0fb0f8e03e9",
@@ -613,7 +662,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T05:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068054535500078/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81a4-9486-e240330990eb",
@@ -629,7 +679,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T04:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067851235520408/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8144-8f98-c859e0d45b78",
@@ -645,7 +696,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T03:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067982775507254/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-812b-a182-e1e7976ed54e",
@@ -661,7 +713,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4009925649337061/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8101-8829-eedd220bd785",
@@ -677,7 +730,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011538279175798/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-811f-993e-ce48634d8c48",
@@ -693,7 +747,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1064156442556554/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81bd-8a80-ff1d6e559d7f",
@@ -709,7 +764,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067305918908273/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8125-b458-ff1f3379667d",
@@ -725,7 +781,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067531512219047/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8130-a09f-d1941bd72bfa",
@@ -741,7 +798,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T00:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011604975835795/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-8136-903a-d0981daa516f",
@@ -757,7 +815,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T00:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294109250821584/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "254b5f64-9329-81dc-8e39-dfae84d68be9",
@@ -773,7 +832,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T00:01:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294078034158039/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-812e-86ee-ce71a762da32",
@@ -789,7 +849,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:42:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4008811789448447/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-819c-b4d4-fa1c04ab19b6",
@@ -805,7 +866,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:39:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010974962565463/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81ef-bfc2-ed232ee947c0",
@@ -821,7 +883,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:38:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011467165849576/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81c1-b3cb-ca714411db6d",
@@ -837,7 +900,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067325435572988/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8199-b210-c9dc62100004",
@@ -853,7 +917,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067817135523818/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81b4-b235-c4339a9b6706",
@@ -869,7 +934,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T23:15:00.000+02:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067863662185832/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8147-b1b3-f76c37c2e794",
@@ -885,7 +951,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:59:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010267165969576/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8190-92f3-d06ddbf35ab8",
@@ -901,7 +968,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:59:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010957532567206/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-819c-b4c6-f0efe52ab51d",
@@ -917,7 +985,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010960219233604/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81bc-8e8c-e2c186c7f652",
@@ -933,7 +1002,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010988969230729/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8156-b366-cd662ef93adb",
@@ -949,7 +1019,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010849925911300/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-814c-84ca-efaf0029fee0",
@@ -965,7 +1036,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+02:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010844369245189/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8130-a56b-c98a6f291673",
@@ -981,7 +1053,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011311602531799/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81d8-8cbb-dc6001795c74",
@@ -997,7 +1070,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011402875856005/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81cc-910b-f8deb048ed13",
@@ -1013,7 +1087,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:54:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011535815842711/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8199-a932-c85fd16ea121",
@@ -1029,7 +1104,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294000887499087/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-819b-b7f5-e2bddfd60d11",
@@ -1045,7 +1121,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067383898900475/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-816b-948f-e6bebfa1be8c",
@@ -1061,7 +1138,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067747965530735/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-818b-820e-f6a086012a6e",
@@ -1077,7 +1155,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067750972197101/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81f7-af96-c87a71c3f936",
@@ -1093,7 +1172,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067784275527104/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8144-b191-c4647a633007",
@@ -1109,7 +1189,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T21:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293673117531864/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81cf-a59d-f2f6e13f546e",
@@ -1125,7 +1206,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293608917538284/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81b1-9a62-eb08c7843037",
@@ -1141,7 +1223,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:54:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293667127532463/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8192-8f15-fa619d0ecc9f",
@@ -1157,7 +1240,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293720694193773/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-814f-94c0-e7ea3ac5a34a",
@@ -1173,7 +1257,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293755167523659/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-81b5-97b3-f3efe9da8d77",
@@ -1189,7 +1274,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293788994186943/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8137-951d-e3663c4432d7",
@@ -1205,7 +1291,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:44:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293864674179375/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-817f-a4db-f5ba7e10bed6",
@@ -1221,7 +1308,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:44:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293906004175242/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8148-bb2c-ff408454fcca",
@@ -1237,7 +1325,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293907110841798/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8187-bf88-fe25f8f6a274",
@@ -1253,7 +1342,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293928760839633/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8116-b98a-ecc5f29c516d",
@@ -1269,7 +1359,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293943947504781/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "253b5f64-9329-8117-9e7a-ccd7e13ed059",
@@ -1285,7 +1376,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293990864166756/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-818c-b3b2-e16492192daa",
@@ -1301,7 +1393,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T19:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292713220961187/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-81f4-97c2-e85d4d79ac80",
@@ -1317,7 +1410,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T17:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292494207649755/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-813f-a0df-e1b83a309dad",
@@ -1333,7 +1427,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T16:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292459037653272/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8173-8aab-ffa9250bcaa5",
@@ -1349,7 +1444,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T15:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292523007646875/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8121-a5ca-d5a8e8814311",
@@ -1365,7 +1461,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T13:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292395970992912/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-812e-af54-dd3a6f33c4a6",
@@ -1381,7 +1478,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T12:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292329840999525/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8164-b277-de14a11540d7",
@@ -1397,7 +1495,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T12:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292387944327048/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-813a-9822-cc4a93b695cc",
@@ -1413,7 +1512,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T12:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292413700991139/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-814d-b377-d0e0f9060f8c",
@@ -1429,7 +1529,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T10:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292277124338130/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-81ac-9d9a-f0f7eb2deef5",
@@ -1445,7 +1546,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T10:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292281514337691/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-811a-9e6d-fe02ca6d5653",
@@ -1461,7 +1563,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T09:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292204027678773/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8114-a32c-f0a6c10ae7ae",
@@ -1477,7 +1580,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T09:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292219217677254/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-818e-ad46-e8b413d327af",
@@ -1493,7 +1597,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T08:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291773534388489/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8157-858e-cc31d05eba16",
@@ -1509,7 +1614,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T06:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291658691066640/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-8154-bcbf-c78c3eedcd35",
@@ -1525,7 +1631,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T06:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292135241018985/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "252b5f64-9329-819b-8d6b-f2187e6f14c2",
@@ -1541,7 +1648,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T01:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291862137712962/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8181-b6c4-e5926b233514",
@@ -1557,7 +1665,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T23:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291633104402532/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81fd-9c40-c05f71179724",
@@ -1573,7 +1682,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T21:13:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291735357725640/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81da-9d5e-c0ddd27eb6d7",
@@ -1589,7 +1699,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T20:15:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291684431064066/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8163-8c22-eabb281543b0",
@@ -1605,7 +1716,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T20:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291686831063826/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8139-beb8-ff72722efd8f",
@@ -1621,7 +1733,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T20:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291689934396849/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8172-8398-f203c3a73fcf",
@@ -1637,7 +1750,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T18:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291571904408652/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81d7-987a-d6dd6bf3ba0a",
@@ -1653,7 +1767,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T17:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291215541110955/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8120-b054-da9a29de5ad5",
@@ -1669,7 +1784,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291201627779013/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81f9-a447-d5beb797c4ab",
@@ -1685,7 +1801,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291212861111223/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8136-b7c8-cfa1fe4493f7",
@@ -1701,7 +1818,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:10:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291252204440622/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-812f-9abf-c258dc874f1e",
@@ -1717,7 +1835,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:10:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291269234438919/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8135-aa8e-c3252997f0ad",
@@ -1733,7 +1852,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:09:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291275334438309/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8105-889d-eb5001f375fd",
@@ -1749,7 +1869,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:09:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291288844436958/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81a1-ba05-de3c05d151a0",
@@ -1765,7 +1886,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291320717767104/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81b1-a79b-d7fe4d416627",
@@ -1781,7 +1903,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291332851099224/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-81e9-8538-cf53935a0641",
@@ -1797,7 +1920,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291480244417818/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-8123-aad6-fc4107be3031",
@@ -1813,7 +1937,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291482931084216/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "251b5f64-9329-816a-8982-fec26227b205",
@@ -1829,7 +1954,8 @@
       "datePublished": "",
       "dateAdded": "2025-08-16T16:07:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4291485527750623/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "250b5f64-9329-81c8-a1de-d510322c082e",
@@ -1845,7 +1971,8 @@
       "datePublished": "2025-08-15T12:57:00.000+00:00",
       "dateAdded": "",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4289610307938145/",
-      "status": "Attivo"
+      "status": "Attivo",
+      "imageUrl": ""
     },
     {
       "id": "250b5f64-9329-81ff-903f-c2798816b3f4",
@@ -1861,7 +1988,8 @@
       "datePublished": "2025-08-15T12:57:00.000+00:00",
       "dateAdded": "",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4289628847936291/",
-      "status": "Scaduto"
+      "status": "Scaduto",
+      "imageUrl": ""
     }
   ]
 }
