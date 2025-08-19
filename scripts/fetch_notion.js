@@ -79,7 +79,8 @@ function parseNotionPage(page) {
     datePublished: get("Data_Pubblicazione", "date"),
     dateAdded: get("Data_DB", "date"),
     link: get("Link", "url"),
-    status: get("Status", "select")
+    status: get("Status", "select"),
+    imageUrl: get("Immagini", "url")
   };
 }
 
