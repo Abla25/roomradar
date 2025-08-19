@@ -764,16 +764,9 @@ def process_rss():
                     # Pulisci il testo rimuovendo HTML e immagini
                     clean_description = clean_html_from_description(raw_description)
                     
-                    # Censura i dati sensibili dalla descrizione pulita
-                    censored_description = censor_sensitive_data(clean_description)
-                    
                     # Log della pulizia se c'è differenza significativa
                     if len(raw_description) > len(clean_description) + 50:  # Se è stata rimossa una quantità significativa di HTML
                         print(f"🧹 Testo pulito: {len(raw_description)} → {len(clean_description)} caratteri per: {entry.title[:50]}...")
-                    
-                    # Log della censura se sono stati censurati dati sensibili
-                    if has_sensitive_data(clean_description):
-                        print(f"🔒 Sensitive data censored for: {entry.title[:50]}...")
                     
                     # Estrai immagini dal post
                     images = extract_all_images(entry)
@@ -783,7 +776,7 @@ def process_rss():
                     posts.append({
                         "title": entry.title,
                         "link": link,
-                        "summary": censored_description,  # Usa il testo censurato
+                        "summary": clean_description,  # Usa il testo pulito (censura dopo AI)
                         "images": images
                     })
             else:
@@ -840,11 +833,16 @@ def process_rss():
                 for post_data, original_post in zip(parsed, current_batch):
                     if post_data.get("relevant_listing") == "YES":
                         post_data["link"] = original_post["link"]
-                        # Aggiungi la descrizione originale dal feed RSS
-                        post_data["original_description"] = original_post["summary"]
+                        # Censura i dati sensibili dalla descrizione pulita (solo per post rilevanti)
+                        censored_description = censor_sensitive_data(original_post["summary"])
+                        post_data["original_description"] = censored_description
                         # Aggiungi le immagini dal feed RSS
                         post_data["images"] = original_post.get("images", [])
                         relevant_posts.append(post_data)
+                        
+                        # Log della censura se sono stati censurati dati sensibili
+                        if has_sensitive_data(original_post["summary"]):
+                            print(f"🔒 Sensitive data censored for: {original_post['title'][:50]}...")
                     else:
                         print(f"❌ Post non rilevante: {original_post['title']}")
                         print(f"🔗 URL scartato: {original_post['link']}")
