@@ -80,8 +80,7 @@ function parseNotionPage(page) {
     dateAdded: get("Data_DB", "date"),
     link: get("Link", "url"),
     status: get("Status", "select"),
-    imageUrl: get("Immagini", "url"),
-    reports: get("Segnalazioni", "number") || 0
+    imageUrl: get("Immagini", "url")
   };
 }
 

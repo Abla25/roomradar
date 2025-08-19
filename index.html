@@ -787,91 +787,6 @@
       gap: 1rem;
     }
 
-    .report-icon {
-      cursor: pointer;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      opacity: 0.6;
-      padding: 0.75rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 40px;
-      height: 40px;
-      position: relative;
-      color: #6c757d;
-      background: transparent;
-      border: 2px solid transparent;
-    }
-
-    .report-icon:hover {
-      opacity: 1;
-      transform: scale(1.1);
-      background: rgba(220, 53, 69, 0.08);
-      border-color: rgba(220, 53, 69, 0.2);
-      color: #dc3545;
-      box-shadow: 0 4px 12px rgba(220, 53, 69, 0.15);
-    }
-
-    .report-icon:hover::after {
-      content: "Segnala l'articolo";
-      position: absolute;
-      bottom: -35px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #1d1d1f;
-      color: white;
-      padding: 0.5rem 0.75rem;
-      border-radius: 6px;
-      font-size: 0.75rem;
-      white-space: nowrap;
-      z-index: 1000;
-      opacity: 1;
-      pointer-events: none;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .report-icon:hover::before {
-      content: '';
-      position: absolute;
-      bottom: -8px;
-      left: 50%;
-      transform: translateX(-50%);
-      border: 4px solid transparent;
-      border-top-color: #1d1d1f;
-      z-index: 1000;
-    }
-
-    .report-icon.reported {
-      color: #dc3545;
-      transform: scale(1.1);
-      background: rgba(220, 53, 69, 0.15);
-      border-color: rgba(220, 53, 69, 0.3);
-      box-shadow: 0 4px 12px rgba(220, 53, 69, 0.2);
-    }
-
-    .report-icon.success {
-      color: #28a745;
-      background: rgba(40, 167, 69, 0.15);
-      border-color: rgba(40, 167, 69, 0.3);
-      box-shadow: 0 4px 12px rgba(40, 167, 69, 0.2);
-    }
-
-    .report-icon.error {
-      color: #ffc107;
-      background: rgba(255, 193, 7, 0.15);
-      border-color: rgba(255, 193, 7, 0.3);
-      box-shadow: 0 4px 12px rgba(255, 193, 7, 0.2);
-    }
-
-    .report-icon svg {
-      transition: all 0.3s ease;
-    }
-
-    .report-icon:hover svg {
-      transform: scale(1.1);
-    }
-
     .card-price {
       font-size: 0.9rem;
       font-weight: 500;
@@ -1626,18 +1541,9 @@
             </div>
             
             <div class="card-actions">
-              <div class="action-left">
-                <a href="${l.link}" target="_blank" class="btn btn-primary">
-                  Vedi su Facebook
-                </a>
-                <div class="report-icon" onclick="reportListing('${l.id || 'unknown'}', '${l.title || 'Senza titolo'}', '${l.link}')" title="Segnala questo annuncio">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 9V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M12.0001 21.41H5.94005C2.47005 21.41 1.02005 18.93 2.70005 15.9L5.82006 10.28L8.76006 5.00003C10.5401 1.79003 13.4601 1.79003 15.2401 5.00003L18.1801 10.29L21.3001 15.91C22.9801 18.94 21.5201 21.42 18.0601 21.42H12.0001V21.41Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M11.9945 17H12.0035" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </div>
-              </div>
+              <a href="${l.link}" target="_blank" class="btn btn-primary">
+                Vedi su Facebook
+              </a>
             </div>
           </div>
         `;
@@ -1756,53 +1662,6 @@
       renderListings();
       updatePagination();
       updateDebugInfo();
-    }
-
-    // Funzione per segnalare un annuncio
-    function reportListing(listingId, title, link) {
-      console.log("=== SEGNALAZIONE ANNUNCIO ===");
-      console.log("ID:", listingId);
-      console.log("Titolo:", title);
-      console.log("Link:", link);
-      
-      // 1. Feedback visivo immediato
-      const icon = event.target;
-      icon.classList.add('reported');
-      
-      // 2. Invia segnalazione alla nostra API Vercel
-      fetch('/api/report', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          listingId,
-          title,
-          link
-        })
-      })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-        return response.json();
-      })
-      .then(data => {
-        console.log("✅ Segnalazione registrata con successo:", data);
-        // 4. Feedback di successo - mantiene l'icona rossa
-        icon.classList.remove('success', 'error');
-        icon.classList.add('reported');
-        // L'icona rimane rossa permanentemente
-      })
-      .catch((error) => {
-        console.error("❌ Errore nell'invio della segnalazione:", error);
-        // 5. Fallback se fallisce
-        icon.classList.remove('reported', 'success');
-        icon.classList.add('error');
-        setTimeout(() => {
-          icon.classList.remove('error');
-        }, 3000);
-      });
     }
 
     // Carica gli annunci all'avvio

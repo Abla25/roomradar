@@ -18,7 +18,6 @@
 - [📊 Database e Gestione Dati](#-database-e-gestione-dati)
 - [🔧 API e Integrazione](#-api-e-integrazione)
 - [📱 Design Responsive](#-design-responsive)
-- [🚨 Sistema di Segnalazioni](#-sistema-di-segnalazioni)
 - [🚨 Gestione Errori e Monitoraggio](#-gestione-errori-e-monitoraggio)
 - [⚡ Performance e Ottimizzazioni](#-performance-e-ottimizzazioni)
 - [🔒 Sicurezza e Privacy](#-sicurezza-e-privacy)
@@ -63,14 +62,6 @@ RoomRadar risolve il problema della ricerca manuale di alloggi su Facebook autom
 - **Filtri Dinamici**: Interfaccia intuitiva per raffinare la ricerca
 - **Design Moderno**: UI pulita e professionale
 - **Accessibilità**: Supporto completo per screen reader e navigazione da tastiera
-
-### 🚨 **Sistema di Segnalazioni**
-- **Icona di Segnalazione**: SVG moderno presente su ogni card
-- **Feedback Visivo**: Icona diventa rossa e rimane tale
-- **Invio Automatico**: Segnalazioni inviate direttamente a Notion via API Vercel
-- **Contatore Incrementale**: Ogni segnalazione incrementa il campo "Segnalazioni" nel database
-- **Zero Login**: Nessuna registrazione richiesta
-- **Integrazione Diretta**: Aggiornamento immediato del database Notion
 
 ## 🏗️ Architettura del Sistema
 
@@ -550,78 +541,6 @@ def call_openrouter(posts_batch, max_retries=3):
      aria-label="Apri annuncio: Stanza in Gràcia"
      onkeydown="if(event.key==='Enter'||event.key===' ')openListing()">
 ```
-
-## 🚨 Sistema di Segnalazioni
-
-### 🎯 **Panoramica**
-Il sistema di segnalazioni permette agli utenti di segnalare annunci problematici direttamente dall'interfaccia web, senza richiedere login o interazioni complesse.
-
-### ⚡ **Funzionalità**
-- **Icona di Segnalazione**: ⚠️ presente su ogni card degli annunci
-- **Feedback Visivo**: L'icona cambia colore per confermare l'invio
-  - Rosso: Segnalazione inviata
-  - Verde: Conferma successo
-  - Giallo: Errore nell'invio
-- **Invio Automatico**: Dati inviati direttamente a Google Forms
-- **Zero Login**: Nessuna registrazione o autenticazione richiesta
-
-### 🔧 **Setup Tecnico**
-
-#### **Frontend Implementation**
-```javascript
-function reportListing(listingId, title, link) {
-  // Feedback visivo immediato
-  const icon = event.target;
-  icon.classList.add('reported');
-  
-  // Invio a Google Forms
-  const formData = new FormData();
-  formData.append('entry.1866173828', listingId); // ID Annuncio
-  formData.append('entry.1251116683', title); // Titolo Annuncio
-  formData.append('entry.1194589857', link); // Link Annuncio
-  formData.append('entry.564234191', new Date().toISOString()); // Timestamp
-  
-  fetch('https://docs.google.com/forms/d/e/1FAIpQLSfts0Ab8rL34Ytm3BUpSolCfn_Jh9lI9AkpLe4tzlubk_fSMg/formResponse', {
-    method: 'POST',
-    body: formData,
-    mode: 'no-cors'
-  });
-}
-```
-
-#### **Integrazione Google Forms**
-1. **Campi del Form**:
-   - ID Annuncio (Testo)
-   - Titolo Annuncio (Testo)
-   - Link Annuncio (URL)
-   - Timestamp (Data/Ora)
-
-2. **Configurazione**:
-   - Form pubblico (nessun login)
-   - Invii illimitati gratuiti
-   - Esportazione automatica in Google Sheets
-
-#### **Integrazione Notion (Opzionale)**
-- **Zapier**: Google Forms → Notion Database
-- **Campi Notion**:
-  - ID Annuncio
-  - Titolo
-  - Link
-  - Data Segnalazione
-  - Status (Nuova/In Revisione/Risolta)
-
-### 📊 **Monitoraggio**
-- **Google Forms**: Visualizzazione risposte in tempo reale
-- **Google Sheets**: Esportazione automatica per analisi
-- **Notion**: Gestione centralizzata delle segnalazioni
-- **Logging**: Console browser per debug
-
-### 🎨 **Personalizzazione**
-- **Icona**: Modificabile nel codice HTML
-- **Colori**: Personalizzabili via CSS
-- **Messaggi**: Configurabili per feedback utente
-
-📖 **Setup Completo**: Vedi [SEGNALAZIONI_SETUP.md](SEGNALAZIONI_SETUP.md) per istruzioni dettagliate.
 
 ## 🚨 Gestione Errori e Monitoraggio
 
