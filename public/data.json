@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2025-08-19T04:15:20.545Z",
-  "count": 78,
+  "generatedAt": "2025-08-19T05:14:13.216Z",
+  "count": 80,
   "results": [
+    {
+      "id": "254b5f64-9329-81b3-aaeb-fcefc3d66049",
+      "title": "Stanza in affitto a Hospitalet",
+      "overview": "Stanza in affitto con camarote, finestra interna e armadio per 2 ragazze a Hospitalet",
+      "description": "Se alquila habitacion cuenta con CAMAROTE ,ventana interior, armario. \nPara 2 chicas(os)\nL1 can serra-Hospitalet",
+      "price": "N/A",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni basilari, ma non ci sono foto o contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T05:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068050528833812/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-812a-8a3e-c0fb0f8e03e9",
+      "title": "Stanza in affitto per donna a Badalona",
+      "overview": "Stanza in affitto per donna o ragazza a Badalona",
+      "description": "Se alquila habitación a mujer o chica sola zona BADALONA AL DIA (LaSalut/Llefià)",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni basilari, ma non ci sono foto o contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T05:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068054535500078/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-81a4-9486-e240330990eb",
       "title": "Affitto di camera per coppia a Ciudad Meridiana",
@@ -112,7 +144,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067531512219047/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "254b5f64-9329-8130-a09f-d1941bd72bfa",
@@ -720,7 +752,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T16:17:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292459037653272/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-8173-8aab-ffa9250bcaa5",
