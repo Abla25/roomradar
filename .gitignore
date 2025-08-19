@@ -22,3 +22,18 @@ venv.bak/
 # OS
 .DS_Store
 Thumbs.db
+
+# Sicurezza - File sensibili
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Log e file temporanei
+*.log
+*.tmp
+*.temp

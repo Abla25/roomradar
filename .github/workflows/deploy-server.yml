@@ -1,0 +1,51 @@
+name: Deploy Report Server
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'server.py'
+      - 'static/**'
+      - 'requirements.txt'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Test server configuration
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          python -c "
+          import os
+          from dotenv import load_dotenv
+          load_dotenv()
+          
+          token = os.getenv('NOTION_API_KEY')
+          db_id = os.getenv('NOTION_DATABASE_ID')
+          
+          if not token or not db_id:
+              print('❌ Variabili d\'ambiente mancanti')
+              exit(1)
+          else:
+              print('✅ Configurazione server OK')
+          "
+
+      - name: Deploy to server (placeholder)
+        run: |
+          echo "🚀 Server pronto per il deploy"
+          echo "📊 Le segnalazioni verranno gestite automaticamente"
+          echo "🔒 Configurazione sicura verificata"

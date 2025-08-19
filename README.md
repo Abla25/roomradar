@@ -152,11 +152,11 @@ Crea le seguenti variabili d'ambiente (GitHub Secrets per produzione):
 
 ```bash
 # Notion Database
-NOTION_API_KEY=secret_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-NOTION_DATABASE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NOTION_API_KEY=your_notion_integration_token_here
+NOTION_DATABASE_ID=your_database_id_here
 
 # OpenRouter AI
-OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
 ### 🗄️ **Setup Database Notion**
@@ -178,10 +178,16 @@ OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 | `Link` | URL | Link al post Facebook |
 | `Immagini` | URL | URL prima immagine |
 | `Status` | Select | Attivo/Scaduto |
+| `Segnalazioni` | Number | Contatore segnalazioni |
 
 2. **Configura Select "Status"** con opzioni:
    - ✅ Attivo (verde)
    - ❌ Scaduto (rosso)
+
+3. **Configura Number "Segnalazioni"**:
+   - Tipo: Number
+   - Valore iniziale: 0
+   - Usato per contare le segnalazioni ricevute
 
 ### 📍 **Mappatura Zone**
 
@@ -197,6 +203,81 @@ BARCELONA_MACRO_ZONES = {
 ```
 
 Personalizza le zone secondo le tue esigenze.
+
+## 🚨 Sistema di Segnalazioni Automatico
+
+### 📊 **Gestione Priorità**
+
+Il sistema include un contatore automatico delle segnalazioni per aiutarti a identificare le inserzioni problematiche:
+
+- **Icona di segnalazione**: Ogni inserzione ha un'icona moderna e pulita per la segnalazione
+- **Feedback visivo**: L'icona diventa rossa quando cliccata
+- **Aggiornamento automatico**: Il contatore nel database Notion si incrementa istantaneamente
+- **Tooltip informativo**: Al passaggio del mouse appare "Segnala l'articolo"
+
+### 🎯 **Come funziona**
+
+1. **Segnalazione utente**: I visitatori cliccano l'icona per segnalare inserzioni inappropriate
+2. **Feedback immediato**: L'icona diventa rossa per confermare la segnalazione
+3. **Aggiornamento automatico**: Il sistema aggiorna istantaneamente il campo `Segnalazioni` nel database
+4. **Monitoraggio**: Puoi vedere nel database quante volte è stata segnalata ogni inserzione
+
+### 🔧 **Configurazione**
+
+1. **Database Notion**: Aggiungi la proprietà `Segnalazioni` (Number) al tuo database
+2. **Variabili d'ambiente**: Configura `NOTION_API_KEY` e `NOTION_DATABASE_ID`
+3. **Avvia il server**: `python server.py`
+
+### 🚀 **Avvio del Sistema**
+
+```bash
+# Installa le dipendenze
+pip install -r requirements.txt
+
+# Configura le variabili d'ambiente
+cp env.example .env
+# Modifica il file .env con i tuoi token
+
+# Avvia il server
+python server.py
+```
+
+Il server sarà disponibile su `http://localhost:5000` e le segnalazioni verranno aggiornate automaticamente nel database Notion.
+
+### 📋 **Struttura del Progetto**
+
+```
+notion-rss-bot/
+├── static/
+│   └── index.html          # Frontend dell'applicazione
+├── public/
+│   └── data.json           # Dati esportati da Notion
+├── server.py               # Server Flask per le segnalazioni
+├── main.py                 # Script di aggregazione RSS
+├── requirements.txt        # Dipendenze Python
+├── env.example             # Template variabili d'ambiente
+└── .env                    # Variabili d'ambiente (da creare)
+```
+
+### 🔒 **Sicurezza**
+
+- ✅ **Token protetti**: Tutti i token sono gestiti tramite GitHub Secrets
+- ✅ **File .env ignorato**: Il file `.env` è escluso dal repository
+- ✅ **Variabili uniformi**: Tutti i file usano `NOTION_API_KEY` (non `NOTION_TOKEN`)
+- ✅ **Workflow sicuri**: I workflow GitHub usano solo secrets per i token
+- ✅ **Nessun token esposto**: I token reali sono stati rimossi dalla documentazione
+
+### 🔐 **Configurazione GitHub Secrets**
+
+Per far funzionare i workflow automatici, configura questi secrets nel tuo repository GitHub:
+
+1. Vai su **Settings** → **Secrets and variables** → **Actions**
+2. Aggiungi questi repository secrets:
+   - `NOTION_API_KEY`: Il tuo token di integrazione Notion
+   - `NOTION_DATABASE_ID`: L'ID del tuo database Notion
+   - `OPENROUTER_API_KEY`: Il tuo token OpenRouter per l'analisi AI
+   - `RSS_URL`: URL del feed RSS principale
+   - `RSS_URL_1`, `RSS_URL_2`, `RSS_URL_3`: URL dei feed RSS aggiuntivi
 
 ## 🔄 Flusso di Lavoro Automatizzato
 
