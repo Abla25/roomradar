@@ -1769,26 +1769,32 @@
       const icon = event.target;
       icon.classList.add('reported');
       
-      // 2. Prepara i dati per Google Forms
-      const formData = new FormData();
-      formData.append('entry.1866173828', listingId); // ID Annuncio
-      formData.append('entry.1251116683', title); // Titolo Annuncio
-      formData.append('entry.1194589857', link); // Link Annuncio
-      // Timestamp automatico (Google Forms lo aggiunge automaticamente)
-      // formData.append('entry.564234191', dateString); // Commentato per evitare errori
-      
-      // 3. Invia a Google Forms
-      fetch('https://docs.google.com/forms/d/e/1FAIpQLSfts0Ab8rL34Ytm3BUpSolCfn_Jh9lI9AkpLe4tzlubk_fSMg/formResponse', {
+      // 2. Invia segnalazione alla nostra API Vercel
+      fetch('/api/report', {
         method: 'POST',
-        body: formData,
-        mode: 'no-cors' // Necessario per evitare CORS
-      }).then(() => {
-        console.log("✅ Segnalazione inviata con successo");
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          listingId,
+          title,
+          link
+        })
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log("✅ Segnalazione registrata con successo:", data);
         // 4. Feedback di successo - mantiene l'icona rossa
         icon.classList.remove('success', 'error');
         icon.classList.add('reported');
         // L'icona rimane rossa permanentemente
-      }).catch((error) => {
+      })
+      .catch((error) => {
         console.error("❌ Errore nell'invio della segnalazione:", error);
         // 5. Fallback se fallisce
         icon.classList.remove('reported', 'success');

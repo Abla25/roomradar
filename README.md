@@ -65,11 +65,12 @@ RoomRadar risolve il problema della ricerca manuale di alloggi su Facebook autom
 - **Accessibilità**: Supporto completo per screen reader e navigazione da tastiera
 
 ### 🚨 **Sistema di Segnalazioni**
-- **Icona di Segnalazione**: ⚠️ presente su ogni card
-- **Feedback Visivo**: Icona cambia colore (rosso → verde)
-- **Invio Automatico**: Segnalazioni inviate a Google Forms
+- **Icona di Segnalazione**: SVG moderno presente su ogni card
+- **Feedback Visivo**: Icona diventa rossa e rimane tale
+- **Invio Automatico**: Segnalazioni inviate direttamente a Notion via API Vercel
+- **Contatore Incrementale**: Ogni segnalazione incrementa il campo "Segnalazioni" nel database
 - **Zero Login**: Nessuna registrazione richiesta
-- **Integrazione Notion**: Opzionale via Zapier per gestione centralizzata
+- **Integrazione Diretta**: Aggiornamento immediato del database Notion
 
 ## 🏗️ Architettura del Sistema
 
