@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Data Censorship Module
+Data Censorship Module - Optimized Version
 
-This module provides functionality to censor sensitive data from text content,
+This module provides high-performance functionality to censor sensitive data from text content,
 particularly focusing on phone numbers while preserving location information
 that is useful for zone identification.
 
@@ -15,60 +15,54 @@ from typing import Optional
 
 class DataCensor:
     """
-    A class to handle censoring of sensitive data from text content.
+    A high-performance class to handle censoring of sensitive data from text content.
     
     Focuses primarily on phone numbers to protect privacy while maintaining
     addresses that are useful for identifying zones.
     """
     
     def __init__(self):
-        """Initialize the DataCensor with predefined patterns."""
+        """Initialize the DataCensor with pre-compiled patterns for maximum performance."""
         self._setup_patterns()
     
     def _setup_patterns(self):
-        """Set up regex patterns for different types of sensitive data."""
+        """Set up pre-compiled regex patterns for different types of sensitive data."""
         
+        # Pre-compile all patterns for maximum performance
         # WhatsApp/Telegram patterns (applied first to avoid conflicts)
         self.messaging_patterns = [
-            r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:\+?39\s*)?(?:3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}|3\d{8})\b',  # Italian
-            r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:\+?34\s*)?(?:6\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}|6\d{8})\b',  # Spanish
-            r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:7\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}|7\d{8})\b',  # Other formats
-            r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:\+?34\s*)?(?:7\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}|7\d{8})\b',  # Spanish 7xx
+            re.compile(r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:\+?39\s*)?(?:3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}|3\d{8})\b', re.IGNORECASE),  # Italian
+            re.compile(r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:\+?34\s*)?(?:6\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}|6\d{8})\b', re.IGNORECASE),  # Spanish
+            re.compile(r'\b(?:whatsapp|telegram|wa|tg)\s*:?\s*(?:7\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}|7\d{8})\b', re.IGNORECASE),  # Other formats
         ]
         
-        # Phone number patterns (comprehensive coverage)
+        # Optimized phone number patterns (consolidated and pre-compiled)
         self.phone_patterns = [
-            # Italian numbers with international prefix
-            r'(?:\+39\s*)?(?:39\s*)?3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}\b',
-            r'(?:\+39\s*)?(?:39\s*)?3\d{8}\b',
+            # Italian numbers (consolidated patterns)
+            re.compile(r'(?:\+39\s*)?(?:39\s*)?3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}\b', re.IGNORECASE),
+            re.compile(r'(?:\+39\s*)?(?:39\s*)?3\d{8}\b', re.IGNORECASE),
             
-            # Spanish numbers with international prefix  
-            r'(?:\+34\s*)?(?:34\s*)?6\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}\b',
-            r'(?:\+34\s*)?(?:34\s*)?6\d{8}\b',
-            r'(?:\+34\s*)?(?:34\s*)?7\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}\b',
-            r'(?:\+34\s*)?(?:34\s*)?7\d{8}\b',
+            # Spanish numbers (consolidated patterns)
+            re.compile(r'(?:\+34\s*)?(?:34\s*)?[67]\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}\b', re.IGNORECASE),
+            re.compile(r'(?:\+34\s*)?(?:34\s*)?[67]\d{8}\b', re.IGNORECASE),
             
             # Generic patterns for numbers starting with 6 or 7 (common in Spain)
-            r'\b[67]\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}\b',
-            r'\b[67]\d{8}\b',
+            re.compile(r'\b[67]\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{3}\b', re.IGNORECASE),
+            re.compile(r'\b[67]\d{8}\b', re.IGNORECASE),
             
             # Italian numbers without prefix
-            r'\b3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}\b',
-            r'\b3\d{9}\b',
+            re.compile(r'\b3\d{2}\s*[-.\s]?\d{3}\s*[-.\s]?\d{4}\b', re.IGNORECASE),
+            re.compile(r'\b3\d{9}\b', re.IGNORECASE),
         ]
         
-        # Email pattern
-        self.email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-        
-        # Italian fiscal code pattern (16 alphanumeric characters)
-        self.fiscal_code_pattern = r'\b[A-Z]{6}\d{2}[A-Z]\d{2}[A-Z]\d{3}[A-Z]\b'
-        
-        # Italian VAT number pattern (11 digits) - excludes phone numbers
-        self.vat_pattern = r'\b(?!3\d{10})(?!6\d{10})(?!7\d{10})\d{11}\b'
+        # Pre-compile other patterns
+        self.email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
+        self.fiscal_code_pattern = re.compile(r'\b[A-Z]{6}\d{2}[A-Z]\d{2}[A-Z]\d{3}[A-Z]\b')
+        self.vat_pattern = re.compile(r'\b(?!3\d{10})(?!6\d{10})(?!7\d{10})\d{11}\b')
     
     def censor_text(self, text: Optional[str]) -> str:
         """
-        Censor sensitive data from the given text.
+        High-performance censoring of sensitive data from the given text.
         
         Args:
             text: The text to censor
@@ -83,26 +77,26 @@ class DataCensor:
         
         # 1. Censor messaging apps with phone numbers first (most specific)
         for pattern in self.messaging_patterns:
-            censored_text = re.sub(pattern, '[MESSAGING CONTACT CENSORED]', censored_text, flags=re.IGNORECASE)
+            censored_text = pattern.sub('[MESSAGING CONTACT CENSORED]', censored_text)
         
         # 2. Censor email addresses
-        censored_text = re.sub(self.email_pattern, '[EMAIL CENSORED]', censored_text)
+        censored_text = self.email_pattern.sub('[EMAIL CENSORED]', censored_text)
         
         # 3. Censor Italian fiscal codes
-        censored_text = re.sub(self.fiscal_code_pattern, '[FISCAL CODE CENSORED]', censored_text)
+        censored_text = self.fiscal_code_pattern.sub('[FISCAL CODE CENSORED]', censored_text)
         
         # 4. Censor VAT numbers (excluding phone numbers)
-        censored_text = re.sub(self.vat_pattern, '[VAT NUMBER CENSORED]', censored_text)
+        censored_text = self.vat_pattern.sub('[VAT NUMBER CENSORED]', censored_text)
         
         # 5. Censor phone numbers (after handling messaging apps)
         for pattern in self.phone_patterns:
-            censored_text = re.sub(pattern, '[PHONE NUMBER CENSORED]', censored_text, flags=re.IGNORECASE)
+            censored_text = pattern.sub('[PHONE NUMBER CENSORED]', censored_text)
         
         return censored_text
     
     def has_sensitive_data(self, text: Optional[str]) -> bool:
         """
-        Check if the text contains sensitive data that would be censored.
+        Fast check if the text contains sensitive data that would be censored.
         
         Args:
             text: The text to check
@@ -113,7 +107,7 @@ class DataCensor:
         if not text:
             return False
         
-        # Check all patterns
+        # Check all patterns (using pre-compiled patterns for speed)
         all_patterns = (
             self.messaging_patterns + 
             self.phone_patterns + 
@@ -121,7 +115,7 @@ class DataCensor:
         )
         
         for pattern in all_patterns:
-            if re.search(pattern, text, re.IGNORECASE):
+            if pattern.search(text):
                 return True
         
         return False
@@ -149,31 +143,31 @@ class DataCensor:
         
         # Count messaging contacts
         for pattern in self.messaging_patterns:
-            stats['messaging_contacts'] += len(re.findall(pattern, text, re.IGNORECASE))
+            stats['messaging_contacts'] += len(pattern.findall(text))
         
         # Count phone numbers (excluding those already counted as messaging)
         temp_text = text
         for pattern in self.messaging_patterns:
-            temp_text = re.sub(pattern, '', temp_text, flags=re.IGNORECASE)
+            temp_text = pattern.sub('', temp_text)
         
         for pattern in self.phone_patterns:
-            stats['phone_numbers'] += len(re.findall(pattern, temp_text, re.IGNORECASE))
+            stats['phone_numbers'] += len(pattern.findall(temp_text))
         
         # Count other types
-        stats['emails'] = len(re.findall(self.email_pattern, text))
-        stats['fiscal_codes'] = len(re.findall(self.fiscal_code_pattern, text))
-        stats['vat_numbers'] = len(re.findall(self.vat_pattern, text))
+        stats['emails'] = len(self.email_pattern.findall(text))
+        stats['fiscal_codes'] = len(self.fiscal_code_pattern.findall(text))
+        stats['vat_numbers'] = len(self.vat_pattern.findall(text))
         
         return stats
 
 
-# Global instance for easy importing
+# Global instance for easy importing (singleton pattern for performance)
 censor = DataCensor()
 
 
 def censor_sensitive_data(text: Optional[str]) -> str:
     """
-    Convenience function to censor sensitive data from text.
+    High-performance convenience function to censor sensitive data from text.
     
     Args:
         text: The text to censor
@@ -186,7 +180,7 @@ def censor_sensitive_data(text: Optional[str]) -> str:
 
 def has_sensitive_data(text: Optional[str]) -> bool:
     """
-    Convenience function to check if text contains sensitive data.
+    Fast convenience function to check if text contains sensitive data.
     
     Args:
         text: The text to check
@@ -211,7 +205,9 @@ def get_censorship_stats(text: Optional[str]) -> dict:
 
 
 if __name__ == "__main__":
-    # Test the censorship functionality
+    # Performance test
+    import time
+    
     test_texts = [
         "Alquilo habitación en igualada ver ubicación en apartamento dúplex parejas asepto nenes para alquilar ya quién Page se la queda! Sitio amplio y tranquilo empadronó los nenes para el cole 603597082",
         "Hola buenas tengo una habitacion disponible para el mes de septiembre precio 400 todo incluido , para una persona, ubicada por el metro fondo Santa coloma de gramanet para mas informcion escriba solo al whatsApp 632338093",
@@ -219,9 +215,22 @@ if __name__ == "__main__":
         "Contact me at mario.rossi@gmail.com or call +39 333 123 4567"
     ]
     
-    print("🔒 DATA CENSORSHIP MODULE TEST")
+    print("🔒 OPTIMIZED DATA CENSORSHIP MODULE TEST")
     print("=" * 60)
     
+    # Performance test
+    start_time = time.time()
+    for _ in range(1000):  # Test 1000 iterations
+        for text in test_texts:
+            censored = censor_sensitive_data(text)
+            has_sensitive = has_sensitive_data(text)
+            stats = get_censorship_stats(text)
+    
+    end_time = time.time()
+    print(f"⚡ Performance: {1000 * len(test_texts)} operations in {end_time - start_time:.3f}s")
+    print(f"   Average: {(end_time - start_time) / (1000 * len(test_texts)) * 1000:.3f}ms per operation")
+    
+    # Functionality test
     for i, text in enumerate(test_texts, 1):
         print(f"\n📝 TEST {i}:")
         print(f"Original: {text}")

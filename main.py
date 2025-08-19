@@ -62,7 +62,7 @@ def load_rejected_cache():
                         cleaned_urls[url] = url_data
                 
                 if expired_urls:
-                    print(f"🗑️ Rimossi {len(expired_urls)} URL scaduti dalla cache (TTL {CACHE_CLEANUP_HOURS}h)")
+                    print(f"🗑️ Removed {len(expired_urls)} expired URLs from cache (TTL {CACHE_CLEANUP_HOURS}h)")
                 
                 _cache_data = {
                     'urls': cleaned_urls,
@@ -71,7 +71,7 @@ def load_rejected_cache():
                 _cache_last_load = file_mtime
                 return _cache_data
         except Exception as e:
-            print(f"⚠️ Errore caricamento cache: {e}")
+            print(f"⚠️ Cache loading error: {e}")
     
     _cache_data = {'urls': {}, 'timestamp': datetime.now().isoformat()}
     _cache_last_load = None
@@ -89,29 +89,29 @@ def save_rejected_cache(cache_data):
         _cache_data = cache_data
         _cache_last_load = os.path.getmtime(CACHE_FILE) if os.path.exists(CACHE_FILE) else None
         
-        print(f"💾 Cache salvata in: {os.path.abspath(CACHE_FILE)}")
-        print(f"📊 URL in cache: {len(cache_data['urls'])}")
+        print(f"💾 Cache saved to: {os.path.abspath(CACHE_FILE)}")
+        print(f"📊 URLs in cache: {len(cache_data['urls'])}")
     except Exception as e:
-        print(f"⚠️ Errore salvataggio cache: {e}")
+        print(f"⚠️ Cache save error: {e}")
 
 def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
     """Aggiunge un URL alla cache degli scartati con logica FIFO."""
-    print(f"🔄 Aggiungendo URL alla cache: {url} (motivo: {reason})")
-    print(f"📁 Directory corrente: {os.getcwd()}")
-    print(f"📁 File cache: {os.path.abspath(CACHE_FILE)}")
+    print(f"🔄 Adding URL to cache: {url} (reason: {reason})")
+    print(f"📁 Current directory: {os.getcwd()}")
+    print(f"📁 Cache file: {os.path.abspath(CACHE_FILE)}")
     
     cache_data = load_rejected_cache()
     
     # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
     if len(cache_data['urls']) >= MAX_CACHE_SIZE:
-        print(f"🗑️ Cache piena ({MAX_CACHE_SIZE} URL), rimozione URL più vecchi (FIFO)...")
+        print(f"🗑️ Cache full ({MAX_CACHE_SIZE} URLs), removing oldest URLs (FIFO)...")
         # Ordina per timestamp (più vecchi prima) e rimuovi il 50% più vecchio
         sorted_urls = sorted(cache_data['urls'].items(), 
                            key=lambda x: x[1]['timestamp'])
         # Rimuovi il 50% più vecchio per fare spazio (corretto)
         remove_count = int(MAX_CACHE_SIZE * 0.5)  # 50% del limite
         cache_data['urls'] = dict(sorted_urls[remove_count:])
-        print(f"🗑️ Rimossi {remove_count} URL più vecchi (FIFO - 50%)")
+        print(f"🗑️ Removed {remove_count} oldest URLs (FIFO - 50%)")
     
     cache_data['urls'][url] = {
         'reason': reason,
@@ -122,9 +122,9 @@ def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
     # Verifica immediata che il file sia stato creato
     if os.path.exists(CACHE_FILE):
         file_size = os.path.getsize(CACHE_FILE)
-        print(f"✅ Verifica: File cache creato con successo ({file_size} bytes)")
+        print(f"✅ Verification: Cache file created successfully ({file_size} bytes)")
     else:
-        print(f"❌ ERRORE: File cache NON trovato dopo il salvataggio!")
+        print(f"❌ ERROR: Cache file NOT found after saving!")
 
 def is_url_rejected(url):
     """Controlla se un URL è nella cache degli scartati."""
@@ -163,9 +163,9 @@ while f"RSS_URL_{i}" in os.environ:
     url = os.environ[f"RSS_URL_{i}"]
     if url and url.strip():  # Verifica che l'URL non sia vuoto
         RSS_URLS.append(url.strip())
-        print(f"✅ Aggiunto RSS_URL_{i}: {url.strip()}")
+        print(f"✅ Added RSS_URL_{i}: {url.strip()}")
     else:
-        print(f"⚠️ RSS_URL_{i} è vuoto o contiene solo spazi")
+        print(f"⚠️ RSS_URL_{i} is empty or contains only spaces")
     i += 1
 
 # Fallback per compatibilità con il formato legacy (singolo URL)
@@ -173,9 +173,9 @@ if not RSS_URLS and "RSS_URL" in os.environ:
     url = os.environ["RSS_URL"]
     if url and url.strip():
         RSS_URLS.append(url.strip())
-        print(f"✅ Aggiunto RSS_URL: {url.strip()}")
+        print(f"✅ Added RSS_URL: {url.strip()}")
     else:
-        print(f"⚠️ RSS_URL è vuoto o contiene solo spazi")
+        print(f"⚠️ RSS_URL is empty or contains only spaces")
 
 if not RSS_URLS:
     print("❌ Nessun RSS URL valido trovato nei secrets")
@@ -185,7 +185,7 @@ if not RSS_URLS:
             print(f"  {key}: '{value}'")
     raise ValueError("❌ Nessun RSS URL configurato. Definisci RSS_URL_1, RSS_URL_2, RSS_URL_3, etc. o RSS_URL (singolo).")
 
-print(f"📡 Configurati {len(RSS_URLS)} feed RSS:")
+    print(f"📡 Configured {len(RSS_URLS)} RSS feeds:")
 for i, url in enumerate(RSS_URLS, 1):
     print(f"  {i}. {url}")
 
@@ -370,7 +370,7 @@ def get_existing_data():
             )
             
             if response.status_code != 200:
-                print(f"❌ Errore recupero dati esistenti: {response.text}")
+                print(f"❌ Error retrieving existing data: {response.text}")
                 break
                 
             data = response.json()
@@ -400,10 +400,10 @@ def get_existing_data():
             next_cursor = data.get("next_cursor")
             
         except Exception as e:
-            print(f"❌ Errore durante il recupero dei dati: {e}")
+            print(f"❌ Error during data retrieval: {e}")
             break
     
-    print(f"📋 Trovati {len(existing_links)} link e {len(existing_pages)} pagine esistenti")
+    print(f"📋 Found {len(existing_links)} links and {len(existing_pages)} existing pages")
     return existing_links, existing_pages
 
 def find_best_duplicate_optimized(existing_pages: list, new_descr: str, threshold: float = 0.8):
@@ -511,9 +511,9 @@ def mark_status_scaduto(page_id: str):
     payload = {"properties": {"status": {"select": {"name": "Scaduto"}}}}
     res = requests.patch(url, headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
-        print(f"❌ Errore aggiornamento status=Scaduto per {page_id}: {res.text}")
+        print(f"❌ Error updating status=Expired for {page_id}: {res.text}")
     else:
-        print(f"🗂️ Impostato status=Scaduto per pagina {page_id}")
+        print(f"🗂️ Set status=Expired for page {page_id}")
 
 
 
@@ -703,16 +703,16 @@ def process_rss():
         print(f"✅ File cache aggiornato: {os.path.abspath(CACHE_FILE)}")
     
     # Recupera tutti i dati esistenti in una sola chiamata ottimizzata
-    print("📋 Caricamento dati esistenti dal database...")
+    print("📋 Loading existing data from database...")
     existing_links, existing_pages = get_existing_data()
     active_pages = [p for p in existing_pages if p.get("status") != "Scaduto"]
-    print(f"📋 Caricate {len(active_pages)} pagine attive per deduplicazione")
+    print(f"📋 Loaded {len(active_pages)} active pages for deduplication")
     
     # Carica cache degli URL scartati
     cache_count, avg_age, oldest_age = get_cache_stats()
-    print(f"📋 Cache URL scartati: {cache_count} URL in memoria")
+    print(f"📋 Rejected URLs cache: {cache_count} URLs in memory")
     if cache_count > 0:
-        print(f"   📊 Età media: {avg_age:.1f}h, Più vecchio: {oldest_age:.1f}h")
+        print(f"   📊 Average age: {avg_age:.1f}h, Oldest: {oldest_age:.1f}h")
     
     # Lista dinamica per i nuovi post aggiunti (per deduplicazione intra-batch)
     newly_added_pages = []
@@ -724,7 +724,7 @@ def process_rss():
     all_added_posts_for_ai = []
     
     for i, rss_url in enumerate(RSS_URLS, 1):
-        print(f"\n📡 Processando feed RSS {i}/{len(RSS_URLS)}: {rss_url}")
+        print(f"\n📡 Processing RSS feed {i}/{len(RSS_URLS)}: {rss_url}")
         
         try:
             feed = feedparser.parse(rss_url)
@@ -1003,18 +1003,18 @@ def process_rss():
                 except Exception as e:
                     print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
 
-    print(f"\n🎉 ELABORAZIONE TOTALE COMPLETATA!")
-    print(f"   📊 Aggiunti: {total_new_posts} nuovi annunci da {len(RSS_URLS)} feed RSS")
-    print(f"   🚫 Scartati: {total_rejected} post (salvati in cache)")
+    print(f"\n🎉 TOTAL PROCESSING COMPLETED!")
+    print(f"   📊 Added: {total_new_posts} new listings from {len(RSS_URLS)} RSS feeds")
+    print(f"   🚫 Rejected: {total_rejected} posts (saved in cache)")
     final_cache_count, final_avg_age, final_oldest_age = get_cache_stats()
-    print(f"   📋 Cache: {final_cache_count} URL in memoria (età media: {final_avg_age:.1f}h)")
+    print(f"   📋 Cache: {final_cache_count} URLs in memory (average age: {final_avg_age:.1f}h)")
     
     # Pulisci le cache in memoria per evitare memory leak
     clear_caches()
-    print(f"   🧹 Cache in memoria pulite")
+    print(f"   🧹 In-memory caches cleared")
     
     # Statistiche performance
-    print(f"   ⚡ Performance: Cache similarità: {len(_similarity_cache)} calcoli, Cache testo: {len(_text_normalization_cache)} normalizzazioni")
+    print(f"   ⚡ Performance: Similarity cache: {len(_similarity_cache)} calculations, Text cache: {len(_text_normalization_cache)} normalizations")
     
     # Verifica finale del file cache
     if os.path.exists(CACHE_FILE):
