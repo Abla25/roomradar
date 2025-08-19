@@ -1,3 +1,4 @@
 requests
 feedparser
 rapidfuzz
+beautifulsoup4

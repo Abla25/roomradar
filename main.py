@@ -8,6 +8,7 @@ import unicodedata
 from datetime import datetime, timedelta
 from rapidfuzz import fuzz
 from zone_mapping import BARCELONA_MACRO_ZONES, MACRO_ZONE_MAPPING
+from bs4 import BeautifulSoup
 
 # CONFIGURAZIONE
 NOTION_API_KEY = os.environ["NOTION_API_KEY"]
@@ -151,17 +152,12 @@ def get_cache_stats():
 # Configurazione RSS URLs - Supporto per multiple feed
 RSS_URLS = []
 
-print("🔍 Debug: Controllo secrets disponibili...")
-print(f"🔍 Debug: RSS_URL presente: {'RSS_URL' in os.environ}")
-print(f"🔍 Debug: RSS_URL_1 presente: {'RSS_URL_1' in os.environ}")
-print(f"🔍 Debug: RSS_URL_2 presente: {'RSS_URL_2' in os.environ}")
-print(f"🔍 Debug: RSS_URL_3 presente: {'RSS_URL_3' in os.environ}")
+# Debug iniziale per configurazione RSS
 
 # Cerca RSS_URL_1, RSS_URL_2, RSS_URL_3, etc.
 i = 1
 while f"RSS_URL_{i}" in os.environ:
     url = os.environ[f"RSS_URL_{i}"]
-    print(f"🔍 Debug: Trovato RSS_URL_{i}: '{url}'")
     if url and url.strip():  # Verifica che l'URL non sia vuoto
         RSS_URLS.append(url.strip())
         print(f"✅ Aggiunto RSS_URL_{i}: {url.strip()}")
@@ -172,7 +168,6 @@ while f"RSS_URL_{i}" in os.environ:
 # Fallback per compatibilità con il formato legacy (singolo URL)
 if not RSS_URLS and "RSS_URL" in os.environ:
     url = os.environ["RSS_URL"]
-    print(f"🔍 Debug: Trovato RSS_URL: '{url}'")
     if url and url.strip():
         RSS_URLS.append(url.strip())
         print(f"✅ Aggiunto RSS_URL: {url.strip()}")
@@ -184,10 +179,6 @@ if not RSS_URLS:
     print("🔍 Debug: Tutte le variabili d'ambiente che iniziano con RSS_URL:")
     for key, value in os.environ.items():
         if key.startswith("RSS_URL"):
-            print(f"  {key}: '{value}'")
-    print("🔍 Debug: Tutte le variabili d'ambiente disponibili:")
-    for key, value in os.environ.items():
-        if "RSS" in key or "URL" in key:
             print(f"  {key}: '{value}'")
     raise ValueError("❌ Nessun RSS URL configurato. Definisci RSS_URL_1, RSS_URL_2, RSS_URL_3, etc. o RSS_URL (singolo).")
 
@@ -221,7 +212,6 @@ Per ogni post pertinente, genera un dizionario con:
   "annuncio_rilevante": "SI" o "NO",
   "Titolo_parafrasato": "...",
   "Overview": "...",
-  "Descrizione_originale": "...",
   "Prezzo": "..." (usa "N/A" se non disponibile),
   "Zona": "..." (usa "N/A" se non disponibile),
   "Camere": "..." (usa "N/A" se non disponibile),
@@ -442,6 +432,58 @@ def find_best_duplicate_optimized(existing_pages: list, new_descr: str, threshol
     
     return best_page, best_score
 
+def extract_images_from_description(description):
+    """Estrae gli URL delle immagini dal contenuto HTML della descrizione"""
+    if not description:
+        return []
+    
+    # Pattern per trovare tutti i tag img
+    img_pattern = r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>'
+    matches = re.findall(img_pattern, description, re.IGNORECASE)
+    
+    return matches
+
+def extract_images_from_media_content(entry):
+    """Estrae gli URL delle immagini dal tag media:content"""
+    images = []
+    
+    if hasattr(entry, 'media_content'):
+        for media in entry.media_content:
+            if hasattr(media, 'medium') and media.medium == 'image':
+                if hasattr(media, 'url'):
+                    images.append(media.url)
+    
+    return images
+
+def clean_html_from_description(description):
+    """Rimuove HTML e immagini dalla descrizione, mantenendo solo il testo puro"""
+    if not description:
+        return ""
+    
+    # Usa BeautifulSoup per rimuovere tutti i tag HTML
+    soup = BeautifulSoup(description, 'html.parser')
+    
+    # Rimuovi tutti i tag img
+    for img in soup.find_all('img'):
+        img.decompose()
+    
+    # Estrai solo il testo
+    clean_text = soup.get_text(separator=' ', strip=True)
+    
+    # Pulisci spazi multipli
+    clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+    
+    return clean_text
+
+def extract_all_images(entry):
+    """Estrae tutte le immagini da un entry RSS, rimuovendo duplicati"""
+    desc_images = extract_images_from_description(entry.description)
+    media_images = extract_images_from_media_content(entry)
+    
+    # Combina e rimuovi duplicati
+    all_images = list(set(desc_images + media_images))
+    return all_images
+
 def clear_caches():
     """Pulisce le cache in memoria per evitare memory leak."""
     global _similarity_cache, _text_normalization_cache
@@ -554,6 +596,13 @@ def send_to_notion(data):
     affidabilita = safe_number(data.get("Affidabilita"))
     motivo = data.get("Motivo_Rating", "")
     link_url = data.get("link", "")
+    immagini = data.get("Immagini", [])
+    
+    # Prendi la prima immagine se disponibile, altrimenti stringa vuota
+    prima_immagine = immagini[0] if immagini else ""
+    if prima_immagine:
+        print(f"🖼️ Salvando immagine per: {titolo[:50]}...")
+    
     payload = {
         "parent": {"database_id": NOTION_DATABASE_ID},
         "properties": {
@@ -568,6 +617,7 @@ def send_to_notion(data):
             "Motivo_Rating": {"rich_text": [{"text": {"content": motivo}}]},
             "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
             "Link": {"url": link_url},
+            "Immagini": {"url": prima_immagine},
             "Status": {"select": {"name": "Attivo"}}
         }
     }
@@ -629,13 +679,6 @@ def call_openrouter(posts_batch, max_retries=3):
 
 def process_rss():
     """Scarica e processa i post RSS da multiple feed."""
-    # Debug iniziale per la cache
-    print(f"🔍 DEBUG CACHE: Directory corrente: {os.getcwd()}")
-    print(f"🔍 DEBUG CACHE: File cache atteso: {os.path.abspath(CACHE_FILE)}")
-    print(f"🔍 DEBUG CACHE: File cache esiste: {os.path.exists(CACHE_FILE)}")
-    if os.path.exists(CACHE_FILE):
-        file_size = os.path.getsize(CACHE_FILE)
-        print(f"🔍 DEBUG CACHE: Dimensione file: {file_size} bytes")
     
     # Inizializza sempre la cache (crea file vuoto se non esiste)
     print("🔧 Inizializzazione cache...")
@@ -699,10 +742,32 @@ def process_rss():
                     print(f"🚫 Post scartato (in cache): {link}")
                     total_rejected += 1
                 else:
+                    # Usa description se disponibile, altrimenti summary, altrimenti content
+                    raw_description = ""
+                    if "description" in entry:
+                        raw_description = entry.description
+                    elif "summary" in entry:
+                        raw_description = entry.summary
+                    elif "content" in entry and entry.content:
+                        raw_description = entry.content[0].value
+                    
+                    # Pulisci il testo rimuovendo HTML e immagini
+                    clean_description = clean_html_from_description(raw_description)
+                    
+                    # Log della pulizia se c'è differenza significativa
+                    if len(raw_description) > len(clean_description) + 50:  # Se è stata rimossa una quantità significativa di HTML
+                        print(f"🧹 Testo pulito: {len(raw_description)} → {len(clean_description)} caratteri per: {entry.title[:50]}...")
+                    
+                    # Estrai immagini dal post
+                    images = extract_all_images(entry)
+                    if images:
+                        print(f"🖼️ Trovate {len(images)} immagini per: {entry.title[:50]}...")
+                    
                     posts.append({
                         "title": entry.title,
                         "link": link,
-                        "summary": entry.summary if "summary" in entry else ""
+                        "summary": clean_description,  # Usa il testo pulito
+                        "images": images
                     })
             else:
                 print(f"⏭️ Post già esistente, skip: {link}")
@@ -758,6 +823,10 @@ def process_rss():
                 for post_data, original_post in zip(parsed, current_batch):
                     if post_data.get("annuncio_rilevante") == "SI":
                         post_data["link"] = original_post["link"]
+                        # Aggiungi la descrizione originale direttamente dal feed RSS
+                        post_data["Descrizione_originale"] = original_post["summary"]
+                        # Aggiungi le immagini dal feed RSS
+                        post_data["Immagini"] = original_post.get("images", [])
                         relevant_posts.append(post_data)
                     else:
                         print(f"❌ Post non rilevante: {original_post['title']}")
@@ -785,7 +854,7 @@ def process_rss():
                     is_duplicate = False
                     for existing_post in unique_posts:
                         existing_descr_norm = existing_post["_normalized_desc"]
-                        if similarity_score(new_descr, existing_post.get("Descrizione_originale", "")) >= HIGH_DUP_THRESHOLD:
+                        if similarity_score(new_descr_norm, existing_descr_norm) >= HIGH_DUP_THRESHOLD:
                             print(f"🔄 Duplicato intra-batch rilevato, skip: {post_data.get('Titolo_parafrasato', '')[:50]}...")
                             is_duplicate = True
                             break
@@ -818,6 +887,7 @@ def process_rss():
                             "Motivo_Rating": post_data.get("Motivo_Rating", ""),
                             "Affidabilita": post_data.get("Affidabilita", None),
                             "Overview": post_data.get("Overview", ""),
+                            "Immagini": post_data.get("Immagini", []),
                             "link": post_data.get("link", ""),
                         }
                         # Crea la nuova pagina
@@ -929,36 +999,12 @@ def process_rss():
     # Statistiche performance
     print(f"   ⚡ Performance: Cache similarità: {len(_similarity_cache)} calcoli, Cache testo: {len(_text_normalization_cache)} normalizzazioni")
     
-    # Verifica finale del file cache con debug dettagliato
-    print(f"\n🔍 DEBUG FINALE CACHE:")
-    print(f"   📁 Directory corrente: {os.getcwd()}")
-    print(f"   📁 File cache: {os.path.abspath(CACHE_FILE)}")
-    print(f"   📁 File esiste: {os.path.exists(CACHE_FILE)}")
-    
+    # Verifica finale del file cache
     if os.path.exists(CACHE_FILE):
         file_size = os.path.getsize(CACHE_FILE)
-        print(f"   ✅ File cache esistente: {CACHE_FILE} ({file_size} bytes)")
-        
-        # Leggi e mostra il contenuto del file
-        try:
-            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-                content = json.load(f)
-            url_count = len(content.get('urls', {}))
-            print(f"   📄 URL nel file: {url_count}")
-            if url_count > 0:
-                print(f"   📄 Primi 3 URL: {list(content.get('urls', {}).keys())[:3]}")
-        except Exception as e:
-            print(f"   ❌ Errore lettura file cache: {e}")
+        print(f"   ✅ File cache: {CACHE_FILE} ({file_size} bytes)")
     else:
         print(f"   ❌ File cache NON trovato: {CACHE_FILE}")
-        if total_rejected > 0:
-            print(f"   ⚠️ ATTENZIONE: {total_rejected} post scartati ma file cache non trovato!")
-        
-        # Verifica se ci sono altri file cache nella directory
-        print(f"   🔍 Cercando altri file cache nella directory...")
-        for file in os.listdir('.'):
-            if 'cache' in file.lower() or 'rejected' in file.lower():
-                print(f"   📁 Trovato file: {file}")
 
 if __name__ == "__main__":
     process_rss()
