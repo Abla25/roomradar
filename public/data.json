@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2025-08-19T15:08:16.003Z",
-  "count": 112,
+  "generatedAt": "2025-08-19T15:13:26.091Z",
+  "count": 113,
   "results": [
+    {
+      "id": "254b5f64-9329-819d-82b3-f3805f6b36dc",
+      "title": "Stanza grande in affitto a Pubillas Casas",
+      "overview": "Stanza grande per una persona responsabile e pulita in un ambiente tranquillo",
+      "description": "Buenos días se alquila una Habitación grande para una sola persona que séa responsable y limpio en Pubillas Casas a una cuadra de la L- 5 hambiente muy tranquilo libre 01-09-25 llamar 632011102",
+      "price": "N/A",
+      "zone": "Pubillas Casas",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di foto e informazioni dettagliate, ma presenza di contatto telefonico",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T15:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068061015499430/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-811e-931b-f62287dc6455",
       "title": "camera singola in affitto",
