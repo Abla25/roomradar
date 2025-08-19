@@ -441,7 +441,14 @@ def extract_images_from_description(description):
     img_pattern = r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>'
     matches = re.findall(img_pattern, description, re.IGNORECASE)
     
-    return matches
+    # Decodifica le entità HTML negli URL (es. &amp; -> &)
+    import html
+    decoded_matches = []
+    for url in matches:
+        decoded_url = html.unescape(url)
+        decoded_matches.append(decoded_url)
+    
+    return decoded_matches
 
 def extract_images_from_media_content(entry):
     """Estrae gli URL delle immagini dal tag media:content"""
