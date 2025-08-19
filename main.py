@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from rapidfuzz import fuzz
 from zone_mapping import BARCELONA_MACRO_ZONES, MACRO_ZONE_MAPPING
 from bs4 import BeautifulSoup
+from censorship import censor_sensitive_data, has_sensitive_data
 
 # CONFIGURAZIONE
 NOTION_API_KEY = os.environ["NOTION_API_KEY"]
@@ -30,6 +31,8 @@ _similarity_cache = {}
 
 # Cache per normalizzazione testo
 _text_normalization_cache = {}
+
+
 
 def load_rejected_cache():
     """Carica la cache degli URL scartati dall'AI con TTL individuale."""
@@ -761,9 +764,16 @@ def process_rss():
                     # Pulisci il testo rimuovendo HTML e immagini
                     clean_description = clean_html_from_description(raw_description)
                     
+                    # Censura i dati sensibili dalla descrizione pulita
+                    censored_description = censor_sensitive_data(clean_description)
+                    
                     # Log della pulizia se c'è differenza significativa
                     if len(raw_description) > len(clean_description) + 50:  # Se è stata rimossa una quantità significativa di HTML
                         print(f"🧹 Testo pulito: {len(raw_description)} → {len(clean_description)} caratteri per: {entry.title[:50]}...")
+                    
+                    # Log della censura se sono stati censurati dati sensibili
+                    if has_sensitive_data(clean_description):
+                        print(f"🔒 Sensitive data censored for: {entry.title[:50]}...")
                     
                     # Estrai immagini dal post
                     images = extract_all_images(entry)
@@ -773,7 +783,7 @@ def process_rss():
                     posts.append({
                         "title": entry.title,
                         "link": link,
-                        "summary": clean_description,  # Usa il testo pulito
+                        "summary": censored_description,  # Usa il testo censurato
                         "images": images
                     })
             else:
@@ -830,7 +840,7 @@ def process_rss():
                 for post_data, original_post in zip(parsed, current_batch):
                     if post_data.get("annuncio_rilevante") == "SI":
                         post_data["link"] = original_post["link"]
-                        # Aggiungi la descrizione originale direttamente dal feed RSS
+                        # Aggiungi la descrizione originale dal feed RSS
                         post_data["Descrizione_originale"] = original_post["summary"]
                         # Aggiungi le immagini dal feed RSS
                         post_data["Immagini"] = original_post.get("images", [])

@@ -96,6 +96,7 @@ graph TB
 ```
 notion-rss-bot/
 ├── 📄 main.py                 # Core - Aggregazione e AI
+├── 📄 censorship.py           # Modulo censura dati sensibili
 ├── 📄 zone_mapping.py         # Mappatura zone Barcellona
 ├── 🌐 index.html              # Frontend completo
 ├── 📁 scripts/
@@ -650,7 +651,46 @@ OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 #### 🔒 **Privacy by Design**
 - **Nessun dato personale** salvato oltre a quello pubblico
 - **Link esterni** per immagini (no hosting diretto)
-- **Anonimizzazione** automatica di contatti sensibili
+- **Censura automatica** di dati sensibili
+
+#### 🚫 **Censura Dati Sensibili**
+
+Il sistema include un modulo avanzato di censura (`censorship.py`) che protegge automaticamente la privacy degli utenti:
+
+**Dati censurati automaticamente**:
+- ✅ **Numeri di telefono** (italiani: +39 3xx xxx xxxx, spagnoli: +34 6xx xxx xxx)
+- ✅ **Contatti WhatsApp/Telegram** (riconoscimento contestuale)
+- ✅ **Indirizzi email** (formato standard)
+- ✅ **Codici fiscali** italiani (16 caratteri alfanumerici)
+- ✅ **Partite IVA** (11 cifre, esclusi numeri di telefono)
+
+**Dati preservati** (utili per identificare zone):
+- ✅ **Indirizzi fisici** (via, piazza, quartieri)
+- ✅ **Nomi di zone** (necessari per il mapping)
+- ✅ **Informazioni geografiche** (metro, trasporti)
+
+```python
+# Esempio di censura
+original = "Chiamami al 333-123-4567 o WhatsApp 612345678"
+censored = "[PHONE NUMBER CENSORED] or [MESSAGING CONTACT CENSORED]"
+```
+
+**Architettura di censura**:
+```python
+# censorship.py - Modulo dedicato
+class DataCensor:
+    def censor_text(self, text: str) -> str:
+        """Censura dati sensibili mantenendo informazioni geografiche"""
+        # Pattern avanzati per riconoscimento contestuale
+        # Output in inglese per standardizzazione
+        return censored_text
+```
+
+**Integrazione seamless**:
+- 🔄 **Censura centralizzata** in un unico punto del pipeline
+- 📊 **Statistiche dettagliate** sui tipi di dati censurati
+- 🚀 **Performance ottimizzate** con caching intelligente
+- 🌐 **Output multilingua** (inglese per standardizzazione)
 
 #### 🚫 **Prevenzione Abuse**
 - Rate limiting su API calls
@@ -661,12 +701,14 @@ OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 - Logging di tutte le operazioni critiche
 - Timestamp per tracking modifiche
 - Versioning implicito tramite Notion
+- **Log censura** per trasparenza
 
 ### 🌐 **GDPR Compliance**
 
 - **Dati pubblici**: Solo contenuti già pubblici su Facebook
 - **Diritto all'oblio**: Rimozione automatica post scaduti
 - **Trasparenza**: Codice open source per audit
+- **Privacy by design**: Censura automatica dati sensibili
 
 ## 📈 Deployment e CI/CD
 
