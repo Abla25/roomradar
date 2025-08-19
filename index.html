@@ -1208,7 +1208,7 @@
       const statsDiv = document.getElementById('stats');
       if (allListings.length > 0) {
         // Conta i post attivi (non scaduti)
-        const activeListings = allListings.filter(l => l.status !== "Scaduto");
+        const activeListings = allListings.filter(l => l.status !== "expired");
         const total = activeListings.length;
         const filtered = filteredListings.length;
         const hasActiveFilters = hasFilters();
@@ -1305,8 +1305,8 @@
     }
 
     function populateFilters() {
-      // Filter only active posts to populate filters
-      const activeListings = allListings.filter(l => l.status !== "Scaduto");
+              // Filter only active posts to populate filters
+        const activeListings = allListings.filter(l => l.status !== "expired");
       const zones = [...new Set(activeListings.map(l => l.zoneMacro || null).filter(Boolean))].sort();
 
       console.log("Available zones:", zones);
@@ -1326,8 +1326,8 @@
       console.log("Active filters:", { zone, minReliability, maxPrice, dateFilter });
 
       filteredListings = allListings.filter(l => {
-        // Exclude posts with status "Scaduto"
-        if (l.status === "Scaduto") {
+        // Exclude posts with status "expired"
+        if (l.status === "expired") {
           return false;
         }
         

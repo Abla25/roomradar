@@ -178,11 +178,12 @@ OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 | `date_added` | Date | Insertion date |
 | `link` | URL | Facebook post link |
 | `images` | URL | First image URL |
-| `status` | Select | Active/Expired |
+| `status` | Select | active/expired/verification_needed |
 
 2. **Configure Select "status"** with options:
-   - ✅ Active (green)
-   - ❌ Expired (red)
+   - ✅ active (green)
+- ❌ expired (red)
+- ⚠️ verification_needed (yellow)
 
 ### 📍 **Zone Mapping**
 
@@ -391,7 +392,7 @@ Il database Notion funge da source of truth con:
   dateAdded: "2025-01-20T10:30:00.000Z",
   link: "https://facebook.com/...",
   imageUrl: "https://scontent.fxx.fbcdn.net/...",
-  status: "Attivo"
+          status: "active"
 }
 ```
 

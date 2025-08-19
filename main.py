@@ -195,7 +195,7 @@ INITIAL_BACKOFF_SECONDS = 32
 MAX_BACKOFF_SECONDS = 62
 
 # Soglie similarità per deduplica
-HIGH_DUP_THRESHOLD = 0.85  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
+HIGH_DUP_THRESHOLD = 0.85  # sopra questa soglia segniamo direttamente il vecchio come "expired"
 
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
@@ -523,14 +523,14 @@ def clear_caches():
 
 
 
-def mark_status_scaduto(page_id: str):
+def mark_status_expired(page_id: str):
     url = f"https://api.notion.com/v1/pages/{page_id}"
-    payload = {"properties": {"status": {"select": {"name": "Scaduto"}}}}
+    payload = {"properties": {"status": {"select": {"name": "expired"}}}}
     res = requests.patch(url, headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
-        print(f"❌ Error updating status=Expired for {page_id}: {res.text}")
+        print(f"❌ Error updating status=expired for {page_id}: {res.text}")
     else:
-        print(f"🗂️ Set status=Expired for page {page_id}")
+        print(f"🗂️ Set status=expired for page {page_id}")
 
 
 
@@ -645,7 +645,7 @@ def send_to_notion(data):
                     "date_added": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
         "link": {"url": link_url},
         "images": {"url": prima_immagine},
-            "status": {"select": {"name": "Attivo"}}
+            "status": {"select": {"name": "active"}}
         }
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
@@ -722,7 +722,7 @@ def process_rss():
     # Recupera tutti i dati esistenti in una sola chiamata ottimizzata
     print("📋 Loading existing data from database...")
     existing_links, existing_pages = get_existing_data()
-    active_pages = [p for p in existing_pages if p.get("status") != "Scaduto"]
+    active_pages = [p for p in existing_pages if p.get("status") != "expired"]
     print(f"📋 Loaded {len(active_pages)} active pages for deduplication")
     
     # Carica cache degli URL scartati
@@ -931,11 +931,11 @@ def process_rss():
                         if new_page_id:
                             # Marca la pagina esistente come scaduta
                             old_page_id = best_page.get("id")
-                            mark_status_scaduto(old_page_id)
+                            mark_status_expired(old_page_id)
                             # Aggiorna cache in RAM per non riproporlo
                             for p in all_active_pages:
                                 if p.get("id") == old_page_id:
-                                    p["status"] = "Scaduto"
+                                    p["status"] = "expired"
                                     break
                             
                             # Aggiungi la nuova pagina alla lista per deduplicazione futura
