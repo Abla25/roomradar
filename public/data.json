@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2025-08-19T12:26:13.730Z",
-  "count": 104,
+  "generatedAt": "2025-08-19T13:19:00.128Z",
+  "count": 108,
   "results": [
+    {
+      "id": "254b5f64-9329-8177-ac74-c5918f1e4f5c",
+      "title": "Affitto camera a Pubillas Casas",
+      "overview": "Camera grande in affitto a Pubillas Casas per persona sola",
+      "description": "Buenos días se alquila una",
+      "price": "N/A",
+      "zone": "Pubillas Casas",
+      "zoneMacro": "Nou Barris",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "Presenza di informazioni sulla zona, disponibilità di contatti e descizione della camera, ma mancanza di informazioni sul prezzo",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T13:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068061015499430/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-811b-8e4b-d1b48f547066",
+      "title": "Affitto camera a Segrera",
+      "overview": "Camera in affitto a Segrera per persona sola",
+      "description": "Se alquila habitación a persona",
+      "price": "N/A",
+      "zone": "Sagrera",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni sulla zona, prezzo e disponibilità di contatti, solo un breve testo",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T13:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068229658815899/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-81b1-9436-c0b9a65d2ffe",
+      "title": "Affitto camera a Hospitalet",
+      "overview": "Camera in affitto a Hospitalet, vicino a negozi e mezzi di trasporto",
+      "description": "Hola alquilo habitación en Hospitalet",
+      "price": "N/A",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Presenza di foto e informazioni sulla zona, ma mancanza di informazioni sul prezzo e sulla disponibilità di contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T13:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068248568814008/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8163-bcfc-c029935ab970",
+      "title": "Monolocale ammobiliato in affitto a El Raval",
+      "overview": "Monolocale ammobiliato con bagno completo, dúplex spazioso e moderno, situato nel barrio di El Raval",
+      "description": "Estudio amueblado muy bonito, 1 baño completo, Dúplex espacioso y moderno, Excelente conexión con metro y bus, A minutos del puerto y la playa, Situado en el vibrante barrio de El Raval",
+      "price": "1100€ x mes",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "Presenza di foto, informazioni sufficienti e non sembra una truffa",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T13:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294692720763237/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-8157-b1d1-c05038805437",
       "title": "Affitto stanza a Horta-Guinardó",
@@ -496,7 +560,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T02:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1064156442556554/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "254b5f64-9329-81bd-8a80-ff1d6e559d7f",
