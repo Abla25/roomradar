@@ -178,9 +178,9 @@ OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 | `date_added` | Date | Data inserimento |
 | `link` | URL | Link al post Facebook |
 | `images` | URL | URL prima immagine |
-| `Status` | Select | Attivo/Scaduto |
+| `status` | Select | Attivo/Scaduto |
 
-2. **Configura Select "Status"** con opzioni:
+2. **Configura Select "status"** con opzioni:
    - ✅ Attivo (verde)
    - ❌ Scaduto (rosso)
 

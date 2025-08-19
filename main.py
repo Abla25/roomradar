@@ -392,7 +392,7 @@ def get_existing_data():
         "original_description": _extract_text_property(props.get("original_description", {})),
         "price": _extract_text_property(props.get("price", {})),
                     "zone": _extract_text_property(props.get("zone", {})),
-                    "Status": _extract_status_name(props.get("Status", {})),
+                    "status": _extract_status_name(props.get("status", {})),
                     "Link": link_url
                 })
             
@@ -508,12 +508,12 @@ def clear_caches():
 
 def mark_status_scaduto(page_id: str):
     url = f"https://api.notion.com/v1/pages/{page_id}"
-    payload = {"properties": {"Status": {"select": {"name": "Scaduto"}}}}
+    payload = {"properties": {"status": {"select": {"name": "Scaduto"}}}}
     res = requests.patch(url, headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
-        print(f"❌ Errore aggiornamento Status=Scaduto per {page_id}: {res.text}")
+        print(f"❌ Errore aggiornamento status=Scaduto per {page_id}: {res.text}")
     else:
-        print(f"🗂️ Impostato Status=Scaduto per pagina {page_id}")
+        print(f"🗂️ Impostato status=Scaduto per pagina {page_id}")
 
 
 
@@ -628,7 +628,7 @@ def send_to_notion(data):
                     "date_added": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
         "link": {"url": link_url},
         "images": {"url": prima_immagine},
-            "Status": {"select": {"name": "Attivo"}}
+            "status": {"select": {"name": "Attivo"}}
         }
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
@@ -705,7 +705,7 @@ def process_rss():
     # Recupera tutti i dati esistenti in una sola chiamata ottimizzata
     print("📋 Caricamento dati esistenti dal database...")
     existing_links, existing_pages = get_existing_data()
-    active_pages = [p for p in existing_pages if p.get("Status") != "Scaduto"]
+    active_pages = [p for p in existing_pages if p.get("status") != "Scaduto"]
     print(f"📋 Caricate {len(active_pages)} pagine attive per deduplicazione")
     
     # Carica cache degli URL scartati
@@ -916,7 +916,7 @@ def process_rss():
                             # Aggiorna cache in RAM per non riproporlo
                             for p in all_active_pages:
                                 if p.get("id") == old_page_id:
-                                    p["Status"] = "Scaduto"
+                                    p["status"] = "Scaduto"
                                     break
                             
                             # Aggiungi la nuova pagina alla lista per deduplicazione futura
@@ -928,8 +928,8 @@ def process_rss():
                                 "price": new_item.get("price", ""),
                                 "zone": new_item.get("zone", ""),
                                 "zone_macro": new_item.get("zone_macro", ""),
-                                "Status": "",
-                                "Link": new_item.get("link", "")
+                                "status": "",
+                                "link": new_item.get("link", "")
                             }
                             newly_added_pages.append(new_page_data)
                             new_posts_added += 1
@@ -965,7 +965,7 @@ def process_rss():
                                 "price": post_data.get("price", ""),
                                 "zone": post_data.get("zone", ""),
                                 "zone_macro": zona_macro,
-                                "Status": "",
+                                "status": "",
                                 "link": post_data.get("link", "")
                             }
                             newly_added_pages.append(new_page_data)

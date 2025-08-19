@@ -81,7 +81,7 @@ function parseNotionPage(page) {
     datePublished: get("date_published", "date"),
     dateAdded: get("date_added", "date"),
     link: get("link", "url"),
-    status: get("Status", "select"),
+    status: get("status", "select"),
     imageUrl: get("images", "url")
   };
 }
