@@ -54,6 +54,34 @@
   outline: 2px solid #007AFF;
   outline-offset: 2px;
 }
+
+/* Layout ottimizzato */
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card-meta-desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Mobile ottimizzato */
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
+  
+  .card-meta-desktop {
+    display: none;
+  }
+  
+  .card-meta-mobile {
+    display: flex;
+  }
+}
 ```
 
 ### JavaScript
@@ -90,6 +118,9 @@ onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_bl
 
 ### UX/UI
 - **Design bilanciato**: Nessuno squilibrio tra card con/senza immagini
+- **Layout ottimizzato**: 
+  - **Desktop**: Meta info (prezzo/zona) sotto la miniatura
+  - **Mobile**: Placeholder nascosto per post senza immagini, spazio ottimizzato
 - **Interazioni fluide**: Hover e focus states ottimizzati
 - **Responsive**: Perfetto su tutti i dispositivi
 

@@ -24,14 +24,21 @@ imageUrl: get("Immagini", "url")
 ### 3. Frontend - Design Responsive
 
 #### Layout Card
-- **Desktop**: Layout orizzontale con immagine a sinistra (120x90px)
-- **Mobile**: Layout verticale con immagine in cima (100% larghezza, 150px altezza)
+- **Desktop**: Layout orizzontale con immagine a sinistra (120x90px) e meta info (prezzo/zona) sotto la miniatura
+- **Mobile**: Layout verticale con immagine in cima (100% larghezza, 150px altezza) - placeholder nascosto per post senza immagini
 
 #### Stili CSS
 ```css
 .card {
   display: flex;
   gap: 1rem;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .card-thumbnail {
@@ -42,16 +49,43 @@ imageUrl: get("Immagini", "url")
   overflow: hidden;
 }
 
+.card-meta-desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-meta-mobile {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .card {
     flex-direction: column;
   }
   
+  .card-left {
+    order: -1;
+  }
+  
   .card-thumbnail {
     width: 100%;
     height: 150px;
-    order: -1;
+  }
+  
+  .desktop-only {
+    display: none !important;
+  }
+  
+  .card-meta-desktop {
+    display: none;
+  }
+  
+  .card-meta-mobile {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
   }
 }
 ```
