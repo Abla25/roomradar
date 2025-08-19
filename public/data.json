@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2025-08-19T03:38:23.287Z",
-  "count": 77,
+  "generatedAt": "2025-08-19T04:15:20.545Z",
+  "count": 78,
   "results": [
+    {
+      "id": "254b5f64-9329-81a4-9486-e240330990eb",
+      "title": "Affitto di camera per coppia a Ciudad Meridiana",
+      "overview": "Camera in affitto per coppia a Ciudad Meridiana",
+      "description": "Se alquila habitación para pareja ubicada en ciudad Meridiana ref al 631243027",
+      "price": "N/A",
+      "zone": "Ciudad Meridiana",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Presenza di foto e informazioni di contatto, sembra un annuncio affidabile",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T04:14:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067851235520408/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-8144-8f98-c859e0d45b78",
       "title": "Stanza in affitto a Terrassa",
@@ -144,7 +160,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T00:01:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4294078034158039/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-812e-86ee-ce71a762da32",
