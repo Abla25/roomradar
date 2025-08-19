@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2025-08-19T11:09:41.612Z",
-  "count": 100,
+  "generatedAt": "2025-08-19T12:26:13.730Z",
+  "count": 104,
   "results": [
+    {
+      "id": "254b5f64-9329-8157-b1d1-c05038805437",
+      "title": "Affitto stanza a Horta-Guinardó",
+      "overview": "Affitto di stanza a Horta-Guinardó, El Carmel, Barcelona",
+      "description": "SE ALQUILA HABITACIÓN! Horta-Guinardó – El Carmel (Barcelona)",
+      "price": "N/A",
+      "zone": "Horta-Guinardó, El Carmel, Barcelona",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma senza prezzo e senza foto disponibili pubblicamente",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T12:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011382552524704/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8118-92d9-d6d61eb5dcfb",
+      "title": "Affitto stanza a Igualada",
+      "overview": "Affitto di una stanza in un appartamento dúplex a Igualada",
+      "description": "Alquilo habitación en igualada ver ubicación en apartamento dúplex parejas asepto nenes para alquilar ya 603597082",
+      "price": "N/A",
+      "zone": "Igualada",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni insufficienti e mancanza di foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T12:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068271205478411/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8182-8486-ea5675673ce8",
+      "title": "Affitto camera a Can Vidalet",
+      "overview": "Camera in affitto a Can Vidalet, vicino alla metro e al tram",
+      "description": "Habitacion en Can vidalet, Cerca de metro y tram, sin deposito, para persona responsable y seria, preferiblemente mayor de 35 años. 350€",
+      "price": "350€",
+      "zone": "Can Vidalet",
+      "zoneMacro": "Les Corts",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma mancanza di foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T12:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294613990771110/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8127-b624-d0e63150b611",
+      "title": "Affitto camera per giovani coppie",
+      "overview": "Camera in affitto per giovani coppie lavoratrici a Santa Coloma de Gram",
+      "description": "Se alquila habitación pará parejas jóvenes trabajadoras santa Coloma de Gram RB Sanse Bastian Whatsapp 656837384",
+      "price": "N/A",
+      "zone": "Santa Coloma de Gram",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Mancanza di informazioni e di foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T12:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294644310768078/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-8187-9595-c4c993b22774",
       "title": "Camera in affitto a Barcellona",
@@ -80,7 +144,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T09:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011923685803924/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "254b5f64-9329-8130-958c-f9ea0823c69a",
