@@ -69,20 +69,20 @@ function parseNotionPage(page) {
 
   return {
     id: page.id,
-    title: get("Titolo_parafrasato", "title"),
-    overview: get("Overview", "rich"),
-    description: get("Descrizione_originale", "rich"),
-    price: get("Prezzo", "rich"),
-    zone: get("Zona", "rich"),
-    zoneMacro: get("Zona_macro", "rich"),
-    rooms: get("Camere", "rich"),
-    reliability: get("Affidabilita", "number") || 0,
-    reliabilityReason: get("Motivo_Rating", "rich"),
-    datePublished: get("Data_Pubblicazione", "date"),
-    dateAdded: get("Data_DB", "date"),
-    link: get("Link", "url"),
+    title: get("paraphrased_title", "title"),
+    overview: get("overview", "rich"),
+    description: get("original_description", "rich"),
+    price: get("price", "rich"),
+    zone: get("zone", "rich"),
+    zoneMacro: get("zone_macro", "rich"),
+    rooms: get("rooms", "rich"),
+    reliability: get("reliability", "number") || 0,
+    reliabilityReason: get("rating_reason", "rich"),
+    datePublished: get("date_published", "date"),
+    dateAdded: get("date_added", "date"),
+    link: get("link", "url"),
     status: get("Status", "select"),
-    imageUrl: get("Immagini", "url")
+    imageUrl: get("images", "url")
   };
 }
 

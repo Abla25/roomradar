@@ -166,18 +166,18 @@ OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 | Nome Campo | Tipo | Descrizione |
 |------------|------|-------------|
-| `Titolo_parafrasato` | Title | Titolo dell'annuncio |
-| `Overview` | Rich Text | Riassunto AI |
-| `Descrizione_originale` | Rich Text | Testo originale del post |
-| `Prezzo` | Rich Text | Prezzo estratto |
-| `Zona` | Rich Text | Zona specifica |
-| `Zona_macro` | Rich Text | Zona macro (mappata) |
-| `Camere` | Rich Text | Numero camere |
-| `Affidabilita` | Number | Rating 1-5 |
-| `Motivo_Rating` | Rich Text | Spiegazione del rating |
-| `Data_DB` | Date | Data inserimento |
-| `Link` | URL | Link al post Facebook |
-| `Immagini` | URL | URL prima immagine |
+| `paraphrased_title` | Title | Titolo dell'annuncio |
+| `overview` | Rich Text | Riassunto AI |
+| `original_description` | Rich Text | Testo originale del post |
+| `price` | Rich Text | Prezzo estratto |
+| `zone` | Rich Text | Zona specifica |
+| `zone_macro` | Rich Text | Zona macro (mappata) |
+| `rooms` | Rich Text | Numero camere |
+| `reliability` | Number | Rating 1-5 |
+| `rating_reason` | Rich Text | Spiegazione del rating |
+| `date_added` | Date | Data inserimento |
+| `link` | URL | Link al post Facebook |
+| `images` | URL | URL prima immagine |
 | `Status` | Select | Attivo/Scaduto |
 
 2. **Configura Select "Status"** con opzioni:
@@ -254,14 +254,14 @@ Il sistema utilizza prompt strutturati per:
 
 ```python
 PROMPT_TEMPLATE = """
-Analizza questi post da gruppi Facebook di affitti a Barcellona.
+Analyze these posts from Facebook groups for rentals in Barcelona.
 
-Per ogni post, determina:
-1. È un annuncio di affitto pertinente? (SI/NO)
-2. Estrai: titolo, prezzo, zona, camere, descrizione
-3. Assegna rating affidabilità (1-5) basato su:
-   - Presenza di foto
-   - Informazioni complete
+For each post, determine:
+1. Is it a relevant rental listing? (YES/NO)
+2. Extract: title, price, zone, rooms, description
+3. Assign reliability rating (1-5) based on:
+   - Presence of photos
+   - Complete information
    - Contatti disponibili
    - Assenza di segnali di spam
 

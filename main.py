@@ -212,14 +212,14 @@ IMPORTANT: For all fields, if the information is not available or cannot be extr
 
 For each relevant post, generate a dictionary with:
 {{
-  "annuncio_rilevante": "YES" or "NO",
-  "Titolo_parafrasato": "...",
-  "Overview": "...",
-  "Prezzo": "..." (use "N/A" if not available),
-  "Zona": "..." (use "N/A" if not available),
-  "Camere": "..." (use "N/A" if not available),
-  "Affidabilita": number (0-5) (based on information, if sufficient, if the article contains photos, contacts and doesn't seem like a scam; 4 and 5 can only be achieved if photos are present and it doesn't seem like a scam),
-  "Motivo_Rating": "...",
+  "relevant_listing": "YES" or "NO",
+  "paraphrased_title": "...",
+  "overview": "...",
+  "price": "..." (use "N/A" if not available),
+  "zone": "..." (use "N/A" if not available),
+  "rooms": "..." (use "N/A" if not available),
+  "reliability": number (0-5) (based on information, if sufficient, if the article contains photos, contacts and doesn't seem like a scam; 4 and 5 can only be achieved if photos are present and it doesn't seem like a scam),
+  "rating_reason": "...",
 }}
 Respond ONLY with JSON. No additional text.
 POSTS:
@@ -353,7 +353,7 @@ def get_existing_data():
             "page_size": 100,
             "sorts": [
                 {
-                    "property": "Data_DB",
+                    "property": "date_added",
                     "direction": "descending"
                 }
             ]
@@ -388,10 +388,10 @@ def get_existing_data():
                 existing_pages.append({
                     "id": page.get("id"),
                     "created_time": page.get("created_time"),
-                    "Titolo_parafrasato": _extract_text_property(props.get("Titolo_parafrasato", {})),
-                    "Descrizione_originale": _extract_text_property(props.get("Descrizione_originale", {})),
-                    "Prezzo": _extract_text_property(props.get("Prezzo", {})),
-                    "Zona": _extract_text_property(props.get("Zona", {})),
+                            "paraphrased_title": _extract_text_property(props.get("paraphrased_title", {})),
+        "original_description": _extract_text_property(props.get("original_description", {})),
+        "price": _extract_text_property(props.get("price", {})),
+                    "zone": _extract_text_property(props.get("zone", {})),
                     "Status": _extract_status_name(props.get("Status", {})),
                     "Link": link_url
                 })
@@ -418,7 +418,7 @@ def find_best_duplicate_optimized(existing_pages: list, new_descr: str, threshol
     sorted_pages = sorted(existing_pages, key=lambda x: x.get("created_time", ""), reverse=True)
     
     for p in sorted_pages:
-        descr = p.get("Descrizione_originale", "")
+        descr = p.get("original_description", "")
         if not descr:
             continue
             
@@ -547,7 +547,7 @@ Lista macro-zone consentite:{macro_list}
 
 Rispondi SOLO in JSON, nel formato:
 {{
-  "Zona_macro": "<una delle macro-zone sopra oppure \"\" se incerto>"
+          "zone_macro": "<una delle macro-zone sopra oppure \"\" se incerto>"
 }}
 
 ZONA: {zona_text}
@@ -575,7 +575,7 @@ ZONA: {zona_text}
         # Tolleranza su chiave/maiuscole
         key = None
         for k in parsed.keys():
-            if k.lower() == "zona_macro":
+            if k.lower() == "zone_macro":
                 key = k
                 break
         if not key:
@@ -588,11 +588,11 @@ ZONA: {zona_text}
 
 def send_to_notion(data):
     """Invia i dati a Notion. Restituisce l'ID pagina se creato, altrimenti None."""
-    titolo = data.get("Titolo_parafrasato", "")
-    overview = data.get("Overview", "")
-    descr = data.get("Descrizione_originale", "")
-    prezzo = data.get("Prezzo", "")
-    zona = data.get("Zona", "")
+    titolo = data.get("paraphrased_title", "")
+    overview = data.get("overview", "")
+    descr = data.get("original_description", "")
+    prezzo = data.get("price", "")
+    zona = data.get("zone", "")
     zona_macro_result = infer_macro_zone(
         zona,
         titolo=titolo,
@@ -602,11 +602,11 @@ def send_to_notion(data):
     zona_matched = zona_macro_result[1]  # Zona che ha causato il match
     if zona_macro:
         print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
-    camere = data.get("Camere", "")
-    affidabilita = safe_number(data.get("Affidabilita"))
-    motivo = data.get("Motivo_Rating", "")
+    camere = data.get("rooms", "")
+    affidabilita = safe_number(data.get("reliability"))
+    motivo = data.get("rating_reason", "")
     link_url = data.get("link", "")
-    immagini = data.get("Immagini", [])
+    immagini = data.get("images", [])
     
     # Prendi la prima immagine se disponibile, altrimenti null
     prima_immagine = immagini[0] if immagini else None
@@ -616,18 +616,18 @@ def send_to_notion(data):
     payload = {
         "parent": {"database_id": NOTION_DATABASE_ID},
         "properties": {
-            "Titolo_parafrasato": {"title": [{"text": {"content": titolo}}]},
-            "Overview": {"rich_text": [{"text": {"content": overview}}]},
-            "Descrizione_originale": {"rich_text": [{"text": {"content": descr}}]},
-            "Prezzo": {"rich_text": [{"text": {"content": prezzo}}]},
-            "Zona": {"rich_text": [{"text": {"content": zona}}]},
-            "Zona_macro": {"rich_text": [{"text": {"content": zona_macro}}]},
-            "Camere": {"rich_text": [{"text": {"content": camere}}]},
-            "Affidabilita": {"number": affidabilita},
-            "Motivo_Rating": {"rich_text": [{"text": {"content": motivo}}]},
-            "Data_DB": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
-            "Link": {"url": link_url},
-            "Immagini": {"url": prima_immagine},
+                    "paraphrased_title": {"title": [{"text": {"content": titolo}}]},
+        "overview": {"rich_text": [{"text": {"content": overview}}]},
+        "original_description": {"rich_text": [{"text": {"content": descr}}]},
+        "price": {"rich_text": [{"text": {"content": prezzo}}]},
+                    "zone": {"rich_text": [{"text": {"content": zona}}]},
+        "zone_macro": {"rich_text": [{"text": {"content": zona_macro}}]},
+                    "rooms": {"rich_text": [{"text": {"content": camere}}]},
+        "reliability": {"number": affidabilita},
+        "rating_reason": {"rich_text": [{"text": {"content": motivo}}]},
+                    "date_added": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
+        "link": {"url": link_url},
+        "images": {"url": prima_immagine},
             "Status": {"select": {"name": "Attivo"}}
         }
     }
@@ -638,7 +638,7 @@ def send_to_notion(data):
     else:
         page = res.json()
         page_id = page.get("id")
-        print(f"✅ Aggiunto su Notion: {data['Titolo_parafrasato']} ({page_id})")
+        print(f"✅ Aggiunto su Notion: {data['paraphrased_title']} ({page_id})")
         return page_id
 
 def call_openrouter(posts_batch, max_retries=3):
@@ -838,12 +838,12 @@ def process_rss():
                 
                 # Prima passata: raccogli tutti i post rilevanti del batch
                 for post_data, original_post in zip(parsed, current_batch):
-                    if post_data.get("annuncio_rilevante") == "SI":
+                    if post_data.get("relevant_listing") == "YES":
                         post_data["link"] = original_post["link"]
                         # Aggiungi la descrizione originale dal feed RSS
-                        post_data["Descrizione_originale"] = original_post["summary"]
+                        post_data["original_description"] = original_post["summary"]
                         # Aggiungi le immagini dal feed RSS
-                        post_data["Immagini"] = original_post.get("images", [])
+                        post_data["images"] = original_post.get("images", [])
                         relevant_posts.append(post_data)
                     else:
                         print(f"❌ Post non rilevante: {original_post['title']}")
@@ -857,14 +857,14 @@ def process_rss():
                 # Pre-calcola le descrizioni normalizzate per ottimizzazione
                 relevant_posts_with_norm = []
                 for post_data in relevant_posts:
-                    new_descr = post_data.get("Descrizione_originale", "")
+                    new_descr = post_data.get("original_description", "")
                     post_data["_normalized_desc"] = normalize_text(new_descr)
                     relevant_posts_with_norm.append(post_data)
                 
                 # Controllo duplicati intra-batch prima di tutto (più veloce)
                 unique_posts = []
                 for post_data in relevant_posts_with_norm:
-                    new_descr = post_data.get("Descrizione_originale", "")
+                    new_descr = post_data.get("original_description", "")
                     new_descr_norm = post_data["_normalized_desc"]
                     
                     # Controlla duplicati solo con i post già processati in questo batch
@@ -872,7 +872,7 @@ def process_rss():
                     for existing_post in unique_posts:
                         existing_descr_norm = existing_post["_normalized_desc"]
                         if similarity_score(new_descr_norm, existing_descr_norm) >= HIGH_DUP_THRESHOLD:
-                            print(f"🔄 Duplicato intra-batch rilevato, skip: {post_data.get('Titolo_parafrasato', '')[:50]}...")
+                            print(f"🔄 Duplicato intra-batch rilevato, skip: {post_data.get('paraphrased_title', '')[:50]}...")
                             is_duplicate = True
                             break
                     
@@ -883,7 +883,7 @@ def process_rss():
                 
                 # Ora processa solo i post unici
                 for post_data in unique_posts:
-                    new_descr = post_data.get("Descrizione_originale", "")
+                    new_descr = post_data.get("original_description", "")
                     
                     # Controlla duplicati con pagine esistenti
                     best_page, best_score = find_best_duplicate_optimized(all_active_pages, new_descr, HIGH_DUP_THRESHOLD)
@@ -892,19 +892,19 @@ def process_rss():
                         # Trovato duplicato forte con pagina esistente, sostituiscila
                         print(f"🔄 Duplicato con pagina esistente rilevato (score: {best_score:.2f}), sostituisco...")
                         new_item = {
-                            "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
-                            "Descrizione_originale": new_descr,
-                            "Prezzo": post_data.get("Prezzo", ""),
-                            "Zona": post_data.get("Zona", ""),
-                            "Zona_macro": infer_macro_zone(
-                                post_data.get("Zona", ""),
-                                titolo=post_data.get("Titolo_parafrasato", ""),
-                                descrizione=new_descr
-                            )[0],  # Estrai solo la macro-zona
-                            "Motivo_Rating": post_data.get("Motivo_Rating", ""),
-                            "Affidabilita": post_data.get("Affidabilita", None),
-                            "Overview": post_data.get("Overview", ""),
-                            "Immagini": post_data.get("Immagini", []),
+                            "paraphrased_title": post_data.get("paraphrased_title", ""),
+                            "original_description": new_descr,
+                            "price": post_data.get("price", ""),
+                            "zone": post_data.get("zone", ""),
+                                    "zone_macro": infer_macro_zone(
+            post_data.get("zone", ""),
+            titolo=post_data.get("paraphrased_title", ""),
+            descrizione=new_descr
+        )[0],  # Estrai solo la macro-zona
+                            "rating_reason": post_data.get("rating_reason", ""),
+                            "reliability": post_data.get("reliability", None),
+                            "overview": post_data.get("overview", ""),
+                            "images": post_data.get("images", []),
                             "link": post_data.get("link", ""),
                         }
                         # Crea la nuova pagina
@@ -923,11 +923,11 @@ def process_rss():
                             new_page_data = {
                                 "id": new_page_id,
                                 "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                                "Titolo_parafrasato": new_item.get("Titolo_parafrasato", ""),
-                                "Descrizione_originale": new_item.get("Descrizione_originale", ""),
-                                "Prezzo": new_item.get("Prezzo", ""),
-                                "Zona": new_item.get("Zona", ""),
-                                "Zona_macro": new_item.get("Zona_macro", ""),
+                                "paraphrased_title": new_item.get("paraphrased_title", ""),
+                                "original_description": new_item.get("original_description", ""),
+                                "price": new_item.get("price", ""),
+                                "zone": new_item.get("zone", ""),
+                                "zone_macro": new_item.get("zone_macro", ""),
                                 "Status": "",
                                 "Link": new_item.get("link", "")
                             }
@@ -941,11 +941,11 @@ def process_rss():
                         if page_id:
                             new_posts_added += 1
                             # Se abbiamo una Zona ma non siamo riusciti a inferire una Zona_macro, tentiamo in coda con AI
-                            zona = post_data.get("Zona", "")
+                            zona = post_data.get("zone", "")
                             zona_macro_result = infer_macro_zone(
                                 zona,
-                                titolo=post_data.get("Titolo_parafrasato", ""),
-                                descrizione=post_data.get("Descrizione_originale", "")
+                                titolo=post_data.get("paraphrased_title", ""),
+                                descrizione=post_data.get("original_description", "")
                             )
                             zona_macro = zona_macro_result[0]
                             zona_matched = zona_macro_result[1]
@@ -963,8 +963,8 @@ def process_rss():
                                 "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
                                 "Descrizione_originale": post_data.get("Descrizione_originale", ""),
                                 "Prezzo": post_data.get("Prezzo", ""),
-                                "Zona": post_data.get("Zona", ""),
-                                "Zona_macro": zona_macro,
+                                        "zone": post_data.get("zone", ""),
+        "zone_macro": zona_macro,
                                 "Status": "",
                                 "Link": post_data.get("link", "")
                             }
@@ -994,7 +994,7 @@ def process_rss():
                 # aggiorna la pagina Notion con Zona_macro
                 try:
                     url = f"https://api.notion.com/v1/pages/{page_id}"
-                    payload = {"properties": {"Zona_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
+                    payload = {"properties": {"zone_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
                     r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
                     if r.status_code == 200:
                         print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")

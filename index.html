@@ -1445,11 +1445,11 @@
         const div = document.createElement("div");
         div.className = "card";
 
-        // Use "Descrizione_originale" if available, otherwise "description", finally "overview"
-        const description = l.Descrizione_originale || l.description || l.overview || "";
+        // Use "original_description" if available, otherwise "description", finally "overview"
+        const description = l.original_description || l.description || l.overview || "";
         const shortText = description.length > 150 ? description.slice(0, 150) + "..." : description;
         const isLong = description.length > 150;
-        const isAISummary = !l.Descrizione_originale && !l.description && l.overview; // Only if there are no other description fields
+        const isAISummary = !l.original_description && !l.description && l.overview; // Only if there are no other description fields
 
         // Format date and time
         const formatDateTime = (dateString) => {
