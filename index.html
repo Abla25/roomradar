@@ -981,7 +981,11 @@
       }
       
       .card-thumbnail-placeholder {
-        display: flex; /* Mostra il placeholder anche su mobile */
+        display: none; /* Nasconde il placeholder su mobile per post senza immagini */
+      }
+      
+      .card-thumbnail-desktop-only {
+        display: none; /* Nasconde la miniatura con emoticon su mobile */
       }
       
       .card-actions {
@@ -1469,18 +1473,18 @@
         const rating = parseInt(l.reliability || 0, 10);
         const ratingClass = rating >= 4 ? 'high' : (rating <= 2 ? 'low' : 'mid');
 
-        // Crea la miniatura (con immagine o emoticon casa)
-        const thumbnailHtml = `
+        // Crea la miniatura (con immagine o emoticon casa solo su desktop)
+        const thumbnailHtml = l.imageUrl ? `
           <div class="card-thumbnail" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Apri annuncio: ${l.title || 'Senza titolo'}">
-            ${l.imageUrl ? `
-              <div class="card-thumbnail-loading">Caricamento...</div>
-              <img src="${l.imageUrl}" alt="Immagine annuncio: ${l.title || 'Senza titolo'}" 
-                   onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Errore caricamento</div>'"
-                   onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
-                   loading="lazy">
-            ` : `
-              <div class="card-thumbnail-placeholder">🏠</div>
-            `}
+            <div class="card-thumbnail-loading">Caricamento...</div>
+            <img src="${l.imageUrl}" alt="Immagine annuncio: ${l.title || 'Senza titolo'}" 
+                 onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Errore caricamento</div>'"
+                 onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
+                 loading="lazy">
+          </div>
+        ` : `
+          <div class="card-thumbnail card-thumbnail-desktop-only" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Apri annuncio: ${l.title || 'Senza titolo'}">
+            <div class="card-thumbnail-placeholder">🏠</div>
           </div>
         `;
 
