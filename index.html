@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>RoomRadar - Beta test</title>
+  <title>RoomRadar - Beta Test</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
@@ -1020,12 +1020,12 @@
         
         <h1>RoomRadar</h1>
         
-        <p class="header-subtitle">Beta Test - Barcellona</p>
+        <p class="header-subtitle">Beta Test - Barcelona</p>
         
-        <div class="header-badge">
-          <div class="header-badge-icon"></div>
-          Database Notion • Aggiornamento automatico
-        </div>
+                  <div class="header-badge">
+            <div class="header-badge-icon"></div>
+            Notion Database • Automatic Updates
+          </div>
       </div>
     </div>
   </header>
@@ -1034,15 +1034,15 @@
     <div class="filters">
       <div class="filter-row">
         <div class="filter-group">
-          <label>Zona</label>
+          <label>Zone</label>
           <select id="filter-zone">
-            <option value="">Tutte le zone</option>
+            <option value="">All zones</option>
           </select>
         </div>
         <div class="filter-group">
-          <label>Affidabilità min.</label>
+          <label>Min. Reliability</label>
           <select id="filter-reliability">
-            <option value="">Tutte</option>
+            <option value="">All</option>
             <option value="1">≥ 1</option>
             <option value="2">≥ 2</option>
             <option value="3">≥ 3</option>
@@ -1051,25 +1051,25 @@
           </select>
         </div>
         <div class="filter-group">
-          <label>Prezzo max (€)</label>
+          <label>Max Price (€)</label>
           <input type="number" id="filter-price" placeholder="1200">
         </div>
         <div class="filter-group">
-          <label>Data di pubblicazione</label>
+          <label>Publication Date</label>
           <select id="filter-date">
-            <option value="">Tutti</option>
-            <option value="1">Oggi</option>
-            <option value="3">Ultimi 3 giorni</option>
-            <option value="7">Ultima settimana</option>
-            <option value="30">Ultimo mese</option>
+            <option value="">All</option>
+            <option value="1">Today</option>
+            <option value="3">Last 3 days</option>
+            <option value="7">Last week</option>
+            <option value="30">Last month</option>
           </select>
         </div>
       </div>
       
       <div class="active-filters" id="active-filters">
         <div class="active-filters-header">
-          <span class="active-filters-title">Filtri attivi:</span>
-          <button class="clear-filters" onclick="clearAllFilters()">Rimuovi tutti i filtri</button>
+          <span class="active-filters-title">Active filters:</span>
+          <button class="clear-filters" onclick="clearAllFilters()">Clear all filters</button>
         </div>
         <div class="filter-tags" id="filter-tags"></div>
       </div>
@@ -1077,21 +1077,21 @@
       <div class="advanced-controls">
         <div class="advanced-controls-left">
           <div class="control-group">
-            <label>Ordina per:</label>
+            <label>Sort by:</label>
             <select id="sort-by">
-              <option value="date-desc">Data (più recenti)</option>
-              <option value="date-asc">Data (più vecchi)</option>
-              <option value="rating-desc">Rating (più alto)</option>
-              <option value="rating-asc">Rating (più basso)</option>
-              <option value="price-asc">Prezzo (crescente)</option>
-              <option value="price-desc">Prezzo (decrescente)</option>
+              <option value="date-desc">Date (newest)</option>
+              <option value="date-asc">Date (oldest)</option>
+              <option value="rating-desc">Rating (highest)</option>
+              <option value="rating-asc">Rating (lowest)</option>
+              <option value="price-asc">Price (ascending)</option>
+              <option value="price-desc">Price (descending)</option>
             </select>
           </div>
         </div>
         
         <div class="advanced-controls-right">
           <div class="control-group">
-            <label>Annunci per pagina:</label>
+            <label>Items per page:</label>
             <select id="items-per-page">
               <option value="10">10</option>
               <option value="20" selected>20</option>
@@ -1105,7 +1105,7 @@
 
     <div id="stats" class="stats" style="display: none;"></div>
 
-    <div id="loading" class="loading">Caricamento annunci...</div>
+    <div id="loading" class="loading">Loading listings...</div>
     
     <div id="listings" class="listings"></div>
     
@@ -1132,15 +1132,15 @@
         document.getElementById('filter-date').addEventListener('change', applyFilters);
         document.getElementById('sort-by').addEventListener('change', applySorting);
         document.getElementById('items-per-page').addEventListener('change', changeItemsPerPage);
-        console.log("✅ Event listeners configurati");
+        console.log("✅ Event listeners configured");
       } catch (error) {
-        console.error("❌ Errore configurazione event listeners:", error);
+        console.error("❌ Error configuring event listeners:", error);
       }
     }
 
     async function loadListings() {
       try {
-        console.log("=== INIZIO CARICAMENTO DATI ===");
+        console.log("=== STARTING DATA LOADING ===");
         console.log("Timestamp:", new Date().toISOString());
         
         // Aggiungi timestamp per evitare cache
@@ -1151,35 +1151,35 @@
         }
         
         const data = await response.json();
-        console.log("=== DATI RICEVUTI ===");
-        console.log("Tipo di dati:", typeof data);
-        console.log("È un array?", Array.isArray(data));
-        console.log("Ha proprietà 'results'?", data.hasOwnProperty('results'));
-        console.log("Proprietà dell'oggetto:", Object.keys(data));
+        console.log("=== DATA RECEIVED ===");
+        console.log("Data type:", typeof data);
+        console.log("Is it an array?", Array.isArray(data));
+        console.log("Has 'results' property?", data.hasOwnProperty('results'));
+        console.log("Object properties:", Object.keys(data));
         
-        // Controlla la struttura dei dati
+        // Check data structure
         if (data.results && Array.isArray(data.results)) {
           allListings = data.results;
-          console.log(`Caricati ${allListings.length} annunci da data.results`);
+          console.log(`Loaded ${allListings.length} listings from data.results`);
         } else if (Array.isArray(data)) {
           allListings = data;
-          console.log(`Caricati ${allListings.length} annunci da array diretto`);
+          console.log(`Loaded ${allListings.length} listings from direct array`);
         } else {
-          console.log("Struttura dati inaspettata:", data);
+          console.log("Unexpected data structure:", data);
           allListings = [];
         }
 
-        console.log("=== DETTAGLI ANNUNCI ===");
-        console.log("Primi 3 annunci:", allListings.slice(0, 3));
-        console.log("Ultimi 3 annunci:", allListings.slice(-3));
+        console.log("=== LISTING DETAILS ===");
+        console.log("First 3 listings:", allListings.slice(0, 3));
+        console.log("Last 3 listings:", allListings.slice(-3));
         
         if (allListings.length > 0) {
-          console.log("Esempio annuncio:", allListings[0]);
-          console.log("Proprietà disponibili:", Object.keys(allListings[0]));
+          console.log("Example listing:", allListings[0]);
+          console.log("Available properties:", Object.keys(allListings[0]));
         }
 
         document.getElementById('loading').style.display = 'none';
-        setupEventListeners(); // Configura event listeners dopo il caricamento
+        setupEventListeners(); // Configure event listeners after loading
         populateFilters();
         applyFilters();
         updateStats();
@@ -1190,10 +1190,10 @@
         document.getElementById('loading').style.display = 'none';
         document.getElementById('listings').innerHTML = `
           <div class="error">
-            <h3>Errore nel caricamento</h3>
+            <h3>Loading Error</h3>
             <p>${error.message}</p>
             <p style="margin-top: 1rem; font-size: 0.875rem;">
-              Verifica che il file <code>public/data.json</code> esista e sia accessibile.
+              Please verify that the file <code>public/data.json</code> exists and is accessible.
             </p>
           </div>
         `;
@@ -1219,11 +1219,11 @@
           minute: '2-digit'
         });
         
-        const filterText = hasActiveFilters ? `${filtered} annunci secondo i tuoi filtri` : `${total} annunci attivi`;
+        const filterText = hasActiveFilters ? `${filtered} listings according to your filters` : `${total} active listings`;
         
         statsDiv.innerHTML = `
           <strong>${filterText}</strong> • 
-          Aggiornato alle <strong>${timeStr}</strong>
+          Updated at <strong>${timeStr}</strong>
         `;
         statsDiv.style.display = 'block';
       }
@@ -1245,24 +1245,24 @@
       const filters = [];
       
       const zone = document.getElementById('filter-zone').value;
-      if (zone) filters.push({ type: 'Zona', value: zone, id: 'zone' });
+      if (zone) filters.push({ type: 'Zone', value: zone, id: 'zone' });
       
       const minReliability = document.getElementById('filter-reliability').value;
-      if (minReliability) filters.push({ type: 'Affidabilità min.', value: `≥ ${minReliability}`, id: 'reliability' });
+      if (minReliability) filters.push({ type: 'Min. Reliability', value: `≥ ${minReliability}`, id: 'reliability' });
       
       const maxPrice = document.getElementById('filter-price').value;
-      if (maxPrice) filters.push({ type: 'Prezzo max', value: `€${maxPrice}`, id: 'price' });
+      if (maxPrice) filters.push({ type: 'Max Price', value: `€${maxPrice}`, id: 'price' });
       
       const dateFilter = document.getElementById('filter-date').value;
       if (dateFilter) {
         let dateText = '';
         switch (dateFilter) {
-          case '1': dateText = 'Oggi'; break;
-          case '3': dateText = 'Ultimi 3 giorni'; break;
-          case '7': dateText = 'Ultima settimana'; break;
-          case '30': dateText = 'Ultimo mese'; break;
+          case '1': dateText = 'Today'; break;
+          case '3': dateText = 'Last 3 days'; break;
+          case '7': dateText = 'Last week'; break;
+          case '30': dateText = 'Last month'; break;
         }
-        filters.push({ type: 'Data', value: dateText, id: 'date' });
+        filters.push({ type: 'Date', value: dateText, id: 'date' });
       }
       
       if (filters.length > 0) {
@@ -1305,14 +1305,14 @@
     }
 
     function populateFilters() {
-      // Filtra solo i post attivi per popolare i filtri
+      // Filter only active posts to populate filters
       const activeListings = allListings.filter(l => l.status !== "Scaduto");
       const zones = [...new Set(activeListings.map(l => l.zoneMacro || null).filter(Boolean))].sort();
 
-      console.log("Zone disponibili:", zones);
+      console.log("Available zones:", zones);
 
       const zoneSelect = document.getElementById('filter-zone');
-      zoneSelect.innerHTML = '<option value="">Tutte le zone</option>';
+      zoneSelect.innerHTML = '<option value="">All zones</option>';
       zones.forEach(z => zoneSelect.add(new Option(z, z)));
     }
 
@@ -1322,11 +1322,11 @@
       const maxPrice = parseInt(document.getElementById('filter-price').value) || Infinity;
       const dateFilter = document.getElementById('filter-date').value;
 
-      console.log("=== APPLICAZIONE FILTRI ===");
-      console.log("Filtri attivi:", { zone, minReliability, maxPrice, dateFilter });
+      console.log("=== APPLYING FILTERS ===");
+      console.log("Active filters:", { zone, minReliability, maxPrice, dateFilter });
 
       filteredListings = allListings.filter(l => {
-        // Escludi i post con status "Scaduto"
+        // Exclude posts with status "Scaduto"
         if (l.status === "Scaduto") {
           return false;
         }
@@ -1335,7 +1335,7 @@
         const reliabilityMatch = (l.reliability || 0) >= minReliability;
         const priceMatch = (parseInt(l.price) || 0) <= maxPrice;
         
-        // Filtro per data - usa dateAdded se disponibile, altrimenti datePublished
+        // Date filter - use dateAdded if available, otherwise datePublished
         let dateMatch = true;
         if (dateFilter) {
           const postDate = l.dateAdded || l.datePublished;
@@ -1343,32 +1343,32 @@
             const postDateObj = new Date(postDate);
             const now = new Date();
             
-            // Normalizza le date per confrontare solo la data (senza ora)
+            // Normalize dates to compare only the date (without time)
             const postDateOnly = new Date(postDateObj.getFullYear(), postDateObj.getMonth(), postDateObj.getDate());
             const nowDateOnly = new Date(now.getFullYear(), now.getMonth(), now.getDate());
             
             switch (dateFilter) {
-              case '1': // Oggi
+              case '1': // Today
                 dateMatch = postDateOnly.getTime() === nowDateOnly.getTime();
                 break;
-              case '3': // Ultimi 3 giorni
+              case '3': // Last 3 days
                 const threeDaysAgo = new Date(nowDateOnly);
-                threeDaysAgo.setDate(nowDateOnly.getDate() - 2); // -2 perché includiamo oggi
+                threeDaysAgo.setDate(nowDateOnly.getDate() - 2); // -2 because we include today
                 dateMatch = postDateOnly >= threeDaysAgo && postDateOnly <= nowDateOnly;
                 break;
-              case '7': // Ultima settimana
+              case '7': // Last week
                 const sevenDaysAgo = new Date(nowDateOnly);
-                sevenDaysAgo.setDate(nowDateOnly.getDate() - 6); // -6 perché includiamo oggi
+                sevenDaysAgo.setDate(nowDateOnly.getDate() - 6); // -6 because we include today
                 dateMatch = postDateOnly >= sevenDaysAgo && postDateOnly <= nowDateOnly;
                 break;
-              case '30': // Ultimo mese
+              case '30': // Last month
                 const thirtyDaysAgo = new Date(nowDateOnly);
-                thirtyDaysAgo.setDate(nowDateOnly.getDate() - 29); // -29 perché includiamo oggi
+                thirtyDaysAgo.setDate(nowDateOnly.getDate() - 29); // -29 because we include today
                 dateMatch = postDateOnly >= thirtyDaysAgo && postDateOnly <= nowDateOnly;
                 break;
             }
           } else {
-            // Se non c'è data, non mostrare per i filtri temporali
+            // If there's no date, don't show for temporal filters
             dateMatch = false;
           }
         }
@@ -1376,8 +1376,8 @@
         return zoneMatch && reliabilityMatch && priceMatch && dateMatch;
       });
 
-      console.log(`Annunci filtrati: ${filteredListings.length} su ${allListings.length}`);
-      currentPage = 1; // Reset alla prima pagina quando si applicano i filtri
+      console.log(`Filtered listings: ${filteredListings.length} out of ${allListings.length}`);
+      currentPage = 1; // Reset to first page when applying filters
       applySorting();
       renderListings();
       updatePagination();
@@ -1388,8 +1388,8 @@
     function applySorting() {
       const sortBy = document.getElementById('sort-by').value;
       
-      console.log("=== APPLICAZIONE ORDINAMENTO ===");
-      console.log("Tipo di ordinamento:", sortBy);
+      console.log("=== APPLYING SORTING ===");
+      console.log("Sort type:", sortBy);
       
       filteredListings.sort((a, b) => {
         switch (sortBy) {
@@ -1410,9 +1410,9 @@
         }
       });
 
-      console.log("Ordinamento applicato, primi 3 elementi:", filteredListings.slice(0, 3));
+      console.log("Sorting applied, first 3 elements:", filteredListings.slice(0, 3));
       
-      // Reset alla prima pagina e aggiorna la visualizzazione
+      // Reset to first page and update display
       currentPage = 1;
       renderListings();
       updatePagination();
@@ -1426,46 +1426,46 @@
       const endIndex = startIndex + itemsPerPage;
       const pageListings = filteredListings.slice(startIndex, endIndex);
       
-      console.log(`=== RENDERING PAGINA ${currentPage} ===`);
-      console.log(`Mostrando annunci ${startIndex + 1}-${Math.min(endIndex, filteredListings.length)} su ${filteredListings.length}`);
+      console.log(`=== RENDERING PAGE ${currentPage} ===`);
+      console.log(`Showing listings ${startIndex + 1}-${Math.min(endIndex, filteredListings.length)} of ${filteredListings.length}`);
       
       if (pageListings.length === 0) {
         container.innerHTML = `
           <div class="no-results">
-            <h3>Nessun annuncio trovato</h3>
-            <p>Prova a modificare i filtri di ricerca</p>
+            <h3>No listings found</h3>
+            <p>Try modifying your search filters</p>
           </div>
         `;
         return;
       }
 
-      pageListings.forEach((l, index) => {
-        console.log(`Rendering annuncio ${startIndex + index + 1}:`, l.title || "Senza titolo");
+              pageListings.forEach((l, index) => {
+          console.log(`Rendering listing ${startIndex + index + 1}:`, l.title || "No title");
         
         const div = document.createElement("div");
         div.className = "card";
 
-        // Usa "Descrizione_originale" se disponibile, altrimenti "description", infine "overview"
+        // Use "Descrizione_originale" if available, otherwise "description", finally "overview"
         const description = l.Descrizione_originale || l.description || l.overview || "";
         const shortText = description.length > 150 ? description.slice(0, 150) + "..." : description;
         const isLong = description.length > 150;
-        const isAISummary = !l.Descrizione_originale && !l.description && l.overview; // Solo se non ci sono altri campi descrizione
+        const isAISummary = !l.Descrizione_originale && !l.description && l.overview; // Only if there are no other description fields
 
-        // Formatta la data e l'ora
+        // Format date and time
         const formatDateTime = (dateString) => {
-          if (!dateString) return "Data non disponibile";
+          if (!dateString) return "Date not available";
           try {
             const date = new Date(dateString);
-            const dateStr = date.toLocaleDateString('it-IT', {
+            const dateStr = date.toLocaleDateString('en-US', {
               day: '2-digit',
               month: '2-digit',
               year: 'numeric'
             });
-            const timeStr = date.toLocaleTimeString('it-IT', {
+            const timeStr = date.toLocaleTimeString('en-US', {
               hour: '2-digit',
               minute: '2-digit'
             });
-            return `${dateStr} alle ${timeStr}`;
+            return `${dateStr} at ${timeStr}`;
           } catch (e) {
             return dateString;
           }
@@ -1474,17 +1474,17 @@
         const rating = parseInt(l.reliability || 0, 10);
         const ratingClass = rating >= 4 ? 'high' : (rating <= 2 ? 'low' : 'mid');
 
-        // Crea la miniatura (con immagine o emoticon casa solo su desktop)
+        // Create thumbnail (with image or house emoji only on desktop)
         const thumbnailHtml = l.imageUrl ? `
-          <div class="card-thumbnail" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Apri annuncio: ${l.title || 'Senza titolo'}">
-            <div class="card-thumbnail-loading">Caricamento...</div>
-            <img src="${l.imageUrl}" alt="Immagine annuncio: ${l.title || 'Senza titolo'}" 
-                 onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Errore caricamento</div>'"
+          <div class="card-thumbnail" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Open listing: ${l.title || 'No title'}">
+            <div class="card-thumbnail-loading">Loading...</div>
+            <img src="${l.imageUrl}" alt="Listing image: ${l.title || 'No title'}" 
+                 onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\'>Loading error</div>'"
                  onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
                  loading="lazy">
           </div>
         ` : `
-          <div class="card-thumbnail card-thumbnail-desktop-only" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Apri annuncio: ${l.title || 'Senza titolo'}">
+          <div class="card-thumbnail card-thumbnail-desktop-only" onclick="window.open('${l.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${l.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Open listing: ${l.title || 'No title'}">
             <div class="card-thumbnail-placeholder">🏠</div>
           </div>
         `;
@@ -1496,9 +1496,9 @@
               <h3 class="card-title" onclick="window.open('${l.link}', '_blank')">${l.title || "Senza titolo"}</h3>
               <div class="card-rating ${ratingClass}">
                 ${l.reliabilityReason ? `
-                  <div class="rating-info" title="Motivo dell'affidabilità">
+                  <div class="rating-info" title="Reliability reason">
                     i
-                    <div class="rating-tooltip"><strong>Motivo del rating:</strong> ${l.reliabilityReason}</div>
+                    <div class="rating-tooltip"><strong>Rating reason:</strong> ${l.reliabilityReason}</div>
                   </div>
                 ` : ''}
                 ⭐ ${l.reliability || "N/A"}
@@ -1509,12 +1509,12 @@
               <svg class="date-icon" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
               </svg>
-              Aggiunto il: ${formatDateTime(l.dateAdded)}
+              Added on: ${formatDateTime(l.dateAdded)}
             </div>
             
             <div class="card-meta">
-              <span class="meta-tag price">Prezzo: ${l.price || "N/A"}</span>
-              <span class="meta-tag zone">Zona: ${l.zoneMacro || (l.zone || "N/A")}</span>
+              <span class="meta-tag price">Price: ${l.price || "N/A"}</span>
+              <span class="meta-tag zone">Zone: ${l.zoneMacro || (l.zone || "N/A")}</span>
             </div>
             
             ${l.overview ? `
@@ -1523,7 +1523,7 @@
                   <svg class="overview-ai-icon" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
                   </svg>
-                  Riassunto AI
+                  AI Summary
                 </div>
                 <div class="overview-ai-text">${l.overview}</div>
               </div>
@@ -1531,18 +1531,18 @@
             
             <div class="card-description">
               ${shortText}
-              ${isLong ? `<span class="read-more-link">Leggi di più</span>` : ''}
+              ${isLong ? `<span class="read-more-link">Read more</span>` : ''}
               ${isAISummary ? `
-                <span class="ai-label" title="Riassunto dell'inserzione generato con AI">
+                <span class="ai-label" title="AI-generated listing summary">
                   i
-                  <div class="ai-tooltip">Riassunto dell'inserzione generato con AI</div>
+                  <div class="ai-tooltip">AI-generated listing summary</div>
                 </span>
               ` : ''}
             </div>
             
             <div class="card-actions">
               <a href="${l.link}" target="_blank" class="btn btn-primary">
-                Vedi su Facebook
+                View on Facebook
               </a>
             </div>
           </div>
@@ -1591,21 +1591,21 @@
       
       paginationDiv.innerHTML = `
         <div class="pagination-info">
-          Mostrando annunci ${startIndex + 1}-${endIndex} di ${filteredListings.length}
+          Showing listings ${startIndex + 1}-${endIndex} of ${filteredListings.length}
         </div>
         <div class="pagination-buttons">
           <button class="pagination-btn" onclick="goToPage(1)" ${currentPage === 1 ? 'disabled' : ''}>
-            Prima
+            First
           </button>
           <button class="pagination-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>
-            Precedente
+            Previous
           </button>
           ${generatePageNumbers(currentPage, totalPages)}
           <button class="pagination-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>
-            Successiva
+            Next
           </button>
           <button class="pagination-btn" onclick="goToPage(${totalPages})" ${currentPage === totalPages ? 'disabled' : ''}>
-            Ultima
+            Last
           </button>
         </div>
       `;
@@ -1665,7 +1665,7 @@
     }
 
     // Carica gli annunci all'avvio
-    console.log("=== AVVIO APPLICAZIONE ===");
+          console.log("=== STARTING APPLICATION ===");
     loadListings();
   </script>
 </body>

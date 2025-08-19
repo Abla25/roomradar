@@ -204,25 +204,25 @@ HEADERS_NOTION = {
 }
 
 PROMPT_TEMPLATE = """
-Analizza i post seguenti e restituisci un JSON valido per ognuno.
-Escludi tutti i post dove qualcuno CERCA una stanza o un appartamento,
-o post che non riguardano affitti reali, o post relativi ad affitti brevi per vacanza con prezzi per giornata. Gli unici post rilevanti sono quelli relativi ad inserzioni di camere/abitazioni che vengono messe in affitto.
+Analyze the following posts and return valid JSON for each one.
+Exclude all posts where someone is LOOKING for a room or apartment,
+or posts that don't concern real rentals, or posts related to short-term vacation rentals with daily prices. The only relevant posts are those related to room/accommodation listings that are being rented out.
 
-IMPORTANTE: Per tutti i campi, se l'informazione non è disponibile o non può essere estratta dal post, usa sempre "N/A" come valore. Non lasciare campi vuoti e non usare "Non specificato" o simili.
+IMPORTANT: For all fields, if the information is not available or cannot be extracted from the post, always use "N/A" as the value. Don't leave fields empty and don't use "Not specified" or similar.
 
-Per ogni post pertinente, genera un dizionario con:
+For each relevant post, generate a dictionary with:
 {{
-  "annuncio_rilevante": "SI" o "NO",
+  "annuncio_rilevante": "YES" or "NO",
   "Titolo_parafrasato": "...",
   "Overview": "...",
-  "Prezzo": "..." (usa "N/A" se non disponibile),
-  "Zona": "..." (usa "N/A" se non disponibile),
-  "Camere": "..." (usa "N/A" se non disponibile),
-  "Affidabilita": numero (0-5) (basati sulle informazioni, se sono sufficienti, se l'articolo contiene foto, contatti e non sembri una truffa; 4 e 5 possono essere raggiunti solo se sono presenti foto e non sembri una truffa),
+  "Prezzo": "..." (use "N/A" if not available),
+  "Zona": "..." (use "N/A" if not available),
+  "Camere": "..." (use "N/A" if not available),
+  "Affidabilita": number (0-5) (based on information, if sufficient, if the article contains photos, contacts and doesn't seem like a scam; 4 and 5 can only be achieved if photos are present and it doesn't seem like a scam),
   "Motivo_Rating": "...",
 }}
-Rispondi SOLO con JSON. Nessun testo aggiuntivo.
-POST:
+Respond ONLY with JSON. No additional text.
+POSTS:
 {posts}
 """
 
