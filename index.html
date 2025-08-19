@@ -398,7 +398,7 @@
     .card-content {
       flex: 1;
       min-width: 0; /* Permette al contenuto di ridursi */
-      margin-right: 140px; /* Spazio per l'immagine a destra */
+      margin-right: 180px; /* Spazio per l'immagine responsive a destra (160px + 20px padding) */
     }
 
 
@@ -407,8 +407,8 @@
       position: absolute;
       top: 120px; /* Sotto il ranking (header + date + meta) */
       right: 0;
-      width: 120px;
-      height: 90px;
+      width: 160px; /* Miniatura più grande */
+      height: 120px; /* Proporzione 4:3 mantenuta */
       border-radius: 8px;
       overflow: hidden;
       background: #f8f9fa;
