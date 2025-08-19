@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2025-08-19T07:13:22.039Z",
-  "count": 84,
+  "generatedAt": "2025-08-19T08:17:46.030Z",
+  "count": 88,
   "results": [
+    {
+      "id": "254b5f64-9329-818f-aba3-cb3174598b2a",
+      "title": "Affitto camera disponibile a fine agosto",
+      "overview": "Camera in affitto a partire da fine agosto, solo per ragazze o madri con figli",
+      "description": "Disponible fines de Agosto solo chicas o dos chicas o madres con hijos 622851197",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 3,
+      "reliabilityReason": "Presenza di immagine e specifiche sull'inquilino ideale, ma mancanza di dettagli sul prezzo e sulla zona",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T08:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011927009136925/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-81dd-8bc6-c7e6ed0dbada",
+      "title": "Camera in affitto a Horta-Guinardó",
+      "overview": "Camera con letto matrimoniale vicino alla metro",
+      "description": "¡SE ALQUILA HABITACIÓN! \n📍 Horta-Guinardó – El Carmel (Barcelona) 🛏️Cama doble\n🚇 A pocos minutos del metro El Carmel.",
+      "price": "N/A",
+      "zone": "Horta-Guinardó",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni insufficienti e mancano prezzi",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T08:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068142995491232/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-81c5-bdcb-fc908b23f65d",
+      "title": "Camera in affitto a Barcellona",
+      "overview": "Camera disponibile per ragazze sole o madri con figli",
+      "description": "Habitacion Disponible para entrar fines de Agosto , Solo para chicas solas o dos chicas o madres con hijos",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma mancano prezzi e zona",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T08:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068143915491140/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-818a-9f9f-fe86d84e901d",
+      "title": "Affitto di una camera",
+      "overview": "Affitto di una camera grande e luminosa",
+      "description": "Alquilo una bonita y grande Habitación SOLO DE USO INDIVIDUAL\nEn el barrio de Sants\nPara persona responsable y trabajadora. Derecho a todo el piso\nPara más información por privado\nAmbiente tranquilo.\nAbstenerse parejas es solo para una persona\nGracias",
+      "price": "N/A",
+      "zone": "Sants",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Il post contiene troppo poche informazioni",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T08:15:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294445407454635/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-8102-a52e-dea7c90f01a5",
       "title": "Affitto stanza a Nou Barris",
@@ -400,7 +464,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010960219233604/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-81bc-8e8c-e2c186c7f652",
