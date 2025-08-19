@@ -524,13 +524,13 @@ def parse_llm_json(raw_text, retries=3):
     for attempt in range(retries):
         raw_text = raw_text.strip()
         if not raw_text:
-            print(f"⚠️ Risposta vuota. Retry {attempt+1}/{retries}")
+            print(f"⚠️ Empty response. Retry {attempt+1}/{retries}")
             time.sleep(2 ** attempt)
             continue
         try:
             return json.loads(raw_text)
         except json.JSONDecodeError:
-            print(f"⚠️ JSON non valido. Retry {attempt+1}/{retries}")
+            print(f"⚠️ Invalid JSON. Retry {attempt+1}/{retries}")
             time.sleep(2 ** attempt)
     return None
 
@@ -566,7 +566,7 @@ ZONA: {zona_text}
             json=payload
         )
         if r.status_code != 200:
-            print(f"❌ Errore AI macro-zone: {r.text}")
+            print(f"❌ AI macro-zone error: {r.text}")
             return ""
         content = r.json()["choices"][0]["message"]["content"]
         parsed = parse_llm_json(content)
@@ -583,7 +583,7 @@ ZONA: {zona_text}
         value = str(parsed.get(key) or "").strip()
         return value if value in BARCELONA_MACRO_ZONES else ""
     except Exception as e:
-        print(f"❌ Errore chiamata AI macro-zone: {e}")
+        print(f"❌ AI macro-zone call error: {e}")
         return ""
 
 def send_to_notion(data):
@@ -611,7 +611,7 @@ def send_to_notion(data):
     # Prendi la prima immagine se disponibile, altrimenti null
     prima_immagine = immagini[0] if immagini else None
     if prima_immagine:
-        print(f"🖼️ Salvando immagine per: {titolo[:50]}...")
+        print(f"🖼️ Saving image for: {titolo[:50]}...")
     
     payload = {
         "parent": {"database_id": NOTION_DATABASE_ID},
@@ -633,12 +633,12 @@ def send_to_notion(data):
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
-        print(f"❌ Errore aggiunta Notion: {res.text}")
+        print(f"❌ Notion add error: {res.text}")
         return None
     else:
         page = res.json()
         page_id = page.get("id")
-        print(f"✅ Aggiunto su Notion: {data['paraphrased_title']} ({page_id})")
+        print(f"✅ Added to Notion: {data['paraphrased_title']} ({page_id})")
         return page_id
 
 def call_openrouter(posts_batch, max_retries=3):
@@ -662,13 +662,13 @@ def call_openrouter(posts_batch, max_retries=3):
             )
             
             if r.status_code == 429:
-                print(f"⏳ Rate limit raggiunto (tentativo {attempt + 1}/{max_retries}), attendo {current_backoff} secondi...")
+                print(f"⏳ Rate limit reached (attempt {attempt + 1}/{max_retries}), waiting {current_backoff} seconds...")
                 time.sleep(current_backoff)
                 # Aumenta il backoff per il prossimo tentativo
                 current_backoff = MAX_BACKOFF_SECONDS
                 continue
             elif r.status_code != 200:
-                print(f"❌ Errore API OpenRouter: {r.text}")
+                print(f"❌ OpenRouter API error: {r.text}")
                 # Aumenta il backoff per il prossimo tentativo
                 current_backoff = MAX_BACKOFF_SECONDS
                 return None
@@ -677,14 +677,14 @@ def call_openrouter(posts_batch, max_retries=3):
             return data["choices"][0]["message"]["content"]
             
         except Exception as e:
-            print(f"❌ Errore chiamata OpenRouter (tentativo {attempt + 1}/{max_retries}): {e}")
+            print(f"❌ OpenRouter call error (attempt {attempt + 1}/{max_retries}): {e}")
             if attempt < max_retries - 1:
-                print(f"⏳ Attendo {current_backoff} secondi prima del retry...")
+                print(f"⏳ Waiting {current_backoff} seconds before retry...")
                 time.sleep(current_backoff)
                 # Aumenta il backoff per il prossimo tentativo
                 current_backoff = MAX_BACKOFF_SECONDS
     
-    print(f"❌ Fallito dopo {max_retries} tentativi")
+            print(f"❌ Failed after {max_retries} attempts")
     return None
 
 def process_rss():
@@ -695,12 +695,12 @@ def process_rss():
     initial_cache = load_rejected_cache()
     if not os.path.exists(CACHE_FILE):
         save_rejected_cache(initial_cache)
-        print(f"✅ File cache inizializzato: {os.path.abspath(CACHE_FILE)}")
+        print(f"✅ Cache file initialized: {os.path.abspath(CACHE_FILE)}")
     else:
         # Aggiorna sempre il timestamp per assicurarsi che Git rilevi cambiamenti
         initial_cache['timestamp'] = datetime.now().isoformat()
         save_rejected_cache(initial_cache)
-        print(f"✅ File cache aggiornato: {os.path.abspath(CACHE_FILE)}")
+        print(f"✅ Cache file updated: {os.path.abspath(CACHE_FILE)}")
     
     # Recupera tutti i dati esistenti in una sola chiamata ottimizzata
     print("📋 Loading existing data from database...")
@@ -731,15 +731,15 @@ def process_rss():
             
             # Verifica se il parsing è andato a buon fine
             if feed.bozo:
-                print(f"⚠️ Errore nel parsing del feed RSS {i}: {feed.bozo_exception}")
+                print(f"⚠️ RSS feed parsing error {i}: {feed.bozo_exception}")
                 continue
                 
             if not feed.entries:
-                print(f"ℹ️ Nessun post trovato nel feed RSS {i}")
+                print(f"ℹ️ No posts found in RSS feed {i}")
                 continue
                 
         except Exception as e:
-            print(f"❌ Errore nell'accesso al feed RSS {i} ({rss_url}): {e}")
+            print(f"❌ Error accessing RSS feed {i} ({rss_url}): {e}")
             continue
             
         posts = []
@@ -749,7 +749,7 @@ def process_rss():
             link = entry.link
             if link not in existing_links:
                 if is_url_rejected(link):
-                    print(f"🚫 Post scartato (in cache): {link}")
+                    print(f"🚫 Post rejected (in cache): {link}")
                     total_rejected += 1
                 else:
                     # Usa description se disponibile, altrimenti summary, altrimenti content
@@ -766,12 +766,12 @@ def process_rss():
                     
                     # Log della pulizia se c'è differenza significativa
                     if len(raw_description) > len(clean_description) + 50:  # Se è stata rimossa una quantità significativa di HTML
-                        print(f"🧹 Testo pulito: {len(raw_description)} → {len(clean_description)} caratteri per: {entry.title[:50]}...")
+                        print(f"🧹 Cleaned text: {len(raw_description)} → {len(clean_description)} characters for: {entry.title[:50]}...")
                     
                     # Estrai immagini dal post
                     images = extract_all_images(entry)
                     if images:
-                        print(f"🖼️ Trovate {len(images)} immagini per: {entry.title[:50]}...")
+                        print(f"🖼️ Found {len(images)} images for: {entry.title[:50]}...")
                     
                     posts.append({
                         "title": entry.title,
@@ -780,13 +780,13 @@ def process_rss():
                         "images": images
                     })
             else:
-                print(f"⏭️ Post già esistente, skip: {link}")
+                print(f"⏭️ Post already exists, skip: {link}")
         
         if not posts:
-            print(f"ℹ️ Nessun nuovo post da elaborare per il feed {i}.")
+            print(f"ℹ️ No new posts to process for feed {i}.")
             continue
             
-        print(f"⏳ Parsing RSS feed {i}... Trovati {len(posts)} nuovi post da elaborare")
+        print(f"⏳ Parsing RSS feed {i}... Found {len(posts)} new posts to process")
 
         batch_size = MAX_BATCH
         idx = 0
@@ -794,17 +794,17 @@ def process_rss():
         
         while idx < len(posts):
             current_batch = posts[idx: idx + batch_size]
-            print(f"📦 Elaboro batch da {len(current_batch)} post (feed {i})...")
+            print(f"📦 Processing batch of {len(current_batch)} posts (feed {i})...")
             response_text = call_openrouter(current_batch)
             
             # Se response_text è None, potrebbe essere dovuto a rate limiting
             if response_text is None:
                 if batch_size > MIN_BATCH:
                     batch_size -= 1
-                    print(f"↪ Retry riducendo batch a {batch_size}")
+                    print(f"↪ Retry reducing batch to {batch_size}")
                     continue
                 else:
-                    print("⚠️ Batch impossibile da elaborare, skip.")
+                    print("⚠️ Batch impossible to process, skip.")
                     idx += 1
                     batch_size = MAX_BATCH
                     continue
@@ -813,10 +813,10 @@ def process_rss():
             if not parsed:
                 if batch_size > MIN_BATCH:
                     batch_size -= 1
-                    print(f"↪ Retry riducendo batch a {batch_size}")
+                    print(f"↪ Retry reducing batch to {batch_size}")
                     continue
                 else:
-                    print("⚠️ Batch impossibile da elaborare, skip.")
+                    print("⚠️ Batch impossible to process, skip.")
                     idx += 1
                     batch_size = MAX_BATCH
                     continue
@@ -842,10 +842,10 @@ def process_rss():
                         
                         # Log della censura se sono stati censurati dati sensibili
                         if has_sensitive_data(original_post["summary"]):
-                            print(f"🔒 Sensitive data censored for: {original_post['title'][:50]}...")
+                                                    print(f"🔒 Sensitive data censored for: {original_post['title'][:50]}...")
                     else:
-                        print(f"❌ Post non rilevante: {original_post['title']}")
-                        print(f"🔗 URL scartato: {original_post['link']}")
+                        print(f"❌ Post not relevant: {original_post['title']}")
+                        print(f"🔗 URL rejected: {original_post['link']}")
                         # Aggiungi alla cache degli scartati
                         add_to_rejected_cache(original_post['link'], "AI_NOT_RELEVANT")
                         total_rejected += 1
@@ -870,14 +870,14 @@ def process_rss():
                     for existing_post in unique_posts:
                         existing_descr_norm = existing_post["_normalized_desc"]
                         if similarity_score(new_descr_norm, existing_descr_norm) >= HIGH_DUP_THRESHOLD:
-                            print(f"🔄 Duplicato intra-batch rilevato, skip: {post_data.get('paraphrased_title', '')[:50]}...")
+                            print(f"🔄 Intra-batch duplicate detected, skip: {post_data.get('paraphrased_title', '')[:50]}...")
                             is_duplicate = True
                             break
                     
                     if not is_duplicate:
                         unique_posts.append(post_data)
                 
-                print(f"📦 Batch ridotto da {len(relevant_posts)} a {len(unique_posts)} post unici")
+                print(f"📦 Batch reduced from {len(relevant_posts)} to {len(unique_posts)} unique posts")
                 
                 # Ora processa solo i post unici
                 for post_data in unique_posts:
@@ -888,7 +888,7 @@ def process_rss():
                     
                     if best_page and best_score >= HIGH_DUP_THRESHOLD:
                         # Trovato duplicato forte con pagina esistente, sostituiscila
-                        print(f"🔄 Duplicato con pagina esistente rilevato (score: {best_score:.2f}), sostituisco...")
+                        print(f"🔄 Duplicate with existing page detected (score: {best_score:.2f}), replacing...")
                         new_item = {
                             "paraphrased_title": post_data.get("paraphrased_title", ""),
                             "original_description": new_descr,
@@ -932,7 +932,7 @@ def process_rss():
                             newly_added_pages.append(new_page_data)
                             new_posts_added += 1
                         else:
-                            print("⚠️ Creazione nuova pagina fallita, skip marcatura duplicati")
+                            print("⚠️ New page creation failed, skip duplicate marking")
                     else:
                         # Nessun duplicato forte: inseriamo normalmente
                         page_id = send_to_notion(post_data)
@@ -948,7 +948,7 @@ def process_rss():
                             zona_macro = zona_macro_result[0]
                             zona_matched = zona_macro_result[1]
                             if zona_macro:
-                                print(f"🗺️ Zona_macro '{zona_macro}' dedotta da '{zona_matched}' per zona '{zona}'")
+                                print(f"🗺️ Zone_macro '{zona_macro}' inferred from '{zona_matched}' for zone '{zona}'")
                             if zona and not zona_macro:
                                 all_added_posts_for_ai.append({
                                     "page_id": page_id,
@@ -975,15 +975,15 @@ def process_rss():
             idx += batch_size
             batch_size = MAX_BATCH
             # Assicura che ci siano sempre almeno INITIAL_BACKOFF_SECONDS tra le richieste
-            print(f"⏳ Attendo {INITIAL_BACKOFF_SECONDS} secondi prima del prossimo batch...")
+            print(f"⏳ Waiting {INITIAL_BACKOFF_SECONDS} seconds before next batch...")
             time.sleep(INITIAL_BACKOFF_SECONDS)
 
-        print(f"🎉 Elaborazione completata per feed {i}! Aggiunti {new_posts_added} nuovi annunci.")
+        print(f"🎉 Processing completed for feed {i}! Added {new_posts_added} new listings.")
         total_new_posts += new_posts_added
 
     # Fallback AI GLOBALE: per tutti i post aggiunti con Zona presente ma senza Zona_macro dedotta
     if all_added_posts_for_ai:
-        print(f"🧠 Fallback AI macro-zone GLOBALE per {len(all_added_posts_for_ai)} nuovi annunci senza Zona_macro...")
+        print(f"🧠 GLOBAL AI macro-zone fallback for {len(all_added_posts_for_ai)} new listings without Zone_macro...")
         for item in all_added_posts_for_ai:
             page_id = item["page_id"]
             zona_txt = item["zona"]
@@ -995,11 +995,11 @@ def process_rss():
                     payload = {"properties": {"zone_macro": {"rich_text": [{"text": {"content": ai_macro}}]}}}
                     r = requests.patch(url, headers=HEADERS_NOTION, json=payload)
                     if r.status_code == 200:
-                        print(f"✅ Aggiornata Zona_macro via AI → {ai_macro} per {page_id}")
+                        print(f"✅ Zone_macro updated via AI → {ai_macro} for {page_id}")
                     else:
-                        print(f"❌ Errore update Zona_macro via AI per {page_id}: {r.text}")
+                        print(f"❌ Zone_macro update error via AI for {page_id}: {r.text}")
                 except Exception as e:
-                    print(f"❌ Eccezione update Zona_macro via AI per {page_id}: {e}")
+                    print(f"❌ Zone_macro update exception via AI for {page_id}: {e}")
 
     print(f"\n🎉 TOTAL PROCESSING COMPLETED!")
     print(f"   📊 Added: {total_new_posts} new listings from {len(RSS_URLS)} RSS feeds")
@@ -1019,7 +1019,7 @@ def process_rss():
         file_size = os.path.getsize(CACHE_FILE)
         print(f"   ✅ File cache: {CACHE_FILE} ({file_size} bytes)")
     else:
-        print(f"   ❌ File cache NON trovato: {CACHE_FILE}")
+        print(f"   ❌ Cache file NOT found: {CACHE_FILE}")
 
 if __name__ == "__main__":
     process_rss()
