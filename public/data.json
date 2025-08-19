@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2025-08-18T23:43:13.229Z",
-  "count": 68,
+  "generatedAt": "2025-08-19T00:07:09.036Z",
+  "count": 69,
   "results": [
+    {
+      "id": "254b5f64-9329-81dc-8e39-dfae84d68be9",
+      "title": "Stanze in affitto per coppia",
+      "overview": "Una stanza in affitto per coppia a Ciudad Meridiana",
+      "description": "Se alquila habitación para pareja ubicada en ciudad Meridiana ref al 631243027",
+      "price": "N/A",
+      "zone": "Ciudad Meridiana",
+      "zoneMacro": "Nou Barris",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "Il post è relativo ad un annuncio di affitto, ma non contiene informazioni sufficienti per valutare la sua affidabilità",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T00:01:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294078034158039/",
+      "status": "Attivo"
+    },
     {
       "id": "253b5f64-9329-812e-86ee-ce71a762da32",
       "title": "Affitto due camere in appartamento luminoso e tranquillo",
