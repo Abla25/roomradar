@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2025-08-19T05:14:13.216Z",
-  "count": 80,
+  "generatedAt": "2025-08-19T06:18:56.395Z",
+  "count": 81,
   "results": [
+    {
+      "id": "254b5f64-9329-812d-a18f-e42035496adb",
+      "title": "Affitto di camera a Barcellona",
+      "overview": "Affitto di camera a Barcellona con camerote, finestra interna e armadio per 2 ragazze",
+      "description": "Se alquila habitacion cuenta con CAMAROTE ,ventana interior, armario. Para 2 chicas(os) L1 can serra-Hospitalet",
+      "price": "N/A",
+      "zone": "L1 can serra-Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Il post sembra essere un annuncio di affitto genuino, ma non ci sono foto o contatti diretti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T06:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011812905815002/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-81b3-aaeb-fcefc3d66049",
       "title": "Stanza in affitto a Hospitalet",
@@ -16,7 +32,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T05:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068050528833812/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "254b5f64-9329-812a-8a3e-c0fb0f8e03e9",
