@@ -660,6 +660,11 @@ def process_rss():
     if not os.path.exists(CACHE_FILE):
         save_rejected_cache(initial_cache)
         print(f"✅ File cache inizializzato: {os.path.abspath(CACHE_FILE)}")
+    else:
+        # Aggiorna sempre il timestamp per assicurarsi che Git rilevi cambiamenti
+        initial_cache['timestamp'] = datetime.now().isoformat()
+        save_rejected_cache(initial_cache)
+        print(f"✅ File cache aggiornato: {os.path.abspath(CACHE_FILE)}")
     
     # Recupera i link esistenti all'inizio
     existing_links = get_existing_links()

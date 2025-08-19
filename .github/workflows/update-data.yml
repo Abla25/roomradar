@@ -48,6 +48,34 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: node scripts/fetch_notion.js
 
+      # Debug: mostra lo stato dei file prima del commit
+      - name: Debug - Mostra stato file
+        run: |
+          echo "=== Stato file prima del commit ==="
+          ls -la
+          echo "=== Contenuto rejected_urls_cache.json ==="
+          if [ -f "rejected_urls_cache.json" ]; then
+            cat rejected_urls_cache.json
+          else
+            echo "File rejected_urls_cache.json NON TROVATO!"
+          fi
+          echo "=== Contenuto public/data.json ==="
+          if [ -f "public/data.json" ]; then
+            ls -la public/data.json
+          else
+            echo "File public/data.json NON TROVATO!"
+          fi
+
+      # Forza il tracking del file cache se esiste
+      - name: Forza tracking file cache
+        run: |
+          if [ -f "rejected_urls_cache.json" ]; then
+            git add rejected_urls_cache.json
+            echo "✅ File cache aggiunto al tracking"
+          else
+            echo "⚠️ File cache non trovato"
+          fi
+
       - name: Commit e push se ci sono cambiamenti
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -57,3 +85,15 @@ jobs:
             rejected_urls_cache.json
           commit_user_name: 'GitHub Action'
           commit_user_email: 'action@github.com'
+          commit_options: '--no-verify'
+
+      # Debug: verifica finale
+      - name: Debug - Verifica finale
+        run: |
+          echo "=== Verifica finale ==="
+          echo "File nel repository:"
+          ls -la
+          echo "Status Git:"
+          git status
+          echo "Ultimi commit:"
+          git log --oneline -5
