@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2025-08-19T06:18:56.395Z",
-  "count": 81,
+  "generatedAt": "2025-08-19T07:13:22.039Z",
+  "count": 84,
   "results": [
+    {
+      "id": "254b5f64-9329-8102-a52e-dea7c90f01a5",
+      "title": "Affitto stanza a Nou Barris",
+      "overview": "Affitto stanza per ragazza responsabile e lavoratrice in un appartamento tranquillo a Nou Barris",
+      "description": "Alquilo hab en nou barris para chika sola responsable y q trabajé piso tranquilo",
+      "price": "N/A",
+      "zone": "Nou Barris",
+      "zoneMacro": "Nou Barris",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "Informazioni insufficienti, nessuna foto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T07:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1068094392162759/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-818d-88ba-eac12ae0e4bf",
+      "title": "Camera in affitto con camerote",
+      "overview": "Camera in affitto con camerote e armadio per 2 ragazze/ragazzi a L1 can serra-Hospitalet",
+      "description": "Se alquila habitacion cuenta con CAMAROTE ,ventana interior, armario. Para 2 chicas(os)",
+      "price": "N/A",
+      "zone": "L1 can serra-Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma nessuna foto o contatto diretto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T07:11:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294372504128592/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-815c-a5ef-d7a2726ebfbf",
+      "title": "Camera in affitto per ragazza",
+      "overview": "Camera in affitto a 200 metri dalla stazione Renfe a Sant Feliu de Llobregat",
+      "description": "Alquilo habitación a chica sola a 200mts del  Renfe en Sant Feliu de Llobregat",
+      "price": "N/A",
+      "zone": "Sant Feliu de Llobregat",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni sufficienti, ma nessuna foto o contatto diretto",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T07:11:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294423480790161/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-812d-a18f-e42035496adb",
       "title": "Affitto di camera a Barcellona",
@@ -16,7 +64,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-19T06:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011812905815002/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "254b5f64-9329-81b3-aaeb-fcefc3d66049",
