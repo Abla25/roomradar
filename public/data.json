@@ -1,7 +1,87 @@
 {
-  "generatedAt": "2025-08-19T00:56:50.890Z",
-  "count": 71,
+  "generatedAt": "2025-08-19T02:32:54.037Z",
+  "count": 76,
   "results": [
+    {
+      "id": "254b5f64-9329-812b-a182-e1e7976ed54e",
+      "title": "Appartamento monostanza in affitto",
+      "overview": "Appartamento di una stanza disponibile per settembre e ottobre",
+      "description": "ENTIRE ONE BEDROOM APARTMENT FOR RENT - not a room - 3 minutes away from Plaza Catalunya Single persons or couples. Not families, sorry Available for the months of September and October only. - preferable one or both months.",
+      "price": "N/A",
+      "zone": "Plaza Catalunya",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Informazioni sufficienti e foto disponibili, ma prezzo non specificato",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T02:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4009925649337061/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8101-8829-eedd220bd785",
+      "title": "Affitto camera luminosa e spaziosa a Gotico",
+      "overview": "Camera luminosa e spaziosa con 3 camere da letto, 2 bagni e 5 balconi in una delle migliori zone di Gotico",
+      "description": "Last chance to rent a bright spacious 3 bedroom/ 2 bathroom/ 5 balconies including some with view on the marina in one of the best corner of Gotico",
+      "price": "N/A",
+      "zone": "Gotico",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "3",
+      "reliability": 4,
+      "reliabilityReason": "Il post contiene una descrizione dettagliata e una foto, e sembra affidabile",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T02:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011538279175798/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-811f-993e-ce48634d8c48",
+      "title": "Affitto stanza a Hospitalet",
+      "overview": "Stanza in affitto a Hospitalet per una persona sola",
+      "description": "Se alquila habitación en hospitalet  350  gastos incluidos para el 1 de Septiembre , es para una sola persona , que esté trabajando sea limpia y ordenada.\nPuedo empadronar.",
+      "price": "350",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Il prezzo è ragionevole, l'annuncio specifica la data di disponibilità e il fatto che può essere possibile l'empadronamiento, ma non ci sono informazioni sui contatti o foto.",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T02:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1064156442556554/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-81bd-8a80-ff1d6e559d7f",
+      "title": "Affitto studio",
+      "overview": "Studio con bagno, cucina attrezzata e zona studio",
+      "description": "Superb studio with everything you need!  This studio is located on the ground floor.  The property includes 1 full bathroom, an equipped kitchen, a spacious bed (1m3 by 2m), with an office area for studying or eating.  bedside table, wardrobe, mirror, + chair, AC.",
+      "price": "N/A",
+      "zone": "Lavuela",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Il post contiene foto e contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T02:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067305918908273/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8125-b458-ff1f3379667d",
+      "title": "Affitto camera",
+      "overview": "Camera in affitto con camerote, finestra interna e armadio",
+      "description": "Se alquila habitacion cuenta con CAMAROTE ,ventana interior, armario. \nPara 2 chicas(os)\nL1 can serra-Hospitalet",
+      "price": "N/A",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Il post non contiene foto o contatti",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T02:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1067531512219047/",
+      "status": "Attivo"
+    },
     {
       "id": "254b5f64-9329-8130-a09f-d1941bd72bfa",
       "title": "Affitto camera doppia per donna",
@@ -240,7 +320,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T22:55:00.000+02:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4010844369245189/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-8130-a56b-c98a6f291673",
@@ -656,7 +736,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T12:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292329840999525/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-8164-b277-de14a11540d7",
@@ -672,7 +752,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-17T12:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4292387944327048/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "252b5f64-9329-813a-9822-cc4a93b695cc",
