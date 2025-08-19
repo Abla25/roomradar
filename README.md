@@ -238,11 +238,21 @@ pip install -r requirements.txt
 cp env.example .env
 # Modifica il file .env con i tuoi token
 
-# Avvia il server
+# Avvia il server (in un terminale)
 python server.py
+
+# In un altro terminale, apri il frontend
+# Apri static/index.html nel browser o usa un server locale
 ```
 
 Il server sarà disponibile su `http://localhost:5000` e le segnalazioni verranno aggiornate automaticamente nel database Notion.
+
+### 🧪 **Test del Sistema**
+
+```bash
+# Testa il server
+python test_server.py
+```
 
 ### 📋 **Struttura del Progetto**
 
@@ -278,6 +288,19 @@ Per far funzionare i workflow automatici, configura questi secrets nel tuo repos
    - `OPENROUTER_API_KEY`: Il tuo token OpenRouter per l'analisi AI
    - `RSS_URL`: URL del feed RSS principale
    - `RSS_URL_1`, `RSS_URL_2`, `RSS_URL_3`: URL dei feed RSS aggiuntivi
+
+### 🌐 **Deployment Automatico - Server Sempre Attivo**
+
+Per avere il server di segnalazioni sempre in esecuzione:
+
+1. **Vai su [vercel.com](https://vercel.com)**
+2. **Connetti il repository GitHub**
+3. **Configura le variabili d'ambiente** (stesse dei secrets)
+4. **Deploy automatico** ad ogni push
+
+**Risultato**: Il server sarà sempre attivo e le segnalazioni funzioneranno automaticamente!
+
+📖 **Istruzioni dettagliate**: Vedi `DEPLOYMENT.md`
 
 ## 🔄 Flusso di Lavoro Automatizzato
 
