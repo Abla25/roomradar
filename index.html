@@ -1721,7 +1721,8 @@
       formData.append('entry.1866173828', listingId); // ID Annuncio
       formData.append('entry.1251116683', title); // Titolo Annuncio
       formData.append('entry.1194589857', link); // Link Annuncio
-      formData.append('entry.564234191', new Date().toISOString()); // Timestamp
+      // Timestamp automatico (Google Forms lo aggiunge automaticamente)
+      // formData.append('entry.564234191', dateString); // Commentato per evitare errori
       
       // 3. Invia a Google Forms
       fetch('https://docs.google.com/forms/d/e/1FAIpQLSfts0Ab8rL34Ytm3BUpSolCfn_Jh9lI9AkpLe4tzlubk_fSMg/formResponse', {
