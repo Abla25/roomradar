@@ -195,7 +195,7 @@ INITIAL_BACKOFF_SECONDS = 32
 MAX_BACKOFF_SECONDS = 62
 
 # Soglie similarità per deduplica
-HIGH_DUP_THRESHOLD = 0.93  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
+HIGH_DUP_THRESHOLD = 0.85  # sopra questa soglia segniamo direttamente il vecchio come "Scaduto"
 
 HEADERS_NOTION = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
@@ -208,20 +208,22 @@ Analyze the following posts and return valid JSON for each one.
 Exclude all posts where someone is LOOKING for a room or apartment,
 or posts that don't concern real rentals, or posts related to short-term vacation rentals with daily prices. The only relevant posts are those related to room/accommodation listings that are being rented out.
 
-IMPORTANT: For all fields, if the information is not available or cannot be extracted from the post, always use "N/A" as the value. Don't leave fields empty and don't use "Not specified" or similar.
+IMPORTANT: 
+- For all fields, if the information is not available or cannot be extracted from the post, always use "N/A" as the value. Don't leave fields empty and don't use "Not specified" or similar.
+- ALL OUTPUT MUST BE IN ENGLISH ONLY. Do not respond in Spanish, Italian, or any other language.
 
 For each relevant post, generate a dictionary with:
 {{
   "relevant_listing": "YES" or "NO",
-  "paraphrased_title": "...",
-  "overview": "...",
+  "paraphrased_title": "..." (in English),
+  "overview": "..." (in English),
   "price": "..." (use "N/A" if not available),
   "zone": "..." (use "N/A" if not available),
   "rooms": "..." (use "N/A" if not available),
-  "reliability": number (0-5) (based on information, if sufficient, if the article contains photos, contacts and doesn't seem like a scam; 4 and 5 can only be achieved if photos are present and it doesn't seem like a scam),
-  "rating_reason": "...",
+  "reliability": number (0-5) (based on information completeness, photos presence, contacts availability, and absence of scam indicators; 4 and 5 can only be achieved if photos are present and it doesn't seem like a scam),
+  "rating_reason": "..." (EXPLAIN IN ENGLISH why you gave this reliability score),
 }}
-Respond ONLY with JSON. No additional text.
+Respond ONLY with JSON. No additional text. All text fields must be in English.
 POSTS:
 {posts}
 """
@@ -324,7 +326,19 @@ def similarity_score(a: str, b: str) -> float:
         _similarity_cache[key] = 0.0
         return 0.0
     
+    # Evita confronti con testi troppo corti (meno di 10 caratteri)
+    if len(a_norm) < 10 or len(b_norm) < 10:
+        _similarity_cache[key] = 0.0
+        return 0.0
+    
+    # Calcola similarità usando token_set_ratio per maggiore accuratezza
     score = fuzz.token_set_ratio(a_norm, b_norm) / 100.0
+    
+    # Bonus per testi molto simili in lunghezza
+    length_diff = abs(len(a_norm) - len(b_norm)) / max(len(a_norm), len(b_norm))
+    if length_diff < 0.1:  # Se la differenza di lunghezza è < 10%
+        score = min(score + 0.05, 1.0)  # Bonus del 5%
+    
     _similarity_cache[key] = score
     return score
 
@@ -422,8 +436,11 @@ def find_best_duplicate_optimized(existing_pages: list, new_descr: str, threshol
         if not descr:
             continue
             
-        # Calcola similarità
-        score = similarity_score(new_descr, descr)
+        # Normalizza anche la descrizione esistente per confronto accurato
+        descr_norm = normalize_text(descr)
+        
+        # Calcola similarità usando testi normalizzati per maggiore accuratezza
+        score = similarity_score(new_descr_norm, descr_norm)
         
         if score > best_score:
             best_score = score
@@ -886,9 +903,13 @@ def process_rss():
                     # Controlla duplicati con pagine esistenti
                     best_page, best_score = find_best_duplicate_optimized(all_active_pages, new_descr, HIGH_DUP_THRESHOLD)
                     
+                    # Log per debug deduplicazione
+                    if best_score > 0.7:  # Log solo per score alti
+                        print(f"🔍 Duplicate check: score {best_score:.3f} for '{post_data.get('paraphrased_title', '')[:30]}...'")
+                    
                     if best_page and best_score >= HIGH_DUP_THRESHOLD:
                         # Trovato duplicato forte con pagina esistente, sostituiscila
-                        print(f"🔄 Duplicate with existing page detected (score: {best_score:.2f}), replacing...")
+                        print(f"🔄 Duplicate with existing page detected (score: {best_score:.3f}), replacing...")
                         new_item = {
                             "paraphrased_title": post_data.get("paraphrased_title", ""),
                             "original_description": new_descr,
