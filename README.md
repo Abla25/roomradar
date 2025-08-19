@@ -1,83 +1,83 @@
-# 🏠 RoomRadar - Sistema Intelligente per Annunci Immobiliari
+# 🏠 RoomRadar - Intelligent Real Estate Listing System
 
-**RoomRadar** è un sistema automatizzato che aggrega, filtra e analizza annunci immobiliari da gruppi Facebook, utilizzando AI per valutare l'affidabilità e fornire un'interfaccia web moderna per la ricerca di alloggi a Barcellona.
+**RoomRadar** is an automated system that aggregates, filters, and analyzes real estate listings from Facebook groups, using AI to evaluate reliability and provide a modern web interface for housing search in Barcelona.
 
 ![RoomRadar Banner](https://img.shields.io/badge/Status-Production%20Ready-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow) ![Notion](https://img.shields.io/badge/Database-Notion-black)
 
-## 📋 Indice
+## 📋 Table of Contents
 
-- [🎯 Panoramica](#-panoramica)
-- [✨ Funzionalità Principali](#-funzionalità-principali)
-- [🏗️ Architettura del Sistema](#️-architettura-del-sistema)
-- [🚀 Installazione e Setup](#-installazione-e-setup)
-- [⚙️ Configurazione](#️-configurazione)
-- [🔄 Flusso di Lavoro Automatizzato](#-flusso-di-lavoro-automatizzato)
-- [🤖 Integrazione AI](#-integrazione-ai)
-- [🖼️ Sistema di Immagini](#️-sistema-di-immagini)
-- [🌐 Frontend Interattivo](#-frontend-interattivo)
-- [📊 Database e Gestione Dati](#-database-e-gestione-dati)
-- [🔧 API e Integrazione](#-api-e-integrazione)
-- [📱 Design Responsive](#-design-responsive)
-- [🚨 Gestione Errori e Monitoraggio](#-gestione-errori-e-monitoraggio)
-- [⚡ Performance e Ottimizzazioni](#-performance-e-ottimizzazioni)
-- [🔒 Sicurezza e Privacy](#-sicurezza-e-privacy)
-- [📈 Deployment e CI/CD](#-deployment-e-cicd)
-- [🛠️ Sviluppo e Manutenzione](#️-sviluppo-e-manutenzione)
-- [📄 Licenza](#-licenza)
+- [🎯 Overview](#-overview)
+- [✨ Main Features](#-main-features)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🚀 Installation and Setup](#-installation-and-setup)
+- [⚙️ Configuration](#️-configuration)
+- [🔄 Automated Workflow](#-automated-workflow)
+- [🤖 AI Integration](#-ai-integration)
+- [🖼️ Image System](#️-image-system)
+- [🌐 Interactive Frontend](#-interactive-frontend)
+- [📊 Database and Data Management](#-database-and-data-management)
+- [🔧 API and Integration](#-api-and-integration)
+- [📱 Responsive Design](#-responsive-design)
+- [🚨 Error Handling and Monitoring](#-error-handling-and-monitoring)
+- [⚡ Performance and Optimizations](#-performance-and-optimizations)
+- [🔒 Security and Privacy](#-security-and-privacy)
+- [📈 Deployment and CI/CD](#-deployment-and-cicd)
+- [🛠️ Development and Maintenance](#️-development-and-maintenance)
+- [📄 License](#-license)
 
-## 🎯 Panoramica
+## 🎯 Overview
 
-RoomRadar risolve il problema della ricerca manuale di alloggi su Facebook automatizzando:
+RoomRadar solves the problem of manual housing search on Facebook by automating:
 
-- **Aggregazione**: Raccolta automatica da feed RSS di gruppi Facebook
-- **Filtraggio**: Eliminazione di spam, duplicati e annunci non pertinenti
-- **Analisi AI**: Valutazione dell'affidabilità con scoring intelligente
-- **Presentazione**: Interfaccia web moderna con filtri avanzati
+- **Aggregation**: Automatic collection from RSS feeds of Facebook groups
+- **Filtering**: Elimination of spam, duplicates, and irrelevant listings
+- **AI Analysis**: Reliability assessment with intelligent scoring
+- **Presentation**: Modern web interface with advanced filters
 
-### 🎪 Demo Live
-👉 **[Visualizza RoomRadar](index.html)** *(apri il file nel browser)*
+### 🎪 Live Demo
+👉 **[View RoomRadar](index.html)** *(open the file in your browser)*
 
-## ✨ Funzionalità Principali
+## ✨ Main Features
 
-### 🔍 **Ricerca Intelligente**
-- **Filtri Avanzati**: Zona, prezzo, affidabilità, data di pubblicazione
-- **Ordinamento**: Per data, rating, prezzo (crescente/decrescente)
-- **Paginazione**: Navigazione fluida tra risultati
-- **Ricerca in Tempo Reale**: Aggiornamento automatico dei risultati
+### 🔍 **Intelligent Search**
+- **Advanced Filters**: Zone, price, reliability, publication date
+- **Sorting**: By date, rating, price (ascending/descending)
+- **Pagination**: Smooth navigation between results
+- **Real-time Search**: Automatic results update
 
-### 🤖 **Analisi AI Automatica**
-- **Scoring di Affidabilità**: Valutazione 1-5 stelle basata su contenuto e caratteristiche
-- **Rilevamento Spam**: Eliminazione automatica di annunci non pertinenti
-- **Riassunti Intelligenti**: Overview AI per annunci complessi
-- **Deduplicazione**: Rimozione automatica di annunci duplicati
+### 🤖 **Automatic AI Analysis**
+- **Reliability Scoring**: 1-5 star rating based on content and features
+- **Spam Detection**: Automatic elimination of irrelevant listings
+- **Intelligent Summaries**: AI overview for complex listings
+- **Deduplication**: Automatic removal of duplicate listings
 
-### 🖼️ **Gestione Immagini Avanzata**
-- **Estrazione Automatica**: Dalle immagini nei post Facebook
-- **Miniature Responsive**: Layout ottimizzato desktop/mobile
-- **Lazy Loading**: Caricamento ottimizzato per performance
-- **Fallback Graceful**: Gestione elegante di errori di caricamento
+### 🖼️ **Advanced Image Management**
+- **Automatic Extraction**: From images in Facebook posts
+- **Responsive Thumbnails**: Desktop/mobile optimized layout
+- **Lazy Loading**: Performance-optimized loading
+- **Graceful Fallback**: Elegant handling of loading errors
 
-### 📊 **Dashboard Interattiva**
-- **Statistiche Real-time**: Contatori e metriche aggiornate
-- **Filtri Dinamici**: Interfaccia intuitiva per raffinare la ricerca
-- **Design Moderno**: UI pulita e professionale
-- **Accessibilità**: Supporto completo per screen reader e navigazione da tastiera
+### 📊 **Interactive Dashboard**
+- **Real-time Statistics**: Updated counters and metrics
+- **Dynamic Filters**: Intuitive interface to refine search
+- **Modern Design**: Clean and professional UI
+- **Accessibility**: Full support for screen readers and keyboard navigation
 
-## 🏗️ Architettura del Sistema
+## 🏗️ System Architecture
 
 ```mermaid
 graph TB
-    A[Feed RSS Facebook] --> B[main.py - Aggregatore]
-    B --> C[OpenRouter AI - Analisi]
+    A[Facebook RSS Feeds] --> B[main.py - Aggregator]
+    B --> C[OpenRouter AI - Analysis]
     C --> D[Notion Database]
-    D --> E[fetch_notion.js - Esportazione]
-    E --> F[data.json - Cache Frontend]
+    D --> E[fetch_notion.js - Export]
+    E --> F[data.json - Frontend Cache]
     F --> G[index.html - Frontend]
     
     H[GitHub Actions] --> B
     H --> E
     
-    subgraph "Componenti Principali"
+    subgraph "Main Components"
         B
         C
         D
@@ -85,71 +85,71 @@ graph TB
         G
     end
     
-    subgraph "Automazione"
+    subgraph "Automation"
         H
-        I[Scheduler - Ogni 30min]
+        I[Scheduler - Every 30min]
         I --> H
     end
 ```
 
-### 📁 **Struttura del Progetto**
+### 📁 **Project Structure**
 ```
 notion-rss-bot/
-├── 📄 main.py                 # Core - Aggregazione e AI
-├── 📄 censorship.py           # Modulo censura dati sensibili
-├── 📄 zone_mapping.py         # Mappatura zone Barcellona
-├── 🌐 index.html              # Frontend completo
+├── 📄 main.py                 # Core - Aggregation and AI
+├── 📄 censorship.py           # Sensitive data censorship module
+├── 📄 zone_mapping.py         # Barcelona zone mapping
+├── 🌐 index.html              # Complete frontend
 ├── 📁 scripts/
-│   └── 📄 fetch_notion.js     # Esportazione dati
+│   └── 📄 fetch_notion.js     # Data export
 ├── 📁 public/
-│   └── 📄 data.json           # Cache dati frontend
+│   └── 📄 data.json           # Frontend data cache
 ├── 📁 .github/workflows/
 │   └── 📄 update-data.yml     # CI/CD Pipeline
-├── 📄 requirements.txt        # Dipendenze Python
-├── 📄 package.json            # Dipendenze Node.js
-└── 📄 rejected_urls_cache.json # Cache URL scartati
+├── 📄 requirements.txt        # Python dependencies
+├── 📄 package.json            # Node.js dependencies
+└── 📄 rejected_urls_cache.json # Rejected URLs cache
 ```
 
-## 🚀 Installazione e Setup
+## 🚀 Installation and Setup
 
-### 📋 **Prerequisiti**
+### 📋 **Prerequisites**
 - Python 3.8+
 - Node.js 16+
-- Account Notion con API key
-- Account OpenRouter per AI
-- Repository GitHub (per automazione)
+- Notion account with API key
+- OpenRouter account for AI
+- GitHub repository (for automation)
 
-### ⬇️ **Installazione**
+### ⬇️ **Installation**
 
-1. **Clone del Repository**
+1. **Clone the Repository**
 ```bash
 git clone https://github.com/your-username/notion-rss-bot.git
 cd notion-rss-bot
 ```
 
-2. **Setup Ambiente Python**
+2. **Python Environment Setup**
 ```bash
-# Installa dipendenze Python
+# Install Python dependencies
 pip install -r requirements.txt
 
-# Verifica installazione
-python -c "import requests, feedparser; print('✅ Dipendenze Python OK')"
+# Verify installation
+python -c "import requests, feedparser; print('✅ Python dependencies OK')"
 ```
 
-3. **Setup Ambiente Node.js**
+3. **Node.js Environment Setup**
 ```bash
-# Installa dipendenze Node.js
+# Install Node.js dependencies
 npm install
 
-# Verifica installazione
+# Verify installation
 node -e "console.log('✅ Node.js OK')"
 ```
 
-## ⚙️ Configurazione
+## ⚙️ Configuration
 
-### 🔐 **Variabili d'Ambiente**
+### 🔐 **Environment Variables**
 
-Crea le seguenti variabili d'ambiente (GitHub Secrets per produzione):
+Create the following environment variables (GitHub Secrets for production):
 
 ```bash
 # Notion Database
@@ -160,33 +160,33 @@ NOTION_DATABASE_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-### 🗄️ **Setup Database Notion**
+### 🗄️ **Notion Database Setup**
 
-1. **Crea Database Notion** con le seguenti proprietà:
+1. **Create Notion Database** with the following properties:
 
-| Nome Campo | Tipo | Descrizione |
+| Field Name | Type | Description |
 |------------|------|-------------|
-| `paraphrased_title` | Title | Titolo dell'annuncio |
-| `overview` | Rich Text | Riassunto AI |
-| `original_description` | Rich Text | Testo originale del post |
-| `price` | Rich Text | Prezzo estratto |
-| `zone` | Rich Text | Zona specifica |
-| `zone_macro` | Rich Text | Zona macro (mappata) |
-| `rooms` | Rich Text | Numero camere |
+| `paraphrased_title` | Title | Listing title |
+| `overview` | Rich Text | AI summary |
+| `original_description` | Rich Text | Original post text |
+| `price` | Rich Text | Extracted price |
+| `zone` | Rich Text | Specific zone |
+| `zone_macro` | Rich Text | Macro zone (mapped) |
+| `rooms` | Rich Text | Number of rooms |
 | `reliability` | Number | Rating 1-5 |
-| `rating_reason` | Rich Text | Spiegazione del rating |
-| `date_added` | Date | Data inserimento |
-| `link` | URL | Link al post Facebook |
-| `images` | URL | URL prima immagine |
-| `status` | Select | Attivo/Scaduto |
+| `rating_reason` | Rich Text | Rating explanation |
+| `date_added` | Date | Insertion date |
+| `link` | URL | Facebook post link |
+| `images` | URL | First image URL |
+| `status` | Select | Active/Expired |
 
-2. **Configura Select "status"** con opzioni:
-   - ✅ Attivo (verde)
-   - ❌ Scaduto (rosso)
+2. **Configure Select "status"** with options:
+   - ✅ Active (green)
+   - ❌ Expired (red)
 
-### 📍 **Mappatura Zone**
+### 📍 **Zone Mapping**
 
-Il file `zone_mapping.py` contiene la mappatura delle zone di Barcellona:
+The `zone_mapping.py` file contains the mapping of Barcelona zones:
 
 ```python
 BARCELONA_MACRO_ZONES = {
@@ -197,49 +197,49 @@ BARCELONA_MACRO_ZONES = {
 }
 ```
 
-Personalizza le zone secondo le tue esigenze.
+Customize the zones according to your needs.
 
-## 🔄 Flusso di Lavoro Automatizzato
+## 🔄 Automated Workflow
 
-### ⏰ **Scheduling Automatico**
+### ⏰ **Automatic Scheduling**
 
-Il sistema si aggiorna automaticamente ogni 30 minuti tramite GitHub Actions:
+The system updates automatically every 30 minutes via GitHub Actions:
 
 ```yaml
 # .github/workflows/update-data.yml
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Ogni 30 minuti
-  workflow_dispatch:        # Trigger manuale
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:        # Manual trigger
 ```
 
-### 🔄 **Pipeline Completa**
+### 🔄 **Complete Pipeline**
 
-1. **Aggregazione** (`main.py`)
-   - Scarica feed RSS da gruppi Facebook
-   - Estrae testo e immagini dai post
-   - Pulisce HTML e normalizza contenuto
+1. **Aggregation** (`main.py`)
+   - Downloads RSS feeds from Facebook groups
+   - Extracts text and images from posts
+   - Cleans HTML and normalizes content
 
-2. **Analisi AI** (OpenRouter + Llama 3.3)
-   - Filtra annunci pertinenti vs spam
-   - Estrae informazioni strutturate
-   - Assegna rating di affidabilità
-   - Genera riassunti intelligenti
+2. **AI Analysis** (OpenRouter + Llama 3.3)
+   - Filters relevant listings vs spam
+   - Extracts structured information
+   - Assigns reliability ratings
+   - Generates intelligent summaries
 
 3. **Storage** (Notion Database)
-   - Salva dati strutturati
-   - Gestisce deduplicazione
-   - Mantiene storico e versioning
+   - Saves structured data
+   - Handles deduplication
+   - Maintains history and versioning
 
-4. **Esportazione** (`fetch_notion.js`)
-   - Esporta dati in formato JSON
-   - Ottimizza per frontend
-   - Aggiorna cache locale
+4. **Export** (`fetch_notion.js`)
+   - Exports data in JSON format
+   - Optimizes for frontend
+   - Updates local cache
 
 5. **Frontend** (`index.html`)
-   - Carica dati da cache JSON
-   - Renderizza interfaccia interattiva
-   - Gestisce filtri e ricerca
+   - Loads data from JSON cache
+   - Renders interactive interface
+   - Handles filters and search
 
 ## 🤖 Integrazione AI
 
@@ -250,7 +250,7 @@ on:
 
 ### 📝 **Prompt Engineering**
 
-Il sistema utilizza prompt strutturati per:
+The system uses structured prompts for:
 
 ```python
 PROMPT_TEMPLATE = """
@@ -262,91 +262,91 @@ For each post, determine:
 3. Assign reliability rating (1-5) based on:
    - Presence of photos
    - Complete information
-   - Contatti disponibili
-   - Assenza di segnali di spam
+   - Available contacts
+   - Absence of spam signals
 
-Formato output: JSON strutturato
+Output format: Structured JSON
 """
 ```
 
-### 🎯 **Criteri di Valutazione**
+### 🎯 **Evaluation Criteria**
 
-L'AI valuta l'affidabilità basandosi su:
+The AI evaluates reliability based on:
 
-- ✅ **Presenza di immagini** (+1-2 punti)
-- ✅ **Informazioni complete** (prezzo, zona, contatti)
-- ✅ **Descrizione dettagliata** 
-- ✅ **Contatti verificabili** (telefono, WhatsApp)
-- ❌ **Segnali di spam** (prezzi irrealistici, testo sospetto)
+- ✅ **Presence of images** (+1-2 points)
+- ✅ **Complete information** (price, zone, contacts)
+- ✅ **Detailed description** 
+- ✅ **Verifiable contacts** (phone, WhatsApp)
+- ❌ **Spam signals** (unrealistic prices, suspicious text)
 
-## 🖼️ Sistema di Immagini
+## 🖼️ Image System
 
-### 📥 **Estrazione Automatica**
+### 📥 **Automatic Extraction**
 
-Il sistema estrae immagini da:
-- Tag `<img>` nell'HTML dei post
-- Media content RSS (`media:content`)
-- Decodifica automatica entità HTML
+The system extracts images from:
+- `<img>` tags in post HTML
+- RSS media content (`media:content`)
+- Automatic HTML entity decoding
 
 ```python
 def extract_all_images(entry):
-    """Estrae tutte le immagini da un entry RSS"""
+    """Extracts all images from an RSS entry"""
     desc_images = extract_images_from_description(entry.description)
     media_images = extract_images_from_media_content(entry)
-    return list(set(desc_images + media_images))  # Rimuove duplicati
+    return list(set(desc_images + media_images))  # Removes duplicates
 ```
 
-### 🎨 **Layout Responsive**
+### 🎨 **Responsive Layout**
 
 #### 🖥️ **Desktop**
-- Miniatura posizionata in alto a destra (120x90px)
-- Posizionamento assoluto per non interferire con il contenuto
-- Visibile solo per post con immagini
+- Thumbnail positioned top right (120x90px)
+- Absolute positioning to avoid content interference
+- Visible only for posts with images
 
 #### 📱 **Mobile** 
-- Miniatura a tutta larghezza in cima (150px altezza)
-- Layout verticale ottimizzato
-- Nascosta completamente per post senza immagini
+- Full-width thumbnail at top (150px height)
+- Optimized vertical layout
+- Completely hidden for posts without images
 
-### ⚡ **Ottimizzazioni Performance**
+### ⚡ **Performance Optimizations**
 
-- **Lazy Loading**: `loading="lazy"` per caricamento ottimizzato
-- **Error Handling**: Fallback graceful per immagini non disponibili
-- **Caching**: Nessuna ridondanza, utilizzo diretto dei link Facebook
+- **Lazy Loading**: `loading="lazy"` for optimized loading
+- **Error Handling**: Graceful fallback for unavailable images
+- **Caching**: No redundancy, direct use of Facebook links
 
-## 🌐 Frontend Interattivo
+## 🌐 Interactive Frontend
 
 ### 🎨 **Design System**
 
-#### 🎨 **Palette Colori**
+#### 🎨 **Color Palette**
 ```css
 :root {
-  --primary: #007AFF;      /* Blu Apple */
-  --secondary: #5856D6;    /* Viola */
-  --success: #388e3c;      /* Verde */
-  --warning: #f57c00;      /* Arancione */
-  --danger: #dc2626;       /* Rosso */
-  --background: #ffffff;   /* Bianco */
-  --surface: #f8fafc;      /* Grigio chiaro */
-  --text: #1d1d1f;         /* Nero Apple */
-  --text-secondary: #86868b; /* Grigio */
+  --primary: #007AFF;      /* Apple Blue */
+  --secondary: #5856D6;    /* Purple */
+  --success: #388e3c;      /* Green */
+  --warning: #f57c00;      /* Orange */
+  --danger: #dc2626;       /* Red */
+  --background: #ffffff;   /* White */
+  --surface: #f8fafc;      /* Light Gray */
+  --text: #1d1d1f;         /* Apple Black */
+  --text-secondary: #86868b; /* Gray */
 }
 ```
 
 #### 📱 **Responsive Breakpoints**
 - **Desktop**: > 768px
 - **Mobile**: ≤ 768px
-- **Layout fluido** con CSS Grid e Flexbox
+- **Fluid layout** with CSS Grid and Flexbox
 
-### 🔍 **Funzionalità Ricerca**
+### 🔍 **Search Features**
 
-#### 🎛️ **Filtri Disponibili**
-- **Zona**: Dropdown con zone mappate
-- **Affidabilità Minima**: Slider 1-5 stelle
-- **Prezzo Massimo**: Input numerico
-- **Data Pubblicazione**: Oggi, 3 giorni, settimana, mese
+#### 🎛️ **Available Filters**
+- **Zone**: Dropdown with mapped zones
+- **Minimum Reliability**: 1-5 star slider
+- **Maximum Price**: Numeric input
+- **Publication Date**: Today, 3 days, week, month
 
-#### 📊 **Ordinamento**
+#### 📊 **Sorting**
 - Data (più recenti/vecchi)
 - Rating (più alto/basso)  
 - Prezzo (crescente/decrescente)
