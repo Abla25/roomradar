@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2025-08-19T00:07:09.036Z",
-  "count": 69,
+  "generatedAt": "2025-08-19T00:24:13.224Z",
+  "count": 71,
   "results": [
+    {
+      "id": "254b5f64-9329-8130-a09f-d1941bd72bfa",
+      "title": "Affitto camera doppia per donna",
+      "overview": "Camera doppia con finestra esterna in ambiente familiare",
+      "description": "Se Alquila Habitación Doble para Mujer con Ventana Exterior. Ambiente familiar. Disponible fin de mes. Whatsapp 652162758",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "Informazioni basilari presenti, contatto whatsapp disponibile ma nessuna foto allegata",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T00:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4011604975835795/",
+      "status": "Attivo"
+    },
+    {
+      "id": "254b5f64-9329-8136-903a-d0981daa516f",
+      "title": "Stanze in affitto per donna",
+      "overview": "Stanze in affitto per donna con finestra esterna, ambiente familiare.",
+      "description": "Se Alquila Habitación Doble para Mujer con Ventana Exterior.\nAmbiente familiar.\nDisponible fin de mes.\nWhatsapp 📲652162758",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "Il post sembra essere un annuncio di affitto legittimo, ma non ci sono foto.",
+      "datePublished": "",
+      "dateAdded": "2025-08-19T00:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4294109250821584/",
+      "status": "Scaduto"
+    },
     {
       "id": "254b5f64-9329-81dc-8e39-dfae84d68be9",
       "title": "Stanze in affitto per coppia",
@@ -512,7 +544,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-18T20:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4293943947504781/",
-      "status": "Attivo"
+      "status": "Scaduto"
     },
     {
       "id": "253b5f64-9329-8117-9e7a-ccd7e13ed059",
