@@ -960,13 +960,13 @@ def process_rss():
                             new_page_data = {
                                 "id": page_id,
                                 "created_time": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                                "Titolo_parafrasato": post_data.get("Titolo_parafrasato", ""),
-                                "Descrizione_originale": post_data.get("Descrizione_originale", ""),
-                                "Prezzo": post_data.get("Prezzo", ""),
-                                        "zone": post_data.get("zone", ""),
-        "zone_macro": zona_macro,
+                                "paraphrased_title": post_data.get("paraphrased_title", ""),
+                                "original_description": post_data.get("original_description", ""),
+                                "price": post_data.get("price", ""),
+                                "zone": post_data.get("zone", ""),
+                                "zone_macro": zona_macro,
                                 "Status": "",
-                                "Link": post_data.get("link", "")
+                                "link": post_data.get("link", "")
                             }
                             newly_added_pages.append(new_page_data)
                         else:
