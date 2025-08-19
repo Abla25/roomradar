@@ -575,11 +575,12 @@ function reportListing(listingId, title, link) {
   
   // Invio a Google Forms
   const formData = new FormData();
-  formData.append('entry.123456789', listingId);
-  formData.append('entry.987654321', title);
-  formData.append('entry.111222333', link);
+  formData.append('entry.1866173828', listingId); // ID Annuncio
+  formData.append('entry.1251116683', title); // Titolo Annuncio
+  formData.append('entry.1194589857', link); // Link Annuncio
+  formData.append('entry.564234191', new Date().toISOString()); // Timestamp
   
-  fetch('https://docs.google.com/forms/d/e/FORM_ID/formResponse', {
+  fetch('https://docs.google.com/forms/d/e/1FAIpQLSfts0Ab8rL34Ytm3BUpSolCfn_Jh9lI9AkpLe4tzlubk_fSMg/formResponse', {
     method: 'POST',
     body: formData,
     mode: 'no-cors'
