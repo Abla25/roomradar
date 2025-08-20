@@ -393,7 +393,7 @@ def get_existing_data():
                 props = page.get("properties", {})
                 
                 # Estrai link
-                link_prop = props.get("Link", {})
+                link_prop = props.get("link", {})
                 link_url = link_prop.get("url", "")
                 if link_url:
                     existing_links.add(link_url)
@@ -407,7 +407,7 @@ def get_existing_data():
         "price": _extract_text_property(props.get("price", {})),
                     "zone": _extract_text_property(props.get("zone", {})),
                     "status": _extract_status_name(props.get("status", {})),
-                    "Link": link_url
+                    "link": link_url
                 })
             
             has_more = data.get("has_more", False)
