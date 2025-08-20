@@ -418,6 +418,12 @@ def get_existing_data():
             break
     
     print(f"📋 Found {len(existing_links)} links and {len(existing_pages)} existing pages")
+    
+    # Debug: mostra alcuni link esistenti per verificare
+    if existing_links:
+        sample_links = list(existing_links)[:3]
+        print(f"🔍 Sample existing links: {sample_links}")
+    
     return existing_links, existing_pages
 
 def find_best_duplicate_optimized(existing_pages: list, new_descr: str, threshold: float = 0.8):
@@ -630,23 +636,29 @@ def send_to_notion(data):
     if prima_immagine:
         print(f"🖼️ Saving image for: {titolo[:50]}...")
     
-    payload = {
-        "parent": {"database_id": NOTION_DATABASE_ID},
-        "properties": {
-                    "paraphrased_title": {"title": [{"text": {"content": titolo}}]},
+    # Costruisci properties base
+    properties = {
+        "paraphrased_title": {"title": [{"text": {"content": titolo}}]},
         "overview": {"rich_text": [{"text": {"content": overview}}]},
         "original_description": {"rich_text": [{"text": {"content": descr}}]},
         "price": {"rich_text": [{"text": {"content": prezzo}}]},
-                    "zone": {"rich_text": [{"text": {"content": zona}}]},
+        "zone": {"rich_text": [{"text": {"content": zona}}]},
         "zone_macro": {"rich_text": [{"text": {"content": zona_macro}}]},
-                    "rooms": {"rich_text": [{"text": {"content": camere}}]},
+        "rooms": {"rich_text": [{"text": {"content": camere}}]},
         "reliability": {"number": affidabilita},
         "rating_reason": {"rich_text": [{"text": {"content": motivo}}]},
-                    "date_added": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
+        "date_added": {"date": {"start": time.strftime("%Y-%m-%dT%H:%M:%S")}},
         "link": {"url": link_url},
-        "images": {"url": prima_immagine},
-            "status": {"select": {"name": "active"}}
-        }
+        "status": {"select": {"name": "active"}}
+    }
+    
+    # Aggiungi immagine solo se presente
+    if prima_immagine:
+        properties["images"] = {"url": prima_immagine}
+    
+    payload = {
+        "parent": {"database_id": NOTION_DATABASE_ID},
+        "properties": properties
     }
     res = requests.post("https://api.notion.com/v1/pages", headers=HEADERS_NOTION, json=payload)
     if res.status_code != 200:
@@ -762,6 +774,7 @@ def process_rss():
         posts = []
         
         # Filtra i post già esistenti e quelli nella cache degli scartati
+        print(f"🔍 Checking {len(feed.entries)} entries against {len(existing_links)} existing links...")
         for entry in feed.entries:
             link = entry.link
             if link not in existing_links:
