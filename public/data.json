@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2025-08-20T10:25:58.677Z",
-  "count": 16,
+  "generatedAt": "2025-08-20T10:32:44.341Z",
+  "count": 18,
   "results": [
+    {
+      "id": "255b5f64-9329-8189-b411-db194ff8883c",
+      "title": "Individual room for rent in Badalona",
+      "overview": "A single room for rent in a shared apartment in Badalona, close to metro line L2 and amenities",
+      "description": "Se alquila habitación individual a chica, en Badalona línea L2 del metro. Cerca de Mercadona, Lidel, Condi, Farmacias y líneas de Bus. 400€ con todos los gastos incluidos. [PHONE NUMBER CENSORED] solo llamadas.",
+      "price": "400€",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a price, location, and contact information, and has a photo, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-20T10:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4012145222448437/",
+      "status": "active",
+      "imageUrl": "https://scontent.fktu2-1.fna.fbcdn.net/v/t39.30808-6/534315151_10231330131665691_77534328020317052_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NmZ24cAFUhQQ7kNvwGWUkLy&_nc_oc=AdmvHm9UrjfxFfXPvaXiWKVEnM7sslpmOX5Mwq_fKM8EiIbR6Pi-7u9aBuPOUBDqTKg&_nc_zt=23&_nc_ht=scontent.fktu2-1.fna&_nc_gid=8JgOC9_nPfDeKnFEewAmaQ&oh=00_AfVaAGWuMpsKmlTq5w9G1pNIQsOmZubUumS84Vyizmk22Q&oe=68AA40B8"
+    },
+    {
+      "id": "255b5f64-9329-811d-ac09-fd2cc53edcf7",
+      "title": "Room for rent for couples",
+      "overview": "A room is available for rent, specifically for couples, with entry in September",
+      "description": "Hola alquilo una habitación solo para parejas entrada en septiembre más información escribir al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos, price information, and zone details, but it provides a contact number, which is a positive indicator, however, the absence of crucial details and photos reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-20T10:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4295519654013877/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "255b5f64-9329-8175-967e-d6046b75a82c",
       "title": "Individual room for rent in Badalona",
@@ -16,7 +50,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T10:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4012145652448394/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fktu2-1.fna.fbcdn.net/v/t39.30808-6/534210164_10231330137145828_6819614159413978386_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AtSsYE25I0oQ7kNvwGuErca&_nc_oc=Adl7HAkdHVr8EajNPsGNGZaeiZzuybWA1YqymS1ADo45FDfpGZfer5gj1Yt-KTlBbEk&_nc_zt=23&_nc_ht=scontent.fktu2-1.fna&_nc_gid=8JgOC9_nPfDeKnFEewAmaQ&oh=00_AfW4Uj-XaysdHlt2aAEhoZKOAUA3wFysTGBc2uYxpP4bEA&oe=68AA443E"
     },
     {
