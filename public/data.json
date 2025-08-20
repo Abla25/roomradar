@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2025-08-20T16:32:01.621Z",
-  "count": 30,
-  "totalRejectedCount": 27,
+  "generatedAt": "2025-08-20T17:22:51.243Z",
+  "count": 31,
+  "totalRejectedCount": 32,
   "results": [
+    {
+      "id": "255b5f64-9329-818b-ac80-fb337d2189b6",
+      "title": "Room for rent for single woman",
+      "overview": "A room is available for rent in a clean apartment with elevator and good bus, train, and tram connections in San Feliu de Llobregat",
+      "description": "Alquilo habitacion para mujer sola en san Feliu de Llobregat ,Piso muy limpio, con ascensor y bien comunicado con buses , tren y tranvía T3 .. Info [MESSAGING CONTACT CENSORED]",
+      "price": "N/A",
+      "zone": "San Feliu de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing seems to be a genuine rental offer, but there are no photos provided and the price is not specified, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-20T17:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4295958503969992/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "255b5f64-9329-8106-9f39-d565845c5257",
       "title": "Room for rent in Badalona",
@@ -68,7 +85,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T14:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013244759005150/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fccu31-1.fna.fbcdn.net/v/t39.30808-6/536280615_641718205645111_7384277552480901245_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VAgY_VUQWw0Q7kNvwEccOyF&_nc_oc=AdlUevnYPRkt0yfnKK7ILQrHUB6hvgmyoPozU85MUuvVQxqQDV1lfpVRAmTw62HzpUA&_nc_zt=23&_nc_ht=scontent.fccu31-1.fna&_nc_gid=1DdLMcbpYcT0k-S4bCMOxw&oh=00_AfW_2GI-g5pAewL2phaXxbBg61jchIjFeeN89CGGJ9dxkg&oe=68ABA8E3"
     },
     {
