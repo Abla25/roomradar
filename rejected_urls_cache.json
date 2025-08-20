@@ -511,8 +511,12 @@
     "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069399592032239/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-20T22:25:13.816411"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4296188170613692/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-20T23:23:25.396572"
     }
   },
-  "total_rejected_count": 46,
-  "timestamp": "2025-08-20T22:21:45.014902"
+  "total_rejected_count": 47,
+  "timestamp": "2025-08-20T23:21:47.277296"
 }

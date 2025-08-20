@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2025-08-20T22:33:51.286Z",
-  "count": 41,
-  "totalRejectedCount": 46,
+  "generatedAt": "2025-08-20T23:27:44.642Z",
+  "count": 42,
+  "totalRejectedCount": 47,
   "results": [
+    {
+      "id": "255b5f64-9329-811f-b280-e681680c434b",
+      "title": "Room for rent in Barcelona",
+      "overview": "A room is available for rent in Barcelona, near the L5 metro line, with the price available upon consultation",
+      "description": "Se alquila habitación 🏡 - Barcelona, cerca del metro L5 vira Amat Disponible para entrar: Precio a consultar, SOLO [MESSAGING CONTACT CENSORED]",
+      "price": "N/A",
+      "zone": "Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a specific location, a contact method, and an image, which increases its reliability, but the price is not specified, preventing a perfect score",
+      "datePublished": "",
+      "dateAdded": "2025-08-20T23:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069102258728639/",
+      "status": "active",
+      "imageUrl": "https://scontent.fpnq5-1.fna.fbcdn.net/v/t39.30808-6/533406424_24275656055376561_347333600128501456_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=L4dKbHd9G6sQ7kNvwF4c1nS&_nc_oc=AdmR2xQccW2C7JRdc80mJCNfTrpsl4otIZ8F5dtHGAKXo2_CRTN1bkH0L5Lz_xnia1A&_nc_zt=23&_nc_ht=scontent.fpnq5-1.fna&_nc_gid=nNeafWgKDk2Ya1i_8gWbGQ&oh=00_AfX90oTVjSbs7hQTdOJWq4HkbM5BYJShDFMMNSVBxK68JA&oe=68AC036F"
+    },
     {
       "id": "255b5f64-9329-811a-b3c4-fcff7b3ea762",
       "title": "Renting a bright room with double bed",
@@ -374,7 +391,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T12:52:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013130905683202/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel1-5.fna.fbcdn.net/v/t39.30808-6/536272351_10162248303696622_6403477412601203879_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xOdoU98PPMAQ7kNvwFkP_pS&_nc_oc=Adkc0Ft10JqFd0bRHSvR8E5iWw_b00xsO9DlzGpELGqhAcFIa8mBtGRAhizjGvh9_0c&_nc_zt=23&_nc_ht=scontent.fdel1-5.fna&_nc_gid=barsR0OaPMMa1kbVah5YCQ&oh=00_AfXO79gCbkyXgE45F45gTj17EzxZwhpGS5QtODxbrVLxnQ&oe=68AB8094"
     },
     {
