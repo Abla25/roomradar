@@ -343,8 +343,12 @@
     "https://www.facebook.com/groups/apartamentosbarcelona/posts/4012603085735984/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-20T12:52:16.964679"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069109158727949/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-20T13:34:24.852120"
     }
   },
-  "total_rejected_count": 4,
-  "timestamp": "2025-08-20T12:51:09.181047"
+  "total_rejected_count": 5,
+  "timestamp": "2025-08-20T13:34:13.413661"
 }
