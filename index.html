@@ -61,6 +61,126 @@
       animation: headerSweep 12s linear infinite;
     }
 
+    /* Interactive cursor particles */
+    .header-particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.8) 0%, rgba(59, 130, 246, 0.3) 50%, transparent 100%);
+      border-radius: 50%;
+      pointer-events: none;
+      transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      opacity: 0.4;
+      transform: scale(1);
+    }
+
+    .particle.active {
+      opacity: 1;
+      transform: scale(1.5);
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.5);
+    }
+
+    .icon-particle {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      pointer-events: none;
+      opacity: 0;
+      transform: scale(0) rotate(0deg);
+      transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+      color: #3B82F6;
+      filter: drop-shadow(0 2px 4px rgba(59, 130, 246, 0.3));
+    }
+
+    .icon-particle.active {
+      opacity: 1;
+      transform: scale(1) rotate(180deg);
+      animation: iconFloat 2s ease-out forwards;
+    }
+
+    .icon-particle.house {
+      color: #10B981;
+    }
+
+    .icon-particle.radar {
+      color: #8B5CF6;
+    }
+
+    .icon-particle.star {
+      color: #F59E0B;
+    }
+
+    @keyframes iconFloat {
+      0% {
+        transform: scale(1) rotate(180deg) translateY(0px);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.3) rotate(360deg) translateY(-40px);
+        opacity: 0;
+      }
+    }
+
+    /* Ambient floating icons */
+    .ambient-icon {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      pointer-events: none;
+      opacity: 0.5;
+      transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+      transform: scale(1) rotate(0deg);
+    }
+
+    .ambient-icon.attracted {
+      opacity: 0.9;
+      transform: scale(1.4) rotate(15deg);
+      filter: drop-shadow(0 4px 8px rgba(59, 130, 246, 0.3));
+    }
+
+    /* Magnetic field effect */
+    .magnetic-field {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.05) 50%, transparent 100%);
+      pointer-events: none;
+      opacity: 0;
+      transition: all 0.3s ease;
+      transform: scale(0.8);
+      z-index: 0;
+    }
+
+    .magnetic-field.active {
+      opacity: 1;
+      transform: scale(1.2);
+      animation: magneticPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes magneticPulse {
+      0%, 100% { 
+        transform: scale(1.2);
+        opacity: 0.3;
+      }
+      50% { 
+        transform: scale(1.5);
+        opacity: 0.1;
+      }
+    }
+
     @keyframes headerGlow {
       0%, 100% { 
         opacity: 0.3; 
@@ -846,6 +966,66 @@
       font-size: 0.9rem;
     }
 
+    /* Censored text styles */
+    .censored-text {
+      color: #9ca3af;
+      border-bottom: 2px dotted #9ca3af;
+      cursor: help;
+      position: relative;
+      transition: all 0.2s ease;
+      font-weight: 500;
+    }
+
+    .censored-text:hover {
+      color: #6b7280;
+      border-bottom-color: #6b7280;
+      background: rgba(156, 163, 175, 0.1);
+      padding: 0 2px;
+      border-radius: 3px;
+    }
+
+    .censored-tooltip {
+      position: absolute;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.95);
+      color: #374151;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      line-height: 1.2;
+      max-width: 280px;
+      min-width: 240px;
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 100;
+      margin-bottom: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(10px);
+      font-weight: 400;
+      pointer-events: none;
+    }
+
+    .censored-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 5px solid transparent;
+      border-top-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .censored-text:hover .censored-tooltip {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(-4px);
+    }
+
 
     .read-more-link {
       color: #3B82F6;
@@ -1199,6 +1379,8 @@
 </head>
 <body>
   <header>
+    <div class="header-particles"></div>
+    <div class="magnetic-field"></div>
     <div class="container">
       <div class="header-content">
         <div class="header-logo">
@@ -1652,6 +1834,16 @@
       updatePagination();
     }
 
+    // Function to process censored text and add tooltip spans
+    function processCensoredText(text) {
+      // Regex to match [PHONE NUMBER CENSORED], [... CENSORED] patterns
+      const censoredPattern = /\[([^[\]]*\s*CENSORED)\]/gi;
+      
+      return text.replace(censoredPattern, (match, content) => {
+        return `<span class="censored-text">${match}<div class="censored-tooltip">For more details, see the original post on Facebook</div></span>`;
+      });
+    }
+
     function renderListings() {
       const container = document.getElementById('listings');
       container.innerHTML = "";
@@ -1683,7 +1875,8 @@
 
         // Use "original_description" if available, otherwise "description", finally "overview"
         const description = l.original_description || l.description || l.overview || "";
-        const shortText = description.length > 200 ? description.slice(0, 200) + "..." : description;
+        const processedDescription = processCensoredText(description);
+        const shortText = description.length > 200 ? processCensoredText(description.slice(0, 200) + "...") : processedDescription;
         const isLong = description.length > 200;
 
         // Format date and time
@@ -1802,8 +1995,9 @@
           
           if (readMoreLink && descriptionEl) {
             readMoreLink.addEventListener("click", () => {
-              if (descriptionEl.textContent.includes(shortText)) {
-                descriptionEl.innerHTML = description;
+              // Check if the description is currently truncated by looking for the "Read more" link
+              if (descriptionEl.querySelector(".read-more-link")) {
+                descriptionEl.innerHTML = processedDescription;
               }
             });
           }
@@ -1939,6 +2133,265 @@
         document.body.style.opacity = '1';
       }, 100);
     });
+
+    // Interactive Header Magic ✨
+    (function() {
+      const header = document.querySelector('header');
+      const particlesContainer = document.querySelector('.header-particles');
+      const magneticField = document.querySelector('.magnetic-field');
+      let particles = [];
+      let mouseX = 0;
+      let mouseY = 0;
+      let isMouseInHeader = false;
+
+      // Icon templates
+      const iconTemplates = {
+        house: `<svg viewBox="0 0 24 24" fill="currentColor" style="width: 100%; height: 100%;">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>`,
+        radar: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 100%; height: 100%;">
+          <circle cx="12" cy="12" r="10"/>
+          <circle cx="12" cy="12" r="6"/>
+          <circle cx="12" cy="12" r="2"/>
+          <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
+        </svg>`,
+        star: `<svg viewBox="0 0 24 24" fill="currentColor" style="width: 100%; height: 100%;">
+          <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+        </svg>`
+      };
+
+      // Create main particles (attracted to cursor)
+      function createParticles() {
+        for (let i = 0; i < 25; i++) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          particle.style.left = Math.random() * 100 + '%';
+          particle.style.top = Math.random() * 100 + '%';
+          particlesContainer.appendChild(particle);
+          
+          particles.push({
+            element: particle,
+            baseX: Math.random() * header.offsetWidth,
+            baseY: Math.random() * header.offsetHeight,
+            currentX: Math.random() * header.offsetWidth,
+            currentY: Math.random() * header.offsetHeight,
+            speed: 0.02 + Math.random() * 0.03
+          });
+        }
+      }
+
+      // Create ambient floating icons
+      function createAmbientIcons() {
+        const iconTypes = ['house', 'radar', 'star'];
+        const positions = [
+          // Top edge
+          ...Array.from({length: 8}, (_, i) => ({
+            x: (i / 7) * header.offsetWidth,
+            y: 20 + Math.random() * 40
+          })),
+          // Bottom edge
+          ...Array.from({length: 8}, (_, i) => ({
+            x: (i / 7) * header.offsetWidth,
+            y: header.offsetHeight - 60 + Math.random() * 40
+          })),
+          // Left edge
+          ...Array.from({length: 4}, (_, i) => ({
+            x: 20 + Math.random() * 40,
+            y: 80 + (i / 3) * (header.offsetHeight - 160)
+          })),
+          // Right edge
+          ...Array.from({length: 4}, (_, i) => ({
+            x: header.offsetWidth - 60 + Math.random() * 40,
+            y: 80 + (i / 3) * (header.offsetHeight - 160)
+          }))
+        ];
+
+        positions.forEach((pos, index) => {
+          const iconType = iconTypes[index % iconTypes.length];
+          const ambientIcon = document.createElement('div');
+          ambientIcon.className = `ambient-icon ${iconType}`;
+          ambientIcon.innerHTML = iconTemplates[iconType];
+          ambientIcon.style.left = pos.x + 'px';
+          ambientIcon.style.top = pos.y + 'px';
+          ambientIcon.style.color = iconType === 'house' ? '#10B981' : 
+                                   iconType === 'radar' ? '#8B5CF6' : '#F59E0B';
+          
+          particlesContainer.appendChild(ambientIcon);
+          
+          // Add to particles array for attraction effect
+          particles.push({
+            element: ambientIcon,
+            baseX: pos.x,
+            baseY: pos.y,
+            currentX: pos.x,
+            currentY: pos.y,
+            speed: 0.01 + Math.random() * 0.02,
+            isAmbient: true
+          });
+        });
+      }
+
+      // Create icon effect (replaces sparkle)
+      function createIconEffect(x, y) {
+        const iconTypes = ['house', 'radar', 'star'];
+        const randomType = iconTypes[Math.floor(Math.random() * iconTypes.length)];
+        
+        const iconElement = document.createElement('div');
+        iconElement.className = `icon-particle ${randomType}`;
+        iconElement.innerHTML = iconTemplates[randomType];
+        iconElement.style.left = (x - 8) + 'px';
+        iconElement.style.top = (y - 8) + 'px';
+        particlesContainer.appendChild(iconElement);
+        
+        setTimeout(() => iconElement.classList.add('active'), 10);
+        setTimeout(() => iconElement.remove(), 2000);
+      }
+
+      // Animate particles
+      function animateParticles() {
+        const time = Date.now() * 0.001;
+        
+        particles.forEach((particle, index) => {
+          // Add unique phase offset for each particle
+          const phaseOffset = index * 0.5;
+          
+          if (isMouseInHeader) {
+            // Magnetic attraction to cursor
+            const dx = mouseX - particle.currentX;
+            const dy = mouseY - particle.currentY;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance < 150) {
+              const attractionStrength = particle.isAmbient ? 0.3 : 0.5;
+              particle.currentX += dx * particle.speed * attractionStrength;
+              particle.currentY += dy * particle.speed * attractionStrength;
+              
+              if (particle.isAmbient) {
+                particle.element.classList.add('attracted');
+              } else {
+                particle.element.classList.add('active');
+              }
+            } else {
+              // Smooth return to base position with organic movement
+              const returnSpeed = 0.02;
+              particle.currentX += (particle.baseX - particle.currentX) * returnSpeed;
+              particle.currentY += (particle.baseY - particle.currentY) * returnSpeed;
+              
+              if (particle.isAmbient) {
+                particle.element.classList.remove('attracted');
+              } else {
+                particle.element.classList.remove('active');
+              }
+            }
+          } else {
+            // Organic floating motion for all particles
+            if (particle.isAmbient) {
+              // Gentle, slow floating for ambient icons
+              const floatX = Math.sin(time * 0.3 + phaseOffset) * 8 + 
+                           Math.sin(time * 0.7 + phaseOffset * 2) * 3;
+              const floatY = Math.cos(time * 0.4 + phaseOffset) * 6 + 
+                           Math.cos(time * 0.8 + phaseOffset * 1.5) * 2;
+              
+              // Add subtle rotation
+              const rotation = Math.sin(time * 0.2 + phaseOffset) * 10;
+              particle.element.style.transform = `rotate(${rotation}deg)`;
+              
+              particle.currentX = particle.baseX + floatX;
+              particle.currentY = particle.baseY + floatY;
+              particle.element.classList.remove('attracted');
+            } else {
+              // More dynamic floating for main particles with multiple wave layers
+              const floatX = Math.sin(time * 0.5 + phaseOffset) * 12 + 
+                           Math.sin(time * 1.2 + phaseOffset * 3) * 4 +
+                           Math.sin(time * 0.8 + phaseOffset * 0.7) * 2;
+              const floatY = Math.cos(time * 0.6 + phaseOffset) * 10 + 
+                           Math.cos(time * 1.1 + phaseOffset * 2.5) * 3 +
+                           Math.cos(time * 0.9 + phaseOffset * 1.3) * 1.5;
+              
+              particle.currentX = particle.baseX + floatX;
+              particle.currentY = particle.baseY + floatY;
+              particle.element.classList.remove('active');
+            }
+            
+            // Smooth boundary wrapping
+            const margin = 50;
+            if (particle.currentX < -margin) {
+              particle.baseX = header.offsetWidth + margin;
+            } else if (particle.currentX > header.offsetWidth + margin) {
+              particle.baseX = -margin;
+            }
+            
+            if (particle.currentY < -margin) {
+              particle.baseY = header.offsetHeight + margin;
+            } else if (particle.currentY > header.offsetHeight + margin) {
+              particle.baseY = -margin;
+            }
+          }
+          
+          // Smooth position updates with easing
+          const currentLeft = parseFloat(particle.element.style.left) || particle.currentX;
+          const currentTop = parseFloat(particle.element.style.top) || particle.currentY;
+          
+          const easeSpeed = 0.1;
+          const newLeft = currentLeft + (particle.currentX - currentLeft) * easeSpeed;
+          const newTop = currentTop + (particle.currentY - currentTop) * easeSpeed;
+          
+          particle.element.style.left = newLeft + 'px';
+          particle.element.style.top = newTop + 'px';
+        });
+
+        requestAnimationFrame(animateParticles);
+      }
+
+      // Mouse events
+      header.addEventListener('mouseenter', () => {
+        isMouseInHeader = true;
+        magneticField.classList.add('active');
+      });
+
+      header.addEventListener('mouseleave', () => {
+        isMouseInHeader = false;
+        magneticField.classList.remove('active');
+      });
+
+      header.addEventListener('mousemove', (e) => {
+        const rect = header.getBoundingClientRect();
+        mouseX = e.clientX - rect.left;
+        mouseY = e.clientY - rect.top;
+        
+        // Update magnetic field position
+        magneticField.style.left = (mouseX - 50) + 'px';
+        magneticField.style.top = (mouseY - 50) + 'px';
+        
+        // Create icons occasionally
+        if (Math.random() < 0.08) {
+          createIconEffect(mouseX, mouseY);
+        }
+      });
+
+      // Click effect
+      header.addEventListener('click', (e) => {
+        const rect = header.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const clickY = e.clientY - rect.top;
+        
+        // Create burst of themed icons
+        for (let i = 0; i < 8; i++) {
+          setTimeout(() => {
+            const angle = (i / 8) * Math.PI * 2;
+            const distance = 30 + Math.random() * 20;
+            const iconX = clickX + Math.cos(angle) * distance;
+            const iconY = clickY + Math.sin(angle) * distance;
+            createIconEffect(iconX, iconY);
+          }, i * 50);
+        }
+      });
+
+      // Initialize
+      createParticles();
+      createAmbientIcons();
+      animateParticles();
+    })();
   </script>
 </body>
 </html>
