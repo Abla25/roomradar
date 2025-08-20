@@ -64,8 +64,12 @@ def load_rejected_cache():
                 if expired_urls:
                     print(f"🗑️ Removed {len(expired_urls)} expired URLs from cache (TTL {CACHE_CLEANUP_HOURS}h)")
                 
+                # Mantieni il contatore persistente (non si azzera mai)
+                total_rejected_count = data.get('total_rejected_count', 0)
+                
                 _cache_data = {
                     'urls': cleaned_urls,
+                    'total_rejected_count': total_rejected_count,
                     'timestamp': current_time.isoformat()
                 }
                 _cache_last_load = file_mtime
@@ -73,7 +77,12 @@ def load_rejected_cache():
         except Exception as e:
             print(f"⚠️ Cache loading error: {e}")
     
-    _cache_data = {'urls': {}, 'timestamp': datetime.now().isoformat()}
+    # Inizializza cache vuota con contatore a 0
+    _cache_data = {
+        'urls': {}, 
+        'total_rejected_count': 0,
+        'timestamp': datetime.now().isoformat()
+    }
     _cache_last_load = None
     return _cache_data
 
@@ -95,12 +104,15 @@ def save_rejected_cache(cache_data):
         print(f"⚠️ Cache save error: {e}")
 
 def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
-    """Aggiunge un URL alla cache degli scartati con logica FIFO."""
+    """Aggiunge un URL alla cache degli scartati con logica FIFO e incrementa il contatore persistente."""
     print(f"🔄 Adding URL to cache: {url} (reason: {reason})")
     print(f"📁 Current directory: {os.getcwd()}")
     print(f"📁 Cache file: {os.path.abspath(CACHE_FILE)}")
     
     cache_data = load_rejected_cache()
+    
+    # Controlla se l'URL è già presente (per evitare doppi conteggi)
+    is_new_url = url not in cache_data['urls']
     
     # Se la cache è piena, rimuovi gli URL più vecchi (FIFO)
     if len(cache_data['urls']) >= MAX_CACHE_SIZE:
@@ -113,10 +125,19 @@ def add_to_rejected_cache(url, reason="AI_SCRUTINY"):
         cache_data['urls'] = dict(sorted_urls[remove_count:])
         print(f"🗑️ Removed {remove_count} oldest URLs (FIFO - 50%)")
     
+    # Aggiungi/aggiorna l'URL
     cache_data['urls'][url] = {
         'reason': reason,
         'timestamp': datetime.now().isoformat()
     }
+    
+    # Incrementa il contatore SOLO se è un nuovo URL
+    if is_new_url:
+        cache_data['total_rejected_count'] = cache_data.get('total_rejected_count', 0) + 1
+        print(f"📊 New rejected post added! Total rejected count: {cache_data['total_rejected_count']}")
+    else:
+        print(f"📊 URL already in cache, total rejected count remains: {cache_data.get('total_rejected_count', 0)}")
+    
     save_rejected_cache(cache_data)
     
     # Verifica immediata che il file sia stato creato
@@ -151,6 +172,11 @@ def get_cache_stats():
     oldest_age = max(ages)
     
     return len(urls), avg_age, oldest_age
+
+def get_total_rejected_count():
+    """Restituisce il contatore totale dei post scartati dall'AI (persistente)."""
+    cache_data = load_rejected_cache()
+    return cache_data.get('total_rejected_count', 0)
 
 # Configurazione RSS URLs - Supporto per multiple feed
 RSS_URLS = []
@@ -1039,7 +1065,9 @@ def process_rss():
     print(f"   📊 Added: {total_new_posts} new listings from {len(RSS_URLS)} RSS feeds")
     print(f"   🚫 Rejected: {total_rejected} posts (saved in cache)")
     final_cache_count, final_avg_age, final_oldest_age = get_cache_stats()
+    total_rejected_ever = get_total_rejected_count()
     print(f"   📋 Cache: {final_cache_count} URLs in memory (average age: {final_avg_age:.1f}h)")
+    print(f"   🧠 AI Total Rejected: {total_rejected_ever} posts since inception")
     
     # Pulisci le cache in memoria per evitare memory leak
     clear_caches()

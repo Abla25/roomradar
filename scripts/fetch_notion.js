@@ -1,7 +1,7 @@
 // scripts/fetch_notion.js
 // Legge Notion con la chiave dai Secrets e scrive public/data.json
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
@@ -86,9 +86,30 @@ function parseNotionPage(page) {
   };
 }
 
+// Funzione per leggere il contatore totale dal file cache Python
+async function getTotalRejectedCount() {
+  const cacheFilePath = path.join(process.cwd(), "rejected_urls_cache.json");
+  
+  try {
+    if (existsSync(cacheFilePath)) {
+      const cacheContent = await readFile(cacheFilePath, "utf-8");
+      const cacheData = JSON.parse(cacheContent);
+      return cacheData.total_rejected_count || 0;
+    }
+  } catch (error) {
+    console.warn("⚠️ Could not read rejected URLs cache:", error.message);
+  }
+  
+  return 0; // Default se il file non esiste o c'è un errore
+}
+
 async function main() {
   const raw = await fetchAllPages();
   const mapped = raw.map(parseNotionPage);
+  
+  // Leggi il contatore totale dei post scartati
+  const totalRejectedCount = await getTotalRejectedCount();
+  console.log(`📊 Total rejected posts by AI: ${totalRejectedCount}`);
 
   const outDir = path.join(process.cwd(), "public");
   if (!existsSync(outDir)) await mkdir(outDir, { recursive: true });
@@ -97,11 +118,12 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     count: mapped.length,
+    totalRejectedCount: totalRejectedCount, // Aggiungi il contatore al payload
     results: mapped
   };
 
   await writeFile(outPath, JSON.stringify(payload, null, 2), "utf-8");
-  console.log(`Scritto ${outPath} con ${mapped.length} record`);
+  console.log(`Scritto ${outPath} con ${mapped.length} record (${totalRejectedCount} rejected by AI)`);
 }
 
 main().catch((e) => {
