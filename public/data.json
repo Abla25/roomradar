@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2025-08-21T03:12:25.528Z",
-  "count": 45,
-  "totalRejectedCount": 59,
+  "generatedAt": "2025-08-21T04:29:25.208Z",
+  "count": 46,
+  "totalRejectedCount": 61,
   "results": [
+    {
+      "id": "256b5f64-9329-815f-9b11-ca48fdfb9654",
+      "title": "Room for rent in Badalona",
+      "overview": "Room available for rent in Badalona starting in September, with a minimum stay of 3 months",
+      "description": "Ofrezco habitación para ingresar en septiembre. Ubicación: Badalona Precio: 400€ con gastos incluidos. Fianza: 300€ Estadía mínima de 3 meses. ⚠️⚠️⚠️⚠️Buscamos a alguien que esté trabajando⚠️⚠️⚠️⚠️⚠️ Que sea ordenado, limpio y amé a los perros. Tenemos un perro y es lo más importante para nosotros. Estaremos haciendo videollamadas para conocer a la persona que venga a vivir con nosotros durante esta semana para definir el domingo. Interesados solo por [MESSAGING CONTACT CENSORED]",
+      "price": "400€",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "This post contains detailed information about the rental, including price and location, and includes a photo, but the reliability is not 5 because there is no clear indication of a contract or formal agreement",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T04:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069354802036718/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/535152563_2164943924008055_1762640018675520223_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=C39UerSb99AQ7kNvwFJxlBn&_nc_oc=Adn1ovOm-dl4TYgsEDGjvxMKiUVAtgN0N31WWkxoaGk3volVc8TaUwFSLmB8lRD4HOJ5DZHRElS6lIn-QFWTnZNy&_nc_zt=23&_nc_ht=scontent.fdel27-1.fna&_nc_gid=XJDS0qxmnA-3CV8DnpsWOw&oh=00_AfXSWL0WJvKBkVB6MULR_UxOKCaj33Ne07iifj1B4A3n2Q&oe=68AC4DC5"
+    },
     {
       "id": "256b5f64-9329-81c4-baa8-e9e69e4f931f",
       "title": "Room for rent in Lloreda neighborhood",
