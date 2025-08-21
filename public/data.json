@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2025-08-21T09:59:08.633Z",
-  "count": 58,
-  "totalRejectedCount": 75,
+  "generatedAt": "2025-08-21T10:28:11.283Z",
+  "count": 59,
+  "totalRejectedCount": 76,
   "results": [
+    {
+      "id": "256b5f64-9329-8152-8423-cda744553a16",
+      "title": "Room for rent with bunk bed",
+      "overview": "Room for 2 people with stable job in L1 Can Serra-Hospitalet de Llobregat",
+      "description": "Se alquila habitacion con litera Para 2 personas con trabajo estable L1 can serra-Hospitalet de llobregat",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Low reliability score due to lack of photos and incomplete information, but the post seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T10:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4014064925589800/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "256b5f64-9329-8144-ae58-ff6678037f05",
       "title": "Room for rent for single woman in San Feliu de Llobregat",
@@ -68,7 +85,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-21T09:54:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069735625331969/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
