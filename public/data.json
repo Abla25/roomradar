@@ -1,8 +1,59 @@
 {
-  "generatedAt": "2025-08-21T05:26:26.699Z",
-  "count": 48,
-  "totalRejectedCount": 64,
+  "generatedAt": "2025-08-21T06:48:23.842Z",
+  "count": 51,
+  "totalRejectedCount": 67,
   "results": [
+    {
+      "id": "256b5f64-9329-81fa-b0da-ef17458d01e6",
+      "title": "Room for rent in Bon Pastor",
+      "overview": "A 12m² room is available for rent in a 100m² apartment in Bon Pastor, with a single bed, nightstand, and mirror, for 450€ per month, including utilities, with a 200€ deposit",
+      "description": "🌸 Habitación disponible en Bon Pastor – SOLO CHICAS 🌸 ✨ Habitación de 12 m² con ventana interior, completamente amueblada con cama individual, mesita de noche y mueble con espejo. 💶 450 € al mes (gastos incluidos: agua, luz e internet). 🔒 Fianza: 200 € 📅 Disponible para entrar a partir del 1 de septiembre. 📌 Estancia mínima de 2 meses (larga duración). 🏠 Piso de 100 m², luminoso y bien ventilado, situado en el barrio de Bon Pastor, a pocos minutos del metro Bon Pastor (L9N y L10N) y a una parada de La Sagrera (L1 y L5). 🚇 Conexiones: • Metro: L9N, L10N, L2 • Tren: R11, R2N, R2 • Bus: B24, H4, H6, V33, N8, B21 y más 🚗 Aparcamiento: línea blanca 🛒 Zona con supermercados, farmacias, bancos, biblioteca y parque. 🛍️ A solo 17 min andando del centro comercial La Maquinista. 👉 Requisito: solo chicas, limpias, tranquilas y organizadas. 📩 ¡Escríbeme ya para venir a verla, se alquila rápido!",
+      "price": "450 €",
+      "zone": "Bon Pastor",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes detailed information about the room, its amenities, and the surrounding area, as well as photos, which suggests a high level of legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T06:47:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069336858705179/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd21-2.fna.fbcdn.net/v/t39.30808-6/536273295_10236141311528325_2804325448484809343_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jdTkWzfBfA4Q7kNvwF9Xk6-&_nc_oc=Admhnnc6jL0nSRtRkxgsB-gBVG9AqOzeywymbBrjN6QJiBLbwoW3-dy_iQRoFGWrjd1UaDmQlYdAMusnc4Q0X_V0&_nc_zt=23&_nc_ht=scontent.famd21-2.fna&_nc_gid=le5q6jWP52LFWGl6hkDgpQ&oh=00_AfXcEzDFdfSd1oNXsU8QotHZG0_Z3xKNjn-al4w-Z7Fn9g&oe=68AC8EBC"
+    },
+    {
+      "id": "256b5f64-9329-81c0-bc0a-ce26c175553f",
+      "title": "Room for rent near La Farga commercial center",
+      "overview": "A room is available for rent for two girls near the La Farga commercial center, starting from day 28, with a fridge and WiFi included",
+      "description": "ALQUILO HABITACION PARA DOS CHICAS SERCA DEL CENTRO COMERCIAL LA FARGA A PARTIR DE DIA 28 CON NEVERA Y WIFI DENTRO",
+      "price": "N/A",
+      "zone": "Near La Farga commercial center",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed information about the room and its amenities, which raises concerns about its legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T06:47:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069417685363763/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "256b5f64-9329-81d1-bdb2-e11c1b8dfe04",
+      "title": "Renting a room for a single woman",
+      "overview": "Clean apartment with elevator and good transportation links",
+      "description": "Alquilo habitacion para mujer sola en san Feliu de Llobregat ,Piso muy limpio, con ascensor y bien comunicado con buses , tren y tranvía T3 .. Info [MESSAGING CONTACT CENSORED]",
+      "price": "N/A",
+      "zone": "San Feliu de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Lack of photos and limited information provided",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T06:46:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069650185340513/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "256b5f64-9329-8150-8d49-c3b7b16e65cb",
       "title": "Room for rent in Barcelona",
@@ -187,7 +238,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T20:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013511038978522/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpat7-1.fna.fbcdn.net/v/t39.30808-6/536003576_641935422290056_3052028068481372573_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=IANH7CApW5AQ7kNvwG1tXQs&_nc_oc=AdnKYlt216yawY-JCLGFYeBI3Xs_NCsZfQRqG4n5fkYqBQ-CuxN0MoSJPD9ajwugMaM&_nc_zt=23&_nc_ht=scontent.fpat7-1.fna&_nc_gid=3LsB0ZjGa7ew29vCPSYd_g&oh=00_AfVBPCSfuPdyTExvkIXd94i7OFQRfb-XUzZiIFy2uky0dA&oe=68AC0971"
     },
     {
@@ -204,7 +255,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T20:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013514105644882/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpat7-1.fna.fbcdn.net/v/t39.30808-6/536276555_10236141325528675_8195618147195701323_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vW0pIVKeTqcQ7kNvwFBk6ma&_nc_oc=AdnqgPdNvP4PhTV5gFCGRWuAkuYwruUlmupC8izdqZ3yFBoC9qIjDqdixP6ttInbNLM&_nc_zt=23&_nc_ht=scontent.fpat7-1.fna&_nc_gid=NUrso6TdXl9mD43eZeMb-A&oh=00_AfUdMGN3aCodEgkFU9puJenorf2Te_vqbIsq5BPvH4Xiag&oe=68AC0307"
     },
     {
