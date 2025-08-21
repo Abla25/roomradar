@@ -1,8 +1,42 @@
 {
-  "generatedAt": "2025-08-20T23:27:44.642Z",
-  "count": 42,
-  "totalRejectedCount": 47,
+  "generatedAt": "2025-08-21T01:59:41.188Z",
+  "count": 44,
+  "totalRejectedCount": 57,
   "results": [
+    {
+      "id": "256b5f64-9329-81b0-8ff0-fdf8a4dd7b52",
+      "title": "Room for rent in Sant Josep",
+      "overview": "A room is available for rent in the Sant Josep neighborhood, fully furnished and equipped",
+      "description": "✨ Habitación en alquiler – ideal para chica ✨ Se alquila habitación amplia y luminosa, equipada con cama doble, armario y todo lo necesario para tu comodidad. 🛏️✨ ✅ Totalmente amueblada ✅ Excelente ambiente tranquilo y seguro ✅ Lista para visitas desde hoy ✅ Disponible para entrar a partir del 1 de septiembre 📍 Ubicación inmejorable: En el barrio de Sant Josep (L’Hospitalet), con todos los servicios a mano: • Parada de autobús en la puerta (L52, L82, L85 y M12) 🚍 • A menos de 5 minutos andando: Mercadona, Lidl y comercio local 🛒 • A 6 minutos estaciones de metro (L1, L9S y L10S) 🚇 • A menos de 5 minutos el Centro Comercial La Farga y la estación de tren 🚉 💶 Precio: 550 €/mes 💶 Fianza: 275 € Si buscas un espacio acogedor, bien comunicado y listo para mudarte, ¡esta es tu oportunidad! 🌸",
+      "price": "550 €/mes",
+      "zone": "Sant Josep (L’Hospitalet)",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, includes photos, and has a clear description of the location and amenities",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T01:59:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013556532307306/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/520004935_24856865120598099_2681366430750571863_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Xgkd-WTKxLEQ7kNvwE72r3K&_nc_oc=Adk-doePuHlQSe0CypruvdXP7nCYdGeP9IM9I3wFfSLnW44Y_jR2IBClAv_7iWkKt7g&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=OA1ToOIMyD2vaxJm4zVDdw&oh=00_AfVUSwyKpCCdm_lVki5Ud68GtvVG0G6boYkPHTntEUeTlw&oe=68AC0942"
+    },
+    {
+      "id": "256b5f64-9329-81b4-a2f1-e150fb11700d",
+      "title": "Double room for rent for woman",
+      "overview": "Double room with exterior window available for rent starting August 31st, contact via Whatsapp",
+      "description": "Se Alquila Habitación Doble para Mujer con Ventana Exterior. Disponible 31 Agosto. Whatsapp 📲[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Although this post appears to be a genuine rental listing, it lacks photos and pricing information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-21T01:55:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4296204453945397/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "255b5f64-9329-811f-b280-e681680c434b",
       "title": "Room for rent in Barcelona",
@@ -51,7 +85,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T22:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4296125213953321/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel64-1.fna.fbcdn.net/v/t39.30808-6/520004935_24856865120598099_2681366430750571863_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Xgkd-WTKxLEQ7kNvwGrr5EW&_nc_oc=AdkQK0Vi5bSHeyBZhuHwWoSUIIDIdDHw4XeeibeOUJ0sxg4zeZZ4bIGt9EIvn3ZMfB4&_nc_zt=23&_nc_ht=scontent.fdel64-1.fna&_nc_gid=3bFNL--pdI3gTuCl8Jw4hA&oh=00_AfUlE5p3RxHpCMEwaP_vCHOKizOmdNLIzxjiCTxM3VUOOw&oe=68AC0942"
     },
     {
@@ -238,7 +272,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-20T15:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4013315125664780/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
