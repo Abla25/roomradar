@@ -535,13 +535,33 @@ def clean_html_from_description(description):
     return clean_text
 
 def extract_all_images(entry):
-    """Estrae tutte le immagini da un entry RSS, rimuovendo duplicati"""
-    desc_images = extract_images_from_description(entry.description)
+    """Estrae tutte le immagini da un entry RSS, rimuovendo duplicati, con fallback se manca 'description'."""
+    # Prova a ricavare una sorgente HTML da cui estrarre <img>
+    description_html = None
+    try:
+        if "description" in entry:
+            description_html = entry.description
+        elif "summary" in entry:
+            description_html = entry.summary
+        elif "content" in entry and entry.content:
+            # Nei feed RSS/Atom 'content' è tipicamente una lista con dict che ha 'value'
+            try:
+                description_html = entry.content[0].value
+            except Exception:
+                description_html = None
+    except Exception:
+        description_html = None
+
+    # Estrai le immagini dalla descrizione (se c'è)
+    desc_images = extract_images_from_description(description_html) if description_html else []
+
+    # Estrai anche da media:content (se presente)
     media_images = extract_images_from_media_content(entry)
-    
+
     # Combina e rimuovi duplicati
     all_images = list(set(desc_images + media_images))
     return all_images
+
 
 def clear_caches():
     """Pulisce le cache in memoria per evitare memory leak."""
