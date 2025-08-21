@@ -603,8 +603,32 @@
     "https://www.facebook.com/groups/2723040451261813/posts/4296511703914672/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-21T07:25:52.467163"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4296605447238631/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:52:14.134424"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4296545530577956/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:52:14.135456"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069759295329602/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:53:24.841547"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069754821996716/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:53:24.842764"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069702905335241/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:55:23.244941"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1069699088668956/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-21T09:55:23.245979"
     }
   },
-  "total_rejected_count": 69,
-  "timestamp": "2025-08-21T07:25:46.940822"
+  "total_rejected_count": 75,
+  "timestamp": "2025-08-21T09:52:09.418903"
 }
