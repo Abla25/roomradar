@@ -42,7 +42,6 @@ jobs:
           RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
-          DEFAULT_CITY: barcelona
         run: python process_cities.py
 
       - name: Usa Node 20

@@ -195,8 +195,8 @@ def get_city_display_names() -> Dict[str, str]:
     return {city: config.display_name for city, config in CITIES.items()}
 
 def get_default_city() -> str:
-    """Restituisce la città di default dalle variabili d'ambiente o Barcelona"""
-    return os.environ.get("DEFAULT_CITY", "barcelona")
+    """Restituisce la città di default (Barcelona)"""
+    return "barcelona"
 
 # Funzioni helper per compatibilità con il codice esistente
 def get_current_city() -> str:

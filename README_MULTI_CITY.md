@@ -146,7 +146,7 @@ RSS_URL_ROMA_4=https://roma-feed4.com/feed
 RSS_URL_ROMA_5=https://roma-feed5.com/feed
 
 # 🏙️ Città di default
-DEFAULT_CITY=barcelona
+# Modifica get_default_city() in cities_config.py se vuoi cambiare la città di default
 ```
 
 ### **Struttura Database Notion**
@@ -344,6 +344,8 @@ Aggiungi i seguenti secrets su GitHub:
 - `RSS_URL_NUOVA_CITTA_2` = https://feed2.com/feed
 - `RSS_URL_NUOVA_CITTA_3` = https://feed3.com/feed
 - `...` = aggiungi quanti feed RSS servono
+
+**Nota**: Se vuoi che la nuova città sia la città di default, modifica `get_default_city()` in `cities_config.py`.
 
 ### **3. Creazione File Dati**
 

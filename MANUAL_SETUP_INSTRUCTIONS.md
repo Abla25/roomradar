@@ -30,10 +30,9 @@ Configura i seguenti secrets nel tuo repository GitHub:
 - `RSS_URL_ROMA_4` = https://example.com/roma-feed-4
 - `RSS_URL_ROMA_5` = https://example.com/roma-feed-5
 
-#### **Configurazione città di default:**
-- `DEFAULT_CITY` = barcelona
-
 **Nota**: I secrets sono automaticamente disponibili nei GitHub Actions e non sono visibili nel codice.
+
+**Città di default**: La città di default è configurata in `cities_config.py` nella funzione `get_default_city()`. Modifica quella funzione se vuoi cambiare la città di default.
 
 ### 2. 📊 **Creazione File Data per Roma**
 
