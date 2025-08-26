@@ -37,11 +37,13 @@ jobs:
           RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
           RSS_URL_BARCELONA_4: ${{ secrets.RSS_URL_BARCELONA_4 }}
           RSS_URL_BARCELONA_5: ${{ secrets.RSS_URL_BARCELONA_5 }}
+          RSS_URL_BARCELONA_6: ${{ secrets.RSS_URL_BARCELONA_6 }}
           RSS_URL_ROMA_1: ${{ secrets.RSS_URL_ROMA_1 }}
           RSS_URL_ROMA_2: ${{ secrets.RSS_URL_ROMA_2 }}
           RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
+          RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
         run: python process_cities.py
 
       - name: Usa Node 20
