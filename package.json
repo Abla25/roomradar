@@ -1,0 +1,17 @@
+{
+  "name": "notion-rss-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bot per gestire RSS immobiliare con Notion",
+  "main": "main.py",
+  "scripts": {
+    "fetch": "node scripts/fetch_notion.js",
+    "fetch:barcelona": "CITY=barcelona node scripts/fetch_notion.js",
+    "fetch:roma": "CITY=roma node scripts/fetch_notion.js",
+    "process:all": "python process_cities.py",
+    "process:barcelona": "CITY=barcelona python main.py",
+    "process:roma": "CITY=roma python main.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

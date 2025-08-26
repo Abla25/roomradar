@@ -1,0 +1,139 @@
+name: Aggiorna dati e esegui script
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # ogni ora (al minuto 0)
+  workflow_dispatch:      # esecuzione manuale dal tab Actions
+
+permissions:
+  contents: write   # serve per fare commit del data.json
+
+jobs:
+  update-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Setup Python per lo script principale
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installa dipendenze Python
+        run: pip install -r requirements.txt
+
+      # Esegui lo script Python principale per tutte le città
+      - name: Esegui script principale per tutte le città
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Feed RSS specifici per città (dinamici - aggiungi quanti ne servono)
+          RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
+          RSS_URL_BARCELONA_2: ${{ secrets.RSS_URL_BARCELONA_2 }}
+          RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
+          RSS_URL_BARCELONA_4: ${{ secrets.RSS_URL_BARCELONA_4 }}
+          RSS_URL_BARCELONA_5: ${{ secrets.RSS_URL_BARCELONA_5 }}
+          RSS_URL_ROMA_1: ${{ secrets.RSS_URL_ROMA_1 }}
+          RSS_URL_ROMA_2: ${{ secrets.RSS_URL_ROMA_2 }}
+          RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
+          RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
+          RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
+          DEFAULT_CITY: barcelona
+        run: python process_cities.py
+
+      - name: Usa Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Aggiorna data.json per tutte le città da Notion
+      - name: Esegui script Notion → data.json per tutte le città
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+        run: |
+          CITY=barcelona node scripts/fetch_notion.js
+          CITY=roma node scripts/fetch_notion.js
+
+      # Debug: mostra lo stato dei file prima del commit
+      - name: Debug - Mostra stato file
+        run: |
+          echo "=== Stato file prima del commit ==="
+          ls -la
+          echo "=== Contenuto rejected_urls_cache_barcelona.json ==="
+          if [ -f "rejected_urls_cache_barcelona.json" ]; then
+            ls -la rejected_urls_cache_barcelona.json
+          else
+            echo "File rejected_urls_cache_barcelona.json NON TROVATO!"
+          fi
+          echo "=== Contenuto rejected_urls_cache_roma.json ==="
+          if [ -f "rejected_urls_cache_roma.json" ]; then
+            ls -la rejected_urls_cache_roma.json
+          else
+            echo "File rejected_urls_cache_roma.json NON TROVATO!"
+          fi
+          echo "=== Contenuto public/data_barcelona.json ==="
+          if [ -f "public/data_barcelona.json" ]; then
+            ls -la public/data_barcelona.json
+          else
+            echo "File public/data_barcelona.json NON TROVATO!"
+          fi
+          echo "=== Contenuto public/data_roma.json ==="
+          if [ -f "public/data_roma.json" ]; then
+            ls -la public/data_roma.json
+          else
+            echo "File public/data_roma.json NON TROVATO!"
+          fi
+
+      # Forza il tracking dei file cache se esistono
+      - name: Forza tracking file cache
+        run: |
+          if [ -f "rejected_urls_cache_barcelona.json" ]; then
+            git add rejected_urls_cache_barcelona.json
+            echo "✅ File cache Barcelona aggiunto al tracking"
+          else
+            echo "⚠️ File cache Barcelona non trovato"
+          fi
+          if [ -f "rejected_urls_cache_roma.json" ]; then
+            git add rejected_urls_cache_roma.json
+            echo "✅ File cache Roma aggiunto al tracking"
+          else
+            echo "⚠️ File cache Roma non trovato"
+          fi
+
+      # Pull delle modifiche remote prima del commit
+      - name: Pull modifiche remote
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git pull origin main --rebase || echo "No remote changes to pull"
+
+      - name: Commit e push se ci sono cambiamenti
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: aggiorna dati multi-città e cache"
+          file_pattern: |
+            public/data_barcelona.json
+            public/data_roma.json
+            rejected_urls_cache_barcelona.json
+            rejected_urls_cache_roma.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          commit_options: '--no-verify'
+          push_options: '--force-with-lease'
+
+      # Debug: verifica finale
+      - name: Debug - Verifica finale
+        run: |
+          echo "=== Verifica finale ==="
+          echo "File nel repository:"
+          ls -la
+          echo "Status Git:"
+          git status
+          echo "Ultimi commit:"
+          git log --oneline -5

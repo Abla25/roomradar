@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to RoomRadar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      color: #374151;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+
+    .welcome-container {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.06);
+      border-radius: 24px;
+      padding: 3rem;
+      max-width: 800px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(20px);
+      position: relative;
+    }
+
+    .welcome-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(ellipse 800px 600px at 50% -200px, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+        radial-gradient(circle 300px at 20% 20%, rgba(16, 185, 129, 0.02) 0%, transparent 50%),
+        radial-gradient(circle 200px at 80% 80%, rgba(139, 92, 246, 0.015) 0%, transparent 50%);
+      pointer-events: none;
+      border-radius: 24px;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo img {
+      width: 60px;
+      height: 60px;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      color: #64748b;
+      margin-bottom: 3rem;
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+
+    .cities-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .city-card {
+      background: #ffffff;
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      border-radius: 16px;
+      padding: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+    }
+
+    .city-card:hover {
+      border-color: rgba(15, 23, 42, 0.12);
+      background: #f8fafc;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+    }
+
+    .city-card.selected {
+      border-color: rgba(59, 130, 246, 0.4);
+      background: rgba(59, 130, 246, 0.05);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+    }
+
+    .city-icon {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 1rem;
+      background: #f8fafc;
+      border: 1px solid rgba(15, 23, 42, 0.06);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #374151;
+      transition: all 0.2s ease;
+    }
+
+    .city-card.selected .city-icon {
+      background: rgba(59, 130, 246, 0.1);
+      border-color: rgba(59, 130, 246, 0.2);
+      color: #3B82F6;
+    }
+
+    .city-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .city-card.selected .city-name {
+      color: #1f2937;
+    }
+
+    .city-description {
+      font-size: 0.875rem;
+      color: #6b7280;
+      transition: color 0.3s ease;
+    }
+
+    .city-card.selected .city-description {
+      color: #6b7280;
+    }
+
+    .city-stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+      font-size: 0.75rem;
+      color: #9ca3af;
+    }
+
+    .city-card.selected .city-stats {
+      color: #9ca3af;
+    }
+
+    .continue-btn {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    .continue-btn:not(:disabled) {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .continue-btn:not(:disabled):hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .welcome-container {
+        padding: 2rem 1.5rem;
+        margin: 1rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .cities-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .city-card {
+        padding: 1.5rem;
+      }
+
+      .city-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <div class="content">
+      <div class="logo">
+        <img src="vector-cropped-cropped (1).svg" alt="RoomRadar Logo">
+      </div>
+      
+      <h1>Welcome to RoomRadar</h1>
+      
+      <p class="subtitle">Select your city to start finding your perfect room</p>
+      
+      <div class="cities-grid" id="cities-grid">
+        <!-- Cities will be populated by JavaScript -->
+      </div>
+      
+      <button class="continue-btn" id="continue-btn" onclick="continueToCity()" disabled>
+        Continue to RoomRadar
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // City configuration
+    const CITIES = {
+      barcelona: {
+        name: "Barcelona",
+        description: "Catalonia, Spain",
+        icon: "🇪🇸",
+        dataFile: "public/data_barcelona.json",
+        activeListings: 0
+      },
+      roma: {
+        name: "Rome",
+        description: "Lazio, Italy", 
+        icon: "🇮🇹",
+        dataFile: "public/data_roma.json",
+        activeListings: 0
+      }
+    };
+
+    let selectedCity = null;
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', async function() {
+      await loadActiveListings();
+      populateCityGrid();
+      checkSavedCity();
+    });
+
+    // Funzione per caricare il numero di active listings per ogni città
+    async function loadActiveListings() {
+      try {
+        // Carica dati per Barcelona
+        const barcelonaResponse = await fetch('public/data_barcelona.json');
+        if (barcelonaResponse.ok) {
+          const barcelonaData = await barcelonaResponse.json();
+          const activeListings = barcelonaData.results ? 
+            barcelonaData.results.filter(l => l.status !== "expired" && l.status !== "verification_needed").length : 0;
+          CITIES.barcelona.activeListings = activeListings;
+        }
+        
+        // Carica dati per Roma
+        const romaResponse = await fetch('public/data_roma.json');
+        if (romaResponse.ok) {
+          const romaData = await romaResponse.json();
+          const activeListings = romaData.results ? 
+            romaData.results.filter(l => l.status !== "expired" && l.status !== "verification_needed").length : 0;
+          CITIES.roma.activeListings = activeListings;
+        }
+      } catch (error) {
+        console.log('Could not load active listings:', error);
+      }
+    }
+
+    function populateCityGrid() {
+      const grid = document.getElementById('cities-grid');
+      
+      Object.entries(CITIES).forEach(([cityKey, cityData]) => {
+        const card = document.createElement('div');
+        card.className = 'city-card';
+        card.onclick = () => selectCity(cityKey);
+        
+        card.innerHTML = `
+          <div class="city-icon">${cityData.icon}</div>
+          <div class="city-name">${cityData.name}</div>
+          <div class="city-description">${cityData.description}</div>
+          <div class="city-stats">
+            <span>${cityData.activeListings} active listings</span>
+          </div>
+        `;
+        
+        grid.appendChild(card);
+      });
+    }
+
+    function selectCity(cityKey) {
+      // Remove previous selection
+      document.querySelectorAll('.city-card').forEach(card => {
+        card.classList.remove('selected');
+      });
+      
+      // Add selection to clicked card
+      event.currentTarget.classList.add('selected');
+      
+      selectedCity = cityKey;
+      document.getElementById('continue-btn').disabled = false;
+    }
+
+    function checkSavedCity() {
+      const savedCity = localStorage.getItem('selectedCity');
+      if (savedCity && CITIES[savedCity]) {
+        // Auto-select the saved city
+        const cityCards = document.querySelectorAll('.city-card');
+        cityCards.forEach((card, index) => {
+          const cityKey = Object.keys(CITIES)[index];
+          if (cityKey === savedCity) {
+            card.classList.add('selected');
+            selectedCity = savedCity;
+            document.getElementById('continue-btn').disabled = false;
+          }
+        });
+      }
+    }
+
+    // Funzione per generare fingerprint utente (stessa logica di index.html)
+    function generateUserFingerprint() {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      ctx.textBaseline = 'top';
+      ctx.font = '14px Arial';
+      ctx.fillText('User fingerprint', 2, 2);
+      
+      const fingerprint = [
+        navigator.userAgent,
+        navigator.language,
+        screen.width + 'x' + screen.height,
+        new Date().getTimezoneOffset(),
+        navigator.hardwareConcurrency,
+        navigator.deviceMemory,
+        canvas.toDataURL()
+      ].join('|');
+      
+      // Hash semplice del fingerprint
+      let hash = 0;
+      for (let i = 0; i < fingerprint.length; i++) {
+        const char = fingerprint.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32bit integer
+      }
+      
+      return Math.abs(hash).toString();
+    }
+
+    // Funzione per salvare preferenza città con fingerprint
+    function saveUserCityPreference(city) {
+      const fingerprint = generateUserFingerprint();
+      const key = `cityPreference_${fingerprint}`;
+      localStorage.setItem(key, city);
+    }
+
+    function continueToCity() {
+      if (!selectedCity) return;
+      
+      // Save user preference in localStorage
+      localStorage.setItem('selectedCity', selectedCity);
+      
+      // Save user preference with fingerprint for cross-device sync
+      saveUserCityPreference(selectedCity);
+      
+      // Mark that user has visited before
+      localStorage.setItem('hasVisitedBefore', 'true');
+      
+      // Redirect to main app with city parameter
+      window.location.href = `index.html?city=${selectedCity}`;
+    }
+  </script>
+</body>
+</html>
