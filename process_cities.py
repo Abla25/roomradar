@@ -34,8 +34,7 @@ def process_city(city_name: str):
         result = subprocess.run([sys.executable, 'main.py'], 
                               env=env, 
                               capture_output=True, 
-                              text=True, 
-                              timeout=300)  # 5 minuti timeout
+                              text=True)
         
         if result.returncode == 0:
             print(f"✅ Python processing completed for {city_name}")
@@ -51,8 +50,7 @@ def process_city(city_name: str):
         result = subprocess.run(['node', 'scripts/fetch_notion.js'], 
                               env=env, 
                               capture_output=True, 
-                              text=True, 
-                              timeout=120)  # 2 minuti timeout
+                              text=True)
         
         if result.returncode == 0:
             print(f"✅ Notion fetch completed for {city_name}")
@@ -65,9 +63,6 @@ def process_city(city_name: str):
         
         return True
         
-    except subprocess.TimeoutExpired:
-        print(f"⏰ Timeout processing city: {city_name}")
-        return False
     except Exception as e:
         print(f"❌ Error processing city {city_name}: {e}")
         return False
