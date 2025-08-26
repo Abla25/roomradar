@@ -2,40 +2,38 @@
 
 ## 📋 **Cosa Devi Fare Tu a Mano**
 
-### 1. 🔑 **Configurazione Variabili Ambiente**
+### 1. 🔑 **Configurazione GitHub Secrets**
 
-Crea un file `.env` nella root del progetto con le seguenti variabili:
+Configura i seguenti secrets nel tuo repository GitHub:
 
-```bash
-# Notion API
-NOTION_API_KEY=your_notion_api_key_here
+**Vai su GitHub → Settings → Secrets and variables → Actions**
 
-# Database Notion per ogni città
-NOTION_DATABASE_ID_BARCELONA=your_barcelona_database_id
-NOTION_DATABASE_ID_ROMA=your_roma_database_id
+#### **API Keys:**
+- `NOTION_API_KEY` = your_notion_api_key_here
+- `OPENROUTER_API_KEY` = your_openrouter_api_key_here
 
-# OpenRouter API per AI
-OPENROUTER_API_KEY=your_openrouter_api_key
+#### **Database Notion per ogni città:**
+- `NOTION_DATABASE_ID_BARCELONA` = your_barcelona_database_id
+- `NOTION_DATABASE_ID_ROMA` = your_roma_database_id
 
-# RSS Feeds per Barcelona (aggiungi quanti ne servono)
-RSS_URL_BARCELONA_1=https://example.com/barcelona-feed-1
-RSS_URL_BARCELONA_2=https://example.com/barcelona-feed-2
-RSS_URL_BARCELONA_3=https://example.com/barcelona-feed-3
-RSS_URL_BARCELONA_4=https://example.com/barcelona-feed-4
-RSS_URL_BARCELONA_5=https://example.com/barcelona-feed-5
+#### **RSS Feeds per Barcelona (aggiungi quanti ne servono):**
+- `RSS_URL_BARCELONA_1` = https://example.com/barcelona-feed-1
+- `RSS_URL_BARCELONA_2` = https://example.com/barcelona-feed-2
+- `RSS_URL_BARCELONA_3` = https://example.com/barcelona-feed-3
+- `RSS_URL_BARCELONA_4` = https://example.com/barcelona-feed-4
+- `RSS_URL_BARCELONA_5` = https://example.com/barcelona-feed-5
 
-# RSS Feeds per Roma (aggiungi quanti ne servono)
-RSS_URL_ROMA_1=https://example.com/roma-feed-1
-RSS_URL_ROMA_2=https://example.com/roma-feed-2
-RSS_URL_ROMA_3=https://example.com/roma-feed-3
-RSS_URL_ROMA_4=https://example.com/roma-feed-4
-RSS_URL_ROMA_5=https://example.com/roma-feed-5
+#### **RSS Feeds per Roma (aggiungi quanti ne servono):**
+- `RSS_URL_ROMA_1` = https://example.com/roma-feed-1
+- `RSS_URL_ROMA_2` = https://example.com/roma-feed-2
+- `RSS_URL_ROMA_3` = https://example.com/roma-feed-3
+- `RSS_URL_ROMA_4` = https://example.com/roma-feed-4
+- `RSS_URL_ROMA_5` = https://example.com/roma-feed-5
 
+#### **Configurazione città di default:**
+- `DEFAULT_CITY` = barcelona
 
-
-# Città di default
-DEFAULT_CITY=barcelona
-```
+**Nota**: I secrets sono automaticamente disponibili nei GitHub Actions e non sono visibili nel codice.
 
 ### 2. 📊 **Creazione File Data per Roma**
 
@@ -58,35 +56,47 @@ echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
 
 ### 3. 🔄 **Aggiornamento Dati**
 
-Per aggiornare i dati per tutte le città:
-```bash
-python3 process_cities.py
-```
+#### **Automatico (Raccomandato):**
+I dati vengono aggiornati automaticamente ogni ora tramite GitHub Actions.
 
-Per aggiornare una città specifica:
+**Per aggiornamento manuale:**
+1. Vai su GitHub → Actions
+2. Seleziona il workflow `update-data.yml`
+3. Clicca "Run workflow" → "Run workflow"
+
+#### **Locale (per test):**
+Se vuoi testare localmente, crea un file `.env` temporaneo:
+
 ```bash
-# Barcelona
+# Crea file .env temporaneo per test locale
+cp env.example .env
+# Modifica .env con i tuoi valori reali
+
+# Test per tutte le città
+python3 process_cities.py
+
+# Test per città specifica
 CITY=barcelona python3 main.py
 CITY=barcelona node scripts/fetch_notion.js
-
-# Roma
-CITY=roma python3 main.py
-CITY=roma node scripts/fetch_notion.js
 ```
 
-### 4. 🚀 **Deploy su GitHub Pages**
+### 4. 🚀 **Deploy e Verifica**
 
-1. **Push su GitHub:**
+#### **Deploy Automatico:**
+Il sistema è già configurato per il deploy automatico su GitHub Pages.
+
+#### **Verifica Funzionamento:**
+1. **GitHub Actions**: Vai su GitHub → Actions → `update-data.yml`
+2. **Verifica esecuzione**: Controlla che il workflow si esegua ogni ora
+3. **Verifica file**: Controlla che `data_barcelona.json` e `data_roma.json` vengano aggiornati
+4. **Verifica sito**: Il sito è disponibile su GitHub Pages
+
+#### **Se hai modifiche da pushare:**
 ```bash
 git add .
 git commit -m "Update multi-city system"
 git push origin main
 ```
-
-2. **Verifica GitHub Actions:**
-- Vai su GitHub → Actions
-- Verifica che il workflow `update-data.yml` funzioni
-- Controlla che i file `data_barcelona.json` e `data_roma.json` vengano aggiornati
 
 ### 5. 🔧 **Manutenzione Regolare**
 
@@ -97,7 +107,8 @@ git push origin main
 
 **Ogni mese:**
 - Controlla le performance del sistema
-- Verifica che le API keys siano ancora valide
+- Verifica che i GitHub Secrets siano ancora validi
+- Controlla i log di GitHub Actions per errori
 - Aggiorna le dipendenze se necessario
 
 ## ✅ **Sistema Cache Multi-Città**
@@ -145,10 +156,11 @@ Tutti i file sono stati verificati:
 ## 📞 **Supporto**
 
 Se hai problemi:
-1. Controlla i log di GitHub Actions
-2. Verifica che le API keys siano corrette
-3. Controlla che i feed RSS siano accessibili
-4. Verifica che i database Notion esistano e siano accessibili
+1. **Controlla i log di GitHub Actions**: Vai su GitHub → Actions → `update-data.yml` → ultima esecuzione
+2. **Verifica i GitHub Secrets**: Vai su GitHub → Settings → Secrets and variables → Actions
+3. **Controlla che i feed RSS siano accessibili**: Verifica gli URL nei secrets
+4. **Verifica che i database Notion esistano**: Controlla i database ID nei secrets
+5. **Controlla la console del browser**: Per errori frontend
 
 ---
 

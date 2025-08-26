@@ -116,9 +116,11 @@ notion-rss-bot/
 
 ## ⚙️ Configurazione
 
-### **Variabili d'Ambiente Richieste**
+### **GitHub Secrets Richiesti**
 
-Crea un file `.env` nella root del progetto:
+Configura i seguenti secrets nel tuo repository GitHub:
+
+**Vai su GitHub → Settings → Secrets and variables → Actions**
 
 ```bash
 # 🔑 API Keys
@@ -188,9 +190,9 @@ cp env.example .env
 
 ### **2. Configurazione**
 
-1. **Modifica `.env`** con le tue API keys e configurazioni
+1. **Configura GitHub Secrets** con le tue API keys e configurazioni
 2. **Crea database Notion** per ogni città con la struttura corretta
-3. **Configura feed RSS** specifici per ogni città
+3. **Configura feed RSS** specifici per ogni città nei secrets
 
 ### **3. Creazione File Data per Roma**
 
@@ -203,9 +205,13 @@ CITY=roma node scripts/fetch_notion.js
 echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
 ```
 
-### **4. Test Locale**
+### **4. Test Locale (Opzionale)**
 
 ```bash
+# Per test locale, crea un file .env temporaneo
+cp env.example .env
+# Modifica .env con i tuoi valori reali
+
 # Avvia server locale
 python3 -m http.server 8000
 
@@ -215,9 +221,17 @@ open http://localhost:8000
 
 ## 🔄 Automazione
 
-### **Processamento Manuale**
+### **Processamento Automatico**
+
+I dati vengono aggiornati automaticamente ogni ora tramite GitHub Actions.
+
+### **Processamento Manuale (per test)**
 
 ```bash
+# Per test locale, crea un file .env temporaneo
+cp env.example .env
+# Modifica .env con i tuoi valori reali
+
 # Processa tutte le città
 python3 process_cities.py
 
@@ -276,13 +290,13 @@ Il sistema include workflow automatici:
    - Verifica accessibilità
 
 2. **Database Notion non accessibile**
-   - Verifica API key
+   - Verifica GitHub Secrets
    - Controlla permessi database
    - Verifica struttura proprietà
 
 3. **Dati non aggiornati**
    - Controlla log GitHub Actions
-   - Verifica variabili ambiente
+   - Verifica GitHub Secrets
    - Controlla cache files
 
 ### **Log e Debug**
@@ -321,21 +335,25 @@ Modifica `cities_config.py`:
 )
 ```
 
-### **2. Aggiunta Variabili Ambiente**
+### **2. Aggiunta GitHub Secrets**
 
-```bash
-NOTION_DATABASE_ID_NUOVA_CITTA=your_database_id
-RSS_URL_NUOVA_CITTA_1=https://feed1.com/feed
-RSS_URL_NUOVA_CITTA_2=https://feed2.com/feed
-RSS_URL_NUOVA_CITTA_3=https://feed3.com/feed
-# ... aggiungi quanti feed RSS servono
-```
+Aggiungi i seguenti secrets su GitHub:
+
+- `NOTION_DATABASE_ID_NUOVA_CITTA` = your_database_id
+- `RSS_URL_NUOVA_CITTA_1` = https://feed1.com/feed
+- `RSS_URL_NUOVA_CITTA_2` = https://feed2.com/feed
+- `RSS_URL_NUOVA_CITTA_3` = https://feed3.com/feed
+- `...` = aggiungi quanti feed RSS servono
 
 ### **3. Creazione File Dati**
 
 ```bash
+# Per test locale
 CITY=nuova_citta python3 main.py
 CITY=nuova_citta node scripts/fetch_notion.js
+
+# Oppure esegui manualmente il GitHub Action
+# Vai su GitHub → Actions → update-data.yml → Run workflow
 ```
 
 ## 🤝 Contributi
