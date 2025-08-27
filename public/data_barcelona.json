@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T18:48:57.055Z",
+  "generatedAt": "2025-08-27T19:22:39.366Z",
   "city": "barcelona",
-  "count": 604,
+  "count": 605,
   "totalRejectedCount": 990,
   "results": [
+    {
+      "id": "25cb5f64-9329-8176-b330-cfcebe9dca93",
+      "title": "Room for rent for a girl in Paseig de Gracia",
+      "overview": "A room is available for a girl to move in in September, located in the Paseig de Gracia area",
+      "description": "Habitación para una chica, para entrar en septiembre. Más info escribirme Zona paseig de gracia",
+      "price": "N/A",
+      "zone": "Paseig de Gracia",
+      "zoneMacro": "Gràcia",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The listing has an image, provides a location, and seems to be a genuine rental offer, but lacks information on the price and other details",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T19:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4303887006510475/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag8-1.fna.fbcdn.net/v/t39.30808-6/537166643_1331776355215272_8505477885350802983_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ZwX5LfS7Rx0Q7kNvwFav9pj&_nc_oc=Adl9I96rZZ4lkbAgfJaHJ01hyEDM7rjwARkKI009wk8muvQLKodXjrR8bUUCbzLE-gc&_nc_zt=23&_nc_ht=scontent.fnag8-1.fna&_nc_gid=mLPWjcWoJyw-ZGKOWQ4Ngg&oh=00_AfW1MKLTypd_iKR9ZAP1Vln25-TskqSG7O7YMg3TRSHYPw&oe=68B50493"
+    },
     {
       "id": "25cb5f64-9329-817d-99b4-d0b812c11de6",
       "title": "Individual room for rent for a woman",
