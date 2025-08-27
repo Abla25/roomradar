@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-27T20:36:22.361Z",
+  "generatedAt": "2025-08-27T21:29:14.082Z",
   "city": "barcelona",
-  "count": 612,
-  "totalRejectedCount": 997,
+  "count": 615,
+  "totalRejectedCount": 1001,
   "results": [
+    {
+      "id": "25cb5f64-9329-8117-a90d-eeffafd16c6b",
+      "title": "Room for rent in La Segrera, Barcelona",
+      "overview": "A room for one person is available for rent in La Segrera, close to L1 metro station",
+      "description": "A partir de hoy se alquila una habitación para una persona sola en la sagrera al lado de metro L1 por 400",
+      "price": "400",
+      "zone": "La Segrera, Barcelona",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a specific price, location, and a photo, which increases its reliability, but the lack of additional details such as lease duration or contact information prevents it from scoring a 5",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T21:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020758238253802/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-2.fna.fbcdn.net/v/t39.30808-6/541021870_122191189580293110_210208290138897781_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FtE2mZDORsYQ7kNvwFAmcnH&_nc_oc=Adme1zcRPyqpG_lsJ2thToEt1aL7DIxOSPC2fxEEFCUx_zIbxaGFC39gAP2WrbCrE2U&_nc_zt=23&_nc_ht=scontent.fluh1-2.fna&_nc_gid=qz_Sj-NI7xfDdy7pOAwqQw&oh=00_AfVj92NF_UwJ2EgTp_lNr_gbMZsaAcSyYmHIjYOm045aEg&oe=68B54025"
+    },
+    {
+      "id": "25cb5f64-9329-81e2-a520-cc40e55a9212",
+      "title": "Room for rent in Barcelona",
+      "overview": "Room available for 550 euros for two people, 400 euros for one person, near metro lines 5 and 1",
+      "description": "Avitacion disponible ,550 dos personas 400 para personas sola , metro linea 5 Pubillas casas o metro linea 1 florida.",
+      "price": "550",
+      "zone": "Barcelona",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information about the room, and the low price raises some concerns about the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T21:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075102508128614/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25cb5f64-9329-8166-8449-e94f1a9196d0",
+      "title": "Spacious room with private bathroom for rent",
+      "overview": "A large room with a private bathroom is available for rent, only for girls.",
+      "description": "Disponible Amplia habitación con baño privado, solo chicas.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a photo and specific details about the room, but the price and location are not mentioned, which prevents it from reaching the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T21:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4303939619838547/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel8-2.fna.fbcdn.net/v/t39.30808-6/539357455_25396566669932039_7537871070041749141_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=JGtDWTtETE4Q7kNvwHPbkxI&_nc_oc=AdnFYKSUHUr-f7iY-kghGBcsgewObiWmjVjKpk5gETsna6WnvMfu_khZFSKaHEPyZhI&_nc_zt=23&_nc_ht=scontent.fdel8-2.fna&_nc_gid=vIFLVaRht8MeLiE80lqk7A&oh=00_AfXJXxCxBGJ5G6SF1qaj0KeNHZylD0KLjJi188zWbKGi5A&oe=68B52FBE"
+    },
     {
       "id": "25cb5f64-9329-8150-9df8-f84f534d0b60",
       "title": "Double room for rent for 1 or 2 girls",
@@ -307,7 +358,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T15:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074882278150637/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel8-2.fna.fbcdn.net/v/t39.30808-6/539453311_25396685966586776_8927491549243227811_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zqD3qrqiohsQ7kNvwFPAANy&_nc_oc=AdmilE1ukVDbNg9uyIYUV33JHXtmGKgl3A-ACeSbQQb7QRRS9QKJxXlVPcr-7c61ijE&_nc_zt=23&_nc_ht=scontent.fdel8-2.fna&_nc_gid=KslPrFSA_Pdi_Cul448o-g&oh=00_AfVBAs4QnxfwI_Dn7VJfjHNMWGkWxrVIrbsknUA2zjm-uQ&oe=68B4F05E"
     },
     {
@@ -2602,7 +2653,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1073786878260177/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
