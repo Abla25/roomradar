@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-27T15:38:06.095Z",
+  "generatedAt": "2025-08-27T16:37:38.461Z",
   "city": "barcelona",
-  "count": 596,
-  "totalRejectedCount": 967,
+  "count": 598,
+  "totalRejectedCount": 973,
   "results": [
+    {
+      "id": "25cb5f64-9329-81d4-b28d-f637d94f08d4",
+      "title": "Luminous and spacious room for rent",
+      "overview": "A luminous and spacious room is available for rent in Raval, near Sant Antoni metro, starting from September.",
+      "description": "Se alquila habitación luminosa y amplia para mes de septiembre en Raval cerca del metro de sant Antoni",
+      "price": "N/A",
+      "zone": "Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post includes some details about the room, but no contact information, price, or images are available, which reduces the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T16:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4303710606528115/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25cb5f64-9329-8127-9e64-eaa872f2e1b4",
+      "title": "Centric room for rent",
+      "overview": "A centric room is available for rent, contact via WhatsApp for more information.",
+      "description": "Se alquila habitacion centrica llamar al fono [MESSAGING CONTACT CENSORED]....",
+      "price": "N/A",
+      "zone": "Centric",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The post includes a contact method and an image, but the price and more details are not available, and there's no clear indication of the landlord's identity.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T16:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4304005933165249/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel1-8.fna.fbcdn.net/v/t39.30808-6/537907621_4129172000672363_1186121317869230253_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OsyzvJtH8boQ7kNvwH5vC4E&_nc_oc=Adl13YSQa3Xt4KYxGBaTfM0NWQhz7hphAj3P5Q-p5G6_oLgwxHO4QIGSpA8aeVESPeY&_nc_zt=23&_nc_ht=scontent.fdel1-8.fna&_nc_gid=1ImTnpEyVs_kEo_f_j5Q7w&oh=00_AfUU72cXI5yjjy2uXkzA_nribqntWSsu0-UscX8rGkl6tQ&oe=68B516AE"
+    },
     {
       "id": "25cb5f64-9329-813d-a9aa-e3bf95cc0a9d",
       "title": "Room for rent in Terrassa",
@@ -392,7 +426,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2182446898936046/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -4948,7 +4982,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:05:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072489111723287/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fstv5-1.fna.fbcdn.net/v/t39.30808-6/538567030_10226963879875651_6624115245825875909_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=y-J6PBKC0YwQ7kNvwHErA6z&_nc_oc=AdkrXRf2yZM5wSJnu5To_zJpzsouz5hKtEbwIlUblJAx-ghXx3zLCX2z7XI2PtmPk6o&_nc_zt=23&_nc_ht=scontent.fstv5-1.fna&_nc_gid=WtFgYrVL2ta_eJYIZ9Z6qw&oh=00_AfVEV58Wx5Nv3ZKLH_6GoveDeWuBjfdVPIg7QANvhORNbg&oe=68B17086"
     },
     {
@@ -5203,7 +5237,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072603998378465/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -5288,7 +5322,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072666108372254/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fstv5-1.fna.fbcdn.net/v/t39.30808-6/538108444_10162266204861622_9131776399569542599_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0LsY_ckN0akQ7kNvwH_snb7&_nc_oc=AdlhpF-9SyRuIMKC2T9SEhFKKDJYTAjQDfRuGTFPv56sEua6DngkH-_QlgoVyieviG0&_nc_zt=23&_nc_ht=scontent.fstv5-1.fna&_nc_gid=WtFgYrVL2ta_eJYIZ9Z6qw&oh=00_AfVs0TBtDchkIxkWv4c17_laOtnmyaAXjm2kI9t4z-7uPQ&oe=68B15804"
     },
     {
