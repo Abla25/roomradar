@@ -24,14 +24,14 @@ jobs:
       - name: Installa dipendenze Python
         run: pip install -r requirements.txt
 
-      # Esegui lo script Python principale per tutte le città
-      - name: Esegui script principale per tutte le città
+      # Esegui lo script Python per Barcelona
+      - name: Esegui script Python per Barcelona
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          # Feed RSS specifici per città (dinamici - aggiungi quanti ne servono)
+          # Feed RSS specifici per città
           RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
           RSS_URL_BARCELONA_2: ${{ secrets.RSS_URL_BARCELONA_2 }}
           RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
@@ -44,7 +44,35 @@ jobs:
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
           RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
-        run: python process_cities.py
+        run: |
+          echo "🏙️ Processing city: barcelona"
+          CITY=barcelona python main.py
+        continue-on-error: true
+
+      # Esegui lo script Python per Roma
+      - name: Esegui script Python per Roma
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Feed RSS specifici per città
+          RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
+          RSS_URL_BARCELONA_2: ${{ secrets.RSS_URL_BARCELONA_2 }}
+          RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
+          RSS_URL_BARCELONA_4: ${{ secrets.RSS_URL_BARCELONA_4 }}
+          RSS_URL_BARCELONA_5: ${{ secrets.RSS_URL_BARCELONA_5 }}
+          RSS_URL_BARCELONA_6: ${{ secrets.RSS_URL_BARCELONA_6 }}
+          RSS_URL_ROMA_1: ${{ secrets.RSS_URL_ROMA_1 }}
+          RSS_URL_ROMA_2: ${{ secrets.RSS_URL_ROMA_2 }}
+          RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
+          RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
+          RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
+          RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+        run: |
+          echo "🏙️ Processing city: roma"
+          CITY=roma python main.py
+        continue-on-error: true
 
       - name: Usa Node 20
         uses: actions/setup-node@v4
