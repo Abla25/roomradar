@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-27T21:29:14.082Z",
+  "generatedAt": "2025-08-27T22:26:50.100Z",
   "city": "barcelona",
-  "count": 615,
-  "totalRejectedCount": 1001,
+  "count": 618,
+  "totalRejectedCount": 1003,
   "results": [
+    {
+      "id": "25cb5f64-9329-81af-95d8-d7085aa7043a",
+      "title": "Room for rent in La Segrera",
+      "overview": "A room is available for rent in La Segrera, near L1 metro, for one person",
+      "description": "A partir de hoy se alquila una habitación para una persona sola en la sagrera al lado de metro L1 por 400",
+      "price": "400",
+      "zone": "La Segrera",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, price, and location, and includes a photo, which suggests that it's a genuine listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T22:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075122574793274/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539272160_122191189298293110_3135997209699270874_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wRtDTwk12WgQ7kNvwHoCpDC&_nc_oc=Adl5chFhqa13SgcNll-EjckYJ6PmHIRXErLClR3EGtE7F_Uuzm1wtOfa2ZRPhDGvgMs&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=QkKgBRK6BOzLawY56pC3TQ&oh=00_AfWw9p-YmIzYQ2fgciDujweT7jxXY7b7Z6Gi_fNEHxzMxg&oe=68B55819"
+    },
+    {
+      "id": "25cb5f64-9329-8104-90f6-d5b7adc57a22",
+      "title": "Room available in Sant Joan Despí",
+      "overview": "A room is available for rent in Sant Joan Despí, seeking serious and responsible individuals",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despí",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing lacks a price and photos, but it has contact information available and seems to be a genuine rental listing, which is why it has a moderate reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4303780003187842/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25cb5f64-9329-810f-87ea-e6a8fbf36a94",
+      "title": "Room for rent in Masnou/Ocata for one person",
+      "overview": "A room is available for rent in Masnou/Ocata for a single person, preferably quiet and non-smoking, with a deposit of 100€ required",
+      "description": "Alquiler habitacionen Masnou/Ocata -persona sola 400€ Personas tranquilas, ordenadas no fumadoras se pide fianza de 100€ para concertar una visita contactar al interno.",
+      "price": "400€",
+      "zone": "Masnou/Ocata",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, includes a price, and has contact information available. However, it doesn't seem to have any scam indicators and photos are present, which contributes to its reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4304256646473511/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel35-1.fna.fbcdn.net/v/t39.30808-6/514261418_4214376852174538_2769193561978308793_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cqbkmwK9FQoQ7kNvwFTHXcU&_nc_oc=AdnoLSCu_rLpbab2mNydLtp4DQZtHM2RD8AJ8CCyaf4Bmp84vEqtJYBw4S5TuxmEi2U&_nc_zt=23&_nc_ht=scontent.fdel35-1.fna&_nc_gid=Ry4mEOk2nlKqxDG1hmBl6w&oh=00_AfWxAPoMLsZ2_1FPQxi50POpUile78XZHrc7rz-a6Q4uDA&oe=68B53577"
+    },
     {
       "id": "25cb5f64-9329-8117-a90d-eeffafd16c6b",
       "title": "Room for rent in La Segrera, Barcelona",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T21:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020758238253802/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh1-2.fna.fbcdn.net/v/t39.30808-6/541021870_122191189580293110_210208290138897781_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FtE2mZDORsYQ7kNvwFAmcnH&_nc_oc=Adme1zcRPyqpG_lsJ2thToEt1aL7DIxOSPC2fxEEFCUx_zIbxaGFC39gAP2WrbCrE2U&_nc_zt=23&_nc_ht=scontent.fluh1-2.fna&_nc_gid=qz_Sj-NI7xfDdy7pOAwqQw&oh=00_AfVj92NF_UwJ2EgTp_lNr_gbMZsaAcSyYmHIjYOm045aEg&oe=68B54025"
     },
     {
@@ -562,7 +613,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T12:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1073141721248791/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
