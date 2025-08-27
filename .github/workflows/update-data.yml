@@ -99,7 +99,6 @@ jobs:
         run: |
           echo "📥 Fetching Notion data for roma"
           CITY=roma node scripts/fetch_notion.js
-        continue-on-error: true
 
       # Debug: mostra lo stato dei file prima del commit
       - name: Debug - Mostra stato file
@@ -137,8 +136,8 @@ jobs:
             echo "File public/data_roma.json NON TROVATO!"
           fi
 
-      # Forza il tracking dei file cache se esistono
-      - name: Forza tracking file cache
+      # Forza il tracking dei file cache e data se esistono
+      - name: Forza tracking file cache e data
         run: |
           if [ -f "rejected_urls_cache_barcelona.json" ]; then
             git add rejected_urls_cache_barcelona.json
@@ -151,6 +150,18 @@ jobs:
             echo "✅ File cache Roma aggiunto al tracking"
           else
             echo "⚠️ File cache Roma non trovato"
+          fi
+          if [ -f "public/data_barcelona.json" ]; then
+            git add public/data_barcelona.json
+            echo "✅ File data Barcelona aggiunto al tracking"
+          else
+            echo "⚠️ File data Barcelona non trovato"
+          fi
+          if [ -f "public/data_roma.json" ]; then
+            git add public/data_roma.json
+            echo "✅ File data Roma aggiunto al tracking"
+          else
+            echo "⚠️ File data Roma non trovato"
           fi
 
       # Pull delle modifiche remote prima del commit
