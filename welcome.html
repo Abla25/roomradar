@@ -249,6 +249,14 @@
   </div>
 
   <script>
+    // Hide footer on welcome page
+    document.addEventListener('DOMContentLoaded', function() {
+      const footerContainer = document.getElementById('footer-container');
+      if (footerContainer) {
+        footerContainer.style.display = 'none';
+      }
+    });
+    
     // City configuration
     const CITIES = {
       barcelona: {
