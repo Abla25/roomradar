@@ -51,15 +51,21 @@ jobs:
         with:
           node-version: 20
 
-      # Aggiorna data.json per tutte le città da Notion
-      - name: Esegui script Notion → data.json per tutte le città
+      # Aggiorna data.json per Barcelona da Notion
+      - name: Esegui script Notion → data.json per Barcelona
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+        run: CITY=barcelona node scripts/fetch_notion.js
+        continue-on-error: true
+
+      # Aggiorna data.json per Roma da Notion
+      - name: Esegui script Notion → data.json per Roma
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
-        run: |
-          CITY=barcelona node scripts/fetch_notion.js
-          CITY=roma node scripts/fetch_notion.js
+        run: CITY=roma node scripts/fetch_notion.js
+        continue-on-error: true
 
       # Debug: mostra lo stato dei file prima del commit
       - name: Debug - Mostra stato file
@@ -69,24 +75,30 @@ jobs:
           echo "=== Contenuto rejected_urls_cache_barcelona.json ==="
           if [ -f "rejected_urls_cache_barcelona.json" ]; then
             ls -la rejected_urls_cache_barcelona.json
+            echo "📊 Barcelona cache size: $(wc -c < rejected_urls_cache_barcelona.json) bytes"
           else
             echo "File rejected_urls_cache_barcelona.json NON TROVATO!"
           fi
           echo "=== Contenuto rejected_urls_cache_roma.json ==="
           if [ -f "rejected_urls_cache_roma.json" ]; then
             ls -la rejected_urls_cache_roma.json
+            echo "📊 Roma cache size: $(wc -c < rejected_urls_cache_roma.json) bytes"
           else
             echo "File rejected_urls_cache_roma.json NON TROVATO!"
           fi
           echo "=== Contenuto public/data_barcelona.json ==="
           if [ -f "public/data_barcelona.json" ]; then
             ls -la public/data_barcelona.json
+            echo "📊 Barcelona data size: $(wc -c < public/data_barcelona.json) bytes"
+            echo "📊 Barcelona results count: $(jq '.results | length' public/data_barcelona.json 2>/dev/null || echo 'N/A')"
           else
             echo "File public/data_barcelona.json NON TROVATO!"
           fi
           echo "=== Contenuto public/data_roma.json ==="
           if [ -f "public/data_roma.json" ]; then
             ls -la public/data_roma.json
+            echo "📊 Roma data size: $(wc -c < public/data_roma.json) bytes"
+            echo "📊 Roma results count: $(jq '.results | length' public/data_roma.json 2>/dev/null || echo 'N/A')"
           else
             echo "File public/data_roma.json NON TROVATO!"
           fi

@@ -1,0 +1,152 @@
+name: Processa Singola Città
+
+on:
+  workflow_dispatch:
+    inputs:
+      city:
+        description: 'Città da processare'
+        required: true
+        default: 'barcelona'
+        type: choice
+        options:
+          - barcelona
+          - roma
+
+permissions:
+  contents: write
+
+jobs:
+  process-single-city:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Installa dipendenze Python
+        run: pip install -r requirements.txt
+
+      # Esegui lo script Python per la città selezionata
+      - name: Esegui script Python per ${{ github.event.inputs.city }}
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Feed RSS specifici per città
+          RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
+          RSS_URL_BARCELONA_2: ${{ secrets.RSS_URL_BARCELONA_2 }}
+          RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
+          RSS_URL_BARCELONA_4: ${{ secrets.RSS_URL_BARCELONA_4 }}
+          RSS_URL_BARCELONA_5: ${{ secrets.RSS_URL_BARCELONA_5 }}
+          RSS_URL_BARCELONA_6: ${{ secrets.RSS_URL_BARCELONA_6 }}
+          RSS_URL_ROMA_1: ${{ secrets.RSS_URL_ROMA_1 }}
+          RSS_URL_ROMA_2: ${{ secrets.RSS_URL_ROMA_2 }}
+          RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
+          RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
+          RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
+          RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+        run: |
+          echo "🏙️ Processing city: ${{ github.event.inputs.city }}"
+          CITY=${{ github.event.inputs.city }} python main.py
+
+      # Setup Node.js
+      - name: Usa Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Fetch Notion per la città selezionata
+      - name: Fetch Notion per ${{ github.event.inputs.city }}
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+        run: |
+          echo "📥 Fetching Notion data for ${{ github.event.inputs.city }}"
+          CITY=${{ github.event.inputs.city }} node scripts/fetch_notion.js
+
+      # Debug: mostra lo stato dei file
+      - name: Debug - Stato file per ${{ github.event.inputs.city }}
+        run: |
+          echo "=== DEBUG PER ${{ github.event.inputs.city }} ==="
+          echo "📁 Current directory: $(pwd)"
+          echo "📁 Files in public/:"
+          ls -la public/
+          echo ""
+          echo "📊 Cache file per ${{ github.event.inputs.city }}:"
+          if [ -f "rejected_urls_cache_${{ github.event.inputs.city }}.json" ]; then
+            ls -la rejected_urls_cache_${{ github.event.inputs.city }}.json
+            echo "📊 Cache size: $(wc -c < rejected_urls_cache_${{ github.event.inputs.city }}.json) bytes"
+          else
+            echo "❌ Cache file non trovato!"
+          fi
+          echo ""
+          echo "📊 Data file per ${{ github.event.inputs.city }}:"
+          if [ -f "public/data_${{ github.event.inputs.city }}.json" ]; then
+            ls -la public/data_${{ github.event.inputs.city }}.json
+            echo "📊 Data size: $(wc -c < public/data_${{ github.event.inputs.city }}.json) bytes"
+            echo "📊 Results count: $(jq '.results | length' public/data_${{ github.event.inputs.city }}.json 2>/dev/null || echo 'N/A')"
+            echo "📊 Total rejected: $(jq '.totalRejectedCount' public/data_${{ github.event.inputs.city }}.json 2>/dev/null || echo 'N/A')"
+          else
+            echo "❌ Data file non trovato!"
+          fi
+
+      # Forza tracking dei file se esistono
+      - name: Forza tracking file per ${{ github.event.inputs.city }}
+        run: |
+          if [ -f "rejected_urls_cache_${{ github.event.inputs.city }}.json" ]; then
+            git add rejected_urls_cache_${{ github.event.inputs.city }}.json
+            echo "✅ Cache file per ${{ github.event.inputs.city }} aggiunto al tracking"
+          else
+            echo "⚠️ Cache file per ${{ github.event.inputs.city }} non trovato"
+          fi
+          if [ -f "public/data_${{ github.event.inputs.city }}.json" ]; then
+            git add public/data_${{ github.event.inputs.city }}.json
+            echo "✅ Data file per ${{ github.event.inputs.city }} aggiunto al tracking"
+          else
+            echo "⚠️ Data file per ${{ github.event.inputs.city }} non trovato"
+          fi
+
+      # Pull modifiche remote
+      - name: Pull modifiche remote
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git pull origin main --rebase || echo "No remote changes to pull"
+
+      # Commit e push
+      - name: Commit e push per ${{ github.event.inputs.city }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: aggiorna dati per ${{ github.event.inputs.city }}"
+          file_pattern: |
+            public/data_${{ github.event.inputs.city }}.json
+            rejected_urls_cache_${{ github.event.inputs.city }}.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          commit_options: '--no-verify'
+          push_options: '--force-with-lease'
+
+      # Riepilogo finale
+      - name: Riepilogo finale per ${{ github.event.inputs.city }}
+        run: |
+          echo "🎉 PROCESSING COMPLETATO PER ${{ github.event.inputs.city }}"
+          echo "📊 File aggiornati:"
+          if [ -f "public/data_${{ github.event.inputs.city }}.json" ]; then
+            echo "   ✅ public/data_${{ github.event.inputs.city }}.json"
+            echo "   📊 Risultati: $(jq '.results | length' public/data_${{ github.event.inputs.city }}.json 2>/dev/null || echo 'N/A')"
+            echo "   🚫 Rejected: $(jq '.totalRejectedCount' public/data_${{ github.event.inputs.city }}.json 2>/dev/null || echo 'N/A')"
+          else
+            echo "   ❌ public/data_${{ github.event.inputs.city }}.json (NON TROVATO)"
+          fi
+          if [ -f "rejected_urls_cache_${{ github.event.inputs.city }}.json" ]; then
+            echo "   ✅ rejected_urls_cache_${{ github.event.inputs.city }}.json"
+          else
+            echo "   ❌ rejected_urls_cache_${{ github.event.inputs.city }}.json (NON TROVATO)"
+          fi

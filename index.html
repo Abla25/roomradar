@@ -1733,6 +1733,9 @@
 
 
 
+    // Cache per i dati delle città
+    const cityDataCache = {};
+    
     async function loadListings() {
       try {
         console.log("=== STARTING DATA LOADING ===");
@@ -1743,6 +1746,22 @@
         updateCityTitle();
         
         console.log(`🏙️ Loading data for city: ${currentCity}`);
+        
+        // Controlla se abbiamo i dati in cache
+        if (cityDataCache[currentCity] && (Date.now() - cityDataCache[currentCity].timestamp) < 30000) { // 30 secondi cache
+          console.log(`📦 Using cached data for ${currentCity}`);
+          const cachedData = cityDataCache[currentCity].data;
+          allListings = cachedData.results || [];
+          window.totalRejectedCount = cachedData.totalRejectedCount || 0;
+          
+          document.getElementById('loading').style.display = 'none';
+          setupEventListeners();
+          populateFilters();
+          applyFilters();
+          updateStats();
+          console.log(`✅ City switch completed for ${currentCity} (from cache)`);
+          return;
+        }
         
         // Add timestamp to avoid cache
         const response = await fetch(`public/data_${currentCity}.json?t=${Date.now()}`);
@@ -1773,6 +1792,13 @@
           console.log("Unexpected data structure:", data);
           allListings = [];
         }
+        
+        // Salva in cache per future chiamate
+        cityDataCache[currentCity] = {
+          data: data,
+          timestamp: Date.now()
+        };
+        console.log(`💾 Cached data for ${currentCity}`);
 
         console.log("=== LISTING DETAILS ===");
         console.log("First 3 listings:", allListings.slice(0, 3));
@@ -1787,7 +1813,10 @@
         setupEventListeners(); // Configure event listeners after loading
         populateFilters();
         applyFilters();
-        updateStats();
+        updateStats(); // Aggiorna stats immediatamente dopo il caricamento
+        
+        console.log(`✅ City switch completed for ${currentCity}`);
+      } catch (error) {
         
       } catch (error) {
         console.error("=== LOADING ERROR ===", error);
@@ -2400,6 +2429,12 @@
         return;
       }
       
+      console.log(`🔄 Switching from ${currentCity} to ${city}`);
+      
+      // Mostra loading immediatamente
+      document.getElementById('loading').style.display = 'block';
+      document.getElementById('listings').innerHTML = '';
+      
       // Salva la nuova città
       localStorage.setItem('selectedCity', city);
       saveUserCityPreference(city);
@@ -2418,11 +2453,11 @@
       // Chiudi il dropdown
       toggleCityDropdown();
       
-      // Ricarica i dati per la nuova città
-      loadListings();
-      
-      // Aggiorna le stats per la nuova città
-      updateStats();
+      // Ricarica i dati per la nuova città con debounce
+      clearTimeout(window.citySwitchTimeout);
+      window.citySwitchTimeout = setTimeout(() => {
+        loadListings();
+      }, 100); // Piccolo delay per evitare chiamate multiple
     }
 
     // Chiudi dropdown quando si clicca fuori
