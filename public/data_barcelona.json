@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T12:51:04.558Z",
+  "generatedAt": "2025-08-27T13:40:03.419Z",
   "city": "barcelona",
-  "count": 587,
-  "totalRejectedCount": 944,
+  "count": 588,
+  "totalRejectedCount": 951,
   "results": [
+    {
+      "id": "25cb5f64-9329-81c3-81dc-c448aee945e4",
+      "title": "Room for rent in central Barcelona",
+      "overview": "Room for rent in Sagrada Familia area, central Barcelona, for 2 or 3 months, with double bed and TV included",
+      "description": "Hola alquilo habitación a chica sola, en zona céntrica sagrada familia por 2 o 3 meses. Cama doble y TV incluida.",
+      "price": "N/A",
+      "zone": "Sagrada Familia, central Barcelona",
+      "zoneMacro": "Eixample",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and seems legitimate, but the price is not specified, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T13:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1073188144577482/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539564594_1894749028124573_7448164381830663134_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4naB_Quku5AQ7kNvwH7YvZz&_nc_oc=AdlGRURjPXY1TPns-sE9c-Cilvl_1tHBu2vJWod2yToC3zxOFftWSUC19I6VkclwfBE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tC9zSA9XmuGJ3V_3aiZEfQ&oh=00_AfW2B1f0deWtcixf4H-u9yrA5fpX_9AY8JTzOwz3tGR6Jg&oe=68B4DC2E"
+    },
     {
       "id": "25cb5f64-9329-81a4-843f-fb2046192d32",
       "title": "Individual Room for Rent in Plaza Virrei Amat, Barcelona",
