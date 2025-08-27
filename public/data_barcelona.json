@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T05:29:15.229Z",
+  "generatedAt": "2025-08-27T06:42:06.622Z",
   "city": "barcelona",
-  "count": 549,
-  "totalRejectedCount": 893,
+  "count": 550,
+  "totalRejectedCount": 900,
   "results": [
+    {
+      "id": "25cb5f64-9329-816e-93a4-f94acfcdebd9",
+      "title": "Room for rent in city center",
+      "overview": "A room for rent in the city center with private bathroom availability for 230 euros per month",
+      "description": "+34 [PHONE NUMBER CENSORED] , Se alquila habitación en la zona centro, muy bien ubicada con disponibilidad a baño privado, 230 euros mensuales, preguntar vía WhatsApp o llamada sin compromiso",
+      "price": "230 euros",
+      "zone": "city center",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a price, location, and contact information, and has a photo, but the description is brief and lacks some details",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T06:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4019714448358181/",
+      "status": "active",
+      "imageUrl": "https://scontent.fagr1-2.fna.fbcdn.net/v/t39.30808-6/539759478_747019278113822_7239354220650169461_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qhIeStO-vhMQ7kNvwF3-A0V&_nc_oc=AdmL4qGItXslEOj2OqdwjSBPvES2c5f2VNDY_NWG8eeA28ptG8LxvLyCjOHGDIS4X_mm-RgUWc-qpe1Lrba5ACMU&_nc_zt=23&_nc_ht=scontent.fagr1-2.fna&_nc_gid=H5Rcx8NdyAHiEoyKb_boeA&oh=00_AfVodTt6GlM7Zl-fa9UKo5UVKsA-4fPAzrO_5qjQzNdADQ&oe=68B472D6"
+    },
     {
       "id": "25cb5f64-9329-819c-897e-f28de69ac6ca",
       "title": "Room for rent in Barcelona",
