@@ -84,15 +84,21 @@ jobs:
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
-        run: CITY=barcelona node scripts/fetch_notion.js
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+        run: |
+          echo "📥 Fetching Notion data for barcelona"
+          CITY=barcelona node scripts/fetch_notion.js
         continue-on-error: true
 
       # Aggiorna data.json per Roma da Notion
       - name: Esegui script Notion → data.json per Roma
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
-        run: CITY=roma node scripts/fetch_notion.js
+        run: |
+          echo "📥 Fetching Notion data for roma"
+          CITY=roma node scripts/fetch_notion.js
         continue-on-error: true
 
       # Debug: mostra lo stato dei file prima del commit
