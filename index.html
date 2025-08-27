@@ -1463,7 +1463,7 @@
               font-size: 0.8rem;
               font-weight: 500;
               cursor: pointer;
-              transition: all 0.2s ease;
+              transition: all 0.2s ease, transform 0.15s ease;
               font-family: inherit;
               display: flex;
               align-items: center;
@@ -1850,6 +1850,8 @@
         populateFilters();
         applyFilters();
         updateStats(); // Aggiorna stats immediatamente dopo il caricamento
+        
+
         
         console.log(`✅ City switch completed for ${currentCity}`);
       } catch (error) {
@@ -2404,11 +2406,19 @@
     function toggleCityDropdown() {
       const dropdown = document.getElementById('city-dropdown-menu');
       const arrow = document.querySelector('.dropdown-arrow');
+      const cityButton = document.querySelector('.city-badge');
       
       if (dropdown.style.display === 'block') {
         dropdown.style.display = 'none';
         arrow.style.transform = 'rotate(0deg)';
+        cityButton.style.transform = 'scale(1)';
       } else {
+        // Aggiungi feedback visivo al click
+        cityButton.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+          cityButton.style.transform = 'scale(1)';
+        }, 150);
+        
         // Popola il dropdown con le altre città disponibili
         populateDropdown();
         dropdown.style.display = 'block';
@@ -2465,6 +2475,9 @@
       
       console.log(`🔄 Switching from ${currentCity} to ${city}`);
       
+      // Mostra feedback visivo del cambio città
+      showCitySwitchFeedback(city);
+      
       // Mostra loading immediatamente
       document.getElementById('loading').style.display = 'block';
       document.getElementById('listings').innerHTML = '';
@@ -2493,6 +2506,67 @@
         loadListings();
       }, 100); // Piccolo delay per evitare chiamate multiple
     }
+    
+    // Funzione per mostrare feedback visivo del cambio città
+    function showCitySwitchFeedback(newCity) {
+      // Crea un elemento di feedback temporaneo
+      const feedback = document.createElement('div');
+      feedback.id = 'city-switch-feedback';
+      feedback.innerHTML = `
+        <div style="
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: rgba(0, 0, 0, 0.8);
+          color: white;
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-weight: 500;
+          font-size: 1rem;
+          z-index: 10000;
+          animation: citySwitchFade 0.4s ease-out;
+        ">
+          Switched to ${newCity === 'roma' ? 'Rome' : newCity.charAt(0).toUpperCase() + newCity.slice(1)}
+        </div>
+      `;
+      
+      // Aggiungi CSS per l'animazione
+      if (!document.getElementById('city-switch-styles')) {
+        const style = document.createElement('style');
+        style.id = 'city-switch-styles';
+        style.textContent = `
+          @keyframes citySwitchFade {
+            0% {
+              opacity: 0;
+              transform: translate(-50%, -50%) scale(0.9);
+            }
+            100% {
+              opacity: 1;
+              transform: translate(-50%, -50%) scale(1);
+            }
+          }
+        `;
+        document.head.appendChild(style);
+      }
+      
+      // Aggiungi al DOM
+      document.body.appendChild(feedback);
+      
+      // Rimuovi dopo 1 secondo
+      setTimeout(() => {
+        if (feedback.parentNode) {
+          feedback.style.animation = 'citySwitchFade 0.3s ease-in reverse';
+          setTimeout(() => {
+            if (feedback.parentNode) {
+              feedback.remove();
+            }
+          }, 300);
+        }
+      }, 1000);
+    }
+    
+
 
     // Chiudi dropdown quando si clicca fuori
     document.addEventListener('click', function(event) {

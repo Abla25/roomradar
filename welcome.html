@@ -274,6 +274,12 @@
       await loadActiveListings();
       populateCityGrid();
       checkSavedCity();
+      
+      // Event listeners per cancellare auto-redirect
+      document.addEventListener('click', cancelAutoRedirect);
+      document.addEventListener('keydown', cancelAutoRedirect);
+      document.addEventListener('scroll', cancelAutoRedirect);
+      document.addEventListener('mousemove', cancelAutoRedirect);
     });
 
     // Funzione per caricare il numero di active listings per ogni città
@@ -333,6 +339,9 @@
       
       selectedCity = cityKey;
       document.getElementById('continue-btn').disabled = false;
+      
+      // Start auto-redirect timer
+      startAutoRedirectTimer();
     }
 
     function checkSavedCity() {
@@ -387,8 +396,117 @@
       localStorage.setItem(key, city);
     }
 
+    // Variabile per il timer di auto-redirect
+    let autoRedirectTimer = null;
+    let autoRedirectCountdown = 5;
+    
+    // Funzione per avviare il timer di auto-redirect
+    function startAutoRedirectTimer() {
+      // Cancella timer precedente se presente
+      if (autoRedirectTimer) {
+        clearInterval(autoRedirectTimer);
+      }
+      
+      // Reset countdown
+      autoRedirectCountdown = 5;
+      
+      // Mostra il countdown
+      showAutoRedirectCountdown();
+      
+      // Avvia il timer
+      autoRedirectTimer = setInterval(() => {
+        autoRedirectCountdown--;
+        
+        if (autoRedirectCountdown <= 0) {
+          // Auto-redirect
+          clearInterval(autoRedirectTimer);
+          hideAutoRedirectCountdown();
+          continueToCity();
+        } else {
+          // Aggiorna il countdown
+          updateAutoRedirectCountdown();
+        }
+      }, 1000);
+    }
+    
+    // Funzione per mostrare il countdown
+    function showAutoRedirectCountdown() {
+      // Rimuovi countdown precedente se presente
+      hideAutoRedirectCountdown();
+      
+      const countdown = document.createElement('div');
+      countdown.id = 'auto-redirect-countdown';
+      countdown.innerHTML = `
+        <div style="
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          background: rgba(59, 130, 246, 0.9);
+          color: white;
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-weight: 500;
+          font-size: 0.9rem;
+          z-index: 1000;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+          animation: countdownSlideIn 0.3s ease-out;
+        ">
+          Auto-continue in <span id="countdown-number">3</span>s
+        </div>
+      `;
+      
+      // Aggiungi CSS per l'animazione
+      if (!document.getElementById('countdown-styles')) {
+        const style = document.createElement('style');
+        style.id = 'countdown-styles';
+        style.textContent = `
+          @keyframes countdownSlideIn {
+            0% {
+              opacity: 0;
+              transform: translateX(100%);
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+        `;
+        document.head.appendChild(style);
+      }
+      
+      document.body.appendChild(countdown);
+    }
+    
+    // Funzione per aggiornare il countdown
+    function updateAutoRedirectCountdown() {
+      const countdownNumber = document.getElementById('countdown-number');
+      if (countdownNumber) {
+        countdownNumber.textContent = autoRedirectCountdown;
+      }
+    }
+    
+    // Funzione per nascondere il countdown
+    function hideAutoRedirectCountdown() {
+      const countdown = document.getElementById('auto-redirect-countdown');
+      if (countdown) {
+        countdown.remove();
+      }
+    }
+    
+    // Cancella il timer quando l'utente interagisce
+    function cancelAutoRedirect() {
+      if (autoRedirectTimer) {
+        clearInterval(autoRedirectTimer);
+        autoRedirectTimer = null;
+      }
+      hideAutoRedirectCountdown();
+    }
+    
     function continueToCity() {
       if (!selectedCity) return;
+      
+      // Cancella il timer se presente
+      cancelAutoRedirect();
       
       // Save user preference in localStorage
       localStorage.setItem('selectedCity', selectedCity);
