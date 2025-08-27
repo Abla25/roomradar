@@ -187,8 +187,24 @@
     "https://www.facebook.com/groups/244234206083096/posts/2174949869678177/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-26T23:48:18.581342"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2140300063160613/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-27T00:04:53.297819"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/30945323978445695/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-27T00:06:08.394167"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1706058176755296/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-27T00:06:45.343598"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1705380893489691/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-27T00:07:28.091255"
     }
   },
-  "total_rejected_count": 47,
-  "timestamp": "2025-08-26T23:32:31.601328"
+  "total_rejected_count": 51,
+  "timestamp": "2025-08-27T00:04:15.156832"
 }
