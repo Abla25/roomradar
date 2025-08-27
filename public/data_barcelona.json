@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T08:41:59.037Z",
+  "generatedAt": "2025-08-27T09:31:49.652Z",
   "city": "barcelona",
-  "count": 565,
-  "totalRejectedCount": 917,
+  "count": 566,
+  "totalRejectedCount": 918,
   "results": [
+    {
+      "id": "25cb5f64-9329-8105-ae62-ffbfdcddf67f",
+      "title": "Beautiful Room for Rent in Barcelona",
+      "overview": "A single room is available for rent in a newly renovated apartment in Barcelona, close to metro L5 Camp De l’Arpa and buses, with a double bed, closet, window, and shared bathroom and kitchen, priced to be consulted via WhatsApp.",
+      "description": "Se alquila hermosa habitación 🏡 (Pg de Maragall - Barcelona, cerca del metro L5 Camp De l’Arpa y buses) Disponible para entrar: 1 Septiembre. Precio a consultar, SOLO [MESSAGING CONTACT CENSORED]. - 1 SOLA PERSONA (no parejas, no niños) - No fumadores. - No mascotas. - Precio del alquiler incluye servicios (luz, agua, WiFi) - Cama doble. - Armario. - Ventana. - Àrea de Baño y Cocina (compartida) - ⁠El piso tiene ascensor. - Ambiente familiar, tranquilidad, limpieza y orden. - Piso totalmente nuevo y reformado.",
+      "price": "N/A",
+      "zone": "Pg de Maragall - Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the room, location, and amenities, includes a photo, and specifies the preferred tenant type and contact method, without indicators of a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2182354908945245/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539538510_10162274996311622_2636313699788643576_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Vak1567NH9sQ7kNvwGGB_pZ&_nc_oc=AdmtH0h7FnnsrTKeGzFADQK3UpyPF_MybM1G0x-clyjCzTeB4jO7CEHfaYCcrdapHmE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=7pAWjB-pU0Iwrgs-wMe3Lg&oh=00_AfU1E7O301siiM8_ALTXRWehcCs2BZ7J-UEjvG2tN4R0sA&oe=68B4B660"
+    },
     {
       "id": "25cb5f64-9329-814d-a0ad-fef9d6f8e68d",
       "title": "Furnished apartment for rent in Barcelona",
@@ -52,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T08:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020083561654603/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel65-3.fna.fbcdn.net/v/t39.30808-6/539538510_10162274996311622_2636313699788643576_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Vak1567NH9sQ7kNvwFbqBBe&_nc_oc=AdloalSh5X7C74bvGI9CUms2Js4L59nIJuZeV4Uic9H4Dxqq2ek1UMC0vVPBpaE5Nf0&_nc_zt=23&_nc_ht=scontent.fdel65-3.fna&_nc_gid=55p48g-QH4z0Bkse6R-6Mw&oh=00_AfU4IrW3ucAXI2aNBtxehMpLFnA9eojRugYU4A3OpmDQ2A&oe=68B47E20"
     },
     {
