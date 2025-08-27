@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T16:37:38.461Z",
+  "generatedAt": "2025-08-27T17:23:25.143Z",
   "city": "barcelona",
-  "count": 598,
+  "count": 599,
   "totalRejectedCount": 973,
   "results": [
+    {
+      "id": "25cb5f64-9329-8140-b197-d6ed143df808",
+      "title": "Room for rent in Guinardó",
+      "overview": "A room is available for rent in Guinardó, with services included, and a deposit is required",
+      "description": "Habitación en alquiler en Guinardó, 450€ con servicios incluídos, se requiere mes de fianza. Enviar WhatsApp para coordinar la hora de visita. [PHONE NUMBER CENSORED]",
+      "price": "450€",
+      "zone": "Guinardó",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a price, location, and contact information, and there is a photo provided, which increases the reliability of the post and suggests it is not a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T17:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020565488273077/",
+      "status": "active",
+      "imageUrl": "https://scontent.fudr3-2.fna.fbcdn.net/v/t39.30808-6/539074466_25368544819402144_1407901199830687463_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=f0sMEE_SHtgQ7kNvwFaalq4&_nc_oc=AdlzwL2ejEA7m6JsLnA-tMge0DLqIuCumZ6ElBrxk40beHY2Uudb0sgmcb7x2RMEMWywFgzLdqw8tIDmq2EP9EAQ&_nc_zt=23&_nc_ht=scontent.fudr3-2.fna&_nc_gid=8HC1rXC4xo2FYbk8zuKNQg&oh=00_AfUT3ImyqPjUzQ5Ue7QNsanB24LbUyK9Y2QQbqTs7IBMEw&oe=68B4F97D"
+    },
     {
       "id": "25cb5f64-9329-81d4-b28d-f637d94f08d4",
       "title": "Luminous and spacious room for rent",
@@ -2619,7 +2636,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T02:00:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4018135981849361/",
-      "status": "verification_needed",
+      "status": "expired",
       "imageUrl": "https://scontent.fcok6-2.fna.fbcdn.net/v/t39.30808-6/535408948_25347961044793855_340232075520369581_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=s3rDvrLDxVcQ7kNvwGsDT6v&_nc_oc=AdlngMR969jfTm1i3QhLXWYNhBVuD-zlSnyTs-LGN_68HUstUq-KKB4hOh2k_nPkAMg&_nc_zt=23&_nc_ht=scontent.fcok6-2.fna&_nc_gid=HlA91lsoOEpLs2uMJhyo9g&oh=00_AfVLBSAzcntE7clcQtAqQNqQaaf0uJnDM_-4uMLcsiJnaQ&oe=68B2DE6B"
     },
     {
