@@ -50,7 +50,7 @@ node scripts/fetch_notion.js
 
 **Opzione B - File vuoto:**
 ```bash
-echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
+# echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
 ```
 
 ### 3. 🔄 **Aggiornamento Dati**

@@ -201,8 +201,8 @@ cp env.example .env
 CITY=roma python3 main.py
 CITY=roma node scripts/fetch_notion.js
 
-# Opzione B - File vuoto
-echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
+# Opzione B - File vuoto (solo per setup iniziale)
+# echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
 ```
 
 ### **4. Test Locale (Opzionale)**
