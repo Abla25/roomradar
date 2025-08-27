@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T03:11:15.786Z",
+  "generatedAt": "2025-08-27T04:30:20.437Z",
   "city": "barcelona",
-  "count": 547,
-  "totalRejectedCount": 891,
+  "count": 548,
+  "totalRejectedCount": 892,
   "results": [
+    {
+      "id": "25cb5f64-9329-8135-a4e8-d1309a1c3cdd",
+      "title": "Spacious room for rent in Maragall",
+      "overview": "A spacious room for one person is available for rent in a apartment located in Maragall, close to public transportation and amenities, with all expenses included",
+      "description": "🏠 Alquilo habitacion amplia, para una persona (sólo mujeres) con los gastos incluidos. 📍Piso ubicado en Maragall, a 400m de las estaciones maragall y virrei amat y cerca de caprabo, lídl, día, mercadona, bares, restaurantes y centro comercial SOM MULTI ESPAI. 💰Precio 400 euros/mes más un mes de fianza, todos los gastos incluidos (incluye, agua, luz, wifi.)",
+      "price": "400 euros/month",
+      "zone": "Maragall",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the room, its location, and the price, and includes a photo of the room, which suggests a high level of completeness and authenticity",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T04:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4019602848369341/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/539203002_10162800261239333_7267477756914900975_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=TA02OkNZrPkQ7kNvwHcaoE-&_nc_oc=AdmQSfQWqpzkbI0TEla-gVatWJsVEIvsGZ2_Ole9QKwqv4zY_iQBJ3En_wNiK142AdE&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=_NVVIuEftJYcJGHEQxNG4w&oh=00_AfWKwDfusgozulYenLIluDajtwiuT6Ks5vxNFxwHlSYtBg&oe=68B43574"
+    },
     {
       "id": "25cb5f64-9329-8129-a877-e6f04b94d2db",
       "title": "Cozy room for rent in Barcelona",
