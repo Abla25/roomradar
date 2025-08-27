@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-27T04:30:20.437Z",
+  "generatedAt": "2025-08-27T05:29:15.229Z",
   "city": "barcelona",
-  "count": 548,
-  "totalRejectedCount": 892,
+  "count": 549,
+  "totalRejectedCount": 893,
   "results": [
+    {
+      "id": "25cb5f64-9329-819c-897e-f28de69ac6ca",
+      "title": "Room for rent in Barcelona",
+      "overview": "A room for rent in L1 Av Carrilet, preferably for a single woman",
+      "description": "Hola buenos días alquilo habitación para persona sola preferiblemente mujer .. en L1 av carrilet !! Disponible ya",
+      "price": "N/A",
+      "zone": "L1 Av Carrilet, Barcelona",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post seems to be a genuine room listing, but there are no photos and limited information, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-27T05:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074480704857461/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25cb5f64-9329-8135-a4e8-d1309a1c3cdd",
       "title": "Spacious room for rent in Maragall",
