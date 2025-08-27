@@ -1372,6 +1372,35 @@
         padding: 0.75rem 1rem;
         min-width: 40px;
       }
+      
+      /* Mobile dropdown fixes */
+      .city-dropdown {
+        position: relative;
+        z-index: 1001;
+      }
+      
+      .city-dropdown-menu {
+        position: fixed !important;
+        top: auto !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 90% !important;
+        max-width: 300px !important;
+        margin-top: 0.5rem !important;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
+        border-radius: 16px !important;
+        max-height: 60vh !important;
+        overflow-y: auto !important;
+      }
+      
+      .city-option {
+        padding: 1rem !important;
+        font-size: 1rem !important;
+        min-height: 48px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
     }
 
     /* Custom scrollbar */
@@ -1463,6 +1492,8 @@
               min-width: 140px;
               display: none;
               z-index: 1000;
+              max-height: 200px;
+              overflow-y: auto;
             ">
               <!-- Le opzioni verranno popolate dinamicamente da JavaScript -->
             </div>
@@ -1793,6 +1824,11 @@
           allListings = [];
         }
         
+        // Gestione file vuoti o senza risultati
+        if (allListings.length === 0) {
+          console.log(`⚠️ No listings found for ${currentCity}. This might be normal if no new posts were found.`);
+        }
+        
         // Salva in cache per future chiamate
         cityDataCache[currentCity] = {
           data: data,
@@ -1816,8 +1852,6 @@
         updateStats(); // Aggiorna stats immediatamente dopo il caricamento
         
         console.log(`✅ City switch completed for ${currentCity}`);
-      } catch (error) {
-        
       } catch (error) {
         console.error("=== LOADING ERROR ===", error);
         document.getElementById('loading').style.display = 'none';
@@ -2468,6 +2502,18 @@
       if (dropdown && !cityButton.contains(event.target) && !dropdown.contains(event.target)) {
         dropdown.style.display = 'none';
         document.querySelector('.dropdown-arrow').style.transform = 'rotate(0deg)';
+      }
+    });
+    
+    // Gestione touch per mobile
+    document.addEventListener('touchstart', function(event) {
+      const dropdown = document.getElementById('city-dropdown-menu');
+      const cityButton = document.querySelector('.city-badge');
+      
+      if (dropdown && dropdown.style.display === 'block' && !cityButton.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.style.display = 'none';
+        const arrow = document.querySelector('.dropdown-arrow');
+        if (arrow) arrow.style.transform = 'rotate(0deg)';
       }
     });
 
