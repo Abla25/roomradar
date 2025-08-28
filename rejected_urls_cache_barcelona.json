@@ -1211,8 +1211,12 @@
     "https://www.facebook.com/groups/986691378511610/posts/2183243572189712/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T09:31:27.476863"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021153781547581/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T10:25:52.339475"
     }
   },
-  "total_rejected_count": 1061,
-  "timestamp": "2025-08-28T09:25:44.627567"
+  "total_rejected_count": 1062,
+  "timestamp": "2025-08-28T10:25:36.775060"
 }
