@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-28T05:26:34.814Z",
+  "generatedAt": "2025-08-28T06:41:23.145Z",
   "city": "barcelona",
-  "count": 630,
-  "totalRejectedCount": 1035,
+  "count": 632,
+  "totalRejectedCount": 1037,
   "results": [
+    {
+      "id": "25db5f64-9329-8191-ae66-e9ba651319aa",
+      "title": "Room for rent for a single woman",
+      "overview": "A room for rent in a women's apartment in Hospitalet, for a single woman",
+      "description": "Alquilo habitacion persona sola y mujer piso de mujeres , Hospitalet [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks detailed information, does not include any images, and only provides a phone number as contact, which raises concerns about its legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T06:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2183138105533592/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25db5f64-9329-816c-adae-db6f022adf72",
+      "title": "Renting a beautiful room in Barcelona",
+      "overview": "A room for rent in a newly renovated apartment in Barcelona, available for one person, with shared kitchen and bathroom, and includes services like WiFi and utilities",
+      "description": "Se alquila hermosa habitación 🏡 (Pg de Maragall - Barcelona, cerca del metro L5 Camp De l’Arpa y buses) Disponible para entrar: 1 Septiembre. Precio a consultar, SOLO [MESSAGING CONTACT CENSORED]. - 1 SOLA PERSONA (no parejas, no niños) - No fumadores. - No mascotas. - Precio del alquiler incluye servicios (luz, agua, WiFi) - Cama doble. - Armario. - Ventana. - Àrea de Baño y Cocina (compartida) - ⁠El piso tiene ascensor. - Ambiente familiar, tranquilidad, limpieza y orden. - Piso totalmente nuevo y reformado.",
+      "price": "N/A",
+      "zone": "Pg de Maragall - Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides detailed information about the room, amenities, and rules, and includes a contact method, but the price is not specified and there is only one image",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T06:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2183149118865824/",
+      "status": "active",
+      "imageUrl": "https://scontent-maa3-3.xx.fbcdn.net/v/t39.30808-6/539313635_10162278664501622_4268516790848793636_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=oMeuv_CDDcMQ7kNvwEGsI4K&_nc_oc=Adk9H84yjwHnxk0ERdqARN3av29l1gpfS20_PF_nWhXNpxlaLNkM4oW_S2G-809yCdE&_nc_zt=23&_nc_ht=scontent-maa3-3.xx&_nc_gid=Bp3a8Uq5EYFgrp7ryKbkWw&oh=00_AfUknSQGoY3H6XINQVImfACwmy9d9yJBTgMn29qYtxFObw&oe=68B5C98A"
+    },
     {
       "id": "25db5f64-9329-812b-868d-d1572d6d61d7",
       "title": "Room for rent for girls",
@@ -1106,7 +1140,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T09:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2182354908945245/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539538510_10162274996311622_2636313699788643576_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Vak1567NH9sQ7kNvwGGB_pZ&_nc_oc=AdmtH0h7FnnsrTKeGzFADQK3UpyPF_MybM1G0x-clyjCzTeB4jO7CEHfaYCcrdapHmE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=7pAWjB-pU0Iwrgs-wMe3Lg&oh=00_AfU1E7O301siiM8_ALTXRWehcCs2BZ7J-UEjvG2tN4R0sA&oe=68B4B660"
     },
     {
