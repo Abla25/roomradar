@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-28T14:36:52.657Z",
+  "generatedAt": "2025-08-28T15:36:37.118Z",
   "city": "roma",
-  "count": 141,
-  "totalRejectedCount": 412,
+  "count": 142,
+  "totalRejectedCount": 421,
   "results": [
+    {
+      "id": "25db5f64-9329-813b-99c5-cb96c7cf5579",
+      "title": "Room for rent in Piazza Bologna",
+      "overview": "A room for rent in a shared apartment in Via Piccarda Donati, near Piazza Bologna, available from October",
+      "description": "Stanza, Piazza Bologna, ottobre Cercasi coinquilina/o socievole dai 27 anni in su con esperienza fuori casa per una stanza singola in Via Piccarda Donati, in luminoso appartamento composto da ingresso, corridoio, ripostiglio, tre stanze arredate, bagno finestrato e cucina abitabile. L’appartamento è inoltre fornito di lavatrice, caldaia autonoma e Wi-Fi fibra e ha a disposizione un’ampia cantina. Due delle stanze sono già occupate da una lavoratrice e uno studente della Sapienza. L’immobile si trova in contesto signorile in una strada privata silenziosa a pochissimi passi da Piazza Bologna. Richieste 560€ più spese (40€ fisse più luce/gas) Libera da ottobre, visite nei prossimi giorni Per ulteriori informazioni o per prendere appuntamento contattatemi in privato e/o lasciate un commento, grazie.",
+      "price": "560€",
+      "zone": "Piazza Bologna",
+      "zoneMacro": "Tuscolano",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the room, photos, and contact information, with no apparent scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T15:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1334833571641667/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag9-1.fna.fbcdn.net/v/t39.30808-6/514254145_1060207166195309_7917299819922446372_n.jpg?stp=cp6_dst-jpg_p552x414_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=6KaDkpyNCfEQ7kNvwGGm8Mz&_nc_oc=AdkG1rIwkK2sIzBkcfExo45waV-ZPBJ0KlymAVERv-_AmZuqozBPbv3TLWxxP_ONwOk&_nc_zt=23&_nc_ht=scontent.fnag9-1.fna&_nc_gid=IsCNVXJbK9Y3H1l8xC-cGA&oh=00_AfV-zdll58hyg5ZhGfJbf_hZzBVQgob-MbFlsgPo_mU8xg&oe=68B63685"
+    },
     {
       "id": "25db5f64-9329-812c-b144-d67088c25318",
       "title": "Room for Rent in Via Verbania",
