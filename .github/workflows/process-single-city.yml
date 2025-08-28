@@ -57,8 +57,6 @@ jobs:
           RSS_URL_LONDON_2: ${{ secrets.RSS_URL_LONDON_2 }}
           RSS_URL_LONDON_3: ${{ secrets.RSS_URL_LONDON_3 }}
           RSS_URL_LONDON_4: ${{ secrets.RSS_URL_LONDON_4 }}
-          RSS_URL_LONDON_5: ${{ secrets.RSS_URL_LONDON_5 }}
-          RSS_URL_LONDON_6: ${{ secrets.RSS_URL_LONDON_6 }}
         run: |
           echo "🏙️ Processing city: ${{ github.event.inputs.city }}"
           CITY=${{ github.event.inputs.city }} python main.py
