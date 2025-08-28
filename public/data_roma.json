@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-28T18:45:09.159Z",
+  "generatedAt": "2025-08-28T19:28:54.522Z",
   "city": "roma",
-  "count": 151,
-  "totalRejectedCount": 461,
+  "count": 152,
+  "totalRejectedCount": 467,
   "results": [
+    {
+      "id": "25db5f64-9329-81f2-8792-f88a1932edf8",
+      "title": "Room for rent near metro station",
+      "overview": "Room for rent 7 minutes from Battistini metro station",
+      "description": "Affitto posto letto a 7 minuti dalla metro battistini",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos, contact information, and specific details about the room, but it seems to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T19:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2144039282786691/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25db5f64-9329-81ce-b595-f3f0f2cf11a3",
       "title": "Apartment for Rent in San Lorenzo",
@@ -2109,7 +2126,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T03:09:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1333037508487940/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/538899637_122223537788148580_3362195246743094111_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=L5c2XW3LhuQQ7kNvwFHZy1x&_nc_oc=Adm7t4kH4jEMxH4wtEKneBTET-UvUPcjz_rcSELB5T4CHbwfP4sDqfT6tvLwsl4f1VU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=dWK_I5ovsjh8SXE6Xpl5Qg&oh=00_AfUrlsMmjv7dkPXkspv6t8vHyh4ll1mzXBS-GI3vsFSMVA&oe=68B44DC8"
     },
     {

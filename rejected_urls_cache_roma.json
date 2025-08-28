@@ -1843,8 +1843,32 @@
     "https://www.facebook.com/groups/1800846897105933/posts/2144005179456768/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T18:38:48.852130"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1335065831618441/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:22:55.084282"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1335063538285337/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:22:55.086660"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2144054029451883/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:23:34.937626"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2144051269452159/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:23:34.940068"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2144047352785884/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:23:34.944046"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2143898886134064/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T19:24:17.105150"
     }
   },
-  "total_rejected_count": 461,
-  "timestamp": "2025-08-28T18:38:35.183264"
+  "total_rejected_count": 467,
+  "timestamp": "2025-08-28T19:22:38.391524"
 }
