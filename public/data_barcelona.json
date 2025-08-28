@@ -1,9 +1,111 @@
 {
-  "generatedAt": "2025-08-28T10:37:43.542Z",
+  "generatedAt": "2025-08-28T11:39:06.542Z",
   "city": "barcelona",
-  "count": 642,
-  "totalRejectedCount": 1062,
+  "count": 648,
+  "totalRejectedCount": 1072,
   "results": [
+    {
+      "id": "25db5f64-9329-818e-bc01-e815ce737a0d",
+      "title": "Room for rent in a renovated apartment in Guinardo",
+      "overview": "A renovated room for rent in Guinardo, requiring a one-month security deposit, with a contact number for visit coordination",
+      "description": "Alquiler Habitacion en piso reformado nuevo a estrenar en guinardo 450 € se requiere un mes de fianza, enviar un WhatsApp para coordinar hora de visita, [PHONE NUMBER CENSORED]",
+      "price": "450 €",
+      "zone": "Guinardo",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "This post contains a clear description of the rental, a price, and a contact number, with a photo of the room, indicating a low risk of scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2183307428849993/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel11-3.fna.fbcdn.net/v/t39.30808-6/515439127_25374560335467259_1727994662400044093_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=U4YORF5FdhcQ7kNvwFdoglO&_nc_oc=Adl8QxghcOoAtqozK3e5Ae1jiukPegvn0JhVn_c6B0lQOOtogUbhNdOlIzAjdIGGoVp57tV4Tr90F3GrElLEXJ41&_nc_zt=23&_nc_ht=scontent.fdel11-3.fna&_nc_gid=RYuaeZmP5ERSbpaxGBwx8g&oh=00_AfWEeJQBCGmx0c_ULLpndFG1kiELYIk6pKp131CPWfgXEw&oe=68B60CAD"
+    },
+    {
+      "id": "25db5f64-9329-81f6-95ac-c97501976eba",
+      "title": "Individual room for rent for a responsible male",
+      "overview": "The post is about renting an individual room to a male, with a stable job, who is sociable and respectful, the room has a balcony and is located in the Plaza Virrei Amat area of Barcelona.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat (Barcelona)",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information, including photos, contact information, and a clear description of the room and its location, which increases its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020329641629995/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540449370_10234183913072169_8699502089644331384_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ABS69C2zqBsQ7kNvwFcFpaX&_nc_oc=AdktkhSRu_veH_elt0n9i9K8YuY12GuU1me-FhRyap3XYUR6PzbTyNlUThi0RndSOm0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=0w5TfjRx56xLF7e9SZU-bw&oh=00_AfVtI83K2P3nJksX-Of9we51hbFZy8SEEpqggeL6I3uhPg&oe=68B60A19"
+    },
+    {
+      "id": "25db5f64-9329-817f-99bf-d66042632ee2",
+      "title": "Room for rent for one person",
+      "overview": "A room is available for rent, located near La Sagrada Familia, suitable for a single person who works and does not have vices, with a 100€ deposit required",
+      "description": "Se alquila Habitación para persona sola que trabaje y no tenga vicios porque hay un niño en casa , está ubicada Serca de la sagrada familia y se piden 100€ de fianza.",
+      "price": "N/A",
+      "zone": "Near La Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some relevant information, including location and deposit amount, but lacks details about the room and the rental agreement, and does not include photos",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075508884754643/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539676353_24460700080262915_7553955855713515248_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DmELOaZxT_cQ7kNvwFMb7IR&_nc_oc=AdkEp7oWp9el7bwbzQZkNqAcjW89YH4l2ISGhvD3378j84b4_5IqPs6jbQwgRLN6tfY&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=t95QUbU7-4HCP12jjjhqDw&oh=00_AfWInb-val1_r2uOqAgzVD2ylqvR-mZTZK3r0akLv5bl_w&oe=68B60774"
+    },
+    {
+      "id": "25db5f64-9329-81f0-90fa-d372f4290f6d",
+      "title": "Room for rent for a woman in Barcelona",
+      "overview": "A room is available for rent in a quiet and family-friendly environment, near public transportation and commerce",
+      "description": "Alquilo habitación para mujer a 350 euros. Gasto de servicio no incluidos , entrada para el 15 de septiembre , Escribe al [MESSAGING CONTACT CENSORED], ambiente tranquilo y familiar, pocas personas en el piso, cerca de la línea 5 el carmelo, cerca de paradas de autobuses y comercio. Que sea una persona limpia, ordenada, de buena convivencia y estable y que trabaje y con referencias",
+      "price": "350 euros",
+      "zone": "Near line 5, El Carmelo",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides sufficient information, includes a photo, and has a specific contact method, but the reliability score is not 5 because the post could be improved with more details about the room and the renting process",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075516228087242/",
+      "status": "active",
+      "imageUrl": "https://external-cdg4-1.xx.fbcdn.net/emg1/v/t13/4271407287196463476?url=https%3A%2F%2Fes.nextdoor.com%2Flink_preview_image%2F1%2FW3nGyYPSB4Xr%3Fshare_platform%3Dnull%2F&fb_obo=1&utld=nextdoor.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=z9qT5JWYtnflKbF_Dpcvag&_nc_oc=AdnTDrRITmyuHgt3p3PprUMFe4NiDf3-gCJabziCp7uZu4Sj_kIDtMSEWYJekBd2-CQ&ccb=13-1&oh=06_Q3-2ARsrm2huWnmmXKyJUp3SSbL9nhMB3-QxtdMxTvE-eYNG&oe=68B20424&_nc_sid=085657"
+    },
+    {
+      "id": "25db5f64-9329-81a1-9bfa-d0e123099345",
+      "title": "Room for rent for one boy",
+      "overview": "Room for rent for one boy, available on September 1st, located in Badalona la Salud, two streets from the metro",
+      "description": "Habitación para chico disponible para el 1ro de septiembre En badalona la salud A dos calles del metro",
+      "price": "N/A",
+      "zone": "Badalona la Salud",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post includes some information about the room, but the price is not specified, there are no photos, and the contact information is not explicitly stated, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4304745933091249/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25db5f64-9329-8192-8f40-fff2b9ff829b",
+      "title": "Room for rent for one girl",
+      "overview": "Room for rent for one girl, price includes water, electricity, gas, and WiFi, located in Via Julia L4, Trinitat Nova L3, available on September 5th",
+      "description": "SE ALQUILA HABITACIÓN A 1 CHICA A 350€ CON GASTOS INCLUIDOS … AGUA, LUZ,GAS ,WIFI ZONA: VÍA JULIA L4. - TRINITAT NOVA L3 DISPONIBLE EL 5 DE SETIEMBRE",
+      "price": "350€",
+      "zone": "Vía Julia L4, Trinitat Nova L3",
+      "zoneMacro": "Nou Barris",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description of the room, price, and location, and has a photo, but it's a Facebook post and the contact information is not explicitly stated, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T11:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4304756639756845/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc5-2.fna.fbcdn.net/v/t39.30808-6/539447112_1326031395755583_5748478426189941042_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lTraciYLs1AQ7kNvwFfmjrR&_nc_oc=AdmwPQfskAzKUTZdFmYzJr7D-JlT5E1hXqryLsLKsCSZW5g-ZiNEHo_Zx0-vCimUZ8TnWz-QLo2b9IvS8dIKJ4uo&_nc_zt=23&_nc_ht=scontent.fixc5-2.fna&_nc_gid=dg3F9mpjnI14_BQeERtXaA&oh=00_AfX-IS-VdccHxbC_LWeMaxPE2NyMGmcuIqd-TXJbFGNPDw&oe=68B617C9"
+    },
     {
       "id": "25db5f64-9329-813d-a99b-ea8d2c7edac1",
       "title": "Furnished Studio Apartment in El Raval for Rent",
@@ -460,7 +562,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T22:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4304256646473511/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel35-1.fna.fbcdn.net/v/t39.30808-6/514261418_4214376852174538_2769193561978308793_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cqbkmwK9FQoQ7kNvwFTHXcU&_nc_oc=AdnoLSCu_rLpbab2mNydLtp4DQZtHM2RD8AJ8CCyaf4Bmp84vEqtJYBw4S5TuxmEi2U&_nc_zt=23&_nc_ht=scontent.fdel35-1.fna&_nc_gid=Ry4mEOk2nlKqxDG1hmBl6w&oh=00_AfWxAPoMLsZ2_1FPQxi50POpUile78XZHrc7rz-a6Q4uDA&oe=68B53577"
     },
     {
@@ -749,7 +851,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T17:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4020565488273077/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fudr3-2.fna.fbcdn.net/v/t39.30808-6/539074466_25368544819402144_1407901199830687463_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=f0sMEE_SHtgQ7kNvwFaalq4&_nc_oc=AdlzwL2ejEA7m6JsLnA-tMge0DLqIuCumZ6ElBrxk40beHY2Uudb0sgmcb7x2RMEMWywFgzLdqw8tIDmq2EP9EAQ&_nc_zt=23&_nc_ht=scontent.fudr3-2.fna&_nc_gid=8HC1rXC4xo2FYbk8zuKNQg&oh=00_AfUT3ImyqPjUzQ5Ue7QNsanB24LbUyK9Y2QQbqTs7IBMEw&oe=68B4F97D"
     },
     {
@@ -953,7 +1055,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T12:49:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2182539212260148/",
-      "status": "verification_needed",
+      "status": "expired",
       "imageUrl": "https://scontent.fccu2-3.fna.fbcdn.net/v/t39.30808-6/540027852_10234183920792362_6999874339830366966_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4GKxrwO9E64Q7kNvwFL7Qg6&_nc_oc=AdmLlgb2OUJXXcTSIRnV9u2zEecWvyV9lrwkEhO-KtorYdNbwRqPH7Gelbp9ndfaKyc&_nc_zt=23&_nc_ht=scontent.fccu2-3.fna&_nc_gid=E6ZD3lAnXgiFAju9mDOvqw&oh=00_AfUdiQxXpYUvo0od-EdxtxJX0KlFF784cXIEChWIBgBw2Q&oe=68B4C1C0"
     },
     {
@@ -1106,7 +1208,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T11:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074634031508795/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -2432,7 +2534,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T17:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074121224893409/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -5390,7 +5492,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1070837274812569/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -6087,7 +6189,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4300267553539087/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -6937,7 +7039,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-23T22:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4299614703604372/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -9096,7 +9198,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-22T06:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4296833223882520/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
