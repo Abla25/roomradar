@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-28T13:03:47.952Z",
+  "generatedAt": "2025-08-28T13:42:37.896Z",
   "city": "barcelona",
-  "count": 655,
-  "totalRejectedCount": 1074,
+  "count": 656,
+  "totalRejectedCount": 1082,
   "results": [
+    {
+      "id": "25db5f64-9329-8104-af4a-e54164184e94",
+      "title": "Furnished Room for Rent in Shared Apartment",
+      "overview": "A spacious and comfortable furnished room is available for rent in a quiet shared apartment, with a double bed, wardrobe, and TV, and access to a fully equipped kitchen and shared bathroom.",
+      "description": "Habitación amueblada en piso compartido – ¡Ubicación inmejorable! Descripción: “Se alquila habitación amplia y cómoda, amueblada, en un piso tranquilo. Para persona sola o pareja respetuosos ,limpios y ordenados .La habitación cuenta con cama doble , armario, mesa de noche,estanterías y televisor pequeño. El piso dispone de cocina equipada, salón acogedor y baño compartido. Ubicación excelente: a solo 5 minutos del metrolinea 1 Mercat nou y santa eulalia ,a 10 minutos de plaza de Sans cerca de paradas de autobúses, supermercados, gimnasios y zonas de ocio. Gastos incluidos (agua, luz, internet). ¡Listo para entrar a vivir!” A partir del 4 de septiembre",
+      "price": "N/A",
+      "zone": "Near metro Mercat Nou and Santa Eulalia",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a detailed description of the room and apartment, includes photos, and specifies the location and amenities, but the price is not mentioned.",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T13:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1073887967840833/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539591863_1293073342224831_6567416139618707946_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xtosHs3W70EQ7kNvwENhMK6&_nc_oc=Adn30_EOOsgb02KavCOKJIqoVxflLuxLBYZEm9ADl2Ao8J96Lvw7eCv2OKP_rdiKpcQ&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=51cd5VFUKTrP4bvHa1uCGw&oh=00_AfVIsMMiu1EwuiO2fu-0nJLTM7Xh6RqK3uCfZLfNqErTtw&oe=68B60B8E"
+    },
     {
       "id": "25db5f64-9329-8137-ae89-fd2e0b0e01d0",
       "title": "Room for rent for girls only in El Carmel, Barcelona",
