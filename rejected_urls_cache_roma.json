@@ -1219,8 +1219,12 @@
     "https://www.facebook.com/groups/AffittoCaseRoma/posts/30956688693975890/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T03:07:39.413066"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2143529032837716/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T05:24:35.802241"
     }
   },
-  "total_rejected_count": 305,
-  "timestamp": "2025-08-28T04:29:41.155421"
+  "total_rejected_count": 306,
+  "timestamp": "2025-08-28T05:23:56.094039"
 }
