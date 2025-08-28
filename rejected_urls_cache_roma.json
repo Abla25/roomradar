@@ -1835,8 +1835,16 @@
     "https://www.facebook.com/groups/AffittoCaseRoma/posts/30971596992485060/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T17:27:47.077944"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2144009586122994/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T18:38:48.849715"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2144005179456768/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-28T18:38:48.852130"
     }
   },
-  "total_rejected_count": 459,
-  "timestamp": "2025-08-28T17:21:35.587599"
+  "total_rejected_count": 461,
+  "timestamp": "2025-08-28T18:38:35.183264"
 }
