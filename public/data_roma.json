@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-28T22:34:13.238Z",
+  "generatedAt": "2025-08-28T23:32:27.500Z",
   "city": "roma",
-  "count": 161,
-  "totalRejectedCount": 507,
+  "count": 162,
+  "totalRejectedCount": 514,
   "results": [
+    {
+      "id": "25db5f64-9329-8181-8017-e201d34236a9",
+      "title": "Private bathroom room for rent in Prati area",
+      "overview": "Room for rent with private bathroom in a newly renovated apartment in the Prati area. Contact for more information.",
+      "description": "Affitto stanza con bagno privato in zona prati in appartamento appena ristrutturato. Scrivetemi in privato per maggiorni informazioni.",
+      "price": "N/A",
+      "zone": "Prati",
+      "zoneMacro": "Prati",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it seems to be a genuine rental listing. The contact information is also not explicitly provided, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T23:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2730162570516044/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25db5f64-9329-81c0-9cbc-d195505918ca",
       "title": "Large room for rent in a shared apartment",
