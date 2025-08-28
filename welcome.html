@@ -90,7 +90,7 @@
 
     .cities-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
@@ -213,6 +213,7 @@
 
       .cities-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
       }
 
       .city-card {
@@ -272,6 +273,13 @@
         icon: "🇮🇹",
         dataFile: "public/data_roma.json",
         activeListings: 0
+      },
+      london: {
+        name: "London",
+        description: "England, UK",
+        icon: "🇬🇧",
+        dataFile: "public/data_london.json",
+        activeListings: 0
       }
     };
 
@@ -309,6 +317,15 @@
           const activeListings = romaData.results ? 
             romaData.results.filter(l => l.status !== "expired" && l.status !== "verification_needed").length : 0;
           CITIES.roma.activeListings = activeListings;
+        }
+        
+        // Carica dati per Londra
+        const londonResponse = await fetch('public/data_london.json');
+        if (londonResponse.ok) {
+          const londonData = await londonResponse.json();
+          const activeListings = londonData.results ? 
+            londonData.results.filter(l => l.status !== "expired" && l.status !== "verification_needed").length : 0;
+          CITIES.london.activeListings = activeListings;
         }
       } catch (error) {
         console.log('Could not load active listings:', error);

@@ -7,6 +7,7 @@
 ### 🏙️ **Sistema Multi-Città**
 - **Barcelona** 🇪🇸 (Catalonia, Spagna)
 - **Roma** 🇮🇹 (Lazio, Italia)
+- **London** 🇬🇧 (England, UK)
 - **Facilmente estendibile** per nuove città
 
 ### 🤖 **Intelligenza Artificiale**
@@ -61,6 +62,11 @@ RSS_URL_ROMA_1=https://roma-feed1.com/feed
 RSS_URL_ROMA_2=https://roma-feed2.com/feed
 RSS_URL_ROMA_3=https://roma-feed3.com/feed
 # ... aggiungi quanti ne servono
+
+RSS_URL_LONDON_1=https://london-feed1.com/feed
+RSS_URL_LONDON_2=https://london-feed2.com/feed
+RSS_URL_LONDON_3=https://london-feed3.com/feed
+# ... aggiungi quanti ne servono
 ```
 
 #### **Analisi AI:**
@@ -93,9 +99,12 @@ notion-rss-bot/
 │
 ├── 📊 Dati
 │   ├── public/
-│   │   └── data_barcelona.json # Dati frontend per Barcelona
+│   │   ├── data_barcelona.json # Dati frontend per Barcelona
+│   │   ├── data_roma.json      # Dati frontend per Roma
+│   │   └── data_london.json    # Dati frontend per Londra
 │   ├── rejected_urls_cache_barcelona.json  # Cache URL scartati Barcelona
-│   └── rejected_urls_cache_roma.json       # Cache URL scartati Roma
+│   ├── rejected_urls_cache_roma.json       # Cache URL scartati Roma
+│   └── rejected_urls_cache_london.json     # Cache URL scartati Londra
 │
 ├── 🔧 Scripts
 │   └── scripts/fetch_notion.js # Script Node.js per fetch Notion

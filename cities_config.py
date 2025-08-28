@@ -179,6 +179,175 @@ CITIES = {
                 "eur", "europe", "via cristoforo colombo", "piazza marconi", "laghetto dell eur"
             ]
         }
+    ),
+    
+    "london": CityConfig(
+        name="london",
+        display_name="London",
+        notion_database_id=os.environ.get("NOTION_DATABASE_ID_LONDON"),
+        macro_zones=[
+            "Central London", "West London", "East London", "North London", "South London",
+            "Camden", "Hackney", "Islington", "Lambeth", "Southwark", "Tower Hamlets",
+            "Westminster", "Kensington and Chelsea", "Hammersmith and Fulham", "Wandsworth",
+            "Richmond upon Thames", "Kingston upon Thames", "Merton", "Sutton", "Croydon",
+            "Bromley", "Lewisham", "Greenwich", "Bexley", "Havering", "Barking and Dagenham",
+            "Redbridge", "Waltham Forest", "Haringey", "Enfield", "Barnet", "Harrow",
+            "Brent", "Ealing", "Hounslow", "Hillingdon"
+        ],
+        rss_urls=[],  # I feed RSS vengono caricati dinamicamente da get_rss_urls()
+        zone_mapping={
+            "Central London": [
+                "central london", "soho", "covent garden", "leicester square", "piccadilly circus",
+                "oxford street", "regent street", "bond street", "mayfair", "marylebone",
+                "fitzrovia", "holborn", "bloomsbury", "st james", "westminster", "trafalgar square"
+            ],
+            "West London": [
+                "west london", "chelsea", "kensington", "notting hill", "holland park",
+                "earls court", "fulham", "hammersmith", "chiswick", "acton", "ealing",
+                "brentford", "isleworth", "twickenham", "richmond", "kew", "putney"
+            ],
+            "East London": [
+                "east london", "shoreditch", "hoxton", "spitalfields", "whitechapel",
+                "brick lane", "bethnal green", "mile end", "bow", "poplar", "canary wharf",
+                "limehouse", "wapping", "stepney", "stratford", "hackney", "dalston"
+            ],
+            "North London": [
+                "north london", "camden", "kentish town", "hampstead", "highgate",
+                "archway", "tufnell park", "finsbury park", "stoke newington", "clapton",
+                "hackney", "islington", "angel", "canonbury", "highbury", "finsbury"
+            ],
+            "South London": [
+                "south london", "brixton", "clapham", "battersea", "wandsworth",
+                "putney", "fulham", "hammersmith", "chelsea", "kensington", "earls court",
+                "vauxhall", "kennington", "elephant and castle", "bermondsey", "rotherhithe"
+            ],
+            "Camden": [
+                "camden", "camden town", "kentish town", "hampstead", "highgate",
+                "archway", "tufnell park", "finsbury park", "stoke newington", "clapton"
+            ],
+            "Hackney": [
+                "hackney", "dalston", "stoke newington", "clapton", "homerton",
+                "hackney wick", "london fields", "victoria park", "bethnal green"
+            ],
+            "Islington": [
+                "islington", "angel", "canonbury", "highbury", "finsbury",
+                "barnsbury", "upper street", "essex road", "newington green"
+            ],
+            "Lambeth": [
+                "lambeth", "brixton", "clapham", "battersea", "vauxhall",
+                "kennington", "elephant and castle", "stockwell", "oval"
+            ],
+            "Southwark": [
+                "southwark", "bermondsey", "rotherhithe", "canada water", "surrey quays",
+                "peckham", "nunhead", "east dulwich", "west dulwich", "herne hill"
+            ],
+            "Tower Hamlets": [
+                "tower hamlets", "whitechapel", "brick lane", "spitalfields", "shoreditch",
+                "hoxton", "bethnal green", "mile end", "bow", "poplar", "canary wharf",
+                "limehouse", "wapping", "stepney", "stratford"
+            ],
+            "Westminster": [
+                "westminster", "soho", "covent garden", "leicester square", "piccadilly circus",
+                "oxford street", "regent street", "bond street", "mayfair", "marylebone",
+                "fitzrovia", "holborn", "bloomsbury", "st james", "trafalgar square"
+            ],
+            "Kensington and Chelsea": [
+                "kensington and chelsea", "chelsea", "kensington", "notting hill", "holland park",
+                "earls court", "knightsbridge", "south kensington", "brompton"
+            ],
+            "Hammersmith and Fulham": [
+                "hammersmith and fulham", "hammersmith", "fulham", "chelsea harbour",
+                "parsons green", "putney bridge", "barons court", "west kensington"
+            ],
+            "Wandsworth": [
+                "wandsworth", "putney", "wandsworth town", "battersea", "clapham junction",
+                "earlsfield", "southfields", "wimbledon", "tooting", "balham"
+            ],
+            "Richmond upon Thames": [
+                "richmond upon thames", "richmond", "kew", "twickenham", "strawberry hill",
+                "teddington", "hampton", "hampton hill", "petersham", "mortlake"
+            ],
+            "Kingston upon Thames": [
+                "kingston upon thames", "kingston", "new malden", "surbiton", "tolworth",
+                "chessington", "hook", "long ditton", "thames ditton"
+            ],
+            "Merton": [
+                "merton", "wimbledon", "mitcham", "morden", "colliers wood",
+                "south wimbledon", "raynes park", "wimbledon park"
+            ],
+            "Sutton": [
+                "sutton", "carshalton", "cheam", "wallington", "beddington",
+                "hackbridge", "belmont", "south sutton", "north cheam"
+            ],
+            "Croydon": [
+                "croydon", "south croydon", "east croydon", "west croydon", "north croydon",
+                "addiscombe", "selhurst", "thornton heath", "norbury", "purley"
+            ],
+            "Bromley": [
+                "bromley", "beckenham", "chislehurst", "orpington", "petts wood",
+                "sidcup", "bexleyheath", "dartford", "swanley", "biggin hill"
+            ],
+            "Lewisham": [
+                "lewicham", "deptford", "new cross", "lewisham town", "catford",
+                "forest hill", "honor oak", "sydenham", "penge", "anerley"
+            ],
+            "Greenwich": [
+                "greenwich", "greenwich town", "blackheath", "charlton", "woolwich",
+                "plumstead", "abbey wood", "thamesmead", "eltham", "kidbrooke"
+            ],
+            "Bexley": [
+                "bexley", "bexleyheath", "sidcup", "welling", "dartford",
+                "erith", "belvedere", "barnehurst", "crayford", "slade green"
+            ],
+            "Havering": [
+                "havering", "romford", "hornchurch", "upminster", "rainham",
+                "emerson park", "harold hill", "harold wood", "collier row"
+            ],
+            "Barking and Dagenham": [
+                "barking and dagenham", "barking", "dagenham", "becontree", "chadwell heath",
+                "marks gate", "rush green", "valentines", "goodmayes"
+            ],
+            "Redbridge": [
+                "redbridge", "ilford", "wanstead", "woodford", "south woodford",
+                "barkingside", "fairlop", "hainault", "chigwell", "buckhurst hill"
+            ],
+            "Waltham Forest": [
+                "waltham forest", "walthamstow", "leyton", "leytonstone", "chingford",
+                "wood street", "highams park", "south woodford", "snaresbrook"
+            ],
+            "Haringey": [
+                "haringey", "tottenham", "wood green", "hornsey", "crouch end",
+                "muswell hill", "alexandra palace", "bounds green", "noel park"
+            ],
+            "Enfield": [
+                "enfield", "enfield town", "southgate", "palmers green", "winchmore hill",
+                "edmonton", "bush hill park", "lower edmonton", "upper edmonton"
+            ],
+            "Barnet": [
+                "barnet", "finchley", "hendon", "mill hill", "edgware",
+                "colindale", "burnt oak", "golders green", "hampstead garden suburb"
+            ],
+            "Harrow": [
+                "harrow", "harrow on the hill", "wealdstone", "kenton", "harrow weald",
+                "pinner", "north harrow", "south harrow", "west harrow", "headstone"
+            ],
+            "Brent": [
+                "brent", "wembley", "willesden", "kensal rise", "kensal green",
+                "harlesden", "neasden", "dollis hill", "cricklewood", "kingsbury"
+            ],
+            "Ealing": [
+                "ealing", "ealing broadway", "acton", "hanwell", "southall",
+                "northolt", "greenford", "perivale", "west ealing", "ealing common"
+            ],
+            "Hounslow": [
+                "hounslow", "hounslow town", "isleworth", "brentford", "chiswick",
+                "feltham", "hanworth", "cranford", "hatton", "bedfont"
+            ],
+            "Hillingdon": [
+                "hillingdon", "uxbridge", "hayes", "west drayton", "yiewsley",
+                "cowley", "hillingdon", "ruislip", "eastcote", "northwood"
+            ]
+        }
     )
 }
 

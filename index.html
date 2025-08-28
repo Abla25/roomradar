@@ -1769,7 +1769,8 @@
     // City display names mapping
     const cityNames = {
       barcelona: "Barcelona",
-      roma: "Rome"
+      roma: "Rome",
+      london: "London"
     };
 
     // Force refresh to avoid cache
@@ -1825,14 +1826,14 @@
       const urlParams = new URLSearchParams(window.location.search);
       const cityFromUrl = urlParams.get('city');
       
-      if (cityFromUrl && ['barcelona', 'roma'].includes(cityFromUrl)) {
+      if (cityFromUrl && ['barcelona', 'roma', 'london'].includes(cityFromUrl)) {
         localStorage.setItem('selectedCity', cityFromUrl);
         return cityFromUrl;
       }
       
       // Prova localStorage
       const savedCity = localStorage.getItem('selectedCity');
-      if (savedCity && ['barcelona', 'roma'].includes(savedCity)) {
+      if (savedCity && ['barcelona', 'roma', 'london'].includes(savedCity)) {
         return savedCity;
       }
       
@@ -1862,7 +1863,7 @@
       const userPreferences = JSON.parse(localStorage.getItem('userPreferences') || '{}');
       const userPref = userPreferences[userFingerprint];
       
-      if (userPref && userPref.city && ['barcelona', 'roma'].includes(userPref.city)) {
+      if (userPref && userPref.city && ['barcelona', 'roma', 'london'].includes(userPref.city)) {
         return userPref.city;
       }
       
@@ -1873,7 +1874,8 @@
     function updateCityTitle() {
       const cityNames = {
         'barcelona': 'Barcelona',
-        'roma': 'Rome'
+        'roma': 'Rome',
+        'london': 'London'
       };
       
       // Aggiorna il display della città nel pulsante
@@ -2552,11 +2554,13 @@
       const dropdown = document.getElementById('city-dropdown-menu');
       const cityIcons = {
         'barcelona': '🇪🇸',
-        'roma': '🇮🇹'
+        'roma': '🇮🇹',
+        'london': '🇬🇧'
       };
       const cityNames = {
         'barcelona': 'Barcelona',
-        'roma': 'Rome'
+        'roma': 'Rome',
+        'london': 'London'
       };
       
       // Pulisci il dropdown
