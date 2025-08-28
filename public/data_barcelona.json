@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-28T03:08:26.218Z",
+  "generatedAt": "2025-08-28T04:31:10.052Z",
   "city": "barcelona",
-  "count": 629,
-  "totalRejectedCount": 1028,
+  "count": 630,
+  "totalRejectedCount": 1033,
   "results": [
+    {
+      "id": "25db5f64-9329-812b-868d-d1572d6d61d7",
+      "title": "Room for rent for girls",
+      "overview": "Room for rent in Vila de Gracia, 500€ per month for one girl, 600€ for two girls, with expenses included",
+      "description": "Habitación para alquiler solo chicas una o dos Para una chica 500€ con gastos incluidos para dos chicas 600€ el mes con gastos incluidos , Requisitos ✅ un mes de depósito Ubicación Vila de Gracia cerca de metro Fontana Calle verdi. Mas info whtap [PHONE NUMBER CENSORED]",
+      "price": "500€/600€",
+      "zone": "Vila de Gracia",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, price, and location, and includes a photo, but lacks additional information and contacts",
+      "datePublished": "",
+      "dateAdded": "2025-08-28T04:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075176961454502/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbep2-1.fna.fbcdn.net/v/t39.30808-6/538778069_10225098653572220_2930099058120311017_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=77z7TPAbYsMQ7kNvwHWVTjB&_nc_oc=Adm6XpQecjKbDNzIJgwloMPjPzGzyf-JxUSqdTLArX-OFqrHMb8vjO0W69rhXzCHH5MvVUKVUHGV2ycm7QUl1Pom&_nc_zt=23&_nc_ht=scontent.fbep2-1.fna&_nc_gid=kUNVlXOO3uFSZ-9lOEa8rg&oh=00_AfVIllaF0ORj9e9rXW4rQqItcpHIN4vytjyuVEiLZFMPcA&oe=68B5B3A7"
+    },
     {
       "id": "25db5f64-9329-8138-8be1-ffed760cf81e",
       "title": "Luxury 2 Bedroom Apartment for Rent in Barcelona",
