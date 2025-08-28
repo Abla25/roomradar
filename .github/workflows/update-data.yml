@@ -30,6 +30,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           # Feed RSS specifici per città
           RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
@@ -44,6 +45,12 @@ jobs:
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
           RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+          RSS_URL_LONDON_1: ${{ secrets.RSS_URL_LONDON_1 }}
+          RSS_URL_LONDON_2: ${{ secrets.RSS_URL_LONDON_2 }}
+          RSS_URL_LONDON_3: ${{ secrets.RSS_URL_LONDON_3 }}
+          RSS_URL_LONDON_4: ${{ secrets.RSS_URL_LONDON_4 }}
+          RSS_URL_LONDON_5: ${{ secrets.RSS_URL_LONDON_5 }}
+          RSS_URL_LONDON_6: ${{ secrets.RSS_URL_LONDON_6 }}
         run: |
           echo "🏙️ Processing city: barcelona"
           CITY=barcelona python main.py
@@ -55,6 +62,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           # Feed RSS specifici per città
           RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
@@ -69,9 +77,47 @@ jobs:
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
           RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+          RSS_URL_LONDON_1: ${{ secrets.RSS_URL_LONDON_1 }}
+          RSS_URL_LONDON_2: ${{ secrets.RSS_URL_LONDON_2 }}
+          RSS_URL_LONDON_3: ${{ secrets.RSS_URL_LONDON_3 }}
+          RSS_URL_LONDON_4: ${{ secrets.RSS_URL_LONDON_4 }}
+          RSS_URL_LONDON_5: ${{ secrets.RSS_URL_LONDON_5 }}
+          RSS_URL_LONDON_6: ${{ secrets.RSS_URL_LONDON_6 }}
         run: |
           echo "🏙️ Processing city: roma"
           CITY=roma python main.py
+        continue-on-error: true
+
+      # Esegui lo script Python per Londra
+      - name: Esegui script Python per Londra
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Feed RSS specifici per città
+          RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
+          RSS_URL_BARCELONA_2: ${{ secrets.RSS_URL_BARCELONA_2 }}
+          RSS_URL_BARCELONA_3: ${{ secrets.RSS_URL_BARCELONA_3 }}
+          RSS_URL_BARCELONA_4: ${{ secrets.RSS_URL_BARCELONA_4 }}
+          RSS_URL_BARCELONA_5: ${{ secrets.RSS_URL_BARCELONA_5 }}
+          RSS_URL_BARCELONA_6: ${{ secrets.RSS_URL_BARCELONA_6 }}
+          RSS_URL_ROMA_1: ${{ secrets.RSS_URL_ROMA_1 }}
+          RSS_URL_ROMA_2: ${{ secrets.RSS_URL_ROMA_2 }}
+          RSS_URL_ROMA_3: ${{ secrets.RSS_URL_ROMA_3 }}
+          RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
+          RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
+          RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+          RSS_URL_LONDON_1: ${{ secrets.RSS_URL_LONDON_1 }}
+          RSS_URL_LONDON_2: ${{ secrets.RSS_URL_LONDON_2 }}
+          RSS_URL_LONDON_3: ${{ secrets.RSS_URL_LONDON_3 }}
+          RSS_URL_LONDON_4: ${{ secrets.RSS_URL_LONDON_4 }}
+          RSS_URL_LONDON_5: ${{ secrets.RSS_URL_LONDON_5 }}
+          RSS_URL_LONDON_6: ${{ secrets.RSS_URL_LONDON_6 }}
+        run: |
+          echo "🏙️ Processing city: london"
+          CITY=london python main.py
         continue-on-error: true
 
       - name: Usa Node 20
@@ -85,6 +131,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
         run: |
           echo "📥 Fetching Notion data for barcelona"
           CITY=barcelona node scripts/fetch_notion.js
@@ -96,9 +143,21 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
         run: |
           echo "📥 Fetching Notion data for roma"
           CITY=roma node scripts/fetch_notion.js
+
+      # Aggiorna data.json per Londra da Notion
+      - name: Esegui script Notion → data.json per Londra
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
+          NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
+        run: |
+          echo "📥 Fetching Notion data for london"
+          CITY=london node scripts/fetch_notion.js
 
       # Debug: mostra lo stato dei file prima del commit
       - name: Debug - Mostra stato file
@@ -119,6 +178,13 @@ jobs:
           else
             echo "File rejected_urls_cache_roma.json NON TROVATO!"
           fi
+          echo "=== Contenuto rejected_urls_cache_london.json ==="
+          if [ -f "rejected_urls_cache_london.json" ]; then
+            ls -la rejected_urls_cache_london.json
+            echo "📊 London cache size: $(wc -c < rejected_urls_cache_london.json) bytes"
+          else
+            echo "File rejected_urls_cache_london.json NON TROVATO!"
+          fi
           echo "=== Contenuto public/data_barcelona.json ==="
           if [ -f "public/data_barcelona.json" ]; then
             ls -la public/data_barcelona.json
@@ -134,6 +200,14 @@ jobs:
             echo "📊 Roma results count: $(jq '.results | length' public/data_roma.json 2>/dev/null || echo 'N/A')"
           else
             echo "File public/data_roma.json NON TROVATO!"
+          fi
+          echo "=== Contenuto public/data_london.json ==="
+          if [ -f "public/data_london.json" ]; then
+            ls -la public/data_london.json
+            echo "📊 London data size: $(wc -c < public/data_london.json) bytes"
+            echo "📊 London results count: $(jq '.results | length' public/data_london.json 2>/dev/null || echo 'N/A')"
+          else
+            echo "File public/data_london.json NON TROVATO!"
           fi
 
       # Forza il tracking dei file cache e data se esistono
@@ -163,6 +237,18 @@ jobs:
           else
             echo "⚠️ File data Roma non trovato"
           fi
+          if [ -f "rejected_urls_cache_london.json" ]; then
+            git add rejected_urls_cache_london.json
+            echo "✅ File cache London aggiunto al tracking"
+          else
+            echo "⚠️ File cache London non trovato"
+          fi
+          if [ -f "public/data_london.json" ]; then
+            git add public/data_london.json
+            echo "✅ File data London aggiunto al tracking"
+          else
+            echo "⚠️ File data London non trovato"
+          fi
 
       # Pull delle modifiche remote prima del commit
       - name: Pull modifiche remote
@@ -178,8 +264,10 @@ jobs:
           file_pattern: |
             public/data_barcelona.json
             public/data_roma.json
+            public/data_london.json
             rejected_urls_cache_barcelona.json
             rejected_urls_cache_roma.json
+            rejected_urls_cache_london.json
           commit_user_name: 'GitHub Action'
           commit_user_email: 'action@github.com'
           commit_options: '--no-verify'

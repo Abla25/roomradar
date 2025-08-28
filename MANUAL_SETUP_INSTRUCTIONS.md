@@ -15,6 +15,7 @@ Configura i seguenti secrets nel tuo repository GitHub:
 #### **Database Notion per ogni città:**
 - `NOTION_DATABASE_ID_BARCELONA` = your_barcelona_database_id
 - `NOTION_DATABASE_ID_ROMA` = your_roma_database_id
+- `NOTION_DATABASE_ID_LONDON` = your_london_database_id
 
 #### **RSS Feeds per Barcelona (aggiungi quanti ne servono):**
 - `RSS_URL_BARCELONA_1` = https://example.com/barcelona-feed-1
@@ -30,20 +31,30 @@ Configura i seguenti secrets nel tuo repository GitHub:
 - `RSS_URL_ROMA_4` = https://example.com/roma-feed-4
 - `RSS_URL_ROMA_5` = https://example.com/roma-feed-5
 
+#### **RSS Feeds per Londra (aggiungi quanti ne servono):**
+- `RSS_URL_LONDON_1` = https://example.com/london-feed-1
+- `RSS_URL_LONDON_2` = https://example.com/london-feed-2
+- `RSS_URL_LONDON_3` = https://example.com/london-feed-3
+- `RSS_URL_LONDON_4` = https://example.com/london-feed-4
+- `RSS_URL_LONDON_5` = https://example.com/london-feed-5
+
 **Nota**: I secrets sono automaticamente disponibili nei GitHub Actions e non sono visibili nel codice.
 
 **Città di default**: La città di default è configurata in `cities_config.py` nella funzione `get_default_city()`. Modifica quella funzione se vuoi cambiare la città di default.
 
-### 2. 📊 **Creazione File Data per Roma**
+### 2. 📊 **Creazione File Data per Roma e Londra**
 
-Il sistema ha bisogno di un file `public/data_roma.json` per Roma. Puoi:
+Il sistema ha bisogno di file `public/data_roma.json` e `public/data_london.json` per Roma e Londra. Puoi:
 
 **Opzione A - Generazione automatica:**
 ```bash
 # Imposta la variabile ambiente per Roma
 export CITY=roma
+python3 main.py
+node scripts/fetch_notion.js
 
-# Esegui lo script per generare i dati
+# Imposta la variabile ambiente per Londra
+export CITY=london
 python3 main.py
 node scripts/fetch_notion.js
 ```
@@ -51,6 +62,7 @@ node scripts/fetch_notion.js
 **Opzione B - File vuoto:**
 ```bash
 # echo '{"results": [], "totalRejectedCount": 0}' > public/data_roma.json
+# echo '{"results": [], "totalRejectedCount": 0}' > public/data_london.json
 ```
 
 ### 3. 🔄 **Aggiornamento Dati**
@@ -87,7 +99,7 @@ Il sistema è già configurato per il deploy automatico su GitHub Pages.
 #### **Verifica Funzionamento:**
 1. **GitHub Actions**: Vai su GitHub → Actions → `update-data.yml`
 2. **Verifica esecuzione**: Controlla che il workflow si esegua ogni ora
-3. **Verifica file**: Controlla che `data_barcelona.json` e `data_roma.json` vengano aggiornati
+3. **Verifica file**: Controlla che `data_barcelona.json`, `data_roma.json` e `data_london.json` vengano aggiornati
 4. **Verifica sito**: Il sito è disponibile su GitHub Pages
 
 #### **Se hai modifiche da pushare:**

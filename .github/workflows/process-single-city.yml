@@ -11,6 +11,7 @@ on:
         options:
           - barcelona
           - roma
+          - london
 
 permissions:
   contents: write
@@ -37,6 +38,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           # Feed RSS specifici per città
           RSS_URL_BARCELONA_1: ${{ secrets.RSS_URL_BARCELONA_1 }}
@@ -51,6 +53,12 @@ jobs:
           RSS_URL_ROMA_4: ${{ secrets.RSS_URL_ROMA_4 }}
           RSS_URL_ROMA_5: ${{ secrets.RSS_URL_ROMA_5 }}
           RSS_URL_ROMA_6: ${{ secrets.RSS_URL_ROMA_6 }}
+          RSS_URL_LONDON_1: ${{ secrets.RSS_URL_LONDON_1 }}
+          RSS_URL_LONDON_2: ${{ secrets.RSS_URL_LONDON_2 }}
+          RSS_URL_LONDON_3: ${{ secrets.RSS_URL_LONDON_3 }}
+          RSS_URL_LONDON_4: ${{ secrets.RSS_URL_LONDON_4 }}
+          RSS_URL_LONDON_5: ${{ secrets.RSS_URL_LONDON_5 }}
+          RSS_URL_LONDON_6: ${{ secrets.RSS_URL_LONDON_6 }}
         run: |
           echo "🏙️ Processing city: ${{ github.event.inputs.city }}"
           CITY=${{ github.event.inputs.city }} python main.py
@@ -67,6 +75,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID_BARCELONA: ${{ secrets.NOTION_DATABASE_ID_BARCELONA }}
           NOTION_DATABASE_ID_ROMA: ${{ secrets.NOTION_DATABASE_ID_ROMA }}
+          NOTION_DATABASE_ID_LONDON: ${{ secrets.NOTION_DATABASE_ID_LONDON }}
         run: |
           echo "📥 Fetching Notion data for ${{ github.event.inputs.city }}"
           CITY=${{ github.event.inputs.city }} node scripts/fetch_notion.js
