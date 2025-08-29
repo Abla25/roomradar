@@ -2067,19 +2067,37 @@
               </div>
             `;
             
-            newDropdown.style.cssText = `
-              position: fixed;
-              top: 50px;
-              left: 50px;
-              z-index: 9999999;
-              border: 5px solid red;
-              background: lime;
-              padding: 20px;
-              min-height: 100px;
-              min-width: 200px;
-              font-size: 20px;
-              font-weight: bold;
-            `;
+            // Position dropdown near the auth button
+            const authButton = document.getElementById('auth-button');
+            if (authButton) {
+              const rect = authButton.getBoundingClientRect();
+              newDropdown.style.cssText = `
+                position: fixed;
+                top: ${rect.bottom + 5}px;
+                right: ${window.innerWidth - rect.right}px;
+                z-index: 999999;
+                background: white;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+                min-width: 150px;
+                padding: 0;
+              `;
+            } else {
+              // Fallback position
+              newDropdown.style.cssText = `
+                position: fixed;
+                top: 80px;
+                right: 20px;
+                z-index: 999999;
+                background: white;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+                min-width: 150px;
+                padding: 0;
+              `;
+            }
             
             // Remove any existing dropdown
             const existingDropdown = document.getElementById('user-dropdown-menu-new');
@@ -2125,16 +2143,27 @@
     document.addEventListener('click', function(event) {
       const dropdown = document.getElementById('user-dropdown-menu');
       const userDropdown = document.querySelector('.user-dropdown');
+      const newDropdown = document.getElementById('user-dropdown-menu-new');
       
-      if (dropdown && userDropdown && !userDropdown.contains(event.target)) {
-        dropdown.style.display = 'none';
-        userDropdown.classList.remove('active');
+      // Check if click is outside both dropdowns and user dropdown
+      const isOutsideUserDropdown = userDropdown && !userDropdown.contains(event.target);
+      const isOutsideNewDropdown = newDropdown && !newDropdown.contains(event.target);
+      
+      if (isOutsideUserDropdown && isOutsideNewDropdown) {
+        if (dropdown) dropdown.style.display = 'none';
+        if (userDropdown) userDropdown.classList.remove('active');
+        if (newDropdown) {
+          newDropdown.remove();
+          console.log('🗑️ New dropdown removed on outside click');
+        }
       }
     });
 
     // Sign out
     async function signOutUser() {
       try {
+        console.log('🚪 Signing out user...');
+        
         // Close dropdown first
         const dropdown = document.getElementById('user-dropdown-menu');
         const userDropdown = document.querySelector('.user-dropdown');
@@ -2149,10 +2178,15 @@
         }
         
         await signOut(auth);
+        console.log('✅ Sign out successful');
       } catch (error) {
+        console.error('❌ Sign out error:', error);
         alert('Sign out error: ' + error.message);
       }
     }
+    
+    // Make signOutUser globally available
+    window.signOutUser = signOutUser;
 
     // Show auth button in header
     window.showAuthButton = function() {
