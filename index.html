@@ -2036,22 +2036,32 @@
       console.log('Dropdown element:', dropdown);
       console.log('User dropdown element:', userDropdown);
       
-      if (dropdown && userDropdown) {
-        if (dropdown.style.display === 'none' || !dropdown.style.display) {
-          console.log('📂 Opening dropdown');
-          dropdown.style.display = 'block';
-          userDropdown.classList.add('active');
-          
-          // Force reflow to ensure positioning
-          dropdown.offsetHeight;
+              if (dropdown && userDropdown) {
+          if (dropdown.style.display === 'none' || !dropdown.style.display) {
+            console.log('📂 Opening dropdown');
+            
+            // Position dropdown relative to auth button
+            const authButton = document.getElementById('auth-button');
+            if (authButton) {
+              const rect = authButton.getBoundingClientRect();
+              dropdown.style.position = 'fixed';
+              dropdown.style.top = (rect.bottom + 5) + 'px';
+              dropdown.style.right = (window.innerWidth - rect.right) + 'px';
+            }
+            
+            dropdown.style.display = 'block';
+            userDropdown.classList.add('active');
+            
+            // Force reflow to ensure positioning
+            dropdown.offsetHeight;
+          } else {
+            console.log('📁 Closing dropdown');
+            dropdown.style.display = 'none';
+            userDropdown.classList.remove('active');
+          }
         } else {
-          console.log('📁 Closing dropdown');
-          dropdown.style.display = 'none';
-          userDropdown.classList.remove('active');
+          console.log('❌ Dropdown elements not found');
         }
-      } else {
-        console.log('❌ Dropdown elements not found');
-      }
     };
 
     // Close dropdown when clicking outside
@@ -2093,6 +2103,7 @@
           right: 1rem;
           padding: 0.5rem 1rem;
           font-size: 0.8rem;
+          z-index: 1000;
         `;
         headerContent.appendChild(authButton);
         updateAuthUI();
@@ -2255,6 +2266,18 @@
               .dropdown-item svg {
                 color: #6b7280;
                 flex-shrink: 0;
+              }
+              
+              /* Responsive design for auth button */
+              @media (max-width: 768px) {
+                #auth-button {
+                  position: fixed !important;
+                  top: 0.5rem !important;
+                  right: 0.5rem !important;
+                  padding: 0.4rem 0.8rem !important;
+                  font-size: 0.75rem !important;
+                  z-index: 10000 !important;
+                }
               }
             `;
             document.head.appendChild(style);
