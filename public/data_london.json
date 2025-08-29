@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-29T06:44:48.220Z",
+  "generatedAt": "2025-08-29T07:27:55.632Z",
   "city": "london",
-  "count": 65,
+  "count": 67,
   "totalRejectedCount": 111,
   "results": [
+    {
+      "id": "25eb5f64-9329-8118-bbf8-f6d296197938",
+      "title": "Double Rooms for Rent in Whitechapel",
+      "overview": "Two spacious double rooms are available for rent in a 3-bedroom flat in Whitechapel, with bills included and a 10-minute walk to the station.",
+      "description": "2 spacious double rooms available now – £900 & £1050 (all bills included) in a 3 bedroom flat 10 mins from Whitechapel station. E1 3HH. £1050 room available to couples for £1150. Prime location: • 10 mins walk to Whitechapel Station (Elizabeth, Overground & District lines) • Easy access to the City, Canary Wharf & Shoreditch • Walking distance to Brick Lane, Spitalfields Market, and Bethnal Green Fully furnished rooms Bills included (WiFi, utilities, council tax) Seperate toilet and shower Available immediately Message to arrange a viewing today!",
+      "price": "£900-£1050",
+      "zone": "Whitechapel, E1 3HH",
+      "zoneMacro": "East London",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes photos, provides detailed information about the rooms and location, and seems to be a legitimate rental offer, but the lack of additional contact information or reviews prevents it from being rated higher.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T07:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111021392766073/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/539560384_24349525161341062_5991910372314020699_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vBL-ot8M5CkQ7kNvwHVleL9&_nc_oc=AdlrXt7r59EpA-swntK2LwATZX1OgrPu4DCFVB3OzBcoGrO_-GXgeeWi39Lxe128vEY&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=5GhdMUSDcjqIYawEleMIvw&oh=00_AfXPppmNT6Yapa7SHcJugnQAf56fa8aUj4m5Y7z-DxOrNQ&oe=68B72926"
+    },
+    {
+      "id": "25eb5f64-9329-8172-abbd-d133a2d974f7",
+      "title": "Room for Rent in Barking",
+      "overview": "A 35-year-old construction worker is renting out a room in a 1-bedroom flat in Barking, with bills included and a 7-minute walk to the station.",
+      "description": "🌟 Room Available – Barking (7 min to Station) 🌟 Hi everyone! I’m a 35-year-old construction worker looking for 1 flatmate to share a 1-bedroom flat in Barking. You’ll have the bedroom all to yourself, and I’ll stay in the lounge. ✅ Calm, tidy, clean, working person (M/F welcome) ✅ Quiet home – no parties, no overcrowding ✅ Bills included in the rent 📍 Only 7 minutes’ walk to Barking Station 📅 Available from 18th September 💷 Rent: £900 all in (I cover the rest!) If you’re looking for a clean, peaceful place with just one flatmate – this is perfect. 👉 DM me for more details or a viewing!",
+      "price": "£900",
+      "zone": "Barking",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide extensive details about the flat or the landlord, which raises some concerns about its legitimacy.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T07:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111027922765420/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25eb5f64-9329-8129-a478-cb181b09170a",
       "title": "Double room for rent in Upton Park",
@@ -69,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T05:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1421173725636812/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
