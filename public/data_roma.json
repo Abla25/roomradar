@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-29T09:34:59.141Z",
+  "generatedAt": "2025-08-29T10:37:02.932Z",
   "city": "roma",
-  "count": 175,
-  "totalRejectedCount": 548,
+  "count": 177,
+  "totalRejectedCount": 562,
   "results": [
+    {
+      "id": "25eb5f64-9329-8196-92c7-e415db034955",
+      "title": "Single Room for Rent in Portuense Area",
+      "overview": "A single room is available for rent in the Portuense area, located on the top floor with an elevator, and is described as bright and quiet",
+      "description": "Affittasi stanza singola zona portuense, ultimo piano con ascensore, luminosa silenziosa, vicino capolinea autobus 98,889,786,180 ecc. Ben collegata con zone: eur, San Pietro, ospedale San Camillo, stazione trastevere, boccea ecc. Solo uomini, NON FUMATORI. €450 mensili, compreso: corrente gas acqua condominio adsl, uso cucina e lavatrice. Nessuna altra spesa",
+      "price": "€450",
+      "zone": "Portuense",
+      "zoneMacro": "Trastevere",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and contains limited information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T10:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/244234206083096/posts/2178899465949884/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25eb5f64-9329-8144-8906-d11d10ba8563",
+      "title": "Furnished apartment for rent in Prenestina zone",
+      "overview": "A 70m² furnished apartment is available for rent in the Prenestina zone, with three rooms and amenities like a kitchen, bathroom, and balcony",
+      "description": "***** Si organizzano visite per l’inizio della prossima settimana. Per fissare una visita, contattare in privato. ***** ————————————————————— Affittasi da metà settembre appartamento arredato (70 m²) – zona Prenestina Si affitta intero appartamento arredato di 70 m² da condividere tra due sole ragazze. L’appartamento è composto da: • ingresso con grande armadio; • cucina con balconcino, utile anche per stendere i panni; • bagno con vasca e lavatrice; • una camera con letto matrimoniale; • una seconda camera più ampia con letto alla francese (sarà aggiunto a breve in sostituzione del divano); • una terza stanzetta con lettino singolo, ideale come spazio aggiuntivo o per eventuali ospiti. L’abitazione si trova in via Prenestina (più precisamente viale Ronchi), a pochi passi dalla metro C – Teano (che collega rapidamente al centro; a breve apertura fermata Colosseo) e dal tram 19, diretto all’Università La Sapienza.",
+      "price": "N/A",
+      "zone": "Prenestina",
+      "zoneMacro": "Centro Storico",
+      "rooms": "3",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the apartment, including its location, size, and amenities, and also includes a photo, which increases its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T10:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2144467766077176/",
+      "status": "active",
+      "imageUrl": "https://scontent.fpnq9-1.fna.fbcdn.net/v/t39.30808-6/540766878_10227133087969622_8485599957074944337_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OHn25OmFA4wQ7kNvwFTBKqS&_nc_oc=AdntC-HqEMCAkiKWyTnCvkdMl5za172kQsuSE_MaOgk0CWmgBa8csfrw45GTORL-8nU&_nc_zt=23&_nc_ht=scontent.fpnq9-1.fna&_nc_gid=-9aEu0nh9up10BbP7FQw7Q&oh=00_AfXzDW3i-EFFIIz1K4SVkTBVldwG0hpdJgJt6OZdTGsGXg&oe=68B74E7C"
+    },
     {
       "id": "25eb5f64-9329-81ee-9d98-cb80bbea414a",
       "title": "Sublet of a room near Tiburtina station",
@@ -69,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T08:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1707849393242841/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
