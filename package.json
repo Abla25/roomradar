@@ -1,10 +1,13 @@
 {
-  "name": "notion-rss-bot",
-  "version": "1.0.0",
+  "name": "roomradar",
+  "version": "2.0.0",
   "type": "module",
-  "description": "Bot per gestire RSS immobiliare con Notion",
-  "main": "main.py",
+  "description": "AI-powered student room finder with Firebase authentication",
+  "main": "index-new.html",
   "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod",
     "fetch": "node scripts/fetch_notion.js",
     "fetch:barcelona": "CITY=barcelona node scripts/fetch_notion.js",
     "fetch:roma": "CITY=roma node scripts/fetch_notion.js",
@@ -13,5 +16,10 @@
     "process:roma": "CITY=roma python main.py"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
