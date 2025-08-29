@@ -2029,15 +2029,28 @@
 
     // Toggle user dropdown
     window.toggleUserDropdown = function() {
+      console.log('🔄 Toggle dropdown called');
       const dropdown = document.getElementById('user-dropdown-menu');
       const userDropdown = document.querySelector('.user-dropdown');
       
-      if (dropdown.style.display === 'none' || !dropdown.style.display) {
-        dropdown.style.display = 'block';
-        userDropdown.classList.add('active');
+      console.log('Dropdown element:', dropdown);
+      console.log('User dropdown element:', userDropdown);
+      
+      if (dropdown && userDropdown) {
+        if (dropdown.style.display === 'none' || !dropdown.style.display) {
+          console.log('📂 Opening dropdown');
+          dropdown.style.display = 'block';
+          userDropdown.classList.add('active');
+          
+          // Force reflow to ensure positioning
+          dropdown.offsetHeight;
+        } else {
+          console.log('📁 Closing dropdown');
+          dropdown.style.display = 'none';
+          userDropdown.classList.remove('active');
+        }
       } else {
-        dropdown.style.display = 'none';
-        userDropdown.classList.remove('active');
+        console.log('❌ Dropdown elements not found');
       }
     };
 
@@ -2182,10 +2195,13 @@
             </div>
           `;
           
+          console.log('👤 User dropdown HTML created');
+          
           // Add dropdown styles if not already added
           if (!document.getElementById('user-dropdown-styles')) {
             const style = document.createElement('style');
             style.id = 'user-dropdown-styles';
+            console.log('🎨 Adding dropdown styles');
             style.textContent = `
               .user-dropdown {
                 position: relative;
@@ -2215,8 +2231,9 @@
                 border-radius: 8px;
                 box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
                 min-width: 150px;
-                z-index: 10000;
+                z-index: 99999;
                 overflow: hidden;
+                transform: translateZ(0);
               }
               .dropdown-item {
                 display: flex;
