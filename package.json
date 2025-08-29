@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "type": "module",
   "description": "AI-powered student room finder with Firebase authentication",
-  "main": "index-new.html",
+  "main": "index.html",
   "scripts": {
     "dev": "python -m http.server 8000",
     "build": "echo 'No build step required for static site'",
