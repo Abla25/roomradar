@@ -2047,6 +2047,16 @@
               dropdown.style.position = 'fixed';
               dropdown.style.top = (rect.bottom + 5) + 'px';
               dropdown.style.right = (window.innerWidth - rect.right) + 'px';
+              
+              // Debug: add a visible border to see if it's positioned correctly
+              dropdown.style.border = '2px solid red';
+              dropdown.style.background = 'yellow';
+              console.log('🎯 Dropdown positioned at:', {
+                top: dropdown.style.top,
+                right: dropdown.style.right,
+                position: dropdown.style.position,
+                zIndex: dropdown.style.zIndex
+              });
             }
             
             dropdown.style.display = 'block';
@@ -2234,17 +2244,17 @@
                 transform: rotate(180deg);
               }
               .user-dropdown-menu {
-                position: absolute;
-                top: calc(100% + 5px);
-                right: 0;
+                position: fixed;
+                top: auto;
+                right: 1rem;
                 background: white;
                 border: 1px solid #e5e7eb;
                 border-radius: 8px;
                 box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
                 min-width: 150px;
-                z-index: 99999;
-                overflow: hidden;
+                z-index: 999999;
                 transform: translateZ(0);
+                pointer-events: auto;
               }
               .dropdown-item {
                 display: flex;
