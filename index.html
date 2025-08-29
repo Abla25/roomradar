@@ -2042,15 +2042,18 @@
             
             // Position dropdown in a fixed, visible location
             dropdown.style.position = 'fixed';
-            dropdown.style.top = '80px';
-            dropdown.style.right = '20px';
-            dropdown.style.zIndex = '999999';
+            dropdown.style.top = '50px';
+            dropdown.style.left = '50px';
+            dropdown.style.zIndex = '9999999';
             
             // Debug: add a visible border to see if it's positioned correctly
-            dropdown.style.border = '3px solid red';
-            dropdown.style.background = 'yellow';
-            dropdown.style.padding = '10px';
-            dropdown.style.minHeight = '50px';
+            dropdown.style.border = '5px solid red';
+            dropdown.style.background = 'lime';
+            dropdown.style.padding = '20px';
+            dropdown.style.minHeight = '100px';
+            dropdown.style.minWidth = '200px';
+            dropdown.style.fontSize = '20px';
+            dropdown.style.fontWeight = 'bold';
             
             console.log('🎯 Dropdown positioned at fixed location:', {
               top: dropdown.style.top,
