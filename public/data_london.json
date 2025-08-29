@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-29T22:35:39.463Z",
+  "generatedAt": "2025-08-29T23:29:05.198Z",
   "city": "london",
-  "count": 121,
+  "count": 123,
   "totalRejectedCount": 180,
   "results": [
+    {
+      "id": "25eb5f64-9329-81bb-8abc-c9a78a7ab2e6",
+      "title": "Double room for couples in Wembley",
+      "overview": "A double room for couples or 3 people, located in Wembley, with all expenses included. The room is 15 minutes from the center of Wembley and has all the amenities of the area.",
+      "description": "🤩Deslumbrante Quarto Duplo para casais em Wembley 🤩 HA9 6DL ADEQUADO PARA CASAIS // Ou 3 pessoas, consulte o preço no chat 💸 £250 por semana ou £1.085 por mês Duas semanas de depósito e duas semanas de aluguel são necessárias. TODAS AS DESPESAS INCLUÍDAS 🚆 A 15 minutos do centro de Wembley 🏬 Todas as comodidades do centro de Wembley Entre em contato hoje mesmo Não perca essa oportunidade e agende uma visita ‪📞+4420 3745 8101‬ ou acesse link ‪https://wa.me/c/447[PHONE NUMBER CENSORED]‬",
+      "price": "£250 per week or £1,085 per month",
+      "zone": "Wembley",
+      "zoneMacro": "Brent",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, its location, and the rental terms, along with a photo of the room. The presence of a phone number and WhatsApp link for contact suggests a legitimate rental agreement.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T23:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1421973582223493/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-1.fna.fbcdn.net/v/t39.30808-6/539878484_1071330848505213_7097445885094681525_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=C3HxUwjuqncQ7kNvwEEhil-&_nc_oc=Adkd0VJr21hNVeCV0xomlVJVrPABDwLsxrBFsYYPbI8a08VOxPPb2l597UxYXmaiCyU&_nc_zt=23&_nc_ht=scontent.fluh1-1.fna&_nc_gid=M3wclbIyWIkmfmmdZNEu0A&oh=00_AfUdYaplz0Fba4VMPWFLF8WpvTqS5KDXBizneuLydNp9PQ&oe=68B7FC61"
+    },
+    {
+      "id": "25eb5f64-9329-81c2-9c55-e0a8db8298e2",
+      "title": "En-suite room for rent in Wembley, London",
+      "overview": "A newly refurbished en-suite room with a small double bed and shared kitchen, located 5 minutes from the tube station in Wembley, London. The contract is for 44 weeks at £275 per week, with the option to extend to £295 per week.",
+      "description": "Hello i have room you may be intrested in in london. its located in wembley 5 mins from the tube station which gets you into central london in 20 mins. the contract is 44 weeks at £275 per week which could be upped to £295 per week if the landlord chooses. either way it is a great deal. the place is newly refurbished and has great amenities. the payments are made in installments which would be set out in your contract. the start date is 13th september. also the room is an en-suite and has a small double be with shared kitchen. large number of students attend her from all different unis. great opportunity to make new friends and meet new people.😄message me if intrested. first payment would have to be made before the 13th of september and a guarantor is needed if you wish to pay in installments.",
+      "price": "£275 per week",
+      "zone": "Wembley, London",
+      "zoneMacro": "Brent",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, its location, and the rental terms, along with a photo of the room. The presence of a guarantor requirement and installment payments suggests a legitimate rental agreement.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T23:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1422004795553705/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel77-1.fna.fbcdn.net/v/t39.30808-6/538791358_729627913404297_7838218108153848484_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=sNN6xrC43PEQ7kNvwFJKLwT&_nc_oc=AdledaKgEv5pFJio_fTKQmCs4wAhhXV7CR61QhPF_IomknCtuySkkB2mIUr3ZZvVr5Q&_nc_zt=23&_nc_ht=scontent.fdel77-1.fna&_nc_gid=SZmPwFHCWPOiA8-Vlc1DVQ&oh=00_AfXlxJ5uObgFiAMYMy7hZB28i9SFe8CtPmTRv2E0wNLexQ&oe=68B7F46A"
+    },
     {
       "id": "25eb5f64-9329-81a6-8b95-ed9502c34241",
       "title": "Rooms for rent near Old Street",
@@ -86,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T22:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1422005512220300/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel77-1.fna.fbcdn.net/v/t39.30808-6/539354258_729631020070653_2100718260224159716_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=mhjkMm4LqF4Q7kNvwF32iKZ&_nc_oc=AdklSfJLLxoXqbls_TgJyE_7SkwZtxjx6-dPWmZ6GLZB3Jw6buMJEBfUkPl3K8tjoQA&_nc_zt=23&_nc_ht=scontent.fdel77-1.fna&_nc_gid=SZmPwFHCWPOiA8-Vlc1DVQ&oh=00_AfUouVuraPdihC8PmJHhr7cdH2icAz2YEwHe_uJ58xmHgw&oe=68B7E8AC"
     },
     {

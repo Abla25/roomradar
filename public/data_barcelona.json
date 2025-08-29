@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-29T22:35:33.784Z",
+  "generatedAt": "2025-08-29T23:29:00.503Z",
   "city": "barcelona",
-  "count": 817,
-  "totalRejectedCount": 1299,
+  "count": 820,
+  "totalRejectedCount": 1301,
   "results": [
+    {
+      "id": "25eb5f64-9329-8125-8d63-dcaa8eb5f2a1",
+      "title": "Room for Rent for Woman",
+      "overview": "A room with an exterior window is available for rent in a family-friendly environment, starting August 31st",
+      "description": "Se Alquila Habitación 🛏️para Mujer La habitación tiene Ventana Exterior🪟. Ambiente agradable y familiar Disponible 31 Agosto. Whatsapp 📲[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and contact information, and does not seem like a scam, but the price and zone are not specified",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T23:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076729914632540/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541260063_122295304574009435_37577428127491165_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=_Cqjc1WidwcQ7kNvwGMmmno&_nc_oc=AdkYsnNYTjAyR2oIcsYo1sxsokXNnJscwByZxHv_qlMT9ucSzHnpi2c-tU1z764Im9U&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=iNxJFe1QE6SOKUfCQx2LEg&oh=00_AfV7iI7lIB2l4hNvYaMyweDK2nxvVV4hLvZgflpxry1mRw&oe=68B80EAE"
+    },
+    {
+      "id": "25eb5f64-9329-8156-b688-cfee15b6ba44",
+      "title": "Double room for rent for two girls",
+      "overview": "A double room with an exterior window is available for rent for two girls, available for immediate entry",
+      "description": "Se alquila Habitación 🛏️Doble para 2 chicas con Ventana Exterior🪟. Para entrar ya mismo 🗓️. Info. Solo x Whatsapp 📲[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the room, but lacks information about the price and zone, and has no photos.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T23:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4306321829600326/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25eb5f64-9329-819a-b538-f7232fa7b9eb",
+      "title": "Room for rent for a woman",
+      "overview": "A room with an exterior window is available for rent in a friendly and family-oriented environment, available from August 31st",
+      "description": "Se Alquila Habitación 🛏️para Mujer La habitación tiene Ventana Exterior🪟. Ambiente agradable y familiar Disponible 31 Agosto. Whatsapp 📲[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides some details about the room and has a contact method, but lacks information about the price and zone, and has only one photo.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T23:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4306353912930451/",
+      "status": "expired",
+      "imageUrl": "https://scontent.fluh1-4.fna.fbcdn.net/v/t39.30808-6/541148743_122295301202009435_8504330840600585651_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=oAx8ar8p3TkQ7kNvwF-OGhc&_nc_oc=AdnV5LxKWVabCJ3SvmFoOL5f0Pv23ROCjNpqLGcbUE5i_uy6P2m64UgaxZa7qx5hK-A&_nc_zt=23&_nc_ht=scontent.fluh1-4.fna&_nc_gid=_7HwWJ8kx7eo_XpOjZY_-A&oh=00_AfU9x02xREUArxBrXxugU9EAlvctMgprEl696z8OeyN3hQ&oe=68B7ED6C"
+    },
     {
       "id": "25eb5f64-9329-8117-9f7f-f210595453bd",
       "title": "Room for rent in Santa Coloma de Gramenet",
@@ -35,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T22:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2184532485394154/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2075,7 +2126,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T01:54:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2183752752138794/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
