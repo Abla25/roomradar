@@ -2040,20 +2040,57 @@
           if (dropdown.style.display === 'none' || !dropdown.style.display) {
             console.log('📂 Opening dropdown');
             
-            // Position dropdown in a fixed, visible location
-            dropdown.style.position = 'fixed';
-            dropdown.style.top = '50px';
-            dropdown.style.left = '50px';
-            dropdown.style.zIndex = '9999999';
+            // Create a new dropdown element and append it to body
+            const newDropdown = document.createElement('div');
+            newDropdown.id = 'user-dropdown-menu-new';
+            newDropdown.innerHTML = `
+              <div class="dropdown-item" onclick="signOutUser()" style="
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.75rem 1rem;
+                cursor: pointer;
+                background: white;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                color: #374151;
+                font-size: 0.9rem;
+                min-width: 150px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+              ">
+                <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px; color: #6b7280;">
+                  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                  <polyline points="16,17 21,12 16,7"></polyline>
+                  <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Sign Out
+              </div>
+            `;
             
-            // Debug: add a visible border to see if it's positioned correctly
-            dropdown.style.border = '5px solid red';
-            dropdown.style.background = 'lime';
-            dropdown.style.padding = '20px';
-            dropdown.style.minHeight = '100px';
-            dropdown.style.minWidth = '200px';
-            dropdown.style.fontSize = '20px';
-            dropdown.style.fontWeight = 'bold';
+            newDropdown.style.cssText = `
+              position: fixed;
+              top: 50px;
+              left: 50px;
+              z-index: 9999999;
+              border: 5px solid red;
+              background: lime;
+              padding: 20px;
+              min-height: 100px;
+              min-width: 200px;
+              font-size: 20px;
+              font-weight: bold;
+            `;
+            
+            // Remove any existing dropdown
+            const existingDropdown = document.getElementById('user-dropdown-menu-new');
+            if (existingDropdown) {
+              existingDropdown.remove();
+            }
+            
+            // Append to body
+            document.body.appendChild(newDropdown);
+            
+            console.log('🎯 New dropdown created and appended to body');
             
             console.log('🎯 Dropdown positioned at fixed location:', {
               top: dropdown.style.top,
@@ -2071,6 +2108,13 @@
             console.log('📁 Closing dropdown');
             dropdown.style.display = 'none';
             userDropdown.classList.remove('active');
+            
+            // Also remove the new dropdown
+            const newDropdown = document.getElementById('user-dropdown-menu-new');
+            if (newDropdown) {
+              newDropdown.remove();
+              console.log('🗑️ New dropdown removed');
+            }
           }
         } else {
           console.log('❌ Dropdown elements not found');
@@ -2096,6 +2140,13 @@
         const userDropdown = document.querySelector('.user-dropdown');
         if (dropdown) dropdown.style.display = 'none';
         if (userDropdown) userDropdown.classList.remove('active');
+        
+        // Also remove the new dropdown
+        const newDropdown = document.getElementById('user-dropdown-menu-new');
+        if (newDropdown) {
+          newDropdown.remove();
+          console.log('🗑️ New dropdown removed on sign out');
+        }
         
         await signOut(auth);
       } catch (error) {
