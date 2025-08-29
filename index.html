@@ -1796,11 +1796,16 @@
     let currentUser = null;
     window.currentUser = currentUser; // Make it globally accessible
 
-    // Auth state listener
+    // Auth state listener with persistence
     onAuthStateChanged(auth, (user) => {
+      console.log('🔄 Auth state changed:', user ? 'User logged in' : 'User logged out');
       currentUser = user;
       window.currentUser = user; // Update global reference
-      updateAuthUI();
+      
+      // Update UI after a short delay to ensure everything is loaded
+      setTimeout(() => {
+        updateAuthUI();
+      }, 100);
     });
 
     // Update UI based on auth state - will be handled by the main updateAuthUI function
@@ -2092,12 +2097,28 @@
         showFullAccess();
         // Re-render listings to show all of them
         if (typeof renderListings === 'function') {
+          console.log('🔄 Re-rendering listings for authenticated user');
           renderListings();
+        }
+        // Update pagination for full access
+        if (typeof updatePagination === 'function') {
+          console.log('🔄 Updating pagination for authenticated user');
+          updatePagination();
         }
       } else {
         // User is not logged in - show limited access
         console.log('🔒 User is not authenticated, showing limited access');
         showLimitedAccess();
+        // Re-render listings with limited access
+        if (typeof renderListings === 'function') {
+          console.log('🔄 Re-rendering listings for non-authenticated user');
+          renderListings();
+        }
+        // Update pagination for limited access
+        if (typeof updatePagination === 'function') {
+          console.log('🔄 Updating pagination for non-authenticated user');
+          updatePagination();
+        }
       }
     };
 
@@ -2187,15 +2208,15 @@
               }
               .user-dropdown-menu {
                 position: absolute;
-                top: 100%;
+                top: calc(100% + 5px);
                 right: 0;
                 background: white;
                 border: 1px solid #e5e7eb;
                 border-radius: 8px;
                 box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
                 min-width: 150px;
-                z-index: 1000;
-                margin-top: 0.5rem;
+                z-index: 10000;
+                overflow: hidden;
               }
               .dropdown-item {
                 display: flex;
@@ -2205,12 +2226,18 @@
                 cursor: pointer;
                 transition: background-color 0.2s;
                 color: #374151;
+                border: none;
+                background: none;
+                width: 100%;
+                text-align: left;
+                font-size: 0.9rem;
               }
               .dropdown-item:hover {
                 background-color: #f3f4f6;
               }
               .dropdown-item svg {
                 color: #6b7280;
+                flex-shrink: 0;
               }
             `;
             document.head.appendChild(style);
@@ -3128,10 +3155,13 @@
       // Check if user is logged in
       const isLoggedIn = currentUser !== null;
       
-      // Limit listings for non-registered users
+      // Limit listings for non-registered users only
       let listingsToShow = filteredListings;
       if (!isLoggedIn) {
         listingsToShow = filteredListings.slice(0, 15);
+        console.log('🔒 Pagination limited to 15 listings for non-registered user');
+      } else {
+        console.log('✅ Pagination showing all listings for registered user');
       }
       
       const totalPages = Math.ceil(listingsToShow.length / itemsPerPage);
