@@ -2027,135 +2027,101 @@
       }
     };
 
-    // Toggle user dropdown
+        // Toggle user dropdown
     window.toggleUserDropdown = function() {
       console.log('🔄 Toggle dropdown called');
-      const dropdown = document.getElementById('user-dropdown-menu');
       const userDropdown = document.querySelector('.user-dropdown');
+      const existingDropdown = document.getElementById('user-dropdown-menu-new');
       
-      console.log('Dropdown element:', dropdown);
-      console.log('User dropdown element:', userDropdown);
-      
-              if (dropdown && userDropdown) {
-          if (dropdown.style.display === 'none' || !dropdown.style.display) {
-            console.log('📂 Opening dropdown');
-            
-            // Create a new dropdown element and append it to body
-            const newDropdown = document.createElement('div');
-            newDropdown.id = 'user-dropdown-menu-new';
-            newDropdown.innerHTML = `
-              <div class="dropdown-item" onclick="signOutUser()" style="
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-                padding: 0.75rem 1rem;
-                cursor: pointer;
-                background: white;
-                border: 1px solid #e5e7eb;
-                border-radius: 8px;
-                color: #374151;
-                font-size: 0.9rem;
-                min-width: 150px;
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-              ">
-                <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px; color: #6b7280;">
-                  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                  <polyline points="16,17 21,12 16,7"></polyline>
-                  <line x1="21" y1="12" x2="9" y2="12"></line>
-                </svg>
-                Sign Out
-              </div>
-            `;
-            
-            // Position dropdown near the auth button
-            const authButton = document.getElementById('auth-button');
-            if (authButton) {
-              const rect = authButton.getBoundingClientRect();
-              newDropdown.style.cssText = `
-                position: fixed;
-                top: ${rect.bottom + 5}px;
-                right: ${window.innerWidth - rect.right}px;
-                z-index: 999999;
-                background: white;
-                border: 1px solid #e5e7eb;
-                border-radius: 8px;
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-                min-width: 150px;
-                padding: 0;
-              `;
-            } else {
-              // Fallback position
-              newDropdown.style.cssText = `
-                position: fixed;
-                top: 80px;
-                right: 20px;
-                z-index: 999999;
-                background: white;
-                border: 1px solid #e5e7eb;
-                border-radius: 8px;
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-                min-width: 150px;
-                padding: 0;
-              `;
-            }
-            
-            // Remove any existing dropdown
-            const existingDropdown = document.getElementById('user-dropdown-menu-new');
-            if (existingDropdown) {
-              existingDropdown.remove();
-            }
-            
-            // Append to body
-            document.body.appendChild(newDropdown);
-            
-            console.log('🎯 New dropdown created and appended to body');
-            
-            console.log('🎯 Dropdown positioned at fixed location:', {
-              top: dropdown.style.top,
-              right: dropdown.style.right,
-              position: dropdown.style.position,
-              zIndex: dropdown.style.zIndex
-            });
-            
-            dropdown.style.display = 'block';
-            userDropdown.classList.add('active');
-            
-            // Force reflow to ensure positioning
-            dropdown.offsetHeight;
-          } else {
-            console.log('📁 Closing dropdown');
-            dropdown.style.display = 'none';
-            userDropdown.classList.remove('active');
-            
-            // Also remove the new dropdown
-            const newDropdown = document.getElementById('user-dropdown-menu-new');
-            if (newDropdown) {
-              newDropdown.remove();
-              console.log('🗑️ New dropdown removed');
-            }
-          }
+      if (existingDropdown) {
+        // Close dropdown
+        console.log('📁 Closing dropdown');
+        existingDropdown.remove();
+        userDropdown.classList.remove('active');
+      } else {
+        // Open dropdown
+        console.log('📂 Opening dropdown');
+        
+        // Create a new dropdown element and append it to body
+        const newDropdown = document.createElement('div');
+        newDropdown.id = 'user-dropdown-menu-new';
+        newDropdown.innerHTML = `
+          <div class="dropdown-item" onclick="signOutUser()" style="
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            color: #374151;
+            font-size: 0.9rem;
+            min-width: 150px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+          ">
+            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px; color: #6b7280;">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+              <polyline points="16,17 21,12 16,7"></polyline>
+              <line x1="21" y1="12" x2="9" y2="12"></line>
+            </svg>
+            Sign Out
+          </div>
+        `;
+        
+        // Position dropdown near the auth button
+        const authButton = document.getElementById('auth-button');
+        if (authButton) {
+          const rect = authButton.getBoundingClientRect();
+          newDropdown.style.cssText = `
+            position: fixed;
+            top: ${rect.bottom + 5}px;
+            right: ${window.innerWidth - rect.right}px;
+            z-index: 999999;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            min-width: 150px;
+            padding: 0;
+          `;
         } else {
-          console.log('❌ Dropdown elements not found');
+          // Fallback position
+          newDropdown.style.cssText = `
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            z-index: 999999;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            min-width: 150px;
+            padding: 0;
+          `;
         }
+        
+        // Append to body
+        document.body.appendChild(newDropdown);
+        userDropdown.classList.add('active');
+        
+        console.log('🎯 New dropdown created and positioned');
+      }
     };
 
     // Close dropdown when clicking outside
     document.addEventListener('click', function(event) {
-      const dropdown = document.getElementById('user-dropdown-menu');
       const userDropdown = document.querySelector('.user-dropdown');
       const newDropdown = document.getElementById('user-dropdown-menu-new');
       
-      // Check if click is outside both dropdowns and user dropdown
+      // Check if click is outside both dropdown and user dropdown
       const isOutsideUserDropdown = userDropdown && !userDropdown.contains(event.target);
       const isOutsideNewDropdown = newDropdown && !newDropdown.contains(event.target);
       
-      if (isOutsideUserDropdown && isOutsideNewDropdown) {
-        if (dropdown) dropdown.style.display = 'none';
-        if (userDropdown) userDropdown.classList.remove('active');
-        if (newDropdown) {
-          newDropdown.remove();
-          console.log('🗑️ New dropdown removed on outside click');
-        }
+      if (isOutsideUserDropdown && isOutsideNewDropdown && newDropdown) {
+        newDropdown.remove();
+        userDropdown.classList.remove('active');
+        console.log('🗑️ New dropdown removed on outside click');
       }
     });
 
@@ -2292,16 +2258,6 @@
                 <polyline points="6,9 12,15 18,9"></polyline>
               </svg>
             </div>
-            <div id="user-dropdown-menu" class="user-dropdown-menu" style="display: none;">
-              <div class="dropdown-item" onclick="signOutUser()">
-                <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
-                  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                  <polyline points="16,17 21,12 16,7"></polyline>
-                  <line x1="21" y1="12" x2="9" y2="12"></line>
-                </svg>
-                Sign Out
-              </div>
-            </div>
           `;
           
           console.log('👤 User dropdown HTML created');
@@ -2330,40 +2286,6 @@
               }
               .user-dropdown.active .dropdown-arrow {
                 transform: rotate(180deg);
-              }
-              .user-dropdown-menu {
-                position: fixed;
-                top: auto;
-                right: 1rem;
-                background: white;
-                border: 1px solid #e5e7eb;
-                border-radius: 8px;
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-                min-width: 150px;
-                z-index: 999999;
-                transform: translateZ(0);
-                pointer-events: auto;
-              }
-              .dropdown-item {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-                padding: 0.75rem 1rem;
-                cursor: pointer;
-                transition: background-color 0.2s;
-                color: #374151;
-                border: none;
-                background: none;
-                width: 100%;
-                text-align: left;
-                font-size: 0.9rem;
-              }
-              .dropdown-item:hover {
-                background-color: #f3f4f6;
-              }
-              .dropdown-item svg {
-                color: #6b7280;
-                flex-shrink: 0;
               }
               
               /* Responsive design for auth button */
