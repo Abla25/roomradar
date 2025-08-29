@@ -2253,6 +2253,11 @@
           `;
           authButton.onclick = showAuthModal;
         }
+        
+        // Remove any existing onclick handlers for authenticated users
+        if (currentUser) {
+          authButton.onclick = null;
+        }
       }
       
       // Check user status after auth state change
@@ -2571,8 +2576,7 @@
         document.getElementById('loading').style.display = 'none';
         setupEventListeners(); // Configure event listeners after loading
         populateFilters();
-        applyFilters();
-        updateStats(); // Aggiorna stats immediatamente dopo il caricamento
+        applyFilters(); // This will call updateStats() at the end
         
         // Check user status after data is loaded (wait for Firebase)
         function waitForFirebaseAndCheckStatus() {
