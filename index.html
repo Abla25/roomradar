@@ -3314,22 +3314,31 @@
     const urlParams = new URLSearchParams(window.location.search);
     const cityFromUrl = urlParams.get('city');
     const savedCity = localStorage.getItem('selectedCity');
+    const isFirstVisit = !localStorage.getItem('hasVisitedBefore');
     
     // Se c'è un parametro city nell'URL, carica direttamente
     if (cityFromUrl) {
       currentCity = getCurrentCity();
       updateCityTitle();
       loadListings();
+      localStorage.setItem('hasVisitedBefore', 'true');
     }
     // Se c'è una città salvata in localStorage, carica direttamente
     else if (savedCity) {
       currentCity = getCurrentCity();
       updateCityTitle();
       loadListings();
+      localStorage.setItem('hasVisitedBefore', 'true');
     }
-    // Altrimenti, reindirizza SEMPRE a welcome (nuovo utente o incognito)
-    else {
+    // Se è la prima visita, reindirizza a welcome
+    else if (isFirstVisit) {
       window.location.href = 'welcome.html';
+    }
+    // Altrimenti, carica Barcellona come default
+    else {
+      currentCity = 'barcelona';
+      updateCityTitle();
+      loadListings();
     }
 
     // Add some nice loading animations
