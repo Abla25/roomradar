@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-29T21:29:28.601Z",
+  "generatedAt": "2025-08-29T22:35:38.559Z",
   "city": "roma",
-  "count": 233,
-  "totalRejectedCount": 695,
+  "count": 234,
+  "totalRejectedCount": 704,
   "results": [
+    {
+      "id": "25eb5f64-9329-81e4-a58a-d9439f5a7596",
+      "title": "Room available in shared apartment in Via Fabio Rulliano",
+      "overview": "Two students, a boy and a girl, are looking for a third person to share an apartment in Via Fabio Rulliano, with photos and more information available in private messages",
+      "description": "Cercasi terza persona con cui condividere un appartamento in Via Fabio Rulliano, siamo 2 fratelli, un ragazzo ed una ragazza entrambi studenti. Foto ed info della casa in privato",
+      "price": "N/A",
+      "zone": "Via Fabio Rulliano",
+      "zoneMacro": "San Lorenzo",
+      "rooms": "N/A",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks essential information such as price and photos, and the contact method is through private messages, which may indicate a lower reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T22:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1335932364865121/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25eb5f64-9329-8135-a102-c7eca5a88931",
       "title": "Apartment for rent in Torre Maura, near Metro C",
