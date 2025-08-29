@@ -579,8 +579,48 @@
     "https://www.facebook.com/groups/181439002455412/posts/1839884203277542/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-29T15:32:01.600405"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1421827462238105/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:40:56.139101"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1421826078904910/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:40:56.140573"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1421806238906894/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:41:31.350885"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1839998549932774/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:42:20.695086"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1839988523267110/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:42:20.696126"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1839987423267220/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:42:20.697063"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1839953929937236/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:42:59.473507"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1839886673277295/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:42:59.474809"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2111405099394369/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:44:12.571761"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2111399096061636/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T16:44:12.573231"
     }
   },
-  "total_rejected_count": 145,
-  "timestamp": "2025-08-29T15:30:43.994900"
+  "total_rejected_count": 155,
+  "timestamp": "2025-08-29T16:40:51.959027"
 }
