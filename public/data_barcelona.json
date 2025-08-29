@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-29T20:42:03.644Z",
+  "generatedAt": "2025-08-29T21:29:21.888Z",
   "city": "barcelona",
-  "count": 810,
-  "totalRejectedCount": 1282,
+  "count": 812,
+  "totalRejectedCount": 1290,
   "results": [
+    {
+      "id": "25eb5f64-9329-81f2-8b04-fb68eca22129",
+      "title": "Room for couple in Sant Boi de Llobregat",
+      "overview": "Room available for couple in Sant Boi de Llobregat, contact for more information",
+      "description": "Habitación para pareja en Sant Boi de Llobregat, para más información comunícate al privado ￼",
+      "price": "N/A",
+      "zone": "Sant Boi de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Post lacks photos, price information, and contact details are limited, but it appears to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T21:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1074859961076967/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25eb5f64-9329-8192-858f-d8a50b812e88",
+      "title": "Room for rent in Badalona",
+      "overview": "A room for one person is available for rent in Badalona, close to metro and beach, with a price of 400€ including all expenses",
+      "description": "Se alquila habitación en Badalona, para persona sola,Está ubicada cerca del metro de Gorg y pep ventura. Cerca de supermercados, farmacias y playa...Metro línea 2 Línea 10 y tranvia Precio 400€ todo incluido.. Persona responsable y respetuosa.Interesados contactar con Maria [PHONE NUMBER CENSORED] Disponibilidad inmediata.",
+      "price": "400€",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a clear description of the room, includes a price, and has a contact phone number. Additionally, it includes a photo, which increases the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T21:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076330548005810/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539929760_10160916495826853_3062778117100668330_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-xuLY7pgwLcQ7kNvwGxPInh&_nc_oc=Adne5sYqjtlDAsllNYvktpTNXudYDzOk3joHYrMmUOjeZVeoOePPJEgAJTkDSJYS4XY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=15RTHfcpoK9RPsTH0lR2bQ&oh=00_AfWUp0JNhb8y-4vj98efemOhlGU_isXE9nDRChcpAryFyQ&oe=68B7ED10"
+    },
     {
       "id": "25eb5f64-9329-8120-9f5c-d4c1528d086c",
       "title": "Room for rent for 2 people in Hospitalet de Llobregat, Barcelona",
@@ -4863,7 +4897,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T22:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074234688215396/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -10048,7 +10082,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-23T16:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1071627701809428/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

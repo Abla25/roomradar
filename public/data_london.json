@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-29T20:42:10.639Z",
+  "generatedAt": "2025-08-29T21:29:29.938Z",
   "city": "london",
-  "count": 115,
-  "totalRejectedCount": 170,
+  "count": 116,
+  "totalRejectedCount": 174,
   "results": [
+    {
+      "id": "25eb5f64-9329-8108-85d6-fb4a756661d1",
+      "title": "Double room for rent in Croydon",
+      "overview": "Double room with private bathroom in a 2-bedroom, 2-bathroom apartment, sharing with one person, available now",
+      "description": "Double room with private bathroom in 2 bed 2 bath. Sharing with only 1 person. Concierge and private security on site. Croydon CR0 AVAILABLE NOW!!!!! £1000 including all the bills PREFERABLY FOR A SINGLE FEMALE Double room in 2 bed, 2 bath very clean apartment for a professional, quiet, respectful and very clean female. Sharing with only 1 person - friendly and very clean professional female age 37. Modern kitchen to share with only 1 person. Tram stop is 2 minutes away, 5-10 minutes away from East Croydon Station, which has fantastic fast trains to London Bridge (15 minutes), Victoria (15 minutes), Clapham Junction (10 minutes), Gatwick Airport (15 minutes) and just minutes away from Croydon High Street. Flat is conveniently situated right next to big beautiful park with bridges over the river Wandle. Lovely local restaurant just outside. Sainsbury's, Lidl, Aldi M&S and retail park are approximately 2 minutes walk. Various showpping centres and Boxpark only minutes away. Thank you",
+      "price": "£1000",
+      "zone": "Croydon CR0",
+      "zoneMacro": "Croydon",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, location, and amenities, and includes photos, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T21:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111530859381793/",
+      "status": "active",
+      "imageUrl": "https://scontent.fjai1-1.fna.fbcdn.net/v/t39.30808-6/541215293_24400176899624015_340081610147951991_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=b7GxEx7N6fIQ7kNvwEPYHXX&_nc_oc=AdlcICxS-7LFas4oCaZf9lleo8TH3hwUQ_MA70jcW5KLWWW4fKlAtoHImE739SrppJw&_nc_zt=23&_nc_ht=scontent.fjai1-1.fna&_nc_gid=Wf7WKtm4BLagaiJEa4-QPA&oh=00_AfUSNMsjb9KgwqaL8I5putQkV4SFRnVJGpeKaL2sv7dlcw&oe=68B805AA"
+    },
     {
       "id": "25eb5f64-9329-81e7-92d1-d4269f5377d4",
       "title": "Four bedroom house for rent",
