@@ -2106,6 +2106,9 @@
     window.showFullAccess = showFullAccess;
     window.showLimitedAccess = showLimitedAccess;
 
+    // Signal that Firebase is ready
+    window.firebaseReady = true;
+
     // Inline authentication functions
     window.signInInline = async function() {
       const email = document.getElementById('signin-email-inline').value;
@@ -2406,10 +2409,15 @@
         applyFilters();
         updateStats(); // Aggiorna stats immediatamente dopo il caricamento
         
-        // Check user status after data is loaded
-        if (window.checkUserStatus) {
-          window.checkUserStatus();
+        // Check user status after data is loaded (wait for Firebase)
+        function waitForFirebaseAndCheckStatus() {
+          if (window.firebaseReady && window.checkUserStatus) {
+            window.checkUserStatus();
+          } else {
+            setTimeout(waitForFirebaseAndCheckStatus, 50);
+          }
         }
+        waitForFirebaseAndCheckStatus();
         
 
         
@@ -3307,8 +3315,15 @@
     // Load footer
     loadFooter();
     
-    // Show auth button
-    showAuthButton();
+    // Wait for Firebase to be ready before showing auth button
+    function waitForFirebase() {
+      if (window.firebaseReady && typeof showAuthButton === 'function') {
+        showAuthButton();
+      } else {
+        setTimeout(waitForFirebase, 50);
+      }
+    }
+    waitForFirebase();
     
     // Check if we need to redirect to welcome page
     const urlParams = new URLSearchParams(window.location.search);
