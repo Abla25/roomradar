@@ -1781,9 +1781,16 @@
     };
 
     // Initialize Firebase
+    console.log('🔥 Initializing Firebase...');
+    console.log('Firebase config:', firebaseConfig);
+    
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const db = getFirestore(app);
+    
+    console.log('✅ Firebase initialized successfully');
+    console.log('Auth instance:', auth);
+    console.log('Firestore instance:', db);
 
     // Global auth state
     let currentUser = null;
@@ -1991,7 +1998,13 @@
     window.signInWithGoogle = async function() {
       const provider = new GoogleAuthProvider();
       try {
+        console.log('🔐 Attempting Google sign in...');
+        console.log('Firebase config:', firebaseConfig);
+        console.log('Auth instance:', auth);
+        
         const result = await signInWithPopup(auth, provider);
+        console.log('✅ Google sign in successful:', result);
+        
         if (result._tokenResponse?.isNewUser) {
           await setDoc(doc(db, 'users', result.user.uid), {
             displayName: result.user.displayName,
@@ -2002,6 +2015,9 @@
         }
         closeAuthModal();
       } catch (error) {
+        console.error('❌ Google sign in error:', error);
+        console.error('Error code:', error.code);
+        console.error('Error message:', error.message);
         alert('Google sign in error: ' + error.message);
       }
     };
