@@ -219,13 +219,15 @@
 
     /* Navbar */
     .navbar {
-      background: white;
-      border-bottom: 1px solid #e5e7eb;
-      padding: 0.75rem 2rem;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1rem 2rem;
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     }
     
     .navbar-content {
@@ -240,6 +242,8 @@
       font-weight: 700;
       font-size: 1.25rem;
       color: #1f2937;
+      display: flex;
+      align-items: center;
     }
     
     .navbar-auth {
@@ -249,34 +253,54 @@
     }
     
     .navbar-auth-btn {
-      padding: 0.5rem 1rem;
-      border: 1px solid #e5e7eb;
-      border-radius: 8px;
-      background: white;
-      color: #374151;
+      padding: 0.75rem 1.25rem;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
       font-size: 0.875rem;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.75rem;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .navbar-auth-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s;
+    }
+    
+    .navbar-auth-btn:hover::before {
+      left: 100%;
     }
     
     .navbar-auth-btn:hover {
-      background: #f9fafb;
-      border-color: #d1d5db;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+    }
+    
+    .navbar-auth-btn:active {
+      transform: translateY(0);
     }
     
     .navbar-auth-btn.primary {
-      background: #3B82F6;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
-      border-color: #3B82F6;
     }
     
     .navbar-auth-btn.primary:hover {
-      background: #2563eb;
-      border-color: #2563eb;
+      background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
     }
     
     /* Mobile menu */
@@ -1690,13 +1714,16 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="navbar-content">
-      <div class="navbar-logo">RoomRadar</div>
+      <div class="navbar-logo">
+        <img src="vector-cropped-cropped (1).svg" alt="RoomRadar Logo" style="width: 24px; height: 24px; margin-right: 0.75rem;">
+        RoomRadar
+      </div>
       <div class="navbar-auth">
         <button id="navbar-signin-btn" class="navbar-auth-btn" onclick="showAuthModal()">
-          <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
-            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
-            <polyline points="10,17 15,12 10,7"></polyline>
-            <line x1="15" y1="12" x2="3" y2="12"></line>
+          <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline points="10,17 15,12 10,7" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            <line x1="15" y1="12" x2="3" y2="12" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
           </svg>
           Sign In
         </button>
@@ -2333,14 +2360,17 @@
       const mobileMenuAuth = document.querySelector('.mobile-menu-auth');
       
       if (currentUser) {
-        // User is logged in
+        // User is logged in - show user info with dropdown
         if (navbarSigninBtn) {
           navbarSigninBtn.innerHTML = `
-            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
+            <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <circle cx="12" cy="7" r="4" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle>
             </svg>
             ${currentUser.displayName || currentUser.email}
+            <svg class="dropdown-arrow" viewBox="0 0 24 24" style="width: 12px; height: 12px; transition: transform 0.2s;">
+              <polyline points="6,9 12,15 18,9" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            </svg>
           `;
           navbarSigninBtn.className = 'navbar-auth-btn';
           navbarSigninBtn.onclick = toggleUserDropdown;
@@ -2349,7 +2379,7 @@
         if (mobileMenuAuth) {
           mobileMenuAuth.innerHTML = `
             <button class="navbar-auth-btn" onclick="toggleUserDropdown(); toggleMobileMenu();">
-              <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px;">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
               </svg>
@@ -2358,13 +2388,13 @@
           `;
         }
       } else {
-        // User is not logged in
+        // User is not logged in - show sign in button
         if (navbarSigninBtn) {
           navbarSigninBtn.innerHTML = `
-            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
-              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
-              <polyline points="10,17 15,12 10,7"></polyline>
-              <line x1="15" y1="12" x2="3" y2="12"></line>
+            <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <polyline points="10,17 15,12 10,7" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+              <line x1="15" y1="12" x2="3" y2="12" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
             </svg>
             Sign In
           `;
@@ -2375,7 +2405,7 @@
         if (mobileMenuAuth) {
           mobileMenuAuth.innerHTML = `
             <button class="navbar-auth-btn" onclick="showAuthModal(); toggleMobileMenu();">
-              <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px;">
                 <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
                 <polyline points="10,17 15,12 10,7"></polyline>
                 <line x1="15" y1="12" x2="3" y2="12"></line>
@@ -2387,24 +2417,10 @@
       }
     }
 
-    // Show auth button in header
+    // Auth button is now in navbar - no need for header button
     window.showAuthButton = function() {
-      const headerContent = document.querySelector('.header-content');
-      if (headerContent && !document.getElementById('auth-button')) {
-        const authButton = document.createElement('button');
-        authButton.id = 'auth-button';
-        authButton.className = 'btn btn-primary';
-        authButton.style.cssText = `
-          position: absolute;
-          top: 1rem;
-          right: 1rem;
-          padding: 0.5rem 1rem;
-          font-size: 0.8rem;
-          z-index: 1000;
-        `;
-        headerContent.appendChild(authButton);
-        updateAuthUI();
-      }
+      // This function is kept for compatibility but auth is now handled in navbar
+      updateNavbarAuth();
     };
 
     // Check user status and show appropriate content
