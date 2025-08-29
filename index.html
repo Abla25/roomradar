@@ -217,6 +217,135 @@
       100% { transform: translateX(200%) rotate(5deg); }
     }
 
+    /* Navbar */
+    .navbar {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 0.75rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navbar-logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #1f2937;
+    }
+    
+    .navbar-auth {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .navbar-auth-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      background: white;
+      color: #374151;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .navbar-auth-btn:hover {
+      background: #f9fafb;
+      border-color: #d1d5db;
+    }
+    
+    .navbar-auth-btn.primary {
+      background: #3B82F6;
+      color: white;
+      border-color: #3B82F6;
+    }
+    
+    .navbar-auth-btn.primary:hover {
+      background: #2563eb;
+      border-color: #2563eb;
+    }
+    
+    /* Mobile menu */
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #374151;
+    }
+    
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 2000;
+    }
+    
+    .mobile-menu-content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 280px;
+      height: 100%;
+      background: white;
+      padding: 2rem;
+      box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .mobile-menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    
+    .mobile-menu-close {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #6b7280;
+    }
+    
+    .mobile-menu-auth {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    @media (max-width: 768px) {
+      .navbar-auth {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+      
+      .mobile-menu.show {
+        display: block;
+      }
+    }
+
     .header-content {
       position: relative;
       z-index: 2;
@@ -1558,6 +1687,44 @@
   </style>
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-logo">RoomRadar</div>
+      <div class="navbar-auth">
+        <button id="navbar-signin-btn" class="navbar-auth-btn" onclick="showAuthModal()">
+          <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+            <polyline points="10,17 15,12 10,7"></polyline>
+            <line x1="15" y1="12" x2="3" y2="12"></line>
+          </svg>
+          Sign In
+        </button>
+      </div>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-header">
+        <h3>Menu</h3>
+        <button class="mobile-menu-close" onclick="toggleMobileMenu()">×</button>
+      </div>
+      <div class="mobile-menu-auth">
+        <button class="navbar-auth-btn" onclick="showAuthModal(); toggleMobileMenu();">
+          <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+            <polyline points="10,17 15,12 10,7"></polyline>
+            <line x1="15" y1="12" x2="3" y2="12"></line>
+          </svg>
+          Sign In
+        </button>
+      </div>
+    </div>
+  </div>
+
   <header>
     <div class="header-particles"></div>
     <div class="magnetic-field"></div>
@@ -1628,9 +1795,7 @@
           <a href="welcome.html" style="color: #3B82F6; text-decoration: none; border-bottom: 1px dotted #3B82F6;">View welcome page</a>
         </div>
         
-        <!-- Auth button will be added here by JavaScript -->
-        
-
+        <!-- Auth button moved to navbar -->
       </div>
     </div>
   </header>
@@ -2153,6 +2318,74 @@
     
     // Make signOutUser globally available
     window.signOutUser = signOutUser;
+    
+    // Mobile menu functions
+    window.toggleMobileMenu = function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('show');
+      }
+    };
+    
+    // Update navbar auth button
+    function updateNavbarAuth() {
+      const navbarSigninBtn = document.getElementById('navbar-signin-btn');
+      const mobileMenuAuth = document.querySelector('.mobile-menu-auth');
+      
+      if (currentUser) {
+        // User is logged in
+        if (navbarSigninBtn) {
+          navbarSigninBtn.innerHTML = `
+            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            ${currentUser.displayName || currentUser.email}
+          `;
+          navbarSigninBtn.className = 'navbar-auth-btn';
+          navbarSigninBtn.onclick = toggleUserDropdown;
+        }
+        
+        if (mobileMenuAuth) {
+          mobileMenuAuth.innerHTML = `
+            <button class="navbar-auth-btn" onclick="toggleUserDropdown(); toggleMobileMenu();">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              ${currentUser.displayName || currentUser.email}
+            </button>
+          `;
+        }
+      } else {
+        // User is not logged in
+        if (navbarSigninBtn) {
+          navbarSigninBtn.innerHTML = `
+            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+              <polyline points="10,17 15,12 10,7"></polyline>
+              <line x1="15" y1="12" x2="3" y2="12"></line>
+            </svg>
+            Sign In
+          `;
+          navbarSigninBtn.className = 'navbar-auth-btn';
+          navbarSigninBtn.onclick = showAuthModal;
+        }
+        
+        if (mobileMenuAuth) {
+          mobileMenuAuth.innerHTML = `
+            <button class="navbar-auth-btn" onclick="showAuthModal(); toggleMobileMenu();">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                <polyline points="10,17 15,12 10,7"></polyline>
+                <line x1="15" y1="12" x2="3" y2="12"></line>
+              </svg>
+              Sign In
+            </button>
+          `;
+        }
+      }
+    }
 
     // Show auth button in header
     window.showAuthButton = function() {
@@ -2324,6 +2557,9 @@
           authButton.onclick = null;
         }
       }
+      
+      // Update navbar auth button
+      updateNavbarAuth();
       
       // Check user status after auth state change
       checkUserStatus();
@@ -2642,6 +2878,13 @@
         setupEventListeners(); // Configure event listeners after loading
         populateFilters();
         applyFilters(); // This will call updateStats() at the end
+        
+        // Ensure stats are always shown
+        setTimeout(() => {
+          if (typeof updateStats === 'function') {
+            updateStats();
+          }
+        }, 100);
         
         // Check user status after data is loaded (wait for Firebase)
         function waitForFirebaseAndCheckStatus() {
