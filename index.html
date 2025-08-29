@@ -2052,11 +2052,20 @@
 
     // Check user status and show appropriate content
     window.checkUserStatus = function() {
+      console.log('🔍 Checking user status...');
+      console.log('Current user:', currentUser);
+      
       if (currentUser) {
         // User is logged in - show full access
+        console.log('✅ User is authenticated, showing full access');
         showFullAccess();
+        // Re-render listings to show all of them
+        if (typeof renderListings === 'function') {
+          renderListings();
+        }
       } else {
         // User is not logged in - show limited access
+        console.log('🔒 User is not authenticated, showing limited access');
         showLimitedAccess();
       }
     };
@@ -2066,6 +2075,18 @@
       // Remove any limited access overlays
       const overlays = document.querySelectorAll('.limited-access-overlay');
       overlays.forEach(overlay => overlay.remove());
+      
+      // Remove the signup card if it exists
+      const signupCard = document.querySelector('.card-content[style*="text-align: center"]');
+      if (signupCard) {
+        signupCard.closest('.card').remove();
+      }
+      
+      // Remove limited access message
+      const limitedMessage = document.querySelector('.limited-access-message');
+      if (limitedMessage) {
+        limitedMessage.remove();
+      }
       
       // Show all listings without restrictions
       console.log('✅ Full access granted for registered user');
@@ -2132,8 +2153,8 @@
       
       try {
         await signInWithEmailAndPassword(auth, email, password);
-        // Refresh the page to show full access
-        window.location.reload();
+        // The onAuthStateChanged listener will handle UI updates
+        console.log('✅ Sign in successful, UI will update automatically');
       } catch (error) {
         alert('Sign in error: ' + error.message);
       }
@@ -2152,8 +2173,8 @@
           cityPreference: currentCity,
           createdAt: new Date()
         });
-        // Refresh the page to show full access
-        window.location.reload();
+        // The onAuthStateChanged listener will handle UI updates
+        console.log('✅ Sign up successful, UI will update automatically');
       } catch (error) {
         alert('Sign up error: ' + error.message);
       }
@@ -2171,8 +2192,8 @@
             createdAt: new Date()
           });
         }
-        // Refresh the page to show full access
-        window.location.reload();
+        // The onAuthStateChanged listener will handle UI updates
+        console.log('✅ Google sign in successful, UI will update automatically');
       } catch (error) {
         alert('Google sign in error: ' + error.message);
       }
@@ -2709,7 +2730,7 @@
       container.innerHTML = "";
       
       // Check if user is logged in
-      const isLoggedIn = window.currentUser !== null;
+      const isLoggedIn = currentUser !== null;
       
       // Limit listings for non-registered users
       let listingsToShow = filteredListings;
@@ -3004,7 +3025,7 @@
       const paginationDiv = document.getElementById('pagination');
       
       // Check if user is logged in
-      const isLoggedIn = window.currentUser !== null;
+      const isLoggedIn = currentUser !== null;
       
       // Limit listings for non-registered users
       let listingsToShow = filteredListings;
