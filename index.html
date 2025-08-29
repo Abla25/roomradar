@@ -2040,24 +2040,24 @@
           if (dropdown.style.display === 'none' || !dropdown.style.display) {
             console.log('📂 Opening dropdown');
             
-            // Position dropdown relative to auth button
-            const authButton = document.getElementById('auth-button');
-            if (authButton) {
-              const rect = authButton.getBoundingClientRect();
-              dropdown.style.position = 'fixed';
-              dropdown.style.top = (rect.bottom + 5) + 'px';
-              dropdown.style.right = (window.innerWidth - rect.right) + 'px';
-              
-              // Debug: add a visible border to see if it's positioned correctly
-              dropdown.style.border = '2px solid red';
-              dropdown.style.background = 'yellow';
-              console.log('🎯 Dropdown positioned at:', {
-                top: dropdown.style.top,
-                right: dropdown.style.right,
-                position: dropdown.style.position,
-                zIndex: dropdown.style.zIndex
-              });
-            }
+            // Position dropdown in a fixed, visible location
+            dropdown.style.position = 'fixed';
+            dropdown.style.top = '80px';
+            dropdown.style.right = '20px';
+            dropdown.style.zIndex = '999999';
+            
+            // Debug: add a visible border to see if it's positioned correctly
+            dropdown.style.border = '3px solid red';
+            dropdown.style.background = 'yellow';
+            dropdown.style.padding = '10px';
+            dropdown.style.minHeight = '50px';
+            
+            console.log('🎯 Dropdown positioned at fixed location:', {
+              top: dropdown.style.top,
+              right: dropdown.style.right,
+              position: dropdown.style.position,
+              zIndex: dropdown.style.zIndex
+            });
             
             dropdown.style.display = 'block';
             userDropdown.classList.add('active');
