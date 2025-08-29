@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-29T05:27:28.793Z",
+  "generatedAt": "2025-08-29T06:44:48.220Z",
   "city": "london",
-  "count": 64,
-  "totalRejectedCount": 105,
+  "count": 65,
+  "totalRejectedCount": 111,
   "results": [
+    {
+      "id": "25eb5f64-9329-8129-a478-cb181b09170a",
+      "title": "Double room for rent in Upton Park",
+      "overview": "A double room available for 2 boys in Upton Park with all bills included",
+      "description": "*One double room available for 2 boys.* Address: Upton Park E63HS All bills included Ready to Move",
+      "price": "N/A",
+      "zone": "Upton Park",
+      "zoneMacro": "East London",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the room, but the price is not specified, and there are no photos.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T06:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1839640616635234/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25eb5f64-9329-815f-bdbe-eda9ae9049a8",
       "title": "Furnished room for couple in 3 bedroom house",
