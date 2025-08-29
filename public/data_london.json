@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-29T18:53:26.742Z",
+  "generatedAt": "2025-08-29T19:26:38.828Z",
   "city": "london",
-  "count": 113,
-  "totalRejectedCount": 163,
+  "count": 114,
+  "totalRejectedCount": 165,
   "results": [
+    {
+      "id": "25eb5f64-9329-818e-8543-ff79e9512c48",
+      "title": "Room for Rent in Acton, West London",
+      "overview": "A room in a 2-bedroom flat in Acton, west London, available for rent from 1st September. The flat is near the Elizabeth line and has easy access to central London.",
+      "description": "Hi guys Room to Rent in Acton - west London £750pm all bills included. £750 deposit Next to Elizabeth line - Acton main line Central line - 10-15 min walk Nice area - Chiswick / Richmond accessible via train or buss link Central London accessible via Elizabeth line 20 min 2 bedroom flat no living room Currently 1 room is occupied, young male working professional. Second room is available. Pictures attached Available for 1st of September Looking for working professional No pets No smoking No couples",
+      "price": "£750pm",
+      "zone": "Acton, west London",
+      "zoneMacro": "West London",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room, the location, and the price. It also mentions that pictures are attached, which increases the reliability of the post. Additionally, the post seems to be from a genuine person looking to rent out a room, with no indicators of a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T19:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111513799383499/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel1-4.fna.fbcdn.net/v/t39.30808-6/539738955_1295945225569434_8254071136605800914_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XdrBl_v8NP4Q7kNvwGM81pk&_nc_oc=AdneBULkVHEwMFDH1kZho8R9jO51qabL2IcdzkRJwhhu2ZQucv8ReJ9obX6tNcx8if4&_nc_zt=23&_nc_ht=scontent.fdel1-4.fna&_nc_gid=USNSdANaVzQzbCauFsP6Eg&oh=00_AfWupC3YysSh8CQT9IGl8e0IWF1OhrJ3Fc2FbNTpaexrPg&oe=68B7EB4B"
+    },
     {
       "id": "25eb5f64-9329-8110-8876-ca2b47a28510",
       "title": "Double bedroom for rent in Barking",
