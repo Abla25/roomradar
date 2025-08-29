@@ -2022,9 +2022,40 @@
       }
     };
 
+    // Toggle user dropdown
+    window.toggleUserDropdown = function() {
+      const dropdown = document.getElementById('user-dropdown-menu');
+      const userDropdown = document.querySelector('.user-dropdown');
+      
+      if (dropdown.style.display === 'none' || !dropdown.style.display) {
+        dropdown.style.display = 'block';
+        userDropdown.classList.add('active');
+      } else {
+        dropdown.style.display = 'none';
+        userDropdown.classList.remove('active');
+      }
+    };
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(event) {
+      const dropdown = document.getElementById('user-dropdown-menu');
+      const userDropdown = document.querySelector('.user-dropdown');
+      
+      if (dropdown && userDropdown && !userDropdown.contains(event.target)) {
+        dropdown.style.display = 'none';
+        userDropdown.classList.remove('active');
+      }
+    });
+
     // Sign out
     async function signOutUser() {
       try {
+        // Close dropdown first
+        const dropdown = document.getElementById('user-dropdown-menu');
+        const userDropdown = document.querySelector('.user-dropdown');
+        if (dropdown) dropdown.style.display = 'none';
+        if (userDropdown) userDropdown.classList.remove('active');
+        
         await signOut(auth);
       } catch (error) {
         alert('Sign out error: ' + error.message);
@@ -2106,14 +2137,84 @@
       const authButton = document.getElementById('auth-button');
       if (authButton) {
         if (currentUser) {
+          // Create dropdown for authenticated user
           authButton.innerHTML = `
-            <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-            ${currentUser.displayName || currentUser.email}
+            <div class="user-dropdown" onclick="toggleUserDropdown()" style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+              <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <span>${currentUser.displayName || currentUser.email}</span>
+              <svg class="dropdown-arrow" viewBox="0 0 24 24" style="width: 12px; height: 12px; transition: transform 0.2s;">
+                <polyline points="6,9 12,15 18,9"></polyline>
+              </svg>
+            </div>
+            <div id="user-dropdown-menu" class="user-dropdown-menu" style="display: none;">
+              <div class="dropdown-item" onclick="signOutUser()">
+                <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                  <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                  <polyline points="16,17 21,12 16,7"></polyline>
+                  <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Sign Out
+              </div>
+            </div>
           `;
-          authButton.onclick = signOutUser;
+          
+          // Add dropdown styles if not already added
+          if (!document.getElementById('user-dropdown-styles')) {
+            const style = document.createElement('style');
+            style.id = 'user-dropdown-styles';
+            style.textContent = `
+              .user-dropdown {
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                cursor: pointer;
+                padding: 0.5rem;
+                border-radius: 8px;
+                transition: background-color 0.2s;
+              }
+              .user-dropdown:hover {
+                background-color: rgba(59, 130, 246, 0.1);
+              }
+              .dropdown-arrow {
+                transition: transform 0.2s;
+              }
+              .user-dropdown.active .dropdown-arrow {
+                transform: rotate(180deg);
+              }
+              .user-dropdown-menu {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background: white;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+                min-width: 150px;
+                z-index: 1000;
+                margin-top: 0.5rem;
+              }
+              .dropdown-item {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.75rem 1rem;
+                cursor: pointer;
+                transition: background-color 0.2s;
+                color: #374151;
+              }
+              .dropdown-item:hover {
+                background-color: #f3f4f6;
+              }
+              .dropdown-item svg {
+                color: #6b7280;
+              }
+            `;
+            document.head.appendChild(style);
+          }
         } else {
           authButton.innerHTML = `
             <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
