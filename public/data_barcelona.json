@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-08-29T08:44:43.332Z",
+  "generatedAt": "2025-08-29T09:34:55.474Z",
   "city": "barcelona",
-  "count": 709,
-  "totalRejectedCount": 1188,
+  "count": 713,
+  "totalRejectedCount": 1192,
   "results": [
+    {
+      "id": "25eb5f64-9329-8157-96f0-ceaedb189cd0",
+      "title": "Room for rent in Hospitalet de Llobregat",
+      "overview": "A room for one person is available for rent in Hospitalet de Llobregat, contact phone number 605 374 193",
+      "description": "Se alquila una habitación para una persona sola en Hospitalet de Llobregat. Llamar al núm. [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides limited information, lacks photos, and has basic contact details, which raises some concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076215418017323/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25eb5f64-9329-81af-8245-e27a4eff6e3f",
+      "title": "Room for rent in Cornella",
+      "overview": "A room for one person, preferably a female, is available for rent in Cornella, near Sant Ildefons metro station",
+      "description": "Hola, se alquila habitación para una persona, preferiblemente chica. Esta ubicada en cornella metro sant ildefons. Esta disponible para entrar ahora o lo antes posible.",
+      "price": "N/A",
+      "zone": "Cornella",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides a clear description of the room, includes photos, and specifies the location, but lacks information on the price and has limited contact details",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076247108014154/",
+      "status": "active",
+      "imageUrl": "https://scontent-maa3-2.xx.fbcdn.net/v/t39.30808-6/540929474_10239036619355933_5009052942021405195_n.jpg?stp=cp6_dst-jpegr_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9reUFmnn79kQ7kNvwGVY-4m&_nc_oc=AdkNz2yMknZe6sushWlLGdiOA71A0WbWQiV1l5RYjLykkGZOXC4UEXyJichG2h9pTFQ&_nc_zt=23&se=-1&_nc_ht=scontent-maa3-2.xx&_nc_gid=_CO6NYiQ5YeYsTw3ne3teA&oh=00_AfW2mHU4BBrc8bLWN987Cof19u-O4FsI94Z0s3Fgv8KXtQ&oe=68B73F0C"
+    },
+    {
+      "id": "25eb5f64-9329-8123-96ef-d6ed7d8490d8",
+      "title": "Room for rent",
+      "overview": "A room is available for rent, with a photo provided",
+      "description": "Alquilo Habitación",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post has a photo, but lacks pricing and zone information, and has a brief description",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T09:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4305708859661623/",
+      "status": "active",
+      "imageUrl": "https://scontent.fmaa10-1.fna.fbcdn.net/v/t39.30808-6/540754566_10162188148552675_7468111091641433397_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5Xx-8C8sS5UQ7kNvwELLdAR&_nc_oc=AdmnZBnp_L5L7Zkh2Gc3UTiTGtx0HL4UYnNbRpRcZO1cGuR4VmvmJck2M21CLj-dUVk&_nc_zt=23&_nc_ht=scontent.fmaa10-1.fna&_nc_gid=GpbinwAFuABJ6B1j9A1_cA&oh=00_AfXaIKMasVeYoODGIHSQ_bFb6KwgU7oFRzU72vecvPSA3Q&oe=68B73FA8"
+    },
+    {
+      "id": "25eb5f64-9329-8107-a1be-d8f726b2dbd4",
+      "title": "Room available in Sant Joan",
+      "overview": "A room is available for rent in Sant Joan Despí, seeking serious and responsible tenants",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despí",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and pricing information, but has contact information and seems legitimate",
+      "datePublished": "",
+      "dateAdded": "2025-08-29T09:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4305742786324897/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25eb5f64-9329-81d6-8c0a-c175f1a72e10",
       "title": "Room for rent in Sant Joan Despi",
@@ -18,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T08:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2184045392109530/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -86,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T08:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2241142699722259/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel31-1.fna.fbcdn.net/v/t39.30808-6/540622386_10239511521027121_5322697481509600567_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=z0TzJNMcIwQQ7kNvwH9N7Mw&_nc_oc=Adm1Iq9JVIUURgpgyUbvY_6w6kDtcLb1qtfJyI-gUnqtVtkvVNEZyK4A801PMqDnvO4&_nc_zt=23&_nc_ht=scontent.fdel31-1.fna&_nc_gid=BUUzFFmfJXn-dVC--E3VWg&oh=00_AfUg5WCBKwECfcuh84UPuYhCbeTwESQjJUAGlhGS-57fOw&oe=68B73ED4"
     },
     {
@@ -120,7 +188,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T08:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076216518017213/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -7073,7 +7141,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072334441738754/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
