@@ -1,33 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2728981537300814/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:34:24.531416"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706639250030522/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:35:39.871650"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706635783364202/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:35:39.872967"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706634216697692/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:35:39.874383"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706629926698121/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:36:16.479134"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706555273372253/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:36:16.484057"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1706552473372533/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-27T16:36:52.158708"
-    },
     "https://www.facebook.com/groups/AffittoCaseRoma/posts/30956123807365712/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-27T17:22:04.189609"
@@ -1643,8 +1615,16 @@
     "https://www.facebook.com/groups/244234206083096/posts/2179178512588646/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-29T16:40:17.797163"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1335780091547015/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T17:21:54.134724"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1335777484880609/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T17:22:32.907420"
     }
   },
-  "total_rejected_count": 642,
-  "timestamp": "2025-08-29T16:34:12.120277"
+  "total_rejected_count": 644,
+  "timestamp": "2025-08-29T17:21:40.441798"
 }
