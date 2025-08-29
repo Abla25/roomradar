@@ -1827,8 +1827,16 @@
     "https://www.facebook.com/groups/244234206083096/posts/2178600132646484/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-29T01:57:45.752745"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1335336021591422/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T05:22:55.624741"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1334904394967918/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-29T05:22:55.627135"
     }
   },
-  "total_rejected_count": 520,
-  "timestamp": "2025-08-29T04:29:08.292032"
+  "total_rejected_count": 522,
+  "timestamp": "2025-08-29T05:22:49.370532"
 }
