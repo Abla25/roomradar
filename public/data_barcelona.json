@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T15:35:40.905Z",
+  "generatedAt": "2025-08-30T16:42:34.429Z",
   "city": "barcelona",
-  "count": 865,
-  "totalRejectedCount": 1384,
+  "count": 867,
+  "totalRejectedCount": 1390,
   "results": [
+    {
+      "id": "25fb5f64-9329-81ed-af33-f2c9a3965870",
+      "title": "Spacious room for rent in a 3-bedroom apartment in Barcelona",
+      "overview": "A quiet and spacious room in a renovated 3-bedroom apartment, located in the center of Barcelona, with natural light and regular cleaning service",
+      "description": "Hello, I rent a very quiet and spacious ROOM located in a 3 bedrooms appartement of 110 squared meters. 🙋🏼‍♀️1 person/room only for girl/woman (min 3 month). ✅ Available from today. ✅ The apartament has been renovated just now. ✅ all apartament have a natural light. ✅ max living 3 person. ✅ regular cleaning service in the common Spaces. ✅ amazing location (centre BCN): next to Plaza Regomir (center of the gotic quater), 08002, Barcelona. It’s 5 min walking from Metro Jaume I (L4) o Metro Liceo (L3), 10 min walking from Plaza Catalunia, to las Ramblas, and to de beach 🏖️. There are 2 tren station en 10 min walking and a lot of bus station and to the Park Cuitadela. ❗️No smoking apartment, no couple, no pets. Price of the big room is 690€/month + 40€ bills (water/electricity/internet). If you are interesting write me in prívate.",
+      "price": "690€/month + 40€ bills",
+      "zone": "Barcelona, 08002, near Plaza Regomir",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room and apartment, including location, price, and amenities, and includes a photo, which suggests a high level of reliability and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T16:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1075410754355221/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel1-2.fna.fbcdn.net/v/t39.30808-6/540465083_1302871054556043_6812005683398460600_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NRnPnLhE1voQ7kNvwGpVSGS&_nc_oc=AdkC5IA22ufr_R_HTmpBmvZOFhVrU-2Ps20G_xW4gyALyHoXaGwJ76xNT19c4yprb7c&_nc_zt=23&_nc_ht=scontent.fdel1-2.fna&_nc_gid=JZ5pt9Ms4GaNrwkSxgExmw&oh=00_AfXyf7H5m7z4lN0MvmcgfdfZkZcGTck-YY4behHE2EbPSw&oe=68B9082E"
+    },
+    {
+      "id": "25fb5f64-9329-81b1-8a78-ff97d02675db",
+      "title": "Large room for rent in Buen Pastor",
+      "overview": "A large 11m2 room is available for rent in the Buen Pastor area, suitable for one person",
+      "description": "Se alquila habitación grande de 11 m2 Zona buen Pastor. Sólo para 1 persona.",
+      "price": "N/A",
+      "zone": "Buen Pastor",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and seems to be a genuine rental listing, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T16:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4307013986197777/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540884982_10236534288193400_5640072050847075170_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Z1f3wS2l--YQ7kNvwHSl2EW&_nc_oc=AdmRgg9K0_Opifa1li8xk0oggSdifuS1DncwPCWlS2_EOECsb8TSQrXbHbaqi35TrKo&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=SFb4cex8nMoycXvgaOfn8A&oh=00_AfXU9T7hlDOqPNpNMKjoIA5Acy5RGVgPzAlH6jsoIjMlzQ&oe=68B8F2C1"
+    },
     {
       "id": "25fb5f64-9329-8110-b1df-c4ad566e4eb6",
       "title": "Quiet and spacious room for rent in Barcelona city center",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T15:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2185072608673475/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540279377_1302825641227251_6835792153382750272_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BKPwdhm5uIwQ7kNvwEKTXVp&_nc_oc=AdlEk2fSuOqLJzyngdm2yxbIE-uMP4JpHuNmA8XxPS0SvI6k_SN40w4hySWMABh6Wqo&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=_BXw4yBrRc1qfrdfhAKcYQ&oh=00_AfX7Y9bedTCmngeHuNb2tasS7ubHcHIoGQlnl2qdx_ebpQ&oe=68B8D710"
     },
     {
@@ -35,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T15:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077177241254474/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541041413_10236534383835791_6163442145456376169_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=EwIJEOg1FE4Q7kNvwHyuswJ&_nc_oc=AdnnfW_nksHo9qbedmkR2kl6TSfWFe3TYxVaKHy760DFlGSU-70HtM1_PVr-oR4cQ_I&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=dV4_Odr4xhGwgEW4WygPGg&oh=00_AfXSKZulZEiyiEhKKABxTqMBZNz2SJPwtd_Yrei4nS8kuA&oe=68B8ECA7"
     },
     {
