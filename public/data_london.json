@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T20:33:29.935Z",
+  "generatedAt": "2025-08-30T21:29:16.906Z",
   "city": "london",
-  "count": 172,
-  "totalRejectedCount": 249,
+  "count": 174,
+  "totalRejectedCount": 250,
   "results": [
+    {
+      "id": "25fb5f64-9329-81ea-b4c8-c1a73b75035f",
+      "title": "2 Bedroom Apartment for Rent in Wembley",
+      "overview": "A spacious 2-bedroom apartment with 2 bathrooms, furnished, and a garden, located near Wembley, available for rent",
+      "description": "2 Beds 2 Baths - Apartment HA0 2LP Harrow Road, Wembley, United Kingdom 𝐒𝐩𝐚𝐜𝐢𝐨𝐮𝐬 𝐃𝐨𝐮𝐛𝐥𝐞 𝐑𝐨𝐨𝐦 𝐧𝐞𝐚𝐫 𝐖𝐞𝐦𝐛𝐥𝐞𝐲 (𝐇𝐀𝟎 𝟐𝐋𝐏) We’re looking for 1–2 professionals to join our friendly 2-bed flat (3 housemates). 🛁 2 toilets | 💷 £850/month (bills included) 🛋️ Furnished + garden | 🚉 Excellent transport | 🛒 Shops nearby 📅 Available: 20 Sept 📞 WhatsApp: +447424238518",
+      "price": "£850/month",
+      "zone": "Wembley, United Kingdom",
+      "zoneMacro": "Brent",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, location, and price. It also includes a phone number for contact, which adds to its reliability. However, the post does not mention any formal lease or contract, which prevents it from achieving a perfect score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T21:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24241840238818341/",
+      "status": "active",
+      "imageUrl": "https://scontent-del2-1.xx.fbcdn.net/v/t39.30808-6/540623092_24221214884214389_1424066433656748263_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jshM7CjW3n8Q7kNvwEbhwaS&_nc_oc=AdnxIZTA6CvpgZfZs1KxDmygIMUrjT1pcS7FktZmNz032nTM_rspxBpeKmyHp7uFQ7Q&_nc_zt=23&_nc_ht=scontent-del2-1.xx&_nc_gid=uCbqyCdmMIqnrRTkoleuiQ&oh=00_AfWftvywNHf5vqWZAU_puis-SQvUfZI5cPm0-kjyv8q_eA&oe=68B932A0"
+    },
+    {
+      "id": "25fb5f64-9329-81b2-bb74-f001bdbffa40",
+      "title": "Furnished Double Room for Rent in Surrey Quays",
+      "overview": "A bright and fully furnished double room in a 5-bedroom house, perfect for professionals or students, with a comfortable atmosphere and modern touch, located in Surrey Quays area",
+      "description": "Spacious Double Room – Surrey Quays, SE8 5AP We are excited to present this bright and fully furnished double room in a stylish 5-bedroom house located in the popular Surrey Quays area. ✨ Room Features: • Comfortable with bed, wardrobe, and storage space • Bright atmosphere with a modern touch • Perfect for professionals or students looking for a cozy home 🏡 House Features: • 5-bedroom property with 3 bathrooms for extra convenience • Fully furnished with elegant décor and modern furniture • Spacious kitchen equipped with all appliances • Comfortable shared spaces creating a welcoming environment 📍 Location – Surrey Quays (SE8 5AP): • Short walk to Surrey Quays Overground Station & Canada Water Underground Station 🚆 – easy access to Canary Wharf, London Bridge, and Central London • Surrounded by local shops, supermarkets, cafés, and restaurants • Close to Surrey Quays Shopping Centre and the beautiful Greenland Dock for outdoor walks and relaxation 💷 Rent: £1000 per month 🚫 Not available for couples We are Let Connect Agency, helping students and professionals find comfortable accommodation across London. Send us a message today to get more details",
+      "price": "£1000 per month",
+      "zone": "Surrey Quays, SE8 5AP",
+      "zoneMacro": "Southwark",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description of the room and house features, photos are provided, and contact information is available through the agency, with no apparent scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T21:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1422668572153994/",
+      "status": "active",
+      "imageUrl": "https://scontent.fjai2-3.fna.fbcdn.net/v/t39.30808-6/540081000_1297136361780137_8176096136087945676_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UlZEW798Z3sQ7kNvwGXh6Po&_nc_oc=AdmrCt2-v2i_U8tvZAFU39huTALashxe8i-SehmmpF-Xdj9I7FpyF5gr20uBLgPwLgA&_nc_zt=23&_nc_ht=scontent.fjai2-3.fna&_nc_gid=fHkZ8hAD5GWQIPwjhJzePA&oh=00_AfXjeOfqHDCeAyDdF6DBy3bTMMiKiTrsBiw5S4ne6TsG7w&oe=68B92BAC"
+    },
     {
       "id": "25fb5f64-9329-810c-b421-d7ecd0037793",
       "title": "Spacious double room for rent in Surrey Quays",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T20:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2112333115968234/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fjga2-1.fna.fbcdn.net/v/t39.30808-6/540081000_1297136361780137_8176096136087945676_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UlZEW798Z3sQ7kNvwF2UDh4&_nc_oc=AdmcyX2fSzEQ3BI_yhs49dk6CZ2_gf7Vq2jLy81gTH2zV5m3P3DVeAOq28xbbiP9W1c&_nc_zt=23&_nc_ht=scontent.fjga2-1.fna&_nc_gid=j5oJzkeD0E2TI6_R5QJwPg&oh=00_AfV0pB1iPQ5l4676LSquHAwA5zz6lnrnXYsxhlrJjJcDMg&oe=68B92BAC"
     },
     {

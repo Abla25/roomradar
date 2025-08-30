@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-30T20:33:28.924Z",
+  "generatedAt": "2025-08-30T21:29:13.032Z",
   "city": "roma",
-  "count": 298,
-  "totalRejectedCount": 926,
+  "count": 299,
+  "totalRejectedCount": 931,
   "results": [
+    {
+      "id": "25fb5f64-9329-818b-8ef7-db927bec0c62",
+      "title": "Spacious single room for rent in Villa Gordiani area",
+      "overview": "Renting out a single spacious room in the Villa Gordiani area, price includes 340 plus expenses",
+      "description": "Affittasi Stanza Singola Spaziosa 340+Spese, Zona Villa Gordiani",
+      "price": "340+expenses",
+      "zone": "Villa Gordiani",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description of the room and location, and includes an image of the room. However, it lacks contact information and additional details, which prevents it from achieving a higher reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T21:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1336606194797738/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540207096_4031437670454690_6512533285726358596_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lvGs6sm4EI4Q7kNvwGVjx8-&_nc_oc=AdkCnzGduPRvjz8nQya-1ljzsSz09yUeDwjwzoy6lriGqH5bHCLBbpqPARIAZJTUn0I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=aywzkpsGTx-JKwubudce6A&oh=00_AfWF8thgzAUkHPoWhuoOaGsHhNQ6R8dgh084vdCUB_0PFQ&oe=68B93582"
+    },
     {
       "id": "25fb5f64-9329-818c-98e8-ecf07bde4eb7",
       "title": "Room for rent in Viale Parioli",

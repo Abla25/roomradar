@@ -1,17 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/181439002455412/posts/1839365053329457/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T20:37:57.619928"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1839361316663164/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T20:37:57.620594"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1839359796663316/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T20:38:39.952967"
-    },
     "https://www.facebook.com/groups/181439002455412/posts/1839390579993571/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T22:31:04.100884"
@@ -659,8 +647,12 @@
     "https://www.facebook.com/groups/478152972719598/posts/2112336835967862/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T20:32:35.596704"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2112367029298176/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T21:28:27.764559"
     }
   },
-  "total_rejected_count": 249,
-  "timestamp": "2025-08-30T20:30:01.918008"
+  "total_rejected_count": 250,
+  "timestamp": "2025-08-30T21:26:44.583158"
 }
