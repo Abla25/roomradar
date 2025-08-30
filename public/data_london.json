@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T10:35:00.077Z",
+  "generatedAt": "2025-08-30T11:33:49.775Z",
   "city": "london",
-  "count": 141,
-  "totalRejectedCount": 209,
+  "count": 143,
+  "totalRejectedCount": 210,
   "results": [
+    {
+      "id": "25fb5f64-9329-8189-bf60-f95838d58b5b",
+      "title": "Room to rent in Goodmayes",
+      "overview": "A spacious room is available for rent in a newly refurbished property in Goodmayes with excellent amenities",
+      "description": "Room to rent 🏡 Newly Refurbished Property in Goodmayes, Kinfauns road IG3 – Spacious Rooms with Excellent Amenities",
+      "price": "N/A",
+      "zone": "Goodmayes",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post lacks specific details about the price and amenities, but it provides some information about the location and includes a photo.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T11:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111995806001965/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom58-1.fna.fbcdn.net/v/t39.30808-6/519664063_10162519155861773_7790895307111737406_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=nOefvj7MCYkQ7kNvwHnbrYS&_nc_oc=AdnNWvGO3nGFPza3vGlWBbkslO8U6SCPgPY_tpJ3i8M5HsmnbZKU4Wak2rXQd13qK2c&_nc_zt=23&_nc_ht=scontent.fbom58-1.fna&_nc_gid=3VXn8E6wg5VQ2yC3UnkF5g&oh=00_AfWn-72XuRObdHmwRp4qKp3EahF5zMd53MRXenNlFuSXiA&oe=68B89181"
+    },
+    {
+      "id": "25fb5f64-9329-8119-89f7-f27c58fbc1c0",
+      "title": "Huge room in Clapham for rent",
+      "overview": "A large double bedroom with storage and natural light is available for rent in a flat located near Balham High Road",
+      "description": "https://www.spareroom.co.uk/17941557 Huge room in Clapham South available for rent Details ✨ This is a great flat with rent being £1200 and bills coming to around £100 per month Deposit is £916 No couples unfortunately The room✨ A huge double bedroom with lots of storage. Includes: - Large wardrobe - Huge set of drawers - Multiple street facing windows that let in lots of light - Double bed - Bedside table - Bedside lamp Plenty of room for fitting a desk for those that work from home The flat ✨ The flat is located just off Balham High Road in a quiet, residential area and includes a garden (biggest on the street) which is perfect for bbqs & garden parties. It has a nice lounge & dining table & large bathroom that we all share. We like to keep the flat clean and tidy and are looking for someone who is also clean, tidy & respectable The flatmates✨ You’d be living with Faith (31, F, PR manager, Brit) and Jaime (31, M, Journalist, Kiwi) both met on SpareRoom, friendly & sociable, with their own lives in London but always up for a chat around the flat The area ✨ The flat is 2 mins from Balham High Road with all the best pubs, restaurants and coffee shops on our doorstep. We’re also 5 min walk from the tube and Big Tesco, Sainsbury’s and M&S as well as being just a quick stroll to Clapham and Tooting Common",
+      "price": "£1200",
+      "zone": "Clapham",
+      "zoneMacro": "South London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, flat, and flatmates, along with a photo, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T11:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112002876001258/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom58-1.fna.fbcdn.net/v/t39.30808-6/540453947_25391877293735178_2812063278313805975_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WbVLpvSFqHQQ7kNvwHpsD84&_nc_oc=Adlyry17utiErnARpUsxJNU4kmEiGClMNxk36j932qbk2TeoSlCA1KB_9FZPetG-B08&_nc_zt=23&_nc_ht=scontent.fbom58-1.fna&_nc_gid=3VXn8E6wg5VQ2yC3UnkF5g&oh=00_AfWv8UR-SDpBIBVhiBPHJdfH0sDOKjfRKEMcoAzOwjSloA&oe=68B8B77F"
+    },
     {
       "id": "25fb5f64-9329-8179-a0cb-d30d48071db6",
       "title": "Room for Rent in Ashford",
@@ -35,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T10:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1840511996548096/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/514270367_10162519091996773_3229495640295756702_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=b-l8d0ZuAbcQ7kNvwHANHfc&_nc_oc=AdmhP3hS5T98l4N7y9IPZy9Ub194mA9JDoj0U6MQXKCFE0GQ4Wyga-D9fuPk2pCObEk&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=kAu7VBCL3onKt9HoMDKnxw&oh=00_AfVaChlrZd1vIom-kCjJ1-d9YW0N9ZXdIiFzlGj9xTgBeg&oe=68B8AE43"
     },
     {
