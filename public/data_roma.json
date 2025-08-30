@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T06:38:59.577Z",
+  "generatedAt": "2025-08-30T07:25:41.155Z",
   "city": "roma",
-  "count": 235,
-  "totalRejectedCount": 731,
+  "count": 237,
+  "totalRejectedCount": 736,
   "results": [
+    {
+      "id": "25fb5f64-9329-8157-ab3d-e5fef7130948",
+      "title": "Room for rent in Monteverde area for female students",
+      "overview": "A room in a fully furnished and recently renovated apartment is available for rent in the Monteverde area, with utilities and wi-fi included",
+      "description": "SOLO PER STUDENTESSE, NO LAVORATORI!570€ Quartiere signorile Monteverde, adiacente al tram e fermate bus. Via Ferdinando Palasciano(CONTROLLARE LA DISTANZA CON GOOGLE MAPS PRIMA DI CHIAMARE!) DISTANZA SAPIENZA(autobus): 50 minuti DISTANZA ROMA 3(autobus): 30 minuti CAMERE: -3 ampie camere matrimoniali con TV. Bagno,cucina,balcone, ampio corridoio,con una scrivania per ogni camera, 100mq. Casa completamente arredata, appena ristrutturata.Solo referenziati, i vostri genitori devono venire a firmare il contratto. 4 piano, ascensore.Compreso condominio, acqua, tassa rifiuti, wi-fi con fibra ottica e riscaldamento(salvo conguaglio). Spese escluse:luce,gas(solo per fornelli). UNA STANZA DISPONIBILE(nelle altre due ci sono due ragazze universitarie). 570€ TELEFONO: [PHONE NUMBER CENSORED] Se non rispondo mandate un messaggio su whatsapp per essere richiamati. NO AGENZIE. NO PERDITEMPO!!",
+      "price": "570",
+      "zone": "Monteverde",
+      "zoneMacro": "Monteverde",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the apartment, including photos, and has a clear and specific description of the available room and the terms of the rental",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T07:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/30993458756965550/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540900385_10235483556303758_497006891413544722_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ucqRJCokIuMQ7kNvwFrnB_r&_nc_oc=AdnJ7Ks9Q_MHS6Fo8P4VSc38206Ka_vvzF8dgMI3qOpyT58BHfp57GkvMJ2UTqUzf84&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=3yHOOCGjRLBmLXdOGVIDtA&oh=00_AfW3MpkvZ2fhKn1G__aPPgc7e2TwJZQyFKWFRQPvhr0SLg&oe=68B88263"
+    },
+    {
+      "id": "25fb5f64-9329-8108-af3f-e2b29f34b604",
+      "title": "Room for rent in Tiburtina area",
+      "overview": "A room in a shared apartment is available for rent in the Tiburtina area, with air conditioning and a balcony",
+      "description": "Affitto zona Tiburtina, zona centrale e ben servita, posto letto, Euro 400,00 oltre spese, in camera doppia, dotata di aria condizionata e balcone. La camera è disponibile e visitabile.",
+      "price": "400",
+      "zone": "Tiburtina",
+      "zoneMacro": "Eur",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide detailed contact information, making it less reliable",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T07:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/30993828763595216/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-8135-a35c-e49b3a2d714d",
       "title": "Room for rent in Monteverde, Rome",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T06:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731321173733517/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fblr18-1.fna.fbcdn.net/v/t39.30808-6/540465959_10235483574664217_7208312264381652489_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ckyW3wMpxnsQ7kNvwEd_8N1&_nc_oc=Adk4ohnUeWJ3onYqkjhPSttNMSo_nI1Ka6_g8w6O-aSjasfMViA7M0VIe8MdsVMITy4&_nc_zt=23&_nc_ht=scontent.fblr18-1.fna&_nc_gid=szBymsln5YtbvclbkcDATw&oh=00_AfX180iCI__abdXE8RMGPPlAzo6ocb45eryNaTftac1jWQ&oe=68B879F8"
     },
     {
