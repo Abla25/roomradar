@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-30T03:04:39.457Z",
+  "generatedAt": "2025-08-30T03:40:38.451Z",
   "city": "london",
-  "count": 129,
-  "totalRejectedCount": 189,
+  "count": 130,
+  "totalRejectedCount": 190,
   "results": [
+    {
+      "id": "25fb5f64-9329-8119-a9e7-ea20fab903ff",
+      "title": "Flatmate needed for 2 bedroom flat in Camberwell",
+      "overview": "A 2 bedroom, 1 bathroom flat in Camberwell is available for rent, with a large patio and plenty of sunlight",
+      "description": "Hi everyone! I’m in urgent need of a flatmate for a 2 bed 1 bath in the Camberwell area. It’s a beautiful sun lit flat with a huge patio. Rent is £2600 excl bills. The flatmate I was looking with had to pull out last minute and the flat is under offer already. I’m a KCL masters student moving to London. The flat is available from sept 18. Message me 🙂",
+      "price": "£2600 excl bills",
+      "zone": "Camberwell",
+      "zoneMacro": "Southwark",
+      "rooms": "2",
+      "reliability": 3,
+      "reliabilityReason": "The post appears to be a legitimate rental listing, but lacks photos and may be suspect due to the urgent need for a flatmate and the flat already being under offer",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T03:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2111747479360131/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-8134-a226-febb26a862ae",
       "title": "1-bedroom fully furnished home for rent",
