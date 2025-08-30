@@ -1,57 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1334777008313990/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:53:13.510613"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1334776634980694/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:53:13.512620"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1334776551647369/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:53:13.514682"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1334775868314104/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:53:48.670473"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2143771479480138/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:54:32.394814"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2143770619480224/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:54:32.396809"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2143767319480554/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:54:32.398976"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2729748250557476/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:55:46.302185"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2729747457224222/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:55:46.305708"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2729735160558785/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:56:29.521196"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2729727143892920/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:56:29.523227"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2729722653893369/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:56:29.526827"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/30967989066179186/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-28T12:57:10.891009"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1334747954983562/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-28T13:36:03.738176"
@@ -1751,8 +1699,84 @@
     "https://www.facebook.com/groups/633912783969846/posts/1708589769835470/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T12:55:13.101517"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2145413415982611/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:27:05.178883"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2145409492649670/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:27:05.181214"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2145409259316360/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:27:05.183545"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2145408909316395/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:27:48.488085"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2145352335988719/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:27:48.494682"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731602547038713/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:28:27.089171"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731597917039176/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:28:27.091560"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731589960373305/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:29:04.625080"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731581593707475/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:29:04.628522"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731575167041451/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:29:39.636031"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/30996975536613872/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:30:14.206652"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1708759379818509/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:30:51.694711"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1708757933151987/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:30:51.697123"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1708752366485877/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:31:31.985723"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1708749209819526/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:31:31.988120"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1708748436486270/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:31:31.993223"
+    },
+    "https://www.facebook.com/groups/244234206083096/posts/2179881185851712/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:32:14.527767"
+    },
+    "https://www.facebook.com/groups/244234206083096/posts/2179876602518837/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:32:14.530275"
+    },
+    "https://www.facebook.com/groups/244234206083096/posts/2179856655854165/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-30T13:32:14.532416"
     }
   },
-  "total_rejected_count": 812,
-  "timestamp": "2025-08-30T12:48:59.533819"
+  "total_rejected_count": 831,
+  "timestamp": "2025-08-30T13:26:56.325911"
 }
