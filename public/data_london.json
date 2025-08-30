@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-08-30T16:42:41.464Z",
+  "generatedAt": "2025-08-30T17:31:18.223Z",
   "city": "london",
-  "count": 154,
-  "totalRejectedCount": 234,
+  "count": 158,
+  "totalRejectedCount": 235,
   "results": [
+    {
+      "id": "25fb5f64-9329-81a8-8a35-fd1e94e7ef6f",
+      "title": "Semi double room for rent in Upton Park",
+      "overview": "A semi double room available for rent in Upton Park, with a specific location and contact information",
+      "description": "One semi double room available from 1st October Location upton park, E13 9LN Only for Bangladeshi people Contact [VAT NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "E13",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a photo and contact information, but lacks details about the price and amenities, and has a restrictive criteria for tenants",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112216285979917/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540134695_4217287545205048_3441519960553259820_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wA02Ljs7et4Q7kNvwH4wpvN&_nc_oc=Admfv3pieB1VTrfpgGjQrLR_rMRbgd9s968_skXJR_VitoCDLLTue5uMzXsjPkzX84g&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=a3byhxjftSdpUD4anPvLlw&oh=00_AfUood-KtL5WvafBg6PRPqKTOOZgvmYsVQ8hbiH_9h5EZA&oe=68B90B40"
+    },
+    {
+      "id": "25fb5f64-9329-81b0-92c7-c338d5f2281b",
+      "title": "Room for rent in 2-bed apartment in Royal Wharf",
+      "overview": "A bright and spacious room with its own bathroom in a 2-bed apartment in Royal Wharf, with access to gym, pool, sauna, and concierge",
+      "description": "Hi everyone 💫 My name is Mary I’m looking for a flatmate to share my lovely 2-bed apartment in Royal Wharf (E16). The room is bright and spacious, and you’ll have your own bathroom just outside the room. The building has amazing facilities — gym, pool, sauna, concierge — plus a big balcony and great transport links (DLR Westsilvertown). Rent is £1200 pcm (some bills included). Available from 14th October If you’re tidy, easy-going, and looking for a modern home, I’d love to hear from you! 🌿 And I would be appreciative if you can spread the word to anyone who’s looking to rent!",
+      "price": "£1200 pcm",
+      "zone": "E16",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description, photos, and contact information, and does not seem like a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112228252645387/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540370009_4169953089890435_2845042431734933124_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Pft_f-pfKSsQ7kNvwHUL1ME&_nc_oc=AdnyCmhXgOqhw18uQC2u33xRo1xC9NDKFm0dqjVZ3sTj7FDo9Kjn2KGGGI-ydXDh9qw&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=djMNIGmhU9ktVOTn4zIY4w&oh=00_AfWG1A3bQYuVA8If-Wy7wv7zvZY7h8f5qAA87MH75r0I6Q&oe=68B90944"
+    },
+    {
+      "id": "25fb5f64-9329-8196-8dae-c5f41a89f556",
+      "title": "Single Room for Rent",
+      "overview": "A single room is available for rent, no additional details provided",
+      "description": "Single room for rent!",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The listing lacks essential details such as price, location, and photos, which raises concerns about its reliability and authenticity",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112241362644076/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-81bf-a431-e31c69661021",
+      "title": "Box Room for Rent in RM10 8TD",
+      "overview": "A box room is available for rent in a convenient location close to transport and local amenities, ideal for students or professionals",
+      "description": "📍 Box Room Available – RM10 8TD ✅ Rent: £450 | Deposit: £400 ✅ Ready to Move In ✅ All Bills Included ✅ Convenient Location – Close to Transport & Local Amenities ✨ Perfect for students or professionals looking for an affordable space! 📞 Call Now on +44 7[PHONE NUMBER CENSORED]",
+      "price": "£450",
+      "zone": "RM10 8TD",
+      "zoneMacro": "Havering",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description, price, and contact information, and it has a photo, which suggests it is a genuine and reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112252622642950/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539575926_779482181490915_3626117003513188728_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pCIlJJtisggQ7kNvwG63Gdr&_nc_oc=AdkCOTyYUk-eGmurmCFUThe63v-aKR4GfkzZFck5f0iTjeOBa_HPtI5yxS_w2FK1Vko&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=BA487-KESZX1rjPFNo1cwA&oh=00_AfWtQI9vj0PiRUlQ1AGGE6_JZAmKvn12O9YqdAAVKdP36Q&oe=68B8FF6B"
+    },
     {
       "id": "25fb5f64-9329-8152-9f5c-f06008581d99",
       "title": "Ensuite Apartment for Rent in Central London",
@@ -52,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T16:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2112192382648974/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/540484157_31526877956903165_435237790020440424_n.jpg?stp=cp6_dst-jpg_p526x395_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9h0Vojmas58Q7kNvwF4Cq_s&_nc_oc=Adnl7F6ydbP4jRpGuB_C_SPEBcgNOoiQA6vYQweNH3d0V98EaYyJ5VRaTRCYgezlJ2w&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=mLaXCh8Sq54wNqz8cD5yVw&oh=00_AfVUnU4sGVSOSeTImelWau-M0wMdXQu5cQV34DilPJEYzw&oe=68B8DB92"
     },
     {
@@ -86,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T16:39:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1840731593192803/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539909113_4217288405204962_7501526037115384758_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zai-oil0udUQ7kNvwHw0mxT&_nc_oc=Adk59jE4cD57SG_Ys69E3goX_MXLV-CJnBkwWZytUqrfWc8mOAXl2UnNQF_hp4reLmY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=3IuIc7Nn-spU_K-ycbo9Kw&oh=00_AfWSsv1XcLPR8P6AoaF5e3dQ0V6fGMAMFTgtkEwIE9rozw&oe=68B8F170"
     },
     {
@@ -732,7 +800,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T18:52:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2111473879387491/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel27-1.fna.fbcdn.net/v/t39.30808-6/540026516_4169101733308904_4642286572878670821_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=60jw6yYBCT0Q7kNvwGBYPNH&_nc_oc=AdkmrCrC__0NtLxbIu5-FsBL4k9nLJMW4ZMiL3wgwGK7RkDR90UTsEXyA3ArWDpVR88&_nc_zt=23&_nc_ht=scontent.fdel27-1.fna&_nc_gid=QWTEq9kLUxC-QbG0XRJulw&oh=00_AfX8y7LByWFHg0SEPMK8AocIPTAj7Xgg_lh39L1Hc2xmrg&oe=68B7B3C9"
     },
     {

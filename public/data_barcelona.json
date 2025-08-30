@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-30T16:42:34.429Z",
+  "generatedAt": "2025-08-30T17:31:13.183Z",
   "city": "barcelona",
-  "count": 867,
-  "totalRejectedCount": 1390,
+  "count": 870,
+  "totalRejectedCount": 1402,
   "results": [
+    {
+      "id": "25fb5f64-9329-81f9-aa26-ee0cb046c739",
+      "title": "Double room for rent for 2 girls",
+      "overview": "A double room with an exterior window is available for rent. The environment is pleasant and family-friendly. The room will be available on August 31st.",
+      "description": "Se Alquila Habitación doble 🛏️ para 2 Chicas La habitación tiene Ventana Exterior🪟. Ambiente agradable y familiar Disponible 31 Agosto. Info solo x Whatsapp 📲[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo of the room and provides contact information via WhatsApp, but the price and location are not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2185193001994769/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel92-1.fna.fbcdn.net/v/t39.30808-6/540945088_122295434666009435_3641729632642175941_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=y8h6-PMcraoQ7kNvwG-ITG8&_nc_oc=AdkYJ9WhU7kJtz5sLDvaqhUDiuYqWHdIKeTHtPZ-i69KcXo5MXGdcD7dAs4zcpnsm1s&_nc_zt=23&_nc_ht=scontent.fdel92-1.fna&_nc_gid=5KDDomP94ij-xPJ_shXDiQ&oh=00_AfU0goJ0nx5H3Ml0k0HZs7fDClVgCN1HMjrKUype-mwqpw&oe=68B8FC92"
+    },
+    {
+      "id": "25fb5f64-9329-814e-9e70-c7400a3ec3aa",
+      "title": "Apartment characteristics",
+      "overview": "The post mentions the characteristics of an apartment, but lacks detailed information, with a single photo available",
+      "description": "🔑 Características del Piso:",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post has a photo, but lacks essential details about the accommodation, such as the price, zone, or number of rooms, which raises concerns about its completeness and authenticity",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023360081326951/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540100544_10243577400117506_1790907327420729361_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=psrJhtu9PxAQ7kNvwHe7jiV&_nc_oc=AdkSTFYDuLFDqviqQx9jMw_P9QmoodUBIfdAfNngsomiytP0-uh9hjlXl7JBMo8BZmY&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=rr3p5g2pItA8n0xmsAWrZg&oh=00_AfUnYKhTrP1RxC3K_ixiKRrjYujJ2vOadjehBsTxOxNrZA&oe=68B913DD"
+    },
+    {
+      "id": "25fb5f64-9329-8159-82d6-e5fb3e473dff",
+      "title": "Visits available today",
+      "overview": "Visits are available today for a room or apartment, but only for females or mothers with children, with a phone number provided",
+      "description": "Visitas para hoy mismo , solo chicas o madres con hijos [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information about the accommodation, and there is only one photo available, which may not be sufficient to gauge the authenticity of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023375891325370/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t15.5256-10/540922884_4028024690793422_4272619009043958487_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=117846&_nc_ohc=Po-Os46kL2YQ7kNvwGWNlG5&_nc_oc=AdnGARjFkj2w5MlLTfLGdqBgFl_TJEWAUai4IaNPdvWLEkhWzicwGtQXxhp-hyiCzrs&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=rr3p5g2pItA8n0xmsAWrZg&oh=00_AfVWvVqQ39BRQOpU265lC7-MDoESwZQ9wk8EX5XpBwHDcA&oe=68B8F173"
+    },
     {
       "id": "25fb5f64-9329-81ed-af33-f2c9a3965870",
       "title": "Spacious room for rent in a 3-bedroom apartment in Barcelona",
@@ -256,7 +307,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T12:47:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1075258211037142/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fmaa3-3.fna.fbcdn.net/v/t39.30808-6/540737948_122295385682009435_1585496451732875249_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=K4_oTKg-AI0Q7kNvwHOKZ6v&_nc_oc=AdnWs8ilwfU1yoKKXePWQeLUMvQhUci8GBf0w266aW5tFBHRnRrJVjuVCHClKUt8ykHGz6dKO8XVx9jdGz1LvwDR&_nc_zt=23&_nc_ht=scontent.fmaa3-3.fna&_nc_gid=ITVkKHEn7Htli7FohmuWNg&oh=00_AfXJMNMeTGF2eqOf5j9QbjiBYxos-9tqSFtZWKmnsBPKzQ&oe=68B8D155"
     },
     {
@@ -2024,7 +2075,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T12:57:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022106614785631/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539804116_10243559409747758_2907067955690148631_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MOv7gfU2DcMQ7kNvwFji2v_&_nc_oc=AdmTX75MiskrMXixs1DDKPAZ5YmKcdxw_fpGeoznOomN-GjSzte_kbgorDZAdfLT6eY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=b7dJmdLF6piBom5cXMmTHQ&oh=00_AfXa17QGudKeng1_qvuT7NPPWOcM7e0aurbXnnIR6TIz8A&oe=68B75A74"
     },
     {
@@ -2041,7 +2092,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T12:56:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022269048102721/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/541143861_1822242845381836_5810313612528724661_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=117846&_nc_ohc=-W4vi5Q4KjMQ7kNvwH29PF2&_nc_oc=AdlVHRwRBS5_CoBXI6Eq22_Qmk8WiX_j8ibObLUnGCzsW3mCeQfe7R5gDWRP17HXvGI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=maMyi0m_MuPA0utvxQojHg&oh=00_AfVn9GH2X3VPDo8RokTuzjlRffbBYuqU5WdaLQOyLFuSOw&oe=68B75C95"
     },
     {
