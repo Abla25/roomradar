@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-30T21:29:10.924Z",
+  "generatedAt": "2025-08-30T22:30:09.161Z",
   "city": "barcelona",
-  "count": 888,
-  "totalRejectedCount": 1419,
+  "count": 889,
+  "totalRejectedCount": 1423,
   "results": [
+    {
+      "id": "25fb5f64-9329-817f-9c77-c7d49ddb4543",
+      "title": "Individual Room for Rent in Rambla de Prim, Barcelona",
+      "overview": "Room for long-term rentals in a shared apartment, near Forum and Diagonal Mar, with individual room, single bed, and closet, in a quiet building with respectful neighbors, including utilities and access to common areas",
+      "description": "Hola muy buenas tengo una habitación en rambla de Prim Barcelona zona cercana al Forum y diagonal mar habitación INDIVIDUAL con cama sencilla, con armario, para larga estancia, piso compartido con personas de orden, NO TABACO, NO ALCOHOL, NO HACER RUIDOS INECESARIOS, RESPETAR EL DESCANSO Y TRANQUILIDAD DE LOS HABITANTES DEL INMUEBLE Y VECINOS DE LA FINCA, con servicios incluidos y derecho a uso y disfrute de las áreas comunes del piso, cocina, terraza, salón comedor, galería con lavadora y tendedero, baño, WiFi, sin restricciones de horarios piso tranquilo y bien comunicado con metro línea amarilla, buses, cercano a centro comercial, tiendas, supermercados, cap salut, farmacias, playa a 10 minutos caminando, 450 mensual más mes de fianza para entrar, NO PAREJAS, NO NIÑOS, gracias [PHONE NUMBER CENSORED] también WhatsApp gracias",
+      "price": "450",
+      "zone": "Rambla de Prim, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides a detailed description of the room and its conditions, but lacks photos, which might raise some concerns about the authenticity of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T22:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1050984376797859/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-8104-9932-f13ce0232928",
       "title": "Renting a spacious room",
@@ -2364,7 +2381,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T12:57:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021586658170960/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
