@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-08-30T13:36:02.167Z",
+  "generatedAt": "2025-08-30T14:31:37.016Z",
   "city": "barcelona",
-  "count": 854,
-  "totalRejectedCount": 1371,
+  "count": 859,
+  "totalRejectedCount": 1378,
   "results": [
+    {
+      "id": "25fb5f64-9329-815f-a6f6-f65441b5d129",
+      "title": "Furnished Studio Apartment for Rent in La Sagrada Familia, Barcelona",
+      "overview": "A 38m2 studio apartment with a living room, bedroom, bathroom, and separate kitchen is available for rent in La Sagrada Familia, Barcelona. The apartment is furnished and has a tranquil atmosphere, with a washing machine and elevator in the building.",
+      "description": "Se alquila estudio amueblado , en La sagrada familia ( Barcelona ). 520€ por mes. Disponible ahorra personal estudio de 38m2 en 3º piso con ascensor , 1 salón , 1 dormitorio y baño, cocina Separada , Cuarto de ducha , WC . Tranquilo , Lavadora. Contacto Whatsaapp: (003[PHONE NUMBER CENSORED]) Cordialmente",
+      "price": "520€",
+      "zone": "La Sagrada Familia, Barcelona",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the apartment, including its size, layout, and amenities. It also includes a clear price and contact information, as well as a photo of the apartment, which suggests that the listing is genuine and trustworthy.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T14:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2185043195343083/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel5-3.fna.fbcdn.net/v/t39.30808-6/541104649_122173497338517722_2834717677140772491_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XbI3WdpgeWsQ7kNvwF6JS1E&_nc_oc=AdmmAR2LvwzYLeBBFgN6bSInFhgWTBMi76p81qKQqLbiZHT71-LqClG-rvrN40DOmhY&_nc_zt=23&_nc_ht=scontent.fdel5-3.fna&_nc_gid=D_njb64QdSMAoaXOJVx4aQ&oh=00_AfUT-i3wQLoZVntoOnsYKu7unhccYcikQg-6s7CGn83kXg&oe=68B8D012"
+    },
+    {
+      "id": "25fb5f64-9329-81c4-948f-dc8088128f7c",
+      "title": "Room for rent in Vilamarí street",
+      "overview": "A room in a family home in a quiet and well-located area, close to Paralelo and Sants station",
+      "description": "Alquilo habitación en calle Vilamarí, Poble Sec. Vivienda familiar en una zona muy tranquila y bien situada. Cerca de Paralelo y la estación de Sants con infinidad de servicios y supermercados a dos minutos. Precio 390 euros al mes, gastos incluidos. Se piden dos meses de fianza. Interesados pónganse en contacto conmigo por privado.",
+      "price": "390 euros",
+      "zone": "Poble Sec",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The listing provides some information about the location and price, but it lacks photos and has a relatively low level of detail, which raises some concerns about its legitimacy.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T14:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1075346821028281/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-81af-b3f7-e7b4f44445bc",
+      "title": "Room available in Sant Joan Despi",
+      "overview": "A room is available for rent in Sant Joan Despi, suitable for serious and responsible individuals",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despi",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing has limited information and no photos, but it provides a contact number and seems to be a genuine rental offer",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T14:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1075363901026573/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-81ff-a6b7-de444c0b88d8",
+      "title": "Private room for rent in a shared flat",
+      "overview": "A private 15qm room in a sunny two-person flatshare, available for 3 months sublease, very central, 450 per month all included",
+      "description": "Private 15qm room in a sunny two-person Flatshare (70sqm+Balcony) /3months sublease / very central / 450💶 per month - all included ------------------------------------------------------------------------ ⏳ rental period: 01.August - 30.October 💱 monthly: 450 all included ------------------------------------------------------------------------ 📓 about me: I'm a 3d artist and architect, 36years old, social but cosy at home, I do like cooking n' do a lot sport activities on the beach. I work in a co-working and from home sometimes 🚋 location: Very central, close to Metro Parallel 🏠 room has a window to interior, the livingroom has a lot of sunlight, 3rd floor, quiet, elevator, AC in the living room 🚪equipped with a wardrobe, single-bed and a table for working 💥 it's q quiet household and parties are not appreciated, looking for working individuals, prefer people working outside of home ⛔No pets ------------------------------------------------------------------------ ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ ✉️ PLEASE WRITE ME a short INTRODUCTION message here: What you are doing in Barcelona, where you are from, how old you are, etc., etc.....",
+      "price": "450",
+      "zone": "Very central, close to Metro Parallel",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and amenities, and includes a photo of the room, which increases the reliability of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T14:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2242230192946843/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-7.fna.fbcdn.net/v/t39.30808-6/539607128_10238588444797834_7510026667541800041_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qpKAfbFjjqIQ7kNvwFMUNrp&_nc_oc=Adl_7ojIbYBIFp7OaWmweGF5nIwy28RNQoxe4ufIt7-sQevtpOztYWxdH-Dg7UlkiW-Vf0mQc2gmwXP1MiikbuUC&_nc_zt=23&_nc_ht=scontent.fdel27-7.fna&_nc_gid=Tsyu219ZvKyJguosLU3ndA&oh=00_AfVlIk3Fa3PB0sha36wEur_u7nfsbHgpXZwLA4e4ZXoTJQ&oe=68B8CECA"
+    },
+    {
+      "id": "25fb5f64-9329-814d-84f4-f7f02c2fa537",
+      "title": "Room for rent in Prat de Llobregat",
+      "overview": "Room available for a single person in Prat de Llobregat",
+      "description": "Hola se alquila habitación para persona sola en el Prat de llobregat más info [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Prat de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Low reliability score due to lack of photos, incomplete information, and potential scam risk",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T14:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077210861251112/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-8144-a438-e7ab2609afa5",
       "title": "Individual Room for Rent in Barcelona",
@@ -1531,7 +1616,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T13:01:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2184045392109530/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2041,7 +2126,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T12:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076216518017213/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -3350,7 +3435,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T14:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4304888279743681/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel46-1.fna.fbcdn.net/v/t39.30808-6/539110960_10238563149685472_7891791152748141606_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NO7PTqER8ZkQ7kNvwGuphGM&_nc_oc=Adki_fA1h81dhdIcM_ChHNDuRh3s71hgSTdCyNJJEeQExQJdt_bR0wc1DESYfgvpY-o&_nc_zt=23&_nc_ht=scontent.fdel46-1.fna&_nc_gid=ONlmSIHihYxJG9pekNDmyA&oh=00_AfWcuy78pXFuii5w6w_RC9QbtgaBgRMnKeO9-BnHPklVOg&oe=68B63C06"
     },
     {
@@ -6563,7 +6648,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T11:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2181576179023118/",
-      "status": "verification_needed",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539101611_122172909146517722_5313857046035986132_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VPKGtPC4GQEQ7kNvwESkW_o&_nc_oc=AdmbU2rruoRu8IYOMF9I3TMnZAqAVn_p_okBWfEK5g2ZPN6SHIK5LDo3-cOEAdppbZE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=AiVsoZw7sgFczLsYVs9ikA&oh=00_AfVvrmVl-jptYGQARHMCtqpj_i_YtSKpyWnmABHMroTx_A&oe=68B3637E"
     },
     {
