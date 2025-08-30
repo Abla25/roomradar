@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-30T17:31:13.183Z",
+  "generatedAt": "2025-08-30T18:43:32.776Z",
   "city": "barcelona",
-  "count": 870,
-  "totalRejectedCount": 1402,
+  "count": 873,
+  "totalRejectedCount": 1407,
   "results": [
+    {
+      "id": "25fb5f64-9329-81e0-86bf-fac228fef49e",
+      "title": "Small room for rent",
+      "overview": "Small room for rent, contact via WhatsApp",
+      "description": "Se alquila habitación chica o señora [MESSAGING CONTACT CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos, price information, and a detailed description, but it appears to be a genuine rental offer with contact information provided.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T18:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2185204171993652/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-8130-b1e3-e03bb373419d",
+      "title": "Room for rent in city center",
+      "overview": "Renting a room in the city center with private bathroom availability, priced at 230 euros per month",
+      "description": "[PHONE NUMBER CENSORED] , Se alquila habitación en la zona centro muy bien ubicada con disponibilidad a baño privado, 230 euros mensuales, preguntar vía WhatsApp o llamada",
+      "price": "230 euros",
+      "zone": "City center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a phone number and a WhatsApp contact, and there is a photo of the room. However, the reliability score is not 5 because the post seems a bit brief and lacks detailed information about the room and the renting conditions.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T18:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023509364645356/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc5-2.fna.fbcdn.net/v/t39.30808-6/539839770_749984074484009_8759752332501978628_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WB5TziCT3KIQ7kNvwFKYdje&_nc_oc=Adls1qrym3rZjJaI2mqgR7tpQVSf26y9BvCYi-VTOnc2-dtZNzh_yO_QY4kGzYc0G0c&_nc_zt=23&_nc_ht=scontent.fixc5-2.fna&_nc_gid=z7wdiX41BETX-K-qhLr8Fg&oh=00_AfXLrA54vbYxdtzPKs4wbqzQDLVRQGiF1DnWWR9fmlZBeQ&oe=68B9198B"
+    },
+    {
+      "id": "25fb5f64-9329-81df-90da-db7414ae9a5d",
+      "title": "Two rooms for rent in Sant Gervasi",
+      "overview": "Two rooms are available for rent in Sant Gervasi, each with a private bathroom, preferably for girls with economic solvency",
+      "description": "Se alquila 2 habitaciones , cada habitación con baño privado en Sant Gervasi preferentemente chicas con solvencia económica",
+      "price": "N/A",
+      "zone": "Sant Gervasi",
+      "zoneMacro": "Sarrià-Sant Gervasi",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes photos and specific details about the rooms, but does not mention the price or contact information, which slightly reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T18:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4307365546162621/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539924175_122175513884376687_3138889540775215213_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=bpJMWT9JwxoQ7kNvwEkmSiC&_nc_oc=AdlhJ4jllUwDu2TX_Ib2VmQOHEoknxik8KhUlnHw0-JayuMjx67JStH4z51bRCdT-7M&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=VPj5Lr5LH7edkoTH8cQWTw&oh=00_AfVXNLZ6v9fI_qeneGrleAEcrfgxNxAhSFMQMyEKboO_vQ&oe=68B920DD"
+    },
     {
       "id": "25fb5f64-9329-81f9-aa26-ee0cb046c739",
       "title": "Double room for rent for 2 girls",
@@ -1157,7 +1208,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T18:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022484988081127/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -5152,7 +5203,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T10:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4303168159915693/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/538110134_747016924780724_142443351578172727_n.jpg?stp=dst-jpg_s565x565_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=fD3RaJ-_6vMQ7kNvwFq-C--&_nc_oc=AdmxsWonu7_4G-bofeNhxnLQq9x20p_2SQOzbHEczWDtinF6FAj1miUOLlhr8T_jbYk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dlt_oqe315b1K4HbLxXN3A&oh=00_AfXJ1LdPcGQYX1ozeY19Gh1nDtFTVBRcvBhXeguLQH9e0w&oe=68B493AB"
     },
     {
