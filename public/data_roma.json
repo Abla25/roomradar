@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-08-30T09:37:18.145Z",
+  "generatedAt": "2025-08-30T10:34:55.038Z",
   "city": "roma",
-  "count": 247,
-  "totalRejectedCount": 757,
+  "count": 252,
+  "totalRejectedCount": 766,
   "results": [
+    {
+      "id": "25fb5f64-9329-816d-b1e9-c838c48086e3",
+      "title": "Room for rent in Prati area",
+      "overview": "A room is available for rent in a design apartment in the Prati area, with a monthly price of 700 euros including all expenses. The room is approximately 12 square meters and has a small closet. The apartment is shared with the owner, who is only present on weekends.",
+      "description": "Affitto stanza in zona Prati, adiacente piazzale Clodio, ottimamente servita dai mezzi pubblici, in appartamento di design completamente ristrutturato come da foto, con aria condizionata freddo/caldo e tutti gli elettrodomestici; la stanza è di circa 12 m2, per 1 persona (no coppie) con un piccolo armadio, non adatta a persone con molto bagaglio. L’appartamento è posto al piano seminterrato, molto luminoso; cerco ESCLUSIVAMENTE persona REFERENZIATA (no studenti universitari, ok studenti master). L’appartamento è in condivisione solo con me, che ci sono in genere solo il weekend; NB: occasionalmente affitto la mia stanza con airbnb (quasi esclusivamente nei mesi maggii/giugno e settembre/ottobre) - REQUISITO ESSENZIALE: la persona deve essere molto ordinata e amante della pulizia, mantenere l’appartamento in ottimo stato e rispettare la privacy (no party, ospiti la notte, e simili) - 700 euro spese incluse; gli interessati mi possono scrivere su messenger",
+      "price": "700",
+      "zone": "Prati",
+      "zoneMacro": "Prati",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the room and the apartment, and includes a photo. The owner seems to be looking for a reliable and trustworthy tenant, and the listing includes specific requirements and expectations, which suggests a high level of reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2145230496000903/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540448965_10237610314493032_5264016091550660276_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=W_XTEVIqiP4Q7kNvwE8zElm&_nc_oc=AdkVGU4LNR-MnysqhbTheV3ZE2NuEwJ_EZLmJFPwbeGAn0S1Ln24PIvMX1VW4m1uKbE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=nnoqyqGrGoQ5avQrsgwhFQ&oh=00_AfUfpRdtpZTTkd6ta1mcRj4aMZdUfA1-PBNA-B-XgdCEnA&oe=68B8976F"
+    },
+    {
+      "id": "25fb5f64-9329-8173-8621-d78293698a13",
+      "title": "Room for rent in San Giovanni area",
+      "overview": "A room is available for rent in a mixed apartment in the San Giovanni area, with a monthly price of 300 euros including all expenses. The apartment has two bathrooms, a kitchen, and a living room with a balcony.",
+      "description": "Si affitta a studenti/studentesse cameretta in zona SAN GIOVANNI a 300 euro mensili tutto incluso. L’appartamento misto è al quinto piano ed è composto da altre 2 camere già occupate, 2 bagni di cui uno di servizio, cucina,sala con balcone ad L.",
+      "price": "300",
+      "zone": "San Giovanni",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing provides some information about the apartment and the price, but it lacks photos and detailed descriptions of the room and the surrounding area, which raises some concerns about the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2145285139328772/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-8173-873d-f35c0620b3ec",
+      "title": "2 rooms available for rent in Rome",
+      "overview": "Two rooms are available for rent in the Sapienza area of Rome, with a price of 460 euros per room",
+      "description": "Disponibili 2 stanze a Roma in Zona Sapienza. A stanza 460 euro Contattare in privato per tutte le informazioni",
+      "price": "460",
+      "zone": "Sapienza",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, and the contact method is private, which raises some concerns about the listing's reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2145292069328079/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-8173-9786-e1aef4e5adb0",
+      "title": "Two rooms for rent in Rome",
+      "overview": "A 22-year-old girl is renting out two rooms in a large apartment in Piazzale Enrico Dunant, Rome, preferably to girls who are clean and tidy",
+      "description": "Ciao a tutti! Sono una ragazza di 22 anni, a breve mi trasferirò a Roma per iniziare la magistrale in scienze politiche a RomaTre. Nell’appartamento dove andrò a vivere si liberano due camere. La casa si trova in Piazzale Enrico Dunant, a circa 20 minuti dal dipartimento di scienze politiche di Roma 3. L’affittuario cerca prevalentemente ragazze, che siano pulite e ordinate. La casa è grande ed è dotata di due bagni, un salone, la cucina, tre camere da letto e uno studio. Per maggiori informazioni contattatemi in privato ☺️",
+      "price": "N/A",
+      "zone": "Piazzale Enrico Dunant",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and pricing information, but contains some details about the apartment and the preferred tenant",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1336199221505102/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-81a7-99ad-cdafe8849879",
+      "title": "Rooms for rent in Prenestino/Centocelle area",
+      "overview": "Rooms are available for rent in the Prenestino/Centocelle area of Rome",
+      "description": "Stanze zona Prenestino/Centocelle",
+      "price": "N/A",
+      "zone": "Prenestino/Centocelle",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post appears to be a legitimate rental listing with a photo, but the price and other details are not specified",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1336249458166745/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539250435_1992742298229273_5888754998907149515_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0vsa_wl1OfwQ7kNvwGLW7GN&_nc_oc=AdlgHWQmIwtSHCy8-E0P4sujMfAz6HJzgeG2o2ZksBYFpX_x75VDPDMm82q74QM_nVU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=HGZUwzHYu6YNUi2t-QQ92Q&oh=00_AfVzVAp5xqr1pLg94PcXJGkIAWRP2W49Y0KGTTyjCoV2Rw&oe=68B88242"
+    },
     {
       "id": "25fb5f64-9329-813a-93a0-db89b3f0d889",
       "title": "Room for rent in Prati zone",
@@ -18,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T09:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1708596913168089/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540503622_10237610387534858_2955326201926345681_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=GVW1rHumalYQ7kNvwFUkjb2&_nc_oc=AdnHOVagyG5pzpmwcm_wLBC9BBN9e12zn2pnXGjfpaRBCoUAyIzmTHdCcxdwo8dR1zE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=RxX8yODgU9dJueV0sh2kPA&oh=00_AfU8tQBTzlqx7rmxWM4SfNmw3zvtvuwtuaFwJJJk7CwsQA&oe=68B88257"
     },
     {
@@ -52,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T09:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731428497056118/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -154,7 +239,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T08:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2145201902670429/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2211,7 +2296,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T11:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2143728786151074/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

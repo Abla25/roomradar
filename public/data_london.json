@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T09:37:19.124Z",
+  "generatedAt": "2025-08-30T10:35:00.077Z",
   "city": "london",
-  "count": 139,
-  "totalRejectedCount": 205,
+  "count": 141,
+  "totalRejectedCount": 209,
   "results": [
+    {
+      "id": "25fb5f64-9329-8179-a0cb-d30d48071db6",
+      "title": "Room for Rent in Ashford",
+      "overview": "Space available for rent in Ashford, including all bills and WiFi",
+      "description": "Space Available in Ashford Tw15 2UF Rent £250& £125 Deposit All bills Include in rent & Wifi Available Anyone interested",
+      "price": "£250",
+      "zone": "Ashford Tw15 2UF",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing is relevant, but the reliability score is low due to the lack of photos and limited information provided in the post.",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1840498329882796/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "25fb5f64-9329-8126-820f-ef4fa353259c",
+      "title": "Studio loft for rent in Goodmayes",
+      "overview": "A newly refurbished studio loft is available for rent in Goodmayes, IG3",
+      "description": "Newly Refurbished Studio Loft in Goodmayes, IG3",
+      "price": "N/A",
+      "zone": "Goodmayes, IG3",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and appears to be a genuine rental listing, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T10:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1840511996548096/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/514270367_10162519091996773_3229495640295756702_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=b-l8d0ZuAbcQ7kNvwHANHfc&_nc_oc=AdmhP3hS5T98l4N7y9IPZy9Ub194mA9JDoj0U6MQXKCFE0GQ4Wyga-D9fuPk2pCObEk&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=kAu7VBCL3onKt9HoMDKnxw&oh=00_AfVaChlrZd1vIom-kCjJ1-d9YW0N9ZXdIiFzlGj9xTgBeg&oe=68B8AE43"
+    },
     {
       "id": "25fb5f64-9329-811e-813a-d8b3dd52e366",
       "title": "2 rooms available for rent in Islington and Whitechapel",
@@ -1565,7 +1599,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T20:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1839368023329160/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
