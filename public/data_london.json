@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T22:30:16.126Z",
+  "generatedAt": "2025-08-30T23:29:57.861Z",
   "city": "london",
-  "count": 178,
-  "totalRejectedCount": 253,
+  "count": 180,
+  "totalRejectedCount": 256,
   "results": [
+    {
+      "id": "25fb5f64-9329-813b-924b-ecf860e90b67",
+      "title": "Private landlord offering houses, apartments, and studios for rent",
+      "overview": "Private landlord Bradley Scart is offering various properties for rent with immediate approval, utilities included, and pets allowed in good areas",
+      "description": "Hello I’m Bradley Scart , I’m a private landlord, I have houses, apartment & studios for rent with immediate approval, utilities included and pets allowed..They are all in good areas with no criminal records you want..If you’re interested send me a private message now for more information.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Lambeth",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post seems legitimate and provides some information about the properties, but lacks specific details about prices, locations, and photos of the properties themselves, which prevents a higher reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T23:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1840936439838985/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t39.30808-6/541410116_122145682970407912_7117399278621223854_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lta-gYsZzJMQ7kNvwGsK6Gd&_nc_oc=Adlj6HYYsLotnMHclt_4YoaCZBYBNXkzCCb9yi-NdlmO4DMWkdqzY1RFAHSp-XZKGj0&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=OT9aZXJi5Q8thzFA_U1SDA&oh=00_AfXwwtnswQyO2ghrxzx71dD0MXxe-x4oON8IAR9I_R-bbQ&oe=68B945FF"
+    },
+    {
+      "id": "25fb5f64-9329-8105-85d3-f7fc72e12c2d",
+      "title": "Furnished double room for rent in Ilford",
+      "overview": "A furnished extra large double room is available for rent in a shared house in Ilford, ideal for a working professional or student",
+      "description": "Beautiful Furnished extra large double Room in Sharing – Females Only – Newbury Park A clean, tidy, and beautifully furnished room is available in a well-maintained and peaceful house located in Ilford Room Features: Fully furnished room in a quiet, respectful household Ideal for a working professional or student Prime Location: Just a 3 minute walk to Central Line Station 7-minute walk to Sainsbury’s, Aldi, Lidl, B&M, and other local park, meat shop, dentist, chicken shop ( all within 5–7 mins) Females only – for a safe, secure, and peaceful living environment. For more info or to arrange a viewing, WhatsApp: 07827 020471",
+      "price": "N/A",
+      "zone": "Ilford",
+      "zoneMacro": "Redbridge",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "Listing provides detailed information about the room and location, but lacks photos and pricing information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T23:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1422733398814178/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-8173-aa65-c210d51297bc",
       "title": "2-Bedroom Flat for Rent in Bow, Zone 2",
@@ -69,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T22:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1422733758814142/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2500,7 +2534,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T15:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1839162076683088/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
