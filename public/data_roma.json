@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-30T18:43:42.860Z",
+  "generatedAt": "2025-08-30T19:29:29.403Z",
   "city": "roma",
-  "count": 295,
-  "totalRejectedCount": 913,
+  "count": 297,
+  "totalRejectedCount": 920,
   "results": [
+    {
+      "id": "25fb5f64-9329-8162-ab66-e9ba2f5cad7b",
+      "title": "Room for rent for students only",
+      "overview": "A room with a private bathroom is available for rent in an attic apartment near Largo Preneste, suitable for students",
+      "description": "Si affitta SOLO A STUDENTI camera con bagno privato in attico, via laterale non trafficata a LARGO PRENESTE, ben collegata con tram 19 all'Università la Sapienza e con Metro C fermata Malatesta con il Colosseo e con Tor Vergata. L'appartamento è stato completamente ristrutturato, cucina si condivide con altri 4 studenti ragazzi. Disponibile da subito. Si affitta SOLO ad uno studente. Contattatemi in privato per ulteriori info.",
+      "price": "N/A",
+      "zone": "Largo Preneste",
+      "zoneMacro": "Centro Storico",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo, a clear description of the room, and contact information, but the price is not specified and the restriction to students only may be a scam indicator",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T19:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1708928279801619/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag9-1.fna.fbcdn.net/v/t39.30808-6/540787399_3156832587808569_6159905800181044199_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=6qjiELvZFTYQ7kNvwH0CGbZ&_nc_oc=Adnp66J8gr3EFGxnHPizT0vTlxRARm_30rvNSLjR8YP6TX06iny951hpon11R3uQIQA&_nc_zt=23&_nc_ht=scontent.fnag9-1.fna&_nc_gid=L7sSDfEdtB0A0d6CnHUC4w&oh=00_AfVYsf3srwZDUzQdhVtjOFSwRKFxy70gxxdOALsh9JBaJw&oe=68B921DF"
+    },
+    {
+      "id": "25fb5f64-9329-814d-985c-f100dd151f24",
+      "title": "Renting a bright room for 550 euros",
+      "overview": "A bright room is available for rent in a residential area near the Aventino neighborhood and Piramide metro station",
+      "description": "AFFITTO CAMERA LUMINOSA EURO 550 +50 EURO DI SPESE IN ZONA RESIDENZIALE IN ZONA AVENTINO VICINO METRO PIRAMIDE LINEA B SOLO UOMINI ETÀ 23 A 35 ANNI X FAVORE QUANDO MI CONTATTATE SCRIVETE ETÀ LAVORO E DI DOVE SIETE ORIGINARI SE SARÒ INTERESSATO VI RICONTATTERÒ QUANDO INVIATE UN MESSAGGIO SU MESSENGER SCRIVETEMI SU FB CHE LO AVETE INVIATO GRAZIE",
+      "price": "550 euros + 50 euros expenses",
+      "zone": "Aventino",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo, a clear description of the room, and contact information, but the age and work requirements for potential tenants may be a scam indicator",
+      "datePublished": "",
+      "dateAdded": "2025-08-30T19:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1708947283133052/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539191255_2026326408184378_4400590001840699824_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CAXdY4iKYI4Q7kNvwFNd6Nd&_nc_oc=AdnFxKWbNQkQCW6wS0mePA-KXxDXFtPXKvlfEd2NKXKq-gpu8G0mr9EZkTMA4ki3vLc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=84DnmxCg9DCb6_6M6xrnEw&oh=00_AfXN8KX0EMhF1CK8v0V-cG9vVaZIfSqcW24IRChx2wnw8A&oe=68B91186"
+    },
     {
       "id": "25fb5f64-9329-81f6-b532-f31a13453ae5",
       "title": "Renting a bright room in Aventino area",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T18:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2731835557015412/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fccu16-1.fna.fbcdn.net/v/t39.30808-6/539754263_2026322704851415_3574908864194779027_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=IBWBjd5jXVwQ7kNvwHNsypz&_nc_oc=AdlXvtlHzUiKZBgrU7XchsV-ViaodYf1wIDcB-VwKrpsPRmiDek8Lx2YMTxGPctww0s&_nc_zt=23&_nc_ht=scontent.fccu16-1.fna&_nc_gid=w3kcInYjWCunCcWrUpaETw&oh=00_AfVXi9A9uU69bNDkoRK6jZVrtNSWRTJFil58gJn5RDfwmA&oe=68B929FA"
     },
     {
