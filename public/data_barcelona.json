@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-08-31T16:39:57.347Z",
+  "generatedAt": "2025-08-31T17:28:46.044Z",
   "city": "barcelona",
-  "count": 956,
-  "totalRejectedCount": 1517,
+  "count": 960,
+  "totalRejectedCount": 1521,
   "results": [
+    {
+      "id": "260b5f64-9329-81c1-ae49-fdcdf7a45dc2",
+      "title": "Room for rent in Montcada Ripollet",
+      "overview": "A room is available for rent, suitable for one person, located in Montcada Ripollet",
+      "description": "Alquilo habitación para personas sola Montcada ripollet 400€",
+      "price": "400€",
+      "zone": "Montcada Ripollet",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a price, location, and an image of the room, indicating a relatively complete and genuine rental offer, but the absence of detailed contact information and potential scam indicators prevents a perfect score",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1076159550947008/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540725385_24392917127028248_9187142471848056097_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=GgiwqG0BPK0Q7kNvwF1ScQH&_nc_oc=AdljlFW4r8Y0k3PQop_MVIwtBmDm5AvgeQTJgk7KadAPb8T7Zs85H-qOQv9iXo5GLOU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=HsweIzSOON8Pj-RxdmtTPA&oh=00_AfUWjpRqn7PfHptZG5KPZlthucqPoIl75rRFLMtljjnmkw&oe=68BA69D0"
+    },
+    {
+      "id": "260b5f64-9329-8194-9b68-c225afbcfb9e",
+      "title": "Room for rent for couple or single woman",
+      "overview": "A room is available for rent for a couple or a single woman in the Santa Coloma area, more information available upon request",
+      "description": "Se alquila habitación para pareja o para chica zone Santa coloma mes información escribir",
+      "price": "N/A",
+      "zone": "Santa Coloma",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some information about the location, but lacks photos, price, and detailed contact information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078081491164049/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-8111-9c66-e96115bc0e0e",
+      "title": "Small room for rent",
+      "overview": "A small room is available for rent",
+      "description": "Tengo un pequeño habitacion para alqulier",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks information, photos, and contact details, making it difficult to assess its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078087917830073/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-81f4-9093-f6ee1bd5ebc3",
+      "title": "Room for rent in Paseo Maragall",
+      "overview": "A room for rent in a large, well-located apartment with double bed, TV, WiFi, and two bathrooms, including utilities for 550, with a one-month deposit and rental contract",
+      "description": "Se alquila habitación paseo Maragall nevera armario cama doble televisión y wifi 550 gastos incluidos dos baños con dos aseos y platos de ducha piso grande muy bien ubicado un mes de fianza se hace contrato de alquiler",
+      "price": "550",
+      "zone": "Paseo Maragall",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, amenities, price, and location, as well as a photo, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4308331186066057/",
+      "status": "active",
+      "imageUrl": "https://scontent.fknu1-3.fna.fbcdn.net/v/t39.30808-6/541415438_3643717469097367_8955124066279070406_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VykNA8D3hVgQ7kNvwELTWp_&_nc_oc=AdnatkBB6uBOZagvANEbUQzo2BGI2qTc_gHI31MydHEGq7_TmLqHYRrHaNyH43qGNo8&_nc_zt=23&_nc_ht=scontent.fknu1-3.fna&_nc_gid=hs4b8UDkKYsV7P1Ws0SoWA&oh=00_AfWKDESM7ztxlfQNgk7j-yU8t7ee0xP20KLyZ67Fsl0hZQ&oe=68BA4D48"
+    },
     {
       "id": "260b5f64-9329-8106-b558-e7e2b2918272",
       "title": "Small room for rent near Sagrada Familia",
@@ -120,7 +188,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T16:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308309779401531/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541504567_1298706488530480_6886185019523973871_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=whBoU4OYdsQQ7kNvwGVjXYn&_nc_oc=AdnSnUW18p4rPnJZtVsLAZ5bRmLophknnMUQTrK4yDqG7zCajAEpRXwO_eHKW_rCbTA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=-Bl6izrMpMGb_eggLWTSTg&oh=00_AfXvHOsexrvDXLN0R5FJmiQoXbmz4m9AJsPUxXsnhsszKw&oe=68BA3542"
     },
     {
@@ -766,7 +834,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4307876846111491/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -885,7 +953,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T03:12:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077250921247106/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/540300107_2594485924233630_6551757100393037069_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=117846&_nc_ohc=ul4Nql5QaE4Q7kNvwGLnLet&_nc_oc=AdlC2_93uJinbbNi8mcwgF-4eTHRS5LwXohl9e9urJFJP4GqbLizsWjk16imsOtw7Xw&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ixIL7VyoHu2SLlR1Fg8-uw&oh=00_AfXYQvuJ5v3t5aYi8PSK5OHHb5WwDDrQ6kqpnaOeRYwxCw&oe=68B99462"
     },
     {
@@ -1667,7 +1735,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T14:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2185043195343083/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel5-3.fna.fbcdn.net/v/t39.30808-6/541104649_122173497338517722_2834717677140772491_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XbI3WdpgeWsQ7kNvwF6JS1E&_nc_oc=AdmmAR2LvwzYLeBBFgN6bSInFhgWTBMi76p81qKQqLbiZHT71-LqClG-rvrN40DOmhY&_nc_zt=23&_nc_ht=scontent.fdel5-3.fna&_nc_gid=D_njb64QdSMAoaXOJVx4aQ&oh=00_AfUT-i3wQLoZVntoOnsYKu7unhccYcikQg-6s7CGn83kXg&oe=68B8D012"
     },
     {
@@ -2874,7 +2942,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T16:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4306121012953741/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -5832,7 +5900,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T21:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075102508128614/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -6767,7 +6835,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T08:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074554748183390/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fmaa15-1.fna.fbcdn.net/v/t39.30808-6/540641178_10239486374598476_2770857557614369615_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qqYvNxmodBoQ7kNvwGoS6zB&_nc_oc=AdlBslGzjwvKn8Sl4-Kx-cvcfVIWJXXzI73UNeERLkir80cMs1p5EG_FzL37SLe1PcE&_nc_zt=23&_nc_ht=scontent.fmaa15-1.fna&_nc_gid=LEEGjSBsFBZuO23jR-nF3A&oh=00_AfVRunM-FN4Xsr1sOuHasS4j1XLEsUn3lR_W5GIpg-Zo2Q&oe=68B4774C"
     },
     {
@@ -7124,7 +7192,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T01:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4303261746573001/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -13329,7 +13397,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-23T00:00:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2178422456005157/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

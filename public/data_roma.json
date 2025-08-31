@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T16:40:02.198Z",
+  "generatedAt": "2025-08-31T17:28:48.282Z",
   "city": "roma",
-  "count": 343,
-  "totalRejectedCount": 1078,
+  "count": 345,
+  "totalRejectedCount": 1090,
   "results": [
+    {
+      "id": "260b5f64-9329-81b3-bcdc-c99f870722f9",
+      "title": "Trilocale apartment for rent in Parioli, Rome",
+      "overview": "Three-room apartment for rent in Via Adelaide Ristori 26, Rome, with a private garden and parking. The apartment is already occupied by one person and has two bedrooms, two bathrooms, and a living room with kitchen.",
+      "description": "CERCASI COINQUILINO per TRILOCALE in Via Adelaide Ristori 26, Roma (Parioli) - 2 minuti da LUISS Viale Romania. L’immobile al Piano TERRA (non esposto in strada pubblica e con cancelletto privato) è occupato già da un altro ragazzo (27 anni, lavoratore referenziato, ex studente LUISS). L’immobile è cosi composto: - stanza da letto matrimoniale con bagno in camera (LIBERA) - Stanza da letto letto 1 piazza e 1/2 - 2 bagni (uno in camera come sopra descritto) - Zona giorno/salotto con cucina a vista (con lavastoviglie), divano, tavolo e tv come in foto - Giardinetto privato con ombrellone e sedie - Box auto in condivisione compreso nel prezzo. Prezzo per singola persona: €900 + €75 di spese condominiali.",
+      "price": "€900 + €75 condominium fees",
+      "zone": "Parioli",
+      "zoneMacro": "Parioli",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, and the contact information is available. The post seems legitimate and not like a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732772136921754/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel3-1.fna.fbcdn.net/v/t39.30808-6/539247194_24620989550901329_3630198591938389302_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vCWBWwNTbMsQ7kNvwGG3IVA&_nc_oc=Adna8CLyaYtKD8ILYEhPOzPCxtUxcZQbnrwtuDVeGq6SQCeszN9srnxrc1FeCVYjHII&_nc_zt=23&_nc_ht=scontent.fdel3-1.fna&_nc_gid=GuPUbCgvDpEXVCiRqLX3Gw&oh=00_AfWuENgdc6asiyVkkR87Z1IoQrRbgCIs46hj6i7IMg29Ug&oe=68BA4396"
+    },
+    {
+      "id": "260b5f64-9329-8107-b928-f45a23a1816a",
+      "title": "Room for rent for girls only",
+      "overview": "Rental of a room for girls only in the Tuscolana area of Rome",
+      "description": "AFFITTO STANZA SOLO RAGAZZE - ROMA TUSCOLANA",
+      "price": "N/A",
+      "zone": "Tuscolana, Rome",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post appears to be a genuine rental listing but lacks photos and pricing information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2146372972553322/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-812a-bf18-eddd9cc771a1",
       "title": "Roma Nord apartment for rent",
@@ -613,7 +647,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732281313637503/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541771433_4154292884816677_884833555113519884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qOgLdImzQQoQ7kNvwHchhxM&_nc_oc=AdmLL5XLskP2R4g5Y1K_qiFi0NJlxZHWCbOlrHb9tT9wTbMcjjUhHXypn6-a3OvQvU0&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=mbY_F4FU6twhBHvuxcR3Ag&oh=00_AfW4Y9BoxCrv_jbOpvTqdYggv6GuzfRskbpiYgQYIsm7dg&oe=68B9C3B5"
     },
     {
@@ -3656,7 +3690,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T13:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1334818678309823/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel27-4.fna.fbcdn.net/v/t39.30808-6/539510828_122093229411004890_2827919783014977149_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MHTrgCelkGgQ7kNvwEC0bRX&_nc_oc=AdkizHtre7QzONJiUngXx_8zcb0R1dUmQ02-pWAVGRZeFNCdGeY24O-vtfEGAs2bFb8&_nc_zt=23&_nc_ht=scontent.fdel27-4.fna&_nc_gid=3zqN9dV5IIYeemmiugRasg&oh=00_AfUCsLpcRCFqd0kaLtV3EFb-xp-RyEy8I-UYsv5O5vOY2Q&oe=68B612B4"
     },
     {
