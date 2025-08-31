@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T03:18:10.487Z",
+  "generatedAt": "2025-08-31T04:30:55.767Z",
   "city": "barcelona",
-  "count": 907,
+  "count": 909,
   "totalRejectedCount": 1441,
   "results": [
+    {
+      "id": "260b5f64-9329-819a-beb3-cecebb39661c",
+      "title": "Room for rent",
+      "overview": "A room is available for rent, with no additional details provided",
+      "description": "SE ALQUILA HABITACIÓN",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing has an image, but lacks details such as price, zone, and contact information, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T04:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023359551327004/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd2-2.fna.fbcdn.net/v/t39.30808-6/540958858_797654122842163_3508883519115375065_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kWq_vFJQfD0Q7kNvwH562SM&_nc_oc=AdndcDWt9wF6x_yR5O5qvj4SpjA2RZgAbr6R0UMc_FoP2fZWjlNpUiKtFkmIOI-FwzA&_nc_zt=23&_nc_ht=scontent.fhyd2-2.fna&_nc_gid=ZrnSnROiETfad95tcfFRpg&oh=00_AfVqL3WojWtMza9TXnOGG83ISkZ7JcptHSB1CUhHWM4DaQ&oe=68B9AA66"
+    },
+    {
+      "id": "260b5f64-9329-818a-bc70-f5fad3561cf0",
+      "title": "Room for Rent in Central Barcelona Apartment",
+      "overview": "A spacious apartment with 4 rooms, 2 bathrooms, and a fully equipped kitchen is available for rent in a central and safe neighborhood in Barcelona",
+      "description": "*VERIFIED FROM EXCHANGE STUDENT LIFE* ✅ 📍 Av. Paral·lel 182 bis – Barcelona (1st floor, Plaça Espanya) One of the most central and safe neighborhoods in Barcelona, right in front of the red (L1) and green (L3) metro lines Plaça Espanya – super convenient to move around the city! The apartment is spacious and well organized: 4 rooms (one per person), 2 bathrooms, a fully equipped kitchen, and a cozy living room with balcony. We are all between 22 and 28 years old, creating a young, international, and friendly atmosphere. We sometimes cook or go out together, but always respect everyone’s space and rhythm. You’ll feel at home right away 🏡✨ The rules are simple: wash your dishes after eating and respect your flatmates and neighbors. Want to cook at 3 AM? No problem, just keep the noise down 😄 ⸻ 🏷️ PRICE? 650€ + 60(expenses that you will divide beetween everyone) everything included 🏷️ DEPOSIT? 1 month + 300€ agency fee 📆 AVAILABILITY? From NOW ⏳ MINIMUM STAY? 4 months ⁉️ FOR COUPLE? No 👫👭 HOW MANY PEOPLE LIVE IN THE FLAT? 4 in total. 2 Bathrooms ⸻ ℹ️ For more information, leave a comment below and we will send you the owner’s contact 🥳",
+      "price": "650€ + 60€ expenses",
+      "zone": "Av. Paral·lel 182 bis – Barcelona",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "4",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description of the apartment, photos, and contact information, and it seems to be a legitimate rental opportunity with a verified source and clear rules and expectations.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T04:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2242609196242276/",
+      "status": "active",
+      "imageUrl": "https://scontent.fmaa3-2.fna.fbcdn.net/v/t39.30808-6/536273415_24561773450121898_1377841701373526362_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cJtbTbZdn5YQ7kNvwFAzZId&_nc_oc=AdlSql1WryHgAUu2HoF1yXrD8iY2eI7SFoltDGpV1xNwZ-XDWP2CPLv4UPeUjWjalxs&_nc_zt=23&_nc_ht=scontent.fmaa3-2.fna&_nc_gid=sy7RxzKIrTbj2Fv_R_4MkQ&oh=00_AfWBlsZsc6egyIsaX885JFymm_3QAZRBrZqXmm_DzV4Kww&oe=68B990F7"
+    },
     {
       "id": "260b5f64-9329-81ee-abf4-e437ea97e630",
       "title": "Room for rent in a shared apartment",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T03:14:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022299734766319/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/539200167_24709288522017544_7546953007093761851_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-C7bcr92DGwQ7kNvwE2KhoJ&_nc_oc=AdmCqWiXm4xlxAt5kFwhQi_U_TuS2KJyWQIQ_vlq0CfIWKrFs-hW6tUzmm6uqHU0iX0&_nc_zt=23&_nc_ht=scontent.fixc4-2.fna&_nc_gid=KAyvOgf1GNyDz30vRCqp_w&oh=00_AfX2dtsv-vlDSSzbS5E6jku7Lj8DBlvcAAFxjySN8T_ICQ&oe=68B96E20"
     },
     {
