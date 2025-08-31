@@ -3613,7 +3613,16 @@
         currentPage = page;
         renderListings();
         updatePagination();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        
+        // Scroll to the listings section instead of top of page
+        const listingsSection = document.getElementById('listings');
+        if (listingsSection) {
+          const listingsOffset = listingsSection.offsetTop - 100; // 100px offset for better visibility
+          window.scrollTo({ top: listingsOffset, behavior: 'smooth' });
+        } else {
+          // Fallback to top if listings section not found
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
       }
     }
 
