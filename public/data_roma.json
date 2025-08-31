@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T22:30:18.440Z",
+  "generatedAt": "2025-08-31T23:33:10.855Z",
   "city": "roma",
-  "count": 356,
-  "totalRejectedCount": 1142,
+  "count": 358,
+  "totalRejectedCount": 1145,
   "results": [
+    {
+      "id": "260b5f64-9329-81a7-ab8b-d7712a604271",
+      "title": "Two-room apartment for rent in Roma",
+      "overview": "Two-room apartment for rent in Roma, Via Magliana, with a garden, composed of a living room, kitchenette, and a large bedroom",
+      "description": "Affittasi bilocale in Roma, Via Magliana EURO 1.000,00 L’appartamento, al piano terra con giardino, è composto da soggiorno, angolo cottura e ampia camera da letto. Situato in un comprensorio tranquillo, adiacente a Caserma Carabinieri, farmacia e servizi vari. Ottimamente collegato: A 300 mt dalla linea ferroviaria Fiumicino–Ostiense (collegata con Metro A e B), servito da linee autobus, a meno di 10 minuti di autobus dalla fermata Metro B Magliana (circa 3 km), vicino all’Università Roma Tre – San Paolo.",
+      "price": "1000",
+      "zone": "Roma, Via Magliana",
+      "zoneMacro": "Ostiense",
+      "rooms": "2",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the apartment, but lacks photos, which is a crucial aspect for a rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T23:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2146566632533956/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-815f-9914-e71903631955",
+      "title": "Room for rent in shared apartment",
+      "overview": "Room available in a shared apartment in Torpignattara - Pigneto area, available for two months, September and October, for a female tenant",
+      "description": "Affittasi posto in camera doppia in un trilocale zona Torpignattara - Pigneto. Disponibilità immediata per due mesi: Settembre e Ottobre. Esclusivamente per una ragazza che dovrebbe condividere la stanza con la coinquilina già presente. 350 mensili. Per maggiori informazioni scrivetemi in privato",
+      "price": "350",
+      "zone": "Torpignattara - Pigneto",
+      "zoneMacro": "Pigneto",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information about the apartment, but it seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T23:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2146572235866729/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-81ab-8474-c554ae486404",
       "title": "Spacious single room for rent in shared apartment",
@@ -4370,7 +4404,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T08:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2143620589495227/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
