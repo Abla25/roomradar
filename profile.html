@@ -42,50 +42,81 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 1200px;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 0 2rem;
+      margin-bottom: 4rem;
     }
 
+    /* Profile Header - Minimal Apple Style */
     .profile-header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
       margin-bottom: 3rem;
-    }
-
-    .profile-title {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: #1f2937;
-      margin-bottom: 0.5rem;
-    }
-
-    .profile-subtitle {
-      color: #6b7280;
-      font-size: 1.1rem;
-    }
-
-    .profile-card {
+      padding: 1.5rem 2rem;
       background: rgba(255, 255, 255, 0.9);
       backdrop-filter: blur(20px);
-      border-radius: 24px;
-      padding: 3rem;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     .profile-avatar {
-      width: 120px;
-      height: 120px;
+      width: 48px;
+      height: 48px;
       border-radius: 50%;
       background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 auto 2rem;
-      font-size: 3rem;
       color: white;
       font-weight: 600;
-      box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      flex-shrink: 0;
+    }
+
+    .profile-info-minimal {
+      flex: 1;
+    }
+
+    .profile-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .user-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .user-details span {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    .user-email {
+      font-size: 0.8rem !important;
+      color: #9ca3af !important;
+    }
+
+    .profile-actions-minimal {
+      display: flex;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .profile-actions-minimal .btn {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 500;
     }
 
     .profile-info {
@@ -179,6 +210,622 @@
       box-shadow: 0 8px 25px rgba(239, 68, 68, 0.6);
     }
 
+    /* Favorites Section */
+    .favorites-section {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .favorites-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .favorites-count {
+      font-size: 0.9rem;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .favorites-header h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    .favorites-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .favorites-grid .card {
+      margin-bottom: 2rem;
+    }
+
+    /* Card Styles (exact same as homepage) */
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.06);
+      border-radius: 12px;
+      padding: 1rem;
+      transition: all 0.3s ease;
+      display: flex;
+      gap: 1rem;
+      position: relative;
+      animation: cardSlideIn 0.6s ease-out both;
+      width: 100%;
+      max-width: 850px;
+      margin: 0 auto 2rem auto;
+    }
+
+    @keyframes cardSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .card:hover {
+      border-color: rgba(59, 130, 246, 0.15);
+      box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .card-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* Thumbnail */
+    .card-thumbnail {
+      flex-shrink: 0;
+      width: 130px;
+      height: 98px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+      border: 1px solid #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+    }
+
+    .card-thumbnail:hover {
+      border-color: #3B82F6;
+      box-shadow: 
+        0 8px 24px rgba(59, 130, 246, 0.2),
+        0 4px 16px rgba(15, 23, 42, 0.1);
+      transform: translateY(-2px) scale(1.02);
+    }
+
+    .card-thumbnail::after {
+      content: '↗';
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      opacity: 0;
+      transition: all 0.3s ease;
+      transform: translateY(10px);
+    }
+
+    .card-thumbnail:hover::after,
+    .card-thumbnail:focus::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .card-thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    .card-thumbnail:hover img {
+      transform: scale(1.05);
+    }
+
+    .card-thumbnail-placeholder {
+      color: #9ca3af;
+      font-size: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+    }
+
+    .card-thumbnail-loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #6b7280;
+      font-size: 0.8rem;
+    }
+
+    .card-thumbnail-error {
+      color: #dc2626;
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Card Header */
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin: 0;
+      flex: 1;
+      margin-right: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      line-height: 1.3;
+    }
+
+    .card-title:hover {
+      color: #3B82F6;
+    }
+
+    /* Rating */
+    .card-rating {
+      background: rgba(255, 243, 205, 0.8);
+      color: #d68910;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: 10px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      position: relative;
+      border: 1px solid rgba(214, 137, 16, 0.15);
+      transition: all 0.2s ease;
+    }
+
+    .card-rating:hover {
+      background: rgba(255, 243, 205, 1);
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 6px 16px rgba(214, 137, 16, 0.25);
+      border-color: rgba(214, 137, 16, 0.3);
+    }
+
+    .card-rating.low {
+      background: rgba(254, 226, 226, 0.8);
+      color: #dc2626;
+      border-color: rgba(220, 38, 38, 0.15);
+    }
+
+    .card-rating.low:hover {
+      background: rgba(254, 226, 226, 1);
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 6px 16px rgba(220, 38, 38, 0.25);
+      border-color: rgba(220, 38, 38, 0.3);
+    }
+
+    .card-rating.high {
+      background: rgba(209, 250, 229, 0.8);
+      color: #059669;
+      border-color: rgba(5, 150, 105, 0.15);
+    }
+
+    .card-rating.high:hover {
+      background: rgba(209, 250, 229, 1);
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 6px 16px rgba(5, 150, 105, 0.25);
+      border-color: rgba(5, 150, 105, 0.3);
+    }
+
+    .rating-info {
+      position: absolute;
+      left: -24px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      background: rgba(255, 255, 255, 0.9);
+      color: #6b7280;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: bold;
+      cursor: help;
+      transition: all 0.3s ease;
+      z-index: 10;
+      backdrop-filter: blur(10px);
+    }
+
+    .rating-info:hover {
+      background: #ffffff;
+      border-color: #3B82F6;
+      color: #3B82F6;
+      transform: translateY(-50%) scale(1.2);
+    }
+
+    .rating-tooltip {
+      position: absolute;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.95);
+      color: #374151;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      line-height: 1.2;
+      max-width: 320px;
+      min-width: 280px;
+      white-space: normal;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 100;
+      margin-bottom: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(10px);
+      font-weight: 400;
+    }
+
+    .rating-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 5px solid transparent;
+      border-top-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .rating-info:hover .rating-tooltip,
+    .card-rating:hover .rating-tooltip {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(-4px);
+    }
+
+    /* Meta Tags */
+    .card-meta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .meta-tag {
+      background: rgba(248, 250, 252, 0.8);
+      color: #374151;
+      padding: 0.3rem 0.7rem;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border: 1px solid rgba(15, 23, 42, 0.06);
+      transition: all 0.2s ease;
+    }
+
+    .meta-tag:hover {
+      background: rgba(248, 250, 252, 1);
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+    }
+
+    .meta-tag.zone {
+      background: rgba(219, 234, 254, 0.8);
+      color: #1d4ed8;
+      border-color: rgba(29, 78, 216, 0.15);
+    }
+
+    .meta-tag.zone:hover {
+      background: rgba(219, 234, 254, 1);
+      border-color: rgba(29, 78, 216, 0.3);
+      box-shadow: 0 4px 12px rgba(29, 78, 216, 0.2);
+    }
+
+    .meta-tag.price {
+      background: rgba(209, 250, 229, 0.8);
+      color: #059669;
+      border-color: rgba(5, 150, 105, 0.15);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+      font-weight: 600;
+    }
+
+    .meta-tag.price:hover {
+      background: rgba(209, 250, 229, 1);
+      border-color: rgba(5, 150, 105, 0.3);
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.2);
+    }
+
+    /* AI Overview */
+    .card-overview-ai {
+      background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+      border-left: 3px solid #3B82F6;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.75rem;
+      border-radius: 12px;
+      position: relative;
+      border: 1px solid rgba(59, 130, 246, 0.1);
+    }
+
+    .overview-ai-header {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.7rem;
+      color: #3B82F6;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .overview-ai-icon {
+      width: 12px;
+      height: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .card-overview-ai:hover .overview-ai-icon {
+      animation: sparkle 0.6s ease-in-out;
+      transform: scale(1.2);
+    }
+
+    @keyframes sparkle {
+      0%, 100% { 
+        transform: scale(1.2) rotate(0deg); 
+        filter: brightness(1);
+      }
+      25% { 
+        transform: scale(1.3) rotate(5deg); 
+        filter: brightness(1.3);
+      }
+      50% { 
+        transform: scale(1.4) rotate(-5deg); 
+        filter: brightness(1.5);
+      }
+      75% { 
+        transform: scale(1.3) rotate(3deg); 
+        filter: brightness(1.2);
+      }
+    }
+
+    .overview-ai-text {
+      color: #374151;
+      line-height: 1.4;
+      font-size: 0.8rem;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    /* Date */
+    .card-date {
+      color: #6b7280;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 500;
+    }
+
+    .date-icon {
+      width: 16px;
+      height: 16px;
+      opacity: 0.7;
+    }
+
+    /* Description */
+    .card-description {
+      color: #6b7280;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      position: relative;
+      font-weight: 400;
+      font-size: 0.9rem;
+    }
+
+    .read-more-link {
+      color: #3B82F6;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 0.5rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border-bottom: 1px solid transparent;
+    }
+
+    .read-more-link:hover {
+      color: #1d4ed8;
+      border-bottom-color: #1d4ed8;
+    }
+
+    /* Actions */
+    .card-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      font-family: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-primary {
+      background: #3B82F6;
+      color: white;
+      box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+      border: 1px solid rgba(59, 130, 246, 0.1);
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-primary:active {
+      transform: translateY(0);
+    }
+
+    .btn-danger {
+      background: #dc2626;
+      color: white;
+      box-shadow: 0 2px 8px rgba(220, 38, 38, 0.2);
+      border: 1px solid rgba(220, 38, 38, 0.1);
+    }
+
+    .btn-danger:hover {
+      background: #b91c1c;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+    }
+
+    .remove-favorite-btn {
+      background: transparent;
+      color: #6b7280;
+      border: 1px solid #e5e7eb;
+      padding: 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      position: relative;
+    }
+
+    .remove-favorite-btn:hover {
+      background: #f3f4f6;
+      color: #374151;
+      border-color: #d1d5db;
+      transform: scale(1.05);
+    }
+
+    .remove-favorite-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Icon styles */
+    .icon {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .date-icon {
+      width: 16px;
+      height: 16px;
+      opacity: 0.7;
+    }
+
+    /* Button styles for cards */
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 12px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+      color: white;
+      box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+    }
+
+    .favorites-empty {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #6b7280;
+    }
+
+    .favorites-empty svg {
+      color: #d1d5db;
+      margin-bottom: 1.5rem;
+    }
+
+    .favorites-empty h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+
+    .favorites-empty p {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
     .back-link {
       display: inline-flex;
       align-items: center;
@@ -221,83 +868,69 @@
   <!-- Navbar -->
   <div id="navbar-container"></div>
 
-  <div class="container">
-    <a href="/" class="back-link">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M19 12H5M12 19l-7-7 7-7"/>
-      </svg>
-      Back to Home
-    </a>
-
-    <div class="profile-header">
-      <h1 class="profile-title">Profile</h1>
-      <p class="profile-subtitle">Manage your account settings</p>
-    </div>
-
-    <div class="profile-card">
-      <div class="profile-avatar">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
-          <circle cx="12" cy="8" r="5"/>
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+      <div class="container">
+      <a href="/" class="back-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
         </svg>
-      </div>
+        Back to Home
+      </a>
 
-      <div class="profile-info">
-        <div class="info-group">
-          <div class="info-label">Full Name</div>
-          <div class="info-value">
-            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
+      <!-- Profile Header - Minimal Apple Style -->
+      <div class="profile-header">
+        <div class="profile-avatar">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <circle cx="12" cy="8" r="5"/>
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          </svg>
+        </div>
+        <div class="profile-info-minimal">
+          <h1 class="profile-title">Profile</h1>
+          <div class="user-details">
             <span id="user-name">Loading...</span>
+            <span class="user-email" id="user-email">Loading...</span>
           </div>
         </div>
-
-        <div class="info-group">
-          <div class="info-label">Email Address</div>
-          <div class="info-value">
-            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,13 2,6"/>
+        <div class="profile-actions-minimal">
+          <button class="btn btn-secondary" onclick="changePassword()" title="Change Password">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <circle cx="12" cy="16" r="1"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
             </svg>
-            <span id="user-email">Loading...</span>
-          </div>
-        </div>
-
-        <div class="info-group">
-          <div class="info-label">Account Status</div>
-          <div class="info-value">
-            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-              <polyline points="22,4 12,14.01 9,11.01"/>
+            Change Password
+          </button>
+          <button class="btn btn-danger" onclick="signOut()" title="Sign Out">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+              <polyline points="16,17 21,12 16,7"/>
+              <line x1="21" y1="12" x2="9" y2="12"/>
             </svg>
-            <span style="color: #10B981; font-weight: 600;">Active</span>
-          </div>
+            Sign Out
+          </button>
         </div>
       </div>
 
-      <div class="profile-actions">
-        <button class="btn btn-secondary" onclick="changePassword()">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-            <circle cx="12" cy="16" r="1"/>
-            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-          </svg>
-          Change Password
-        </button>
+      <!-- Favorites Section - Always Visible -->
+      <div class="favorites-section" id="favorites-section">
+        <div class="favorites-header">
+          <h2>My Favorites</h2>
+          <div class="favorites-count" id="favorites-count">0 favorites</div>
+        </div>
         
-        <button class="btn btn-danger" onclick="signOut()">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
-            <polyline points="16,17 21,12 16,7"/>
-            <line x1="21" y1="12" x2="9" y2="12"/>
+        <div class="favorites-grid" id="favorites-list">
+          <!-- Favorites will be loaded here -->
+        </div>
+        
+        <div class="favorites-empty" id="favorites-empty">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
           </svg>
-          Sign Out
-        </button>
+          <h3>No favorites yet</h3>
+          <p>Start saving listings to see them here</p>
+        </div>
       </div>
     </div>
-  </div>
 
   <!-- Footer -->
   <div id="footer-container"></div>
@@ -308,6 +941,11 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
     import { getAuth, onAuthStateChanged, signOut, updateProfile, updatePassword, reauthenticateWithCredential, EmailAuthProvider } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
     import { getFirestore, doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+    import { initializeFavorites, getFavorites, getAllFavoriteListingsData, removeFromFavorites } from "./assets/js/favorites.js";
+    
+    // Make functions globally available
+    window.getAllFavoriteListingsData = getAllFavoriteListingsData;
+    window.removeFromFavorites = removeFromFavorites;
 
     // Your web app's Firebase configuration
     const firebaseConfig = {
@@ -345,6 +983,16 @@
           email: user.email,
           displayName: user.displayName,
           photoURL: user.photoURL
+        });
+        
+        // Initialize favorites and load them
+        initializeFavorites(auth).then(async () => {
+          try {
+            await loadFavorites();
+            updateFavoritesCount();
+          } catch (error) {
+            console.error('Error loading favorites after auth:', error);
+          }
         });
         
         // Load user data from Firestore
@@ -442,6 +1090,226 @@
         window.location.href = '/';
       }
     };
+
+    // Function to show favorites section (no longer needed as favorites are always visible)
+    window.showFavorites = function() {
+      // Favorites are now always visible, just ensure they're loaded
+      loadFavorites();
+    };
+
+    // Function to show profile section (no longer needed as profile is always visible)
+    window.showProfile = function() {
+      // Profile is now always visible
+    };
+
+    // Function to load and display favorites
+    window.loadFavorites = async function() {
+      try {
+        console.log('🔄 Loading favorites...');
+        const favoritesList = document.getElementById('favorites-list');
+        const favoritesEmpty = document.getElementById('favorites-empty');
+        
+        console.log('📋 Favorites list element:', favoritesList);
+        console.log('📋 Favorites empty element:', favoritesEmpty);
+        
+        // Get favorites IDs first
+        const favoritesIds = getFavorites();
+        console.log('📋 Favorite IDs:', favoritesIds);
+        
+        if (favoritesIds.length === 0) {
+          console.log('❌ No favorites found');
+          favoritesList.style.display = 'none';
+          favoritesEmpty.style.display = 'block';
+          return;
+        }
+        
+        // Get all favorite listings data
+        const favoritesData = await getAllFavoriteListingsData();
+        console.log('📋 Favorites data:', favoritesData);
+        
+        if (favoritesData.length === 0) {
+          console.log('❌ No favorites data found');
+          favoritesList.style.display = 'none';
+          favoritesEmpty.style.display = 'block';
+          return;
+        }
+        
+        favoritesList.style.display = 'flex';
+        favoritesEmpty.style.display = 'none';
+        
+        // Clear existing content
+        favoritesList.innerHTML = '';
+        
+        // Render each favorite with the exact same card design as homepage
+        favoritesData.forEach(favorite => {
+          const favoriteCard = document.createElement('div');
+          favoriteCard.className = 'card';
+          
+          // Format date
+          const formatDateTime = (dateString) => {
+            try {
+              const date = new Date(dateString);
+              const dateStr = date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: 'numeric'
+              });
+              const timeStr = date.toLocaleTimeString('en-US', { 
+                hour: '2-digit', 
+                minute: '2-digit',
+                hour12: false
+              });
+              return `${dateStr} at ${timeStr}`;
+            } catch (e) {
+              return dateString;
+            }
+          };
+
+          const rating = parseInt(favorite.reliability || 0, 10);
+          const ratingClass = rating >= 4 ? 'high' : (rating <= 2 ? 'low' : 'mid');
+
+          // Create thumbnail (with image or house emoji only on desktop)
+          const thumbnailHtml = favorite.imageUrl ? `
+            <div class="card-thumbnail" onclick="window.open('${favorite.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${favorite.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Open listing: ${favorite.title || 'No title'}">
+              <div class="card-thumbnail-loading">Loading...</div>
+              <img src="${favorite.imageUrl}" alt="Listing image: ${favorite.title || 'No title'}" 
+                   onerror="this.parentElement.innerHTML='<div class=\\'card-thumbnail-error\\' style=\\'color: #dc2626; font-size: 0.8rem; text-align: center; padding: 1rem;\\'>Image unavailable</div>'"
+                   onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
+                   loading="lazy">
+            </div>
+          ` : `
+            <div class="card-thumbnail card-thumbnail-desktop-only" onclick="window.open('${favorite.link}', '_blank')" onkeydown="if(event.key==='Enter'||event.key===' ')window.open('${favorite.link}', '_blank')" style="cursor: pointer;" role="button" tabindex="0" aria-label="Open listing: ${favorite.title || 'No title'}">
+              <div class="card-thumbnail-placeholder">🏠</div>
+            </div>
+          `;
+
+          // Truncate description
+          const shortText = favorite.description ? 
+            (favorite.description.length > 200 ? 
+              favorite.description.substring(0, 200) + '...' : 
+              favorite.description) : '';
+          const isLong = favorite.description && favorite.description.length > 200;
+
+          favoriteCard.innerHTML = `
+            ${thumbnailHtml}
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title" onclick="window.open('${favorite.link}', '_blank')">${favorite.title || "Untitled"}</h3>
+                <div class="card-rating ${ratingClass}">
+                  ${favorite.reliabilityReason ? `
+                    <div class="rating-info" title="Reliability reason">
+                      i
+                      <div class="rating-tooltip"><strong>Rating reason:</strong> ${favorite.reliabilityReason}</div>
+                    </div>
+                  ` : ''}
+                  ⭐ ${favorite.reliability || "N/A"}
+                </div>
+              </div>
+              
+              <div class="card-date">
+                <svg class="date-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                Added: ${formatDateTime(favorite.dateAdded)}
+              </div>
+              
+              <div class="card-meta">
+                <span class="meta-tag price">
+                  ${favorite.price || "N/A"}
+                </span>
+                <span class="meta-tag zone">
+                  <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  ${favorite.zoneMacro || (favorite.zone || "Unknown area")}
+                </span>
+              </div>
+              
+              ${favorite.overview ? `
+                <div class="card-overview-ai">
+                  <div class="overview-ai-header">
+                    <svg class="overview-ai-icon" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"></path>
+                    </svg>
+                    AI Summary
+                  </div>
+                  <div class="overview-ai-text">${favorite.overview}</div>
+                </div>
+              ` : ''}
+              
+              <div class="card-description">
+                ${shortText}
+                ${isLong ? `<span class="read-more-link">Read more</span>` : ''}
+              </div>
+              
+              <div class="card-actions">
+                <a href="${favorite.link}" target="_blank" class="btn btn-primary">
+                  <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width: 18px; height: 18px;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15,3 21,3 21,9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  View on Facebook
+                </a>
+                <button class="remove-favorite-btn" onclick="removeFavorite('${favorite.id}')" title="Remove favorite">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          `;
+          favoritesList.appendChild(favoriteCard);
+        });
+        
+        // Update favorites count after loading
+        updateFavoritesCount();
+        
+        // Mostra notifica se sono stati rimossi annunci problematici
+        const removedCount = favoritesIds.length - favoritesData.length;
+        if (removedCount > 0) {
+          console.log(`ℹ️ ${removedCount} problematic favorites were automatically removed`);
+          // Opzionale: mostra una notifica all'utente
+          // showNotification(`${removedCount} expired or unverified listings were removed from your favorites`);
+        }
+        
+        console.log('✅ Favorites loaded successfully');
+      } catch (error) {
+        console.error('❌ Error loading favorites:', error);
+      }
+    }
+
+    // Function to remove favorite
+    window.removeFavorite = async function(listingId) {
+      try {
+        await removeFromFavorites(auth, listingId);
+        loadFavorites(); // Reload the list
+        updateFavoritesCount();
+      } catch (error) {
+        console.error('Error removing favorite:', error);
+      }
+    };
+
+    window.updateFavoritesCount = function() {
+      const favoritesList = document.getElementById('favorites-list');
+      const favoritesCount = document.getElementById('favorites-count');
+      const favoritesEmpty = document.getElementById('favorites-empty');
+      
+      if (favoritesList && favoritesCount) {
+        const favoriteCards = favoritesList.querySelectorAll('.card');
+        const count = favoriteCards.length;
+        
+        favoritesCount.textContent = `${count} favorite${count !== 1 ? 's' : ''}`;
+        
+        if (favoritesEmpty) {
+          favoritesEmpty.style.display = count === 0 ? 'block' : 'none';
+        }
+      }
+    }
   </script>
 
   <script src="assets/js/cookie-banner.js"></script>
@@ -556,7 +1424,22 @@
     }
 
     // Profile page functions - REMOVED: Now handled by Firebase
-    // function loadUserData() { ... } - REMOVED: Firebase handles this now
+    // Function to load user data
+    window.loadUserData = async function() {
+      try {
+        console.log('🔄 Loading user data...');
+        const user = auth.currentUser;
+        if (!user) {
+          console.log('❌ No user logged in');
+          return;
+        }
+        
+        await loadUserDataFromFirestore(user.uid);
+        console.log('✅ User data loaded');
+      } catch (error) {
+        console.error('❌ Error loading user data:', error);
+      }
+    };
 
 
 
@@ -723,10 +1606,41 @@
     }
 
     // Load navbar and footer when page loads
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', async function() {
       loadNavbar();
       loadFooter();
-      // loadUserData() - REMOVED: Firebase handles user data loading
+      
+      // Wait for Firebase to be ready before initializing
+      const waitForFirebase = () => {
+        return new Promise((resolve) => {
+          const checkAuth = () => {
+            if (auth && auth.currentUser !== undefined) {
+              resolve();
+            } else {
+              setTimeout(checkAuth, 100);
+            }
+          };
+          checkAuth();
+        });
+      };
+      
+      try {
+        console.log('🔄 Waiting for Firebase to be ready...');
+        await waitForFirebase();
+        console.log('✅ Firebase is ready');
+        
+        console.log('🔄 Initializing profile page...');
+        await initializeFavorites();
+        console.log('✅ Favorites initialized');
+        await loadUserData();
+        console.log('✅ User data loaded');
+        await loadFavorites();
+        console.log('✅ Favorites loaded');
+        updateFavoritesCount();
+        console.log('✅ Favorites count updated');
+      } catch (error) {
+        console.error('Error initializing profile:', error);
+      }
     });
   </script>
 </body>

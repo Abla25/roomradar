@@ -1,14 +1,42 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /*.json$
+
+# Allow important assets
+Allow: /assets/images/
+Allow: /assets/favicon.svg
+
+# Sitemap location
 Sitemap: https://roomradar.com/sitemap.xml
 
-# Disallow profile page (private content)
-Disallow: /profile.html
+# Crawl delay (optional, for heavy sites)
+Crawl-delay: 1
 
-# Allow all other pages
-Allow: /how-it-works.html
-Allow: /assets/
-Allow: /assets/css/
-Allow: /assets/js/
+# Host directive
+Host: https://roomradar.com
