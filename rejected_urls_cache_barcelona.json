@@ -1,69 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4305850282980814/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:48:56.716979"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076347258004139/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:51:05.682930"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076309041341294/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:51:05.684481"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076215418017323/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:52:24.576751"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076163531355845/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:52:24.578475"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2241339479702581/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:54:22.778715"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2241329886370207/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:54:22.780268"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2241323663037496/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:54:22.782043"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2241317546371441/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:55:00.555384"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2241142699722259/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:55:41.400899"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021589078170718/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:58:18.378630"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021261028203523/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T12:58:18.380220"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1074155204480776/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T13:00:20.202643"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1074088921154071/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T13:00:20.204223"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2183698935477509/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T13:03:15.247102"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2183608995486503/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T13:03:15.251018"
-    },
     "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076389607999904/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-29T13:32:08.745006"
@@ -1139,8 +1075,24 @@
     "https://www.facebook.com/groups/986691378511610/posts/2185774305269972/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T12:50:09.831455"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4308167009415808/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T13:26:50.102982"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077949311177267/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T13:27:33.245631"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024044217925204/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T13:28:10.183391"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022424354753857/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T13:28:10.184903"
     }
   },
-  "total_rejected_count": 1493,
-  "timestamp": "2025-08-31T12:43:37.606238"
+  "total_rejected_count": 1497,
+  "timestamp": "2025-08-31T13:26:36.295110"
 }
