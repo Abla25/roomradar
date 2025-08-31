@@ -132,10 +132,21 @@ async function saveListingData(listingId, listingData) {
     const db = getFirestore();
     const listingDocRef = doc(db, 'favorite_listings', listingId);
     
-    // Salva solo il riferimento all'annuncio (ID e città)
+    // Salva dati più completi per il profilo
     const referenceData = {
       id: listingId,
-      city: listingData?.city || 'barcelona', // default a barcelona se non specificato
+      city: listingData?.city || 'barcelona',
+      title: listingData?.title || 'Untitled',
+      price: listingData?.price || 'N/A',
+      zone: listingData?.zone || 'N/A',
+      zoneMacro: listingData?.zoneMacro || listingData?.zone || 'N/A',
+      imageUrl: listingData?.imageUrl || listingData?.image || '',
+      link: listingData?.link || listingData?.url || '',
+      description: listingData?.description || listingData?.overview || '',
+      overview: listingData?.overview || listingData?.description || '',
+      reliability: listingData?.reliability || 'N/A',
+      reliabilityReason: listingData?.reliabilityReason || '',
+      dateAdded: listingData?.dateAdded || new Date().toISOString(),
       savedAt: new Date().toISOString()
     };
     
@@ -166,19 +177,25 @@ export async function getFavoriteListingData(listingId) {
     const listingDoc = await getDoc(listingDocRef);
     
     if (listingDoc.exists()) {
-      const reference = listingDoc.data();
-      console.log('📋 Reference for listing', listingId, ':', reference);
+      const savedData = listingDoc.data();
+      console.log('📋 Saved data for listing', listingId, ':', savedData);
       
-      // Ora recupera i dati completi dal JSON
-      const city = reference.city || 'barcelona';
+      // Se abbiamo dati salvati completi, usali direttamente
+      if (savedData.title && savedData.title !== 'Untitled') {
+        console.log('✅ Using saved data for listing:', listingId);
+        return savedData;
+      }
+      
+      // Altrimenti, prova a recuperare dal JSON come fallback
+      const city = savedData.city || 'barcelona';
       const fullData = await getListingDataFromJSON(listingId, city);
       
       if (fullData) {
-        console.log('✅ Full data retrieved for listing:', listingId, fullData);
+        console.log('✅ Full data retrieved from JSON for listing:', listingId, fullData);
         return fullData;
       } else {
-        console.log('❌ Could not retrieve full data for listing:', listingId);
-        return null;
+        console.log('⚠️ Using minimal saved data for listing:', listingId);
+        return savedData;
       }
     } else {
       console.log('❌ No reference found for listing:', listingId);

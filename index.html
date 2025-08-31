@@ -4014,13 +4014,25 @@
     function getListingData(listing) {
       console.log('📋 Getting listing data for:', listing);
       
+      // Verifica che il listing abbia un titolo valido
+      if (!listing.title || listing.title.trim() === '') {
+        console.error('❌ Listing has no valid title:', listing);
+        return null;
+      }
+      
       const listingData = {
+        id: listing.id || listing.link || listing.url || '',
         title: listing.title || listing.paraphrased_title || listing.name || 'Untitled',
         price: listing.price || listing.cost || 'N/A',
         zone: listing.zone || listing.zoneMacro || listing.location || 'N/A',
-        image: listing.imageUrl || listing.image || listing.images?.[0] || '',
+        zoneMacro: listing.zoneMacro || listing.zone || listing.location || 'N/A',
+        imageUrl: listing.imageUrl || listing.image || listing.images?.[0] || '',
         link: listing.link || listing.url || '',
+        description: listing.description || listing.paraphrased_overview || listing.overview || '',
         overview: listing.overview || listing.description || listing.paraphrased_overview || '',
+        reliability: listing.reliability || 'N/A',
+        reliabilityReason: listing.reliabilityReason || '',
+        dateAdded: listing.dateAdded || new Date().toISOString(),
         city: currentCity || 'barcelona' // Aggiungi la città corrente
       };
       
@@ -4032,15 +4044,29 @@
     window.handleFavoriteClick = async function(auth, listingId) {
       console.log('🎯 Global handleFavoriteClick called with:', { auth, listingId });
       
-      // Find the listing data
-      const listing = allListings.find(l => (l.id || l.link) === listingId);
+      // Find the listing data - try multiple matching strategies
+      let listing = allListings.find(l => l.id === listingId);
+      if (!listing) {
+        listing = allListings.find(l => l.link === listingId);
+      }
+      if (!listing) {
+        listing = allListings.find(l => (l.id || l.link) === listingId);
+      }
+      
       if (!listing) {
         console.error('❌ Listing not found:', listingId);
+        console.log('🔍 Available listings IDs:', allListings.slice(0, 5).map(l => ({ id: l.id, link: l.link })));
         return;
       }
       
+      console.log('✅ Found listing:', listing);
       const listingData = getListingData(listing);
       console.log('📋 Listing data found:', listingData);
+      
+      if (!listingData) {
+        console.error('❌ Could not generate listing data');
+        return;
+      }
       
       // Get the correct auth object
       let currentAuth = auth || window.auth || (window.firebase && window.firebase.auth);
@@ -4292,13 +4318,13 @@
         if (citySearchContainer) citySearchContainer.style.display = 'none';
         if (currentCityDisplayContainer) currentCityDisplayContainer.style.display = 'flex';
         if (currentCityText) currentCityText.textContent = getCityDisplayName(selectedCity);
-        
+      
         // Aggiorna il testo "Active listings" con un placeholder che verrà aggiornato dopo il caricamento
         const activeListingsText = currentCityDisplayContainer?.querySelector('span:last-of-type');
         if (activeListingsText) {
           activeListingsText.textContent = 'Loading listings...';
-        }
-        
+      }
+      
         // Mostra i listings e i filtri
         if (listings) listings.style.display = 'block';
         if (filters) filters.style.display = 'block';
@@ -4404,24 +4430,24 @@
         console.log(`✅ Listings loaded for ${city}`);
         
         // Scroll ai risultati solo se richiesto
-        if (scrollToResults) {
-          setTimeout(() => {
-            const listingsSection = document.getElementById('listings');
-            if (listingsSection) {
-              listingsSection.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start' 
-              });
-              console.log('📜 Scrolled to listings section');
-            }
+          if (scrollToResults) {
+            setTimeout(() => {
+              const listingsSection = document.getElementById('listings');
+              if (listingsSection) {
+                listingsSection.scrollIntoView({ 
+                  behavior: 'smooth', 
+                  block: 'start' 
+                });
+                console.log('📜 Scrolled to listings section');
+              }
           }, 800);
-        }
-        
+          }
+          
       } catch (error) {
         console.error('❌ Error loading listings for city:', city, error);
         if (loading) loading.style.display = 'none';
-        showFeedback('Error loading listings', 'error');
-      }
+          showFeedback('Error loading listings', 'error');
+        }
     }
 
     // Funzione per ottenere il nome di visualizzazione della città
