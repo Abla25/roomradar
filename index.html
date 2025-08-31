@@ -2296,7 +2296,7 @@
             </select>
           </div>
           
-          <button id="search-btn" onclick="startCitySearch()" style="
+          <button id="search-btn" onclick="startCitySearch(true, true)" style="
             background: linear-gradient(135deg, #3B82F6, #1D4ED8);
             color: white;
             border: none;
@@ -3276,11 +3276,9 @@
             searchBtn.style.cursor = 'pointer';
             console.log('🔍 Search button enabled for:', selectedCity);
             
-            // Avvia automaticamente la ricerca dopo un breve delay (senza notifica e scroll)
-            setTimeout(() => {
-              console.log('🔄 Auto-starting search for:', selectedCity);
-              startCitySearch(false, false); // No notification, no scroll
-            }, 500); // 500ms delay per dare tempo all'utente di vedere il pulsante abilitato
+            // Carica immediatamente gli annunci per la città selezionata (senza scroll)
+            console.log('🔄 Auto-loading listings for:', selectedCity);
+            loadListingsForCity(selectedCity, false); // No scroll
             
           } else {
             // Disabilita il pulsante di ricerca
@@ -4294,18 +4292,14 @@
         if (citySearchContainer) citySearchContainer.style.display = 'none';
         if (currentCityDisplayContainer) currentCityDisplayContainer.style.display = 'flex';
         if (currentCityText) currentCityText.textContent = getCityDisplayName(selectedCity);
-      }
-      
-      // Aggiorna il testo "Active listings" con un placeholder che verrà aggiornato dopo il caricamento solo se è un'azione manuale
-      if (showNotification) {
+        
+        // Aggiorna il testo "Active listings" con un placeholder che verrà aggiornato dopo il caricamento
         const activeListingsText = currentCityDisplayContainer?.querySelector('span:last-of-type');
         if (activeListingsText) {
           activeListingsText.textContent = 'Loading listings...';
         }
-      }
-      
-      // Mostra i listings e i filtri solo se è un'azione manuale
-      if (showNotification) {
+        
+        // Mostra i listings e i filtri
         if (listings) listings.style.display = 'block';
         if (filters) filters.style.display = 'block';
         if (pagination) pagination.style.display = 'block';
@@ -4314,29 +4308,120 @@
       // Ricarica i dati per la nuova città con debounce
       clearTimeout(window.citySwitchTimeout);
       window.citySwitchTimeout = setTimeout(() => {
-        console.log('🔄 Calling loadListings for city:', selectedCity);
-        if (typeof loadListings === 'function') {
-          loadListings();
-          
-          // Scroll ai listings dopo che sono stati caricati solo se richiesto
-          if (scrollToResults) {
-            setTimeout(() => {
-              const listingsSection = document.getElementById('listings');
-              if (listingsSection) {
-                listingsSection.scrollIntoView({ 
-                  behavior: 'smooth', 
-                  block: 'start' 
-                });
-                console.log('📜 Scrolled to listings section');
-              }
-            }, 800); // Aspetta che i listings siano caricati
-          }
-          
+        console.log('🔄 Calling loadListingsForCity for city:', selectedCity);
+        if (typeof loadListingsForCity === 'function') {
+          loadListingsForCity(selectedCity, scrollToResults);
         } else {
-          console.error('❌ loadListings function not found');
+          console.error('❌ loadListingsForCity function not found');
           showFeedback('Error loading listings', 'error');
         }
       }, 100); // Piccolo delay per evitare chiamate multiple
+    }
+
+    // Funzione per caricare gli annunci per una città specifica
+    async function loadListingsForCity(city, scrollToResults = false) {
+      try {
+        console.log(`🔄 Loading listings for city: ${city}`);
+        
+        // Salva la città selezionata
+        localStorage.setItem('selectedCity', city);
+        saveUserCityPreference(city);
+        
+        // Aggiorna la città corrente
+        currentCity = city;
+        
+        // Aggiorna l'URL senza ricaricare la pagina
+        const url = new URL(window.location);
+        url.searchParams.set('city', city);
+        window.history.pushState({}, '', url);
+        
+        // Aggiorna il display
+        updateCityTitle();
+        
+        // Mostra loading e assicurati che i listings siano visibili
+        const loading = document.getElementById('loading');
+        const listings = document.getElementById('listings');
+        const filters = document.getElementById('filters');
+        const pagination = document.getElementById('pagination');
+        
+        if (loading) loading.style.display = 'block';
+        if (listings) {
+          listings.innerHTML = '';
+          listings.style.display = 'block';
+        }
+        if (filters) filters.style.display = 'block';
+        if (pagination) pagination.style.display = 'block';
+        
+        // Controlla se abbiamo i dati in cache
+        if (cityDataCache[city] && (Date.now() - cityDataCache[city].timestamp) < 30000) {
+          console.log(`📦 Using cached data for ${city}`);
+          const cachedData = cityDataCache[city].data;
+          allListings = cachedData.results || [];
+          window.totalRejectedCount = cachedData.totalRejectedCount || 0;
+          
+          if (loading) loading.style.display = 'none';
+          setupEventListeners();
+          populateFilters();
+          applyFilters();
+          updateStats();
+          console.log(`✅ Listings loaded for ${city} (from cache)`);
+          return;
+        }
+        
+        // Carica i dati dal file JSON
+        const response = await fetch(`public/data_${city}.json?t=${Date.now()}`);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        
+        // Carica il contatore dei post scartati
+        window.totalRejectedCount = data.totalRejectedCount || 0;
+        
+        // Check data structure
+        if (data.results && Array.isArray(data.results)) {
+          allListings = data.results;
+        } else if (Array.isArray(data)) {
+          allListings = data;
+        } else {
+          allListings = [];
+        }
+        
+        // Salva in cache
+        cityDataCache[city] = {
+          data: data,
+          timestamp: Date.now()
+        };
+        
+        if (loading) loading.style.display = 'none';
+        setupEventListeners();
+        populateFilters();
+        applyFilters();
+        updateStats();
+        
+        console.log(`✅ Listings loaded for ${city}`);
+        
+        // Scroll ai risultati solo se richiesto
+        if (scrollToResults) {
+          setTimeout(() => {
+            const listingsSection = document.getElementById('listings');
+            if (listingsSection) {
+              listingsSection.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+              });
+              console.log('📜 Scrolled to listings section');
+            }
+          }, 800);
+        }
+        
+      } catch (error) {
+        console.error('❌ Error loading listings for city:', city, error);
+        if (loading) loading.style.display = 'none';
+        showFeedback('Error loading listings', 'error');
+      }
     }
 
     // Funzione per ottenere il nome di visualizzazione della città
