@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T13:35:34.868Z",
+  "generatedAt": "2025-08-31T14:28:22.961Z",
   "city": "roma",
-  "count": 333,
-  "totalRejectedCount": 1030,
+  "count": 335,
+  "totalRejectedCount": 1050,
   "results": [
+    {
+      "id": "260b5f64-9329-8152-ac3e-f1d9d061aeee",
+      "title": "Renting a luminous room in Aventino",
+      "overview": "A luminous room for rent in a residential area near Metro Piramide, Line B, Aventino, for men aged 23-35",
+      "description": "AFFITTO CAMERA LUMINOSA EURO 550 +50 EURO DI SPESE IN ZONA RESIDENZIALE IN ZONA AVENTINO VICINO METRO PIRAMIDE LINEA B SOLO UOMINI ETÀ 23 A 35 ANNI X FAVORE QUANDO MI CONTATTATE SCRIVETE ETÀ LAVORO E DI DOVE SIETE ORIGINARI SE SARÒ INTERESSATO VI RICONTATTERÒ QUANDO INVIATE UN MESSAGGIO SU MESSENGER SCRIVETEMI SU FB CHE LO AVETE INVIATO GRAZIE",
+      "price": "550 EUR + 50 EUR expenses",
+      "zone": "Aventino, near Metro Piramide",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo, a clear description of the room and location, and contact information, but the tone and language used may raise some concerns about the landlord's preferences",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T14:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1709365866424527/",
+      "status": "active",
+      "imageUrl": "https://scontent.fraj4-1.fna.fbcdn.net/v/t39.30808-6/539346218_2026783058138713_7192813429297284866_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=86tOJXzDj6UQ7kNvwEUF4Zx&_nc_oc=Adk8OJQDt9oTZZjGuo0wY6i-RjnCI2pF61BjSQsvVBO-wmb1gs4-jHJilR2moZousIk&_nc_zt=23&_nc_ht=scontent.fraj4-1.fna&_nc_gid=w11P1MtNhAosPcwYXBKp7A&oh=00_AfXPdh5tfOV0vuExZgsyHTeztoCr2NntiNIXnNWC6_WWOg&oe=68BA20C4"
+    },
+    {
+      "id": "260b5f64-9329-81d3-9e8c-ca1b1518b2f6",
+      "title": "Room for rent in shared apartment in Tiburtina, Rome",
+      "overview": "A room in a shared apartment is available for rent in the Tiburtina area of Rome, ideal for male students, with a monthly price of €350 including water",
+      "description": "📢 AFFITTASI POSTO LETTO IN STANZA DOPPIA – ZONA TIBURTINA (ROMA) 🎓🏡 Disponibile 1 posto letto in stanza condivisa ampia e luminosa, riservato a studenti maschi, preferibilmente iscritti a corsi magistrali. Soluzione ideale per chi cerca un ambiente tranquillo e ben organizzato. 📍 Posizione: Zona Tiburtina, ottimamente collegata con La Sapienza, LUISS e le principali Università romane, grazie alla vicinanza a metro B, autobus e treni regionali. 🏠 Caratteristiche dell’appartamento: Appartamento arredato e pronto all’uso Stanza doppia ampia e luminosa Cucina abitabile e bagno in condivisione Connessione Wi-Fi Ambiente tranquillo e studentesco 💶 Prezzo: €350 al mese, acqua inclusa 📅 Disponibilità immediata 📩 Per ulteriori informazioni, foto e per fissare una visita, contattami in privato!",
+      "price": "€350",
+      "zone": "Tiburtina, Rome",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides a detailed description of the apartment and its location, but there are no photos and limited contact information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T14:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1709524866408627/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-81ed-b022-c61ddbc738a2",
       "title": "Double Room for Rent for Students",
@@ -307,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732348386964129/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fjai9-1.fna.fbcdn.net/v/t39.30808-6/541125107_2026785661471786_7530679777977962303_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AkSjSTVzZLgQ7kNvwGNFCVY&_nc_oc=AdkTZMsEvR9Ix9HikgtICiImTFnSDQIQ4DjOo52mkqsFUljrC2wwM_o790hPcAtdMNM&_nc_zt=23&_nc_ht=scontent.fjai9-1.fna&_nc_gid=bLIertqWElZ9WCdo4XS02w&oh=00_AfVuTUx7_jDVfxm3q-b1qTmMHUxLadl9NGeg_E3liLkVVQ&oe=68B9EFBB"
     },
     {
