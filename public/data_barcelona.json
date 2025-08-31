@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T07:28:13.140Z",
+  "generatedAt": "2025-08-31T08:37:57.651Z",
   "city": "barcelona",
-  "count": 911,
-  "totalRejectedCount": 1449,
+  "count": 913,
+  "totalRejectedCount": 1453,
   "results": [
+    {
+      "id": "260b5f64-9329-81ba-88d0-da714c227986",
+      "title": "Room for rent in El Carmel",
+      "overview": "A room is available for rent in the El Carmel area, starting in September",
+      "description": "Se alquila habitación en el carmel para septiembre",
+      "price": "N/A",
+      "zone": "El Carmel",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is brief and lacks detailed information, photos, and contact details, which raises concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T08:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077338507905014/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-81a7-96a6-f6c33d5b3d17",
+      "title": "Double Room for Rent in Reformatted Flat",
+      "overview": "A double room in a fully refurbished flat with all amenities, located in Elephant and Castle, available from September 1st",
+      "description": "Hola estamos alquilado una habitación double el flat esta totalmente reformado con todas las comosidades el. Flat esta bien ubicado disponible 1 de septiembre poscode SE1 6SL Elephant and castle wollaston close para más información llamar ..[VAT NUMBER CENSORED]/075994404",
+      "price": "N/A",
+      "zone": "Elephant and Castle, SE1 6SL",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and has limited information, but it provides a phone number for contact and does not seem to contain scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T08:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4307876846111491/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-81e6-ab94-c5981df29074",
       "title": "Room for Rent in Poblenou",
@@ -52,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T04:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023359551327004/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fhyd2-2.fna.fbcdn.net/v/t39.30808-6/540958858_797654122842163_3508883519115375065_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kWq_vFJQfD0Q7kNvwH562SM&_nc_oc=AdndcDWt9wF6x_yR5O5qvj4SpjA2RZgAbr6R0UMc_FoP2fZWjlNpUiKtFkmIOI-FwzA&_nc_zt=23&_nc_ht=scontent.fhyd2-2.fna&_nc_gid=ZrnSnROiETfad95tcfFRpg&oh=00_AfVqL3WojWtMza9TXnOGG83ISkZ7JcptHSB1CUhHWM4DaQ&oe=68B9AA66"
     },
     {
