@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T14:28:22.961Z",
+  "generatedAt": "2025-08-31T15:34:51.796Z",
   "city": "roma",
-  "count": 335,
-  "totalRejectedCount": 1050,
+  "count": 337,
+  "totalRejectedCount": 1069,
   "results": [
+    {
+      "id": "260b5f64-9329-818b-8226-ea0e58ff0aff",
+      "title": "Double room for sale at 490 euros",
+      "overview": "A double room is available for rent in a modern apartment in the Tiburtina area of Rome, with a price of 490 euros per month, including all expenses, and a minimum contract of 12 months",
+      "description": "FITTASI STANZA DOPPIA A 490 EURO A POSTO LETTO TUTTO INCLUSO (ACQUA, CONDOMINIO, RISCALDAMENTO, INTERNET, LUCE, GAS E SPAZZATURA). DISPONIBILE DAL 3 SETTEMBRE. CONTRATTO REGOLARE SENZA ALCUNA SPESE DI REGISTRAZIONE A CARICO DEGLI AFFITTUARI, situata a ROMA (Zona Tiburtina): in via Tancredi Cartella, a 5 minuti dalla STAZIONE – METRO TIBURTINA, a 15 minuti a piedi dalla Sapienza, fermata bus sotto casa. Palazzo signorile con ascensore. Appartamento moderno per 4 persone, dotato di tutti gli accessori di cucina, composto da 2 singole e una doppia, completamente arredato con mobili nuovissimi, specchio e antenna TV in ogni camera, lavatrice, forno, 1 grande frigo, 3 stendini, tenda da sole, connessione internet con SUPER FIBRA (WIFI), con un bagno grande, un ripostiglio, termosifoni in ogni ambiente, climatizzatore in camera, due balconi e un ventilatore. Parcheggio gratuito sotto casa. Per informazioni e prendere appuntamento chiamare: [PHONE NUMBER CENSORED], [PHONE NUMBER CENSORED]. NO AGENZIA, NO BREVI PERIODI, MINIMO 12 MESI. Per chi fosse interessato, è possibile bloccare la stanza anche a distanza. Sarete i primi a viverci!",
+      "price": "490",
+      "zone": "Tiburtina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a detailed description of the room and apartment, as well as contact information, but does not include any scam indicators, however, the reliability score is not 5 because there is only one image and no other information about the landlord or the apartment's condition",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T15:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732500390282262/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541345643_24662867419997247_662937222474830769_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ttK-EhIXO-wQ7kNvwEaO9uG&_nc_oc=Adk6rLrLUup_9TUABtG1CRdX_4O3MR9v3-MP_7gO31dB70uG0zD0bT72TZJ38J6OL5Y&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=rxLPl-kDWjPpxInczsP83g&oh=00_AfUyoY-WsAGmEtsaGqk38qlA_a9QOoh5jpwKTB5GBay4FQ&oe=68BA2910"
+    },
+    {
+      "id": "260b5f64-9329-8117-b9f5-e2d0d8aeec70",
+      "title": "Last availability for a room",
+      "overview": "Last availability for a room, only for a female student, minimum 12 months rental, no sub-rental, no short-term rental",
+      "description": "Ultima disponibilità per la camera 3 nuovi appuntamenti da lunedì mattina 1 settembre solo per studentessa, no sub affitto no affitto breve Min 12 mesi",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post is a clear rental listing with a specific description and requirements, and it includes a photo, which increases the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T15:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732575643608070/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539955914_24483533154599247_4048497775833567694_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DEDe_hJN3LcQ7kNvwGK6K3k&_nc_oc=Adnbr097MfZl7-z05erBOVEujwjEeejK2yYUbXQZrqTLL14QHlzd9JhHvk9mC99Z9WE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=3AaDUIlBdPoxqGgNvSro_Q&oh=00_AfUVj6Y6ecZj739I-9tXfFPBvxHVgVSUKhGsAajbha4CHQ&oe=68BA1E1D"
+    },
     {
       "id": "260b5f64-9329-8152-ac3e-f1d9d061aeee",
       "title": "Renting a luminous room in Aventino",
@@ -120,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T12:57:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31010237335287692/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-bom2-1.xx.fbcdn.net/v/t39.30808-6/542755137_24662289520055037_5070051793057216242_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OpSU8eVZZ9kQ7kNvwFqa2FJ&_nc_oc=Adl-spg3UodAtG909fKfPSTkr5wHpvWTgklIGwb7cGL444L0y8WC1DJ7rjrYg3PqOAY&_nc_zt=23&_nc_ht=scontent-bom2-1.xx&_nc_gid=f19MGHYs3QxM4hERD7tJEw&oh=00_AfWK5gr6u1uNHI_p3zU9yUDK2_Y8QIzb0ik6i1n9nPtskg&oe=68BA09FD"
     },
     {

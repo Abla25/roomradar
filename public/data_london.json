@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-31T14:28:30.873Z",
+  "generatedAt": "2025-08-31T15:34:56.812Z",
   "city": "london",
-  "count": 218,
-  "totalRejectedCount": 302,
+  "count": 221,
+  "totalRejectedCount": 310,
   "results": [
+    {
+      "id": "260b5f64-9329-81b4-9f64-d2129c948eae",
+      "title": "Fully Furnished Double Room for Rent in SW16",
+      "overview": "A fully furnished double room for rent in a house with a newly refurbished garden and parking, located in SW16",
+      "description": "Fully furnished double room to rent in SW16! 200 metres from Lidl, 2 major bus routes outside the house and 15 mins walk from Streatham common train station linking you to the city within 30 minutes. Big newly refurbished garden with seating area, pergola, bbq and more! Driveway with parking, safe and secure. Contact me for a viewing! Thanks!",
+      "price": "N/A",
+      "zone": "SW16",
+      "zoneMacro": "South London",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The listing contains a clear description of the room and its location, and includes contact information for a viewing. However, the reliability score is not higher because the post does not include a price or any photos, which makes it harder to assess the property and the listing's credibility.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T15:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112857695915776/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-81d5-8e12-e57af2d27dd6",
+      "title": "2 Bedroom Maisonette for Rent in East Dulwich",
+      "overview": "A 2 bedroom, 2 level maisonette with one bathroom available for rent in East Dulwich, London",
+      "description": "🏠 2 bedroom Maisonette 🏠 Двухуровневая двухкомнатная квартира с одной ванной. Квартира сдается без мебели 📍Barry Road, SE22 (East Dulwich) 🗓️ Available from now 💷 £1950 + bills + deposit 🏙️ Имеется большой выбор квартир и комнат по всему Лондону. ✉️ Обращаться в личные сообщения по всем вопросам и за подробностями. Телеграм по номеру +380[PHONE NUMBER CENSORED], WhatsApp +4407470884889",
+      "price": "£1950 + bills + deposit",
+      "zone": "East Dulwich, SE22",
+      "zoneMacro": "Southwark",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing contains a clear description of the property, its location, and the price. It also includes contact information and a photo, which increases its reliability. However, the reliability score is not 5 because the post seems to be from a rental agency or a property manager, and there might be some additional fees or requirements not specified in the post.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T15:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112964689238410/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539691706_122193830678326029_8865172803141136888_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zRzrQfAxguMQ7kNvwGXHjKB&_nc_oc=AdnbHrwJD5TT8yXgYo8KxEzzbb1GxOrAzJHrb_taUdIIMELdfUSU8rCS0iIn12mvbGE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=1W_NInSlxA9v4lGgxdkvng&oh=00_AfXd3zhtzpNXipEV6NhEtmIt4VmBnaAR99KGZa-pQpAS_w&oe=68BA18D3"
+    },
+    {
+      "id": "260b5f64-9329-81f0-8b32-d973ae55f235",
+      "title": "Semi double room for rent in Upton Park",
+      "overview": "A semi double room is available for rent from October 1st, suitable for a single Bangladeshi person, located in Upton Park, E13 9LN",
+      "description": "One semi double room available from 1st October Only for single Bangladeshi Location Upton Park E13 9LN Contact [VAT NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Upton Park, E13 9LN",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a specific location, contact information, and a photo, which increases its reliability, but the price is not mentioned",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T15:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841446563121306/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540256418_4218223391778130_4797606050745368233_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8OnirWiZGW4Q7kNvwGxlwJ6&_nc_oc=AdmJycusXmOIHNoXXOJqez9CPBu-CdQxGwhHW6Zg55NqAAAVB_NfvlF6hfMWsMYccbQ&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=hHjsuCWoKP_JbZEr1Cly1A&oh=00_AfVB_WM6fSgcMZEb895xAilE8kLRaNnMA6TvFJ1Rai8F0w&oe=68BA3028"
+    },
     {
       "id": "260b5f64-9329-8145-80ec-fa491b673e29",
       "title": "Single room for rent in Chingford",
@@ -1038,7 +1089,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T17:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2112216285979917/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540134695_4217287545205048_3441519960553259820_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wA02Ljs7et4Q7kNvwH4wpvN&_nc_oc=Admfv3pieB1VTrfpgGjQrLR_rMRbgd9s968_skXJR_VitoCDLLTue5uMzXsjPkzX84g&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=a3byhxjftSdpUD4anPvLlw&oh=00_AfUood-KtL5WvafBg6PRPqKTOOZgvmYsVQ8hbiH_9h5EZA&oe=68B90B40"
     },
     {
@@ -1259,7 +1310,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T12:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2112045512663661/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540476678_122193668816326029_7660423173921271210_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Ezy3K_B6J4IQ7kNvwGUkH1e&_nc_oc=AdnswZJCbPOAmQ2pUhjWhdCG-OFS7T3e4Mq60_NI55jPiPi4V8-1_Mk9HYN3yhxwESY&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=G12R2k57nFHYfFrl6oBwPg&oh=00_AfUH_yyi7OtGjVQfRRSW19BKjKsoA7s9EeOJPD4ft5AyUw&oe=68B89A29"
     },
     {
