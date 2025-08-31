@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-31T13:35:37.535Z",
+  "generatedAt": "2025-08-31T14:28:30.873Z",
   "city": "london",
-  "count": 217,
+  "count": 218,
   "totalRejectedCount": 302,
   "results": [
+    {
+      "id": "260b5f64-9329-8145-80ec-fa491b673e29",
+      "title": "Single room for rent in Chingford",
+      "overview": "A single room is available for rent in the Chingford area",
+      "description": "Single room available E46QN Chingford",
+      "price": "N/A",
+      "zone": "Chingford",
+      "zoneMacro": "Waltham Forest",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear title and summary, and includes an image of the room, which increases its reliability. However, the price is not specified, which prevents it from achieving a perfect score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T14:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112914382576774/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541912017_122151112910611057_8941856213908503156_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Y88Ry79ZOTUQ7kNvwGOSCm3&_nc_oc=Adl4LlPCN8Lxhw9X4Mzjs9GD3XKNwvh_7sX5XIHayyRwq0BrGTvp8QTgMgWLwN5IVF8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=5QT6U24qZQcKVci8U4bCxA&oh=00_AfVSTsq2cajdNueAZJU1d2TODICg-IVmvh-IRHlglzhYjA&oe=68BA1689"
+    },
     {
       "id": "260b5f64-9329-813b-bd4d-d592082b23eb",
       "title": "Double room for rent in Colliers Wood",
