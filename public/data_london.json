@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-31T17:28:49.587Z",
+  "generatedAt": "2025-08-31T18:42:52.478Z",
   "city": "london",
-  "count": 226,
-  "totalRejectedCount": 314,
+  "count": 229,
+  "totalRejectedCount": 323,
   "results": [
+    {
+      "id": "260b5f64-9329-8157-b735-cc4e746cf20f",
+      "title": "Fully furnished double room for rent in E1",
+      "overview": "A double room is available for sublet in a 3 bedroom flat, fully furnished with the owner's furniture, from September 11th to December 1st 2025",
+      "description": "Double room available (fully furnished with my own furniture) in E1 in a 3 bedroom flat. SUBLET available September 11th to December 1st 2025. £990 pcm (all bills included) first 2 months and £660 (all bills included) 3rd month. Please only message if you can commit to cover these entire dates.",
+      "price": "£990 pcm (first 2 months), £660 pcm (3rd month)",
+      "zone": "E1",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, the rental period, and the price. It also includes a photo of the room, which increases the reliability score. The owner has specified the terms of the rental and has asked potential tenants to commit to the entire rental period, which suggests a genuine rental offer.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2113051979229681/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541789277_2790599554467322_8139047639225449190_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=q3DgjIZ8BhIQ7kNvwHsDkzE&_nc_oc=Adktebrbht866DviTZgDiLxmTN81JntZPBnBsubqL_xFzeRZR8l_ZCUnIp8WqKcso-k&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=1cx1qD7pgtf3g9HRaGj2aQ&oh=00_AfXjc567nStevz1kWSkncAmb4o7wn1o9VIJjqo1gUcOqMQ&oe=68BA6ED5"
+    },
+    {
+      "id": "260b5f64-9329-8157-b1dd-dfc240821803",
+      "title": "Rooms available in Lawrence House and Dingley",
+      "overview": "Rooms are available in modern accommodation in central London, with photos provided",
+      "description": "Rooms available – Lawrence House & Dingley Modern accommodation in central London.",
+      "price": "N/A",
+      "zone": "Central London",
+      "zoneMacro": "Central London",
+      "rooms": "N/A",
+      "reliability": 3,
+      "reliabilityReason": "The listing has photos, which is a positive indicator, but lacks essential details such as price and contact information",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2113064029228476/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541485947_10086354361469895_8574822532730524673_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=a_o4IjIlGLkQ7kNvwGo5W5I&_nc_oc=AdkDh_69K_jLawxJOAJ4fiCZGr60DBo8lNlVQrikop_RvGv2T_8sev8lCmYFyZENVdA&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=vNxVIn0r2O_O1UsEWN_zng&oh=00_AfXCxCm3hB7mOxpBh5V_i_sxoyrA54XcUsCqKdMBQTvwTA&oe=68BA5211"
+    },
+    {
+      "id": "260b5f64-9329-8152-b905-c698e64db4ce",
+      "title": "Double Room for Rent in Eastham",
+      "overview": "A double room is available for rent in a peaceful and comfortable home in Eastham, with close proximity to public transportation and local amenities.",
+      "description": "Double room available in Eastham Peaceful and comfortable home. 10 mit walk to east hum station 15 mit walk to Upton park station . 10 mit bus ride to Stratford 7 Mit bus ride to Barking/newham town hall/ east beckon . Gujarati and marathi people allow Location 📍 Shrewsbury road E7 8QJ What's up no:[PHONE NUMBER CENSORED] Contact now to arrange a viewing..",
+      "price": "N/A",
+      "zone": "Eastham",
+      "zoneMacro": "East London",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a clear price, but it includes contact information and specific details about the location and amenities, making it somewhat reliable.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841576456441650/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-816a-aa09-d42ef69436cd",
       "title": "Room for Rent in North East London",
@@ -783,7 +834,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T02:06:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1840946673171295/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542441936_122126241290941069_4990509489193117161_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qdYam_nXxXkQ7kNvwGPQ67_&_nc_oc=AdmoLk336WvcqxpiHc0L2ms7eol5CIbRXLVH0AEFr4_0_yHgxpKFkPx83VVrm_LN3LM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=EnsHMakO4S2dExDijhNo8g&oh=00_AfWELruGhmpkHs3XMjMspi7qtYRtb3YYVP7XHAgN4Fs_ew&oe=68B9614E"
     },
     {
@@ -3299,7 +3350,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T15:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2110548069480072/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/539396143_1108956770744824_7377257216370153182_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=117846&_nc_ohc=VIHYag_jjyYQ7kNvwFiy7gK&_nc_oc=AdnDuOXAcUONpdcKs7MdZUTNjj6p6LJz1aFzybXBe1oJlhlTS3H5V31_mQ7aafn_4fw&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=szZ0oeV8QTq2wrpyoQMQMQ&oh=00_AfUUlAXkr-mRaEgjDFXSyaxzp-RAUY6lUd3Q9QKX576uMg&oe=68B6407E"
     },
     {
