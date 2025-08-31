@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-31T08:38:04.382Z",
+  "generatedAt": "2025-08-31T09:33:43.313Z",
   "city": "roma",
-  "count": 309,
-  "totalRejectedCount": 974,
+  "count": 312,
+  "totalRejectedCount": 980,
   "results": [
+    {
+      "id": "260b5f64-9329-81a6-b193-e6d8fe6f363a",
+      "title": "Large room for rent in Ostia",
+      "overview": "A large room is available for rent in an apartment in Ostia, near Stella Polare station, with another room already occupied by a female tenant. The room is available for female teachers until June for 500 euros including expenses.",
+      "description": "Ostia, vicino alla stazione Stella Polare, affitto stanza grande in appartamento con altra stanza già occupata da ragazza. Solo docenti donne fino a giugno.500 spese incluse Contatti su Messenger.",
+      "price": "500",
+      "zone": "Ostia",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and has limited information, but it seems to be a genuine rental offer. However, the absence of photos and limited contact information reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T09:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/244234206083096/posts/2180522539120910/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-815f-87a2-dda85a4a5665",
+      "title": "Rent of 2 single rooms for students",
+      "overview": "Two single rooms available for rent in a 4-room apartment, with 2 bathrooms, in the Monti Tiburtini area",
+      "description": "Affitto a studentesse 2 STANZE SINGOLE disponibili sin da subito in appartamento di 4 stanze totali. Una stanza ha balcone privato ed una stanza ha balcone perimetrale con letto ad una piazza e mezzo. L’appartamento ha 2 bagni. Zona Monti Tiburtini (7 min a piedi dalla metro b). Costo singola stanza 500€ spese extra non incluse. Visite dell’appartamento disponibili 1 e 2 settembre. Se interessati scrivetemi in pvt ☺️",
+      "price": "500€",
+      "zone": "Monti Tiburtini",
+      "zoneMacro": "Monti",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear and detailed description of the rooms, including photos, location, and price, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T09:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732317823633852/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541462600_10235707107911953_8926210374269443819_n.jpg?stp=cp6_dst-jpg_p160x160_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=GprTs5ECfC0Q7kNvwGmAIMo&_nc_oc=AdlYwhOidZcZ6xv6nFqRDfCDS7GnYbBDLIREqvOdijpXQ3IVFWhgc3o_Ba_S_53HoBQ&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=IKVGiYZn8k7DdQEBe3QGMg&oh=00_AfWGaYyzzl9oL8ydDx29lUHkT3AQ2jtumvcFQc8Vj2tK-Q&oe=68B9DAFA"
+    },
+    {
+      "id": "260b5f64-9329-810d-b504-edcd45802f68",
+      "title": "Apartment for rent in Trullo area",
+      "overview": "A 90 sqm apartment in the Trullo area, recently renovated, with 2 bedrooms, 1 bathroom, and a 45 sqm terrace, available for rent to students and/or workers",
+      "description": "Affittasi in zona Trullo, precisamente in via montelupo fiorentino Grazioso appartamento recentemente ristrutturato di 90 mq, composto da: -ampio ingresso -cucina abitabile con balcone -ampio salone -camera patronale -bagno -camera -terrazzo di 45mq con un forno a legna. L’appartamento si trova al 4 piano di una palazzina senza ascensore. È situato a 400m dalla fermata dell’autobus che porta alla stazione ferroviaria Roma Trastevere e stazione Magliana. Si affitta con contratto regolare a studenti e/o lavoratori a 1200€, spese escluse.condominio incluso DISPONIBILE DA OTTOBRE. Contattare in privato, solo se interessati, no perditempo e non sono un punto informazioni usate Google Maps.",
+      "price": "1200€",
+      "zone": "Trullo",
+      "zoneMacro": "Trastevere",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a detailed description of the apartment, includes photos, and provides contact information, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2145516999305586/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541538815_10237159819805086_3124131624271522807_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wT_pFrtd3hEQ7kNvwEHwZpu&_nc_oc=AdkEdoBrVytT5mCwdqvLIyHzVw1a5xSMuccx4ltgZfVvrXDidvpnhWus4hSm0vImi44&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=d7ws7zhctHhVuc2UXPoCtg&oh=00_AfV6h4Y6553oKQXSKacnUQfQDikau80Vuq85wmERb7m8Rg&oe=68B9BDA7"
+    },
     {
       "id": "260b5f64-9329-811c-be1d-fdb79cea25a0",
       "title": "Room for rent in Pineta Sacchetti area",
@@ -69,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732292056969762/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -494,7 +545,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T15:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1708833873144393/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/539953406_10237159414554955_3583828340154604703_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uyYJeBGve10Q7kNvwF1ZiAa&_nc_oc=AdmAZ0jNJMk3WOtkrhQtj2kQnq_3MI6WGHhBB5izko0SLan5PCcJ-K75alGgIQ1CYfU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=S57XvIHhJiiIPdzlj0N53A&oh=00_AfUird9hHiM3G2p1ep0Y3YnsX1F4WIrd5o2Ijnj-7sJcEQ&oe=68B8F471"
     },
     {
