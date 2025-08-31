@@ -1,9 +1,111 @@
 {
-  "generatedAt": "2025-08-31T16:40:02.198Z",
+  "generatedAt": "2025-08-31T18:42:50.784Z",
   "city": "roma",
-  "count": 343,
-  "totalRejectedCount": 1078,
+  "count": 349,
+  "totalRejectedCount": 1097,
   "results": [
+    {
+      "id": "260b5f64-9329-81c3-8e7e-cf2dd0b88086",
+      "title": "Room for rent in a triplex apartment in Rome",
+      "overview": "A room for rent in a triplex apartment in the Parioli area of Rome, near LUISS Viale Romania, with a private garden and parking",
+      "description": "CERCASI COINQUILINO per TRILOCALE in Via Adelaide Ristori 26, Roma (Parioli) - 2 minuti da LUISS Viale Romania. L’immobile al Piano TERRA (non esposto in strada pubblica e con cancelletto privato) è occupato già da un altro ragazzo (27 anni, lavoratore referenziato, ex studente LUISS). L’immobile è cosi composto: - stanza da letto matrimoniale con bagno in camera (LIBERA) - Stanza da letto letto 1 piazza e 1/2 - 2 bagni (uno in camera come sopra descritto) - Zona giorno/salotto con cucina a vista (con lavastoviglie), divano, tavolo e tv come in foto - Giardinetto privato con ombrellone e sedie - Box auto in condivisione compreso nel prezzo. Prezzo per singola persona: €900 + €75 di spese condominiali.",
+      "price": "900",
+      "zone": "Parioli, Roma",
+      "zoneMacro": "Parioli",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a detailed description of the apartment, photos, and a clear price, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1709650179729429/",
+      "status": "active",
+      "imageUrl": "https://scontent.fidr4-2.fna.fbcdn.net/v/t39.30808-6/539247194_24620989550901329_3630198591938389302_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vCWBWwNTbMsQ7kNvwGoQOo7&_nc_oc=Adkx4epc49lbDJbe0tDrkYTPSNESIcOfUbSKpiAbLUwGjLGFBKqDV-NzRAJqoQr-JwY&_nc_zt=23&_nc_ht=scontent.fidr4-2.fna&_nc_gid=BWMamqpnzYYfpuRhn2IIAQ&oh=00_AfUo-nBslNMg2CIlQiTj9ZRusR0k6RbyOobopCtzpCMHdw&oe=68BA4396"
+    },
+    {
+      "id": "260b5f64-9329-81db-879f-f3794e31cda4",
+      "title": "Room for Rent in Central Tiburtina Zone",
+      "overview": "A room in a shared apartment for rent in the Tiburtina zone, with air conditioning and balcony, available for immediate occupancy",
+      "description": "Affitto zona Tiburtina, zona centrale e ben servita, posto letto, Euro 400,00 oltre spese, in camera doppia, dotata di aria condizionata e balcone. La camera è disponibile e visitabile.",
+      "price": "400€",
+      "zone": "Tiburtina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed contact information, and the description is brief, which decreases its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1337238538067837/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-8169-8897-dc60adf6a440",
+      "title": "Large Room for Rent Near Lucio Sestio Metro",
+      "overview": "A large double room with balcony for rent in a recently renovated apartment near Lucio Sestio metro, available for students or young workers",
+      "description": "AMPIA CAMERA METRO LUCIO SESTIO Sì affitta a studentesse o giovani lavoratrici ampia camera doppia anche uso singola con balcone presso metro A lucio sestio in appartamento recentemente ristrutturato. In casa vivono su altre 2 camere singole 2 ragazze giovani. Prezzo 600€ mensili . Per ulteriori informazioni in privato",
+      "price": "600€",
+      "zone": "Lucio Sestio",
+      "zoneMacro": "Appio Latino",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, price, and location, and includes a photo of the room, which increases its reliability, but the lack of detailed contact information prevents it from being a 5",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1337257564732601/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541786381_10241363337527045_5481366100257258036_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=iqRUbhWRZBgQ7kNvwFS1inO&_nc_oc=AdlKY1wt7Qz65mfD6wBNgYBnb2ekcyxqloTLd5xFpW6tOALc6RnGBuwqflG-XKbj1Ug&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=TdFvCrl-YjXRRre0l47R-A&oh=00_AfUK8zf43kWGG9Cy0sU5lyzFEyQChPkuOi0AY43ISvmuHw&oe=68BA74E6"
+    },
+    {
+      "id": "260b5f64-9329-817a-9e23-d853c34c99b1",
+      "title": "Room for rent in a shared house",
+      "overview": "A single room is available for rent in a 150 sqm house with three bedrooms, kitchen, living room, and two bathrooms in the Roma 70 residential area",
+      "description": "Affittasi stanza singola in una casa di 150 mq circa composta da tre camere singole, cucina abitabile,grande salone e due bagni. La casa si trova nel quartiere residenziale di Roma 70. Per chi non la conoscesse,è un quartiere tranquillo(pure troppo😬) e collegato tramite autobus alla metro B Eur Palasport e San Paolo(circa 20 minuti con fermata bus sotto casa). È comodo anche per ha bisogno in zona Ardeatina e Serafico/ Ottavo Colle La casa è da condividere con un ragazzo che sono io e una ragazza. Entrambi lavoratori e presenti pochissimo in casa Preferibilmente lavoratore,lavoratrice No animali Disponibile da subito Regolare contratto d'affitto 1 sola caparra Costo €400 spese escluse (circa 80 euro al mese) Scrivetemi in privato per chiedermi qualunque informazione.",
+      "price": "400",
+      "zone": "Roma 70",
+      "zoneMacro": "Ostiense",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the house, includes photos, and seems to be a genuine rental listing with a clear description of the terms",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T18:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1337354721389552/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540102297_10236876488242807_8844270585909578324_n.jpg?stp=dst-jpg_p370x247_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kV2LE2M0nyAQ7kNvwFWzQNC&_nc_oc=AdkW9LiR9lHST6cMLzAeG2iXzBsPw3FrK1nwPqzZlv-RMs4LipvHeAbbIZFI3QiX8iU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=h-cKFewe6aH2Ykqzir6I5w&oh=00_AfU_ytpmMs3Q64RDCNtGiQ-mXKrJ3S_XZGBvaPnkLzbalQ&oe=68BA5297"
+    },
+    {
+      "id": "260b5f64-9329-81b3-bcdc-c99f870722f9",
+      "title": "Trilocale apartment for rent in Parioli, Rome",
+      "overview": "Three-room apartment for rent in Via Adelaide Ristori 26, Rome, with a private garden and parking. The apartment is already occupied by one person and has two bedrooms, two bathrooms, and a living room with kitchen.",
+      "description": "CERCASI COINQUILINO per TRILOCALE in Via Adelaide Ristori 26, Roma (Parioli) - 2 minuti da LUISS Viale Romania. L’immobile al Piano TERRA (non esposto in strada pubblica e con cancelletto privato) è occupato già da un altro ragazzo (27 anni, lavoratore referenziato, ex studente LUISS). L’immobile è cosi composto: - stanza da letto matrimoniale con bagno in camera (LIBERA) - Stanza da letto letto 1 piazza e 1/2 - 2 bagni (uno in camera come sopra descritto) - Zona giorno/salotto con cucina a vista (con lavastoviglie), divano, tavolo e tv come in foto - Giardinetto privato con ombrellone e sedie - Box auto in condivisione compreso nel prezzo. Prezzo per singola persona: €900 + €75 di spese condominiali.",
+      "price": "€900 + €75 condominium fees",
+      "zone": "Parioli",
+      "zoneMacro": "Parioli",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, and the contact information is available. The post seems legitimate and not like a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732772136921754/",
+      "status": "expired",
+      "imageUrl": "https://scontent.fdel3-1.fna.fbcdn.net/v/t39.30808-6/539247194_24620989550901329_3630198591938389302_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vCWBWwNTbMsQ7kNvwGG3IVA&_nc_oc=Adna8CLyaYtKD8ILYEhPOzPCxtUxcZQbnrwtuDVeGq6SQCeszN9srnxrc1FeCVYjHII&_nc_zt=23&_nc_ht=scontent.fdel3-1.fna&_nc_gid=GuPUbCgvDpEXVCiRqLX3Gw&oh=00_AfWuENgdc6asiyVkkR87Z1IoQrRbgCIs46hj6i7IMg29Ug&oe=68BA4396"
+    },
+    {
+      "id": "260b5f64-9329-8107-b928-f45a23a1816a",
+      "title": "Room for rent for girls only",
+      "overview": "Rental of a room for girls only in the Tuscolana area of Rome",
+      "description": "AFFITTO STANZA SOLO RAGAZZE - ROMA TUSCOLANA",
+      "price": "N/A",
+      "zone": "Tuscolana, Rome",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post appears to be a genuine rental listing but lacks photos and pricing information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T17:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2146372972553322/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-812a-bf18-eddd9cc771a1",
       "title": "Roma Nord apartment for rent",
@@ -528,7 +630,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1337073214751036/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.feze2-1.fna.fbcdn.net/v/t39.30808-6/540685268_1947181432768224_3855949564289497505_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=w_76SiVWTE8Q7kNvwGdBMWE&_nc_oc=AdnFt1lBgQ08Og8sw48wAgBsOfca1OJ9T-qXobF0vQFQFV5fgoINjer5rUqVOwziETA&_nc_zt=23&_nc_ht=scontent.feze2-1.fna&_nc_gid=HYVR1FPa8UpBCpPMeKw9xA&oh=00_AfV3uVTthVIB_eevodjp6ZLmCs5gYHouQ5j_GetgKG7vyA&oe=68BA10AB"
     },
     {
@@ -613,7 +715,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732281313637503/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541771433_4154292884816677_884833555113519884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qOgLdImzQQoQ7kNvwHchhxM&_nc_oc=AdmLL5XLskP2R4g5Y1K_qiFi0NJlxZHWCbOlrHb9tT9wTbMcjjUhHXypn6-a3OvQvU0&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=mbY_F4FU6twhBHvuxcR3Ag&oh=00_AfW4Y9BoxCrv_jbOpvTqdYggv6GuzfRskbpiYgQYIsm7dg&oe=68B9C3B5"
     },
     {
@@ -664,7 +766,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1336927381432286/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1089,7 +1191,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T15:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/30998721413105951/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540974541_10238017386396674_705921084223469398_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0SaQOtOp1_IQ7kNvwEA-Lzw&_nc_oc=AdkAsFBAlGjEFg_02nZm4HUtxWV2puML_73zP5qmB02AtR_sPYRq6RhBfoik7KhZy9w&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=xVR0HcpVY0X5mPKbzX2cDw&oh=00_AfXq_EfB8sgcG6UfhBi9twNQYpof7fIJj5H3Hpti4XuMIA&oe=68B8F692"
     },
     {
@@ -1599,7 +1701,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2145292069328079/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -3656,7 +3758,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T13:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1334818678309823/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel27-4.fna.fbcdn.net/v/t39.30808-6/539510828_122093229411004890_2827919783014977149_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MHTrgCelkGgQ7kNvwEC0bRX&_nc_oc=AdkizHtre7QzONJiUngXx_8zcb0R1dUmQ02-pWAVGRZeFNCdGeY24O-vtfEGAs2bFb8&_nc_zt=23&_nc_ht=scontent.fdel27-4.fna&_nc_gid=3zqN9dV5IIYeemmiugRasg&oh=00_AfUCsLpcRCFqd0kaLtV3EFb-xp-RyEy8I-UYsv5O5vOY2Q&oe=68B612B4"
     },
     {
