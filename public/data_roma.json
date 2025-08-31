@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-31T21:30:38.230Z",
+  "generatedAt": "2025-08-31T22:30:18.440Z",
   "city": "roma",
-  "count": 355,
-  "totalRejectedCount": 1137,
+  "count": 356,
+  "totalRejectedCount": 1142,
   "results": [
+    {
+      "id": "260b5f64-9329-81ab-8474-c554ae486404",
+      "title": "Spacious single room for rent in shared apartment",
+      "overview": "Renting a large single room in a shared apartment in the Prenestina area of Rome, with kitchen, bathroom, and balconies, near public transportation",
+      "description": "🏠 Affitto stanza singola ampia – Zona Prenestina, Roma Affittasi stanza singola molto spaziosa in appartamento condiviso in Via Albona 95. L’appartamento dispone di: • Un’altra stanza doppia già occupata da due studenti della Sapienza • Bagno • Cucina • Atrio • Due balconi Trasporti: • A pochi passi dalla stazione Serenissima (10 min di treno per Tiburtina) • Da Tiburtina, 2 min di bus o pochi minuti a piedi per arrivare alla Sapienza • In alternativa, circa 20-25 min in tram o bus e 15/20 minuti in metro per la Sapienza 💰 Prezzo: 400€ / mese 📝 Solo affitto 12 mesi con possibilità di contratto se necessario 📩 Per info contattare in privato [PHONE NUMBER CENSORED](uno dei coinquilini)",
+      "price": "400€ / month",
+      "zone": "Prenestina, Roma",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides detailed information about the apartment and its location, but lacks photos and has a relatively low level of detail about the contract and payment terms, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T22:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31016957547949004/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-812f-a96b-ed89cc370973",
       "title": "Room for rent in Re di Roma area",
@@ -18,7 +35,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T21:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1709767626384351/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540836932_25194802626787019_3161743389875033444_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FjY8Ep3qlsQQ7kNvwEKIEBV&_nc_oc=Adme9fOnMaO6Jvm3Eq5rS9VfWoTqHNBwQBlISTDv0YuxyDzZMCSrXH_86SRbVmptFjU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=sRa9O0QF9yTEHYP1BzyTcA&oh=00_AfXsI4IZWnDhsO71FcchPtmPO5Zoo5dM9xmIEFNUWT0pyw&oe=68BA97B6"
     },
     {
