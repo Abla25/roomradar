@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-08-31T18:42:45.107Z",
+  "generatedAt": "2025-08-31T19:31:15.542Z",
   "city": "barcelona",
-  "count": 965,
-  "totalRejectedCount": 1527,
+  "count": 969,
+  "totalRejectedCount": 1536,
   "results": [
+    {
+      "id": "260b5f64-9329-8188-9988-ed8e8ba5fb51",
+      "title": "Room for rent for a single working woman",
+      "overview": "A room for rent in Maragal, 5 minutes from the blue and yellow metro lines, suitable for a single working woman",
+      "description": "- ' |se alquila habitación para persona sola chica trabajadora responsable ubicada en maragal a 5 minutos de línea azul y amarilla de metro información al interno",
+      "price": "N/A",
+      "zone": "Maragal",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description of the room and its location, and it includes a photo, which increases its reliability. However, the price is not specified, which prevents it from reaching the maximum reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2186090375238365/",
+      "status": "active",
+      "imageUrl": "https://scontent.fknu2-1.fna.fbcdn.net/v/t39.30808-6/541366757_1958456011611324_2733141372723180834_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=PX5ZRzdtcNEQ7kNvwH5YUwk&_nc_oc=AdmZHbHcS3hR3VyD4mvLItHavNWuNuPy2AG1FeySI89EtMN_-4h3g-U2Z7ypYU8dkk8&_nc_zt=23&_nc_ht=scontent.fknu2-1.fna&_nc_gid=3UPgorM54ni9lHAUs_fi5Q&oh=00_AfUkYy1rnaVoCnUCwUvFDwxNDE9H27iWyLQGQ2ntG-oPxw&oe=68BA72E2"
+    },
+    {
+      "id": "260b5f64-9329-8179-a7b2-f5d0320f35d6",
+      "title": "2 rooms for rent in Sant Gervasi",
+      "overview": "2 rooms for rent, each with a private bathroom, preferably for girls with economic solvency",
+      "description": "Se alquila 2 habitaciones , cada habitación con baño privado en Sant Gervasi preferentemente chicas con solvencia económica",
+      "price": "N/A",
+      "zone": "Sant Gervasi",
+      "zoneMacro": "Sarrià-Sant Gervasi",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides some essential details such as location and room description, and a photo is included, which increases its reliability, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077916577847207/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540513474_122175586466376687_4315264458915982439_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OuXFdbJgVEsQ7kNvwF4URRO&_nc_oc=AdkKLl_IFW2l_68wqiszaY39Q6NEhKTiQEzF6PMitZrYIM21tM2ZFb6ASe0bp276VfU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=5sJLJfIJqPonkLoB8F8jZg&oh=00_AfWmlirlSOitzMjUkeS2Z6FuotQeRZ9f7HpYWevPbFGzSA&oe=68BA4B28"
+    },
+    {
+      "id": "260b5f64-9329-8147-bab6-cf5e588533ee",
+      "title": "Room available in Bon Pastor",
+      "overview": "12m² room with window, fully furnished, available for rent in Bon Pastor",
+      "description": "🌸 Habitación disponible en Bon Pastor – SOLO CHICAS 🌸 ✨ Habitación de 12 m² con ventana interior, completamente amueblada con cama individual, mesita de noche y mueble con espejo. 💶 450 € al mes (gastos incluidos: agua, luz e internet). 🔒 Fianza: 200 € 📅 Disponible para entrar ya. 📌 Estancia mínima de 2 meses (larga duración). 🏠 Piso de 100 m², luminoso y bien ventilado, situado en el barrio de Bon Pastor, a pocos minutos del metro Bon Pastor (L9N y L10N) y a una parada de La Sagrera (L1 y L5). 🚇 Conexiones: • Metro: L9N, L10N, L2 • Tren: R11, R2N, R2 • Bus: B24, H4, H6, V33, N8, B21 y más 🚗 Aparcamiento: línea blanca 🛒 Zona con supermercados, farmacias, bancos, biblioteca y parque. 🛍️ A solo 17 min andando del centro comercial La Maquinista. 👉 Requisito: solo chicas, limpias, tranquilas y organizadas. 📩 ¡Escríbeme ya para venir a verla, se alquila rápido!",
+      "price": "450 €",
+      "zone": "Bon Pastor",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "Photos are present, detailed information is provided, and the post seems legitimate and trustworthy.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078154701156728/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540349054_10236267952494270_3323198415778483180_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MobdSAENYlYQ7kNvwHMwzQi&_nc_oc=AdnOdLNaF4JEHD0Aeql4hXOJC7CbabugJT90dDtI2ImO7TmJCJPzjlps9Q4ore8LGLg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=CeBLj4MMbZhf_eDVi5Yb9g&oh=00_AfXO1ZokOQjKaDSaWIs2iBiPIG1DLxDNRYXVgpwzcleISA&oe=68BA774B"
+    },
+    {
+      "id": "260b5f64-9329-811f-b70a-cb99db5fc37f",
+      "title": "Room for rent in Foneria",
+      "overview": "A room is available for rent in Foneria, close to the L10 metro station",
+      "description": "Se alquila habitación en Foneria, a 2 cuadras de la estación de metro L10. Preguntar sin compromiso al [PHONE NUMBER CENSORED] 🙂",
+      "price": "N/A",
+      "zone": "Foneria",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, includes a contact number, and has an image, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:17:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4308481129384396/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel46-1.fna.fbcdn.net/v/t39.30808-6/536278607_10235476309081183_5027304283109884472_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NB16DsZSa2QQ7kNvwEdNfMN&_nc_oc=AdmoggXl1aV2Xv8pfZb5qxjTdfY1ff5v-AUaL8mX68a_VBDYNqudchJViKMrAZ-gOko&_nc_zt=23&_nc_ht=scontent.fdel46-1.fna&_nc_gid=VETUF5tyOAnxjKtaoZX98w&oh=00_AfWwMz8xTY0h0Gb-BCbCCkBTbFxGqUZ6ego6c1zJRJM55g&oe=68BA561C"
+    },
     {
       "id": "260b5f64-9329-818c-8c8b-f1e0cdeabfe3",
       "title": "Room for rent on Avenida Diagonal, Barcelona",
@@ -52,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T18:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024499397879686/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom37-1.fna.fbcdn.net/v/t39.30808-6/540607921_10236267977174887_3684319777713112065_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=iXYOJiWkStUQ7kNvwHWcCqd&_nc_oc=AdlBoIBu-6s0mF9deAmtbchHKrettedVCaAYRY05pZ2DWwi6ytbMzYCTdrQ5As0Qbu4&_nc_zt=23&_nc_ht=scontent.fbom37-1.fna&_nc_gid=FxMPmcDNGRRLUVvg-DimoA&oh=00_AfWovG31mIAY51s40J227SovbiVka5fBJ7BeIrWkNzOBSg&oe=68BA68BA"
     },
     {
@@ -222,7 +290,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T16:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2243165636186632/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom35-1.fna.fbcdn.net/v/t39.30808-6/540003268_122175617432376687_7763736053870201008_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wH92Px4xZLYQ7kNvwH4qLDU&_nc_oc=AdmcWks74a6CZPaSLqr9H4EgqqWFKTH_XRUqxLOM0G0kPZANNuna4WhtqrzUWs8NEjs&_nc_zt=23&_nc_ht=scontent.fbom35-1.fna&_nc_gid=jjE0g3ouPT6xEzeuMPzWbg&oh=00_AfUUGaG9ziLjQULGmNh13GoGM6dUrXnqUDDcDLfZRBFUFg&oe=68BA434D"
     },
     {
@@ -375,7 +443,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T15:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078013764504155/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

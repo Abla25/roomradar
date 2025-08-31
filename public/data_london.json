@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-08-31T18:42:52.478Z",
+  "generatedAt": "2025-08-31T19:31:20.798Z",
   "city": "london",
-  "count": 229,
-  "totalRejectedCount": 323,
+  "count": 232,
+  "totalRejectedCount": 327,
   "results": [
+    {
+      "id": "260b5f64-9329-8156-96fd-eaacc1fabb16",
+      "title": "Spacious Double Room for Rent in Cricklewood NW2",
+      "overview": "A spacious double room is available for rent in Cricklewood NW2, with all bills included",
+      "description": "📍 Spacious Double Room – Cricklewood NW2 – £955pcm – All Bills Included",
+      "price": "£955pcm",
+      "zone": "Cricklewood NW2",
+      "zoneMacro": "Brent",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear title, summary, price, and location, along with a photo of the room, and does not seem like a scam",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841595606439735/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540664512_1809402060004168_6716345793958132553_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5sybcfa3Cz4Q7kNvwH3syVz&_nc_oc=AdlkiwBOIST3Z-U-_3Y_J8uftrb5FvV_lS--ESMOStMJzJ6Aj-qRhFlAg0G04mmYfww&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=H_7AjblkGzhKXH8RqubZoA&oh=00_AfWxojIwGp1X_0niTR5J26PJd-8Y3qJIx8jzSsNIQR0sVg&oe=68BA71E8"
+    },
+    {
+      "id": "260b5f64-9329-8135-98c7-da487b1426ee",
+      "title": "One Bedroom Apartment for Rent",
+      "overview": "A one-bedroom apartment for rent with a photo available, but no additional details provided.",
+      "description": "One bedroom apartment for rent Send a dm",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a photo of the apartment, but lacks detailed information about the listing, such as price and zone.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841596056439690/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540044853_122153468600905910_2837276375252710369_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WmF2z8O4Sb0Q7kNvwEbc2H4&_nc_oc=AdmEGTXD7YBH0-FbIzlq2qUj4VXHGYrRZORCCwDfAt6dotdEDc0zj1Y9Y-gdFZGtzwc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=H_7AjblkGzhKXH8RqubZoA&oh=00_AfW0SOkPMprrg_TkhqFDUmS5S4DOhDsCpc7iO8yfBMcHFQ&oe=68BA634E"
+    },
+    {
+      "id": "260b5f64-9329-816e-8712-cdd5d8ff3fd0",
+      "title": "Properties for Rent",
+      "overview": "A private landlord offering houses, apartments, and studios for rent in safe neighborhoods with immediate approval, all utilities included, pet-friendly, and no criminal history required.",
+      "description": "🏡 Properties for Rent – Immediate Move-In Available I’m a private landlord offering a range of houses, apartments, and studios for rent in safe, desirable neighborhoods. 🪩Immediate approval 🪩All utilities included 🪩Pet-friendly 🪩No criminal history required If you’re looking for a hassle-free rental experience with flexible terms, send a direct message or Wha App me at +44 [PHONE NUMBER CENSORED] for more details. Serious inquiries only, please.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Lambeth",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a detailed description of the rental properties, contact information, and a photo, but the price and zone are not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841605859772043/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540973653_122100449042997323_7416846633348868277_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wKekJ48ZxZUQ7kNvwHnAwh6&_nc_oc=AdnUnd08iTpeqi0ounAEx2kegZdBZcx_LjbQO4Rv9dZnyl804n8M3zKjtYp-kCKrPns&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=H_7AjblkGzhKXH8RqubZoA&oh=00_AfUrtWNT2LfUu4f9t4QrdcTpcxLGRtWClGk6hJ8Yvg41SQ&oe=68BA598F"
+    },
     {
       "id": "260b5f64-9329-8157-b735-cc4e746cf20f",
       "title": "Fully furnished double room for rent in E1",
@@ -1888,7 +1939,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T22:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1840135466585749/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540956525_122152935104905910_170194147877051217_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uaKmRza_iS4Q7kNvwH1JI0F&_nc_oc=Adnn3tHeoALnSN0G4taISikFXtg8QiCtoVl-DHfYxrEoJ8jL5I3sH2fW0j11BGS4lbQ&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8MswvQdyWv7PTlWnuB1apg&oh=00_AfVBfz-xrULKb02v1l2z4h-CkaLyvRvup-usE-UL2664pg&oe=68B7F833"
     },
     {
@@ -2687,7 +2738,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T09:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1839733176625978/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fccu2-2.fna.fbcdn.net/v/t39.30808-6/514329965_122098130870997323_3390373981075886363_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=YCc0wMdXvhAQ7kNvwG7Skyo&_nc_oc=AdmEgg6Q2yn_ULWfj9XT5ol6ryveoe-itpgc-Lcf8zIRw03SwXsWKOzyb-KqsZU2qV0MjYgh3Sm7GZSbghLFynA1&_nc_zt=23&_nc_ht=scontent.fccu2-2.fna&_nc_gid=PfdD6tmH8drWbYY5t2hEAA&oh=00_AfUww95J1e3pP-NTznyptK_gQXSHG6zAeIIO_j227sMNgA&oe=68B735A5"
     },
     {

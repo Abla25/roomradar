@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-31T18:42:50.784Z",
+  "generatedAt": "2025-08-31T19:31:19.067Z",
   "city": "roma",
-  "count": 349,
-  "totalRejectedCount": 1097,
+  "count": 350,
+  "totalRejectedCount": 1117,
   "results": [
+    {
+      "id": "260b5f64-9329-8140-a2f0-f95b7664f4d4",
+      "title": "Room for rent in a shared apartment",
+      "overview": "A room is available for rent in a shared apartment, preferably for a working woman between 25 and 33 years old",
+      "description": "Ciao, si affitta, a sole donne lavoratrici tra i 25 e i 33 anni, una stanza libera da ottobre e sita in via La Spezia, a due passi dalla metro C - Lodi - e 10 minuti dalla metro A - San Giovanni. L’appartamento è abitato da 3 ragazze lavoratrici e un bassotto, ed è composto da: 4 stanze singole, spazioso e luminoso salotto, cucina abitabile con piccolo balcone con affaccio interno e due bagni. La camera che si affitta è arredata con letto a una piazza e mezza, comodini, scrivania e grande armadio a muro. Prezzo 450 + condominio + spese e sono previste due caparre al momento dell’entrata. Per informazioni o per fissare una visita, vi chiediamo di scriverci in privato con una breve presentazione 😊",
+      "price": "450 + condo fees + expenses",
+      "zone": "Via La Spezia, near metro C - Lodi and 10 minutes from metro A - San Giovanni",
+      "zoneMacro": "Appio Latino",
+      "rooms": "4 single rooms, 1 living room, 1 kitchen, 2 bathrooms",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the rental, including price, location, and amenities, and includes a photo, but the reliability score is not 5 because there might be some missing information",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T19:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1337367794721578/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag6-2.fna.fbcdn.net/v/t39.30808-6/540106842_25258646210392334_2437748003100243138_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Wa8JIYXM1SwQ7kNvwEFL9iD&_nc_oc=Adk5Iw6sn_83BmIp6GsuKmjfyv4FAdF_pZaRWxqXPulVh3JlJ0jzMO_hlhNJL3q3Ivw&_nc_zt=23&_nc_ht=scontent.fnag6-2.fna&_nc_gid=pLI61uqr2olhXkzzKMjF_A&oh=00_AfVqS-gt7hCF1kqQu5zrdHTU40UXAx6Ltp4YXJu458-msQ&oe=68BA57AA"
+    },
     {
       "id": "260b5f64-9329-81c3-8e7e-cf2dd0b88086",
       "title": "Room for rent in a triplex apartment in Rome",
