@@ -3038,11 +3038,34 @@
       const email = document.getElementById('signin-email').value;
       const password = document.getElementById('signin-password').value;
       
+      // Clear previous error messages
+      clearAuthErrors();
+      
       try {
         await signInWithEmailAndPassword(auth, email, password);
         closeAuthModal();
         showToast('success', 'Sign in successful', 'Welcome to RoomRadar! 🏠');
       } catch (error) {
+        console.log('Sign in error:', error.code, error.message);
+        
+        // Check if user doesn't exist and auto-switch to signup
+        if (error.code === 'auth/user-not-found') {
+          // Switch to signup tab and pre-fill email
+          switchAuthTab('signup');
+          document.getElementById('signup-email').value = email;
+          document.getElementById('signup-name').focus();
+          showAuthError('signup', 'Account non trovato. Crea un nuovo account con questa email.');
+        } else if (error.code === 'auth/wrong-password') {
+          showAuthError('signin', 'Password non corretta. Riprova.');
+        } else if (error.code === 'auth/invalid-email') {
+          showAuthError('signin', 'Email non valida. Inserisci un\'email corretta.');
+        } else if (error.code === 'auth/too-many-requests') {
+          showAuthError('signin', 'Troppi tentativi. Riprova più tardi.');
+        } else {
+          showAuthError('signin', 'Errore di accesso. Riprova.');
+        }
+        
+        // Still show toast for non-mobile users
         showToast('error', 'Sign in error', error.message);
       }
     };
@@ -3052,6 +3075,9 @@
       const name = document.getElementById('signup-name').value;
       const email = document.getElementById('signup-email').value;
       const password = document.getElementById('signup-password').value;
+      
+      // Clear previous error messages
+      clearAuthErrors();
       
       try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -3064,6 +3090,21 @@
         closeAuthModal();
         showToast('success', 'Account created', `Welcome ${name}! Your account has been created successfully. 🎉`);
       } catch (error) {
+        console.log('Sign up error:', error.code, error.message);
+        
+        if (error.code === 'auth/email-already-in-use') {
+          showAuthError('signup', 'Email già registrata. Prova ad accedere invece.');
+        } else if (error.code === 'auth/invalid-email') {
+          showAuthError('signup', 'Email non valida. Inserisci un\'email corretta.');
+        } else if (error.code === 'auth/weak-password') {
+          showAuthError('signup', 'Password troppo debole. Usa almeno 6 caratteri.');
+        } else if (error.code === 'auth/too-many-requests') {
+          showAuthError('signup', 'Troppi tentativi. Riprova più tardi.');
+        } else {
+          showAuthError('signup', 'Errore di registrazione. Riprova.');
+        }
+        
+        // Still show toast for non-mobile users
         showToast('error', 'Registration error', error.message);
       }
     };
@@ -3263,12 +3304,35 @@
       const email = document.getElementById('signin-email-inline').value;
       const password = document.getElementById('signin-password-inline').value;
       
+      // Clear previous error messages
+      clearAuthErrorsInline();
+      
       try {
         await signInWithEmailAndPassword(auth, email, password);
         // The onAuthStateChanged listener will handle UI updates
         console.log('✅ Sign in successful, UI will update automatically');
         showToast('success', 'Sign in successful', 'Welcome to RoomRadar! 🏠');
       } catch (error) {
+        console.log('Sign in inline error:', error.code, error.message);
+        
+        // Check if user doesn't exist and auto-switch to signup
+        if (error.code === 'auth/user-not-found') {
+          // Switch to signup tab and pre-fill email
+          switchAuthTab('signup');
+          document.getElementById('signup-email-inline').value = email;
+          document.getElementById('signup-name-inline').focus();
+          showAuthErrorInline('signup', 'Account non trovato. Crea un nuovo account con questa email.');
+        } else if (error.code === 'auth/wrong-password') {
+          showAuthErrorInline('signin', 'Password non corretta. Riprova.');
+        } else if (error.code === 'auth/invalid-email') {
+          showAuthErrorInline('signin', 'Email non valida. Inserisci un\'email corretta.');
+        } else if (error.code === 'auth/too-many-requests') {
+          showAuthErrorInline('signin', 'Troppi tentativi. Riprova più tardi.');
+        } else {
+          showAuthErrorInline('signin', 'Errore di accesso. Riprova.');
+        }
+        
+        // Still show toast for non-mobile users
         showToast('error', 'Sign in error', error.message);
       }
     };
@@ -3277,6 +3341,9 @@
       const name = document.getElementById('signup-name-inline').value;
       const email = document.getElementById('signup-email-inline').value;
       const password = document.getElementById('signup-password-inline').value;
+      
+      // Clear previous error messages
+      clearAuthErrorsInline();
       
       try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -3290,6 +3357,21 @@
         console.log('✅ Sign up successful, UI will update automatically');
         showToast('success', 'Account created', `Welcome ${name}! Your account has been created successfully. 🎉`);
       } catch (error) {
+        console.log('Sign up inline error:', error.code, error.message);
+        
+        if (error.code === 'auth/email-already-in-use') {
+          showAuthErrorInline('signup', 'Email già registrata. Prova ad accedere invece.');
+        } else if (error.code === 'auth/invalid-email') {
+          showAuthErrorInline('signup', 'Email non valida. Inserisci un\'email corretta.');
+        } else if (error.code === 'auth/weak-password') {
+          showAuthErrorInline('signup', 'Password troppo debole. Usa almeno 6 caratteri.');
+        } else if (error.code === 'auth/too-many-requests') {
+          showAuthErrorInline('signup', 'Troppi tentativi. Riprova più tardi.');
+        } else {
+          showAuthErrorInline('signup', 'Errore di registrazione. Riprova.');
+        }
+        
+        // Still show toast for non-mobile users
         showToast('error', 'Registration error', error.message);
       }
     };
@@ -3314,8 +3396,101 @@
       }
     };
 
+    // Helper functions for auth error messages
+    function showAuthError(formType, message) {
+      const formId = formType === 'signin' ? 'signin-form' : 'signup-form';
+      const form = document.getElementById(formId);
+      
+      // Remove existing error message
+      const existingError = form.querySelector('.auth-error-message');
+      if (existingError) {
+        existingError.remove();
+      }
+      
+      // Create error message element
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'auth-error-message';
+      errorDiv.style.cssText = `
+        color: #dc2626;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        background-color: #fef2f2;
+        border: 1px solid #fecaca;
+        border-radius: 6px;
+        text-align: center;
+      `;
+      errorDiv.textContent = message;
+      
+      // Insert error message at the end of the form
+      form.appendChild(errorDiv);
+    }
+
+    function showAuthErrorInline(formType, message) {
+      const formId = formType === 'signin' ? 'signin-form-inline' : 'signup-form-inline';
+      const form = document.getElementById(formId);
+      
+      // Remove existing error message
+      const existingError = form.querySelector('.auth-error-message');
+      if (existingError) {
+        existingError.remove();
+      }
+      
+      // Create error message element
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'auth-error-message';
+      errorDiv.style.cssText = `
+        color: #dc2626;
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        background-color: #fef2f2;
+        border: 1px solid #fecaca;
+        border-radius: 6px;
+        text-align: center;
+      `;
+      errorDiv.textContent = message;
+      
+      // Insert error message at the end of the form
+      form.appendChild(errorDiv);
+    }
+
+    function clearAuthErrors() {
+      const signinForm = document.getElementById('signin-form');
+      const signupForm = document.getElementById('signup-form');
+      
+      if (signinForm) {
+        const error = signinForm.querySelector('.auth-error-message');
+        if (error) error.remove();
+      }
+      
+      if (signupForm) {
+        const error = signupForm.querySelector('.auth-error-message');
+        if (error) error.remove();
+      }
+    }
+
+    function clearAuthErrorsInline() {
+      const signinForm = document.getElementById('signin-form-inline');
+      const signupForm = document.getElementById('signup-form-inline');
+      
+      if (signinForm) {
+        const error = signinForm.querySelector('.auth-error-message');
+        if (error) error.remove();
+      }
+      
+      if (signupForm) {
+        const error = signupForm.querySelector('.auth-error-message');
+        if (error) error.remove();
+      }
+    }
+
     // Enhanced switchAuthTab for inline forms
     window.switchAuthTab = function(tab) {
+      // Clear error messages when switching tabs
+      clearAuthErrors();
+      clearAuthErrorsInline();
+      
       // Handle both modal and inline forms
       const modalSigninForm = document.getElementById('signin-form');
       const modalSignupForm = document.getElementById('signup-form');
