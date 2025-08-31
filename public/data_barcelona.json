@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T19:31:15.542Z",
+  "generatedAt": "2025-08-31T20:33:26.212Z",
   "city": "barcelona",
-  "count": 969,
-  "totalRejectedCount": 1536,
+  "count": 971,
+  "totalRejectedCount": 1543,
   "results": [
+    {
+      "id": "260b5f64-9329-8165-af87-ea87facb54f9",
+      "title": "Room for rent in Bon Pastor",
+      "overview": "A 12m² furnished room with a single bed, nightstand, and mirror, available in a 100m² apartment in Bon Pastor, with a minimum stay of 2 months",
+      "description": "🌸 Habitación disponible en Bon Pastor – SOLO CHICAS 🌸 ✨ Habitación de 12 m² con ventana interior, completamente amueblada con cama individual, mesita de noche y mueble con espejo. 💶 450 € al mes (gastos incluidos: agua, luz e internet). 🔒 Fianza: 200 € 📅 Disponible para entrar ya. 📌 Estancia mínima de 2 meses (larga duración). 🏠 Piso de 100 m², luminoso y bien ventilado, situado en el barrio de Bon Pastor, a pocos minutos del metro Bon Pastor (L9N y L10N) y a una parada de La Sagrera (L1 y L5). 🚇 Conexiones: • Metro: L9N, L10N, L2 • Tren: R11, R2N, R2 • Bus: B24, H4, H6, V33, N8, B21 y más 🚗 Aparcamiento: línea blanca 🛒 Zona con supermercados, farmacias, bancos, biblioteca y parque. 🛍️ A solo 17 min andando del centro comercial La Maquinista. 👉 Requisito: solo chicas, limpias, tranquilas y organizadas. 📩 ¡Escríbeme ya para venir a verla, se alquila rápido!",
+      "price": "450 €",
+      "zone": "Bon Pastor",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the room, including its size, furnishings, and location, but lacks photos, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T20:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1076211854275111/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-81aa-b3c1-d0632e15c531",
+      "title": "Large Double Room with Balcony for Rent",
+      "overview": "A large double room with a balcony is available for rent in the Passige de Gracias area, suitable for women and students. The metro station is 3 minutes away and buses are available 24 hours.",
+      "description": "Habitacion grande double con balcon disponible Zona de passige de gracias Solo para mujeres y estudiantes y chicas Room available Zona passige de gracias Más información por watsap 00[PHONE NUMBER CENSORED] Parada metro 3 minutos Bus 24 hora",
+      "price": "N/A",
+      "zone": "Passige de Gracias",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, includes an image, and provides contact information via WhatsApp. However, the price is not specified, which prevents it from reaching the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T20:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2243296939506835/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr20-1.fna.fbcdn.net/v/t39.30808-6/542047923_122216922386089183_3642516185238802235_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4_xtvLLkzpgQ7kNvwHfQEY3&_nc_oc=AdmzKXUFgLR80Op7B7OMc2y5KcIaZ97PlpxyGb733zgwfQsCopglKHop4hMsyor7rTc&_nc_zt=23&_nc_ht=scontent.fblr20-1.fna&_nc_gid=OKQJwfu7HHtlC58ZobMxKw&oh=00_AfXFeE4OFitsS8sg2JirZT7XxZQ5y8hTYXM_lwemasBszw&oe=68BA8EDA"
+    },
     {
       "id": "260b5f64-9329-8188-9988-ed8e8ba5fb51",
       "title": "Room for rent for a single working woman",
@@ -52,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T19:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078154701156728/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540349054_10236267952494270_3323198415778483180_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MobdSAENYlYQ7kNvwHMwzQi&_nc_oc=AdnOdLNaF4JEHD0Aeql4hXOJC7CbabugJT90dDtI2ImO7TmJCJPzjlps9Q4ore8LGLg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=CeBLj4MMbZhf_eDVi5Yb9g&oh=00_AfXO1ZokOQjKaDSaWIs2iBiPIG1DLxDNRYXVgpwzcleISA&oe=68BA774B"
     },
     {
@@ -511,7 +545,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T15:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308268356072340/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

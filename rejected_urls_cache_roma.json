@@ -1763,8 +1763,52 @@
     "https://www.facebook.com/groups/633912783969846/posts/1709688463058934/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T19:27:09.193538"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1337426998048991/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:27:30.842113"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1337411318050559/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:27:30.844429"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1337387448052946/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:27:30.846805"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2146468932543726/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:28:07.068029"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2146474122543207/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:28:07.072104"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2146471849210101/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:28:07.075953"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31015948208049938/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:28:43.289930"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31015596431418449/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:28:43.294002"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1709738903053890/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:29:19.203227"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1709719749722472/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:29:19.205665"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1709686579725789/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-08-31T20:29:19.207925"
     }
   },
-  "total_rejected_count": 1117,
-  "timestamp": "2025-08-31T19:22:06.620977"
+  "total_rejected_count": 1128,
+  "timestamp": "2025-08-31T20:27:22.777386"
 }
