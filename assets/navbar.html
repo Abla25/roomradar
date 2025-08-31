@@ -1,0 +1,295 @@
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-content">
+    <div class="navbar-logo">
+      <img src="./vector-cropped-cropped (1).svg" alt="RoomRadar Logo" style="width: 24px; height: 24px; margin-right: 0.75rem;">
+      <a href="/" style="color: inherit; text-decoration: none;">RoomRadar</a>
+    </div>
+    
+    <div class="navbar-nav" style="display: flex; gap: 2rem; align-items: center;">
+      <a href="/" style="color: #6b7280; text-decoration: none; font-weight: 500; transition: all 0.3s ease; position: relative;">Home</a>
+      <a href="/how-it-works.html" style="color: #6b7280; text-decoration: none; font-weight: 500; transition: all 0.3s ease; position: relative;">How it Works</a>
+      <a href="/faq.html" style="color: #6b7280; text-decoration: none; font-weight: 500; transition: all 0.3s ease; position: relative;">FAQ</a>
+    </div>
+    
+    <div class="navbar-auth">
+      <!-- Sign In Button (shown when not logged in) -->
+      <button id="navbar-signin-btn" class="navbar-auth-btn" onclick="showAuthModal()">
+        <svg class="icon" viewBox="0 0 24 24" style="width: 18px; height: 18px; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));">
+          <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <polyline points="10,17 15,12 10,7" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+          <line x1="15" y1="12" x2="3" y2="12" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+        </svg>
+        Sign In
+      </button>
+      
+            <!-- Profile Icon (shown when logged in) -->
+      <div id="navbar-profile-icon" class="navbar-profile-icon" style="display: none;" onclick="toggleProfileMenu()">
+        <svg class="profile-svg" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+          <circle cx="12" cy="8" r="4" fill="currentColor"/>
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="currentColor"/>
+        </svg>
+      </div>
+</div>
+
+<script>
+// Profile menu toggle function
+function toggleProfileMenu() {
+  console.log('👤 Profile menu clicked!');
+  // Redirect to profile page
+  window.location.href = '/profile.html';
+}
+
+// Function to show profile icon (call this when user is logged in)
+function showProfileIcon() {
+  console.log('🔄 Showing profile icon (navbar)...');
+  
+  const signInBtn = document.getElementById('navbar-signin-btn');
+  const profileIcon = document.getElementById('navbar-profile-icon');
+  const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+  const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+  
+  console.log('📱 Desktop elements found:', !!signInBtn, !!profileIcon);
+  console.log('📱 Mobile elements found:', !!mobileSignInBtn, !!mobileProfileIcon);
+  console.log('📱 Sign in button display:', signInBtn ? signInBtn.style.display : 'null');
+  console.log('📱 Profile icon display:', profileIcon ? profileIcon.style.display : 'null');
+  
+  if (signInBtn && profileIcon) {
+    signInBtn.style.display = 'none';
+    profileIcon.style.display = 'flex';
+    console.log('✅ Desktop profile icon shown');
+    console.log('📱 After change - Sign in button display:', signInBtn.style.display);
+    console.log('📱 After change - Profile icon display:', profileIcon.style.display);
+  } else {
+    console.log('❌ Desktop elements not found');
+  }
+  
+  if (mobileSignInBtn && mobileProfileIcon) {
+    mobileSignInBtn.style.display = 'none';
+    mobileProfileIcon.style.display = 'flex';
+    console.log('✅ Mobile profile icon shown');
+  } else {
+    console.log('❌ Mobile elements not found');
+  }
+  
+  // Also call the homepage function if available
+  if (typeof window.showProfileIcon === 'function') {
+    console.log('🔄 Calling homepage showProfileIcon...');
+    window.showProfileIcon();
+  }
+}
+
+// Function to check if user is logged in and show appropriate UI
+function checkUserAuthStatus() {
+  console.log('🔍 Checking user authentication status...');
+  
+  // Check if Firebase auth is available and user is logged in
+  let isLoggedIn = false;
+  
+  console.log('🔥 Firebase available:', typeof firebase !== 'undefined');
+  console.log('🔥 Firebase auth available:', typeof firebase !== 'undefined' && firebase.auth);
+  console.log('🔥 Window firebase:', typeof window.firebase !== 'undefined');
+  console.log('🔥 Window firebase auth:', typeof window.firebase !== 'undefined' && window.firebase.auth);
+  
+  // Try to get Firebase auth user
+  if (typeof firebase !== 'undefined' && firebase.auth) {
+    const currentUser = firebase.auth().currentUser;
+    console.log('🔥 Firebase current user:', currentUser);
+    console.log('🔥 Firebase current user details:', currentUser ? {
+      uid: currentUser.uid,
+      email: currentUser.email,
+      displayName: currentUser.displayName
+    } : 'null');
+    isLoggedIn = !!currentUser;
+  } else if (typeof window.firebase !== 'undefined' && window.firebase.auth) {
+    const currentUser = window.firebase.auth().currentUser;
+    console.log('🔥 Window Firebase current user:', currentUser);
+    console.log('🔥 Window Firebase current user details:', currentUser ? {
+      uid: currentUser.uid,
+      email: currentUser.email,
+      displayName: currentUser.displayName
+    } : 'null');
+    isLoggedIn = !!currentUser;
+  } else {
+    console.log('❌ Firebase not available for auth check');
+  }
+  
+  // Try to get user from global currentUser variable (set by homepage)
+  if (!isLoggedIn && typeof window.currentUser !== 'undefined') {
+    console.log('👤 Global currentUser:', window.currentUser);
+    isLoggedIn = !!window.currentUser;
+  }
+  
+  // Fallback to localStorage if Firebase not available
+  if (!isLoggedIn) {
+    isLoggedIn = localStorage.getItem('userLoggedIn') === 'true';
+    console.log('💾 localStorage userLoggedIn:', isLoggedIn);
+  }
+  
+  console.log('👤 Final user logged in status:', isLoggedIn);
+  
+  if (isLoggedIn) {
+    console.log('✅ User is authenticated, showing profile icon');
+    showProfileIcon();
+  } else {
+    console.log('❌ User is not authenticated, showing sign in button');
+    showSignInButton();
+  }
+}
+
+// Function to show sign in button (call this when user is logged out)
+function showSignInButton() {
+  console.log('🔄 Showing sign in button (navbar)...');
+  
+  const signInBtn = document.getElementById('navbar-signin-btn');
+  const profileIcon = document.getElementById('navbar-profile-icon');
+  const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+  const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+  
+  if (signInBtn && profileIcon) {
+    signInBtn.style.display = 'flex';
+    profileIcon.style.display = 'none';
+  }
+  
+  if (mobileSignInBtn && mobileProfileIcon) {
+    mobileSignInBtn.style.display = 'flex';
+    mobileProfileIcon.style.display = 'none';
+  }
+  
+  // Also call the homepage function if available
+  if (typeof window.showSignInButton === 'function') {
+    console.log('🔄 Calling homepage showSignInButton...');
+    window.showSignInButton();
+  }
+}
+
+// Example: Show profile icon (remove this line when implementing real auth)
+// showProfileIcon();
+
+// Test function to verify elements exist
+function testNavbarElements() {
+  console.log('🧪 Testing navbar elements...');
+  
+  const signInBtn = document.getElementById('navbar-signin-btn');
+  const profileIcon = document.getElementById('navbar-profile-icon');
+  const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+  const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+  
+  console.log('🧪 Elements found:');
+  console.log('  - navbar-signin-btn:', !!signInBtn);
+  console.log('  - navbar-profile-icon:', !!profileIcon);
+  console.log('  - mobile-signin-btn:', !!mobileSignInBtn);
+  console.log('  - mobile-profile-icon:', !!mobileProfileIcon);
+  
+  if (signInBtn) console.log('  - Sign in button display:', signInBtn.style.display);
+  if (profileIcon) console.log('  - Profile icon display:', profileIcon.style.display);
+}
+
+// Test elements when navbar loads
+setTimeout(testNavbarElements, 200);
+
+// Listen for Firebase auth state changes
+console.log('🔍 Setting up Firebase auth listener...');
+console.log('🔥 Firebase available:', typeof firebase !== 'undefined');
+console.log('🔥 Firebase auth available:', typeof firebase !== 'undefined' && firebase.auth);
+console.log('🔥 Window firebase:', typeof window.firebase !== 'undefined');
+console.log('🔥 Window firebase auth:', typeof window.firebase !== 'undefined' && window.firebase.auth);
+
+if (typeof firebase !== 'undefined' && firebase.auth) {
+  console.log('✅ Setting up Firebase auth state listener...');
+  firebase.auth().onAuthStateChanged(function(user) {
+    console.log('🔥 Firebase auth state changed:', user ? 'User logged in' : 'User logged out');
+    if (user) {
+      console.log('✅ Firebase user authenticated, showing profile icon');
+      showProfileIcon();
+    } else {
+      console.log('❌ Firebase user not authenticated, showing sign in button');
+      showSignInButton();
+    }
+  });
+} else if (typeof window.firebase !== 'undefined' && window.firebase.auth) {
+  console.log('✅ Setting up Firebase auth state listener (window.firebase)...');
+  window.firebase.auth().onAuthStateChanged(function(user) {
+    console.log('🔥 Firebase auth state changed:', user ? 'User logged in' : 'User logged out');
+    if (user) {
+      console.log('✅ Firebase user authenticated, showing profile icon');
+      showProfileIcon();
+    } else {
+      console.log('❌ Firebase user not authenticated, showing sign in button');
+      showSignInButton();
+    }
+  });
+} else {
+  console.log('❌ Firebase not available for auth listener');
+  
+  // Wait for Firebase to become available
+  console.log('⏳ Waiting for Firebase to become available...');
+  let firebaseCheckInterval = setInterval(function() {
+    if ((typeof firebase !== 'undefined' && firebase.auth) || (typeof window.firebase !== 'undefined' && window.firebase.auth)) {
+      console.log('✅ Firebase became available, setting up auth listener...');
+      clearInterval(firebaseCheckInterval);
+      
+      const auth = firebase?.auth || window.firebase?.auth;
+      auth().onAuthStateChanged(function(user) {
+        console.log('🔥 Firebase auth state changed:', user ? 'User logged in' : 'User logged out');
+        if (user) {
+          console.log('✅ Firebase user authenticated, showing profile icon');
+          showProfileIcon();
+        } else {
+          console.log('❌ Firebase user not authenticated, showing sign in button');
+          showSignInButton();
+        }
+      });
+    }
+  }, 100);
+  
+  // Also watch for changes to window.currentUser (set by homepage)
+  console.log('👀 Setting up currentUser watcher...');
+  let lastCurrentUser = window.currentUser;
+  setInterval(function() {
+    if (window.currentUser !== lastCurrentUser) {
+      console.log('🔄 Global currentUser changed:', window.currentUser);
+      lastCurrentUser = window.currentUser;
+      checkUserAuthStatus();
+    }
+  }, 500);
+}
+</script>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="mobile-menu">
+  <div class="mobile-menu-content">
+    <div class="mobile-menu-header">
+      <h3>Menu</h3>
+      <button class="mobile-menu-close" onclick="toggleMobileMenu()">×</button>
+    </div>
+    <div class="mobile-menu-nav" style="margin-bottom: 2rem;">
+      <a href="/" style="display: block; padding: 0.75rem 0; color: #374151; text-decoration: none; border-bottom: 1px solid #e5e7eb;">Home</a>
+      <a href="/how-it-works.html" style="display: block; padding: 0.75rem 0; color: #374151; text-decoration: none; border-bottom: 1px solid #e5e7eb;">How it Works</a>
+      <a href="/faq.html" style="display: block; padding: 0.75rem 0; color: #374151; text-decoration: none; border-bottom: 1px solid #e5e7eb;">FAQ</a>
+    </div>
+    <div class="mobile-menu-auth">
+      <!-- Sign In Button (shown when not logged in) -->
+      <button id="mobile-signin-btn" class="navbar-auth-btn" onclick="showAuthModal(); toggleMobileMenu();">
+        <svg class="icon" viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+          <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+          <polyline points="10,17 15,12 10,7"></polyline>
+          <line x1="15" y1="12" x2="3" y2="12"></line>
+        </svg>
+        Sign In
+      </button>
+      
+      <!-- Profile Icon (shown when logged in) -->
+      <div id="mobile-profile-icon" class="mobile-profile-icon" style="display: none;" onclick="toggleProfileMenu(); toggleMobileMenu();">
+        <svg class="profile-svg" viewBox="0 0 24 24" style="width: 18px; height: 18px;">
+          <circle cx="12" cy="8" r="4" fill="currentColor"/>
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="currentColor"/>
+        </svg>
+        <span style="margin-left: 0.5rem; color: #374151; font-weight: 500;">Profile</span>
+      </div>
+    </div>
+  </div>
+</div>

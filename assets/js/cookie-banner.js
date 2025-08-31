@@ -13,8 +13,8 @@
     version: '1.0',
     bannerId: 'cookie-banner',
     modalId: 'cookie-modal',
-    cookiePolicyUrl: './assets/pages/cookie-policy.html',
-    privacyPolicyUrl: '/privacy.html',
+    cookiePolicyUrl: '/cookie-policy.html',
+    privacyPolicyUrl: '/privacy-policy.html',
     consentExpiryDays: 30 // GDPR compliance: consent expires after 30 days
   };
 
@@ -22,36 +22,36 @@
   const BANNER_TEXT = {
     en: {
       title: "We value your privacy",
-      description: "We use cookies to enhance your experience, analyze site usage, and assist in marketing. You can customize your preferences below.",
+      description: "RoomRadar uses cookies to enhance your housing search experience, analyze site usage, and improve our AI-powered recommendations. You can customize your preferences below.",
       acceptAll: "Accept All",
       rejectAll: "Reject All",
       customize: "Customize",
       save: "Save Preferences",
       learnMore: "Learn More",
       modalTitle: "Cookie Preferences",
-      modalDescription: "Choose which cookies you allow us to use. Essential cookies are always enabled as they are necessary for the website to function properly."
+      modalDescription: "Choose which cookies you allow RoomRadar to use. Essential cookies are always enabled as they are necessary for the website to function properly."
     },
     es: {
       title: "Valoramos tu privacidad",
-      description: "Utilizamos cookies para mejorar tu experiencia, analizar el uso del sitio y asistir en marketing. Puedes personalizar tus preferencias abajo.",
+      description: "RoomRadar utiliza cookies para mejorar tu experiencia de búsqueda de vivienda, analizar el uso del sitio y mejorar nuestras recomendaciones impulsadas por IA. Puedes personalizar tus preferencias abajo.",
       acceptAll: "Aceptar Todo",
       rejectAll: "Rechazar Todo",
       customize: "Personalizar",
       save: "Guardar Preferencias",
       learnMore: "Más Información",
       modalTitle: "Preferencias de Cookies",
-      modalDescription: "Elige qué cookies nos permites usar. Las cookies esenciales siempre están habilitadas ya que son necesarias para que el sitio web funcione correctamente."
+      modalDescription: "Elige qué cookies permites que RoomRadar use. Las cookies esenciales siempre están habilitadas ya que son necesarias para que el sitio web funcione correctamente."
     },
     it: {
       title: "Rispettiamo la tua privacy",
-      description: "Utilizziamo cookie per migliorare la tua esperienza, analizzare l'utilizzo del sito e assistere nel marketing. Puoi personalizzare le tue preferenze qui sotto.",
+      description: "RoomRadar utilizza cookie per migliorare la tua esperienza di ricerca alloggi, analizzare l'utilizzo del sito e migliorare le nostre raccomandazioni basate sull'IA. Puoi personalizzare le tue preferenze qui sotto.",
       acceptAll: "Accetta Tutto",
       rejectAll: "Rifiuta Tutto",
       customize: "Personalizza",
       save: "Salva Preferenze",
       learnMore: "Per Saperne di Più",
       modalTitle: "Preferenze Cookie",
-      modalDescription: "Scegli quali cookie ci permetti di utilizzare. I cookie essenziali sono sempre abilitati poiché sono necessari per il corretto funzionamento del sito web."
+      modalDescription: "Scegli quali cookie permetti a RoomRadar di utilizzare. I cookie essenziali sono sempre abilitati poiché sono necessari per il corretto funzionamento del sito web."
     }
   };
 
@@ -79,9 +79,9 @@
         it: "Cookie di Analisi"
       },
       description: {
-        en: "Help us understand how visitors use our site to improve performance and user experience.",
-        es: "Nos ayudan a entender cómo los visitantes usan nuestro sitio para mejorar el rendimiento y la experiencia del usuario.",
-        it: "Ci aiutano a capire come i visitanti utilizzano il nostro sito per migliorare le prestazioni e l'esperienza utente."
+        en: "Help us understand how users search for housing and interact with our AI-powered recommendations to improve the platform.",
+        es: "Nos ayudan a entender cómo los usuarios buscan vivienda e interactúan con nuestras recomendaciones impulsadas por IA para mejorar la plataforma.",
+        it: "Ci aiutano a capire come gli utenti cercano alloggi e interagiscono con le nostre raccomandazioni basate sull'IA per migliorare la piattaforma."
       },
       cookies: ["_ga", "_gat", "_gid", "_ga_*"],
       canDisable: true,
@@ -94,9 +94,9 @@
         it: "Cookie di Marketing"
       },
       description: {
-        en: "Used to show you relevant ads and measure campaign effectiveness. These cookies may be set by third-party advertisers.",
-        es: "Se utilizan para mostrarte anuncios relevantes y medir la efectividad de las campañas. Estas cookies pueden ser establecidas por anunciantes de terceros.",
-        it: "Utilizzati per mostrarti annunci pertinenti e misurare l'efficacia delle campagne. Questi cookie possono essere impostati da inserzionisti terzi."
+        en: "Used to show you relevant housing-related content and measure the effectiveness of our platform improvements. These cookies help us provide better housing search experiences.",
+        es: "Se utilizan para mostrarte contenido relevante relacionado con vivienda y medir la efectividad de las mejoras de nuestra plataforma. Estas cookies nos ayudan a proporcionar mejores experiencias de búsqueda de vivienda.",
+        it: "Utilizzati per mostrarti contenuti pertinenti relativi agli alloggi e misurare l'efficacia dei miglioramenti della nostra piattaforma. Questi cookie ci aiutano a fornire migliori esperienze di ricerca alloggi."
       },
       cookies: ["_fbp", "google_ads", "_gcl_au", "fbp"],
       canDisable: true,

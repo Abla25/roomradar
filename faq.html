@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - RoomRadar</title>
+  <meta name="description" content="Frequently asked questions about RoomRadar - AI-powered housing search for Barcelona and Rome.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="vector-cropped-cropped (1).svg">
+  
+  <!-- Footer Styles -->
+  <link rel="stylesheet" href="assets/css/footer.css">
+  
+  <!-- Navbar Styles -->
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #fafafa;
+      overflow-x: hidden;
+    }
+
+    /* Liquid Glass Background */
+    .liquid-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+
+    .liquid-bg::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+      animation: float 20s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      33% { transform: translateY(-20px) rotate(1deg); }
+      66% { transform: translateY(10px) rotate(-1deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 6rem 0 4rem;
+      text-align: center;
+      position: relative;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      color: #1f2937;
+      letter-spacing: -0.02em;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: #6b7280;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      padding: 4rem 0;
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+
+    .faq-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .faq-question {
+      padding: 1.5rem 2rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #1f2937;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .faq-question:hover {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    .faq-question::after {
+      content: '+';
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #667eea;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .faq-question::after {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+      padding: 0 2rem 1.5rem 2rem;
+    }
+
+    .faq-answer-content {
+      color: #6b7280;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      margin: 3rem 0;
+      padding: 3rem;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .cta-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+      letter-spacing: -0.01em;
+    }
+
+    .cta-description {
+      font-size: 1.125rem;
+      color: #6b7280;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 1.25rem 2.5rem;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      border: none;
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.6s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 40px rgba(102, 126, 234, 0.4);
+      background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    }
+
+    .cta-button:hover::before {
+      left: 100%;
+    }
+
+    .cta-button:active {
+      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
+    }
+
+    .cta-button svg {
+      transition: transform 0.3s ease;
+    }
+
+    .cta-button:hover svg {
+      transform: translateX(4px) scale(1.1);
+    }
+
+
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 4rem 0 3rem;
+      }
+      
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      
+      .faq-section {
+        padding: 3rem 0;
+      }
+      
+      .faq-question {
+        padding: 1.25rem 1.5rem;
+        font-size: 1rem;
+      }
+      
+      .faq-item.active .faq-answer {
+        padding: 0 1.5rem 1.25rem 1.5rem;
+      }
+      
+      .container {
+        padding: 0 1rem;
+      }
+      
+      .navbar-auth {
+        display: none;
+      }
+      
+      .navbar-nav {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+      
+      .mobile-menu.show {
+        display: block;
+      }
+      
+      .cta-section {
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 4rem 0 3rem;
+      }
+      
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .faq-section {
+        padding: 3rem 0;
+      }
+      
+      .faq-question {
+        padding: 1rem 1.25rem;
+        font-size: 0.95rem;
+      }
+      
+      .faq-item.active .faq-answer {
+        padding: 0 1.25rem 1rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Liquid Glass Background -->
+  <div class="liquid-bg"></div>
+
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+      <p>Everything you need to know about RoomRadar and how we help you find the perfect accommodation in Barcelona and Rome.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            How does RoomRadar work?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              RoomRadar uses AI to scan Facebook groups and housing portals in Barcelona and Rome, filters out scams, and rates listings for reliability. You choose your city, set your preferences, and we show you the best options with trust ratings.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            Is RoomRadar free to use?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes! During our beta phase, RoomRadar is completely free for all users. We're focused on building the best possible experience and gathering feedback from students in Barcelona and Rome. Once we launch publicly, we'll maintain a free tier with premium features available.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            What cities does RoomRadar cover?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              RoomRadar currently covers Barcelona and Rome. You can choose your preferred city when setting up your search preferences. We plan to expand to other European university cities soon.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            How accurate are the AI trust ratings?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Our AI analyzes multiple factors including post completeness, photo quality, landlord communication patterns, and price consistency. While no system is perfect, our trust ratings have shown 85% accuracy in identifying legitimate listings in both cities. We continuously improve our algorithms based on user feedback and real-world results.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            How do I get started with RoomRadar?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Simply join our beta by signing up on our homepage. You'll receive an email with your access credentials within 24 hours. Once logged in, you can choose your city (Barcelona or Rome), set your preferences, budget, and preferred areas. Our AI will then start finding and rating listings that match your criteria.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            How often are new listings added?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Our AI scans for new listings every few hours, so you'll see fresh options throughout the day. You can also set up notifications to get instant alerts when new listings match your criteria in your chosen city, ensuring you're among the first to know about new opportunities.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            What if I find a scam or fake listing?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We have a "Report Listing" feature on every listing page. When you report a suspicious listing, our team reviews it immediately and updates our AI algorithms to better detect similar scams in the future. Your feedback helps make RoomRadar safer for everyone.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            Can I use RoomRadar if I'm not a student?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Currently, RoomRadar is designed specifically for students and young professionals looking for shared housing or student-friendly accommodations in Barcelona and Rome. However, many of the listings we find are suitable for anyone looking for affordable housing.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFAQ(this)">
+            How can I provide feedback or suggest features?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We love feedback! You can join our Telegram community to share ideas, report bugs, or suggest new features. We also send regular surveys to beta users to understand what's working and what needs improvement. Your input directly shapes the future of RoomRadar.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">Ready to Find Your Perfect Room?</h2>
+      <p class="cta-description">Join thousands of students and professionals who trust RoomRadar to find their ideal accommodation in Barcelona and Rome.</p>
+      <a href="/" class="cta-button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        Start Searching Now
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBdheYPtK3xPq-MkochYgM8CCnJF3AFPXM",
+      authDomain: "roomradar-auth.firebaseapp.com",
+      projectId: "roomradar-auth",
+      storageBucket: "roomradar-auth.firebasestorage.app",
+      messagingSenderId: "167307746619",
+      appId: "1:167307746619:web:8c8c8c8c8c8c8c8c8c8c8c"
+    };
+
+    // Initialize Firebase
+    console.log('🔥 Initializing Firebase in FAQ page...');
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    console.log('✅ Firebase initialized in FAQ page');
+    console.log('Auth instance:', auth);
+
+    // Make Firebase available globally
+    window.firebase = { auth };
+    window.auth = auth;
+
+    // Listen for auth state changes
+    onAuthStateChanged(auth, (user) => {
+      console.log('🔄 Auth state changed in FAQ page:', user ? 'User logged in' : 'User logged out');
+      
+      if (user) {
+        console.log('✅ User is authenticated in FAQ page');
+        console.log('User details:', {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName
+        });
+        
+        // Update navbar to show profile icon
+        if (typeof window.showProfileIcon === 'function') {
+          window.showProfileIcon();
+        }
+      } else {
+        console.log('❌ User is not authenticated in FAQ page');
+        
+        // Update navbar to show sign in button
+        if (typeof window.showSignInButton === 'function') {
+          window.showSignInButton();
+        }
+      }
+    });
+  </script>
+
+  <script>
+    // Mobile menu functions
+    window.toggleMobileMenu = function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('show');
+      }
+    };
+    
+    // Auth modal placeholder
+    window.showAuthModal = function() {
+      // Redirect to home page for auth
+      window.location.href = '/';
+    };
+
+    // FAQ toggle function
+    function toggleFAQ(element) {
+      const faqItem = element.parentElement;
+      const isActive = faqItem.classList.contains('active');
+      
+      // Close all other FAQ items
+      document.querySelectorAll('.faq-item').forEach(item => {
+        item.classList.remove('active');
+      });
+      
+      // Toggle current item
+      if (!isActive) {
+        faqItem.classList.add('active');
+      }
+    }
+
+    // Load navbar
+    async function loadNavbar() {
+      try {
+        const response = await fetch('assets/navbar.html');
+        if (response.ok) {
+          const navbarHtml = await response.text();
+          document.getElementById('navbar-container').innerHTML = navbarHtml;
+          
+          // Check if user is logged in and show appropriate UI
+          setTimeout(() => {
+            if (typeof checkUserAuthStatus === 'function') {
+              console.log('🔄 Navbar loaded, checking user status...');
+              checkUserAuthStatus();
+            }
+          }, 100);
+        }
+      } catch (error) {
+        console.error('Error loading navbar:', error);
+      }
+    }
+
+    // Load footer
+    async function loadFooter() {
+      try {
+        const timestamp = new Date().getTime();
+        const response = await fetch(`assets/footer.html?t=${timestamp}`);
+        const footerHtml = await response.text();
+        document.getElementById('footer-container').innerHTML = footerHtml;
+      } catch (error) {
+        console.error('Error loading footer:', error);
+      }
+    }
+
+    // Profile icon functions
+    function showProfileIcon() {
+      console.log('🔄 Showing profile icon...');
+      
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      console.log('📱 Desktop elements found:', !!signInBtn, !!profileIcon);
+      console.log('📱 Mobile elements found:', !!mobileSignInBtn, !!mobileProfileIcon);
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'none';
+        profileIcon.style.display = 'flex';
+        console.log('✅ Desktop profile icon shown');
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'none';
+        mobileProfileIcon.style.display = 'flex';
+        console.log('✅ Mobile profile icon shown');
+      }
+    }
+
+    function showSignInButton() {
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'flex';
+        profileIcon.style.display = 'none';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'flex';
+        mobileProfileIcon.style.display = 'none';
+      }
+    }
+
+    function toggleProfileMenu() {
+      console.log('👤 Profile menu clicked!');
+      // Redirect to profile page
+      window.location.href = '/profile.html';
+    }
+
+    // Function to check if user is logged in and show appropriate UI
+    function checkUserAuthStatus() {
+      console.log('🔍 Checking user authentication status in FAQ page...');
+      
+      // Check Firebase auth state
+      if (window.auth && window.auth.currentUser) {
+        console.log('✅ User is authenticated via Firebase, showing profile icon');
+        showProfileIcon();
+      } else {
+        console.log('❌ User is not authenticated via Firebase, showing sign in button');
+        showSignInButton();
+      }
+    }
+
+    // Load navbar and footer when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      loadNavbar();
+      loadFooter();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service - RoomRadar</title>
+  <meta name="description" content="Terms of Service for RoomRadar - AI-powered housing search for Barcelona, London, and Rome.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="vector-cropped-cropped (1).svg">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/cookie-banner.css">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      min-height: 100vh;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .terms-header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 2rem 0;
+    }
+
+    .terms-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+
+    .terms-subtitle {
+      color: #6b7280;
+      font-size: 1.1rem;
+    }
+
+    .terms-content {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      padding: 3rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .terms-content h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1f2937;
+      margin: 2rem 0 1rem 0;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+    }
+
+    .terms-content h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #374151;
+      margin: 1.5rem 0 1rem 0;
+    }
+
+    .terms-content h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #4b5563;
+      margin: 1.25rem 0 0.75rem 0;
+    }
+
+    .terms-content p {
+      margin-bottom: 1rem;
+      color: #374151;
+    }
+
+    .terms-content ul, .terms-content ol {
+      margin: 1rem 0 1rem 2rem;
+    }
+
+    .terms-content li {
+      margin-bottom: 0.5rem;
+      color: #374151;
+    }
+
+    .warning-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border: 2px solid #f59e0b;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      position: relative;
+    }
+
+    .warning-box::before {
+      content: "⚠️";
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      background: white;
+      padding: 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .warning-box h3 {
+      color: #92400e;
+      margin-top: 0;
+    }
+
+    .warning-box p {
+      color: #78350f;
+      margin-bottom: 0.5rem;
+    }
+
+    .disclaimer-box {
+      background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+      border: 2px solid #ef4444;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      position: relative;
+    }
+
+    .disclaimer-box::before {
+      content: "🚨";
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      background: white;
+      padding: 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .disclaimer-box h3 {
+      color: #991b1b;
+      margin-top: 0;
+    }
+
+    .disclaimer-box p {
+      color: #7f1d1d;
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight {
+      background: linear-gradient(120deg, #a78bfa 0%, #c084fc 100%);
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .contact-info {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border: 2px solid #3b82f6;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .contact-info h3 {
+      color: #1e40af;
+      margin-top: 0;
+    }
+
+    .contact-info p {
+      color: #1e3a8a;
+      margin-bottom: 0.5rem;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #6b7280;
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 2rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #374151;
+    }
+
+    .back-link svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 1rem;
+      }
+      
+      .terms-content {
+        padding: 2rem;
+      }
+      
+      .terms-title {
+        font-size: 2rem;
+      }
+      
+      .terms-content h1 {
+        font-size: 1.75rem;
+      }
+      
+      .terms-content h2 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <div class="container">
+    <a href="/" class="back-link">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      Back to Home
+    </a>
+
+    <div class="terms-header">
+      <h1 class="terms-title">Terms of Service</h1>
+      <p class="terms-subtitle">RoomRadar - AI-powered housing search</p>
+    </div>
+
+    <div class="terms-content">
+      <h1>Terms of Service - RoomRadar</h1>
+      
+      <p><strong>Last Updated:</strong> August 31, 2025</p>
+
+      <div class="warning-box">
+        <h3>⚠️ BETA TEST DISCLAIMER</h3>
+        <p><strong>RoomRadar is currently in BETA TESTING phase. This is an experimental service provided as-is for testing and feedback purposes only. By using this service, you acknowledge and accept all associated risks and limitations.</strong></p>
+      </div>
+
+      <h2>1. Introduction and Acceptance</h2>
+      <p>Welcome to RoomRadar, an experimental intelligent real estate listing aggregation service currently in beta testing. By accessing or using our website, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our service.</p>
+      
+      <p><strong>IMPORTANT: This is a beta test version. The service may contain bugs, errors, or inaccuracies. Use at your own risk.</strong></p>
+
+      <h2>2. Beta Test Nature of Service</h2>
+      
+      <h3>2.1 Experimental Service</h3>
+      <p>RoomRadar is an <span class="highlight">experimental beta test service</span> provided free of charge for testing and development purposes. This means:</p>
+      <ul>
+        <li>The service is <strong>not production-ready</strong> and may contain significant bugs or errors</li>
+        <li>Features may be <strong>incomplete, unstable, or subject to frequent changes</strong></li>
+        <li>Data accuracy and service availability are <strong>not guaranteed</strong></li>
+        <li>The service may be <strong>discontinued at any time without notice</strong></li>
+      </ul>
+
+      <h3>2.2 No Commercial Use</h3>
+      <p>This beta service is intended <strong>solely for personal testing and evaluation</strong>. Commercial use is strictly prohibited.</p>
+
+      <h3>2.3 Feedback and Testing</h3>
+      <p>By using this beta service, you agree to:</p>
+      <ul>
+        <li>Provide feedback on functionality and user experience when requested</li>
+        <li>Accept that your usage data may be analyzed for improvement purposes</li>
+        <li>Understand that this is a <strong>work in progress</strong> with inherent limitations</li>
+      </ul>
+
+      <h2>3. Description of Service</h2>
+      <p>RoomRadar is a free service that:</p>
+      <ul>
+        <li>Aggregates publicly available rental listings from Facebook groups in <strong>Barcelona, London, and Rome</strong></li>
+        <li>Uses artificial intelligence to filter and analyze rental posts</li>
+        <li>Provides a user-friendly interface to search housing options</li>
+        <li>Offers reliability ratings for listings based on automated analysis</li>
+        <li>Supports multi-city search and comparison</li>
+      </ul>
+      
+      <p><strong>Important:</strong> RoomRadar is an aggregation service only. We do not own, manage, or verify the rental properties listed on our platform.</p>
+
+      <h2>4. User Responsibilities</h2>
+      
+      <h3>4.1 Acceptable Use</h3>
+      <p>You agree to use RoomRadar only for lawful purposes and in accordance with these Terms. You may not:</p>
+      <ul>
+        <li>Attempt to gain unauthorized access to our systems</li>
+        <li>Use automated tools to scrape or download content beyond normal browsing</li>
+        <li>Interfere with the proper functioning of the service</li>
+        <li>Use the service for commercial purposes without authorization</li>
+      </ul>
+
+      <h3>4.2 Contact with Property Owners</h3>
+      <ul>
+        <li>All communications with property owners or rental contacts are your sole responsibility</li>
+        <li>We recommend verifying all information independently before making any commitments</li>
+        <li>Exercise caution when sharing personal information or making payments</li>
+      </ul>
+
+      <h2>5. Content and Data</h2>
+      
+      <h3>5.1 Source of Information</h3>
+      <p>All rental listings displayed on RoomRadar are sourced from:</p>
+      <ul>
+        <li>Publicly available Facebook group posts in Barcelona, London, and Rome</li>
+        <li>RSS feeds from rental-related Facebook groups</li>
+        <li>Public social media content</li>
+      </ul>
+
+      <h3>5.2 Data Accuracy</h3>
+      <ul>
+        <li>We do not guarantee the accuracy, completeness, or timeliness of any listings</li>
+        <li>Property information, prices, and availability may change without notice</li>
+        <li>AI-generated reliability ratings are estimates and should not be considered guarantees</li>
+      </ul>
+
+      <h3>5.3 Content Removal</h3>
+      <ul>
+        <li>Listings are automatically removed after 30 days</li>
+        <li>We may remove content at our discretion for quality or legal reasons</li>
+        <li>Property owners can request removal of their listings by contacting us</li>
+      </ul>
+
+      <h2>6. Intellectual Property</h2>
+      
+      <h3>6.1 Our Rights</h3>
+      <ul>
+        <li>RoomRadar name, logo, and interface design are our intellectual property</li>
+        <li>The aggregation system and AI analysis tools are proprietary</li>
+        <li>You may not reproduce, modify, or create derivative works without permission</li>
+      </ul>
+
+      <h3>6.2 Third-Party Content</h3>
+      <ul>
+        <li>Original listing content remains the property of the respective creators</li>
+        <li>We claim no ownership over user-generated content from Facebook groups</li>
+        <li>All trademarks and brand names belong to their respective owners</li>
+      </ul>
+
+      <h2>7. Privacy and Data Protection</h2>
+              <p>Your privacy is important to us. Please review our <a href="/privacy-policy.html">Privacy Policy</a> and <a href="/cookie-policy.html">Cookie Policy</a> to understand how we collect, use, and protect your information. Key points:</p>
+      <ul>
+        <li>We only process publicly available data</li>
+        <li>Personal information is automatically censored</li>
+        <li>We comply with GDPR and applicable data protection laws</li>
+      </ul>
+
+      <div class="disclaimer-box">
+        <h3>🚨 COMPREHENSIVE DISCLAIMERS AND LIMITATIONS</h3>
+        
+        <h3>7.1 BETA SERVICE DISCLAIMERS</h3>
+        <p><strong>BY USING THIS BETA SERVICE, YOU EXPRESSLY ACKNOWLEDGE AND AGREE:</strong></p>
+        <ul>
+          <li>This is an <strong>EXPERIMENTAL SERVICE</strong> provided solely for testing purposes</li>
+          <li><strong>NO WARRANTIES</strong> of any kind are provided, express or implied</li>
+          <li>The service may be <strong>BUGGY, INCOMPLETE, OR UNRELIABLE</strong></li>
+          <li><strong>DATA MAY BE INACCURATE, OUTDATED, OR MISSING</strong></li>
+          <li>Service may be <strong>DISCONTINUED WITHOUT NOTICE</strong></li>
+        </ul>
+
+        <h3>7.2 NO RESPONSIBILITY FOR LISTINGS</h3>
+        <p><strong>WE EXPLICITLY DISCLAIM ALL RESPONSIBILITY FOR:</strong></p>
+        <ul>
+          <li>Accuracy, completeness, or truthfulness of rental listings</li>
+          <li>Legitimacy of property owners or rental offers</li>
+          <li>Availability of properties listed on the platform</li>
+          <li>Pricing information or rental terms displayed</li>
+          <li>Quality, condition, or legal status of rental properties</li>
+          <li>Any communications or transactions with property owners</li>
+        </ul>
+
+        <h3>7.3 NO VERIFICATION OF CONTENT</h3>
+        <p><strong>IMPORTANT:</strong> We do <strong>NOT</strong> verify:</p>
+        <ul>
+          <li>Identity of property owners or posters</li>
+          <li>Existence or condition of rental properties</li>
+          <li>Accuracy of contact information</li>
+          <li>Legitimacy of rental offers</li>
+          <li>Legal compliance of rental terms</li>
+          <li>Safety or habitability of properties</li>
+        </ul>
+
+        <h3>7.4 AI ANALYSIS LIMITATIONS</h3>
+        <p>Our AI analysis and reliability ratings are:</p>
+        <ul>
+          <li><strong>EXPERIMENTAL</strong> and may be completely inaccurate</li>
+          <li><strong>NOT PROFESSIONAL ASSESSMENTS</strong> of property quality</li>
+          <li><strong>AUTOMATED ESTIMATES ONLY</strong> - not professional advice</li>
+          <li>Subject to significant errors and should <strong>NOT BE RELIED UPON</strong></li>
+        </ul>
+
+        <h3>7.5 Service Availability</h3>
+        <ul>
+          <li>RoomRadar is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong></li>
+          <li>We <strong>DO NOT GUARANTEE</strong> uninterrupted access or error-free operation</li>
+          <li>Service may be <strong>UNAVAILABLE</strong> for maintenance, technical issues, or discontinuation</li>
+          <li><strong>NO SERVICE LEVEL AGREEMENTS</strong> or uptime guarantees</li>
+        </ul>
+      </div>
+
+      <h2>8. MAXIMUM LIMITATION OF LIABILITY</h2>
+      
+      <h3>8.1 COMPLETE DISCLAIMER OF LIABILITY</h3>
+      <p><strong>TO THE FULLEST EXTENT PERMITTED BY LAW:</strong></p>
+      <ul>
+        <li><strong>WE ACCEPT NO LIABILITY</strong> for any damages, losses, or harm arising from use of this beta service</li>
+        <li><strong>NO LIABILITY</strong> for inaccurate, misleading, or fraudulent listings</li>
+        <li><strong>NO LIABILITY</strong> for any interactions, transactions, or disputes with property owners</li>
+        <li><strong>NO LIABILITY</strong> for any financial losses, wasted time, or missed opportunities</li>
+        <li><strong>NO LIABILITY</strong> for service interruptions, data loss, or technical failures</li>
+      </ul>
+
+      <h3>8.2 ZERO MONETARY LIABILITY</h3>
+      <ul>
+        <li>Our <strong>TOTAL LIABILITY</strong> is <strong>ZERO</strong> as this is a <strong>FREE BETA SERVICE</strong></li>
+        <li>We have <strong>NO FINANCIAL OBLIGATION</strong> to users under any circumstances</li>
+        <li><strong>NO COMPENSATION</strong> will be provided for any damages or losses</li>
+      </ul>
+
+      <h3>8.3 USER ASSUMES ALL RISKS</h3>
+      <p><strong>BY USING THIS SERVICE, YOU ACKNOWLEDGE:</strong></p>
+      <ul>
+        <li><strong>YOU ASSUME ALL RISKS</strong> associated with using rental listings</li>
+        <li><strong>YOU ARE SOLELY RESPONSIBLE</strong> for verifying all information independently</li>
+        <li><strong>YOU USE THE SERVICE AT YOUR OWN RISK</strong> and discretion</li>
+        <li><strong>ALL DECISIONS</strong> based on service information are your sole responsibility</li>
+      </ul>
+
+      <h3>8.4 NO PROFESSIONAL ADVICE</h3>
+      <p><strong>THIS SERVICE DOES NOT PROVIDE:</strong></p>
+      <ul>
+        <li>Legal advice regarding rental agreements</li>
+        <li>Professional property assessments</li>
+        <li>Financial or investment advice</li>
+        <li>Safety or security recommendations</li>
+        <li><strong>YOU MUST SEEK PROFESSIONAL ADVICE</strong> for important decisions</li>
+      </ul>
+
+      <h2>9. Third-Party Services</h2>
+      <p>RoomRadar integrates with third-party services including:</p>
+      <ul>
+        <li><strong>Facebook:</strong> Source of rental listings via RSS feeds</li>
+        <li><strong>Notion:</strong> Database storage and management</li>
+        <li><strong>OpenRouter:</strong> AI analysis services</li>
+        <li><strong>GitHub:</strong> Hosting and deployment infrastructure</li>
+        <li><strong>Vercel:</strong> Cloud hosting and deployment platform</li>
+        <li><strong>Google Analytics:</strong> Website analytics and performance monitoring</li>
+        <li><strong>Firebase:</strong> Authentication and user management</li>
+      </ul>
+      <p>Your use of these integrated services may be subject to their respective terms and conditions.</p>
+
+      <h2>10. Modifications to Service and Terms</h2>
+      
+      <h3>10.1 Service Changes</h3>
+      <p>We reserve the right to:</p>
+      <ul>
+        <li>Modify, suspend, or discontinue the service at any time</li>
+        <li>Change features, functionality, or availability</li>
+        <li>Update our AI algorithms and analysis methods</li>
+        <li>Add or remove supported cities and regions</li>
+      </ul>
+
+      <h3>10.2 Terms Updates</h3>
+      <ul>
+        <li>These Terms may be updated periodically</li>
+        <li>Continued use of the service constitutes acceptance of updated Terms</li>
+        <li>Significant changes will be communicated through the website</li>
+      </ul>
+
+      <h2>11. Termination</h2>
+      
+      <h3>11.1 User Termination</h3>
+      <p>You may stop using RoomRadar at any time. No formal termination process is required.</p>
+
+      <h3>11.2 Service Termination</h3>
+      <p>We may terminate or suspend access to our service:</p>
+      <ul>
+        <li>For violation of these Terms</li>
+        <li>For abusive or inappropriate use</li>
+        <li>At our discretion with or without cause</li>
+      </ul>
+
+      <h2>12. Geographic Limitations</h2>
+      <p>RoomRadar currently focuses on rental listings in <strong>Barcelona (Spain), London (UK), and Rome (Italy)</strong>. The service may not be available or suitable for users in all geographic locations. We may expand to additional cities or regions at our discretion.</p>
+
+      <h2>13. Governing Law and Disputes</h2>
+      
+      <h3>13.1 Applicable Law</h3>
+      <p>These Terms are governed by the laws of Spain and the European Union, without regard to conflict of law principles.</p>
+
+      <h3>13.2 Dispute Resolution</h3>
+      <ul>
+        <li>Any disputes should first be addressed through direct communication with us</li>
+        <li>If resolution cannot be reached, disputes may be subject to the jurisdiction of Spanish courts</li>
+        <li>EU users may have additional rights under applicable consumer protection laws</li>
+      </ul>
+
+      <div class="contact-info">
+        <h3>14. Contact Information</h3>
+        <p>For questions, concerns, or requests regarding these Terms of Service:</p>
+        <p><strong>Email:</strong> <a href="mailto:hello@roomradar.app">hello@roomradar.app</a></p>
+        <p><strong>Response Time:</strong> We aim to respond within 7 business days</p>
+        <p>For privacy-related inquiries, please see our <a href="/privacy-policy.html">Privacy Policy</a> and <a href="/cookie-policy.html">Cookie Policy</a> for specific contact information.</p>
+      </div>
+
+      <h2>15. Severability</h2>
+      <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full force and effect.</p>
+
+      <h2>16. Entire Agreement</h2>
+              <p>These Terms, together with our Privacy Policy and Cookie Policy, constitute the entire agreement between you and RoomRadar regarding the use of our service.</p>
+
+      <hr style="margin: 3rem 0; border: none; border-top: 2px solid #e5e7eb;">
+
+      <div class="disclaimer-box">
+        <h3>⚠️ FINAL REMINDER</h3>
+        <p><strong>This is an EXPERIMENTAL BETA SERVICE. Use at your own risk. We assume NO RESPONSIBILITY for any consequences of using this service. Always verify information independently and exercise extreme caution when contacting property owners or making rental decisions.</strong></p>
+        
+        <p><strong>BY USING ROOMRADAR, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS OF SERVICE AND ACCEPT ALL ASSOCIATED RISKS.</strong></p>
+      </div>
+
+      <p style="text-align: center; font-style: italic; color: #6b7280; margin-top: 2rem;">
+        <strong>This is a FREE beta testing service provided for experimental purposes only. We appreciate your feedback and patience, but remind you that all usage is at your own risk and responsibility.</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    // Import Firebase configuration
+    import { initializeFirebase } from './assets/js/firebase-config.js';
+    
+    // Initialize Firebase for this page
+    initializeFirebase('Terms of Service')
+      .then(() => {
+        console.log('✅ Firebase initialized successfully');
+      })
+      .catch((error) => {
+        console.error('❌ Failed to initialize Firebase:', error);
+      });
+  </script>
+
+  <!-- Cookie Banner -->
+  <script src="assets/js/cookie-banner.js"></script>
+  
+  <!-- Page-specific scripts -->
+  <script>
+    // Mobile menu functions
+    window.toggleMobileMenu = function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('show');
+      }
+    };
+    
+    // Auth modal placeholder
+    window.showAuthModal = function() {
+      // Redirect to home page for auth
+      window.location.href = '/';
+    };
+
+    // Profile icon functions
+    function showProfileIcon() {
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'none';
+        profileIcon.style.display = 'flex';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'none';
+        mobileProfileIcon.style.display = 'flex';
+      }
+    }
+
+    function showSignInButton() {
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'flex';
+        profileIcon.style.display = 'none';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'flex';
+        mobileProfileIcon.style.display = 'none';
+      }
+    }
+
+    function toggleProfileMenu() {
+      console.log('👤 Profile menu clicked!');
+      // Redirect to profile page
+      window.location.href = '/profile.html';
+    }
+
+    // Function to check if user is logged in and show appropriate UI
+    function checkUserAuthStatus() {
+      console.log('🔍 Checking user authentication status in Terms of Service page...');
+      
+      // Check Firebase auth state
+      if (window.auth && window.auth.currentUser) {
+        console.log('✅ User is authenticated via Firebase, showing profile icon');
+        showProfileIcon();
+      } else {
+        console.log('❌ User is not authenticated via Firebase, showing sign in button');
+        showSignInButton();
+      }
+    }
+
+    // Load navbar
+    async function loadNavbar() {
+      try {
+        const response = await fetch('assets/navbar.html');
+        if (response.ok) {
+          const navbarHtml = await response.text();
+          document.getElementById('navbar-container').innerHTML = navbarHtml;
+          
+          // Check if user is logged in and show appropriate UI
+          setTimeout(() => {
+            if (typeof checkUserAuthStatus === 'function') {
+              console.log('🔄 Navbar loaded, checking user status...');
+              checkUserAuthStatus();
+            }
+          }, 100);
+        }
+      } catch (error) {
+        console.error('Error loading navbar:', error);
+      }
+    }
+
+    // Load footer
+    async function loadFooter() {
+      try {
+        const timestamp = new Date().getTime();
+        const response = await fetch(`assets/footer.html?t=${timestamp}`);
+        const footerHtml = await response.text();
+        document.getElementById('footer-container').innerHTML = footerHtml;
+      } catch (error) {
+        console.error('Error loading footer:', error);
+      }
+    }
+
+    // Make functions globally available
+    window.showProfileIcon = showProfileIcon;
+    window.showSignInButton = showSignInButton;
+    window.toggleProfileMenu = toggleProfileMenu;
+    window.checkUserAuthStatus = checkUserAuthStatus;
+
+    // Load navbar and footer when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      loadNavbar();
+      loadFooter();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How RoomRadar Works - AI-Powered Housing Search</title>
+  <meta name="description" content="Discover how RoomRadar's AI system scans, analyzes, and rates housing listings from across Barcelona and Rome's digital landscape.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="vector-cropped-cropped (1).svg">
+  
+  <!-- Footer Styles -->
+  <link rel="stylesheet" href="assets/css/footer.css">
+  
+  <!-- Navbar Styles -->
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #fafafa;
+      overflow-x: hidden;
+    }
+
+    /* Liquid Glass Background */
+    .liquid-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+
+    .liquid-bg::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+      animation: float 20s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      33% { transform: translateY(-20px) rotate(1deg); }
+      66% { transform: translateY(10px) rotate(-1deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 6rem 0 4rem;
+      text-align: center;
+      position: relative;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      color: #1f2937;
+      letter-spacing: -0.02em;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: #6b7280;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 4rem 0;
+    }
+
+    .section:nth-child(even) {
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      font-size: 1rem;
+      color: #6b7280;
+      max-width: 600px;
+      margin: 0 auto;
+      font-weight: 400;
+    }
+
+    /* Step Cards */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .step-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 2.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .step-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .step-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    .step-card:hover::before {
+      opacity: 1;
+    }
+
+    .step-header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .step-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 16px;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #1f2937;
+      position: relative;
+    }
+
+    .step-number::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      border-radius: 18px;
+      z-index: -1;
+      opacity: 0.1;
+    }
+
+    .step-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1f2937;
+      letter-spacing: -0.01em;
+    }
+
+    .step-description {
+      color: #6b7280;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    /* Feature Lists */
+    .feature-list {
+      list-style: none;
+      margin-bottom: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: #4b5563;
+      font-weight: 500;
+      padding: 0.75rem;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .feature-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #10b981;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* Mock UI Components */
+    .mock-ui {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-top: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    }
+
+    .mock-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .mock-avatar {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .mock-title {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 1.125rem;
+    }
+
+    .mock-subtitle {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    .mock-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .mock-item {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 1.25rem;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .mock-label {
+      font-size: 0.75rem;
+      color: #6b7280;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    .mock-value {
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 0.95rem;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin: 4rem 0;
+    }
+
+    .stat-card {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .stat-label {
+      color: #6b7280;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    /* Results Mock */
+    .results-mock {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .result-card {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .result-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(135deg, #10b981, #059669);
+    }
+
+    .result-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    .result-price {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #10b981;
+      margin-bottom: 0.5rem;
+    }
+
+    .result-location {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .result-score {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(16, 185, 129, 0.1);
+      color: #10b981;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .result-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .result-feature {
+      background: rgba(0, 0, 0, 0.05);
+      color: #4b5563;
+      padding: 0.375rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    /* Animated Icons */
+    .icon-container {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      margin-right: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .icon-container::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .icon-container:hover::before {
+      opacity: 1;
+    }
+
+    .icon {
+      width: 24px;
+      height: 24px;
+      stroke: #1f2937;
+      stroke-width: 2;
+      fill: none;
+      transition: all 0.3s ease;
+    }
+
+    .icon-container:hover .icon {
+      stroke: #667eea;
+      transform: scale(1.1);
+    }
+
+    /* CTA Section */
+    .cta-section {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      margin: 3rem 0;
+      padding: 3rem;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .cta-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1f2937;
+      letter-spacing: -0.01em;
+    }
+
+    .cta-description {
+      font-size: 1.125rem;
+      color: #6b7280;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 1.25rem 2.5rem;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      border: none;
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.6s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 40px rgba(102, 126, 234, 0.4);
+      background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    }
+
+    .cta-button:hover::before {
+      left: 100%;
+    }
+
+    .cta-button:active {
+      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
+    }
+
+    .cta-button svg {
+      transition: transform 0.3s ease;
+    }
+
+    .cta-button:hover svg {
+      transform: translateX(4px) scale(1.1);
+    }
+
+
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 4rem 0 3rem;
+      }
+      
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      
+      .section {
+        padding: 3rem 0;
+      }
+      
+      .section-title {
+        font-size: 2rem;
+      }
+      
+      .step-card {
+        padding: 2rem;
+      }
+      
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .results-mock {
+        grid-template-columns: 1fr;
+      }
+      
+      .container {
+        padding: 0 1rem;
+      }
+      
+      .navbar-auth {
+        display: none;
+      }
+      
+      .navbar-nav {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+      
+      .mobile-menu.show {
+        display: block;
+      }
+      
+      .cta-section {
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 4rem 0 3rem;
+      }
+      
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .section {
+        padding: 3rem 0;
+      }
+      
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Liquid Glass Background -->
+  <div class="liquid-bg"></div>
+
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>How RoomRadar Works</h1>
+      <p>Our AI system scans, analyzes, and rates housing listings from across Barcelona and Rome's digital landscape, so you don't have to.</p>
+    </div>
+  </section>
+
+  <!-- Step 1: Set Your Preferences -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Set Your Preferences</h2>
+        <p class="section-subtitle">Tell us exactly what you're looking for</p>
+      </div>
+      
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Define Your Ideal Living Situation</h3>
+          </div>
+          <p class="step-description">Use our smart preference system to set your budget range, preferred neighborhoods, room type, and must-have amenities.</p>
+          
+          <ul class="feature-list">
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              Budget range (€400-€1200+)
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              Preferred neighborhoods
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <polyline points="9,22 9,12 15,12 15,22"/>
+                </svg>
+              </div>
+              Room type (private, shared, studio)
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+              </div>
+              Must-have amenities
+            </li>
+
+          </ul>
+
+          <div class="mock-ui">
+            <div class="mock-header">
+              <div class="mock-avatar">👤</div>
+              <div>
+                <div class="mock-title">Your Profile</div>
+                <div class="mock-subtitle">Personalized preferences</div>
+              </div>
+            </div>
+            <div class="mock-content">
+              <div class="mock-item">
+                <div class="mock-label">Budget Range</div>
+                <div class="mock-value">€500 - €800 /month</div>
+              </div>
+              <div class="mock-item">
+                <div class="mock-label">Preferred Areas</div>
+                <div class="mock-value">Gràcia, Eixample, Sant Antoni</div>
+              </div>
+              <div class="mock-item">
+                <div class="mock-label">Room Type</div>
+                <div class="mock-value">Private room in shared apartment</div>
+              </div>
+              <div class="mock-item">
+                <div class="mock-label">Must-Have Amenities</div>
+                <div class="mock-value">WiFi, Washing machine, Balcony</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 2: AI Analysis -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">AI Analysis</h2>
+        <p class="section-subtitle">Smart filtering and trust scoring</p>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Facebook Groups</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Portals Scanned</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">2,000+</div>
+          <div class="stat-label">Posts Analyzed Daily</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">85%</div>
+          <div class="stat-label">Accuracy Rate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">99%</div>
+          <div class="stat-label">Scam Detection</div>
+        </div>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Advanced AI Scans Thousands of Posts</h3>
+          </div>
+          <p class="step-description">Our AI analyzes content quality, landlord history, and trust signals to filter out scams and highlight the best options.</p>
+          
+          <ul class="feature-list">
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14,2 14,8 20,8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10,9 9,9 8,9"/>
+                </svg>
+              </div>
+              Post completeness and detail level
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+              </div>
+              Landlord communication patterns
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <line x1="12" y1="1" x2="12" y2="23"/>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+              Price consistency and market rates
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21,15 16,10 5,21"/>
+                </svg>
+              </div>
+              Photo quality and authenticity
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Step 3: Get Rated Results -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get Rated Results</h2>
+        <p class="section-subtitle">Curated and scored listings</p>
+      </div>
+      
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-header">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Personalized Best Matches</h3>
+          </div>
+          <p class="step-description">Receive a curated list of the best matches, each with detailed insights and trust ratings. No more guesswork.</p>
+          
+          <ul class="feature-list">
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              Trust score (1-5) for each listing
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <circle cx="11" cy="11" r="8"/>
+                  <path d="M21 21l-4.35-4.35"/>
+                </svg>
+              </div>
+              Detailed analysis and insights
+            </li>
+
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M18 20V10"/>
+                  <path d="M12 20V4"/>
+                  <path d="M6 20v-6"/>
+                </svg>
+              </div>
+              Price comparison with market rates
+            </li>
+            <li>
+              <div class="icon-container">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12,6 12,12 16,14"/>
+                </svg>
+              </div>
+              Real-time availability updates
+            </li>
+          </ul>
+
+          <div class="results-mock">
+            <div class="result-card">
+              <div class="result-price">€650/month</div>
+              <div class="result-location">Gràcia, Barcelona</div>
+              <div class="result-score">
+                <span>⭐</span>
+                Trust Score: 4.6
+              </div>
+              <div class="result-features">
+                <span class="result-feature">Private room</span>
+                <span class="result-feature">WiFi</span>
+                <span class="result-feature">Balcony</span>
+              </div>
+            </div>
+            
+            <div class="result-card">
+              <div class="result-price">€580/month</div>
+              <div class="result-location">Eixample, Barcelona</div>
+              <div class="result-score">
+                <span>⭐</span>
+                Trust Score: 4.3
+              </div>
+              <div class="result-features">
+                <span class="result-feature">Shared room</span>
+                <span class="result-feature">WiFi</span>
+                <span class="result-feature">Laundry</span>
+              </div>
+            </div>
+            
+            <div class="result-card">
+              <div class="result-price">€720/month</div>
+              <div class="result-location">Sant Antoni, Barcelona</div>
+              <div class="result-score">
+                <span>⭐</span>
+                Trust Score: 4.8
+              </div>
+              <div class="result-features">
+                <span class="result-feature">Studio apartment</span>
+                <span class="result-feature">WiFi</span>
+                <span class="result-feature">Kitchen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">Ready to Find Your Perfect Room?</h2>
+      <p class="cta-description">Join thousands of students and professionals who trust RoomRadar to find their ideal accommodation in Barcelona and Rome.</p>
+      <a href="/" class="cta-button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        Start Searching Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBdheYPtK3xPq-MkochYgM8CCnJF3AFPXM",
+      authDomain: "roomradar-auth.firebaseapp.com",
+      projectId: "roomradar-auth",
+      storageBucket: "roomradar-auth.firebasestorage.app",
+      messagingSenderId: "167307746619",
+      appId: "1:167307746619:web:8c8c8c8c8c8c8c8c8c8c8c"
+    };
+
+    // Initialize Firebase
+    console.log('🔥 Initializing Firebase in How It Works page...');
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    console.log('✅ Firebase initialized in How It Works page');
+    console.log('Auth instance:', auth);
+
+    // Make Firebase available globally
+    window.firebase = { auth };
+    window.auth = auth;
+
+    // Listen for auth state changes
+    onAuthStateChanged(auth, (user) => {
+      console.log('🔄 Auth state changed in How It Works page:', user ? 'User logged in' : 'User logged out');
+      
+      if (user) {
+        console.log('✅ User is authenticated in How It Works page');
+        console.log('User details:', {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName
+        });
+        
+        // Update navbar to show profile icon
+        if (typeof window.showProfileIcon === 'function') {
+          window.showProfileIcon();
+        }
+      } else {
+        console.log('❌ User is not authenticated in How It Works page');
+        
+        // Update navbar to show sign in button
+        if (typeof window.showSignInButton === 'function') {
+          window.showSignInButton();
+        }
+      }
+    });
+  </script>
+
+  <script>
+    // Mobile menu functions
+    window.toggleMobileMenu = function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('show');
+      }
+    };
+    
+    // Auth modal placeholder
+    window.showAuthModal = function() {
+      // Redirect to home page for auth
+      window.location.href = '/';
+    };
+
+    // Load navbar
+    async function loadNavbar() {
+      try {
+        const response = await fetch('assets/navbar.html');
+        if (response.ok) {
+          const navbarHtml = await response.text();
+          document.getElementById('navbar-container').innerHTML = navbarHtml;
+          
+          // Check if user is logged in and show appropriate UI
+          setTimeout(() => {
+            if (typeof checkUserAuthStatus === 'function') {
+              console.log('🔄 Navbar loaded, checking user status...');
+              checkUserAuthStatus();
+            }
+          }, 100);
+        }
+      } catch (error) {
+        console.error('Error loading navbar:', error);
+      }
+    }
+
+    // Load footer
+    async function loadFooter() {
+      try {
+        const timestamp = new Date().getTime();
+        const response = await fetch(`assets/footer.html?t=${timestamp}`);
+        const footerHtml = await response.text();
+        document.getElementById('footer-container').innerHTML = footerHtml;
+      } catch (error) {
+        console.error('Error loading footer:', error);
+      }
+    }
+
+    // Profile icon functions
+    function showProfileIcon() {
+      console.log('🔄 Showing profile icon...');
+      
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      console.log('📱 Desktop elements found:', !!signInBtn, !!profileIcon);
+      console.log('📱 Mobile elements found:', !!mobileSignInBtn, !!mobileProfileIcon);
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'none';
+        profileIcon.style.display = 'flex';
+        console.log('✅ Desktop profile icon shown');
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'none';
+        mobileProfileIcon.style.display = 'flex';
+        console.log('✅ Mobile profile icon shown');
+      }
+    }
+
+    function showSignInButton() {
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'flex';
+        profileIcon.style.display = 'none';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'flex';
+        mobileProfileIcon.style.display = 'none';
+      }
+    }
+
+    function toggleProfileMenu() {
+      console.log('👤 Profile menu clicked!');
+      // Redirect to profile page
+      window.location.href = '/profile.html';
+    }
+
+    // Function to check if user is logged in and show appropriate UI
+    function checkUserAuthStatus() {
+      console.log('🔍 Checking user authentication status in How It Works page...');
+      
+      // Check Firebase auth state
+      if (window.auth && window.auth.currentUser) {
+        console.log('✅ User is authenticated via Firebase, showing profile icon');
+        showProfileIcon();
+      } else {
+        console.log('❌ User is not authenticated via Firebase, showing sign in button');
+        showSignInButton();
+      }
+    }
+
+    // Load navbar and footer when page loads
+    loadNavbar();
+    loadFooter();
+  </script>
+</body>
+</html>

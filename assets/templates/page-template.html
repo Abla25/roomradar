@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAGE_TITLE - RoomRadar</title>
+  <meta name="description" content="PAGE_DESCRIPTION">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="../vector-cropped-cropped (1).svg">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cookie-banner.css">
+  <link rel="stylesheet" href="css/performance.css">
+  
+  <!-- Page-specific styles -->
+  <style>
+    /* Add your page-specific styles here */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+      min-height: 100vh;
+      color: #1f2937;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Add your page content here -->
+    <h1>Your Page Content</h1>
+    <p>This is a template for new pages with Firebase authentication already integrated.</p>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    // Import Firebase configuration and lazy loader
+    import { initializeFirebase } from '../js/firebase-config.js';
+    import lazyLoader from '../js/lazy-loader.js';
+    
+    // Initialize Firebase for this page
+    initializeFirebase('PAGE_NAME')
+      .then(() => {
+        console.log('✅ Firebase initialized successfully');
+        
+        // Preload components in background
+        lazyLoader.preloadComponents(['navbar', 'footer']);
+      })
+      .catch((error) => {
+        console.error('❌ Failed to initialize Firebase:', error);
+      });
+  </script>
+
+  <!-- Service Worker Registration -->
+  <script src="js/sw-register.js"></script>
+  
+  <!-- Cookie Banner -->
+  <script src="js/cookie-banner.js"></script>
+  
+  <!-- Page-specific scripts -->
+  <script>
+    // Mobile menu functions
+    window.toggleMobileMenu = function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenu) {
+        mobileMenu.classList.toggle('show');
+      }
+    };
+    
+    // Auth modal placeholder
+    window.showAuthModal = function() {
+      // Redirect to home page for auth
+      window.location.href = '/';
+    };
+
+    // Profile icon functions
+    function showProfileIcon() {
+      console.log('🔄 Showing profile icon...');
+      
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'none';
+        profileIcon.style.display = 'flex';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'none';
+        mobileProfileIcon.style.display = 'flex';
+      }
+    }
+
+    function showSignInButton() {
+      const signInBtn = document.getElementById('navbar-signin-btn');
+      const profileIcon = document.getElementById('navbar-profile-icon');
+      const mobileSignInBtn = document.getElementById('mobile-signin-btn');
+      const mobileProfileIcon = document.getElementById('mobile-profile-icon');
+      
+      if (signInBtn && profileIcon) {
+        signInBtn.style.display = 'flex';
+        profileIcon.style.display = 'none';
+      }
+      
+      if (mobileSignInBtn && mobileProfileIcon) {
+        mobileSignInBtn.style.display = 'flex';
+        mobileProfileIcon.style.display = 'none';
+      }
+    }
+
+    function toggleProfileMenu() {
+      console.log('👤 Profile menu clicked!');
+      // Redirect to profile page
+      window.location.href = '/profile.html';
+    }
+
+    // Function to check if user is logged in and show appropriate UI
+    function checkUserAuthStatus() {
+      console.log('🔍 Checking user authentication status...');
+      
+      // Check Firebase auth state
+      if (window.auth && window.auth.currentUser) {
+        console.log('✅ User is authenticated via Firebase, showing profile icon');
+        showProfileIcon();
+      } else {
+        console.log('❌ User is not authenticated via Firebase, showing sign in button');
+        showSignInButton();
+      }
+    }
+
+    // Load navbar using lazy loader
+    async function loadNavbar() {
+      try {
+        await window.lazyLoader.loadNavbar();
+        
+        // Check if user is logged in and show appropriate UI
+        setTimeout(() => {
+          if (typeof checkUserAuthStatus === 'function') {
+            console.log('🔄 Navbar loaded, checking user status...');
+            checkUserAuthStatus();
+          }
+        }, 100);
+      } catch (error) {
+        console.error('Error loading navbar:', error);
+      }
+    }
+
+    // Load footer using lazy loader
+    async function loadFooter() {
+      try {
+        await window.lazyLoader.loadFooter();
+      } catch (error) {
+        console.error('Error loading footer:', error);
+      }
+    }
+
+    // Make functions globally available
+    window.showProfileIcon = showProfileIcon;
+    window.showSignInButton = showSignInButton;
+    window.toggleProfileMenu = toggleProfileMenu;
+    window.checkUserAuthStatus = checkUserAuthStatus;
+
+    // Load navbar and footer when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      loadNavbar();
+      loadFooter();
+    });
+  </script>
+</body>
+</html>

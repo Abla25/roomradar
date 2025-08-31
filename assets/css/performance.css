@@ -1,0 +1,119 @@
+/* Performance Optimizations for RoomRadar */
+
+/* Optimize paint and layout operations */
+.navbar,
+.footer,
+.profile-card,
+.faq-item,
+.cta-button {
+  will-change: transform;
+  transform: translateZ(0); /* Force hardware acceleration */
+}
+
+/* Reduce repaints for animations */
+.liquid-bg::before,
+.profile-avatar,
+.cta-button {
+  will-change: transform, opacity;
+}
+
+/* Optimize transitions */
+.navbar,
+.footer,
+.profile-card,
+.faq-answer {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reduce layout thrashing */
+.container {
+  contain: layout style paint;
+}
+
+/* Optimize images */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Reduce font loading impact */
+body {
+  font-display: swap;
+}
+
+/* Optimize scroll performance */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reduce animation complexity on mobile */
+@media (max-width: 768px) {
+  .liquid-bg::before {
+    animation-duration: 30s; /* Slower animation on mobile */
+  }
+  
+  .navbar,
+  .footer {
+    will-change: auto; /* Disable will-change on mobile */
+  }
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Skeleton loading */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Optimize focus states */
+button:focus,
+a:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .liquid-bg::before {
+    animation: none;
+  }
+}
+
