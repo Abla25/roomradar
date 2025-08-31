@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-08-31T05:23:57.400Z",
+  "generatedAt": "2025-08-31T06:40:25.619Z",
   "city": "london",
-  "count": 188,
+  "count": 190,
   "totalRejectedCount": 270,
   "results": [
+    {
+      "id": "260b5f64-9329-810e-b1c5-fb015c1e72ef",
+      "title": "Room for Rent in 3 Bedroom House",
+      "overview": "A room is available for rent in a fully furnished 3 bedroom house with 2 bathrooms, separate kitchen and living room, and a big garden. The house is located in Startford, near Morrisons.",
+      "description": "ROOM TO LET FO COUPLE 3 bedrooms house in STARTFORD, near by Morrisons,2 bathrooms,separate kitchen & living room,fully furnished, big garden parking available. DSS are welcome!! 2 rooms 2 couples already 1 room available ready to move!! Contact: [VAT NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Startford",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and has limited information, but it provides a contact number and seems to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T06:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2112606482607564/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "260b5f64-9329-81f8-95cc-fea114db5580",
+      "title": "Central London Apartment for Rent",
+      "overview": "A private landlord is renting out a central London apartment that can accommodate two to four students, available from mid-September, located 15 minutes walking from UCL",
+      "description": "I'm a private landlord with a central London apartment, 15 minutes walking from UCL, accommodating from two to four students, and available from mid-September. Feel free to contact me via openrent to schedule a viewing. I don't ask for a deposit before you have viewed the property in person or on video call. https://www.openrent.co.uk/property-to-rent/london/3-bed-flat-phoenix-court-nw1/2587147",
+      "price": "N/A",
+      "zone": "Central London",
+      "zoneMacro": "Central London",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including its location and availability, and the landlord has a clear and transparent process for viewing and renting the property, with photos available",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T06:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1422957868791731/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccu29-1.fna.fbcdn.net/v/t39.30808-6/539540764_10163134481453024_3923895537042820772_n.webp?stp=dst-jpg_s720x720_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=KsQoHoao9egQ7kNvwEL9bDz&_nc_oc=AdnzNNBBcQFxdTXdI_hPmUoyQMeQdtbEfrRVy1tCda6EWrH7PlrTsa-9jNgehdCrsaY&_nc_zt=23&_nc_ht=scontent.fccu29-1.fna&_nc_gid=9rmtXbCuUlDFSL9jDo-SYw&oh=00_AfUobyls2YK6g5KmG3IdXRmIPOKuQ4N62BC-0dYxtQr0JQ&oe=68B9BE40"
+    },
     {
       "id": "260b5f64-9329-81d8-b744-d30d3de52285",
       "title": "Couple room for rent in 3 bedroom house",
@@ -2126,7 +2160,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T05:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2110949769439902/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

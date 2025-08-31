@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-08-31T05:23:56.428Z",
+  "generatedAt": "2025-08-31T06:40:24.438Z",
   "city": "roma",
-  "count": 301,
-  "totalRejectedCount": 956,
+  "count": 302,
+  "totalRejectedCount": 965,
   "results": [
+    {
+      "id": "260b5f64-9329-8183-bc53-c9efe7dc92d7",
+      "title": "Room for rent in Tiburtina area",
+      "overview": "A room for rent in the Tiburtina area, with air conditioning and a balcony, available for Euro 400,00 plus expenses",
+      "description": "Affitto zona Tiburtina, zona centrale e ben servita, posto letto, Euro 400,00 oltre spese, in camera doppia, dotata di aria condizionata e balcone. La camera è disponibile e visitabile.",
+      "price": "400,00 Euro",
+      "zone": "Tiburtina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some information about the room, but lacks photos and detailed description, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-08-31T06:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31007328045578621/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "25fb5f64-9329-814a-939e-e829dcc22d4d",
       "title": "Room available in Viale Parioli",
@@ -1123,7 +1140,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T07:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/30993828763595216/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
