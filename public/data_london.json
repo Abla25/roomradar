@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T07:34:31.358Z",
+  "generatedAt": "2025-09-01T08:45:41.613Z",
   "city": "london",
-  "count": 258,
-  "totalRejectedCount": 365,
+  "count": 259,
+  "totalRejectedCount": 366,
   "results": [
+    {
+      "id": "261b5f64-9329-81ee-8200-d36bf47e0599",
+      "title": "Villa for rent in Gurgaon",
+      "overview": "Villa available for rent in Gurgaon with 2/3/4 bedrooms",
+      "description": "#2/3/4bhkingurgaon #propertyingurgaon #realestateingurgaon #floorsingurgaon #villaingurgaon #plotsingurgaon #9958531781",
+      "price": "N/A",
+      "zone": "Gurgaon",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post has a clear title and summary, and it includes an image of the property. However, the price is not specified, which prevents it from achieving a reliability score of 5.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T08:43:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841968676402428/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel15-1.fna.fbcdn.net/v/t15.5256-10/540667601_1408041793614028_4049426770349758036_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=282d23&_nc_ohc=tobK9qON_MUQ7kNvwFkZSZH&_nc_oc=Adl3Ju-FrsFU_Wlyx_FhYaL93Evvy8REuezRF7Xeq8cMhCadJJiHwx-0leiufmdZubo&_nc_zt=23&_nc_ht=scontent.fdel15-1.fna&_nc_gid=6pMYVq9_1H9I_3LaFIEZcA&oh=00_AfVMt--gRFfijEV_DitM9BEeR8JU2YnQKqdTlCfGWVAUcw&oe=68BB327F"
+    },
     {
       "id": "261b5f64-9329-81a0-8e9f-d26bdd2bae11",
       "title": "Double Room for Rent in East London",
@@ -1140,7 +1157,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T07:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841144573151505/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/542008247_559954203806756_1535744072863680838_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=282d23&_nc_ohc=DRFSCYC1_iIQ7kNvwHv4-6l&_nc_oc=AdlOdyRbXGDmVSTsuyTR_sqgP0cDJ08zeDqnw0yvRNVydlJXFmRa_nZtD9PdNhLcSiE&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=CsEN_4viGzA1yTBpmto5Iw&oh=00_AfX10abfvUu9Qa5CnyGT3xL5Bb98zgnMuL76aAgISxAJkA&oe=68B9B2E9"
     },
     {
