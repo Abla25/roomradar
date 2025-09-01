@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T13:38:56.337Z",
+  "generatedAt": "2025-09-01T14:36:09.408Z",
   "city": "london",
-  "count": 277,
-  "totalRejectedCount": 398,
+  "count": 278,
+  "totalRejectedCount": 403,
   "results": [
+    {
+      "id": "261b5f64-9329-811d-9dab-fd2b6ec1dbeb",
+      "title": "Apartment Rentals by Sophia Rodriquez",
+      "overview": "Fully furnished apartments with brand new utilities, parking, and pets allowed",
+      "description": "I’m Sophia Rodriquez.I have apartments for rent: a 1 bed 1 bath and a 2 bed 1 bath, both at affordable prices. They are fully furnished with brand new utilities, including a full-size kitchen and bathroom. Parking space is included, and pets are allowed. Utilities such as heat, water, refrigerator, washer and dryer, electricity, Wi-Fi, and more are included. Feel free to DM me for more info and pictures!",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description of the apartments, includes utilities, and has a contact method, but the price is not specified and there is only one image.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T14:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842171676382128/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccu16-1.fna.fbcdn.net/v/t39.30808-6/540962397_122113799240974808_2405022609908758972_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OylVgaokajMQ7kNvwHYy6nM&_nc_oc=Adlr9Ff34WsGe6QxsO7ytMsPQE8N2dFvfzoxFTP3kPjhEIA_ZIR0UM5Eo-cFXDCJH5Q&_nc_zt=23&_nc_ht=scontent.fccu16-1.fna&_nc_gid=TyABgmDpCXhDMv9R6UD6rg&oh=00_AfVhRZxUQdEFVJNDKEN9lkFPtC9zMPXQEDDlW3WYQsuthQ&oe=68BB8E05"
+    },
     {
       "id": "261b5f64-9329-816b-be20-f703a7501d53",
       "title": "Rooms for rent in Central London",
@@ -188,7 +205,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T11:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1842056683060294/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542165988_122110701872980401_1553232965507757073_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ie-m8FiMfK4Q7kNvwFNEFZY&_nc_oc=Adk5zyJqe8kmuAI3mmvALgN9_BPoJowHPVKeWji-PrdGcu2F-JHzZYCS73lxdJDW5sM&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=HTaUkP6hmynwy9WTUQnpbQ&oh=00_AfUuTIWgMSM7eo-0tUUPWBC_uDfq5aeQtgo9u3TLhmUgpQ&oe=68BB5D4F"
     },
     {
