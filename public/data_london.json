@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-01T21:30:38.814Z",
+  "generatedAt": "2025-09-01T22:29:04.496Z",
   "city": "london",
-  "count": 293,
-  "totalRejectedCount": 433,
+  "count": 295,
+  "totalRejectedCount": 435,
   "results": [
+    {
+      "id": "261b5f64-9329-81b6-afb7-f5d5a19a5bef",
+      "title": "Double room available for rent in Morden",
+      "overview": "A double room is available for rent in a Muslim household in Morden, 7 minutes from the underground station",
+      "description": "Double room to rent in Morden, 7 minutes walk from Morden underground station. Preferably looking for females who are happy to live in a Muslim household. £900pm",
+      "price": "£900pm",
+      "zone": "Morden",
+      "zoneMacro": "Merton",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the room and price, but lacks photos and may have restrictive household preferences",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2114033902464822/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "261b5f64-9329-81eb-9e6b-ceb0f0c06a16",
+      "title": "One bedroom apartment available for rent",
+      "overview": "A one-bedroom apartment is being rented out, with further details available upon direct message",
+      "description": "One bedroom apartment for rent Send a dm",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has an image, and the contact method is clear, but the price and location are not specified, which would be necessary for a higher reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842421273023835/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom19-2.fna.fbcdn.net/v/t39.30808-6/540981854_122153839778905910_8019460251704046391_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=bzW2xGtJ8EAQ7kNvwEsKvgj&_nc_oc=AdmQoXTw0gcKs1L6odKrVsZ9pu7j2GrhSM1O4rZwDJH5FnaAiZUiUx4fz_hWFsgSyaU&_nc_zt=23&_nc_ht=scontent.fbom19-2.fna&_nc_gid=x5KRaSvxUjld8jzMVMajKg&oh=00_AfUSXB1xlmptRdZDiUAwgphLQhZNn2cZQDZhc0k8aqc67g&oe=68BBD3E1"
+    },
     {
       "id": "261b5f64-9329-813a-b44a-fedfc17e1855",
       "title": "Lovely 1 bedroom and 1 bathroom apartment for rent",
@@ -1021,7 +1055,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T20:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2113131139221765/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540691070_4060910460835677_156449412326472068_n.jpg?stp=dst-jpg_p261x260_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8-BTcrUiEp8Q7kNvwHIrpni&_nc_oc=Adn95reLBFElJW-51bI1Ec-lbK3Cddn_ALv1d98eG2cSKOr4-YY6RMIzUiJDfPslIiQ&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=DvRCHQzjM0WVHl6C7IoygA&oh=00_AfVYPQQjzzJG5ezR7-V1Y5WCu-vzMAYclfKsD9LRVqfGDw&oe=68BA8578"
     },
     {

@@ -1,37 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1336564641468560/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T21:23:47.169435"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2145703552620264/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T21:24:24.148025"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2145691582621461/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T21:24:24.150341"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31001798092798283/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T21:25:31.994779"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/30997374529907306/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T21:25:31.997060"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1336713928120298/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T22:23:23.752443"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1336711451453879/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T22:23:23.754778"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1336696068122084/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T22:24:05.584220"
-    },
     "https://www.facebook.com/groups/633912783969846/posts/1709057233122057/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T22:25:28.160283"
@@ -1799,8 +1767,20 @@
     "https://www.facebook.com/groups/633912783969846/posts/1710465142981266/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-01T21:26:44.906693"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1338240964634261/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T22:24:53.065344"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1338213117970379/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T22:24:53.069531"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1338156711309353/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T22:25:33.164366"
     }
   },
-  "total_rejected_count": 1376,
-  "timestamp": "2025-09-01T21:23:35.298041"
+  "total_rejected_count": 1379,
+  "timestamp": "2025-09-01T22:24:42.672588"
 }

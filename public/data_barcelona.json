@@ -1,9 +1,111 @@
 {
-  "generatedAt": "2025-09-01T21:30:25.695Z",
+  "generatedAt": "2025-09-01T22:28:56.935Z",
   "city": "barcelona",
-  "count": 1048,
-  "totalRejectedCount": 1654,
+  "count": 1054,
+  "totalRejectedCount": 1658,
   "results": [
+    {
+      "id": "261b5f64-9329-8173-b1cc-e7d5d42e478d",
+      "title": "Room for rent for a couple or two girls",
+      "overview": "A long-stay room for rent in a family environment, available for a couple or two girls, starting September 15th, in Hospitalet de Llobregat, near Torrasa station",
+      "description": "Se alquila una habitación larga estancia para pareja, o para dos chicas ,disponible para el 15 de septiembre ,ambiente familiar,personas serías porfavor ,en hospitalet de llobregat ML1 Torrasa ,información por interno.",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a specific rental listing with a description of the room, location, and availability, and includes a photo, but lacks a clear price and direct contact information.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2186989771815092/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542752973_10233997880146974_8315140339911552177_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Hutxca2v99YQ7kNvwFvH0zV&_nc_oc=AdnwXtw9cgieL0kd-sKqV0fTn9AOoELCWwPnPXIyjMr7jPKtAe20lwhh5dID7ACVHvY&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=uQGRATz5UdpbpOqPH0AfUg&oh=00_AfUoaDexVyLtneutyZqL5iwf9wrueN-12U8t0JIaloyKHw&oe=68BBFC5E"
+    },
+    {
+      "id": "261b5f64-9329-81a1-94bb-d35506fabc4e",
+      "title": "Room for rent for working female",
+      "overview": "A room is available for rent for a female tenant who is working and has papers in order",
+      "description": "Se alquila habitación para chica que esté trabajando y tenga papeles en regla",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 3,
+      "reliabilityReason": "The listing has a photo, but the price, zone, and contact information are not specified, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024439504552342/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok6-1.fna.fbcdn.net/v/t39.30808-6/539916084_25295443520045657_7186787636402747608_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=x50pfcA6eIEQ7kNvwEQgQyF&_nc_oc=AdlTgUOXfBJbz2sv8JeXZqV7kjRwir1qWRy3qA-xLBb-4YhYdjtZZeRienkZl-3oxv8&_nc_zt=23&_nc_ht=scontent.fcok6-1.fna&_nc_gid=k1zTRKaUN1A0RlFUFZHTlw&oh=00_AfUW6PmO6EbX6kYblVFqADmPlEAq5hPJXoyMn1gV_BWTJg&oe=68BBCA89"
+    },
+    {
+      "id": "261b5f64-9329-8178-99bc-d562430f753a",
+      "title": "Room for rent in attic apartment near Fondo L1 or L9",
+      "overview": "A room is available for rent in an attic apartment without an elevator, with two terrazas, suitable for one person, available for long-term stay",
+      "description": "Hola, se alquila habitación a 7 min de Fondo L1 o L9. Es para 1 sola persona. Es un ático sin ascensor. Tiene dos terrazas. Disponible para entrar a vivir, es para larga estancia. Quien esté interesado que me escriba por messenger y les envió la información.",
+      "price": "N/A",
+      "zone": "Near Fondo L1 or L9",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a photo and contact information, but the price is not specified, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025157647813861/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok6-1.fna.fbcdn.net/v/t15.5256-10/541936098_1813523742705956_8491022801261734382_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=117846&_nc_ohc=Ko-DSc1d2i4Q7kNvwEx_Sy5&_nc_oc=AdkdZozVv0hxjSUBuLOQGIpHV1aUD4USOOlwKi22aR--DLD2q4LDqz0X3kOHKLVKAWc&_nc_zt=23&_nc_ht=scontent.fcok6-1.fna&_nc_gid=vjiE8EZvR01zZUlU9gkV3Q&oh=00_AfVZ3OP4Xrr8bYgpYcu5kJEeRlXSVaglIs_Z0ea828Bfog&oe=68BBFA15"
+    },
+    {
+      "id": "261b5f64-9329-81a0-b8a9-d801cc039f1e",
+      "title": "Room for rent in attic apartment",
+      "overview": "A room is available for rent in an attic apartment in Santa Coloma de Gramanet, suitable for a female tenant",
+      "description": "se alquila habitacion en atico con terraza en santa coloma de gramanet para CHICA mas info al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Santa Coloma de Gramanet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a photo and contact information, but the price is not specified, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025573614438931/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok6-1.fna.fbcdn.net/v/t39.30808-6/540687500_122182052564450425_93818676647500615_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BLzuwE8MeIoQ7kNvwFV3DuT&_nc_oc=AdmyIXhzZwuC362eGnymca7f2nZB9jxIslsa1kLu6KTor38KGa9H3GqMUPBkYtFhLRA&_nc_zt=23&_nc_ht=scontent.fcok6-1.fna&_nc_gid=vjiE8EZvR01zZUlU9gkV3Q&oh=00_AfWGtdufppUREUVhV3E4YlftpI4KCUKAukxFinkAg_FErQ&oe=68BBFBE3"
+    },
+    {
+      "id": "261b5f64-9329-812e-99f9-ef310fb7c9d7",
+      "title": "Married couple room for rent in Santa Coloma de Gramenet",
+      "overview": "Room for rent near Santa Rosa metro station, interested parties should contact privately",
+      "description": "En santa coloma de gramenet... Alquiler de habitación de matrimonio,cerca del metro santa rosa....interesado llame al privado...gracias",
+      "price": "N/A",
+      "zone": "Santa Coloma de Gramenet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information, photos, and explicit contact details, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4309527892613053/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "261b5f64-9329-81e6-808f-ea0a88427fa3",
+      "title": "Long-term room rental for couple or two girls",
+      "overview": "Room for rent in a family environment in Hospitalet de Llobregat, available from September 15th",
+      "description": "Se alquila una habitación larga estancia para pareja, o para dos chicas ,disponible para el 15 de septiembre ,ambiente familiar,personas serías porfavor ,en hospitalet de llobregat ML1 Torrasa ,información por interno.",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a clear description of the room and its location, and includes a photo, but lacks information on the price and contacts are not explicitly mentioned.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4309557999276709/",
+      "status": "expired",
+      "imageUrl": "https://scontent-pnq1-1.xx.fbcdn.net/v/t39.30808-6/542710034_10233997859746464_2537987367324579144_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=YYFcr1eZWvIQ7kNvwHPmmdW&_nc_oc=AdmOGmrtJ31OnmiItf2aomWC51VrkpYrsFffoPLpklQ0rjv37kYFrZJtB-eCwc-hQDQ&_nc_zt=23&_nc_ht=scontent-pnq1-1.xx&_nc_gid=pFl-aRzD_LwwwQwvIl0xGg&oh=00_AfVHH_Sg7EVg95YM98FGTASz1m6M5yhuACxFHmlr9W6IHQ&oe=68BBD6FB"
+    },
     {
       "id": "261b5f64-9329-8176-9154-e833c72327cc",
       "title": "Room for rent, prefer Latin couple",
@@ -35,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T21:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4309536105945565/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540687500_122182052564450425_93818676647500615_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BLzuwE8MeIoQ7kNvwHAf2-a&_nc_oc=Adl6s7Yu6EhWKvDCKw7knTZXBAsJfWU4TclqKyNOfiCvEwe_8_wP7P2T61olu-s1GKU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=_2ukgfd2kUWtIeNiQP9DOA&oh=00_AfUoCVdD34r5M4dQfPORbSSPEnGS9TSf8-zAM4dYbUqcHg&oe=68BBC3A3"
     },
     {
@@ -239,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T14:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2186606648520071/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -9266,7 +9368,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T18:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4302924179940091/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.famd5-4.fna.fbcdn.net/v/t39.30808-6/538858326_2050109532063918_4208387144238572134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wBQPC6wTpWcQ7kNvwHSsenN&_nc_oc=AdnEV4rHU7BMRthSJIeNj6dw6xy4D2zX3kZDBnsyYH1EjyW2R-5nfdzVudXl-pWglpnClpWntrkvc051Mi1DdXkS&_nc_zt=23&_nc_ht=scontent.famd5-4.fna&_nc_gid=AjehjmFtG_Maj_SqfqPqcw&oh=00_AfWjJ7LhQoPMEccR0EigNLGAogEBMFz8aIJIfx6WD3mIwQ&oe=68B3D701"
     },
     {
@@ -9317,7 +9419,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T17:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1072564734639823/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel25-2.fna.fbcdn.net/v/t39.30808-6/536283819_10239455278506064_1151587213425069457_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=82kK-qfJWzcQ7kNvwHsYCj4&_nc_oc=AdkkAzgXgr5mDKgh-3lr3wjKZi34qvA70jGcEDcLvVMm93_3TF0FLz9GZ1A4spMa5NL0m-nxmnUEhFpanjSKK-nL&_nc_zt=23&_nc_ht=scontent.fdel25-2.fna&_nc_gid=XCsK_dwJnMiCLYpFmBPGXw&oh=00_AfXqiQEk_DK0FpRVETm3SXfN8BacJAKV00uX7jRxcx44ag&oe=68B3C6D0"
     },
     {
@@ -9572,7 +9674,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T13:42:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1072443101318653/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -10116,7 +10218,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T08:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1073676014937930/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -11782,7 +11884,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T02:00:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4300857360146773/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -12819,7 +12921,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:04:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072666108372254/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fstv5-1.fna.fbcdn.net/v/t39.30808-6/538108444_10162266204861622_9131776399569542599_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0LsY_ckN0akQ7kNvwH_snb7&_nc_oc=AdlhpF-9SyRuIMKC2T9SEhFKKDJYTAjQDfRuGTFPv56sEua6DngkH-_QlgoVyieviG0&_nc_zt=23&_nc_ht=scontent.fstv5-1.fna&_nc_gid=WtFgYrVL2ta_eJYIZ9Z6qw&oh=00_AfVs0TBtDchkIxkWv4c17_laOtnmyaAXjm2kI9t4z-7uPQ&oe=68B15804"
     },
     {
@@ -13091,7 +13193,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072554238383441/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/538783625_24408117328819697_1229026614874219370_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=12F6qMFB5ToQ7kNvwF5gHrs&_nc_oc=AdnguohfCly7ECEQTfBcBrMhUEcSnbXz9kmenvHtgO_nNMrcK_KCAFYASsbpyujZmzc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=cfN_SWiTOl1Fh1wbTiLfRQ&oh=00_AfUSLJIIuD5ZNTYNoYhYGFL6UGZDhwjOuIOxH_zaTMixjg&oe=68B14A92"
     },
     {
@@ -13567,7 +13669,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-24T10:46:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2179251452588924/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

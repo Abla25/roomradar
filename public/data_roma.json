@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T21:30:36.490Z",
+  "generatedAt": "2025-09-01T22:29:02.044Z",
   "city": "roma",
-  "count": 425,
-  "totalRejectedCount": 1376,
+  "count": 426,
+  "totalRejectedCount": 1379,
   "results": [
+    {
+      "id": "261b5f64-9329-8112-848d-e7d714c66205",
+      "title": "Private room for rent in San Giovanni area",
+      "overview": "A private single room is available for rent in a residential building with a garden and concierge, to be shared with a male worker or student, with a long-term contract",
+      "description": "Stanza privata per Ragazzo Lavoratore, con contratto a lungo periodo – Via La Spezia, Lodi ( zona San Giovanni Roma)** Disponibile da Ottobre 2025 ⚜️ **Ampia stanza ad uso esclusivo Singola, in palazzo residenziale con giardino interno condominiale e Portiere ** Davvero un bel quartiere, con molti negozi nelle vicinanze. 🏡 Trilocale come in foto, da condividere con me, lavoratore ingegnere, persona educata, tranquilla, precisa, pulita e pacifica. ✔️ Solo per Contratto pluriennale, a Lavoratore uomo o al limite studente Magistrale, *Affitto di 460 € + Utenze , Wi-fi e Condominio a parte* ❌ No ad animali ( sono allergico 🥲) _Per tutte le domande, vi risponderò quanto prima, un po' per volta (di giorno lavoro_)",
+      "price": "460 € + utilities",
+      "zone": "San Giovanni, Roma",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, location, and contract, and includes photos, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T22:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1338217867969904/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh2-1.fna.fbcdn.net/v/t39.30808-6/542693662_24686955160936011_6186156080248581471_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7PF2wvWC_tUQ7kNvwFqrcUw&_nc_oc=AdkUPUpEaG2W-jsSUkN-0pB1F045Kw-JOxuXrBW5dFig8jAML1G7Poml_-noAKSy9XQ&_nc_zt=23&_nc_ht=scontent.fluh2-1.fna&_nc_gid=EbtlD3M-EFgDYZfzop4lpg&oh=00_AfUCpQwokJ5lt9lkLP-OmX3p4Lenj37-Dx5BlWeoamu21w&oe=68BBFDBE"
+    },
     {
       "id": "261b5f64-9329-81e1-a143-f3d4c42b19b5",
       "title": "Single room for rent in San Giovanni",
@@ -52,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T20:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733878273477807/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542693662_24686955160936011_6186156080248581471_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7PF2wvWC_tUQ7kNvwH7BOxe&_nc_oc=AdkkClZdROCPzzgWelVT2ylb92MzxOp_ri3xPnbJIo58nMMtDgvYISnm-upqPKujUho&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=4gGPa-WISJg5I5xpM27DAA&oh=00_AfUVOduJ1j18ECv3wDUUS4xJnXIsUp2Ma7nEKg_GDWwhAw&oe=68BBC57E"
     },
     {
@@ -613,7 +630,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T12:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1337806414677716/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fmaa1-5.fna.fbcdn.net/v/t39.30808-6/541975989_10236958432964070_7132875737795711822_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WqIWBC7KZsYQ7kNvwHNPgVm&_nc_oc=Adn-7Wlf1LzsjVpWoliC15nl_4AMoKHSThRVmxRtgbI7lqo_FKqfE16vQVWI3DI9RytQYmeSG9wJ9eX1i4yi13KN&_nc_zt=23&_nc_ht=scontent.fmaa1-5.fna&_nc_gid=A2pJdCtfBSH6BjMM9EnaCg&oh=00_AfWurz1K6oCSMJNYxIlZJPrjrGAtWlJVC8iDrc8L9USH0g&oe=68BB5D77"
     },
     {
@@ -783,7 +800,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T09:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31022433007401458/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541334864_122098276677001289_6304655500550824043_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eOKoHzRuPpIQ7kNvwFUQVmJ&_nc_oc=AdnbaAaYM5DNXirtJWbg1WXGQgSrpXnlJlgq4mbJ-MOfVx-21RRhCYDIBWV8QaqNFOM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=J0BH4P6enywyTozbfMbEEg&oh=00_AfWclRZvxwMAvgbEbb4WvKZ5xifxHTL8ZoLoU1VToGQCJg&oe=68BB1BCB"
     },
     {
