@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-01T17:30:24.254Z",
+  "generatedAt": "2025-09-01T18:42:05.481Z",
   "city": "barcelona",
-  "count": 1039,
-  "totalRejectedCount": 1637,
+  "count": 1041,
+  "totalRejectedCount": 1642,
   "results": [
+    {
+      "id": "261b5f64-9329-812f-9ef7-e2c99427c0d2",
+      "title": "Room for rent in Badalona",
+      "overview": "One room available in Badalona",
+      "description": "Hola buenas tengo 1 habitación en Badalona si estás interesado o interesada en Badalona",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a photo and seems to be a genuine room rental, but the price is not specified and there is limited information about the accommodation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T18:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078801124425419/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540682143_122176217090526789_1414797435275104523_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=GmbQPPJOYtYQ7kNvwFoC2Qp&_nc_oc=AdmGDxhJj6UNreChzSQ8_F8T8V-hv59E5EqRcXRoZMwV6QWGV-jTdLUuCa4laPzwzWI&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=g1piNcLP35l47sq08YZOhQ&oh=00_AfVZPLchdOj4BqgKowc64eLOG5xDKOISqTr5xS7PjSOX6Q&oe=68BBB907"
+    },
+    {
+      "id": "261b5f64-9329-819b-bc97-d2614e33bfab",
+      "title": "Individual room for rent",
+      "overview": "A single room is available for rent, suitable for one person",
+      "description": "Habitación individual en alquiler para persona sola en cambuxeras linea azul L5 a 5 min del metro",
+      "price": "N/A",
+      "zone": "Cambuxeras, L5 line",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos, detailed information, and contact details, but it appears to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T18:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078854554420076/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-81fd-9f5c-eda6fa3897ff",
       "title": "Individual Room for Rent in Cambuxeras, Barcelona",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T17:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4309351085964067/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2755,7 +2789,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T19:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4023467154649577/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540084522_122175961370526789_4368053915967311865_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=U7CO6J0rReUQ7kNvwE0HC0f&_nc_oc=AdnWURN78S18yo67f7WQ9CYzDQBeRzFLMfb719RhaEOzeFAJ7F3JFFZWFzHZOQ5pYBI&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=YHRowjsIPadLP7ztuSm8MA&oh=00_AfX0gsoceKx7v2is3TmBSU9cOienwz07ayQkeB7OTCKs0Q&oe=68B91651"
     },
     {

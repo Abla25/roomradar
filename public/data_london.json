@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T17:30:31.114Z",
+  "generatedAt": "2025-09-01T18:42:12.293Z",
   "city": "london",
-  "count": 281,
-  "totalRejectedCount": 419,
+  "count": 282,
+  "totalRejectedCount": 420,
   "results": [
+    {
+      "id": "261b5f64-9329-816e-9055-dd16ab18a475",
+      "title": "Classic Studio for Rent in Vita Lewisham",
+      "overview": "A classic studio in Vita Student Lewisham Exchange is available for rent with a 44-week contract and a £3000 discount",
+      "description": "Tenancy takeover in Vita Lewisham Exchange Classic Studio at Vita Student Lewisham Exchange – £3000 Discount! I’m offering a classic studio in Vita Student Lewisham Exchange for the 2025/26 academic year at a £3000 discount for a 44-week contract. ✅ Private studio with ensuite, kitchen, all bills included ✅ Amazing amenities: gym, study rooms, social spaces, 24/7 security ✅ Prime location: 1 min from Lewisham Station (DLR + trains) ✅ Ideal for students at UCL, King’s, Goldsmiths & more ✅ Original rent: £408/week → Now only £340/week WhatsApp me if interested for more details 00962[PHONE NUMBER CENSORED]",
+      "price": "£340/week",
+      "zone": "Lewisham",
+      "zoneMacro": "South London",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and has a low level of detail, but it seems to be a genuine rental offer with a clear description of the property and its amenities",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T18:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2113925349142344/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-81b1-a710-c905b1435182",
       "title": "Apartments for Rent",
