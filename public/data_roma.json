@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T02:19:51.474Z",
+  "generatedAt": "2025-09-01T04:00:09.839Z",
   "city": "roma",
-  "count": 358,
-  "totalRejectedCount": 1149,
+  "count": 359,
+  "totalRejectedCount": 1153,
   "results": [
+    {
+      "id": "261b5f64-9329-8119-82dd-dbb3861e2425",
+      "title": "Room for rent near metro A",
+      "overview": "A room for rent in a 3-bedroom apartment with a bathroom and kitchen, available from October/November",
+      "description": "ciao🌸 offro stanza in affitto a 4 minuti dalla metro A (subaugusta/giulio agricola) al 3º piano a partire da ottobre/novembre. Cerco un* ragazz* possibilmente non alle prime esperienze di convivenza, che abbia tra i 20-28 anni. La casa ha bagno, cucina e due camere (una occupata da me). Costo: €515 (compreso di condominio e riscaldamento)",
+      "price": "€515",
+      "zone": "Subaugusta/Giulio Agricola",
+      "zoneMacro": "Tuscolano",
+      "rooms": "2",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and has limited information about the room and the terms of the rental, which raises concerns about its legitimacy.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T03:55:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1337488721376152/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "260b5f64-9329-81a7-ab8b-d7712a604271",
       "title": "Two-room apartment for rent in Roma",

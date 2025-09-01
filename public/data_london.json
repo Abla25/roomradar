@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T02:19:56.382Z",
+  "generatedAt": "2025-09-01T04:00:11.988Z",
   "city": "london",
-  "count": 251,
-  "totalRejectedCount": 356,
+  "count": 252,
+  "totalRejectedCount": 358,
   "results": [
+    {
+      "id": "261b5f64-9329-81b1-8037-ed41252b0c75",
+      "title": "Property owner renting out apartments",
+      "overview": "The property owner has 1-4 bedroom apartments available for immediate move-in and is open to working with individuals with misdemeanors or low credit",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing seems to be a genuine rental listing, but it lacks photos and specific details about the apartments, which raises some concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T03:58:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841767596422536/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-812e-8212-c6e13eb03e4b",
       "title": "Room for Rent in Leytonstone",
@@ -35,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T02:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841736519758977/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
