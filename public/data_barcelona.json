@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T22:28:56.935Z",
+  "generatedAt": "2025-09-01T23:32:32.672Z",
   "city": "barcelona",
-  "count": 1054,
-  "totalRejectedCount": 1658,
+  "count": 1055,
+  "totalRejectedCount": 1659,
   "results": [
+    {
+      "id": "261b5f64-9329-8102-9dc3-f3f9d8ba4f94",
+      "title": "Room for rent in Santa Coloma de Gramanet",
+      "overview": "Room available in Santa Coloma de Gramanet for 450 euros",
+      "description": "450 Santa Coloma de gramanet",
+      "price": "450",
+      "zone": "Santa Coloma de Gramanet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear title and price, and it includes a photo of the room. However, there is no detailed description of the accommodation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T23:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079046021067596/",
+      "status": "active",
+      "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/541631205_24407279515601904_3025415447541377405_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Y1Os5ayO8c8Q7kNvwHY5msd&_nc_oc=AdkCeVs3z4YYGh1JvmpHSshv_x8Kw-TVc4wMd3DtafBSzw6D2bggrqr7I0Ug0TFyWyM&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=74FMxHwF70s8w_CHpmrr2w&oh=00_AfUiI0BXJZfLCoRaBV8nYjo_hYlnvIHW-hNvCbI6bMMsvA&oe=68BBE68C"
+    },
     {
       "id": "261b5f64-9329-8173-b1cc-e7d5d42e478d",
       "title": "Room for rent for a couple or two girls",
@@ -69,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T22:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025573614438931/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcok6-1.fna.fbcdn.net/v/t39.30808-6/540687500_122182052564450425_93818676647500615_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BLzuwE8MeIoQ7kNvwFV3DuT&_nc_oc=AdmyIXhzZwuC362eGnymca7f2nZB9jxIslsa1kLu6KTor38KGa9H3GqMUPBkYtFhLRA&_nc_zt=23&_nc_ht=scontent.fcok6-1.fna&_nc_gid=vjiE8EZvR01zZUlU9gkV3Q&oh=00_AfWGtdufppUREUVhV3E4YlftpI4KCUKAukxFinkAg_FErQ&oe=68BBFBE3"
     },
     {
@@ -9181,7 +9198,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T20:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4302811559951353/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/539260653_803678882005650_8738201138778798824_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QnhDs3pVbKAQ7kNvwGK7jpf&_nc_oc=AdlwikT_fQxqWDv6CLKHCDYMLql48od6CJVUsJm233C0PuA7ZBq-_SPK6XD7FO0DrwE&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=j8Gae3_YDkUPT7Wa5nQtQg&oh=00_AfVSdaMqRrv-LVSL5-OSw0JGsP2LBEsQ3yPtQzM3EWun7g&oe=68B3C630"
     },
     {
@@ -10626,7 +10643,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T20:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1071859901376973/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -11476,7 +11493,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4301427113423131/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539630927_10162007852406553_2513818126031363856_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0g-Pk-LNu14Q7kNvwG5C3WQ&_nc_oc=AdnRahTOcHPqYgY7Q5HuwVEFUYE2zh9MrP4FjOdhbi_X1UfG8vGFaLPWmMG1nLCKpVM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=nZoYK9HYC7_2ZeAwNLrZhg&oh=00_AfUTapOOQePWzSKeANcH7WTOJfuZcFqBsVp0ZJgx7sAByg&oe=68B1FC14"
     },
     {
