@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-01T13:13:57.985Z",
+  "generatedAt": "2025-09-01T13:38:56.337Z",
   "city": "london",
-  "count": 274,
-  "totalRejectedCount": 395,
+  "count": 277,
+  "totalRejectedCount": 398,
   "results": [
+    {
+      "id": "261b5f64-9329-816b-be20-f703a7501d53",
+      "title": "Rooms for rent in Central London",
+      "overview": "The post is offering rooms for rent in a 4-bedroom apartment in Central London, available mid-September, with all utilities included for £1150, ideal for students and young professionals",
+      "description": "Rooms for Rent - OLD STREET AVAILABLE MIDDLE SEPTEMBER Apartments with 4 bedrooms. Dingley Rd. This building is in Central London, just next to the building on 238 City Road. It is 5 minutes walk to Old Street Station. Also close to Angel and Moorgate tube stations £1150 (all utilities included): Ideal for students and young professionals. Contact for more information",
+      "price": "£1150",
+      "zone": "Central London",
+      "zoneMacro": "Central London",
+      "rooms": "4",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description of the available apartment, location, and price, as well as a photo, making it a relatively reliable listing, but lacks additional photos and contact information",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T13:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842139876385308/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel3-3.fna.fbcdn.net/v/t39.30808-6/540675381_10092457264192938_998975715942632043_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xd_d3X-oG_AQ7kNvwHKMBQp&_nc_oc=AdlRteBV2kZ7o6o5zyv8XtKc33oloVzI1ryomCeIXv1AebC5eC5EHi_BqpwLld3MAKQ&_nc_zt=23&_nc_ht=scontent.fdel3-3.fna&_nc_gid=TNgsTz-L7C9beOGCd9M8ng&oh=00_AfXQdYzNSa7I7GjwPadhpVfBR6W-ev7S_vwfX6C_zvMMEA&oe=68BB5E3D"
+    },
+    {
+      "id": "261b5f64-9329-818e-8950-fbbdbb2c95c7",
+      "title": "Property owner offering various apartments for rent",
+      "overview": "The property owner has 1, 2, 3, and 4 bedroom apartments available for immediate move-in, open to working with individuals with misdemeanors and low credit, as long as they have a stable income",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area thank you",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post seems legitimate, with a clear description of the available apartments and the owner's willingness to work with individuals with misdemeanors and low credit, but lacks specific details such as prices and location, and does not include multiple photos",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T13:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842144483051514/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel3-2.fna.fbcdn.net/v/t39.30808-6/541527638_122128294694934508_4371607291736547212_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dJUPYNpVzTgQ7kNvwFSY5QD&_nc_oc=Adl2DGyP9AE6EE542XUd6awkwBOYekSXi98vSUYOmJx7oedqwV0-O0HuJwY5REgoND4&_nc_zt=23&_nc_ht=scontent.fdel3-2.fna&_nc_gid=OO_2cz5AMc07UqGVQDzIsw&oh=00_AfWT16z1CSABZKf9Re-V9K4p-vhJW0UHykTGhsaGbXvTrA&oe=68BB753E"
+    },
+    {
+      "id": "261b5f64-9329-81e6-b38f-c5de0e4d9fbb",
+      "title": "Double room for rent in Upton Park",
+      "overview": "One double room available for 2 boys in Upton Park, all bills included, ready to move",
+      "description": "*One double room available for 2 boys.* Address: Upton Park E63HS All bills included Ready to Move",
+      "price": "N/A",
+      "zone": "Upton Park",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but lacks photos and pricing information, which raises concerns about its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T13:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842146909717938/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-81a5-83f0-c559197ee2fc",
       "title": "Room for rent in North East London",
@@ -239,7 +290,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T09:38:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841883989744230/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -3571,7 +3622,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T06:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1839640616635234/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
