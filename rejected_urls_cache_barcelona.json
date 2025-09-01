@@ -1,9 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076906054614926/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T04:26:44.284458"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4306647319567777/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T05:21:26.795765"
@@ -994,5 +990,5 @@
     }
   },
   "total_rejected_count": 1564,
-  "timestamp": "2025-09-01T03:53:27.899185"
+  "timestamp": "2025-09-01T04:33:30.427129"
 }

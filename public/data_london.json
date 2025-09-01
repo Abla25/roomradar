@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T04:00:11.988Z",
+  "generatedAt": "2025-09-01T04:37:08.363Z",
   "city": "london",
-  "count": 252,
+  "count": 253,
   "totalRejectedCount": 358,
   "results": [
+    {
+      "id": "261b5f64-9329-812c-9394-fc6438599b16",
+      "title": "Available apartments for rent",
+      "overview": "The property owner has 1-4 bedroom apartments available for immediate move-in and is open to working with applicants with misdemeanors or low credit",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and specific details about the apartments, such as price and location, but it does provide a way to contact the owner, which suggests some level of legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T04:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841727136426582/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-81b1-8037-ed41252b0c75",
       "title": "Property owner renting out apartments",
@@ -18,7 +35,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T03:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841767596422536/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

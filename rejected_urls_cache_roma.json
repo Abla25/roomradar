@@ -1,21 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1336048528186838/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T04:27:24.045710"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1335897438201947/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T04:27:24.047937"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/30989230787388347/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T04:27:59.874500"
-    },
-    "https://web.facebook.com/groups/AffittoCaseRoma/posts/30982693848042041/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T04:27:59.876772"
-    },
     "https://www.facebook.com/groups/633912783969846/posts/1708307173197063/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T05:22:18.833974"
@@ -1742,5 +1726,5 @@
     }
   },
   "total_rejected_count": 1153,
-  "timestamp": "2025-09-01T03:55:24.731438"
+  "timestamp": "2025-09-01T04:34:30.676782"
 }
