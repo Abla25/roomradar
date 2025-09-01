@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T15:36:19.971Z",
+  "generatedAt": "2025-09-01T16:38:12.963Z",
   "city": "london",
-  "count": 280,
-  "totalRejectedCount": 410,
+  "count": 281,
+  "totalRejectedCount": 413,
   "results": [
+    {
+      "id": "261b5f64-9329-81b1-a710-c905b1435182",
+      "title": "Apartments for Rent",
+      "overview": "Property owner has apartments available for rent",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area thank you",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post is from a property owner with apartments available, has an image, and doesn't seem like a scam, but lacks some details",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T16:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842245473041415/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag1-1.fna.fbcdn.net/v/t39.30808-6/543131045_122128364408934508_7571246406122922700_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MOLPiEWQJdYQ7kNvwGQozYG&_nc_oc=AdnV2vKYq0PQdKjATTRQJOZS6yjhI262tryKkw8OGj-nAMQepIYluWeH5jN6gsaVj4A&_nc_zt=23&_nc_ht=scontent.fnag1-1.fna&_nc_gid=K6sJnN_wQF_4yMoy_DLArQ&oh=00_AfU-jRnXyk2GmiJ3eJGGh0iv5dLFWUpdEalCY3KWi_RoGg&oe=68BB967F"
+    },
     {
       "id": "261b5f64-9329-813e-af88-df61850fe03d",
       "title": "4 Modern Double Rooms for Rent in Balham",
@@ -86,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T13:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1842144483051514/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel3-2.fna.fbcdn.net/v/t39.30808-6/541527638_122128294694934508_4371607291736547212_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dJUPYNpVzTgQ7kNvwFSY5QD&_nc_oc=Adl2DGyP9AE6EE542XUd6awkwBOYekSXi98vSUYOmJx7oedqwV0-O0HuJwY5REgoND4&_nc_zt=23&_nc_ht=scontent.fdel3-2.fna&_nc_gid=OO_2cz5AMc07UqGVQDzIsw&oh=00_AfWT16z1CSABZKf9Re-V9K4p-vhJW0UHykTGhsaGbXvTrA&oe=68BB753E"
     },
     {
