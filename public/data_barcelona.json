@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-01T20:32:30.534Z",
+  "generatedAt": "2025-09-01T21:30:25.695Z",
   "city": "barcelona",
-  "count": 1046,
-  "totalRejectedCount": 1647,
+  "count": 1048,
+  "totalRejectedCount": 1654,
   "results": [
+    {
+      "id": "261b5f64-9329-8176-9154-e833c72327cc",
+      "title": "Room for rent, prefer Latin couple",
+      "overview": "A room is available for rent, preferably for a Latin couple, after the previous reservation was cancelled due to no-show",
+      "description": "Vuelvo a poner mi anuncio la persona que lo reservo no apareció, disponible una habitación para pareja de preferencia latinos can vidalet",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Low reliability score due to lack of photos, incomplete information, and potential scam indicators such as the mention of a previous no-show reservation",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T21:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2186898685157534/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "261b5f64-9329-8135-adcb-c713f4ab84a0",
+      "title": "Room for rent in attic with terrace in Santa Coloma de Gramenet",
+      "overview": "A room is available for rent in an attic with a terrace in Santa Coloma de Gramenet, specifically for a female",
+      "description": "se alquila habitacion en atico con terraza en santa coloma de gramanet para CHICA mas info al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Santa Coloma de Gramenet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the rental and includes a phone number for contact, and has an image, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T21:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4309536105945565/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540687500_122182052564450425_93818676647500615_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BLzuwE8MeIoQ7kNvwHAf2-a&_nc_oc=Adl6s7Yu6EhWKvDCKw7knTZXBAsJfWU4TclqKyNOfiCvEwe_8_wP7P2T61olu-s1GKU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=_2ukgfd2kUWtIeNiQP9DOA&oh=00_AfUoCVdD34r5M4dQfPORbSSPEnGS9TSf8-zAM4dYbUqcHg&oe=68BBC3A3"
+    },
     {
       "id": "261b5f64-9329-81e0-87a8-f88800e5d4bb",
       "title": "Large room available for rent",
@@ -7124,7 +7158,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T03:05:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4304429746456201/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -12479,7 +12513,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:06:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072405871731611/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
