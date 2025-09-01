@@ -1,57 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4306351586264017/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T23:21:29.622331"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076728777965987/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-29T23:22:10.072640"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4306483659584143/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:46:30.506890"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4306483562917486/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:46:30.508509"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4306478446251331/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:46:30.510245"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4306478396251336/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:47:05.439649"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4306434519589057/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:47:05.441340"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076786561293542/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:47:41.012117"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076786551293543/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:47:41.013820"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1074909067738723/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:48:55.733632"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2184610505386352/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:49:39.226426"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2184600518720684/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:49:39.228045"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2184558862058183/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T01:50:16.308057"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4306568672908975/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T02:59:35.543860"
@@ -1023,8 +971,36 @@
     "https://www.facebook.com/groups/986691378511610/posts/2186165758564160/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T23:25:49.327305"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4308742889358220/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:07:48.064059"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4308732669359242/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:07:48.065537"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078316961140502/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:08:27.791689"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078290361143162/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:08:27.793180"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2243429716160224/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:09:42.722388"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2186216475225755/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:11:37.899286"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2186047141909355/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T02:11:37.905699"
     }
   },
-  "total_rejected_count": 1555,
-  "timestamp": "2025-08-31T23:20:59.792307"
+  "total_rejected_count": 1562,
+  "timestamp": "2025-09-01T02:07:29.851908"
 }
