@@ -1,17 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4307128729519636/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T15:21:42.110068"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4307123389520170/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T15:21:42.111786"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077248434580688/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T15:22:58.173995"
-    },
     "https://www.facebook.com/groups/1674520359717832/posts/2242281126275083/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T15:24:10.389525"
@@ -975,8 +963,36 @@
     "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024979844498308/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-01T14:26:35.956479"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4309313022634540/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:23:58.149175"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078794527759412/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:24:47.614357"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078786704426861/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:24:47.616802"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078760224429509/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:24:47.621577"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2243926586110537/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:25:23.085764"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2243908579445671/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:25:23.087210"
+    },
+    "https://www.facebook.com/groups/365556558673981/posts/1076745334221763/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T15:26:05.384303"
     }
   },
-  "total_rejected_count": 1622,
-  "timestamp": "2025-09-01T14:22:36.500814"
+  "total_rejected_count": 1629,
+  "timestamp": "2025-09-01T15:23:42.675179"
 }
