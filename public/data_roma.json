@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-01T04:37:05.386Z",
+  "generatedAt": "2025-09-01T05:28:46.265Z",
   "city": "roma",
-  "count": 359,
+  "count": 360,
   "totalRejectedCount": 1153,
   "results": [
+    {
+      "id": "261b5f64-9329-81ea-b1dc-f848d41400c2",
+      "title": "Room for rent in central Tiburtina area",
+      "overview": "Room in a double room with air conditioning and balcony, available for rent",
+      "description": "Affitto zona Tiburtina, zona centrale e ben servita, posto letto, Euro 400,00 oltre spese, in camera doppia, dotata di aria condizionata e balcone. La camera è disponibile e visitabile.",
+      "price": "400.00",
+      "zone": "Tiburtina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information about the accommodation, but it provides a clear description of the room and its amenities.",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T05:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31020684430909649/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-8119-82dd-dbb3861e2425",
       "title": "Room for rent near metro A",
@@ -205,7 +222,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T18:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1337238538067837/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

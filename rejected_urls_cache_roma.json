@@ -1,9 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/633912783969846/posts/1708307173197063/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T05:22:18.833974"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1336182164840141/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T06:32:59.369450"
@@ -1726,5 +1722,5 @@
     }
   },
   "total_rejected_count": 1153,
-  "timestamp": "2025-09-01T04:34:30.676782"
+  "timestamp": "2025-09-01T05:26:06.686074"
 }
