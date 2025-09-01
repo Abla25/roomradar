@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-01T08:45:41.613Z",
+  "generatedAt": "2025-09-01T09:40:51.973Z",
   "city": "london",
-  "count": 259,
-  "totalRejectedCount": 366,
+  "count": 261,
+  "totalRejectedCount": 368,
   "results": [
+    {
+      "id": "261b5f64-9329-81f5-a60b-eb552151d91f",
+      "title": "Property owner offering 1-4 bedroom apartments for rent",
+      "overview": "The property owner has various apartments available for immediate move-in, including 1, 2, 3, and 4 bedrooms, and is open to working with individuals with misdemeanors or low credit as long as they have a stable income",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The reliability score is 2 because the post lacks specific details such as price, location, and photos, which are essential for a trustworthy listing, although it does provide some information about the apartments and the owner's requirements",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T09:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841883989744230/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "261b5f64-9329-81d8-bf8e-ec2a7b774c39",
+      "title": "Properties available for rent",
+      "overview": "The user has multiple properties available for rent and is inviting interested parties to schedule a viewing",
+      "description": "Hello everyone 👋 I got couples of properties available for rent and ready to move in, send in an inbox to schedule a time for a viewing. Thank you 🙏",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks details, photos, and specific information about the properties, which raises concerns about its legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T09:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1841959596403336/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "261b5f64-9329-81ee-8200-d36bf47e0599",
       "title": "Villa for rent in Gurgaon",
@@ -120,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T04:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841727136426582/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1106,7 +1140,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841091303156832/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
