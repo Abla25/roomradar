@@ -1,25 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/365556558673981/posts/1075385107691119/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T16:29:02.629746"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4307081292857713/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T17:17:58.687986"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4307000942865748/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T17:17:58.689652"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077321924573339/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T17:18:33.924936"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077282697910595/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-30T17:18:33.926616"
-    },
     "https://www.facebook.com/groups/1674520359717832/posts/2242363632933499/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-30T17:19:09.567786"
@@ -975,8 +955,24 @@
     "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024554394540853/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-01T16:29:55.755288"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4309330519299457/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T17:19:31.657862"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2244039116099284/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T17:20:10.593515"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2244011506102045/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T17:20:10.594987"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2243990446104151/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-01T17:20:10.596530"
     }
   },
-  "total_rejected_count": 1633,
-  "timestamp": "2025-09-01T16:28:11.954350"
+  "total_rejected_count": 1637,
+  "timestamp": "2025-09-01T17:19:08.719638"
 }
