@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-01T18:42:05.481Z",
+  "generatedAt": "2025-09-01T19:25:05.687Z",
   "city": "barcelona",
-  "count": 1041,
-  "totalRejectedCount": 1642,
+  "count": 1045,
+  "totalRejectedCount": 1645,
   "results": [
+    {
+      "id": "261b5f64-9329-81a6-a0e9-fdf9e173af4b",
+      "title": "Room for rent in Sant Martí-Bac de Roda, Barcelona",
+      "overview": "A room with a double bed is available for rent in Sant Martí-Bac de Roda, Barcelona, with immediate availability and a minimum stay of 6 months",
+      "description": "SE ALQUILA HABITACION EXTERIOR CON CAMA DOBLE, MUY LUMINOSA Y CONFORTABLE. BARCELONA, ZONA SANT MARTÍ-BAC DE RODA (L2) BIEN COMUNICADA CON METRO Y BUS. SÓLO CHICAS. 575€ GASTOS INCLUIDOS (Wifi, Luz, Gas y agua). + Fianza 300€. DISPONIBILIDAD INMEDIATA!! ESTANCIA MÍNIMA 6 MESES.",
+      "price": "575€",
+      "zone": "Sant Martí-Bac de Roda",
+      "zoneMacro": "Sant Martí",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information, includes a photo, and seems to be a genuine rental listing, but the lack of additional photos and information about the landlord reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078719687766896/",
+      "status": "active",
+      "imageUrl": "https://scontent.fvns6-1.fna.fbcdn.net/v/t39.30808-6/541466556_10163532322802859_1962023064400419661_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FkgaqEKud_4Q7kNvwGwjS-r&_nc_oc=AdlvNu4nDfJ0QpEw09nHl5fmK1TcTzBUqt_kQqHDas9LyAH0GHrQf3KYq90VX3CLveA&_nc_zt=23&_nc_ht=scontent.fvns6-1.fna&_nc_gid=iwEhfSXr1wG2ZKghNzdTTg&oh=00_AfWmq5QmBgU71_VGi7gjHY701feUUFi3N2Bg7SEtHqqSUw&oe=68BBBDEC"
+    },
+    {
+      "id": "261b5f64-9329-816c-8b1c-f4ebfe71ce79",
+      "title": "Double room for rent in Hospitalet de Llobregat",
+      "overview": "A double room is available for rent in Hospitalet de Llobregat, near the metro stations L1 Santa Eulalia and L5, contact for more information",
+      "description": "En alquiler una habitación doble amueblada para chica, en hospitalet de llobregat cerca del metro L1 Santa Eulalia y metro L5 información por privado.",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks detailed information, photos, and pricing, making it difficult to assess its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078721661100032/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "261b5f64-9329-8140-952a-cc8dec9bf015",
+      "title": "Room for single girls or girls with children",
+      "overview": "A room is available for single girls or girls with children, contact 622851197 for more information",
+      "description": "Habitacion para CHICAS SOLAS O DOS CHICAS O MADRES CON HIJOS [PHONE NUMBER CENSORED] para yaaa",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information about the room, and there are no photos to verify the condition, but it seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078936607745204/",
+      "status": "active",
+      "imageUrl": "https://scontent.fvns6-1.fna.fbcdn.net/v/t15.5256-10/541509476_4331970217032220_7589781058853890351_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=117846&_nc_ohc=gpaEWAD383cQ7kNvwHJj9iE&_nc_oc=AdlyShBrsWaZEcMX-b2aFW5gtf1jKtfyVOVuOvMyZ6JK-2Bh5E4vrhHei416ME0ap2c&_nc_zt=23&_nc_ht=scontent.fvns6-1.fna&_nc_gid=iwEhfSXr1wG2ZKghNzdTTg&oh=00_AfXkCcuZzZJdobIEqw5cLEfnreo5uMJYIcCxZ8jbPE9HtQ&oe=68BBB7CF"
+    },
+    {
+      "id": "261b5f64-9329-8119-9129-c96dd311e0ac",
+      "title": "Double Room for Rent in Barcelona",
+      "overview": "A double room for rent in a shared apartment, with a large wardrobe, close to public transportation and amenities",
+      "description": "Se alquila habitación doble para chica sola • Cercano a transporte público a 1 min del metro vilapicina línea azul 🚉 • Supermercados, cafeterías y tiendas a pocos pasos ☕🛍️ • Habitación con Armario Grande • ⁠El piso dispone de un Balcón amplio. • ⁠💰 Precio: 499 €/mes (gastos incluidos) + 1 mes de fianza 📅 Disponible para entrar desde ya",
+      "price": "499 €/mes",
+      "zone": "Vilapicina, Barcelona",
+      "zoneMacro": "Nou Barris",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, price, and location, as well as a photo, and does not seem to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-01T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078940721078126/",
+      "status": "active",
+      "imageUrl": "https://scontent.fvns6-1.fna.fbcdn.net/v/t39.30808-6/541450279_1295313298668958_8385536429485827274_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8qnTnU-1Z0QQ7kNvwG-LZ7F&_nc_oc=AdlwRsANv9RrLxXeld-1W6_rCrX8hFmmk_hGGYdWijMPI0Ta3gTMLyM-mcHffT99PEA&_nc_zt=23&_nc_ht=scontent.fvns6-1.fna&_nc_gid=DyYnrKdEZi81ca7XAMhKWw&oh=00_AfV8DpIw12U_Ylpocw62qjOWlae0OS6kE1jXuavRITtP4g&oe=68BBA34F"
+    },
     {
       "id": "261b5f64-9329-812f-9ef7-e2c99427c0d2",
       "title": "Room for rent in Badalona",
@@ -307,7 +375,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T13:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4309203535978822/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540460392_10163532318237859_3174423818994892944_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=i6ZehmM8mwUQ7kNvwHm5UAH&_nc_oc=AdlqcqL0MTEttT2CII79zalDW2bOSAPsLoMKM0ZvMx8lg2-MGCxe3fw3T902pBLY3tI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=sE-SOkK80y0cF9T-FuH0ow&oh=00_AfVVYdl-LJyT6aejdbu6F-qpA5Qlysefi1XgQNV2Jf6YEg&oe=68BB6256"
     },
     {
@@ -562,7 +630,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078640311108167/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom12-2.fna.fbcdn.net/v/t39.30808-6/540616804_1295014142032207_3056908819781061210_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rJxU7QnAu8IQ7kNvwGcYE6-&_nc_oc=AdnP8nRYoVPlp8lCc2_aHx1nhfMkinH5aBPFMGykeir0X39gU2_dnDYkdcgBzHFaQW0&_nc_zt=23&_nc_ht=scontent.fbom12-2.fna&_nc_gid=hSFFG85TcpVG9UaDojKXTg&oh=00_AfVcJVuzhFpRzcYspiLDl9HMwSALqke58rjtQaSHQT6rpg&oe=68BB3C84"
     },
     {
@@ -766,7 +834,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T08:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4024955691167390/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fvga2-1.fna.fbcdn.net/v/t15.5256-10/541144383_654649044206743_5320652120641490390_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=117846&_nc_ohc=qNnTqKifeAMQ7kNvwGnA2C3&_nc_oc=AdlGj3SBqV6D9goksqQSf3-hKk25TYh42kxNh9xDHyrEc0JiTcfWFBU2ZczOcqfPyTBqnpW2EzAgxSkuel6BRSxx&_nc_zt=23&_nc_ht=scontent.fvga2-1.fna&_nc_gid=_VheeYcUFWTQK8oF1Cslhw&oh=00_AfWMOE_f1IpWqzqRhIustUje8ogEJl5OEAZjYzzTXH4hkg&oe=68BB125B"
     },
     {
