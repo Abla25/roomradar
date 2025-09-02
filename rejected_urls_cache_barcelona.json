@@ -1,17 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4022193514776941/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T10:26:06.084114"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1075911834305113/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T10:26:39.561565"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1075942794302017/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T11:17:46.254333"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4308116886087487/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T12:43:51.830423"
@@ -923,8 +911,24 @@
     "https://www.facebook.com/groups/986691378511610/posts/2186952331818836/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T10:30:38.601157"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4310087759223733/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T11:19:45.958363"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4309927262573116/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T11:19:45.959727"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079408527698012/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T11:20:21.127518"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079388964366635/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T11:20:21.129877"
     }
   },
-  "total_rejected_count": 1703,
-  "timestamp": "2025-09-02T10:25:32.768541"
+  "total_rejected_count": 1707,
+  "timestamp": "2025-09-02T11:19:28.074262"
 }
