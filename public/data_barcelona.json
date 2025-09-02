@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-02T13:45:18.762Z",
+  "generatedAt": "2025-09-02T14:33:06.754Z",
   "city": "barcelona",
-  "count": 1092,
-  "totalRejectedCount": 1726,
+  "count": 1095,
+  "totalRejectedCount": 1729,
   "results": [
+    {
+      "id": "262b5f64-9329-81a8-8d73-ef836beb20a5",
+      "title": "Renting a spacious room in Maragall",
+      "overview": "A room for one person is available for rent in a flat located in Maragall, with all expenses included, such as water, electricity, and wifi",
+      "description": "🏠 Alquilo habitacion amplia, para una persona con los gastos incluidos. 📍Piso ubicado en Maragall, a 400m de las estaciones maragall y virrei amat, cerca de caprabo, lídl, día, mercadona, bares, restaurantes, centro comercial SOM MULTI ESPAI , centro salut Cotxeras . 💰Precio 400 euros/mes más un mes de fianza (negociable), todos los gastos incluidos (agua, luz, wifi.) 📩 Si te interesa, escríbeme y concretamos una cita.",
+      "price": "400 euros/mes",
+      "zone": "Maragall",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room, its location, and the price, as well as photos of the room, making it seem like a legitimate and trustworthy rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T14:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1077449317484698/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541832114_10162826421734333_2430641274532098902_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wKf_OSRb48cQ7kNvwFI12OP&_nc_oc=Adm0WiBA79XkkTzvUd7eANZzZd06T5Gs5KKF8qXCsHGNb37vHuiOYkvicIZ1zhvgoJI&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=ODZto41RZHFcJnB_EG6tYA&oh=00_AfWyAO1fIAJZNaUYdJRsA6ZLwBP105An0qaWsUgQ7NM-tQ&oe=68BCB2F3"
+    },
+    {
+      "id": "262b5f64-9329-8111-8b91-f99a51ade3a8",
+      "title": "Room for rent in Santa Coloma, Barcelona",
+      "overview": "Room for rent in a flat in Santa Coloma, Barcelona, available for immediate entry",
+      "description": "Habitación en Alquiler en Barcelona - 📍Santa Coloma Habitación solo para chicas, Detalles del cuarto: • Precio: 450€/mes (persona sola), 510€ (pareja chicas) • Disponible para entrada inmediata • El piso tiene calefacción eléctrica • Piso de madera ideal para el frío Ubicación excelente: •A 25 min plaza cataluña. • A 3 min a pie de estación fondo. • A 5 min a pie del Mercadona, Lidl, Dia, carrefour • A 15 min en bus de dos centros comerciales CC La maquinista y CC montigala • A 15 min a pie de paseo del rio besos y la naturaleza. • A 2 min a pie de gimnasio con cuota mensual 30€ Transporte público: • Metro L1 (roja): Estación Universitat a 8 minutos a pie. • Metro L9N (naranja): Can zam y la sagrera. • Varias líneas de autobús cercanas.",
+      "price": "450€/month (single person), 510€/month (couple)",
+      "zone": "Santa Coloma, Barcelona",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and amenities, and includes a photo of the room",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T14:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2244702219366307/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag12-1.fna.fbcdn.net/v/t39.30808-6/541824288_4168572926744916_879048013841223796_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3OZFf28fbAIQ7kNvwFK8_gv&_nc_oc=AdniSS_ZRPKYzPGrko_2bodZgGCQV0MsHkAuj3i3uSs8VGT0p7pCYikKKsQ29ebhGZc&_nc_zt=23&_nc_ht=scontent.fnag12-1.fna&_nc_gid=dmnbwyt__aFELtLWKbIhXw&oh=00_AfVWSbU_9IfVuAq6388BHpCF6ceZDMchzlJWrCXZ1d8oXg&oe=68BCB0C3"
+    },
+    {
+      "id": "262b5f64-9329-818b-9755-e9569ee98aa4",
+      "title": "Large room for rent in Barcelona",
+      "overview": "A spacious room with a balcony and private bathroom is available for rent in the Hospitales de Llogrebat area of Barcelona",
+      "description": "Buenas tardes a todos alquilo Amplia habitación en Barcelona con balcón y baño privado en hospitales de llogrebat ,500 € más 500 de fianza más 500 de asesoría, imprescindible documentación en regla contacto [PHONE NUMBER CENSORED]",
+      "price": "500 €",
+      "zone": "Barcelona",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and seems to be a basic listing, the presence of a contact number is a positive aspect but the requirement of a large amount of money for asesoría could be a scam indicator",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T14:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310134999219009/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "262b5f64-9329-8107-8ab0-de388d6da170",
       "title": "Room for Rent for Couple in Santa Coloma",
@@ -5322,7 +5373,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T13:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2184233472090722/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbdq1-1.fna.fbcdn.net/v/t39.30808-6/539089185_4164874673781408_4221190911097168954_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=sJDXi1_dqEUQ7kNvwH4wt06&_nc_oc=AdlJRSp4tGFJiMLe7r-a39l5QhMskPFZ5lLAyQZ9STNB6ksKoron64OCCwVdkr2KqDc&_nc_zt=23&_nc_ht=scontent.fbdq1-1.fna&_nc_gid=8LoO8NmSHVYCRzKg2vHBCg&oh=00_AfWr6YK9JdKbvBD3KXaOnpUNEX6ewascWj41CtyxqScgsA&oe=68B7721F"
     },
     {
@@ -9266,7 +9317,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T04:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4019602848369341/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/539203002_10162800261239333_7267477756914900975_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=TA02OkNZrPkQ7kNvwHcaoE-&_nc_oc=AdmQSfQWqpzkbI0TEla-gVatWJsVEIvsGZ2_Ole9QKwqv4zY_iQBJ3En_wNiK142AdE&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=_NVVIuEftJYcJGHEQxNG4w&oh=00_AfWKwDfusgozulYenLIluDajtwiuT6Ks5vxNFxwHlSYtBg&oe=68B43574"
     },
     {
