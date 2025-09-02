@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-02T22:30:45.136Z",
+  "generatedAt": "2025-09-02T23:26:57.450Z",
   "city": "barcelona",
-  "count": 1124,
-  "totalRejectedCount": 1782,
+  "count": 1128,
+  "totalRejectedCount": 1783,
   "results": [
+    {
+      "id": "262b5f64-9329-818d-b973-f880b8012b48",
+      "title": "Room for couple available",
+      "overview": "A room for a couple is available for rent",
+      "description": "Habitación para pareja disponible ya, can vidalet",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post appears to be a genuine rental listing with a photo, but the price and zone are not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T23:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079783870993811/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/539559415_10230220709210632_8318922845936148251_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UlnlY6m4uqkQ7kNvwGGWTpQ&_nc_oc=AdlcMl8_bXZ3WfNcim75M7YkQhYT6ydIprXb-EHx51d7ro8GOXR3JFsBpoZ2sMFc8l4&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=FL9y9J_i7d8kiGGEC6Fevw&oh=00_Afa0uZOSjN-4e9oLKRRTP_YymOLIkw9YFyjAOYB7dgu5DQ&oe=68BD343C"
+    },
+    {
+      "id": "262b5f64-9329-81d0-b5cc-d8c135ffdc4b",
+      "title": "Apartment for rent on Aribau street",
+      "overview": "An apartment available for rent on Aribau street. Contact 632662969 for more information.",
+      "description": "Alquilo piso en calle Aribau.[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Aribau street",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The listing provides minimal information, lacks photos, and seems to be incomplete, which raises concerns about its legitimacy and dramatically reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T23:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310473605851815/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "262b5f64-9329-818f-8851-ffc5e9059cbd",
+      "title": "Room for couple for rent in Hospitalet de Llobregat",
+      "overview": "A room for a couple available for rent in Hospitalet de Llobregat, near the metro line 1. Further information is available through private message.",
+      "description": "Se alquila habitación para pareja Hospitalet de Llobregat línea 1 cerca del metro más info al privado",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks essential information, such as the price and detailed description of the room, and does not include any photos, which significantly reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T23:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310565739175935/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "262b5f64-9329-81d5-8581-c03c3199da10",
+      "title": "Marital room for rent in Barcelona",
+      "overview": "A cozy attic room for rent in a quiet and familiar environment, close to the metro in Barcelona. The apartment is central, well-connected, and has a pleasant atmosphere.",
+      "description": "Se alquila Habitación matrimonial disponible en piso acogedor el Carmel 490 € mensuales ,cerca metro , en Barcelona. El piso tiene un ambiente tranquilo y familiar.Para una persona Vive 1 persona en piso 💶 Precio:490 al mes 💡 🔒 Fianza: 150 euros ✅ Habitación lista para entrar mañana mismo ✅ Piso céntrico, bien comunicado y con todo a mano ✅ Ambiente agradable, seguro y respetuoso Para una persona chico +34 [PHONE NUMBER CENSORED] Watsap",
+      "price": "490 €",
+      "zone": "El Carmel, Barcelona",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides some detailed information, such as the price, location, and description of the apartment, but lacks photos and has limited contact information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T23:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310630389169470/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "262b5f64-9329-8105-be77-d8437aba01bd",
       "title": "Long-term rental apartment in Salou/Tarragona",
@@ -86,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T22:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310607549171754/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/515504623_10239624469889064_6794624475570722640_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ZArcxyi_KMYQ7kNvwE7xpHR&_nc_oc=AdnGHE4czvYyKp64WqZYPCGrSux6Ck5n_gh5dDwYYMNjIBdksdnyvzP8K4N9daqUUGg&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ngp-ZIKcqrj2DiDWyHkuzw&oh=00_AfYKfThAm_vMpiSZgRudHpcO96BNclMaWrlsZoib2x7aZw&oe=68BD44B7"
     },
     {
@@ -154,7 +222,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T20:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2187642051749864/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -273,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T19:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026314127698213/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel61-1.fna.fbcdn.net/v/t39.30808-6/541431723_4168611776741031_6355410661308773508_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=HuoPbsxLCtwQ7kNvwG0fWSi&_nc_oc=AdkbsjLGKHYLebL1rhbRR406PhKoTNAEOhu7R-JweozrA4l8B-reEsYaQ3u0CueJMGA&_nc_zt=23&_nc_ht=scontent.fdel61-1.fna&_nc_gid=PkqaSEN36KDXr5d9Gdm0bw&oh=00_AfX3w3-d0F1ZN4DCKE8esXpPMqcBXVWOuaaQ3BROxlDTTg&oe=68BD059F"
     },
     {
@@ -3775,7 +3843,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T02:01:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1047641317132165/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-bom2-2.xx.fbcdn.net/v/t39.30808-6/521675924_10163281593287472_1609750951651296031_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dLKjrBcrl8wQ7kNvwHcLWUh&_nc_oc=AdlTxMjJLNZt0dm4ZaPaPEJ8vw9lBtZYF4goQdypq24EX2ZCJcvqP3NrNboDubvsmfM&_nc_zt=23&_nc_ht=scontent-bom2-2.xx&_nc_gid=PJqMuqyXFYFSQ84T8YHH1Q&oh=00_AfWuXh7efIygz9C6zGZ1zlvyXFk2TsNGB5d0B5fKHjrhzg&oe=68B9775A"
     },
     {
@@ -14893,7 +14961,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-24T09:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2236942016808994/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {

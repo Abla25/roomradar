@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T22:30:49.430Z",
+  "generatedAt": "2025-09-02T23:27:01.050Z",
   "city": "roma",
-  "count": 494,
-  "totalRejectedCount": 1628,
+  "count": 495,
+  "totalRejectedCount": 1640,
   "results": [
+    {
+      "id": "262b5f64-9329-81c9-81ee-cef69acc9e66",
+      "title": "Monolocale for rent in Vieste",
+      "overview": "Monolocale for rent in Vieste, suitable for a couple, price range 300",
+      "description": "VIESTE OFFERTISSIMA LOCAZIONE MONOLOCALE DA 300 A COPPIA",
+      "price": "300",
+      "zone": "Vieste",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information, photos, and contact details, which raises concerns about its credibility.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31045468231764602/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "262b5f64-9329-812b-9120-ca2558f92bf3",
       "title": "Room for rent in Via di Torrevecchia",
