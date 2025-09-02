@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T18:44:54.182Z",
+  "generatedAt": "2025-09-02T19:26:27.142Z",
   "city": "roma",
-  "count": 483,
-  "totalRejectedCount": 1587,
+  "count": 484,
+  "totalRejectedCount": 1594,
   "results": [
+    {
+      "id": "262b5f64-9329-814e-a8db-e0b1edb22954",
+      "title": "Room available for a boy",
+      "overview": "A room is available for rent starting from October, with a price of 470 plus expenses",
+      "description": "Stanza disponibile x ragazzo da ottobre via bibulo 470+spese per info contatto [MESSAGING CONTACT CENSORED]",
+      "price": "470+spese",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine room listing with contact information available.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T19:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1711219366239177/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "262b5f64-9329-817f-b20f-f376457ff04d",
       "title": "Single room for rent in Via Pavia",
