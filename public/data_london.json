@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T02:06:19.869Z",
+  "generatedAt": "2025-09-02T03:16:03.838Z",
   "city": "london",
-  "count": 304,
-  "totalRejectedCount": 448,
+  "count": 305,
+  "totalRejectedCount": 450,
   "results": [
+    {
+      "id": "262b5f64-9329-8160-9d08-c2cd803974d1",
+      "title": "Double Bedroom for Rent in Tottenham",
+      "overview": "A double bedroom is available for rent in Tottenham, including WiFi, weekly cleaning, and bills. The room can be rented by one or two people.",
+      "description": "🏡 NICE DOBLE BEDROOM AVAILABLE 🏡 📍 Birkbeck Road, Tottenham, N17 8NH 📍 £210 per week for 2 people £190 per week for 1 person WiFi, weekly cleaning and bills included Available NOW Info phone 📞 [VAT NUMBER CENSORED] Omar",
+      "price": "£190-£210 per week",
+      "zone": "Birkbeck Road, Tottenham, N17 8NH",
+      "zoneMacro": "Haringey",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a specific address, price, and contact information, as well as photos of the room. However, the reliability score is not 5 because the post does not provide extensive details about the room or the rental agreement.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T03:14:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1842471729685456/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541484292_122178504932379429_4420732405863407265_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3HWx7qlvBgwQ7kNvwHbrSrO&_nc_oc=AdljJrKixUiaipXwhg3IOzl_3LW1ZmVR4Rn3cueTer70IKFiJ2dnS0m6_PMb4Xa8oaA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=9GqJkbW4QvFazJ-vJvJvkA&oh=00_AfV62BCjM8xTnCQ0Hg-zzB9a722v2KZmMhSzXh3K6LGj0g&oe=68BC02ED"
+    },
     {
       "id": "262b5f64-9329-8195-a407-d29efc80593d",
       "title": "Double Room for Rent in Eastham",
@@ -103,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T02:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1842473493018613/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541836311_122178532958379429_3202517972637722860_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aPgkJjXoH-gQ7kNvwGwDHtJ&_nc_oc=AdmNuf642ZegIOK7Q95eIg8ts3Ht8pMTVe-ASKLuu9kM5w30-QHG7FWDHegsUA8paE4&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=ko1hm5bBFbH4OamElV08iw&oh=00_AfU-0iqdbA-WVm11SvaKyvdYDwn7UHJGGu4SxXPR0RNxlA&oe=68BC349E"
     },
     {

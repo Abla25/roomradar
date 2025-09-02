@@ -1,33 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/181439002455412/posts/1841002209832408/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:06:14.442111"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1840992276500068/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:06:14.443120"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1840895289843100/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:06:53.695607"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1840683969864232/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:06:53.696606"
-    },
-    "https://www.facebook.com/groups/I6680/posts/24242441115424920/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:07:31.826348"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112495795951966/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:08:10.303008"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112469245954621/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T02:08:10.304723"
-    },
     "https://www.facebook.com/groups/1075915486829306/posts/1422845738802944/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T03:15:24.439658"
@@ -767,8 +739,16 @@
     "https://www.facebook.com/groups/478152972719598/posts/2114060889128790/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T02:05:23.324279"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1842423129690316/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T03:14:28.877068"
+    },
+    "https://www.facebook.com/groups/I6680/posts/24242441115424920/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T03:15:11.513893"
     }
   },
-  "total_rejected_count": 448,
-  "timestamp": "2025-09-02T02:01:22.549160"
+  "total_rejected_count": 450,
+  "timestamp": "2025-09-02T03:14:20.052730"
 }
