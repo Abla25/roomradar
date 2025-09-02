@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-01T23:32:45.273Z",
+  "generatedAt": "2025-09-02T02:06:17.210Z",
   "city": "roma",
-  "count": 431,
-  "totalRejectedCount": 1389,
+  "count": 433,
+  "totalRejectedCount": 1401,
   "results": [
+    {
+      "id": "262b5f64-9329-81e1-a55d-e106cef0ec82",
+      "title": "Private room for male worker/student in San Giovanni, Rome",
+      "overview": "Private room available in a residential building with a garden and doorman, to be shared with a calm and tidy engineer, for a male worker or master's student, with a long-term contract, for 460€ + utilities, wifi, and condo fees",
+      "description": "Stanza privata per Ragazzo Lavoratore, con contratto a lungo periodo – Via La Spezia, Lodi ( zona San Giovanni Roma)** Disponibile da Ottobre 2025 ⚜️ **Ampia stanza ad uso esclusivo Singola, in palazzo residenziale con giardino interno condominiale e Portiere ** Davvero un bel quartiere, con molti negozi nelle vicinanze. 🏡 Trilocale come in foto, da condividere con me, lavoratore ingegnere, persona educata, tranquilla, precisa, pulita e pacifica. ✔️ Solo per Contratto pluriennale, a Lavoratore uomo o al limite studente Magistrale, *Affitto di 460 € + Utenze , Wi-fi e Condominio a parte* ❌ No ad animali ( sono allergico 🥲) _Per tutte le domande, vi risponderò quanto prima, un po' per volta (di giorno lavoro_)",
+      "price": "460€ + utilities",
+      "zone": "San Giovanni, Rome",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the room and the terms of the rental, including photos and contact information, and does not seem to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T01:59:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2147309439126342/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccu10-1.fna.fbcdn.net/v/t39.30808-6/542693662_24686955160936011_6186156080248581471_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7PF2wvWC_tUQ7kNvwEZuqcD&_nc_oc=AdlVd2o2vdbV7ZujxdM3EUThq7KYs0e_eyHTKps09QhV49j7N_CRtYpYqZpqWZE4wX8&_nc_zt=23&_nc_ht=scontent.fccu10-1.fna&_nc_gid=0O1la3JwTg4QVZFYHIgcxA&oh=00_AfX27uVace7OznhAxQ4RW7b_ScT1aNcVhBWfLIgqZKSs1g&oe=68BBFDBE"
+    },
+    {
+      "id": "262b5f64-9329-81b3-893d-d7ae6266b881",
+      "title": "Room for rent in Via di Torrevecchia",
+      "overview": "A room is available for rent in a shared apartment in Via di Torrevecchia, close to Policlinico Gemelli, with amenities such as a shared kitchen and garden",
+      "description": "Affittasi stanza in Via di torrevecchia zona servita da tutti i servizi, 20 minuti a piedi dal Policlinico Gemelli. Preferibilmente Studenti o Lavoratori, contratto transitorio. L'appartamento è al piano terra ed è composto da : - 2 Camere da letto -1 Bagno condiviso - cucina abitabile condivisa -Giardino L'appartamento è dotato anche di Lavartice, aria condizionata con pompa di calore in ogni stanza. Il riscaldamento è autonomo. La stanza è molto ampia, con letto a una piazza e mezza uso singola.",
+      "price": "N/A",
+      "zone": "Via di Torrevecchia",
+      "zoneMacro": "Monti",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, and seems to be a genuine rental listing with no scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T01:57:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1338332717958419/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbho6-1.fna.fbcdn.net/v/t39.30808-6/543051486_32074546838810668_1501824475052385056_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=_myeKsDlCFIQ7kNvwFCjSM1&_nc_oc=AdlBW2hX7jwV2ZrPgtAh_jLLRe2-Ve8VKIuGvG1mGl_8aniQHR-eSIo_tYmhQ9j0AxCabEWhs7jtfCK1vatTdnXv&_nc_zt=23&_nc_ht=scontent.fbho6-1.fna&_nc_gid=52yylmsETjE72WLdhgc_rQ&oh=00_AfUQfchEYNMSY_RSPkfp8Al8e3cJ9C3tahpJ6icbMqJkrg&oe=68BC158D"
+    },
     {
       "id": "261b5f64-9329-818f-b11c-dbf1a10e0774",
       "title": "Two-room apartment for rent in Collalto Sabino",
@@ -103,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T22:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1338217867969904/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh2-1.fna.fbcdn.net/v/t39.30808-6/542693662_24686955160936011_6186156080248581471_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7PF2wvWC_tUQ7kNvwFqrcUw&_nc_oc=AdkUPUpEaG2W-jsSUkN-0pB1F045Kw-JOxuXrBW5dFig8jAML1G7Poml_-noAKSy9XQ&_nc_zt=23&_nc_ht=scontent.fluh2-1.fna&_nc_gid=EbtlD3M-EFgDYZfzop4lpg&oh=00_AfUCpQwokJ5lt9lkLP-OmX3p4Lenj37-Dx5BlWeoamu21w&oe=68BBFDBE"
     },
     {

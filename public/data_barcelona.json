@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-01T23:32:32.672Z",
+  "generatedAt": "2025-09-02T02:06:13.806Z",
   "city": "barcelona",
-  "count": 1055,
-  "totalRejectedCount": 1659,
+  "count": 1058,
+  "totalRejectedCount": 1664,
   "results": [
+    {
+      "id": "262b5f64-9329-81a3-a767-d14b37167920",
+      "title": "Room for rent in shared house",
+      "overview": "A room is available for rent in a shared house in Ciutat Vella for a month, with utilities included",
+      "description": "Durante un mes importante ! 350 todo includo casa equipada Para compartir con un chico y una chica que estaran un mes tambien. Ciutat vella",
+      "price": "350",
+      "zone": "Ciutat Vella",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post includes a price and location but lacks detailed information about the room and the house, and there are no clear scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T01:56:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025107694485523/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel41-1.fna.fbcdn.net/v/t39.30808-6/541147326_1300633298422290_3105092810809763480_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=nt7pPbMKMTYQ7kNvwFkCuvu&_nc_oc=AdlQoGoQGmPqxnNEBD5_jzkjCgRyRPCzwB8Vydf1rorlr2xUdk1rKTPDuoJ0g4Ani3Q&_nc_zt=23&_nc_ht=scontent.fdel41-1.fna&_nc_gid=cJjOE3MnDtKBvEEan4N4Jg&oh=00_AfUPdGySlvaeQZfxseZi-PIAoctVxYwdcNwiAgDkT6WdAA&oe=68BC010E"
+    },
+    {
+      "id": "262b5f64-9329-8136-bb19-c9dc0e216640",
+      "title": "Central City Sanctuary for Rent",
+      "overview": "A rental agency is offering a double room in a shared apartment in the city center, including a living area, kitchen, and patio",
+      "description": "Your Central City Sanctuary Awaits! Tired of the typical student housing? We're a specialized agency here to hook you up with the best! The Space: Your New Home Includes Your Own Double Room: Fully equipped for both study sessions and deep relaxation. Shared, Sun-Lit Living Area: Comfy, bright, and perfect for hanging out. Full Kitchen: Whip up meals with your future roomies. Two Sparkling Bathrooms: No morning queues! Your Private Patio: The ultimate chill-out zone. The Deal: €600 / month (Yes, that includes ALL your bills! No hidden costs.) Claim Your Spot: Hit us up on WhatsApp to schedule a viewing! [PHONE NUMBER CENSORED]",
+      "price": "€600 / month",
+      "zone": "Central City",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "Double room",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description, photos, and contact information, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T01:55:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2244115462758316/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh2-1.fna.fbcdn.net/v/t39.30808-6/541114049_24379036131782349_7136512323594359872_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Eudsi6xhE24Q7kNvwGpotOE&_nc_oc=AdkStkGjX5-B07DLp26xVe-2Qnrxa7sWIxjaWuec2vR5VhElg7P8lnocd19jepKVqdU&_nc_zt=23&_nc_ht=scontent.fluh2-1.fna&_nc_gid=6Euo8r_T-aKPH5H2pBkrxQ&oh=00_AfWMMFgnsvx5nhBctM2L-CALp71-8xC7DuWptGAt2Ua57A&oe=68BBBF94"
+    },
+    {
+      "id": "262b5f64-9329-81bd-b4f0-f366f3871cbb",
+      "title": "Double room for rent in Barcelona",
+      "overview": "Double room available for a female tenant, close to public transportation and amenities, with a large wardrobe and balcony",
+      "description": "Se alquila habitación doble para chica • Cercano a transporte público a 1 min del metro vilapicina línea azul 🚉 • Supermercados, cafeterías y tiendas a pocos pasos ☕🛍️ • Habitación con Armario Grande • ⁠El piso dispone de un Balcón amplio. • ⁠💰 Precio: 450 €/mes (gastos incluidos) + 1 mes de fianza 📅 Disponible para entrar desde ya",
+      "price": "450 €/mes",
+      "zone": "N/A",
+      "zoneMacro": "Nou Barris",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a clear description of the room, includes photos, and specifies the price and conditions, with no apparent scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T01:54:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079090587729806/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr22-1.fna.fbcdn.net/v/t39.30808-6/541464348_1295461031987518_7340652057516873540_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NAKz5P4uDhwQ7kNvwGsxYAp&_nc_oc=Adnv3OgvU2N7GXaMRb7OFaaounm3_TR8eJbax-p__9sV4spWX_yKWmIDa5OHRSLEGg8zeeZj7zKJteZSUwKhlO9I&_nc_zt=23&_nc_ht=scontent.fblr22-1.fna&_nc_gid=6NVecJ7Msa0IRhxiyZJq8Q&oh=00_AfUovqcRgwaxYKaOnE7ghIhZUhCn2sw7Zz0_DeqOkYv9oA&oe=68BC224C"
+    },
     {
       "id": "261b5f64-9329-8102-9dc3-f3f9d8ba4f94",
       "title": "Room for rent in Santa Coloma de Gramanet",
@@ -239,7 +290,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T19:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078940721078126/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fvns6-1.fna.fbcdn.net/v/t39.30808-6/541450279_1295313298668958_8385536429485827274_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8qnTnU-1Z0QQ7kNvwG-LZ7F&_nc_oc=AdlwRsANv9RrLxXeld-1W6_rCrX8hFmmk_hGGYdWijMPI0Ta3gTMLyM-mcHffT99PEA&_nc_zt=23&_nc_ht=scontent.fvns6-1.fna&_nc_gid=DyYnrKdEZi81ca7XAMhKWw&oh=00_AfV8DpIw12U_Ylpocw62qjOWlae0OS6kE1jXuavRITtP4g&oe=68BBA34F"
     },
     {
@@ -766,7 +817,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T11:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1076625304233766/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fvga2-4.fna.fbcdn.net/v/t39.30808-6/541147326_1300633298422290_3105092810809763480_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=nt7pPbMKMTYQ7kNvwE0saX1&_nc_oc=AdnFBYnjmBxQNTGHNhSyzPOxz0XDRAaiKgxdLktopdzOMrXaD5g-zFgaa4zztVf6ffki5gkzpaGFOTJ7um5OtF6U&_nc_zt=23&_nc_ht=scontent.fvga2-4.fna&_nc_gid=QVtjQxhF66b6iSKQxDdEsw&oh=00_AfWw0478IbbOPqHNaGF4BG7Gxcp7shmURB-P1ZA57RCWrw&oe=68BB584E"
     },
     {
