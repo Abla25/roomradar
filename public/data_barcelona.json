@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-02T14:33:06.754Z",
+  "generatedAt": "2025-09-02T15:37:48.826Z",
   "city": "barcelona",
-  "count": 1095,
-  "totalRejectedCount": 1729,
+  "count": 1097,
+  "totalRejectedCount": 1736,
   "results": [
+    {
+      "id": "262b5f64-9329-81d2-8a48-fbd1277500a5",
+      "title": "Large Double Room with Balcony for Rent",
+      "overview": "A large double room with a balcony is available for rent in the Passige de Gracias area, suitable for women and students",
+      "description": "Habitacion grande double con balcon disponible Zona de passige de gracias Solo para mujeres y estudiantes y chicas Room available Zona passige de gracias Más información por watsap 00[PHONE NUMBER CENSORED] Parada metro 3 minutos Bus 24 hora",
+      "price": "N/A",
+      "zone": "Passige de Gracias",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a photo and contact information, but the price is not specified, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T15:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2244763342693528/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t39.30808-6/541344443_122217127472089183_5702301420876484417_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qoedM_ib3b8Q7kNvwFInQbK&_nc_oc=AdmYuUxKZUz1WjzFJVRy1WETbQrNA_P9hcUOcTTeqzzSula5Cq4eW1_45wfZ72SPsm0&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=3tkRYPx0L5a1JA-ykjHqMg&oh=00_AfWtEMPFGSNnPtXrDlKZizfo7nkZ8qlHF2AohSOxewneyA&oe=68BCEDB5"
+    },
+    {
+      "id": "262b5f64-9329-8115-bd95-ec26e9aa7942",
+      "title": "Room available near metro station",
+      "overview": "A room is available for rent, located 4 minutes from Sant Marti metro station",
+      "description": "Habitación disponible a 4 minutos del metro Sant marti",
+      "price": "N/A",
+      "zone": "Sant Marti",
+      "zoneMacro": "Sant Martí",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and provides some location details, but lacks price information and other essential details.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T15:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310311915867984/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542762615_23872486845762892_5385356037293944117_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5iWPeT-wNO8Q7kNvwG_S2uc&_nc_oc=AdkjbijCGuIc9E-TCD0Bs7AP8KCXkfbbYbIFjqbfKKecdDj2lPzPia_emHMJYhMjnmw&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=jE3wayTLgIgbFzKoHdlpXQ&oh=00_AfXlgiNnVrsM30uvRnzkY0hslwE_Q5Hc455cOIw0EDBnHg&oe=68BCE578"
+    },
     {
       "id": "262b5f64-9329-81a8-8d73-ef836beb20a5",
       "title": "Renting a spacious room in Maragall",
@@ -35,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T14:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2244702219366307/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fnag12-1.fna.fbcdn.net/v/t39.30808-6/541824288_4168572926744916_879048013841223796_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3OZFf28fbAIQ7kNvwFK8_gv&_nc_oc=AdniSS_ZRPKYzPGrko_2bodZgGCQV0MsHkAuj3i3uSs8VGT0p7pCYikKKsQ29ebhGZc&_nc_zt=23&_nc_ht=scontent.fnag12-1.fna&_nc_gid=dmnbwyt__aFELtLWKbIhXw&oh=00_AfVWSbU_9IfVuAq6388BHpCF6ceZDMchzlJWrCXZ1d8oXg&oe=68BCB0C3"
     },
     {
@@ -1004,7 +1038,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T16:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2244004146102781/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -8059,7 +8093,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T01:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4304312769801232/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539333727_10164091118428900_4000774556001187335_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=sKuPQbPzqdkQ7kNvwGnLhRJ&_nc_oc=Adl7ei2GDFzkSQKqe0ho_9E85gEKqWA1mzI963oUdxV55EcckQbi1m_dbwh80LQ_MnE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=4V5UbT9vfi20M-jGPo46gQ&oh=00_AfUMFGdQ3I0MDFURA8MlZLAb1mXRZA-1gu_EtgTckw0h5A&oe=68B569DB"
     },
     {
@@ -8127,7 +8161,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T22:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1075122574793274/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/539272160_122191189298293110_3135997209699270874_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wRtDTwk12WgQ7kNvwHoCpDC&_nc_oc=Adl5chFhqa13SgcNll-EjckYJ6PmHIRXErLClR3EGtE7F_Uuzm1wtOfa2ZRPhDGvgMs&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=QkKgBRK6BOzLawY56pC3TQ&oh=00_AfWw9p-YmIzYQ2fgciDujweT7jxXY7b7Z6Gi_fNEHxzMxg&oe=68B55819"
     },
     {
@@ -8348,7 +8382,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T19:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4303887006510475/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fnag8-1.fna.fbcdn.net/v/t39.30808-6/537166643_1331776355215272_8505477885350802983_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ZwX5LfS7Rx0Q7kNvwFav9pj&_nc_oc=Adl9I96rZZ4lkbAgfJaHJ01hyEDM7rjwARkKI009wk8muvQLKodXjrR8bUUCbzLE-gc&_nc_zt=23&_nc_ht=scontent.fnag8-1.fna&_nc_gid=mLPWjcWoJyw-ZGKOWQ4Ngg&oh=00_AfW1MKLTypd_iKR9ZAP1Vln25-TskqSG7O7YMg3TRSHYPw&oe=68B50493"
     },
     {
@@ -10269,7 +10303,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T16:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074014184904113/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.frpr1-1.fna.fbcdn.net/v/t39.30808-6/538691795_24684267554519641_7481574291259706676_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gIf5TMFJxMYQ7kNvwGhFWd_&_nc_oc=Adnocph_GxvLmbHoVpvbhD_IHbYFZitXEhqJhId7FUTQ3_0qcBY1aKgBiNzezJbEpcU&_nc_zt=23&_nc_ht=scontent.frpr1-1.fna&_nc_gid=kgbhdOJyFgy1KuSo2Z1e_g&oh=00_AfWTQClgN2tVK_HSuDKeExXdC3SBqsHKiurDjdZeKs0-GQ&oe=68B3C24D"
     },
     {
@@ -12513,7 +12547,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T05:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072655488373316/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
