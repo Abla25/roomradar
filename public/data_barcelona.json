@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-02T16:43:31.932Z",
+  "generatedAt": "2025-09-02T17:35:56.126Z",
   "city": "barcelona",
-  "count": 1098,
-  "totalRejectedCount": 1738,
+  "count": 1101,
+  "totalRejectedCount": 1746,
   "results": [
+    {
+      "id": "262b5f64-9329-8158-83cb-d043b86977c4",
+      "title": "Room for rent for single women or mothers with children",
+      "overview": "Room for rent, suitable for single women, two women, or mothers with children, available for immediate entry",
+      "description": "Solo para chicas solas o dos chicas o madres con hijos [PHONE NUMBER CENSORED] para entrar lo antes posible",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description and an image, but the price and location are not specified, and there are no clear contacts provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T17:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026441434352149/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom3-1.fna.fbcdn.net/v/t15.5256-10/541243362_745593118388832_6335280814166378172_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=117846&_nc_ohc=vHM8cNKNGi0Q7kNvwGzWcDP&_nc_oc=AdkSRD3ifrha7s5fVC6GLlg_gEbiwxlorf8Fjue69EsWfCCuP7K8bPN_s4OPxdhXwiE&_nc_zt=23&_nc_ht=scontent.fbom3-1.fna&_nc_gid=TRj_RGlUr-047zv3Uiq1KQ&oh=00_AfW2Tnh73TRCvtUqhXlD0gAqbCnsCYPxRw2fculEHZXBxA&oe=68BCF300"
+    },
+    {
+      "id": "262b5f64-9329-810a-b9ca-d284961f32c0",
+      "title": "Room for rent for one person",
+      "overview": "Interior room for rent, suitable for one person",
+      "description": "Alquilo habitación interior Persona sola.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description and an image, but the price and location are not specified, and there are no clear contacts provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T17:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026444394351853/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom3-2.fna.fbcdn.net/v/t39.30808-6/540696910_122144172110826546_7755376095396482177_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qe3aOdTE4P8Q7kNvwGCI7Jw&_nc_oc=AdnbLocnA2Awbtyf9ZafAwM7QDwOdJpshFyJTvwc3iGNSmVeSQEhRjs70PKI0OhRrQs&_nc_zt=23&_nc_ht=scontent.fbom3-2.fna&_nc_gid=TRj_RGlUr-047zv3Uiq1KQ&oh=00_AfU2Q5R1Gr4xKiyaw0rud7s6yGwoLaAKaQVr76guLkai7A&oe=68BCEF20"
+    },
+    {
+      "id": "262b5f64-9329-81d7-9c07-c94db0d64ef5",
+      "title": "Renting a large room",
+      "overview": "A large room is available for rent in Maragall, with all expenses included, for a single woman",
+      "description": "🏠 Alquilo habitación amplia, para una persona con los gastos incluidos (sólo mujeres) 📍Piso ubicado en Maragall, a 400m de las estaciones maragall y virrei amat, cerca de caprabo, lídl, día, mercadona, bares, restaurantes, centro comercial SOM MULTI ESPAI , centro salut Cotxeras . 💰Precio 400€, todos los gastos incluidos (agua, luz, wifi.) 📩 Si te interesa, escríbeme y concretamos una cita.",
+      "price": "400€",
+      "zone": "Maragall",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, price, and location, and has a photo, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T17:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4310397012526141/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-2.fna.fbcdn.net/v/t39.30808-6/541472273_10162826899749333_2012725044610673868_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=zow421cGN4UQ7kNvwGny6DV&_nc_oc=Adlu1BgoCk9MYWmjjvbylku42HKf9Na7Gq-MAy_gyQ5A8XWVfLTC6ZfrdzeXW7GcTi4&_nc_zt=23&_nc_ht=scontent.fluh1-2.fna&_nc_gid=z8O5qee9ho1Qp2ri5kwbYg&oh=00_AfWA5ImEhKF7wo2Ap2L_STKpFdB4FvRqvxYxEBzcJHJy6A&oe=68BCFE42"
+    },
     {
       "id": "262b5f64-9329-8156-a795-ee9ac86ae6a7",
       "title": "Room for rent in a sunny apartment",
@@ -69,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T14:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1077449317484698/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541832114_10162826421734333_2430641274532098902_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wKf_OSRb48cQ7kNvwFI12OP&_nc_oc=Adm0WiBA79XkkTzvUd7eANZzZd06T5Gs5KKF8qXCsHGNb37vHuiOYkvicIZ1zhvgoJI&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=ODZto41RZHFcJnB_EG6tYA&oh=00_AfWyAO1fIAJZNaUYdJRsA6ZLwBP105An0qaWsUgQ7NM-tQ&oe=68BCB2F3"
     },
     {
@@ -630,7 +681,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T04:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025505884445704/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd9-1.fna.fbcdn.net/v/t15.5256-10/541944259_1273063864556338_7982771804012413811_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=117846&_nc_ohc=S8b_jYzfXkUQ7kNvwFzJoSJ&_nc_oc=AdmAFsRt0HdZ9wgkAjUNgQa1z4T9zcTu45gSUFqYK9sseLioDd_rfp7sGQpL-W1eecA&_nc_zt=23&_nc_ht=scontent.famd9-1.fna&_nc_gid=pKBSCLt2IXRiIjleQAVudA&oh=00_AfUOCNPMEfYyiKn2WrU0A8bxsghlUoZjphi2FF2mwi57gA&oe=68BC4054"
     },
     {
@@ -1701,7 +1752,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T09:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308951756004000/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
