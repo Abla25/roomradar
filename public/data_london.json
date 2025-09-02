@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-02T21:32:50.976Z",
+  "generatedAt": "2025-09-02T22:30:56.329Z",
   "city": "london",
-  "count": 377,
-  "totalRejectedCount": 519,
+  "count": 380,
+  "totalRejectedCount": 523,
   "results": [
+    {
+      "id": "262b5f64-9329-8128-bd62-e4566d77c0b1",
+      "title": "Room for rent in Clapham High Street",
+      "overview": "Double bedroom with personal bathroom in a top floor apartment, fully furnished with views of the city",
+      "description": "Hey all! Looking at going away travelling from October at the earliest, so looking at people to rent my room on Clapham High Street. 📍 Clapham High Street 💵 £1350pcm (potentially slightly lower) + Bills�📅 Available October - April ish * Double bedroom * Personal bathroom * Top floor apartment * Large kitchen/living room * Views of the city * Fully furnished * Large shared roof terrace * Located just off Clapham High Street * 5 min walk from Clapham Common & North * Adjacent to gym and swimming pool * 4 min walk from big Sainsbury’s * Sharing the flat with one other 28yo guy Please let me know asap if you’re interested and we’ll get it sorted!",
+      "price": "£1350pcm",
+      "zone": "Clapham High Street",
+      "zoneMacro": "South London",
+      "rooms": "Double bedroom",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room and amenities, a specific price, and photos of the room are provided. The post also includes a clear call to action for interested renters and provides information about the current tenant, indicating a high level of transparency and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T22:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2114753139059565/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542078636_25389039394018696_8639091666999186961_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QMMhBmcmXJIQ7kNvwF1jiSu&_nc_oc=AdkAlXAplxCbraicWfpT9fVqqYN1WxovmNSLmOuHMiBCUvGD0ztne2PvViRjig6akKQ&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=ySWhp66fvdeJY16YcYcXqg&oh=00_Afb9wHaAvCuyFn_5CZm8zo-RnIbDHZL_tOsNS8MkhvJKZg&oe=68BD35BA"
+    },
+    {
+      "id": "262b5f64-9329-8122-85e1-ced0ef23bc63",
+      "title": "Private rooms and flats available for rent",
+      "overview": "Multiple private rooms and flats available for rent, with options for single, double, and couple occupancy",
+      "description": "•single bed private room available 🏠❤️ •double bed private room available 🏠🎉 •couple room available 🏠🥳 •studio room available 🏠😘 •flats available❤️🏡 Whatsapp number 07367 067741",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a phone number and photos, but lacks detailed information about the prices and locations",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T22:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2114844715717074/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-6.fna.fbcdn.net/v/t39.30808-6/542751037_122113290872969982_6674071622218001954_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7TnS4vfB1_0Q7kNvwEkOhj4&_nc_oc=AdmfBSQ6Z81SggHymQ6_pfgSgSiZHsM1vR7b2rTL0bDlCagZJv6o5fFbkhihB0W4GLg&_nc_zt=23&_nc_ht=scontent.fdel27-6.fna&_nc_gid=uvdDKdA_Lp-VFSUT5thnrQ&oh=00_AfWT35acdH54bksKSlQs55If5NfffjhqJvuM5x_Bj48WUw&oe=68BD27D1"
+    },
+    {
+      "id": "262b5f64-9329-8143-bcef-d2d6344e5bff",
+      "title": "Single room for rent in Notting Hill",
+      "overview": "A single room is available for rent in a house next to Portobello Road, Notting Hill, with a shared kitchen and bathroom",
+      "description": "Hi everyone, I am vacating my single room and I am looking for someone to take over. The room is next to Portobello Road, Notting Hill, and has a little balcony. The house has 3 more room, a kitchen fully equipped with washing machine, and shared bathroom. The area is amazing. In the middle of Portobello road, with markets everyday, restaurants and shops everywhere. However, the square where the house is located is veery peaceful and just next to an accessible garden. Bus transport near the house 7, 23,27,55,70 going towards London mai centre. Notting Hill Gate Station just 10 minutes walk away. Price is 920 all bills included, payable to the agency the 1st of the month. Contract till August 2026, can be extended. Please let me know if interested in viewing. Thank you",
+      "price": "920",
+      "zone": "Notting Hill",
+      "zoneMacro": "West London",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, location, and price, and includes a photo, indicating a high level of completeness and legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T22:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1424873318600186/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel4-2.fna.fbcdn.net/v/t39.30808-6/540896965_24591759717178053_5485474695436485438_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E_vIV0APgiwQ7kNvwGbaTeR&_nc_oc=AdmIq5r6-jxpYo7RcnEdwzkNxiJGBdsklMWM4-nKpuv1QtaMVu0S2Pzzow_7N_VvDZk&_nc_zt=23&_nc_ht=scontent.fdel4-2.fna&_nc_gid=Jk3dPgFDFDq6xcqzDggAYw&oh=00_AfZLXXvAIqd8JZFf9B9bpwXGfVKkUmKjVc6hKEeXDIG_TQ&oe=68BD56D3"
+    },
     {
       "id": "262b5f64-9329-81ed-85b5-cdd52adfa8bb",
       "title": "Private rooms and flats available for rent",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T21:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114847319050147/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel27-6.fna.fbcdn.net/v/t39.30808-6/542751037_122113290872969982_6674071622218001954_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7TnS4vfB1_0Q7kNvwEkOhj4&_nc_oc=AdmfBSQ6Z81SggHymQ6_pfgSgSiZHsM1vR7b2rTL0bDlCagZJv6o5fFbkhihB0W4GLg&_nc_zt=23&_nc_ht=scontent.fdel27-6.fna&_nc_gid=uvdDKdA_Lp-VFSUT5thnrQ&oh=00_AfWT35acdH54bksKSlQs55If5NfffjhqJvuM5x_Bj48WUw&oe=68BD27D1"
     },
     {
@@ -239,7 +290,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T18:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114727219062157/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
