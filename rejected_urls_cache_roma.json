@@ -1791,8 +1791,12 @@
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733961356802832/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T04:30:48.856222"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1338183107973380/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T05:25:35.168122"
     }
   },
-  "total_rejected_count": 1404,
-  "timestamp": "2025-09-02T04:30:36.032683"
+  "total_rejected_count": 1405,
+  "timestamp": "2025-09-02T05:25:15.502536"
 }

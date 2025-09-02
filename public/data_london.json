@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T04:34:20.313Z",
+  "generatedAt": "2025-09-02T05:29:07.621Z",
   "city": "london",
-  "count": 306,
+  "count": 307,
   "totalRejectedCount": 454,
   "results": [
+    {
+      "id": "262b5f64-9329-8159-9051-e5e54d607c2e",
+      "title": "Double Room for Rent in Greenwich",
+      "overview": "A double room is available for rent in Greenwich, with a great location near supermarkets, transport, parks, and amenities.",
+      "description": "✨DOUBLE ROOM AVAILABLE NOW IN GREENWICH SE7✨ ✅ £780 per room (monthly) ✅ £400 deposit Great location, in front of many supermarkets, close to transport, parks & amenities! CONTACT: 📱 WhatsApp: [VAT NUMBER CENSORED] 💬 Facebook DM**",
+      "price": "£780 per month",
+      "zone": "Greenwich SE7",
+      "zoneMacro": "Greenwich",
+      "rooms": "1 double room",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, a monthly price, a deposit amount, and contact information, including a phone number and Facebook DM. Additionally, there is a photo of the room, which increases the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T05:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2114251865776359/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540944582_10239239844314076_929194550714431166_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cyAe1pXeqJoQ7kNvwHvUasF&_nc_oc=AdlAFHy6NhlpVem1SAAtYweA4PdH8LCMU-ZczjaFxGTSK3574h8Xbl8tUQfr-dUoqSs&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=RLbXDQFsF0aevsjIQfwkhA&oh=00_AfUHZCsQ_i17I0hYVE-FjoR1GzAoWT5Y-8PkfYZF3IxPeg&oe=68BC344D"
+    },
     {
       "id": "262b5f64-9329-81ea-9879-e1d176604596",
       "title": "Double bedroom for rent in Tottenham",
