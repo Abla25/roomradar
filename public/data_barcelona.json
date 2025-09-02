@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T03:15:57.602Z",
+  "generatedAt": "2025-09-02T04:34:15.089Z",
   "city": "barcelona",
-  "count": 1061,
+  "count": 1062,
   "totalRejectedCount": 1671,
   "results": [
+    {
+      "id": "262b5f64-9329-815b-8796-f51b148f56d0",
+      "title": "Room for Single or Two Girls",
+      "overview": "A room is available for single or two girls to move in as soon as possible.",
+      "description": "Habitacion para Chicas solas o dos chicas para entrar lo antes posible [PHONE NUMBER CENSORED] se aceptan visitas para que vengan Aver la habitación",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post has contact information and an image, but the price and zone are not specified, and there is limited information about the room.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T04:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025505884445704/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd9-1.fna.fbcdn.net/v/t15.5256-10/541944259_1273063864556338_7982771804012413811_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=117846&_nc_ohc=S8b_jYzfXkUQ7kNvwFzJoSJ&_nc_oc=AdmAFsRt0HdZ9wgkAjUNgQa1z4T9zcTu45gSUFqYK9sseLioDd_rfp7sGQpL-W1eecA&_nc_zt=23&_nc_ht=scontent.famd9-1.fna&_nc_gid=pKBSCLt2IXRiIjleQAVudA&oh=00_AfUOCNPMEfYyiKn2WrU0A8bxsghlUoZjphi2FF2mwi57gA&oe=68BC4054"
+    },
     {
       "id": "262b5f64-9329-8166-bace-dc24f71ffe08",
       "title": "Room for rent in Sant Boi",
