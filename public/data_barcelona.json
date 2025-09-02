@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-02T15:37:48.826Z",
+  "generatedAt": "2025-09-02T16:43:31.932Z",
   "city": "barcelona",
-  "count": 1097,
-  "totalRejectedCount": 1736,
+  "count": 1098,
+  "totalRejectedCount": 1738,
   "results": [
+    {
+      "id": "262b5f64-9329-8156-a795-ee9ac86ae6a7",
+      "title": "Room for rent in a sunny apartment",
+      "overview": "A person is renting out their room in a quiet apartment with a cozy balcony, dishwasher, and close to metro L2 Bac de Roda station",
+      "description": "Hi beautiful people, I will be away from Oct 1 to Oct 15 and am looking for someone lovely to stay in my room. (Short term stay is also available) It is a big room with 180cm double bed - €450 with €200 deposit for half month The room and flat are exactly the same as in the photo. It’s a sunny, quiet apartment. Everything is clean, tidy and renovated. The flat has a cozy balcony, dishwasher, 3 bedrooms, 2 bathrooms and it is really close to metro L2 Bac de Roda station. You will be living in a neighborhood that's close to the center yet enjoy the chilled local vibe. I am hoping to find someone who’ll treat it with care. Please feel free to pm me :)",
+      "price": "€450 with €200 deposit for half month",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "3 bedrooms, 2 bathrooms",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a photo of the room, a clear description of the apartment, and contact information, but the reliability score is not 5 because there might be some missing information",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T16:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2244788929357636/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542014479_24315072464828303_5566804740849464056_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WP0Fl9357eYQ7kNvwGpWzBf&_nc_oc=AdmCZdDYC4Lc_AhYqno3zqad6mMCUpWaCAsd-I0Uu9gQ9zwvAhsWcxwSyhI7cYnlWUA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=kujrWVcj09gyDxoexdR0ug&oh=00_AfWUrauxq6vi0NAVjX-vHNnwQjP-0FsJWdmS2KES5a2R0A&oe=68BCE784"
+    },
     {
       "id": "262b5f64-9329-81d2-8a48-fbd1277500a5",
       "title": "Large Double Room with Balcony for Rent",
@@ -137,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T13:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310220915877084/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -8824,7 +8841,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2239613976541798/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539067696_4049188292009897_4027362282739338966_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MZpq0o-PrmwQ7kNvwEJkaae&_nc_oc=Adly-ZIKJS3G9shIl_Laj1erfILQCK_koCpzBlspbsUkiWse8TbiRCarLYZ153lNzyE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=7akS-X2R5Vyw08pMk1vzMg&oh=00_AfXn8N_DZITo93rtmwh0gLaQLDXoX8uZWic8sdUxoCvr1g&oe=68B4CA93"
     },
     {
@@ -13040,7 +13057,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:10:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1070922531470710/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
