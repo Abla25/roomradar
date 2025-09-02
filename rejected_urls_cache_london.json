@@ -1,33 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/1075915486829306/posts/1422994705454714/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:29:45.386386"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1841233036475992/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:30:23.245219"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1841224006476895/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:30:23.246549"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112783979256481/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:32:20.602435"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112788299256049/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:32:20.603599"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112771545924391/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:32:56.621612"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2112712759263603/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-08-31T09:32:56.622746"
-    },
     "https://www.facebook.com/groups/1075915486829306/posts/1423085392112312/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-08-31T10:33:02.493331"
@@ -735,8 +707,20 @@
     "https://www.facebook.com/groups/478152972719598/posts/2114330542435158/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T08:42:27.544078"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1424511328636385/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T09:34:08.713617"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1424502835303901/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T09:34:44.047427"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1424488435305341/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-02T09:34:44.048516"
     }
   },
-  "total_rejected_count": 462,
-  "timestamp": "2025-09-02T08:39:39.146078"
+  "total_rejected_count": 465,
+  "timestamp": "2025-09-02T09:33:52.356034"
 }
