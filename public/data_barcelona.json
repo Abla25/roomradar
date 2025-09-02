@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-02T20:39:00.498Z",
+  "generatedAt": "2025-09-02T21:32:37.752Z",
   "city": "barcelona",
-  "count": 1116,
-  "totalRejectedCount": 1765,
+  "count": 1119,
+  "totalRejectedCount": 1773,
   "results": [
+    {
+      "id": "262b5f64-9329-8148-ac84-fa675b6a72dc",
+      "title": "Studio apartment for rent in Sabadell",
+      "overview": "A studio apartment is available for rent in Sabadell, near the Carrer del Pare Rodés, for 300 euros per month.",
+      "description": "¡Hola! Si estás en la búsqueda de un refugio cálido, tengo algo que podría interesarte... un estudio completo por solo 300 euros. La dirección, si te llama la atención, es Yugo Sabadell LLac, en la bulliciosa Carrer del Pare Rodés, en Sabadell, 08208. ¡Mil gracias! —¿Te imaginas? Aquí, en este pequeño rincón, la vida tiene un sabor especial, como un café recién hecho en una mañana de domingo... cada día podría ser una nueva aventura, un lienzo en blanco listo para ser pintado con experiencias. ¡Qué emoción!",
+      "price": "300€",
+      "zone": "Sabadell, 08208",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a detailed description of the apartment and its location, as well as a photo. However, the contact information for the landlord is not clear.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T21:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079672881004910/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542755757_122198468126048730_324347563481492958_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wQLbyXzMJFYQ7kNvwGKss6L&_nc_oc=Adk91JdT9QXLh3zPjTtUVrymf91LhNcjiMC5z2gh32dSc2bqFGiEAdaKZ4rzeD_7IIw&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=nEA9HZ-swIEL9C9g68zzIg&oh=00_AfU1RO9Z88xQcrIAhDMsx_oI2p0ZARZLFaBiOeMBe5uomA&oe=68BD17CB"
+    },
+    {
+      "id": "262b5f64-9329-81c3-b680-c846445d885f",
+      "title": "Medium-sized room for rent in Barcelona",
+      "overview": "A medium-sized room with a large bed is available for rent in the La Trinidad neighborhood of Barcelona, near public transportation and amenities.",
+      "description": "Se Alquila Habitación mediana con cama grande para UNA CHICA responsable y trabajadora , en el barrio la trinidad , sant Andreu . A la orilla de la Av . Méridiana , transporte al lado de casa AUTOBÚSES D50 y H2 , y autobuses dirección a Sagrera, buses (62,96,97,104) metro más sercano a 9 minutos caminando , Trinidad Nova L3 y L4 . Para más información por privado o a los teléfonos what, [PHONE NUMBER CENSORED] o al [PHONE NUMBER CENSORED] fecha de entrada 1 de octubre , Barcelona, solo chicas",
+      "price": "N/A",
+      "zone": "La Trinidad, Sant Andreu, Barcelona",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a detailed description of the room and its location, as well as contact information for the landlord. It also includes a photo of the room, which increases the reliability of the listing. However, the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T21:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079738460998352/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/541432579_122193833180328090_1742213505690073588_n.jpg?stp=cp6_dst-jpegr_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=R3urSD_0xdYQ7kNvwFgAgoj&_nc_oc=AdlFvoGN0h-Fgzzyz33XvXjKxQvtuHRMvwzaCZLKG5WWewg697CLBEoPO1Q4r0Xr2lI&_nc_zt=23&se=-1&_nc_ht=scontent.fixc4-3.fna&_nc_gid=FQc_SNiFZK3IfP5pggLscA&oh=00_AfXHCMTa4QwBQQQ3WEckBTK3AFDjUQVjoDqDsurc2JI_Lw&oe=68BD2839"
+    },
+    {
+      "id": "262b5f64-9329-8145-bd8c-c35d6ac2d553",
+      "title": "Room available for rent in Torre de Baro",
+      "overview": "A room is available for rent in the Torre de Baro area, near metro line 11 and Renfe R3, R4, R7, preferably for a long-term female tenant",
+      "description": "Habitación disponible para entrar ya en zona de Torre de Baro línea 11, Renfe R3,R4,R7,solo CHICA o SEÑORA, por favor gente seria para larga estancia, no se alquila por días ni meses larga estancia información al privado o al [MESSAGING CONTACT CENSORED]",
+      "price": "N/A",
+      "zone": "Torre de Baro",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post seems legitimate, has a photo, and provides contact information, but the price is not mentioned",
+      "datePublished": "",
+      "dateAdded": "2025-09-02T21:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079749064330625/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/541434547_25244508925137032_2465229324475029014_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DdQFaoJEK_sQ7kNvwGAs-iX&_nc_oc=AdnnMFc4Tp7aXu1SnsBZmi34ixiS9PpPc0Ib5YvoP9NpEseB1spxNy8yQ0WGRWWoiho&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=szTL-fVtC-kSJpVqKwXx-g&oh=00_AfUE9JQ1dpIbU7jmzthczt9t-blW810lzjUtwreENV7MAA&oe=68BD25FC"
+    },
     {
       "id": "262b5f64-9329-813a-a4b4-fdd4ab76711c",
       "title": "Room for rent in Hospitalet de Llobregat",
@@ -3231,7 +3282,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T12:45:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077887037850161/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -4149,7 +4200,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T18:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2185204171993652/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
