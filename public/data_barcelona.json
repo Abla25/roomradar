@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-03T14:36:12.681Z",
+  "generatedAt": "2025-09-03T15:35:04.856Z",
   "city": "barcelona",
-  "count": 1177,
-  "totalRejectedCount": 1862,
+  "count": 1179,
+  "totalRejectedCount": 1866,
   "results": [
+    {
+      "id": "263b5f64-9329-812d-949a-f1e93b3a2907",
+      "title": "3-bedroom apartment for rent near Hostafrancs station",
+      "overview": "A 3-bedroom apartment near Hostafrancs station and Plaza España is available for rent, with amenities including air conditioning and a small terrace.",
+      "description": "3-bedroom apartment near Hostafrancs station and Plaza España to rent. The flat has 3 bedrooms, all with air conditioning, a kitchen-dining room and a small terrace. Rent inclusive of water and electricity 1800€ Minimum rental period of 11 months. A 2-month deposit is required.",
+      "price": "1800€",
+      "zone": "Hostafrancs",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description of the apartment, a specific price, and photos, indicating a high level of reliability and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T15:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080337407605124/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541838167_1208027481344537_4783738932394738238_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8Jzl1YM4fQwQ7kNvwEiJ4Rc&_nc_oc=AdkVjXVfvXfoMjlWtIBrATNo9aIMQ7xk0ZNeSn3vya0oKnL60BE7Mfpv97cdG-rkRfU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Wv6-8grG5ijuC_M3YF55UQ&oh=00_Afal81zOjDj_j_As5RkjaqzL6513ZK3inV0rHw3-5ktNPA&oe=68BE231E"
+    },
+    {
+      "id": "263b5f64-9329-8166-91e0-e3ec023db98d",
+      "title": "Large room for rent in Barcelona center",
+      "overview": "A large room is available for two women or a couple in Barcelona center",
+      "description": "Habitacione grande disponible para dos mujeres y dos chicas También quiero aceptar pareja [PHONE NUMBER CENSORED] Barcelona centro",
+      "price": "N/A",
+      "zone": "Barcelona center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, includes a contact number, and has an image, which increases its reliability, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T15:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080343247604540/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541674684_122217269876089183_4492749565781546680_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dTkzoRlfCCMQ7kNvwEB0e3i&_nc_oc=AdkQIoNiL5CLinFYlFhcPahlet_ZiNm_GuQgHsZdxQy3Dxb8t_5gcPUzVqOld8CLjeg&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=kpodaQIouoHrlZR361ljfQ&oh=00_AfYJSxvKiKOQjT8UL3G-l2YwLzYufqSlj97skQ0jelcalw&oe=68BE4C2C"
+    },
     {
       "id": "263b5f64-9329-810b-871c-f69b8c493507",
       "title": "Room for rent in Montbau and Valldhebron area",
@@ -120,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T12:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2245427552627107/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -426,7 +460,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T07:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2245302932639569/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-sof1-1.xx.fbcdn.net/v/t39.30808-6/540584958_122098761219003818_8804305324970559254_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Jv47nVxaH5MQ7kNvwEqHTbC&_nc_oc=AdkdfCsB6Jt1bsZDdeqRmGQvVplWTJs_PDzvsJ3dOxPvC95dR8pdDsyNJ9WfgtiIwOk&_nc_zt=23&_nc_ht=scontent-sof1-1.xx&_nc_gid=l4tmMTQW6Nmu6nFGAooXXA&oh=00_AfaHg3KeotOHv_Sa-EMPXDOqbPeRQ3lWcwI3RN0xOhs5xQ&oe=68BDB859"
     },
     {
@@ -664,7 +698,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T05:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2245207632649099/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541648308_1472008717173966_2120629017997449756_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ripZ_TbLpekQ7kNvwFw3Kj0&_nc_oc=AdkgzFcJ7jPtXhfAaH7wPZ75A7MupnFtGxFUiq7VxXuZW54XNXyf-YEEdVoIsH9eRRM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=JzIu4EZ1LjBqj-CcWH5wdA&oh=00_Afa-cCnvXkQyEdfReXS0UU2hDsgto7_Yk8hcratBfAdqLg&oe=68BD8F4C"
     },
     {
@@ -1820,7 +1854,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T09:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310004332565409/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fixc10-2.fna.fbcdn.net/v/t39.30808-6/543176985_24338254942469702_2022395160912319502_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xfmejVb_nygQ7kNvwH1iv6i&_nc_oc=Adm6SoSsYVtLLImJXOuOS6MCjJRCJFQsMFCN1TYspZe4FCz1aqBnvhCetfd4aBjsLV8&_nc_zt=23&_nc_ht=scontent.fixc10-2.fna&_nc_gid=8sr3YU3rOV_N6ang6Ja5sA&oh=00_AfVlK_bc-wmO9GsxfFPTpbPAkkLqavpigfvVR1KtFjXSIw&oe=68BC8E43"
     },
     {
@@ -2721,7 +2755,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T12:52:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078671597771705/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel18-1.fna.fbcdn.net/v/t39.30808-6/541779822_122157623810759821_3128981267977338105_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=yygi5Py0brgQ7kNvwFQNx0Q&_nc_oc=AdnR-vQP_O88ddyt4HRRXsS7Dj_H3YtUOJ1Xrc2P0hhxKKOuO3Xa7dYymbueFx84ECQ&_nc_zt=23&_nc_ht=scontent.fdel18-1.fna&_nc_gid=pCE4T7EeM3d7l5JfC_ZbnQ&oh=00_AfXp1VBVj-uGgdVkrHQD-kf9gd6AfO6yh6J0kD2-SiYN_A&oe=68BB6594"
     },
     {
@@ -4251,7 +4285,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T12:46:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077820144523517/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -15726,7 +15760,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-24T11:49:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4017102025286090/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {

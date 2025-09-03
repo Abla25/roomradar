@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T14:36:17.354Z",
+  "generatedAt": "2025-09-03T15:35:17.162Z",
   "city": "roma",
-  "count": 532,
-  "totalRejectedCount": 1763,
+  "count": 535,
+  "totalRejectedCount": 1780,
   "results": [
+    {
+      "id": "263b5f64-9329-812d-9d18-db14cdebb91d",
+      "title": "Room for rent in Pigneto, Rome",
+      "overview": "A room in a shared apartment is available for rent, with a private bathroom, shared kitchen, and close proximity to public transportation",
+      "description": "Salve a tutti, si libera da subito una stanza a Roma, zona Pigneto! - la camera: è ben illumina, spaziosa e con il bagno privato, esternamente ha le corde per stendere i vestiti. - la cucina è in condivisione con una sola coinquilina (che frequenta lo ied), ed anche è dotata di lavastoviglie. - la posizione: 10 minuti a piedi dallo led in via Alcamo, e 15 minuti a piedi dallo led in via Casilina. - mezzi di trasporto: 4 minuti a piedi dalle fermate del 105 e del trenino Roma-Giardinetti, 10 minuti a piedi dalla metro C - Pigneto, e 20 min a piedi alla metro A - Ponte Lungo, e della stazione Tuscolana. Il costo è di 650€, spese escluse.",
+      "price": "650€",
+      "zone": "Pigneto, Roma",
+      "zoneMacro": "Pigneto",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the room and location, but lacks photos and may not be entirely trustworthy without further verification",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T15:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31054546887523403/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8181-86ad-e73ca68b235e",
+      "title": "Two single rooms for rent in Casalbertone",
+      "overview": "Two single rooms are available for rent in a luminous apartment in Casalbertone, with a kitchen, bathroom, and another occupied room",
+      "description": "Affitasi due ampie camere singole di 18 e 20 mq libere da subito nel quartiere Casalbertone (adiancente Stazione Tiburtina) con fermata dell'autobus di fronte casa, a due ragazzi (studenti o lavoratori). Appartamento luminoso in cui è presente anche: cucina abitabile, bagno ampio e altra camera occupata da un lavoratore. Prezzo camera gialla: 480€ + spese (bimestrali) Prezzo camera verde: 520€ + spese (bimestrali) Richiesta 1 mensilità di caparra. No animali, possibilmente no fumatori. Regolare contratto. Riscaldamento autonomo. Periodo di permanenza minimo: almeno 10 mesi. Per ulteriori informazioni o concordare una visita contattami pure in privato",
+      "price": "480-520 euros + bimestral expenses",
+      "zone": "Casalbertone",
+      "zoneMacro": "",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the rooms, prices, and contact information, and includes photos",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T15:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735455746653393/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel25-2.fna.fbcdn.net/v/t39.30808-6/542135685_10240004834204500_2029209225101045392_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=HtIcNVg-UA8Q7kNvwEkl-Np&_nc_oc=AdnFSvnrfzJUlSomq6krW4WkYAF04Z6KEXlOGRWpw1vx89N91RgQDuxY_H1LzucpjlM&_nc_zt=23&_nc_ht=scontent.fdel25-2.fna&_nc_gid=lWmxtzaC3coz3gCpMDFykA&oh=00_AfZE1RUu4CI42mk1q1S-bPILMUxsTyWTx0rHRYm6grS_gQ&oe=68BE224B"
+    },
+    {
+      "id": "263b5f64-9329-8135-866c-ff2006f91b9b",
+      "title": "Double room for rent in Pigneto area",
+      "overview": "A double room of approximately 40 m² is available for rent in a 100 m² apartment in the Pigneto area, with a monthly rent of 800€ for two people or 700€ for a single person, excluding expenses.",
+      "description": "Affittasi camera doppia di circa 40 m² composta da due letti singoli, ma si possono sostituire con un letto matrimoniale, due ampi armadi e zona studio/lettura. L'appartamento è di circa 100 m² composto dalla camera in foto, due camere singole già affittate, cucina abitabile con balcone e bagno in comune. Si trova al Pigneto in Via di Acqua Bullicante a due passi dalla fermata della metro C Malatesta. Inoltre a pochi passi sulla Prenestina i tram per la stazione Termini e il Policlinico, sotto casa la fermata degli autobus verso la stazione Tiburtina e piazzale del Verano. Questi collegamenti permettono di raggiungere facilmente l'università Sapienza e Tor Vergata. La zona è tranquilla ma ricca di servizi quali supermercati, farmacia, pizzerie, bar, palestre e negozi. Il canone mensile è di 800€ se affittata a due o 700€ per un singolo, spese escluse. Si chiede caparra anticipata di due mesi alla stipula del contratto con garanzia di busta paga o dichiarazione. Per le visite contattatemi in privato.",
+      "price": "800€/700€",
+      "zone": "Pigneto",
+      "zoneMacro": "Pigneto",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room and apartment, includes photos, and has a clear description of the rent and expenses, with no apparent scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T15:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1339335024524855/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-3.fna.fbcdn.net/v/t39.30808-6/541874972_2130909450735656_8445599297969978550_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1-dlteTsg-kQ7kNvwFnquBK&_nc_oc=AdmIYcRVKWWls8xFHkRJSyVjPNy_jBIIYJwXjcZmv3b9LUg1Vo2RJMI5RkeliryMj8jYgHpGopgdIjdYVniP-Uu4&_nc_zt=23&_nc_ht=scontent.fdel27-3.fna&_nc_gid=l9oiUvfRz2EEaQpbJfQs7w&oh=00_Afat0Klb8uJn5EcfZpE3d42gVepILYaDYN36RNo9zbvaIQ&oe=68BDDC40"
+    },
     {
       "id": "263b5f64-9329-8113-beca-eb6132f1616c",
       "title": "Single rooms for rent in Rome",
@@ -511,7 +562,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T08:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31050198624624896/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -1157,7 +1208,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T15:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31039836275661131/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -2857,7 +2908,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T06:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733298130202488/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fshl1-1.fna.fbcdn.net/v/t39.30808-6/509155584_1222569209604553_4993167927427303386_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5BESsVdXPbYQ7kNvwGDuDZp&_nc_oc=AdkKu38_hOidjU1y6L9Uo4tbRiCGvov6UT9CdHEEH14ykfgnrIMOG0groLkR1Yj_2gk&_nc_zt=23&_nc_ht=scontent.fshl1-1.fna&_nc_gid=Pf9Eu12U6u9HQKmsfrJ5BA&oh=00_AfUxWBLghta7QuGV1h4mvOSKTZRk0g-HWw5zJukisvX2nQ&oe=68BB05A3"
     },
     {
@@ -3350,7 +3401,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T15:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732575643608070/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/539955914_24483533154599247_4048497775833567694_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DEDe_hJN3LcQ7kNvwGK6K3k&_nc_oc=Adnbr097MfZl7-z05erBOVEujwjEeejK2yYUbXQZrqTLL14QHlzd9JhHvk9mC99Z9WE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=3AaDUIlBdPoxqGgNvSro_Q&oh=00_AfUVj6Y6ecZj739I-9tXfFPBvxHVgVSUKhGsAajbha4CHQ&oe=68BA1E1D"
     },
     {
@@ -6376,7 +6427,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T21:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1334976081627416/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbho5-1.fna.fbcdn.net/v/t39.30808-6/539584060_122128273406924219_3737911473390129720_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=7Dw3bxGBtaQQ7kNvwEE08Eu&_nc_oc=Adl1nZe8kMu-QY655nWB57Is2099MN9ySPcchuVMYMjqXk77V-RfXOe2w5ETy1KSWZs&_nc_zt=23&_nc_ht=scontent.fbho5-1.fna&_nc_gid=8T-dEt4JFEs3r07zwRLzEg&oh=00_AfWfPZfewRbF3LpUZxj63PI-wOTW-v3Vw4aSpGB07g2M-w&oe=68B692BE"
     },
     {
