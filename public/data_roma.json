@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-03T06:44:30.670Z",
+  "generatedAt": "2025-09-03T07:31:52.669Z",
   "city": "roma",
-  "count": 499,
-  "totalRejectedCount": 1659,
+  "count": 500,
+  "totalRejectedCount": 1662,
   "results": [
+    {
+      "id": "263b5f64-9329-81b7-bd9a-f8a201f5ea16",
+      "title": "Rooms for rent in Malta",
+      "overview": "Renting out rooms in central areas of Malta, such as Sliema, Gzira, Msida, and Ta' Xbiex",
+      "description": "I have 13 apartments in Malta and I rent out rooms in central areas such as Sliema, Gzira, Msida and Ta’ Xbiex. • €650 – Double room with private bathroom • €600 – Double room • €550 – Single private room • €300 – Shared room (bed in a twin room) ⚠️ Important: Please do not contact me if you are an agent.",
+      "price": "€300-€650",
+      "zone": "Sliema, Gzira, Msida, Ta' Xbiex, Malta",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some information about the rooms and prices, but there are no photos and the reliability is affected by the lack of visual evidence and potential scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T07:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735053050026996/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-81d0-8585-ee0a30ad9317",
       "title": "Room for rent in Tor Marancia",
@@ -35,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T04:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1711476662880114/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
