@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-03T21:30:16.065Z",
+  "generatedAt": "2025-09-03T22:31:59.155Z",
   "city": "london",
-  "count": 456,
-  "totalRejectedCount": 602,
+  "count": 461,
+  "totalRejectedCount": 605,
   "results": [
+    {
+      "id": "263b5f64-9329-81e6-abcc-f8bab6fd3897",
+      "title": "One bedroom apartment for rent",
+      "overview": "A one-bedroom apartment is available for rent, but no additional information is provided",
+      "description": "One bedroom apartment for rent Send a dm",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks essential information such as price and location, and there's no contact information provided aside from a general 'send a dm' request",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T22:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843932466206049/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542671709_122154349796905910_2531819096992246114_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=KFsN1fpFDKsQ7kNvwEjXhdt&_nc_oc=Adk7bQvfFbB5TJI735S6ZdRIXFQ5NhyVZOs6TqPG9vO0Pa6P3PjrhzRL2wP5-WX8VEA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8pn1Max9K7JtRf2kJ8GVRQ&oh=00_AfYmLht2EwNFVfvLvYYZ68JYBWXpUse8RePoE1UQXVvM6w&oe=68BE7BBE"
+    },
+    {
+      "id": "263b5f64-9329-812e-bb88-cec828717562",
+      "title": "Property Owner with Multiple Apartments Available",
+      "overview": "A property owner has 1, 2, 3, and 4 bedroom apartments available for immediate move-in, and is open to working with tenants with low credit",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area thank you",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post has a clear description of the available apartments and the property owner's requirements, and includes a photo, which increases its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T22:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843954789537150/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540623771_122129198504934508_7086217595700824743_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8-Adr24SatAQ7kNvwGC-veO&_nc_oc=Adk6k3Yfah2L_eSKMJNd2STtpmg4RUcMVtw8cu5_qzk4ejuoQWLhe0kC1eWOVjk__-4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=4CBMQZpRTyfPyf6Lk84btw&oh=00_AfZ96j5zoHMNs6iWGMYoDUTXiCuTd3I-qQshRmYil_ps8A&oe=68BE7B39"
+    },
+    {
+      "id": "263b5f64-9329-812d-80c3-e00f32f4f253",
+      "title": "5 Bedroom House for Rent in East London",
+      "overview": "A landlord is offering a 5 bedroom house for rent in East London, with 2 bathrooms, outdoor toilet, and parking space, near Gants Hill station",
+      "description": "Hello i am a landlord and I'm looking for someone to move into a 5 bhk bedroom house. 🛌4-5 Bedrooms 🚽x2 bathroom and outdoor toilet 🚗 x2 Driveway with parking space 🏡 Huge garden 2 King size 2 Double size 1 box room 📍Gants hill station 4 mins walking distance Central line Near ilford 📍East london 🛍️🛒 Groceries and food shops all within 1 min walking distance. Friends & family welcome Students, bachelors welcome ‼️‼️Still need to do flooring, carpet for stairs & doors once the full house is taken‼️‼️‼️ 07831 665640",
+      "price": "N/A",
+      "zone": "East London",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post has a detailed description of the property, but lacks photos and a clear price, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T22:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843961732869789/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-81aa-8e4d-e31ff365640d",
+      "title": "Private Landlord Seeking Clean and Honest Tenant",
+      "overview": "A private landlord is looking for a clean and honest tenant for their place, with no credit or background checks required",
+      "description": "I’m a private landlord I just need a clean and honest tenant for my place I do not check credit or any background check... message me if only you are ready to move in or secure the place for your move in date",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post has a clear description of the landlord's requirements, but lacks photos and detailed information about the property, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T22:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843965802869382/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541548490_122126934752933232_47070306645133459_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eJaKuS8agqgQ7kNvwGY0L7M&_nc_oc=AdlWkDj6xAHv7xXpBKw0JQ84eKWdCSG6IDYF6NhBmwiivDErsmE82uw-NiNpopH4XBY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=pNXgLrqp2S2nhm6-rtFcPQ&oh=00_AfbAcCmS0NPsjQ7GBe7PM4Lu5ZtYUMddla7KhqE2MuQ70A&oe=68BEA08C"
+    },
+    {
+      "id": "263b5f64-9329-8100-9e24-e3683ded6948",
+      "title": "Double Room for Rent",
+      "overview": "A double room is available for immediate move-in",
+      "description": "One double room is available. Immediate move in only",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides a clear description of the available room and includes a photo, but lacks information on price and location, and does not provide contact information beyond the Facebook link.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T22:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1425782771842574/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel36-1.fna.fbcdn.net/v/t39.30808-6/541363040_2599959597007295_5078809675578200727_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3-J8AGybvWcQ7kNvwHVC3a-&_nc_oc=AdlZXwUpxwGf2bVbZlvOESP3d2Wj93tJWsh4IuuOTavlMoWBgz2Dmi6KdwSf86VBGv8&_nc_zt=23&_nc_ht=scontent.fdel36-1.fna&_nc_gid=YEzJFb2a-ebONiwoTT2M5w&oh=00_AfYTvsYglTlncRJ7JMPZGpI3mcyQM-RfLoz6i0i43MKnPA&oe=68BE8F15"
+    },
     {
       "id": "263b5f64-9329-81ce-bfe1-da7526f1f0f6",
       "title": "Private Room for Rent in London",
@@ -52,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T21:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843938516205444/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/541659887_2599958520340736_59007038869876599_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ioD6zNsmQ40Q7kNvwEDfoxP&_nc_oc=AdlRlU6_Ugwlzs6MvJJPVFIU2dTaHnu9Gnt_EFkWT-Uy3XMszftpXSWmXCsvvB9trWg&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=91Zge7-6TzcVSiGeWg_0TA&oh=00_AfbCI-bz1hJPipMX0AK52gxxd5ItVuSNGKw07wkqBd7GSw&oe=68BE9444"
     },
     {
@@ -69,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T21:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843939142872048/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/540840795_1157718189741435_4281336073198065862_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eoCiZs06g7kQ7kNvwHwITA3&_nc_oc=Adk4q2PKRPfhhY3ybvYA4H6zxaJvjb5bg-RuACsOFVGdkjT9LWaZ4eivJlLtNyRQ6Io&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=R4b-z3TzgZqmHaVtH_Kpng&oh=00_AfbO0lZ0D2LiLd18EE2SipJKADhAgqSK7gA7JmJ6qZPtCQ&oe=68BE6D8B"
     },
     {
@@ -834,7 +919,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T08:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843471842918778/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542762943_122134420472416108_8630410730783038787_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2Gi2gbenK_4Q7kNvwEpbAKp&_nc_oc=AdlYaFGopfwX1f0oColxTF6N-JOIBTA2tzisyos6Nw41o59-Hyy9ifK00ZWqTNqNy58&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=NcAc72cdvjz0fIg4CFmIqA&oh=00_AfZbleJPCueR98urKj3BpXXsdfagXtXbiNl1NFSjEZ815g&oe=68BDB0CB"
     },
     {
@@ -1055,7 +1140,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T03:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114977079037171/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541802405_1462028981798365_8863908542802819452_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=f_VCqqeCIpoQ7kNvwFkdHJS&_nc_oc=AdmefA3xMRa20XCmVH7BDaQjyLSJKBUQpcCDARAQ1c0IrQIMxh91rqRPUEkAaNl0PKM&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=E9cmraN12y9sRavCp0XI9g&oh=00_AfZ4PUWGZEEu3vpcol2smAhDrQl-lgJ1r3sRGlw1FdL98w&oe=68BD9CA6"
     },
     {
@@ -1191,7 +1276,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T01:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843216456277650/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbho4-1.fna.fbcdn.net/v/t39.30808-6/542752555_122126671946933232_2627551932596311148_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=sL8mwfM5qy8Q7kNvwFqvMKu&_nc_oc=Adm3X7_u6CnNtdnkezzMFQ40Vj1GQQ7Moe-4inqx9wv3DRFvcdbrmpVyeHTpaErK1fA&_nc_zt=23&_nc_ht=scontent.fbho4-1.fna&_nc_gid=QvgS4dMuIHr4eSVRIzOUPg&oh=00_AfYu9H1-wAsAbVpnr8x3twO5TCkoWXBvSgP0SduHvjY5NQ&oe=68BD6CEF"
     },
     {
