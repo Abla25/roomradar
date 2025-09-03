@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T04:34:01.461Z",
+  "generatedAt": "2025-09-03T05:27:45.436Z",
   "city": "london",
-  "count": 397,
-  "totalRejectedCount": 534,
+  "count": 400,
+  "totalRejectedCount": 535,
   "results": [
+    {
+      "id": "263b5f64-9329-81eb-8c41-d005fa9613f4",
+      "title": "Renovated Double Room for Rent in London Dagenham",
+      "overview": "A big double room is available for rent in a renovated house in London Dagenham, with bills, bed, and mattress included, and 24/7 heating",
+      "description": "Big Double Room Available from 01/10/2025 RENOVATED Wardrobe, bills, bed and mattress included All bills included HEATING 24/7 London Dagenham AreA RENT 750 pound/Month House in front of TUBE STATION and BUS STOP For info massage in private",
+      "price": "750 pound/Month",
+      "zone": "London Dagenham",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a clear description of the room, includes photos, and has a specific price and location, with no apparent scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T05:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115098839024995/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccj9-1.fna.fbcdn.net/v/t39.30808-6/541054880_4150915681861131_5093795492464027232_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=49tqLVZGr08Q7kNvwGpCbhW&_nc_oc=Admf8nk3J5CDTqygrN2CaLdzgxZe95YWnInduy5GycO5kdiSFDMPx153geBTwLBABW4&_nc_zt=23&_nc_ht=scontent.fccj9-1.fna&_nc_gid=rIq-KipVhHDWSXS13GDYkw&oh=00_AfYboUOvwtXdwlFlZfud0AITXf2m3BgeKFmF0xEi60kajA&oe=68BD861E"
+    },
+    {
+      "id": "263b5f64-9329-817f-b1d7-e908866cd347",
+      "title": "One bedroom flat for rent",
+      "overview": "A one bedroom flat available for rent in IG3 for 1250",
+      "description": "One bed flat available in ig3 rent 1250",
+      "price": "1250",
+      "zone": "IG3",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some essential information like price and location, but lacks photos and detailed description, which is necessary for a higher reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T05:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843187442947218/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8106-ba47-e59d8f14ced2",
+      "title": "En-suite double room for rent",
+      "overview": "A double room with en-suite available for rent, 16 minutes walk to Denmark Hill station",
+      "description": "🚨En-suite and double room 16 min walk to Denmark Hill station🚨",
+      "price": "N/A",
+      "zone": "Denmark Hill",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and pricing information, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T05:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843345586264737/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-8189-8730-e5933e8413e3",
       "title": "Spacious Studio Apartment for Rent",
@@ -86,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T03:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1425079875246197/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1191,7 +1242,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T10:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114420312426181/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541436333_4150063211946378_8822737647254980023_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3xwoQoAYBaQQ7kNvwGYgU7r&_nc_oc=AdnFjS2fKovQYKhBMBR3772D07BhjpfSx-M6CiG9mGnMs_oFKziIzX5OWdUb_9sFeyE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=6qKWbLz5WaKRTYK2NbXBDw&oh=00_AfWnM7MBl4y6aa0FcysJVWSLf2qlrWO3DqOB6nfLNmSLJQ&oe=68BCA519"
     },
     {
@@ -4727,7 +4778,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T22:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/I6680/posts/24234554069546958/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc2-2.fna.fbcdn.net/v/t39.30808-6/539852298_10233507005149480_934152371153048336_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=797kCUBl_AoQ7kNvwE7ePAk&_nc_oc=AdmyP_FVLyd-25Br-l4dMANjbumhPxobGFXP1fl27n5DcqCp8vcXgWLQtovJhbeRkz8&_nc_zt=23&_nc_ht=scontent.fixc2-2.fna&_nc_gid=NZgHPF3VDzyswQP4cohSAQ&oh=00_AfU6neyOQ6jUTeyVXj6Obe_9RY3oyguzJ1yBDKgqWnQrbg&oe=68B7F8A6"
     },
     {
