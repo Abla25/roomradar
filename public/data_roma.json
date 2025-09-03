@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T08:46:18.196Z",
+  "generatedAt": "2025-09-03T09:38:47.873Z",
   "city": "roma",
-  "count": 508,
-  "totalRejectedCount": 1680,
+  "count": 511,
+  "totalRejectedCount": 1692,
   "results": [
+    {
+      "id": "263b5f64-9329-816f-95dc-dc1e32fd09c6",
+      "title": "Room for rent in Furio Camillo area",
+      "overview": "A single room is available for rent in a shared apartment with another student, located in the Furio Camillo area, close to metro A and Tuscolana station, with a fully equipped kitchen and shared bathroom",
+      "description": "✨Affitto stanza – Furio Camillo / Tuscolana ✨ Disponibile da ottobre, stanza singola per studentessa in appartamento condiviso con un’altra studentessa. 📍 Zona Furio Camillo, a 5 minuti a piedi dalla metro A e 10 minuti dalla stazione Tuscolana 🏠 Appartamento composto da due camere, cucina completamente attrezzata, veranda e bagno condiviso 🛒 zona ben servita da supermercati, negozi, farmacie e mezzi pubblici 💰 Prezzo: €600 + spese mensili 📩 Per ulteriori informazioni o per fissare una visita, contattare il numero: [PHONE NUMBER CENSORED]",
+      "price": "€600 + monthly expenses",
+      "zone": "Furio Camillo",
+      "zoneMacro": "Appio Latino",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "This post is a relevant listing, with a clear description of the room and apartment, a specific price, and contact information provided, as well as photos of the room",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T09:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/244234206083096/posts/2182967348876429/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel15-1.fna.fbcdn.net/v/t39.30808-6/542616445_10239822149555693_7413185346727388094_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n8RZaRCeLh0Q7kNvwFp9ASo&_nc_oc=AdkwSArqozlNold58kHF7ATTyyFtljnNUdKnfkiP3vbV7qk4qSIv_cDTVoQ8e6irTCI&_nc_zt=23&_nc_ht=scontent.fdel15-1.fna&_nc_gid=_99Abf0n4p_tf8QgovG_Gw&oh=00_Afb2Jlt8xEbpklJymTE5IzmvMZs98nzNh_DG52KEQu8Uvw&oe=68BDDF1B"
+    },
+    {
+      "id": "263b5f64-9329-81c6-85e5-c746f5084580",
+      "title": "Furnished room for rent near Piazza Bologna",
+      "overview": "A furnished room is available for rent near Piazza Bologna, with use of kitchen and bathroom, only for working women",
+      "description": "PIAZZA BOLOGNA. Affittasi da subito stanza ammobiliata, con uso cucina e bagno. SOLO LAVORATRICI. Se siete interessate scrivete in privato lasciando recapito telefonico.",
+      "price": "N/A",
+      "zone": "Piazza Bologna",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and a clear description of the room, but lacks a specific price and more detailed information",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T09:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735184246680543/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540743220_10214505774276133_8477787594405087471_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0hNG46l6WcgQ7kNvwEqCMti&_nc_oc=AdkObLPPhPHk3vASpkoXxjwilglaZXGRnKV0zj3E9UIgwNnBYRrHP3TvexpiRZAm0zA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=3JcpXP7QvvTzHPayCUkOcw&oh=00_Afa0Hzf2XZUXtFCG2nilEnr5zfr97h0asHsyDtqkdl9RcQ&oe=68BDE585"
+    },
+    {
+      "id": "263b5f64-9329-81ea-8504-c2bcf398ac40",
+      "title": "Large room for rent in Torre Spaccata",
+      "overview": "A large, furnished room is available for rent in a quiet area of Torre Spaccata, with amenities including Wi-Fi and laundry facilities",
+      "description": "STANZA GRANDE PER STUDENTESSA O LAVORATRICE DISPONIBILE DAL 10 SETTEMBRE PER LUNGO PERIODO LA STANZA È SITUATA IN UNA ZONA TRANQUILLA E FORNITA DI NEGOZI(VIA LUIGI FERRETTI) NELLA ZONA DI TORRE SPACCATA, A 500 METRI DALLA STAZIONE METRO C ALESSANDRINO STANZA AMPIA E LUMINOSA, ARREDATA CON LETTO MATRIMONIALE, ARMADIO, SCRIVANIA E COMODINO. ED È DOTATO DI LAVATRICE PREZZO: €600 AL MESE, SPESE INCLUSE (WI-FI, LUCE, GAS, ACQUA,RISCALDAMENTO,TASSA SUI RIFIUTI, CONDOMINIO E PULIZIE DELLA CASA). NESSUN DEPOSITO CAUZIONALE RICHIESTO. NOVITÀ: DA OTTOBRE LA METRO C ARRIVERÀ FINO ALLA STAZIONE COLOSSEO, PERMETTENDO IL CAMBIO CON LA METRO B",
+      "price": "600",
+      "zone": "Torre Spaccata",
+      "zoneMacro": "Centro Storico",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, photos, and a specific price, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T09:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735212000011101/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541342065_24207923755497080_864575785953464465_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SFfc2dnmwO4Q7kNvwGCi2wf&_nc_oc=AdlIrGvYE07oAMLZPOOITKejCMg_TnovnDod-tijJaevfRTHoK7BDtbEi37K1hMYE5Q&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=kAPtRsN6vG5EAI2cHuGRKQ&oh=00_AfbEj3dmYKVGuIiBoPCUEdSFiOfVOksqGnrH1gQi-XK1uw&oe=68BDDC78"
+    },
     {
       "id": "263b5f64-9329-81e3-ad85-f1115fefc23b",
       "title": "Double room for rent in Casalotti",
@@ -86,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T08:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31050118044632954/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixr3-2.fna.fbcdn.net/v/t39.30808-6/540460788_10214505786356435_7937709180717958133_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kvJrJ0m2hV0Q7kNvwGznP4P&_nc_oc=AdlvarHYqyMG0rPRfKNPX71fOj34GgPJUU29kUmt3627JySfW1GmGhae5jctH2YBDtKwjtRpxuYEn--wLDM7UfO1&_nc_zt=23&_nc_ht=scontent.fixr3-2.fna&_nc_gid=DotEh1AFkLTa36cAvV_2hg&oh=00_AfYM5ypTZRDx0wRqljEY7n4H3Us4rtOfkLYs4-X7fzbKyg&oe=68BDCBFF"
     },
     {
@@ -273,7 +324,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T21:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2734807983384836/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc10-1.fna.fbcdn.net/v/t39.30808-6/540730606_24204456672510455_1214394640900318935_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=q6XSvltj7Y4Q7kNvwE2_Mil&_nc_oc=AdkYJWxjWeMT4g-Evpx2PVFeX4Ob1aMDbwJzriLU47JLSbADBDNIcJ1N37i71zpSMck&_nc_zt=23&_nc_ht=scontent.fixc10-1.fna&_nc_gid=NdUPjevikWm1wo6zYEnVsQ&oh=00_AfWGG2aA2N-FFhExnEuD-yDcl8q7gIHgSrIVPODxkIz4tQ&oe=68BD1D3C"
     },
     {
