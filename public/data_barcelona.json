@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-03T13:03:58.040Z",
+  "generatedAt": "2025-09-03T13:42:57.799Z",
   "city": "barcelona",
-  "count": 1172,
-  "totalRejectedCount": 1845,
+  "count": 1173,
+  "totalRejectedCount": 1852,
   "results": [
+    {
+      "id": "263b5f64-9329-81f1-bb08-f7e75ad3c807",
+      "title": "Room for rent in Sant Boi de Llobregat",
+      "overview": "A room is for rent in Sant Boi de Llobregat for a single person who works and is clean, with information available via private message",
+      "description": "Se alquila una habitación en sant Boi de Llobregat para persona sola que trabaje sea limpia información al privado",
+      "price": "N/A",
+      "zone": "Sant Boi de Llobregat",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 1,
+      "reliabilityReason": "The listing lacks photos and essential details, such as price, and the contact method is not specified, indicating a potential scam or incomplete information.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T13:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080266964278835/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-815e-bdd1-fe40c8e113f2",
       "title": "Room available in a 6-room apartment",

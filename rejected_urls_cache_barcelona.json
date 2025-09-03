@@ -1,57 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4309165859315923/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:51:36.615888"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4309162792649563/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:51:36.617303"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078716784433853/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:52:56.450673"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078671011105097/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:52:56.452280"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078668574438674/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:53:34.087889"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078667024438829/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:53:34.089358"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2243857809450748/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:54:13.829475"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2243019436201252/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:54:13.830890"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2243816436121552/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:54:53.891053"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1076672017562428/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:56:03.982519"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2186632731850796/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:56:40.092083"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2186621955185207/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:56:40.093586"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2186621875185215/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T12:56:40.095039"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4309215535977622/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-01T13:32:30.376457"
@@ -991,8 +939,36 @@
     "https://www.facebook.com/groups/365556558673981/posts/1068471181715845/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T12:52:13.421743"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080270877611777/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:31:02.298373"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080269907611874/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:31:02.299833"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080205937618271/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:31:41.695077"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2245521799284349/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:32:17.694761"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2245513955951800/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:32:17.696274"
+    },
+    "https://www.facebook.com/groups/365556558673981/posts/1076672017562428/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:32:52.451291"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2188216785025724/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T13:33:26.766774"
     }
   },
-  "total_rejected_count": 1845,
-  "timestamp": "2025-09-03T12:48:23.869269"
+  "total_rejected_count": 1852,
+  "timestamp": "2025-09-03T13:30:41.904173"
 }
