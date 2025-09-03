@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T10:35:57.705Z",
+  "generatedAt": "2025-09-03T11:28:39.642Z",
   "city": "roma",
-  "count": 518,
-  "totalRejectedCount": 1701,
+  "count": 521,
+  "totalRejectedCount": 1711,
   "results": [
+    {
+      "id": "263b5f64-9329-81f9-8718-c161f91cc96b",
+      "title": "Room for rent in Via Satrico 16, Rome",
+      "overview": "A room is available for rent in a shared house in Via Satrico 16, Rome, with two double bedrooms, one bathroom, kitchen, and storage room. The house is located in a quiet neighborhood with all amenities nearby.",
+      "description": "AFFITTO Ciao, mi chiamo Michela e cerco coinquilina. Si affitta camera in Via Satrico 16 a circa 10 minuti dalla metro A (San Giovanni - Re di Roma) e con fermata del bus sotto casa (360-628-665). Casa in ristrutturazione, pronta per la prima o seconda settimana di SETTEMBRE, arredata e composta da: tre camere da letto di cui due doppie ma affittabili preferibilmente singole (la camera singola è la mia e una delle doppie già occupata), un bagno, cucina e ripostiglio; situata al secondo piano in palazzo con corte interna e portiere. Il quartiere è tranquillo e dotato di tutti i confort (supermercato-bar-farmacia-fruttivendolo-ristoranti). Si cerca ragazza tranquilla, amichevole e socievole, indifferente studentessa o lavoratrice con GARANZIA; si affitta a 600€ al mese + condominio comprensivo di riscaldamento, gas e luce. CONTATTAMI IN DM",
+      "price": "600€",
+      "zone": "San Giovanni - Re di Roma",
+      "zoneMacro": "Appio Latino",
+      "rooms": "3",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the house, including location, price, and amenities. It also includes a photo of the house, which increases the reliability score. However, the score is not 5 because the post does not provide a clear contact method other than a private message.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1711686886192425/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel57-1.fna.fbcdn.net/v/t39.30808-6/541820579_24422666007427357_7798237294432273112_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=_HW07h1lZcUQ7kNvwGyo5Mv&_nc_oc=AdmC57jdk2xc-Skuau2-xq0HrZyDOOPzK_kHT3Q5FUdW4aHi-oYSECSUGx0Jj4NasJ0&_nc_zt=23&_nc_ht=scontent.fdel57-1.fna&_nc_gid=BMquOunVW2XmBYyKEGNCaw&oh=00_AfYZAr60t8ZZfGd-F3LbNuT_UPUsrbAoymRuD7NtjjJm6A&oe=68BDCFB1"
+    },
+    {
+      "id": "263b5f64-9329-81c5-a5ce-d75d6516835a",
+      "title": "Single room for rent in Laurentina",
+      "overview": "A single room is available for rent in a luxurious residential area in Laurentina, with a price of 550 euros per month, including all expenses",
+      "description": "AFFITTASI STANZA SINGOLA zona LAURENTINA SERAFICO (Zona lussuosa residenziale con tutti i tipi di servizi a pochi metri) 700MT circa dalla stazione metro e Cotral, palazzo circondato in gran parte da un parco. L'appartamento con 3 camere ( si affitta una soltanto) con letto matrimoniale, 2 bagni , cucina grande, terrazzo verandato. Disponibilità di posto auto privato. Appartamento Nuovo. Si affitta SOLO ED ESCLUSIVAMENTE RAGAZZI. Appartamento FRIENDLY. Prezzo 550euro tutto incluso DISPONIBILE DAL 1 NOVEMBRE. Si richiede deposito di 1 mensilità e mezza. Maggiori info scrivete in privato.",
+      "price": "550",
+      "zone": "Laurentina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a photo and has a clear description of the apartment and its amenities, but the request for a deposit of one and a half months may be a slight concern",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2148450669012219/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel25-3.fna.fbcdn.net/v/t39.30808-6/541402222_2825188084338304_3046229924257542046_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BxB_WTWabSEQ7kNvwGBSn6x&_nc_oc=AdkEIyZQkyfyA2G-4N83b6FWZ4LdF2y09N1d-SamVARfDZOGTXZKfJjvhUnwjTn3dgk&_nc_zt=23&_nc_ht=scontent.fdel25-3.fna&_nc_gid=WTUQxqKsHYRqocL11tR-WQ&oh=00_AfZqk7tf0ijj6PXaoSXgsd9vKovEtwYIuFYLmQ1zzjf1Rg&oe=68BDEEE9"
+    },
+    {
+      "id": "263b5f64-9329-8144-b5fe-c403d3a3869d",
+      "title": "Double room for rent in Marconi area",
+      "overview": "A double room with a balcony is available for rent in the Marconi area of Rome, with good public transportation links",
+      "description": "Affitto camera doppia, con balcone, zona Marconi (Eur Roma). Camera libera da subito, risulta in ottime condizioni. Fermata autobus sotto casa, raggiungibile a piedi fermata metro Marconi e San Paolo.",
+      "price": "N/A",
+      "zone": "Marconi (Eur Roma)",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description of the room, its location, and photos, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2148541899003096/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel25-1.fna.fbcdn.net/v/t39.30808-6/541434822_10237723387001208_3676779786575077352_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pw6pWe_z0MUQ7kNvwGAyE1c&_nc_oc=AdkyKawo34ggN_gUFJAuhWRBrZSWOvbxq2MGkf0ZoBdZ_03RS_UDywJfllaNYr7hcaE&_nc_zt=23&_nc_ht=scontent.fdel25-1.fna&_nc_gid=WTUQxqKsHYRqocL11tR-WQ&oh=00_AfZG2_m4LoyDI3J_aw3M5VqlbtQQCSwlcuQBtTWZEaJTmg&oe=68BDD3C6"
+    },
     {
       "id": "263b5f64-9329-8183-92d6-ec2c0cc3cc44",
       "title": "Room for rent in Furio Camillo area",
@@ -120,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T10:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1339417551183269/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/542013021_10237723381321066_618574287966257515_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=nTqULnEB2YoQ7kNvwEZpujq&_nc_oc=AdlwWFPaj2sTiIUFJ0SbOYAeFVKM3ASllNg_EEM8wPOhHV6K8Dr0KhDIAlCVecdsZcw&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=D7v5P69PFy2WNbQp1Uug-A&oh=00_AfbxyLx4gMfRcqTeKlI1hjgCrEbOhnq5LTlEKEoJqSmotA&oe=68BDEE61"
     },
     {
@@ -2823,7 +2874,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T21:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2146521565871796/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel89-1.fna.fbcdn.net/v/t39.30808-6/540416867_2823032407887205_1897879153500623416_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=arazVtSUUKQQ7kNvwGMVLLs&_nc_oc=AdkWiJgG9KO65L-TGrtM_ZCKAKm_ERjNXlY4PHvNWXjlEk62sNiyFrHDKtXfCgdj67k&_nc_zt=23&_nc_ht=scontent.fdel89-1.fna&_nc_gid=-THyygfIpXKhstHH4bCwWQ&oh=00_AfUlq1VTSXEzJbdiYuVHBbNH0qi5wCAVjFh4vcB2qxBE5A&oe=68BA81A0"
     },
     {

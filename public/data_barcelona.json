@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T10:35:53.270Z",
+  "generatedAt": "2025-09-03T11:28:34.963Z",
   "city": "barcelona",
-  "count": 1164,
+  "count": 1167,
   "totalRejectedCount": 1836,
   "results": [
+    {
+      "id": "263b5f64-9329-8193-8bde-cb65bf651041",
+      "title": "Room available in Sant Joan Despi",
+      "overview": "A room is available for rent in Sant Joan Despi. The listing is looking for a serious and responsible person.",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despi",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing is brief and does not provide much information about the room, its location, or the rent. It also does not include any photos, which makes it more difficult to verify the listing's authenticity. The only contact information provided is a phone number.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1077964204099876/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8162-a84b-de13e49b364d",
+      "title": "Individual room for rent in Barcelona",
+      "overview": "A single room is available for rent in a shared apartment in the Plaza Virrei Amat area of Barcelona. The room is furnished and has a balcony. The rent is 450 euros per month, including services.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a detailed description of the room, its location, and the rent. It also includes a phone number for contact and has a photo of the room, which suggests that it is a genuine listing. However, the reliability score is not 5 because the listing does not provide additional information about the apartment or the landlord.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1078017470761216/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc10-1.fna.fbcdn.net/v/t39.30808-6/540684898_10234267654925663_9026247128127275862_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AGYhKb6AwxwQ7kNvwHPNZcj&_nc_oc=AdklLtYWfR6mBKlIcyXBGZNBsOFAi7mlir2R1JUnKaNPFtElIrYvSEzdTKbbNuM-A86G9LV50xPxzL-D5O0Z-dro&_nc_zt=23&_nc_ht=scontent.fixc10-1.fna&_nc_gid=O5oiqajs8DKNDqFX_S5GgA&oh=00_AfY9xLUF6wlVkutZpp86TYnPJVuMWs0nqU92wYKIKcQe9Q&oe=68BDD9D5"
+    },
+    {
+      "id": "263b5f64-9329-8188-ae25-e77d09228584",
+      "title": "Small room for rent near Sagrada Familia",
+      "overview": "Renting a small room in a quiet apartment, 2 minutes from Sagrada Familia, no smoking, has a cat, available for immediate entry, prefers long-term stay, no couples",
+      "description": "Alquilo una habitación pequeña a 2 minutos de la Sagrada Familia. Una apartamento tranquilo. No se fuma y tengo un gato precioso y muy bueno. No parejas. Es para entrar ya! Con larga temporada si es posible.",
+      "price": "N/A",
+      "zone": "Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, includes a photo, and specifies the location and rules, but the price is not mentioned, which prevents it from achieving a perfect score",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026520541010905/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540583488_4152483744996695_649779934562086428_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QSIg7yU9gcEQ7kNvwHUmJ8U&_nc_oc=AdluqcoC_FldmD8gp_TREltmcfKmfgLGOs6Ev9dJiVtfsYwO851KWYSD8YvtgaBrVh8&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=tl6OeCT0mZMYRgMFJIsLXA&oh=00_AfYJyEvh2zeStmut46J2FofamzV-f8VE7IG6focoA4Phwg&oe=68BDDBD3"
+    },
     {
       "id": "263b5f64-9329-8118-93af-f30fcc8a9941",
       "title": "Single Room for Rent in Plaza Virrei Amat, Barcelona",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2188227301691339/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcok14-1.fna.fbcdn.net/v/t39.30808-6/540918850_10234267657805735_3252725277459873336_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vocD7OhmxMkQ7kNvwEHZ9j4&_nc_oc=Adkcuc7beEwjZ1_PNzkwEHbCnMsHgOJFq7DSZK8q0WtWFuEFMu_9iTRB5AtkxLUfNxc&_nc_zt=23&_nc_ht=scontent.fcok14-1.fna&_nc_gid=MggvNfCE5tlZ5NuPf_MN4w&oh=00_AfYlGHYLKqzcFWm7V8OYkYGmC4ZlHGPLMCYG4vxdG2ZnTA&oe=68BDEF9E"
     },
     {
@@ -120,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T08:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2188166091697460/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -7804,7 +7855,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T08:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021586658170960/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T10:36:00.267Z",
+  "generatedAt": "2025-09-03T11:28:43.175Z",
   "city": "london",
-  "count": 421,
-  "totalRejectedCount": 555,
+  "count": 424,
+  "totalRejectedCount": 560,
   "results": [
+    {
+      "id": "263b5f64-9329-8143-86a0-ec9372a59b60",
+      "title": "En-suite room for rent in Clapham Junction, London",
+      "overview": "A furnished en-suite room available for rent in Clapham Junction, London, close to transportation links and amenities",
+      "description": "✨️✨️✨️ En-suite single use ✨️✨️✨️ 💫 Clapham Junction SW11 2LB ✨️ Available from 05/09 💫 Price: 1100 bills included ✨️ Amazing opportunity for student or professional to live in an amazing location in London just 5 min from the Station. 💫 The room is coming full furnished and has own bathroom. Next to the flat there are many restaursnts, shops, supermarkets, bus stops, Underground, Overground and Train station. 📞 If you are interested call 07549 554754",
+      "price": "1100",
+      "zone": "Clapham Junction, SW11 2LB",
+      "zoneMacro": "South London",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a clear description of the room, includes photos, and has a visible contact number, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115261872342025/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541815077_1857220198524908_9116984930355333964_n.jpg?stp=dst-jpg_p235x350_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JbnOGdWdD-YQ7kNvwHWy_97&_nc_oc=AdlBbycuoRZCBM7ybV-5fDTZV88t8xs_4v9N3MlXYDVeVNTdPy0xFm6FE98ZITCScPg&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=dqfGeDr5nlQRPDiIXHc9lw&oh=00_AfZ2-_FNK4HIJ0jmGTPziJcWPCMWqoyZpuuS0GNEBtBLZA&oe=68BE02F9"
+    },
+    {
+      "id": "263b5f64-9329-8193-abda-e09637fbd36c",
+      "title": "One-Bedroom Apartment for Rent in Paddington",
+      "overview": "A fully furnished one-bedroom apartment with beautiful canal views, located in Paddington, close to Oxford Street and Hyde Park",
+      "description": "The apartment is an interior designed and fully furnished one-bedroom apartment located in Paddington, with beautiful canal views and close proximity to Oxford Street and Hyde Park. [https://properties.qinvestments.london/properties/paddington-greater-london-id-66123](https://properties.qinvestments.london/properties/paddington-greater-london-id-66123)",
+      "price": "N/A",
+      "zone": "Paddington",
+      "zoneMacro": "Central London",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides a detailed description of the apartment and its location, and includes a photo, which increases its reliability score, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115319655669580/",
+      "status": "active",
+      "imageUrl": "https://external-cdg4-2.xx.fbcdn.net/emg1/v/t13/16488742101670721013?url=https%3A%2F%2Ffs-04.apex27.co.uk%2Fdata_96ea%2Flisting_66123_0011_8b2385f9.jpg%3Ft%3D1756815912&fb_obo=1&utld=apex27.co.uk&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&_nc_gid=K05x2N1UE8NZ5eMc2-JRcw&_nc_oc=AdkpaSO5qoWGg6aMH2P6tdFZB1mnFeDsClDyepS6e-bl2rn6XC_d_R9do0PkLCo4VWw&ccb=13-1&oh=06_Q3-2AZqDmwgtTez7hlFiyNr5gNv4HPPKKtlbmpMyS2qQGd_K&oe=68B9FCC9&_nc_sid=085657"
+    },
+    {
+      "id": "263b5f64-9329-81bb-9ba4-edf974bae0e5",
+      "title": "Furnished Double Room for Rent in West Drayton",
+      "overview": "A spacious double room available for rent in West Drayton, with all bills included and ample parking",
+      "description": "Furnished Double Room Available – West Drayton High Street UB7 No restrictions | All bills included Spacious room | Can be shared (2 Boys/2 Girls) 1 Double Bed/ 2 Almirah Big kitchen + 2 bathrooms Ample parking Tesco, Aldi, Iceland nearby 5 min to West Drayton Station (Elizabeth Line) 2-min walk to bus stop Available now – Message to view! Rent:- £800.00",
+      "price": "£800.00",
+      "zone": "West Drayton",
+      "zoneMacro": "Hillingdon",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides a clear description of the room and its amenities, including the price and location, but lacks photos, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T11:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115321879002691/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-8149-ba22-d76b5f4ad33d",
       "title": "Double room for single use in Arsenal",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T10:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2115262765675269/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543180004_1857224541857807_2696134326658258974_n.jpg?stp=dst-jpg_p235x350_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=m7u_egwyZlYQ7kNvwE5qYkc&_nc_oc=AdkUF4cED0JD-S91A001k76SlEnIPn7T3wsOzHV8S4ZHSTfGINHp_ircyk4oK4Jicjc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=LTbeXxUjx5F38iBKGKWe6Q&oh=00_AfbjHLpeAIjHuM7lsAmaA8BZVbU31Kzz8bRae9U1wPNLYg&oe=68BDF56C"
     },
     {
@@ -1021,7 +1072,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T18:42:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114748282393384/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
