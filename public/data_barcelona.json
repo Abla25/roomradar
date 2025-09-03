@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-03T19:22:44.867Z",
+  "generatedAt": "2025-09-03T20:44:18.928Z",
   "city": "barcelona",
-  "count": 1191,
-  "totalRejectedCount": 1909,
+  "count": 1195,
+  "totalRejectedCount": 1918,
   "results": [
+    {
+      "id": "263b5f64-9329-816b-91a4-c73419a1c563",
+      "title": " Couple Room for Rent in Sant Andreu",
+      "overview": "A furnished marital room for rent in a well-located apartment in Sant Andreu, with all necessary amenities nearby.",
+      "description": "🌸✨ HABITACIÓN PARA PAREJA EN SANT ANDREU ✨🌸 Se alquila habitación matrimonial amueblada en piso bien ubicado, a solo 5 minutos a pie de la parada de metro Sant Andreu. La zona es comercial, con todo lo necesario cerca, además de líneas de bus y nit bus 🚇🚌. 🛏️ Habitación equipada con: • Cama matrimonial • Armario • Mesa de noche 💶 800 €/mes con todos los gastos incluidos (agua, luz e internet) 🔒 Fianza: 300 € 📅 Disponible desde ya mismo 📌 Estancia mínima: 1 año ✨ Requisitos: personas trabajadoras, tranquilas, organizadas y ordenadas. 🚫 No se admiten mascotas. 📍 Piso en Sant Andreu, en plena zona comercial, con supermercados, tiendas y servicios al alcance. 📩 ¡Escríbeme ya para venir a verla!",
+      "price": "800 €/mes",
+      "zone": "Sant Andreu",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post is detailed, includes photos, and provides contact information. The price and conditions are clearly stated, and there are no indicators of a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T20:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1078277227401907/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel37-1.fna.fbcdn.net/v/t39.30808-6/539472696_10236304929418670_1041362215538622784_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=niyIcrQ485AQ7kNvwF2eNYp&_nc_oc=AdmDfDcu3NENeuF9RWfFzvSRywit3SroIEx40aKvARMcqfgv-jEsWiL35j2gQWsXFvA&_nc_zt=23&_nc_ht=scontent.fdel37-1.fna&_nc_gid=B8HeznZ5GDjtIn_twtA-_Q&oh=00_AfZrDzezIGBxhAUC7KraZGtz7kqARPXldyA-shaBp0xcdA&oe=68BE7BEE"
+    },
+    {
+      "id": "263b5f64-9329-817d-9995-cdefa6176a75",
+      "title": "Large room available for two women or a couple in Barcelona center",
+      "overview": "A large room is available for rent in Barcelona center, suitable for two women or a couple",
+      "description": "Habitacione grande disponible para dos mujeres y dos chicas También quiero aceptar pareja [PHONE NUMBER CENSORED] Barcelona centro",
+      "price": "N/A",
+      "zone": "Barcelona center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and contact information, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T20:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2245764585926737/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd10-1.fna.fbcdn.net/v/t39.30808-6/542196096_122217290240089183_3316196134910873028_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eu6Vq-qIe_4Q7kNvwE7bs-_&_nc_oc=AdkbdnkX7itQp_RRFSUehjLiQAlG61h-6oAbnTHS3VJL4n0A4oAgZLSujmwWHgwUFsQ&_nc_zt=23&_nc_ht=scontent.fhyd10-1.fna&_nc_gid=Hq5lajwRuq_I6jTZutZAag&oh=00_AfZ-LtisIjrRCLjBb6WXI7ufxrl_vVadlcV94Vmoa3dSxg&oe=68BE7688"
+    },
+    {
+      "id": "263b5f64-9329-81f3-b8f6-e3f6674a35f1",
+      "title": "Room for rent in Sagrada Familia",
+      "overview": "A room is available for rent in the Sagrada Familia area, preferably for a male tenant",
+      "description": "Se alquila habitación para persona sola en sagrada familia preferiblemente hombre",
+      "price": "N/A",
+      "zone": "Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and pricing information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T20:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080479374257594/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8115-b341-cbefed067d2d",
+      "title": "Room for rent for a responsible woman",
+      "overview": "A quiet room is available for rent in a pleasant apartment, close to the metro Artigues – Sant Adrià, with expenses included",
+      "description": "Se alquila habitación para una señora o una chica responsable. Piso tranquilo y ambiente agradable. Cerca del metro Artigues – Sant Adrià. Gastos incluidos. Precio: 350 €.",
+      "price": "350 €",
+      "zone": "Artigues – Sant Adrià",
+      "zoneMacro": "Sant Martí",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description, price, and location, and has an accompanying image, but there is no contact information provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T20:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4311581962407646/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel3-1.fna.fbcdn.net/v/t39.30808-6/541295584_1457016138835363_4780978215965186999_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0DX3paoFZl4Q7kNvwGr7nnF&_nc_oc=AdnIosRkETD47o6X8sEJTylsRH-wTxZg7kxq6o_Cpcr227wUhWVkhQ1tWyE1j1zVt-k&_nc_zt=23&_nc_ht=scontent.fdel3-1.fna&_nc_gid=jB_L6G5goKBrrmFjV-FbGg&oh=00_AfY3y6VMlKrYnXpBH-2MprUDw3ccEFQNOsjbqsK_9zXmSw&oe=68BE5FD1"
+    },
     {
       "id": "263b5f64-9329-819b-bfec-f1ae6742e4bb",
       "title": "Renting a spacious room for one woman",
@@ -69,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T18:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2188528481661221/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540592951_10236304936338843_1653878173121927773_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8ooZLPJI7sgQ7kNvwFQUFV5&_nc_oc=Adk8iAwfwGhzMyFLqV1n1z1E0SLrRwZVyHG4ygFNEEo3D6ItoP16mkvwCQAs2P4VP4U&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=Uv6lAJTIS9V07c-_6bGjkA&oh=00_AfYW-HzL97ZM2XwZepiyCMQSte9Yg81H8JCmdAsr1n5yfQ&oe=68BE4DFF"
     },
     {
@@ -239,7 +307,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T15:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080343247604540/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541674684_122217269876089183_4492749565781546680_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dTkzoRlfCCMQ7kNvwEB0e3i&_nc_oc=AdkQIoNiL5CLinFYlFhcPahlet_ZiNm_GuQgHsZdxQy3Dxb8t_5gcPUzVqOld8CLjeg&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=kpodaQIouoHrlZR361ljfQ&oh=00_AfYJSxvKiKOQjT8UL3G-l2YwLzYufqSlj97skQ0jelcalw&oe=68BE4C2C"
     },
     {
@@ -10065,7 +10133,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T18:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074996098139255/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
