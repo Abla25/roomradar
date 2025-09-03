@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-03T15:35:04.856Z",
+  "generatedAt": "2025-09-03T16:41:49.565Z",
   "city": "barcelona",
-  "count": 1179,
-  "totalRejectedCount": 1866,
+  "count": 1184,
+  "totalRejectedCount": 1887,
   "results": [
+    {
+      "id": "263b5f64-9329-8115-9a63-d9a22d96aba7",
+      "title": "Room for rent in La Sagrera",
+      "overview": "A room is for rent in La Sagrera, near the metro station, in a central and quiet area",
+      "description": "Se alquila habitación por DiA en la Sagrera frente a la estación del metro. Habitación muy céntrica y lugar tranquilo queda a dos estaciones de la Sagrada Familia ideal para vacacionar. Para más información escribir al privado..",
+      "price": "N/A",
+      "zone": "La Sagrera",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and seems to be a genuine rental listing, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T16:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2188420648338671/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/542762790_24722151487408529_6020617152373576765_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WXyy9-z1h7UQ7kNvwFD5OTb&_nc_oc=AdkWvRk2uMPiaEp2g7adv38bKyJy0CAn1Gu-Y6OAddDq0DKAnAqS4kPxwkPAfsz75V8&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=3A1PTFklfBUq7vdttdD0Aw&oh=00_AfaQvrI7Uu-ojLVPPQhVYU00o7Cb82e-BTSshmAUycj3Pg&oe=68BE45A1"
+    },
+    {
+      "id": "263b5f64-9329-8109-a8b2-c55b9c92f59f",
+      "title": "Exterior Room for Rent",
+      "overview": "An exterior room is available for rent for one person, located on the third floor with an elevator, near metro lines L1 and L5",
+      "description": "Se Alquila Habitación Exterior para 1 persona, es un tercer piso con ascensor, por el metro L1 Mercat Nou y L5 Badal, disponible apartir del 06/09, información al Wasap [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing does not include photos and lacks a price, but it provides contact information and seems to be a legitimate rental offer with specific details about the location and availability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T16:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1076745334221763/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8171-9962-ea375e8b54ed",
+      "title": "Room for Rent in Sant Joan",
+      "overview": "A room is available for rent in Sant Joan Despi, preferably for serious and responsible individuals",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despi",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, but it includes contact information and seems to be a genuine rental offer",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T16:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1078151824081114/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8111-9d3a-f5659826b309",
+      "title": "Room for rent for one person or couple",
+      "overview": "Room available for single person or couple, ready to move in",
+      "description": "Se alquila habitación para persona sola o pareja. Para entrar ya..😁😁",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks essential information such as price, location, and photos, but it seems to be a genuine room rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T16:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027161527613473/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8165-ab4e-ea25881a8177",
+      "title": "Room for rent for a girl",
+      "overview": "Room for rent near L1 Santa Eulalia metro station",
+      "description": "Se alquila habitación para chica cerca del metro L1 Santa Eulalia .",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing has limited information, no photos are provided, and contact details are not specified, which raises concerns about its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T16:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080362430935955/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-812d-949a-f1e93b3a2907",
       "title": "3-bedroom apartment for rent near Hostafrancs station",
@@ -69,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T14:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080287694276762/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -222,7 +307,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1077964204099876/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -392,7 +477,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T08:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026936777635948/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fhyd7-1.fna.fbcdn.net/v/t39.30808-6/541368274_10240202915628055_9034179446438966859_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=B8GnLSk_d8AQ7kNvwEoFJvI&_nc_oc=AdkwAI55IC0MDd_phjnSn7qXbT0NZespwdAPdwqO1JXwlkyrPCHuDBi4RkUPHbzB55g&_nc_zt=23&_nc_ht=scontent.fhyd7-1.fna&_nc_gid=lnY8wyui9QfE4_JOQbKcig&oh=00_AfYkj3Vd0gStAXcNYijF3gq3_Re_jJ1mmaFFxZPPZpmZLw&oe=68BDD455"
     },
     {
@@ -1072,7 +1157,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T21:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079749064330625/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/541434547_25244508925137032_2465229324475029014_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DdQFaoJEK_sQ7kNvwGAs-iX&_nc_oc=AdnnMFc4Tp7aXu1SnsBZmi34ixiS9PpPc0Ib5YvoP9NpEseB1spxNy8yQ0WGRWWoiho&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=szTL-fVtC-kSJpVqKwXx-g&oh=00_AfUE9JQ1dpIbU7jmzthczt9t-blW810lzjUtwreENV7MAA&oe=68BD25FC"
     },
     {
@@ -7600,7 +7685,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T12:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076285894676942/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -7991,7 +8076,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T09:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4305742786324897/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -15284,7 +15369,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072489111723287/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fstv5-1.fna.fbcdn.net/v/t39.30808-6/538567030_10226963879875651_6624115245825875909_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=y-J6PBKC0YwQ7kNvwHErA6z&_nc_oc=AdkrXRf2yZM5wSJnu5To_zJpzsouz5hKtEbwIlUblJAx-ghXx3zLCX2z7XI2PtmPk6o&_nc_zt=23&_nc_ht=scontent.fstv5-1.fna&_nc_gid=WtFgYrVL2ta_eJYIZ9Z6qw&oh=00_AfVEV58Wx5Nv3ZKLH_6GoveDeWuBjfdVPIg7QANvhORNbg&oe=68B17086"
     },
     {
