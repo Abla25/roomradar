@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-03T07:31:49.140Z",
+  "generatedAt": "2025-09-03T08:46:09.603Z",
   "city": "barcelona",
-  "count": 1154,
-  "totalRejectedCount": 1808,
+  "count": 1158,
+  "totalRejectedCount": 1813,
   "results": [
+    {
+      "id": "263b5f64-9329-8164-88e0-ea04a9eea5ca",
+      "title": "Room for rent in Sant Joan Despi",
+      "overview": "A room is available for rent in Sant Joan Despi, seeking serious and responsible individuals",
+      "description": "Habitación disponible en Sant Joan Despí. Por favor, solo gente seria y responsable. Contacte al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sant Joan Despi",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, but it does include a contact phone number and seems to be a genuine rental offer",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2188166091697460/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8177-8a26-d9d61be6b4b2",
+      "title": "Room for rent in Santa Coloma",
+      "overview": "A room is available for rent in Santa Coloma, near Fondo metro station, for a single person, with a monthly price of 390 euros including expenses",
+      "description": "🎯 SE ALQUILA HABITACIÓN EN SANTA COLOMA – ZONA FONDO 🏡 💰 390€/mes con gastos incluidos 👤 Solo para persona sola, tranquila y responsable 🔹 Habitación disponible en ambiente tranquilo y con buena convivencia. 🔹 Ubicación ideal: a solo 3 minutos andando del metro Fondo (L1), cerca de transporte público, supermercado y centro comercial. 🔹 Zona bien conectada y con todos los servicios: tiendas, farmacias, parques, etc. 🔹 Convivencia respetuosa, ambiente limpio y ordenado. ❗ Buscamos alguien tranquilo/a y que valore un ambiente tranquilo en casa. ❌ No se aceptan parejas ni mascotas. 📩 Si te interesa, mándame mensaje privado para más info o para concertar una visita.",
+      "price": "390€/month",
+      "zone": "Santa Coloma",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post has an image, provides detailed information about the location, price, and conditions, and has a clear call to action for interested parties to contact the owner",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T08:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026936777635948/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd7-1.fna.fbcdn.net/v/t39.30808-6/541368274_10240202915628055_9034179446438966859_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=B8GnLSk_d8AQ7kNvwEoFJvI&_nc_oc=AdkwAI55IC0MDd_phjnSn7qXbT0NZespwdAPdwqO1JXwlkyrPCHuDBi4RkUPHbzB55g&_nc_zt=23&_nc_ht=scontent.fhyd7-1.fna&_nc_gid=lnY8wyui9QfE4_JOQbKcig&oh=00_AfYkj3Vd0gStAXcNYijF3gq3_Re_jJ1mmaFFxZPPZpmZLw&oe=68BDD455"
+    },
+    {
+      "id": "263b5f64-9329-81b3-a725-fa90bf1aa129",
+      "title": "Room for rent in Hospitalet",
+      "overview": "A room is available for rent in Hospitalet, near Can Vidalet metro station, suitable for a couple",
+      "description": "Disponible una habitación en alquiler para pareja zona Hospitalet metro Can vidalet",
+      "price": "N/A",
+      "zone": "Hospitalet",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post has an image and provides some details about the location, but the price and other specifics are not mentioned, and there is no clear contact information",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T08:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026097547719871/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd7-1.fna.fbcdn.net/v/t39.30808-6/539984995_10230214472374715_2878456404932928143_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=J_XXjUkIWjQQ7kNvwGG5Np0&_nc_oc=AdlKpC5kKnPzCXFm3hM1LCiRiRG4dJet2F2jktVGbv9_yWRV0CQsbORzZxLf3qUJ7Ys&_nc_zt=23&_nc_ht=scontent.fhyd7-1.fna&_nc_gid=MMlXUIXWLOcbnzsDw9OJoQ&oh=00_AfbmTrAmlyuJYSpssmQi8uq95IIPcbbbapi8wOkkCvBMtA&oe=68BDD501"
+    },
+    {
+      "id": "263b5f64-9329-8169-b3b5-fa82c0f92168",
+      "title": "Apartment for rent in Vila de Gracia",
+      "overview": "An apartment in Vila de Gracia is available for rent, ready to move in, for a maximum of 3 months",
+      "description": "Apartment in Vila de Gracia Ready to move in Max 3.months Details DM",
+      "price": "N/A",
+      "zone": "Vila de Gracia",
+      "zoneMacro": "Gràcia",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "This post appears to be a genuine rental listing with a photo provided, but the information is incomplete and the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T08:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026076381055321/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd7-1.fna.fbcdn.net/v/t39.30808-6/540745350_785933307265327_8147040044048787533_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UWWU1n9vWOsQ7kNvwE_2bz6&_nc_oc=AdntlLS8B_gGT0h1yew6gs8vx8w_DUZxh6nrGf1d_6mLTa4bwHk48jY5U1mW6-EVUcQ&_nc_zt=23&_nc_ht=scontent.fhyd7-1.fna&_nc_gid=HfGBcTqqoATi6wl77cLscw&oh=00_AfYxUY6KLO7p0bfIbRP4TTxHpf-0niaoIij9n4_wu6pcQw&oe=68BDD8A3"
+    },
     {
       "id": "263b5f64-9329-81ad-bad2-c09a8ff4f191",
       "title": "Furnished studio for rent in Barcelona",
@@ -188,7 +256,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T06:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310876862478156/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541368274_10240202915628055_9034179446438966859_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=B8GnLSk_d8AQ7kNvwFGqhNM&_nc_oc=AdnLRWYM-oPUZi5P1KM5xf4EoxfRs2QG9Z4Y7bk3_waWkxXs8NFV_zfvTat9BqEKkM4&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=DSHit7fg956QBmr8h3-YLA&oh=00_Afb8mLzLSFxx8MhAYL255oZNMiWtJ9PzBzFlsNkuQc4i7g&oe=68BD9C15"
     },
     {
@@ -460,7 +528,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T23:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079783870993811/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd4-1.fna.fbcdn.net/v/t39.30808-6/539559415_10230220709210632_8318922845936148251_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UlnlY6m4uqkQ7kNvwGGWTpQ&_nc_oc=AdlcMl8_bXZ3WfNcim75M7YkQhYT6ydIprXb-EHx51d7ro8GOXR3JFsBpoZ2sMFc8l4&_nc_zt=23&_nc_ht=scontent.famd4-1.fna&_nc_gid=FL9y9J_i7d8kiGGEC6Fevw&oh=00_Afa0uZOSjN-4e9oLKRRTP_YymOLIkw9YFyjAOYB7dgu5DQ&oe=68BD343C"
     },
     {
@@ -1242,7 +1310,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1077277424168554/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -8858,7 +8926,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T07:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021036554892637/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/539313635_10162278664501622_4268516790848793636_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=oMeuv_CDDcMQ7kNvwH1cpFr&_nc_oc=AdlntpZ24hxU5Edwot8133e8U8LZz5rCUHEWLf1sagBtg3IEvAuYvU36uCmA0kGoxO0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=EuJ40dUbLwKKHzNczw5szQ&oh=00_AfXSOzLGEqV9N3q40qjVawWaF1nEWvQGGZgLecHGZV_dhQ&oe=68B5C98A"
     },
     {
@@ -12649,7 +12717,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T16:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2180726772441392/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-6/537058417_25347999374790022_9046367467323848387_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0InWAPyRxI0Q7kNvwFDOWDK&_nc_oc=AdmSk2NWx0Btq0RGfCVMLo9YUXvx6WGPoozGyQ44-VTCp7e4g8D3HLrV-DWEi7iuNIk&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=NlsJGnZqT5eeJWWDQ0Ffbg&oh=00_AfVbyn7XjlSMSEylaO3EyNdFyfqbB9CLk43v2ojdeAngCA&oe=68B20140"
     },
     {
