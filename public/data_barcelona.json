@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-03T09:38:37.358Z",
+  "generatedAt": "2025-09-03T10:35:53.270Z",
   "city": "barcelona",
-  "count": 1162,
-  "totalRejectedCount": 1827,
+  "count": 1164,
+  "totalRejectedCount": 1836,
   "results": [
+    {
+      "id": "263b5f64-9329-8118-93af-f30fcc8a9941",
+      "title": "Single Room for Rent in Plaza Virrei Amat, Barcelona",
+      "overview": "A single room for rent in a shared apartment, located in Plaza Virrei Amat, Barcelona. The room has a balcony, a wardrobe, a nightstand, and a bed. The price is 450 Euros per month, including services. No smokers, couples, or pets are allowed.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a clear description of the room, includes photos, and has a specific price and location. The contact information is also provided, and there are no obvious scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2188227301691339/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok14-1.fna.fbcdn.net/v/t39.30808-6/540918850_10234267657805735_3252725277459873336_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vocD7OhmxMkQ7kNvwEHZ9j4&_nc_oc=Adkcuc7beEwjZ1_PNzkwEHbCnMsHgOJFq7DSZK8q0WtWFuEFMu_9iTRB5AtkxLUfNxc&_nc_zt=23&_nc_ht=scontent.fcok14-1.fna&_nc_gid=MggvNfCE5tlZ5NuPf_MN4w&oh=00_AfYlGHYLKqzcFWm7V8OYkYGmC4ZlHGPLMCYG4vxdG2ZnTA&oe=68BDEF9E"
+    },
+    {
+      "id": "263b5f64-9329-81f3-b096-f62ae1aad871",
+      "title": "Room for rent",
+      "overview": "A room is available for rent, contact for more information",
+      "description": "Tengo una habitación para alquilar. Para más información contáctame ☺️",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing has limited information and no photos are provided, but it directly offers a room for rent.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080144877624377/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-819a-9b36-eb25d951ade9",
       "title": "Apartment for Rent",
@@ -902,7 +936,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T20:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026094761053483/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540545394_10234255253455634_5886347777549067869_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=RqR0XSS-14gQ7kNvwEbOwUf&_nc_oc=AdmxhP3I7rpVFtYleHbxhgUNH4FZ0sx_1m5N5HamZ5ezWkJ3tRi2LOGMy87IQtVbRQs&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=z6ZF60eggHwcQgII-p6WKg&oh=00_AfWy5Khf0ysuD8e_hblU9dRF6nxH7KSUIEKfGQscNovk2Q&oe=68BD2C4C"
     },
     {

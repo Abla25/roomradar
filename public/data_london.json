@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-03T09:38:53.794Z",
+  "generatedAt": "2025-09-03T10:36:00.267Z",
   "city": "london",
-  "count": 417,
-  "totalRejectedCount": 554,
+  "count": 421,
+  "totalRejectedCount": 555,
   "results": [
+    {
+      "id": "263b5f64-9329-8149-ba22-d76b5f4ad33d",
+      "title": "Double room for single use in Arsenal",
+      "overview": "A lovely double room for single use is available in Arsenal, London, with bills included, and it is fully furnished",
+      "description": "✨️✨️✨️ Lovely double single use ✨️✨️✨️ 💫 Arsenal N5 1BL ✨️ Available from 14/09 💫 Price: 990 bills included ✨️ Amazing opportunity for student or professional to live in an amazing location in London just 5 min from the Station. 💫 The room is coming full furnished in an amazing flat available just for single use (no couple) Next to the flat there are many restaursnts, shops, supermarkets, bus stops, Underground, Overground and Train station. 📞 If you are interested call 07549 554754",
+      "price": "990",
+      "zone": "Arsenal",
+      "zoneMacro": "Islington",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post has an image, a clear description, a specified price, and contact information, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115262765675269/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543180004_1857224541857807_2696134326658258974_n.jpg?stp=dst-jpg_p235x350_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=m7u_egwyZlYQ7kNvwE5qYkc&_nc_oc=AdkUF4cED0JD-S91A001k76SlEnIPn7T3wsOzHV8S4ZHSTfGINHp_ircyk4oK4Jicjc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=LTbeXxUjx5F38iBKGKWe6Q&oh=00_AfbjHLpeAIjHuM7lsAmaA8BZVbU31Kzz8bRae9U1wPNLYg&oe=68BDF56C"
+    },
+    {
+      "id": "263b5f64-9329-8135-a33d-f1fc10fb0749",
+      "title": "Room for rent in Chingford",
+      "overview": "A room is available for one person in Chingford, London",
+      "description": "Room available for one person E46QN Chingford",
+      "price": "N/A",
+      "zone": "Chingford",
+      "zoneMacro": "Waltham Forest",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post has an image and a location, but the price is not specified and there is no contact information other than a link to a Facebook page.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2115273789007500/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541154823_122151333854611057_8769109813921889395_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tfy5DGacndgQ7kNvwEZfMn8&_nc_oc=Adme0z4EpP5T6xORMBBGcfNVliqfQc4I0Y_DdtIEOj5RnB9DkMtR7pR6QEXtu41q5ME&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=LTbeXxUjx5F38iBKGKWe6Q&oh=00_AfYxLxuR1YXYoywIokIaCkYRiZCs1W-C3Cfp7wIZY0om5g&oe=68BDE509"
+    },
+    {
+      "id": "263b5f64-9329-8162-a128-e31ed1e1e69e",
+      "title": "Room sharing opportunity for a girl",
+      "overview": "A girl space is available in a 2 sharing room, with immediate move-in possible",
+      "description": "One girl space available in 2 sharing room. Immediate move in",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a photo and seems to be a genuine room sharing opportunity, but lacks information about the location and price, which reduces its reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843553706243925/",
+      "status": "active",
+      "imageUrl": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-6/541728751_2599508310385757_2173622874096049900_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=U6Kd2v6OqKoQ7kNvwHxiVsm&_nc_oc=Adl-Pi_DV5_YDwl2_8-qDL3fW5evCCMnOkFicWMl_2dydM679tyi8eYV4TpfddycJQ8&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=9k8MxIeEpwcv5UYbrxA_PA&oh=00_AfbhFvUzGsFOwsUxjSJWVgHkO-TUqbph-0HNcHwW0FAPwQ&oe=68BDFD0E"
+    },
+    {
+      "id": "263b5f64-9329-8190-835e-cc3125f4cd44",
+      "title": "Semi double room for rent in Upton Park",
+      "overview": "A semi double room is available for rent in Upton Park, suitable for a single Bangladeshi person",
+      "description": "One semi double room available from Next month Location upton park E13 9LN Only for single Bangladeshi people Contact [VAT NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Upton Park, E13 9LN",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a specific location, contact information, and a photo, which increases its reliability. However, the price is not specified, which prevents it from reaching the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T10:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843555042910458/",
+      "status": "active",
+      "imageUrl": "https://scontent-bom2-3.xx.fbcdn.net/v/t39.30808-6/541610783_4220909978176138_1957654456600490185_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=KbavZkQ2BXsQ7kNvwGTpmMi&_nc_oc=Adlao63_7hAQ4F0uFON4TOuKBqdgnwVZlVcJ3PPNVxAPKkgIGL9hf5O-aJAqhEg0eX8&_nc_zt=23&_nc_ht=scontent-bom2-3.xx&_nc_gid=SeHoHJKErlXMhi_Ijo65oQ&oh=00_AfZJ-CKUSEj2lqEUuzieyZvmW47imMOEN61dM5IcwvcTDg&oe=68BDD2FF"
+    },
     {
       "id": "263b5f64-9329-811a-a7a6-c6b5dba557d6",
       "title": "Room for Rent in Hounslow",
@@ -1242,7 +1310,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T16:40:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843023266296969/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541780352_2598907403779181_4720629014355807696_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=mgYHxNetJj0Q7kNvwH5sQI8&_nc_oc=Adloii3pp9-D5WqjUyHSXoT8AqpokKvCqGdcXCynYkaVSnS6w4PQMKmCIwzLJ7nCpBY&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=IZ8lfNpvuAeehKFEF2c_MQ&oh=00_AfWYh8ghniatzcguKHU-8vSA-PVwQJeIwtzg7eBY_RNJFA&oe=68BD039A"
     },
     {
@@ -2279,7 +2347,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T19:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1842329039699725/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fajl2-1.fna.fbcdn.net/v/t39.30808-6/540681793_4219384384995364_6335558279344202436_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9EV_3PZaRroQ7kNvwFSyrvx&_nc_oc=Adkpmf4w74tLv1GAdHL_oEKysy02vp82xSTXIsKwOTVURW3QbRRzlC4OL0EHYjZMoSE&_nc_zt=23&_nc_ht=scontent.fajl2-1.fna&_nc_gid=LPg8vnL7cqLFLomtbedcLQ&oh=00_AfVwJGDtJWXzbWq1m65ZvBx3KOO5A4r8i7auDJMNOapprw&oe=68BBC58C"
     },
     {
@@ -3401,7 +3469,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T14:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2112914382576774/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541912017_122151112910611057_8941856213908503156_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Y88Ry79ZOTUQ7kNvwGOSCm3&_nc_oc=Adl4LlPCN8Lxhw9X4Mzjs9GD3XKNwvh_7sX5XIHayyRwq0BrGTvp8QTgMgWLwN5IVF8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=5QT6U24qZQcKVci8U4bCxA&oh=00_AfVSTsq2cajdNueAZJU1d2TODICg-IVmvh-IRHlglzhYjA&oe=68BA1689"
     },
     {
