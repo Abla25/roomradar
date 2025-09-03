@@ -2003,8 +2003,12 @@
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2734865363379098/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T03:01:15.393700"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1711344319560015/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-03T03:32:52.283174"
     }
   },
-  "total_rejected_count": 1650,
-  "timestamp": "2025-09-03T03:00:51.691338"
+  "total_rejected_count": 1651,
+  "timestamp": "2025-09-03T03:32:40.136943"
 }
