@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-03T05:27:45.436Z",
+  "generatedAt": "2025-09-03T06:44:40.659Z",
   "city": "london",
-  "count": 400,
-  "totalRejectedCount": 535,
+  "count": 403,
+  "totalRejectedCount": 538,
   "results": [
+    {
+      "id": "263b5f64-9329-818f-9e37-d2e144ca6a1b",
+      "title": "Big double room available",
+      "overview": "A big double room available for rent, renovated with wardrobe, bills, bed, and mattress included, located in London Dagenham area",
+      "description": "Big Double Room Available from 01/10/2025 RENOVATED Wardrobe, bills, bed and mattress included All bills included HEATING 24/7 London Dagenham AreA RENT 750 pound/Month House in front of TUBE STATION and BUS STOP For info massage in private",
+      "price": "750 pound/Month",
+      "zone": "London Dagenham",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a detailed description of the room, including the price, location, and amenities, and includes a photo.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T06:42:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843402426259053/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541358821_4150915215194511_2715404128485595999_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kqTOSLarw50Q7kNvwFkxWQd&_nc_oc=AdnbcXN1VCvHjx2_uw3Mp_2vNcSwn4rsvHgJ-rgT_pssspGY-SLPQTDWV0kEop1Y6R4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=mBQp3ywjT5bk66rjQDdhEw&oh=00_AfY6qanXXWqFnjDEKDwI6_x-h8GJWCylWbp2x6b3Z_tlmw&oe=68BDBFC6"
+    },
+    {
+      "id": "263b5f64-9329-8165-989c-d5a91e5e0ff1",
+      "title": "3 bedroom house for rent",
+      "overview": "A 3 bedroom house with 2 toilets, garden, and driveway, available for rent, ideal for families or working couples",
+      "description": "𝟑 𝐁𝐞𝐝 𝐇𝐨𝐮𝐬𝐞 𝐟𝐨𝐫 𝐑𝐞𝐧𝐭, 𝟒 𝐦𝐢𝐧𝐬 𝐰𝐚𝐥𝐤 𝐟𝐫𝐨𝐦 𝐃𝐢𝐬𝐭𝐫𝐢𝐜𝐭 𝐋𝐢𝐧𝐞 𝐒𝐭𝐚𝐭𝐢𝐨𝐧. 𝟐 𝐓𝐨𝐢𝐥𝐞𝐭𝐬 | 𝐆𝐚𝐫𝐝𝐞𝐧 | 𝐃𝐫𝐢𝐯𝐞𝐰𝐚𝐲 Ideal for Family or Working Couples, who’s looking for a Tidy and Clean property. Available from 𝟏𝐬𝐭 𝐎𝐜𝐭𝐨𝐛𝐞𝐫 𝟐𝟎𝟐𝟓, DM for queries. NO Agents or Time Waters Please 🙏🏼",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "3",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a detailed description of the property, including the number of bedrooms and toilets, and includes a photo, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T06:42:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843419072924055/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540776508_122094749829010427_1811309961740189855_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=EgHBQclDru4Q7kNvwF-KJrZ&_nc_oc=AdmBZCSKdSyFuAgkQTUPzF4QHkO59mF_g9v4Is82osD7k9g6FiFBRwAx2-2EN6Z7Ufk&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=mBQp3ywjT5bk66rjQDdhEw&oh=00_Afb3428zYlKcXI4FqjALInGzVxYhOlGCUVpvZ-6hUgkMFg&oe=68BDA063"
+    },
+    {
+      "id": "263b5f64-9329-8116-b624-ca6c4d3d9adf",
+      "title": "Double Room for Rent in Greenwich",
+      "overview": "A double room is available for rent in Greenwich, SE7, with a great location near supermarkets, transport, parks, and amenities.",
+      "description": "✨DOUBLE ROOM AVAILABLE NOW IN GREENWICH SE7✨ ✅ £780 per room (monthly) ✅ £400 deposit Great location, in front of many supermarkets, close to transport, parks & amenities! CONTACT: 📱 WhatsApp: [VAT NUMBER CENSORED] 💬 Facebook DM**",
+      "price": "£780",
+      "zone": "Greenwich, SE7",
+      "zoneMacro": "Greenwich",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides a clear description of the room and its location, and includes contact information, but lacks photos and does not provide extensive details about the accommodation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T06:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1425185041902347/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-81eb-8c41-d005fa9613f4",
       "title": "Renovated Double Room for Rent in London Dagenham",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T05:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2115098839024995/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fccj9-1.fna.fbcdn.net/v/t39.30808-6/541054880_4150915681861131_5093795492464027232_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=49tqLVZGr08Q7kNvwGpCbhW&_nc_oc=Admf8nk3J5CDTqygrN2CaLdzgxZe95YWnInduy5GycO5kdiSFDMPx153geBTwLBABW4&_nc_zt=23&_nc_ht=scontent.fccj9-1.fna&_nc_gid=rIq-KipVhHDWSXS13GDYkw&oh=00_AfYboUOvwtXdwlFlZfud0AITXf2m3BgeKFmF0xEi60kajA&oe=68BD861E"
     },
     {
@@ -1497,7 +1548,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T07:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1424394558648062/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540944582_10239239844314076_929194550714431166_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cyAe1pXeqJoQ7kNvwER05Y-&_nc_oc=Adkvn_XtzNAQ2Ld7a-aFOeQwMJA4SP1nV8QzjA8G0LoNlMU4aGZ4KxTI3RwZ7ogb90o&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=kQc7ARJqP-zudMz3RtD1cA&oh=00_AfVnUK67JlgRraoNbbuKYwMfJdUsRtnz0OuhPYapdOFESA&oe=68BC6C8D"
     },
     {
