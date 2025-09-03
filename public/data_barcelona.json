@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-03T16:41:49.565Z",
+  "generatedAt": "2025-09-03T17:26:03.453Z",
   "city": "barcelona",
-  "count": 1184,
-  "totalRejectedCount": 1887,
+  "count": 1185,
+  "totalRejectedCount": 1889,
   "results": [
+    {
+      "id": "263b5f64-9329-81e2-a2c6-e2994a2c6ee8",
+      "title": "Individual room available for rent",
+      "overview": "A single room is available for rent in the Sants Montjuic area, starting in September",
+      "description": "Habitación individual disponible para entrar en septiembre, zona Sants Montjuic",
+      "price": "N/A",
+      "zone": "Sants Montjuic",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but lacks photos and pricing information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027032767626349/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-8115-9a63-d9a22d96aba7",
       "title": "Room for rent in La Sagrera",
@@ -3809,7 +3826,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T18:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078123207826544/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540900252_24804995632458833_3738147996918373045_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FMHgj2H2eMIQ7kNvwG2Z1f4&_nc_oc=Adncc-SpGmeQTtzYYxDqUTF_r1tqheFx5Y5zHtB9x6u14jCdOe0C6QroLE_XzZLwlu8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=gWf5yHHmL9SDQBwYfjgddA&oh=00_AfXUCi6rddJyRl5ff8XNyLCio9-fxPex62VwUnRjaY0-Kw&oe=68BA505A"
     },
     {
