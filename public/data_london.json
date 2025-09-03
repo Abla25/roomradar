@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-03T01:58:45.476Z",
+  "generatedAt": "2025-09-03T03:04:15.806Z",
   "city": "london",
-  "count": 390,
+  "count": 392,
   "totalRejectedCount": 534,
   "results": [
+    {
+      "id": "263b5f64-9329-8115-8c09-c9aae0b4455f",
+      "title": "Apartment for Rent with Various Options",
+      "overview": "An apartment is available for rent with options including 1, 2, or 3 bedrooms and 1 bathroom, featuring brand-new appliances and parking, but the price is not specified.",
+      "description": "APARTMENT AVAILABLE FOR RENTS Available Options: • 1 bed, 1 bath • 2 & 3 bed, 1 bath • Affordable pricing Apartment Features: • Fully furnished with brand-new appliances • Full-size kitchen and bathroom • Included parking space • Pets are welcome DM your POSTCODE for more information and pictures!",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes photos and provides detailed information about the apartment features, but it does not specify the price, and the contact method is through DM, which slightly reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T03:02:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843256776273618/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540979381_122246554814222658_5713813975496438375_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UW-72z5wR4UQ7kNvwE4Wge7&_nc_oc=Adly6Ivm2w9BIYu_Tr07G-MlJFcM2fgKRtJMWCmSwwMOtOnT7yGK4NrQNKXJoIfvjGc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=zNz0Oc4ZvggjO9KZDUaQjw&oh=00_Afa5DVW-nyCuWEGPlQpBr7fZRo8q0iRf8175PFJ_v1tktA&oe=68BD7722"
+    },
+    {
+      "id": "263b5f64-9329-8149-8dce-dec0f48ab378",
+      "title": "Cozy Studio Flat for Small Family",
+      "overview": "A small studio flat is available for a small family, but details about the price and location are not provided.",
+      "description": "Small studio flat available for small family",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing has a photo, but it lacks crucial details such as price, location, and contact information, which raises concerns about its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T03:02:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843299186269377/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t15.5256-10/543281186_1550202952809473_3184957074444744256_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=117846&_nc_ohc=xcRAcJ93aZcQ7kNvwENYnYB&_nc_oc=AdkkvmkP4Y3eNrwwlnyMA6nOLTcR93lN6oA85mwY9Eu9l9lyWhJu-ggBtV_FWBzukAo&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=-N4rZCA5ijxtozRaC3osvQ&oh=00_AfbaEeCJzpe520cTAvzykjWQhpUcwRh1m8ofhdLeVfwgLA&oe=68BD9937"
+    },
     {
       "id": "263b5f64-9329-8181-bd2e-dab6a59cffee",
       "title": "Spacious Ensuite in Hounslow TW3",
@@ -52,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T01:57:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114946449040234/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540979381_122246554814222658_5713813975496438375_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UW-72z5wR4UQ7kNvwFqXADE&_nc_oc=AdnE2Yrfh0CtyhtRHy0sXsiZt0REuXkc86jXur8CNxde59Me2UZQOsFH6RCqCVicOTA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=8v_lElfr146AeMiagkbK8Q&oh=00_AfZrXMNBzgPU__mJOw5c-jMvLbSJd7fEqYMRlTYWsBPv6g&oe=68BD7722"
     },
     {
@@ -171,7 +205,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T23:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2114889902379222/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
