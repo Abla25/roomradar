@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-03T13:43:06.045Z",
+  "generatedAt": "2025-09-03T14:36:17.354Z",
   "city": "roma",
-  "count": 530,
-  "totalRejectedCount": 1749,
+  "count": 532,
+  "totalRejectedCount": 1763,
   "results": [
+    {
+      "id": "263b5f64-9329-8113-beca-eb6132f1616c",
+      "title": "Single rooms for rent in Rome",
+      "overview": "A recently renovated apartment with single rooms for rent, suitable for university students, in a well-connected area with a monthly rent of 500/550€ all inclusive",
+      "description": "DISPONIBILI STANZE SINGOLE IN AFFITTO PER STUDENTI Cerchi una sistemazione comoda e ben collegata per l’università? Affittasi stanza singola in appartamento misto. Immobile appena ristrutturato 🏡 Caratteristiche dell’alloggio: • Appartamento condiviso con altri studenti universitari • Ambiente tranquillo, pulito e con buone regole di convivenza • Zona servitissima: a pochi passi dalla Metro B Rebbibia, supermercati e tutti i servizi 💶 Canone mensile: 500/550€ TUTTO INCLUSO (Utenze, Wi-Fi e spese condominiali già comprese) 📍 Per info o per fissare una visita: 👉 https://roomforyouroma.it",
+      "price": "500/550€",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the apartment and the rent, but lacks photos and specific information about the location, which raises some concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T14:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31053621270949298/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "263b5f64-9329-8193-8f90-f2400bd723df",
+      "title": "Rental of a single room in Rome",
+      "overview": "A single room for rent in an apartment in the Casilina 329 area of Rome, ideal for university students",
+      "description": "📌 AFFITTASI STANZA – ROMA CASILINA 329 Si affitta ampia stanza singola in appartamento già abitato da studenti. 📍 Zona Casilina 329 – ben collegata con metro, autobus e tram. ✔️ Arredata, luminosa, in appartamento con cucina e bagno in condivisione. ✔️ Ideale per studenti universitari. 💰 600 €/mese tutto compreso: condominio, portiere, fibra, acqua, gas, TARI ed elettricità. 📞 Contatti: [PHONE NUMBER CENSORED]",
+      "price": "600 €/mese",
+      "zone": "Casilina 329",
+      "zoneMacro": "Pigneto",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides detailed information about the room and its location, and includes contact information, but lacks photos and may be a potential scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T14:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735438346655133/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "263b5f64-9329-8152-857a-d8cf9e81e2fd",
       "title": "Single rooms for rent in shared apartment",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T13:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1711781292849651/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
