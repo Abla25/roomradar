@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-03T18:54:28.709Z",
+  "generatedAt": "2025-09-03T19:22:58.502Z",
   "city": "london",
-  "count": 446,
-  "totalRejectedCount": 593,
+  "count": 447,
+  "totalRejectedCount": 595,
   "results": [
+    {
+      "id": "263b5f64-9329-81ea-9b74-c3ee374071cf",
+      "title": "Studio apartment for rent in Stratford",
+      "overview": "A studio apartment is available for rent in Stratford, E15, with all bills included",
+      "description": "📍 Stratford, E15 – Studio £290/week (All Bills Included)",
+      "price": "£290/week",
+      "zone": "Stratford, E15",
+      "zoneMacro": "East London",
+      "rooms": "Studio",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a photo, a specific location, and a clear price, which suggests a high level of completeness and authenticity",
+      "datePublished": "",
+      "dateAdded": "2025-09-03T19:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1843882502877712/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixu2-1.fna.fbcdn.net/v/t39.30808-6/543385458_1811770143100693_5654560475024257469_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NNg3A53VJ_IQ7kNvwG21qzm&_nc_oc=Adky4v8VYfcqLz2iJi4aiwcet_2NW8zScc5Ah8uKqfcH67EW7-He8EeiF7iiPVnkKqQ&_nc_zt=23&_nc_ht=scontent.fixu2-1.fna&_nc_gid=PL_nwk2LYIPY3wb8bxT3lg&oh=00_Afbr-57eAm5S3tWIS1kf7Qo9euJkVvi1N-U14Nv_goBb0A&oe=68BE58B2"
+    },
     {
       "id": "263b5f64-9329-81b6-9e0a-fe24d871941d",
       "title": "Apartment for rent with 3 beds and 2 baths",

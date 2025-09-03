@@ -1,13 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733836606815307/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T19:20:20.858321"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733831706815797/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-01T19:20:20.860682"
-    },
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733830356815932/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-01T19:21:02.398857"
@@ -1862,5 +1854,5 @@
     }
   },
   "total_rejected_count": 1818,
-  "timestamp": "2025-09-03T18:39:28.981347"
+  "timestamp": "2025-09-03T19:20:49.397741"
 }
