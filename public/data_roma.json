@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T18:46:25.768Z",
+  "generatedAt": "2025-09-04T19:26:07.470Z",
   "city": "roma",
-  "count": 627,
+  "count": 628,
   "totalRejectedCount": 2023,
   "results": [
+    {
+      "id": "264b5f64-9329-81ff-8207-c897f10bb635",
+      "title": "Room for rent in Frascati with private bathroom",
+      "overview": "A room with a private bathroom is available for rent in Frascati, shared kitchen, preferably for women, workers or students, near the train station that connects Frascati to Rome Termini",
+      "description": "Affitto a FRASCATI stanza con bagno in camera, cucina in comune fino a fine giugno. Preferibilmente donne,lavoratrici o studentesse. Al momento la casa è abitata già da due donne lavoratrici… La casa si trova nelle vicinanze della stazione che collega FRASCATI a Roma Termini. Per maggiori informazioni contattare in DM",
+      "price": "N/A",
+      "zone": "Frascati",
+      "zoneMacro": "Esquilino",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, but it seems to be a genuine rental offer with some details about the location and preferred tenants, and it provides a way to contact the owner",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T19:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736515163214118/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-815a-abfe-d8b733a6ac0f",
       "title": "Two-room apartment for rent in Ostia, Rome",
