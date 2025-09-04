@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T16:50:44.835Z",
+  "generatedAt": "2025-09-04T17:31:09.737Z",
   "city": "london",
-  "count": 515,
-  "totalRejectedCount": 669,
+  "count": 517,
+  "totalRejectedCount": 670,
   "results": [
+    {
+      "id": "264b5f64-9329-81b0-a235-f6da915cb2a0",
+      "title": "Apartments for Rent with Furnishings and Utilities",
+      "overview": "Fully furnished apartments with brand new utilities, parking, and pet-friendly, including a full-size kitchen and bathroom",
+      "description": "I’m Bouillon Anne. I have apartments for rent: a 1 bed 1 bath and a 2 bed 1 bath, both at affordable prices. They are fully furnished with brand new utilities, including a full-size kitchen and bathroom. Parking space is included, and pets are allowed. Utilities such as heat, water, refrigerator, washer and dryer, electricity, Wi-Fi, and more are included. Feel free to DM me for more info and pictures!",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides detailed information about the apartments, including furnishings and utilities, and the owner is open to sharing more information and pictures, but the price and location are not specified, and the presence of a photo does not directly relate to the apartments themselves",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T17:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844441536155142/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcjb3-3.fna.fbcdn.net/v/t39.30808-6/543097391_122111995172980401_8904004023507873882_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=amD3tigzCAYQ7kNvwEYpvQq&_nc_oc=AdnlTLDlLsqxNRk7ybK1V-M6Hi-sSJNcyhLjLbfszaKBqDys8fo21_AGOOmUZEsY4uE&_nc_zt=23&_nc_ht=scontent.fcjb3-3.fna&_nc_gid=MWUZiWktlN5vmOBl5KJ1Rw&oh=00_AfZ3YriTIU0-GJLiYyvlNF-dMExVc5LbgGWrfe7hDqghEQ&oe=68BF81A5"
+    },
+    {
+      "id": "264b5f64-9329-8172-b77c-e2321bf2e616",
+      "title": "Multiple Properties for Rent in Various Locations",
+      "overview": "The post lists numerous properties for rent in different areas, including houses, apartments, and studios, with varying numbers of bedrooms and bathrooms, and different rental prices.",
+      "description": "🏡 Properties for Rent – Immediate Move-In Available I’m a private landlord offering a range of houses, apartments, and studios for rent in safe, desirable neighborhoods. 🪩Immediate approval 🪩All utilities included 🪩Pet-friendly 🪩No criminal history required If you’re looking for a hassle-free rental experience with flexible terms, send a direct message or Wha App me at +44 [PHONE NUMBER CENSORED] for more details. Serious inquiries only, please.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Lambeth",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The post seems to be a list of properties for rent, but it does not provide specific details about each property, and there are no photos included.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T17:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844577106141585/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcjb3-5.fna.fbcdn.net/v/t39.30808-6/541802129_122103847820997323_3060204337984253796_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CUVKOaHuvnoQ7kNvwFI6v2o&_nc_oc=AdkeROpJSoXr533nSsowNiNPPgyKujw-NFFZG6kaCLnHMfykcr-AkrdP2lEPgPqDsrI&_nc_zt=23&_nc_ht=scontent.fcjb3-5.fna&_nc_gid=LBWSF4q5pQydNJ_Zg95SvQ&oh=00_Afb1hcsZNvh_KRWcW5zrWS5iIWGeAaokD0JiRIDs-AUbLw&oe=68BFAEF1"
+    },
     {
       "id": "264b5f64-9329-813c-8f0c-f578c4a837d1",
       "title": "2 Bedroom Flat for Rent in London",
@@ -171,7 +205,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T14:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1844452916154004/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbbi2-2.fna.fbcdn.net/v/t39.30808-6/539681291_122096704773008898_5049089534543017439_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CpfvARrBxbkQ7kNvwGmoZz_&_nc_oc=AdmQXVf1luW5rz3K_pgYaORgR0HY9CpH5vVj5clBiFk891wucs6LB2gf93uBcuwhK1Q&_nc_zt=23&_nc_ht=scontent.fbbi2-2.fna&_nc_gid=4Z1JCEUJ78YClxuy9eAVQA&oh=00_AfaG9LeKhn1NpFdJJraO9L88mUQa_ufiaSM6QnKtuqDTFg&oe=68BF5E4F"
     },
     {
@@ -902,7 +936,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T23:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843867829545846/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom9-1.fna.fbcdn.net/v/t39.30808-6/540449862_122117263160971437_749058593368930761_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1FV2E8DzewwQ7kNvwGXG28T&_nc_oc=AdlNz-FpA1dSbXS8Wf710NAzvCppJ2fHyGSXg2EkaC7Tr3R_wQ3WmNiq_BG9gzzMjJ4&_nc_zt=23&_nc_ht=scontent.fbom9-1.fna&_nc_gid=-wbu36kC1ZajLOoxhUZdSA&oh=00_AfbnxzCi2wny8yQEHSmpiBT6EX2UK08O3O0cJZmYD2xz_g&oe=68BE83A4"
     },
     {

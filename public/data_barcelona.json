@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T16:50:19.875Z",
+  "generatedAt": "2025-09-04T17:30:54.807Z",
   "city": "barcelona",
-  "count": 1251,
-  "totalRejectedCount": 2016,
+  "count": 1253,
+  "totalRejectedCount": 2024,
   "results": [
+    {
+      "id": "264b5f64-9329-81ed-81cb-da50800ba1ed",
+      "title": "Room for rent for girls",
+      "overview": "Room rental for single girls or two girls",
+      "description": "Se alquila habitación para chicas solas o dos chicas para yaa [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a photo and contact information, but the price is not specified, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T17:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081188780853320/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t15.5256-10/543499645_1287506139768996_8618439455929108263_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=117846&_nc_ohc=9suDLwvcXKQQ7kNvwGfcC4a&_nc_oc=AdlTHlSRNzfRthaRq_UbG1xv8_kfFk9vEj-IkNhuES-Kd4TivC1msLAKNDpt5_ZWPXc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=6rK2_UR2SBh9tupDgm_Sdg&oh=00_Afb9orl0jVVB7YZIBZr0yIDuYojKtBigZpggEZAOT2IjUQ&oe=68BF7C2F"
+    },
+    {
+      "id": "264b5f64-9329-81a8-9db6-e11e4bbbc361",
+      "title": "Shared Studio Apartment for Rent in Hospitalet de Llobregat",
+      "overview": "Studio apartment for rent in Hospitalet de Llobregat, shared, only for men, with kitchen and internet, 5 minutes from metro",
+      "description": "Se alquila estudio compartido, sólo para hombre, de gran importancia que sea responsable, tenga trabajo estable y buena conducta, ubicado en Hospitalet de Llobregat entre santa Eulalia y colblanc, a 5 minutos caminando del metro! Verdaderos interesados pueden escribir al pv! https://wa.me/[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "Post is a rental listing, but price is not specified and there is only one image, limited information",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T17:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312360032329839/",
+      "status": "active",
+      "imageUrl": "https://scontent.frdp5-1.fna.fbcdn.net/v/t39.30808-6/543196925_758763966962233_1770830507463313945_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eUXxpKXOtT8Q7kNvwGWnjl2&_nc_oc=Adkvusq1f9Fnd_CZwuBq28Wyyfj-HzsY6oxAcitGOw83eZwz8_LNjdZ-IAGipQUa3Fs&_nc_zt=23&_nc_ht=scontent.frdp5-1.fna&_nc_gid=M7RaNVKWFJjPMyLmo00eAQ&oh=00_AfZFALeb3JK7byY9MBRl2_feGaECihQQLZiY_KWZMyzNRQ&oe=68BF87E3"
+    },
     {
       "id": "264b5f64-9329-81eb-9b9a-f712258abe80",
       "title": "Room for rent near Fabra i Puig station",
@@ -1582,7 +1616,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T09:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310542019178307/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fgoi1-1.fna.fbcdn.net/v/t39.30808-6/542690185_122193832844328090_52668511496639091_n.jpg?stp=cp6_dst-jpegr_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2gaVf47fFMoQ7kNvwGlwsdi&_nc_oc=AdkwVkcwbNY_R9AmEOaT7IGf6-k7NuqzvCWBjENFWHYhULU72Tc_hPzjFMGxT4m2IZw&_nc_zt=23&se=-1&_nc_ht=scontent.fgoi1-1.fna&_nc_gid=ZFS0uMh4zQv6pb_Hicyu6g&oh=00_AfaW1BUpO5-OU_EUV7QFCUrNTEqbjzj76JXUf7dGlojk9w&oe=68BDBF7D"
     },
     {
