@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T05:25:52.994Z",
+  "generatedAt": "2025-09-04T06:41:28.547Z",
   "city": "roma",
-  "count": 569,
-  "totalRejectedCount": 1863,
+  "count": 571,
+  "totalRejectedCount": 1870,
   "results": [
+    {
+      "id": "264b5f64-9329-81cf-9d91-d2e988c45a8c",
+      "title": "",
+      "overview": "A 70sqm apartment in the Pisana/Bravetta area of Rome is available for rent, with a spacious double bedroom and a living room with a sofa bed, for 1000€ per month",
+      "description": "🏡AFFITTO STANZA/APPARTAMENTO Cerco studenti o lavoratori interessati a un appartamento accogliente e luminoso, ideale anche per due amici/amiche o una coppia! 👉Posizione : •zona Pisana/Bravetta (Roma) •8 minuti in macchina e 15 minuti con un solo autobus dall’Università degli studi Link •5 minuti in macchina e 10 minuti con un solo autobus dall’Università europea di Roma •20 minuti in macchina e 40 in autobus dall’Università degli studi di Roma Tre 👉 Info principali: * 70 mq * Camera matrimoniale spaziosa da condividere * In soggiorno: divano letto + letto singolo apribile all’occorrenza * Molto luminoso * Zona tranquilla e ben collegata , fermata dell’autobus a 2 minuti da casa * Vicino a negozi, bar,servizi e mezzi pubblici 💶costo dell’INTERO APPARTAMENTO 1000€ al mese 📞Per ulteriori informazioni e per prenotare una visita scrivimi in privato !",
+      "price": "1000€",
+      "zone": "Pisana/Bravetta, Rome",
+      "zoneMacro": "Eur",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description of the apartment, a price, and photos, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1339931874465170/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel37-1.fna.fbcdn.net/v/t39.30808-6/542130343_1849812309306408_2261563914992485947_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Gk9BSsoFlGIQ7kNvwEJviGR&_nc_oc=Adlv0UEQfhR_j6MirR31xOALvgXErqioG6LTy5U1xHvUXKU50-VZzmgD9nCaqdA3yJs&_nc_zt=23&_nc_ht=scontent.fdel37-1.fna&_nc_gid=qpbOpge_6dESoQM8MNVGUw&oh=00_AfYL6lRr7GEruRSPGUVc9uJP9TP2aSGAl-vr5G43OrWxcw&oe=68BEF218"
+    },
+    {
+      "id": "264b5f64-9329-8150-87d0-e89161e6f042",
+      "title": "Single room for rent in Laurentina area",
+      "overview": "Renting a single room in a 3-bedroom apartment in the Laurentina area, with a private parking spot and a verandah",
+      "description": "AFFITTASI STANZA SINGOLA zona LAURENTINA SERAFICO (Zona lussuosa residenziale con tutti i tipi di servizi a pochi metri) 700MT circa dalla stazione metro e Cotral, palazzo circondato in gran parte da un parco. L'appartamento con 3 camere ( si affitta una soltanto) con letto matrimoniale, 2 bagni , cucina grande, terrazzo verandato. Disponibilità di posto auto privato. Appartamento Nuovo. Si affitta SOLO ED ESCLUSIVAMENTE RAGAZZI. Appartamento FRIENDLY. Prezzo 550euro tutto incluso DISPONIBILE DAL 1 NOVEMBRE. Si richiede deposito di 1 mensilità e mezza. Maggiori info scrivete in privato.",
+      "price": "550 euro",
+      "zone": "Laurentina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description, a photo of the apartment, and a clear price, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1340080204450337/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd21-2.fna.fbcdn.net/v/t39.30808-6/541823497_2826028917587554_4538699481279339650_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=B6Nn-MxZRzIQ7kNvwE3k9ML&_nc_oc=Adkcev3SSVZrroXXMmGEawVtwxLUYdwh32RjE1Ndnumke9Qoq5Zr8oXSlc5wsTIfwL1902fAi-WijUrUh7T1hnC7&_nc_zt=23&_nc_ht=scontent.famd21-2.fna&_nc_gid=cpQ-6G99wdxEWfIaCbJIKQ&oh=00_AfY7zBObv_tbA3iVoT5iHzaq-85YAuPjxRI8Ut74pg3eJg&oe=68BF0D64"
+    },
     {
       "id": "264b5f64-9329-815f-a8d7-f05a630b4b7f",
       "title": "Room for Rent in Prima Porta Area",
@@ -851,7 +885,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T11:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2148450669012219/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel25-3.fna.fbcdn.net/v/t39.30808-6/541402222_2825188084338304_3046229924257542046_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BxB_WTWabSEQ7kNvwGBSn6x&_nc_oc=AdkEIyZQkyfyA2G-4N83b6FWZ4LdF2y09N1d-SamVARfDZOGTXZKfJjvhUnwjTn3dgk&_nc_zt=23&_nc_ht=scontent.fdel25-3.fna&_nc_gid=WTUQxqKsHYRqocL11tR-WQ&oh=00_AfZqk7tf0ijj6PXaoSXgsd9vKovEtwYIuFYLmQ1zzjf1Rg&oe=68BDEEE9"
     },
     {

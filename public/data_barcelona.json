@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T05:25:48.585Z",
+  "generatedAt": "2025-09-04T06:41:20.420Z",
   "city": "barcelona",
-  "count": 1217,
-  "totalRejectedCount": 1950,
+  "count": 1219,
+  "totalRejectedCount": 1953,
   "results": [
+    {
+      "id": "264b5f64-9329-81dc-a9d9-e369b63614bc",
+      "title": "Room for rent in Sants, Barcelona",
+      "overview": "A room is available for rent in the Sants area of Barcelona, with the owner requesting interested parties to contact via WhatsApp to arrange a visit",
+      "description": "Alquilo habitación en Estación de Sants Barcelona. Hablarme por WhatsApp al [PHONE NUMBER CENSORED] para coordinar visita.",
+      "price": "N/A",
+      "zone": "Sants, Barcelona",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and a clear call to action to contact the owner, increasing its reliability, but lacks detailed information such as the price",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2188914494955953/",
+      "status": "active",
+      "imageUrl": "https://scontent.fjai2-5.fna.fbcdn.net/v/t39.30808-6/543007831_10239591781313578_7934579308999484256_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=a38NMRzDsFYQ7kNvwFR7M-r&_nc_oc=AdnGNNmW-qZL6AgGa4mmdPvv4uIQgT1hzmj06H3CsJZnrkPDuUEhaqQIQhfZwVE94dju-XwEtO2GwNtETbSNsVip&_nc_zt=23&_nc_ht=scontent.fjai2-5.fna&_nc_gid=h6CAZQgmKz7btuTc3uEAfg&oh=00_AfaXh7sCOuH4cKMzyMVm2v1YSRvpdoSyoXpZH9SrPDE10w&oe=68BEEC7E"
+    },
+    {
+      "id": "264b5f64-9329-8139-878e-f575af9d513e",
+      "title": "Room for rent in Estación de Sants, Barcelona",
+      "overview": "Room for rent in Estación de Sants, Barcelona, available for viewing via WhatsApp",
+      "description": "Alquilo habitación en Estación de Sants Barcelona. Hablarme por WhatsApp al [PHONE NUMBER CENSORED] para coordinar visita.",
+      "price": "N/A",
+      "zone": "Estación de Sants, Barcelona",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a specific location, a photo, and contact information, which suggests it is a genuine rental listing, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080815450890653/",
+      "status": "expired",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541740222_10239591794553909_1003728852586129265_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xzy4-XuTJnsQ7kNvwE25Erh&_nc_oc=AdmlrkIUOxIay90ajjpHl0PWbDWhpYQlsko55kwz6euO6YRqn7KQQVUCN0UrHRsAT1o&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=xWjB8-BX3vgt9U6Ea02tMw&oh=00_AfaHUhbJKtRtfBq7WUtEooSTyECffBSbjk3edIfiJvjAwg&oe=68BF1EEB"
+    },
     {
       "id": "264b5f64-9329-81f8-9172-ccd77818bdf4",
       "title": "Apartment and Private Room for Rent in Barcelona",
@@ -6393,7 +6427,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T11:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4306867876212388/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel27-3.fna.fbcdn.net/v/t39.30808-6/538833814_10239524121942136_6804682306640062671_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9BRRKeyZnqYQ7kNvwGZETfq&_nc_oc=AdltDxeHvz0LM7y89eTdtz-pCybSP8_jhC0nVS-6ldzLD32z9TT3FYux8y_yCnqpIts&_nc_zt=23&_nc_ht=scontent.fdel27-3.fna&_nc_gid=z1aGRc-xmWy50PS3Cvu12Q&oh=00_AfXPhHsV50c4w_yiFvPosF8lOcKXNZcL1appc5PRdRK4-A&oe=68B8985E"
     },
     {

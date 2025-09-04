@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T05:25:56.421Z",
+  "generatedAt": "2025-09-04T06:41:32.372Z",
   "city": "london",
-  "count": 467,
-  "totalRejectedCount": 616,
+  "count": 469,
+  "totalRejectedCount": 620,
   "results": [
+    {
+      "id": "264b5f64-9329-818c-8d8e-e29c97b79ae7",
+      "title": "Double Room for Rent in East Ham",
+      "overview": "A double room is available for rent in a modern house in East Ham, fully furnished and with all bills included",
+      "description": "Double Room Available in East Ham (E6 2AE) PROFESSIONALS ONLY Modern house with weekly cleaner. Fully furnished (no mattress). All bills included. Available immediately.",
+      "price": "N/A",
+      "zone": "East Ham (E6 2AE)",
+      "zoneMacro": "East London",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing seems legitimate, but it lacks photos and a clear price, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844198542846108/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-81de-9e7a-eb3cbe7f70b7",
+      "title": "Modern 4 bedroom family home for rent",
+      "overview": "A modern 4 bedroom family home is available for rent",
+      "description": "🏡 Modern 4 Bedroom Family Home",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks essential information such as price, location, and photos, and may not be a legitimate rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T06:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1425314845222700/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-81c5-ac12-f22897980164",
       "title": "Private Landlord Seeking Clean and Honest Tenant",
@@ -460,7 +494,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T18:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2115599792308233/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcjb5-2.fna.fbcdn.net/v/t39.30808-6/542750437_24686238980996136_4885068861279713900_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NmhBehVv13wQ7kNvwFHVpOs&_nc_oc=Adk_5ydetE6PmVpc8pUm0qCZMPM6FR0pNLVKWo3o-tm-6EyspV55_d0AvUKRWCUVEHw&_nc_zt=23&_nc_ht=scontent.fcjb5-2.fna&_nc_gid=e8o_4Bi4OcCeukl5SlHKFg&oh=00_AfbX_HlPEDTC3FQjf4JfpqGYBgIDlRTMdb1fkRdmfu7hng&oe=68BE3F74"
     },
     {
