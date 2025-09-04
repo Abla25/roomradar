@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T13:41:26.466Z",
+  "generatedAt": "2025-09-04T14:31:24.190Z",
   "city": "roma",
-  "count": 606,
-  "totalRejectedCount": 1962,
+  "count": 608,
+  "totalRejectedCount": 1969,
   "results": [
+    {
+      "id": "264b5f64-9329-81ab-b01b-c8e4a979aa37",
+      "title": "Room available for rent starting October 1st",
+      "overview": "A room is available for rent in a renovated apartment with private bathroom, air conditioning, SmartTV, and other amenities",
+      "description": "Stanza disponibile a partire dal 1 Ottobre in appartamento ristrutturato e corredato di ogni comfort. La stanza è dotata di bagno privato, condizionatore caldo/freddo, SmartTV, letto una piazza e mezza, smartkey e arredata di scrivania sedia armadio e quant’altro. Spazi comuni cucina e angolo lavanderia ( lavatrice ed asciugatrice). L’appartamento si trova in un complesso condominiale dotato di servizio portierato a 100 metri dalla Luiss Business School. Per informazioni, foto, video si prega di inviare un primo contatto su whatsapp al seguente numero [PHONE NUMBER CENSORED] per poi pianificare eventuali visite in loco.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the room and apartment, but there are no photos available and the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1712397192788061/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-81d2-b59f-c5a0803d6e99",
+      "title": "Spacious room for rent in Re di Roma",
+      "overview": "A spacious room is available for rent in the Re di Roma area, with a one and a half size bed, large wardrobe, desk, and armchair.",
+      "description": "Affitto stanza spaziosa a Re di Roma, San Giovanni. 5 minuti dalla metro A. Letto a una piazza e mezzo, ampio armadio, scrivania e poltrona. 500 euro utenze escluse, disponibile da subito. Per maggiori informazioni mandare un messaggio al [PHONE NUMBER CENSORED]",
+      "price": "500 euro",
+      "zone": "Re di Roma, San Giovanni",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the room and contact information, but lacks photos and may not be entirely trustworthy due to the absence of visual confirmation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1712548042772976/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-819e-9eb5-c03b1a14ba34",
       "title": "Two single rooms for rent",
@@ -307,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1340176244440733/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -9759,7 +9793,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T06:39:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2142301876293765/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

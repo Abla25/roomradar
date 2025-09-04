@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-04T13:41:34.123Z",
+  "generatedAt": "2025-09-04T14:31:39.458Z",
   "city": "london",
-  "count": 502,
-  "totalRejectedCount": 653,
+  "count": 506,
+  "totalRejectedCount": 655,
   "results": [
+    {
+      "id": "264b5f64-9329-816b-a77d-f94f95d90143",
+      "title": "Properties for rent with immediate move-in available",
+      "overview": "The landlord is offering a range of houses, apartments, and studios for rent in safe neighborhoods, with immediate approval, all utilities included, and pet-friendly options, with no criminal history required",
+      "description": "🏡 Properties for Rent – Immediate Move-In Available I’m a private landlord offering a range of houses, apartments, and studios for rent in safe, desirable neighborhoods. 🪩Immediate approval 🪩All utilities included 🪩Pet-friendly 🪩No criminal history required If you’re looking for a hassle-free rental experience with flexible terms, send a direct message or Wha App me at +44 [PHONE NUMBER CENSORED] for more details. Serious inquiries only, please.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Lambeth",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post seems to be a genuine rental listing, but it lacks specific details about the properties, such as the location, price, and amenities. The landlord's willingness to offer flexible terms and immediate approval is a positive aspect, but the lack of transparency about the properties is a drawback.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844452916154004/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbbi2-2.fna.fbcdn.net/v/t39.30808-6/539681291_122096704773008898_5049089534543017439_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=CpfvARrBxbkQ7kNvwGmoZz_&_nc_oc=AdmQXVf1luW5rz3K_pgYaORgR0HY9CpH5vVj5clBiFk891wucs6LB2gf93uBcuwhK1Q&_nc_zt=23&_nc_ht=scontent.fbbi2-2.fna&_nc_gid=4Z1JCEUJ78YClxuy9eAVQA&oh=00_AfaG9LeKhn1NpFdJJraO9L88mUQa_ufiaSM6QnKtuqDTFg&oe=68BF5E4F"
+    },
+    {
+      "id": "264b5f64-9329-810d-bdb7-fac60334d1ca",
+      "title": "1bd, 2bd, 3bd, and 4bd apartments available for rent",
+      "overview": "The landlord has multiple apartments with 1, 2, 3, and 4 bedrooms available for rent, open to working with individuals with misdemeanor and low credit, as long as they have a stable source of income",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area thank you",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post seems to be a genuine rental listing, but it lacks specific details about the apartments, such as the location, price, and amenities. The landlord's willingness to work with individuals with misdemeanor and low credit is a positive aspect, but the lack of transparency about the properties is a drawback.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844463782819584/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbbi2-1.fna.fbcdn.net/v/t39.30808-6/543427418_122129502458934508_7383252920201129468_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-sMaxXk11rAQ7kNvwHxMcwV&_nc_oc=AdndFrGVHHjlf-o8h2x1MawdkjzTAX5L1KIj7jjTGYCGlyYDMPwC22OBpAponJ0UIoM&_nc_zt=23&_nc_ht=scontent.fbbi2-1.fna&_nc_gid=4Z1JCEUJ78YClxuy9eAVQA&oh=00_AfaP1SI6SwY7XItnetBUbTU9iDX5Ij0QzpGJ7CB50VWRcA&oe=68BF758A"
+    },
+    {
+      "id": "264b5f64-9329-8171-a74b-dc841b362e8b",
+      "title": "1 Bedroom Flat for Rent in Clapton/Hackney",
+      "overview": "1 bedroom flat available to rent in Clapton/Hackney",
+      "description": "1 bedroom flat available to rent in Clapton/Hackney!!!",
+      "price": "N/A",
+      "zone": "Clapton/Hackney",
+      "zoneMacro": "North London",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it seems to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844471219485507/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-8172-abf1-e553c6482bae",
+      "title": "Shared Room for Rent in South Harrow",
+      "overview": "Fully furnished shared room available for 3 girls, all bills included, excellent location close to South Harrow Station and local shops",
+      "description": "👩‍🎓 Room to Rent – South Harrow (HA2) 👩‍🎓 Shared room available for 3 girls only ✅ Fully furnished ✅ All bills included ✅ 50% deposit required 📍 Excellent location – close to South Harrow Station & local shops 💷 Rent: £300 per person (all included) 📞 Contact: 07887 161834",
+      "price": "£300 per person",
+      "zone": "South Harrow (HA2)",
+      "zoneMacro": "Harrow",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing is missing photos, which is a key factor in verifying the authenticity of the rental. Additionally, the contact information is limited to a phone number, which may not be sufficient for all potential renters.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T14:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426295181791333/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-8140-93a3-f440efa1e4ed",
       "title": "Flatmates wanted for 4-bedroom flat in Central London",
@@ -35,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T13:38:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1426295241791327/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -562,7 +630,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T07:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1844215806177715/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh1-1.fna.fbcdn.net/v/t39.30808-6/543121071_122129383466934508_175644718743759998_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=EJNwoZd8oeoQ7kNvwFvJa9o&_nc_oc=Adlo8LSk21zf2bD0uf9n3PRhqQDEPfiSSYYs8LR1e4f0nqnj1zv2mB2IGYeRZacp3u4&_nc_zt=23&_nc_ht=scontent.fluh1-1.fna&_nc_gid=VGD6yXZaqWWMTqeOvxbCig&oh=00_AfbxsD7RGj3XSSrXV_lcUUaMK0yjpYBoCt0wSpuR6b0VZQ&oe=68BF1DD8"
     },
     {
@@ -1038,7 +1106,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T18:51:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2115599742308238/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcjb5-2.fna.fbcdn.net/v/t15.5256-10/543155751_1077644090806277_8946405008040082262_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=117846&_nc_ohc=-4Bk-cmPKlsQ7kNvwGydgEl&_nc_oc=AdmHJeWdMH3iwJ6EFJmWqqKqZQjQjMSm5PASadYAO_ydTfB7L--2YnyDNYFSAXXcbmM&_nc_zt=23&_nc_ht=scontent.fcjb5-2.fna&_nc_gid=e8o_4Bi4OcCeukl5SlHKFg&oh=00_AfY2Dw0diDDSSIKIFRv6UjQr4CHc11mZgHxjNnNK3VWE0w&oe=68BE6306"
     },
     {
@@ -4642,7 +4710,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T19:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1841605859772043/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540973653_122100449042997323_7416846633348868277_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wKekJ48ZxZUQ7kNvwHnAwh6&_nc_oc=AdnUnd08iTpeqi0ounAEx2kegZdBZcx_LjbQO4Rv9dZnyl804n8M3zKjtYp-kCKrPns&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=H_7AjblkGzhKXH8RqubZoA&oh=00_AfUrtWNT2LfUu4f9t4QrdcTpcxLGRtWClGk6hJ8Yvg41SQ&oe=68BA598F"
     },
     {
