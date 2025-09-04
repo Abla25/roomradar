@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-04T15:34:50.529Z",
+  "generatedAt": "2025-09-04T16:50:19.875Z",
   "city": "barcelona",
-  "count": 1248,
-  "totalRejectedCount": 2006,
+  "count": 1251,
+  "totalRejectedCount": 2016,
   "results": [
+    {
+      "id": "264b5f64-9329-81eb-9b9a-f712258abe80",
+      "title": "Room for rent near Fabra i Puig station",
+      "overview": "Single bed room for rent in a shared apartment, available from October 1st, 380 euros per month, one month deposit, very clean and trustworthy place",
+      "description": "Alquilo habitacion cama sencilla a una calle estacion fabra i puig , al lado del hipercore , para estudiante o persona sola (no parejas) apartir de 1 de octubre, ~380 el mes y un mes de fianza, para compartir con dos personas, lugar muy limpio y de confianza, no se aceptan visitas, escribir solo interesados, gracias !",
+      "price": "380",
+      "zone": "Fabra i Puig",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and availability, and includes a photo, but it does not provide contact information other than a request to write to the poster, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T16:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2189257788254957/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542094347_4218957618431182_1849196521875384286_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wMagGksZyxcQ7kNvwGCWoLk&_nc_oc=AdkUGEAOhK3RsPt4w0OPuooHbXtooKute2ERAv8BnXEmjhQhQz4TQv-PfxyEKVjhPKc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=U6Ao33h7_Pyh-wX-cjZPFg&oh=00_AfYrKQ3J8xZ13sI-jSzIrPsPFtlIvLG_qYA8bsgzNBSs9w&oe=68BF7A05"
+    },
+    {
+      "id": "264b5f64-9329-81b8-8fb3-ea7c685f9a81",
+      "title": "Room for single women or women with children",
+      "overview": "A room is available for single women or women with children, available immediately",
+      "description": "Habitacion para chicas solas o dos chicas o madres con hijos [PHONE NUMBER CENSORED] para hoy mismo",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a specific description of the room and target audience, and includes a contact number, but lacks detailed information about the location and amenities, however, it has an image which increases the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T16:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4028381457491480/",
+      "status": "active",
+      "imageUrl": "https://scontent-del1-1.xx.fbcdn.net/v/t15.5256-10/542327253_1842407353297036_3414109395621872855_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=117846&_nc_ohc=pZFgTD0HP9IQ7kNvwEXFQEO&_nc_oc=Adm3TOveCVdlb3qYSodFfPTCqfiKFuk3iLOyCb1f2jBxfReF57IKUjWGbsFjNdMk9z8&_nc_zt=23&_nc_ht=scontent-del1-1.xx&_nc_gid=8MDcg8LfBI9EDjlLeFjkAg&oh=00_Afa9dk2NC4paR3xeGQw_3woA76MP-5QCIrbPt8CJArJ6kw&oe=68BF86D9"
+    },
+    {
+      "id": "264b5f64-9329-8159-aede-d829423a9d52",
+      "title": "Cozy room for rent in Sagrada Familia",
+      "overview": "A cozy room for rent in a shared apartment in Sagrada Familia, with a balcony and views of the iconic monument, available for one person",
+      "description": "✨ Se alquila habitación en Sagrada Familia ✨ Alquilo habitación pequeña y acogedora ideal para una sola persona, justo frente a la Sagrada Familia, con balcón y vistas directas a este emblemático monumento. 📍 Ubicación inmejorable: • A un paso de las líneas L2 y L5 del metro • Zona céntrica, segura y con todos los servicios cerca 🏠 El piso es luminoso, tranquilo y muy acogedor, perfecto para quien busque comodidad en pleno corazón de Barcelona. ✅ A compartir con una sola persona ✅ Solo para una persona ✅ Piso con balcón con vistas directas a la Sagrada Familia, de uso compartido. ✅ Excelente conexión de transporte 💶 650€ + gastos 📅 Disponible desde: 01/10/2025 📩 Interesados/as, escribidme por mensaje privado.",
+      "price": "650€ + expenses",
+      "zone": "Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information, photos, and a clear description of the room and its amenities, with a realistic price and no obvious scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T16:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081148327524032/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543165049_10238081818762046_5826190635299249515_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0JrtGGiYwIAQ7kNvwHQUv5t&_nc_oc=AdnUHxMKWz0OD2XbWaKsWkmW8a0p-7Xvm-HWxho5canSGYY_1TSJX68Z_MdrUdgf5VA&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=ghq-x2mODVXWy9qAktIi6g&oh=00_AfYdN1EX5uWa5oJVbcCMh__0J6RdYpwCD_pJU0M69PuhMw&oe=68BF6DFE"
+    },
     {
       "id": "264b5f64-9329-8158-9290-c29105634a8c",
       "title": "Renting a central room in Barcelona",
@@ -834,7 +885,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T22:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4311628565736319/",
-      "status": "verification_needed",
+      "status": "expired",
       "imageUrl": "https://scontent.fded2-1.fna.fbcdn.net/v/t15.5256-10/542042481_747596535108731_8255037368438404135_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=117846&_nc_ohc=TkKJ9g5k2QoQ7kNvwFpK66z&_nc_oc=AdmdE-vnVe92bO9klYH4Pyu57kQDeywZgC7mN4UQIKLvGOJq1W5w0_gaU1LP9CR9Itc&_nc_zt=23&_nc_ht=scontent.fded2-1.fna&_nc_gid=5yjYnhFC7GfU_mC2C7yHeQ&oh=00_AfYzDKswExE8r0JazXKAYNaxfIV6twRln3wTgY-d9emp7Q&oe=68BE9C21"
     },
     {
@@ -1684,7 +1735,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T06:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2187648335082569/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fhyd3-1.fna.fbcdn.net/v/t39.30808-6/540492817_122144172752826546_1031964363141707273_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NuCRUZtJkAQQ7kNvwHh52WY&_nc_oc=AdnwXZB4T4wo6n9fuhOkB62Ad2sIUh5ZsO6TMomK0cJHCNzMhJcmIXygEroFy0SVMbs&_nc_zt=23&_nc_ht=scontent.fhyd3-1.fna&_nc_gid=H772dsDAAm7U9wu_gfBKbA&oh=00_AfYcIabdJ59Lp3Bmc6JWt9U7BrJKOB76BPkvFquSRuJMFQ&oe=68BDB670"
     },
     {
