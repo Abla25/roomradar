@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T17:30:54.807Z",
+  "generatedAt": "2025-09-04T18:46:19.523Z",
   "city": "barcelona",
-  "count": 1253,
-  "totalRejectedCount": 2024,
+  "count": 1255,
+  "totalRejectedCount": 2032,
   "results": [
+    {
+      "id": "264b5f64-9329-81d1-81f7-d0a6cebfb3cb",
+      "title": "Room for rent for a girl in Terrassa",
+      "overview": "Large room for rent in a quiet neighborhood, ideal for students or working women, 10 minutes walk from the city center, all inclusive for 350",
+      "description": "Tengo una habitacion para chica ideal estudiantes o trabajadoras en terrassa. Habitacion grande 350 todo incluido ,sin entrada barrio tranquilo solo a 10 minutos andando al centro ,autobuses cerca etc",
+      "price": "350",
+      "zone": "Terrassa",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and contact information, which raises concerns about its legitimacy, but it provides some details about the room and its location.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T18:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2189346528246083/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-81ba-b7c7-e9ebcc91c573",
+      "title": "Large room for rent in Badalona",
+      "overview": "A large room is available for rent, suitable for two people, located near La Salut metro station in Badalona",
+      "description": "Se alquila habitación grande para dos chicos para ingresar ya mismo A dos calles del metro la salut badalona",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks essential details such as price and photos, but it seems to be a genuine rental listing with a specific location mentioned",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T18:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081224150849783/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-81ed-81cb-da50800ba1ed",
       "title": "Room for rent for girls",
@@ -3826,7 +3860,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T14:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078754421096756/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
