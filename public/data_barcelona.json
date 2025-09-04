@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-04T07:30:41.312Z",
+  "generatedAt": "2025-09-04T08:44:29.366Z",
   "city": "barcelona",
-  "count": 1219,
-  "totalRejectedCount": 1954,
+  "count": 1224,
+  "totalRejectedCount": 1969,
   "results": [
+    {
+      "id": "264b5f64-9329-81a1-9d2e-ccfe908f0c32",
+      "title": "Room available near metro L5 Pubilla Cases",
+      "overview": "A room available for rent near metro L5 Pubilla Cases, suitable for a working woman or to share",
+      "description": "Habitación disponible a lado del metro L5 Pubilla Cases, para compartir o chica trabajadora. Info [PHONE NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Near metro L5 Pubilla Cases",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information such as price, number of rooms, and photos, and only includes a phone number as contact method, making it somewhat unreliable",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027473557582270/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-8179-9cd8-d56df4fd7340",
+      "title": "Furnished apartment available in the Gothic quarter",
+      "overview": "A furnished apartment available for rent in the Gothic quarter of Barcelona",
+      "description": "🏡 ¡Disponible! Piso Amueblado en el Gótico",
+      "price": "N/A",
+      "zone": "Gothic quarter, Barcelona",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post includes a photo, but lacks detailed information such as price, number of rooms, and contact method, making it somewhat unreliable",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027991930863766/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc2-1.fna.fbcdn.net/v/t39.30808-6/541738932_10243652329110684_36724483971450908_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jZF3YLf207kQ7kNvwEjw_cU&_nc_oc=Adm3qazysjieO_1qvwH87fiWQF8k5ZkI3XGxAv_SFJKH8xdILGWflmTEZPNikxmB_64&_nc_zt=23&_nc_ht=scontent.fixc2-1.fna&_nc_gid=ilZKy_M9mL8-J4MpWvKHtg&oh=00_AfY9G1qOF2sZpoIW1PeLRxo326BaK24-UsElzi9SXoKbfw&oe=68BF3149"
+    },
+    {
+      "id": "264b5f64-9329-81f1-bf96-d8d7d926fe60",
+      "title": "Room for rent in Reus",
+      "overview": "The post is about renting a room in Reus, Tarragona for a single person",
+      "description": "Se alquila habitación en Reus Tarragona para persona sola inf [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Reus, Tarragona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks sufficient information, photos, and contact details, which makes it difficult to achieve a higher reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080885860883612/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-81ec-88fc-c67236eb00ec",
+      "title": "Furnished studio for rent in El Raval",
+      "overview": "A furnished studio is available for rent in El Raval, with a bathroom, duplex space, and modern amenities, close to metro, bus, and beach",
+      "description": "🏡 ¡Disponible! Estudio Amueblado en El Raval 🔑 Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno 📍 Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval 🔹 Precio 950€ x mes Condiciones Mes entrantre, 2 Meses Fianza Contratro Temporal 6 meses Totalmente amueblado y listo para mudarse 📆 Disponible desde ya 💬 Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€ per month",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the studio, including photos, price, and contact information, making it a reliable listing with no apparent scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312027989029710/",
+      "status": "expired",
+      "imageUrl": "https://scontent.fdel27-5.fna.fbcdn.net/v/t39.30808-6/541742076_10243652456233862_3064829291913802708_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=xnxUdtc7Gk8Q7kNvwG6P-IZ&_nc_oc=AdmKNDxjNSzve4vWKYhlCxHFyXaUVOi8TCo-d_0RYF64QKN-qDoeGPjte5cOchMCnAw&_nc_zt=23&_nc_ht=scontent.fdel27-5.fna&_nc_gid=NsrL99MZBwQpOFnp0BMHSg&oh=00_Afbor2rD1RmQoD11gIGbk588FPpeLTOJf9T2hBIBYqu0AA&oe=68BF1E41"
+    },
+    {
+      "id": "264b5f64-9329-8130-b48b-ce0faf0396fb",
+      "title": "Room for rent for a girl in Pubillas houses",
+      "overview": "A room is available for rent in Pubillas houses, suitable for a girl",
+      "description": "Hola se alquila una habitación para chica en pubillas casas",
+      "price": "N/A",
+      "zone": "Pubillas",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information, photos are not provided, and there's limited contact information, which raises concerns about the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312032815695894/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-81dc-a9d9-e369b63614bc",
       "title": "Room for rent in Sants, Barcelona",
@@ -69,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T03:00:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027207120942247/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbek2-1.fna.fbcdn.net/v/t15.5256-10/543162844_757620923819844_2014041437853409815_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=117846&_nc_ohc=lvLQC6fPyyAQ7kNvwEzTywq&_nc_oc=AdkwA-sK1jNhkpYSmUxNm0-xMiKSqwkbxWeCZRKP-5a39e1E8cRxJ3BTzZuqBjUk4wA&_nc_zt=23&_nc_ht=scontent.fbek2-1.fna&_nc_gid=zoQ4uGOpQ_I5CT7Dyi6fCw&oh=00_AfYDJm_jrHFdZNs93A65td3pvJv7526Rx7u8u4-hWzbnuw&oe=68BEB22C"
     },
     {
@@ -341,7 +426,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T22:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4311628565736319/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fded2-1.fna.fbcdn.net/v/t15.5256-10/542042481_747596535108731_8255037368438404135_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=117846&_nc_ohc=TkKJ9g5k2QoQ7kNvwFpK66z&_nc_oc=AdmdE-vnVe92bO9klYH4Pyu57kQDeywZgC7mN4UQIKLvGOJq1W5w0_gaU1LP9CR9Itc&_nc_zt=23&_nc_ht=scontent.fded2-1.fna&_nc_gid=5yjYnhFC7GfU_mC2C7yHeQ&oh=00_AfYzDKswExE8r0JazXKAYNaxfIV6twRln3wTgY-d9emp7Q&oe=68BE9C21"
     },
     {
@@ -494,7 +579,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T19:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026445297685096/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fmaa10-1.fna.fbcdn.net/v/t39.30808-6/542042857_10162826841464333_5763960347759077659_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4OiusC53g2EQ7kNvwF63e2B&_nc_oc=Adl5dSWT3SumNYpbKlyT5Rfaz0neSY6aTgP1vcs34nRFzTerphletVcuKSesK7a37A8&_nc_zt=23&_nc_ht=scontent.fmaa10-1.fna&_nc_gid=SQBH4ZBg7yrPqUOT31nUOQ&oh=00_AfaJPYuNzGMwxwHZ_vMKbIcUMOrX02RTulQifGmn_eqW7Q&oe=68BE4FF8"
     },
     {
@@ -1225,7 +1310,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T06:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2245272082642654/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel88-1.fna.fbcdn.net/v/t39.30808-6/542538395_10243636688679683_2402025564678342357_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Hmfjs_99xSYQ7kNvwH0wBrF&_nc_oc=AdmKBzbSVSoKOIOg2M4fQCr9gN65VU2BR76MKFbuzcEXI9Ngva4eIuZrLH5CdnfasUs&_nc_zt=23&_nc_ht=scontent.fdel88-1.fna&_nc_gid=kaBJ-_5cCCz0_e9fRFTpPg&oh=00_AfbhKar9kr77zy32xGMynvkl5x-TR9OUn8KoxLhe-xPi-g&oe=68BDA430"
     },
     {
@@ -2024,7 +2109,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T17:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4026441434352149/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbom3-1.fna.fbcdn.net/v/t15.5256-10/541243362_745593118388832_6335280814166378172_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=117846&_nc_ohc=vHM8cNKNGi0Q7kNvwGzWcDP&_nc_oc=AdkSRD3ifrha7s5fVC6GLlg_gEbiwxlorf8Fjue69EsWfCCuP7K8bPN_s4OPxdhXwiE&_nc_zt=23&_nc_ht=scontent.fbom3-1.fna&_nc_gid=TRj_RGlUr-047zv3Uiq1KQ&oh=00_AfW2Tnh73TRCvtUqhXlD0gAqbCnsCYPxRw2fculEHZXBxA&oe=68BCF300"
     },
     {
@@ -2602,7 +2687,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T06:39:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4025076554488637/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -2636,7 +2721,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T06:37:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4309828825916293/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541786869_10173370966585151_7966486182571544742_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=oDBL1w-OFTAQ7kNvwGsKx-d&_nc_oc=AdnGNYw9ywa4rfbE6Jvp4oT6ZRLntgrb53-EZtoj-C9hIkcDmDqIguIBLfN71UI6Yd8&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=ih3eQ27XYCl16Oz9UvO7Ag&oh=00_AfWAxh_fiI5MjJymzlH23kTMdrPrNuwobIQDyiDo1U_4Yw&oe=68BC6E0E"
     },
     {
@@ -3418,7 +3503,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T12:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078670661105132/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbho3-5.fna.fbcdn.net/v/t39.30808-6/540495111_2267402313681410_3898326609570851884_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QNFjf1gr2RUQ7kNvwGTPyyW&_nc_oc=AdnsXm7M7wKvcd06bIYz5JkK1eCrz1svl4U4dBYZPM7BU0WHgvIrwUxDqn_PpGPJAB1B6Jdfch0Qoxxc1qE8pY3j&_nc_zt=23&_nc_ht=scontent.fbho3-5.fna&_nc_gid=8NXXP8rhKFSdxeE6HDky_Q&oh=00_AfUL7famnoVUATN0HhLh3hgN8NPs1sJpcqH6DnL_IUJB1w&oe=68BB811E"
     },
     {
@@ -3486,7 +3571,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T11:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1068266585069638/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -3962,7 +4047,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T02:09:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2243451312824731/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/540398853_10236508150819442_627732215515398862_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eHLqbTyf6E0Q7kNvwHdH7Wg&_nc_oc=Adn8cHmmoO55KQIf3_vDcm-r4T8dNEA5aKtKe53L19byE-ih6qyZUKYCEqOpiA_iIG4&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=sEcYngb_Iu4wH6YhNxhtqQ&oh=00_AfVykG2MNlgvEsu8Wn-17FiRedEEzlOCWWaVqsljxaVKVg&oe=68BAB734"
     },
     {
@@ -6665,7 +6750,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T09:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1077034957935369/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -8926,7 +9011,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T01:53:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1074241124472184/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbom29-1.fna.fbcdn.net/v/t39.30808-6/539655245_10240504718575165_3128254009080898283_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=yHaPIL3PxzwQ7kNvwEf49Hg&_nc_oc=Adk_cjfeXWMf8_K_rx7WdgTh2h9C86zEtk5vgKONkbGMXEB5njyKRMiW41kbPuYx4Xk&_nc_zt=23&_nc_ht=scontent.fbom29-1.fna&_nc_gid=j5B2XQWLp1KXIeaCbmvd2Q&oh=00_AfWWF8U0Y78vogxykvFmQqpT9ejDx_VdywsPyx3VMRQTGQ&oe=68B6D060"
     },
     {
@@ -11731,7 +11816,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T23:08:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1074317428207122/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/521632085_25306125538977568_6945572746839292411_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=LVyeFR4OAzAQ7kNvwE0xcOg&_nc_oc=Adnj3e2xXouRzeDzTVbG73W_E88Y0amY8lbpF_AEZB0DvO3krTHGXT_bHCWZa8M9_kg&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=mdSXj2cCI_BTczeT22_ufg&oh=00_AfWoUqZLdyfmY1l_u82sTpzwAa3DeJErrtzhBEPTae-9_A&oe=68B41318"
     },
     {
@@ -16882,7 +16967,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-23T18:42:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1071699111802287/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -16967,7 +17052,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-23T17:05:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2179234615923941/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {

@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-04T07:30:46.467Z",
+  "generatedAt": "2025-09-04T08:44:33.699Z",
   "city": "roma",
-  "count": 576,
-  "totalRejectedCount": 1881,
+  "count": 580,
+  "totalRejectedCount": 1887,
   "results": [
+    {
+      "id": "264b5f64-9329-814e-8a52-c784ce23f425",
+      "title": "Single rooms for rent for students",
+      "overview": "Luminous and quiet single rooms for rent in a tranquil apartment near Via Gasperina, with common areas and amenities",
+      "description": "AFFITTO STANZE SINGOLE PER STUDENTI Si affittano stanze luminose e silenziose in un appartamento tranquillo, situato in una piccola palazzina residenziale nei pressi di Via Gasperina, in un quartiere servitissimo: supermercati, farmacia, ufficio postale, centri commerciali, ristoranti, bar, parrucchieri e altri servizi a pochi passi. L’appartamento, spazioso e ben organizzato, è composto da: • 4 camere singole • 1 Sala comune • Cucina abitabile • 2 bagni • Ripostiglio • Ampio terrazzo Completamente arredato, è dotato di riscaldamento autonomo e si trova in una posizione strategica: • 🚗 l’Università di Tor Vergata è raggiungibile in soli 5 minuti in auto o scooter • 🚌 vicino alle linee bus 504, 507, 509, che collegano a l’Università di Tor Vergata • 🚇 vicino la fermata Metro A – Anagnina • 📌 Spese condominiali contenute (circa 20€/mese) • 💡Utenze da dividere tra gli studenti • 📄 Contratto regolarmente registrato per studenti • 💶 Prezzi variabili in base alla metratura della stanza (circa 400-500€).",
+      "price": "400-500€",
+      "zone": "Near Via Gasperina",
+      "zoneMacro": "Gianicolense",
+      "rooms": "4",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the rooms, location, and price, and includes photos, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736107559921545/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/543111600_10238399467620659_1419026510904211834_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BpFrAPrd4YkQ7kNvwF_YAT8&_nc_oc=AdlA0xAoIh31pGI-FpQS7HxEFbrVvd9qUPTf3C-xFx7OJZh2N_ha9QIhluSIjaQ-UFI&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=7Tu9oWwJc1MaAh-X2jYCJg&oh=00_AfaNpsfIlPgeyNhRh8G3ztTyAb_Iijju1PAdOxZwnG85Qw&oe=68BF2304"
+    },
+    {
+      "id": "264b5f64-9329-817f-bc0c-c6797a314289",
+      "title": "Matrimonial room for single use for rent in Rome",
+      "overview": "A matrimonial room for single use is available for rent in a fully renovated 140 square meter apartment in the Ponte Mammolo area, with a double room also available",
+      "description": "AFFITTASI STANZA MATRIMONIALE USO SINGOLA,CLIMATIZZATA, EUNA STANZA DOPPIA con due posti letto in appartamento di 140 m quadri completamente ristrutturato Composto da entrata corridoio cucina abitabile con balcone due bagni con doccia la stanza ha il televisore e collegamento Internet L’appartamento si trova in zona ponte Mammolo adiacente metro B a 7 minuti dall’università Unicamillus e a 6 fermate metro dall’università La Sapienza L’Appartamento sarà condiviso con altre ragazze solo ragazze contratto registrato minimo un anno solo studentesse ragazze Occorre garanzia dei genitori",
+      "price": "N/A",
+      "zone": "Ponte Mammolo, Rome",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the apartment and the room, but there are no photos and the price is not specified, which reduces the reliability of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2149250898932196/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-819a-a49f-f29a7b2b3882",
+      "title": "Room for rent in a shared apartment for women only",
+      "overview": "A room is available for rent in a shared apartment in the Eur Cecchignola area. The post is brief and does not provide much information about the room or the apartment.",
+      "description": "Solo donna, camera in appartamento condiviso stanza eur cecchignola",
+      "price": "N/A",
+      "zone": "Eur Cecchignola",
+      "zoneMacro": "Eur",
+      "rooms": "Single room",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information about the room and the apartment, and there are no photos provided. This makes it difficult to assess the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1339773391147685/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-8117-b90e-ca40d212eb8a",
+      "title": "Single room for rent in a shared apartment",
+      "overview": "A single room with a closet is available for rent in a recently renovated apartment. The room is furnished and has air conditioning. The apartment has a fully equipped kitchen and a large bathroom with a washing machine. It is located near the La Sapienza university and has easy access to public transportation.",
+      "description": "Affittasi camera singola con CABINA ARMADIO completamente arredata a STUDENTESSE E/O LAVORATRICI in appartamento di 85 mq appena ristrutturato. Le camere sono ampie e luminose e tutte dotate di letto matrimoniale, scrivania, ampio armadio e aria condizionata. La cucina è provvista di ogni utensile necessario (FORNETTO ELETTRICO E FORNO A MICROONDE compreso). Il bagno è ampio cosi come la doccia ed è provvisto di LAVASCIUGA appena comprata (da non sottovalutare la comodità di poter lavare e asciugare i propri vestiti d'inverno in pochissimo tempo). Lo stabile è dotato d'ascensore il che rende comodissimo il trasporto delle valige. L' appartamento è ubicato a soli 10 metri dalla facoltà di lingue orientali e dal dipartimento ISO (edificio Marco Polo) dell' università La Sapienza. La fermata del tram (3,19) è al fronte dello stabile cosi da poter raggiungere il Colosseo in pochissimi minuti, la staz. Tiburtina in soli 10 min, mentre se si desidera far due passi la stazione Termini è a soli 15 min di cammino. Per ulteriori info contattare SOLO Via whatsapp il num [PHONE NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Near La Sapienza university",
+      "zoneMacro": "Centro Storico",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the room and the apartment, including photos and a specific location. However, the price is not specified, which prevents it from receiving a perfect score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T08:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1340102591114765/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542013849_1113338700943810_720277856534100601_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=TQJs-kxax0EQ7kNvwGzf3F0&_nc_oc=AdlLNrEI2E-S59UKeIHrUS_js0OTtn_gtjtkdrLoxG6ibeIjCyeD6FktRDRSwoqUVew&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=U9akWoJAV_nhkChmwlLnAw&oh=00_AfZeVRHviAAOhSEFoVN2KFMmvNJ0ECAYquISWNxqZTlLZA&oe=68BF3BDE"
+    },
     {
       "id": "264b5f64-9329-81a1-8ccc-c1462503b0ff",
       "title": "Single Room for Rent in Appio Tuscolano",
@@ -35,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T07:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736018613263773/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fmaa1-1.fna.fbcdn.net/v/t39.30808-6/541844836_1113279294283084_1100186908110250778_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=PMJJFyiuQjUQ7kNvwHbdFQI&_nc_oc=AdkcfvEsIyXbQkU5E6umuomu_LOPa7oOfWJzY1hlKMleW_lhM5PIc1s53Uu3-817VII&_nc_zt=23&_nc_ht=scontent.fmaa1-1.fna&_nc_gid=Ha_p5u_N6v8XF_5A3Q-hiw&oh=00_AfYUPMTQSS6T0rMyBcC9LiuM8D0ZfEK3g_kU4ocLASB9ug&oe=68BEFEFE"
     },
     {
@@ -2959,7 +3027,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T15:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31026494036995355/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -7039,7 +7107,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T01:55:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1335153534943004/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fhyd5-2.fna.fbcdn.net/v/t39.30808-6/538893825_30963569936621856_7925057858166292900_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-bFZYJyWwC0Q7kNvwHB045i&_nc_oc=AdlZOZYDAlvMeQlhPfQgOIJ7xtsOoQF1xSjTstn0Rtk2mv7BMuQBSh_tdab9f05fln8&_nc_zt=23&_nc_ht=scontent.fhyd5-2.fna&_nc_gid=jPvoIuwKwC4Bcjco3T99qQ&oh=00_AfUpkmaNJHfBqQrCtkBRj4Mx1ebfaAoD0CQPi4jWPLbgxw&oe=68B6969E"
     },
     {
@@ -7498,7 +7566,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T14:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1334853688306322/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fdel10-2.fna.fbcdn.net/v/t39.30808-6/540271485_1985474878659817_7682894514116072156_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=22nl_0YnoRAQ7kNvwGZMMf_&_nc_oc=Adm82yzZLDejTXfvpjzhHWgrFt8M_JI30v1bh4toPRtv2khD7wTV-JbdfU86ZhWNNw8&_nc_zt=23&_nc_ht=scontent.fdel10-2.fna&_nc_gid=0N8AzO6rMaoU5NEbjEih8Q&oh=00_AfVhKNpMExjea8DTZRTGLRPh5PR3IxGtsJQNBjHmaVyf5Q&oe=68B61C09"
     },
     {
