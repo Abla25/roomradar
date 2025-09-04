@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-04T13:04:40.046Z",
+  "generatedAt": "2025-09-04T13:41:20.719Z",
   "city": "barcelona",
-  "count": 1245,
-  "totalRejectedCount": 1991,
+  "count": 1247,
+  "totalRejectedCount": 1999,
   "results": [
+    {
+      "id": "264b5f64-9329-813d-bd71-cc30c271a01f",
+      "title": "Room for rent near Torraza metro",
+      "overview": "A room is available for rent in a location near Torraza metro, described as spacious and reasonably priced with all expenses included",
+      "description": "Hola alquiló una habitación en hospitales serca metro torraza amplia y buen precio todo incluido",
+      "price": "N/A",
+      "zone": "Near Torraza metro, Hospitales",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information about the rental, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T13:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080913330880865/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-8115-b2c8-d2cf1e257751",
+      "title": "Room for rent for single woman in Badalona",
+      "overview": "Room rental for a single woman in Badalona, LaSalut/Llefià area",
+      "description": "Se alquila habitación a mujer o chica sola zona BADALONA AL DIA (LaSalut/Llefià)",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a room rental listing, but there's no photo or price information, which lowers the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T13:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081074764198055/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-8182-ba2a-fdd060d193b0",
       "title": "4 Bedroom Apartment for Rent in L'Eixample",
@@ -664,7 +698,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T23:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080470284258503/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
