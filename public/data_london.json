@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-04T19:26:14.192Z",
+  "generatedAt": "2025-09-04T20:35:24.898Z",
   "city": "london",
-  "count": 521,
-  "totalRejectedCount": 684,
+  "count": 525,
+  "totalRejectedCount": 686,
   "results": [
+    {
+      "id": "264b5f64-9329-81c3-b25d-cedf1ea5e186",
+      "title": "Double bedroom available in Limehouse flat",
+      "overview": "A double bedroom is available for rent in a 2 bedroom flat in Limehouse.",
+      "description": "Double bedroom available in a 2 bedroom-1 bathroom flat in Limehouse",
+      "price": "N/A",
+      "zone": "Limehouse",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks essential information such as price, photos, and contact details, making it difficult to assess its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T20:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426490888438429/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-8165-981d-f2f2fd236ca0",
+      "title": "Double room for rent in calm house",
+      "overview": "A double room is available for rent in a quiet and clean house, near Chadwell Heath station and bus stops.",
+      "description": "🙏Hi everyone Nice double room good for couple/ two girls very calm quiet and clean house. Chadwell heath station Elizabeth line (very near 4 minutes) Bus stop both sides of the house(1&2 minutes) If anyone looking for peaceful atmosphere please WhatsApp. [VAT NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Chadwell Heath",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and does not provide a clear price, but it does provide a phone number for contact and seems to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T20:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426500865104098/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "264b5f64-9329-818c-9d5e-dadd1b3c7cd8",
+      "title": "Double room available for immediate move-in",
+      "overview": "One double room is available for immediate move-in",
+      "description": "One double room is available. Immediate move in only",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Post lacks detailed information, but has a photo and seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T20:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426505215103663/",
+      "status": "active",
+      "imageUrl": "https://scontent-del2-3.xx.fbcdn.net/v/t39.30808-6/543584005_2600829480253640_6074665719098188300_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rdsH8ZrlUGcQ7kNvwHxXH27&_nc_oc=AdmeSQ7Fm7XbQVDDNCY8YzQ8fWLJ7KYSaZyG0g0EdIEVeOqX9OdjoDMUEIb-sHT6eh8&_nc_zt=23&_nc_ht=scontent-del2-3.xx&_nc_gid=eDRkVWF7Mv_uL2deeiboHw&oh=00_AfYIHdP5hsDyl8sVzVSys5C5gg-KIIkgs6oYy4q0iYFQ_g&oe=68BFB1C7"
+    },
+    {
+      "id": "264b5f64-9329-8140-8395-db4cd887ac7d",
+      "title": "Double room for rent in Colliers Wood",
+      "overview": "Lovely double furnished room available for a young working female professional in a 2 bed flat",
+      "description": "I have a lovely double furnished room in my 2 bed flat available for a young working female professional. - Location Colliers Wood / Mitcham border - In between Wimbledon and Tooting - on the Northern line so very convenient getting anywhere in London. - Spacious and cosy double room. - Modern ELECTRIC HEATED FLOORING technology in the whole apartment - Very well kept and beautiful gated development with CCTV cameras - Private assigned parking space - Ultrafast broadband - Quiet, private and very secure Walking distance to Colliers Wood tube station (Nothern Line), Phipps Bridge Tram, well connected with plenty of busses. Just a few minutes to Tandem shopping centre, all supermarkets around: Lidl, Aldi, Asda, Sainsburys, M&S, Mitcham town centre, gyms. The area has some of London's best parks (Morden Hall ~ 10min walk) and the nearby food market of Abbey Mills. Single occupancy - £980 p/m all bills included.",
+      "price": "£980 p/m all bills included",
+      "zone": "Colliers Wood / Mitcham border",
+      "zoneMacro": "Merton",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "Post has a clear description, photos, and a specific price, with no indications of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T20:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426507058436812/",
+      "status": "active",
+      "imageUrl": "https://scontent-del2-3.xx.fbcdn.net/v/t39.30808-6/541048285_31603863605871266_5517349448581251154_n.jpg?stp=cp6_dst-jpg_p526x395_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-mP35sxOxAoQ7kNvwFlRoOd&_nc_oc=AdkPJR4sBKwRjOiOYauSwC4U6KGobO6_DojV9ji_9-KlJeSonmeYN1pWUnxSrhSacTc&_nc_zt=23&_nc_ht=scontent-del2-3.xx&_nc_gid=a15uuM8GiBHFRhC5yQ2iVw&oh=00_AfYjlnYTO1s7fovDKNy5acM27jDy_qT5NRoDAHDkPfvpTg&oe=68BFCBA2"
+    },
     {
       "id": "264b5f64-9329-817d-b714-e7b38ff169eb",
       "title": "1 Bedroom Flat for Rent in Lewisham",
@@ -35,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T18:44:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116396908895188/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/542750628_122261978888206788_8370359748422901616_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=YwU7SPjMYHkQ7kNvwEyHj56&_nc_oc=AdnWodCEILEve_TJphXk8b5P4t0Ix3mlZIm0jmyqhZpl-QHwODA0RLDj_WAzTCDbAsY&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=LnLh-QdYoPEPJflCgcKOCA&oh=00_AfZ13tSAfpZhQL7_nPabzONvp6LPdADXyvX5yIgpJrU80w&oe=68BFA39C"
     },
     {
@@ -171,7 +239,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T16:44:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1426404508447067/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcjb5-2.fna.fbcdn.net/v/t39.30808-6/542731422_31601537949437165_6749032391989986324_n.jpg?stp=cp6_dst-jpg_p526x395_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=o_tl_p5nH80Q7kNvwGbYRN2&_nc_oc=AdnizEBa1baNfY55qS13a4FXHJ6-xe9rFXJHMMfYebHt5scyv_RmF_mzRTsctAU8EaA3KeNdBwS3dNViicksJWgI&_nc_zt=23&_nc_ht=scontent.fcjb5-2.fna&_nc_gid=Nx9GzRV3kPVlInvoCAYXAQ&oh=00_AfZ9gpPZ0TZ0dDBdOMNNfRCjnXR9sdZ6MnX_zgV97N9_5w&oe=68BF8BC7"
     },
     {
@@ -392,7 +460,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T13:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116148522253360/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542094717_1369558934781857_6386707141909865532_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=w8JN0evesq8Q7kNvwG-TAiQ&_nc_oc=AdmrQqK5GtaHdUad-kx0DLd-ZG5RpZl_eG_l1r_N5BG8jq5GR7OkkowtpyDFHCcQQJs&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=POPKde6cXMTqB5-ejFSlAw&oh=00_AfYJ4HHYWp6pZu6wYMWJNnUt-ViM8KP1g3JtZEvql3j0tQ&oe=68BF48E1"
     },
     {

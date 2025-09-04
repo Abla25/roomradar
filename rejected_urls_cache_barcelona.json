@@ -1,37 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4310500492515793/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:17:59.557949"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4310499305849245/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:17:59.559590"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4310498712515971/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:18:44.662437"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4310493572516485/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:18:44.664103"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4310484272517415/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:18:44.665686"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079686617670203/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T19:19:22.613024"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2244932846009911/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T20:23:59.909838"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2244847672685095/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T20:23:59.911187"
-    },
     "https://www.facebook.com/groups/986691378511610/posts/2187748531739216/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T20:25:56.460206"
@@ -1115,8 +1083,16 @@
     "https://www.facebook.com/groups/365556558673981/posts/1077587344137562/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-04T19:20:01.560504"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081306404174891/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T20:25:19.165676"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081301497508715/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T20:25:19.167219"
     }
   },
-  "total_rejected_count": 2035,
-  "timestamp": "2025-09-04T19:17:41.603032"
+  "total_rejected_count": 2037,
+  "timestamp": "2025-09-04T20:24:56.321689"
 }
