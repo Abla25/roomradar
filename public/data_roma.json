@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T03:37:35.222Z",
+  "generatedAt": "2025-09-04T04:31:13.782Z",
   "city": "roma",
-  "count": 568,
-  "totalRejectedCount": 1862,
+  "count": 569,
+  "totalRejectedCount": 1863,
   "results": [
+    {
+      "id": "264b5f64-9329-815f-a8d7-f05a630b4b7f",
+      "title": "Room for Rent in Prima Porta Area",
+      "overview": "A room is available for rent in the Prima Porta area, approximately 35 minutes from Plaza Flaminia",
+      "description": "Affitto stanza zona Prima Porta 35 min a Plaza Flaminia [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Prima Porta",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The reliability score is low because there are no photos provided and limited information about the room, which raises concerns about the legitimacy of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T04:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2148651538992132/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-81ff-815d-d4f2d0a1a70c",
       "title": "Room for rent in Rome for €350/month",
