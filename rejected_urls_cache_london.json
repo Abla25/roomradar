@@ -663,8 +663,48 @@
     "https://www.facebook.com/groups/478152972719598/posts/2116090948925784/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-04T11:26:30.485016"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1426228431798008/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T12:59:25.815856"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1426225131798338/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T12:59:25.820248"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1426205558466962/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:00:02.326915"
+    },
+    "https://www.facebook.com/groups/1075915486829306/posts/1426185641802287/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:00:02.328208"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116192278915651/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:02:02.504645"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116189522249260/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:02:02.506232"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116169295584616/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:02:39.714328"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116153662252846/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:02:39.716048"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116133918921487/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:03:35.381324"
+    },
+    "https://www.facebook.com/groups/478152972719598/posts/2116125312255681/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T13:03:35.382710"
     }
   },
-  "total_rejected_count": 636,
-  "timestamp": "2025-09-04T11:24:36.990650"
+  "total_rejected_count": 646,
+  "timestamp": "2025-09-04T12:59:09.732384"
 }
