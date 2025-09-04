@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T14:31:11.076Z",
+  "generatedAt": "2025-09-04T15:34:50.529Z",
   "city": "barcelona",
-  "count": 1247,
-  "totalRejectedCount": 2002,
+  "count": 1248,
+  "totalRejectedCount": 2006,
   "results": [
+    {
+      "id": "264b5f64-9329-8158-9290-c29105634a8c",
+      "title": "Renting a central room in Barcelona",
+      "overview": "A central room in Barcelona is available for rent, with a phone number provided for contact",
+      "description": "Alquilo habitación centrica en Barcelona...llamar al fono [MESSAGING CONTACT CENSORED]....",
+      "price": "N/A",
+      "zone": "Central Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post includes a specific description of the rental location and a contact method, but lacks details on price and includes a potentially suspicious pattern of posting",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T15:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081126207526244/",
+      "status": "active",
+      "imageUrl": "https://scontent.fnag4-3.fna.fbcdn.net/v/t39.30808-6/543116888_4136632336592996_3510715299370589201_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=bbCX6qFUHQAQ7kNvwGMW41O&_nc_oc=AdkUvVzX64erdsHqBgkX15l4j0DhYFuZDwsMwpkeAuf2aEZ7a7FvJftsjmEqc9oWkd6YFaYLajnRs3slMmJm4J-f&_nc_zt=23&_nc_ht=scontent.fnag4-3.fna&_nc_gid=c7O7tLpSb331npXr7AIjXQ&oh=00_AfaMGtScG0ZXWaCM-dddZmiKV1paADUxtIH8QzoI_bEBnQ&oe=68BF8F82"
+    },
     {
       "id": "264b5f64-9329-813d-bd71-cc30c271a01f",
       "title": "Room for rent near Torraza metro",
@@ -11068,7 +11085,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T16:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4304005933165249/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel1-8.fna.fbcdn.net/v/t39.30808-6/537907621_4129172000672363_1186121317869230253_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OsyzvJtH8boQ7kNvwH5vC4E&_nc_oc=Adl13YSQa3Xt4KYxGBaTfM0NWQhz7hphAj3P5Q-p5G6_oLgwxHO4QIGSpA8aeVESPeY&_nc_zt=23&_nc_ht=scontent.fdel1-8.fna&_nc_gid=1ImTnpEyVs_kEo_f_j5Q7w&oh=00_AfUU72cXI5yjjy2uXkzA_nribqntWSsu0-UscX8rGkl6tQ&oe=68B516AE"
     },
     {
