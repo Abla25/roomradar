@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T10:38:39.323Z",
+  "generatedAt": "2025-09-04T11:27:20.033Z",
   "city": "barcelona",
-  "count": 1238,
-  "totalRejectedCount": 1977,
+  "count": 1239,
+  "totalRejectedCount": 1982,
   "results": [
+    {
+      "id": "264b5f64-9329-815c-8cf8-d3bf0ab7529d",
+      "title": "Room for rent in Badalona",
+      "overview": "Room for rent in Badalona, near metro and tram stations, available for a single person",
+      "description": "Se alquila habitación Badalona A 1 minuto estación del metro sanroc y del tranvia. A 5 minutos estación metro gorg. Persona sola Trabajo estable Tranquila ordenada,limpia responsable. No fumadores dentro de casa. Disponible para entrar ya. Información solo si están interesados. Movil o watsap [PHONE NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing with some details, but lacks photos and price information, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2189036738277062/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-8103-9200-d84f20e03cdc",
       "title": "Room for rent near Plaza España, Barcelona",
@@ -188,7 +205,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T10:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4312107829021726/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
