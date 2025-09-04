@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T22:32:32.890Z",
+  "generatedAt": "2025-09-04T23:28:48.854Z",
   "city": "roma",
-  "count": 643,
-  "totalRejectedCount": 2049,
+  "count": 644,
+  "totalRejectedCount": 2050,
   "results": [
+    {
+      "id": "264b5f64-9329-814f-b688-e537ea08b06f",
+      "title": "Three spacious rooms for rent in Largo Preneste area",
+      "overview": "Three rooms available in a 180 sqm apartment with 4 bedrooms, 1 study room, 4 bathrooms, and an open space with living room and kitchen. Each room has air conditioning, heating, and a personal bathroom. The apartment is well-connected to the city center, with metro line C and several tram lines nearby.",
+      "description": "disponibili 3 stanze spaziose in zona largo preneste. l'affitto è di 600 euro al mese + spese (luce, internet e condominio). su una stanza possiamo trattare. cerchiamo soprattutto studentesse con garante e lavoratrici referenziate. una conoscenza basilare dell'italiano è altamente gradita. contratto di affitto transitorio per fuori sede. L'area è ben collegata: - metro c (fermata malatesta) a 10 minuti a piedi - 3 linee tram che portano direttamente a porta maggiore, stazione termini (linea 5 e 14) e ottaviano passando per l'università sapienza (linea 19) - stazione tiburtina a 2 km di distanza facilmente raggiungibile con 2 linee di autobus (545 e 409) - a due passi da pigneto e a san lorenzo, due quartieri ricchi di locali, bar e vita notturna ogni stanza è provvista di aria condizionata, riscaldamento e bagno personale (non in camera). la cucina è provvista di un solo lavello, quindi l'unica regola inderogabile è lavare i piatti subito dopo averli sporcati e organizzarsi per i pasti. una stanza è già occupata da una ragazza che sta ospitando momentaneamente il suo ragazzo e un cagnolina di 8 mesi, che lasceranno a breve l'appartamento. l'appartamento in totale è di 180 mq con 4 camere da letto, 1 stanzino, 4 bagni e ampio open space con salotto e cucina",
+      "price": "600 euro al mese + spese",
+      "zone": "Largo Preneste",
+      "zoneMacro": "Esquilino",
+      "rooms": "3",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides detailed information about the apartment, including photos, location, and amenities. The price is clearly stated, and the landlord seems to be looking for reliable tenants, such as students or working women with a guarantor. However, the reliability score is not a 5 because there are no clear contacts provided, and the listing is on a Facebook group, which may not be as secure as other platforms.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1340644521060572/",
+      "status": "active",
+      "imageUrl": "https://scontent.flko10-2.fna.fbcdn.net/v/t39.30808-6/542686029_3673070339661720_7221953287974242039_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=e2A_NkH6G5cQ7kNvwGGIjAx&_nc_oc=AdmFgQoS6RDi7l6zz5JzbDqbUSsDgoYzdO8C0Od7NUUQUI1UI4V9TjembAeSp6tc9zwdftvLvGf4Hjg0Bjtm1m3E&_nc_zt=23&_nc_ht=scontent.flko10-2.fna&_nc_gid=-d0eAbY9l2Km524afEwIqw&oh=00_AfaxoP04huIfI_9SNJR81ysdnqm7k-Dk4bF0vv4MUDVMRg&oe=68BFD561"
+    },
     {
       "id": "264b5f64-9329-810c-8e11-da685288cdda",
       "title": "Large room for rent in a newly renovated apartment",

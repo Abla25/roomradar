@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T22:32:44.256Z",
+  "generatedAt": "2025-09-04T23:28:53.223Z",
   "city": "london",
-  "count": 532,
-  "totalRejectedCount": 696,
+  "count": 533,
+  "totalRejectedCount": 700,
   "results": [
+    {
+      "id": "264b5f64-9329-81b4-93dd-d71f2d5b3a68",
+      "title": "Double Room for Rent in Surrey Quays",
+      "overview": "A double room is available for rent in Surrey Quays, with all bills included and a great location close to transport and amenities.",
+      "description": "✨ Double Room Available Now In Surrey Quays SE8✨ ✅ £800 per monthly ✅ £400 deposit ✅ All the bills included Great location, in front of many supermarkets, close to transport, park & amenities. 📍Ready to moví in immediately Please contact me further (+44)[PHONE NUMBER CENSORED]",
+      "price": "£800 per month",
+      "zone": "Surrey Quays, SE8",
+      "zoneMacro": "Southwark",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides some essential details, such as price and location, but lacks photos and seems a bit sparse on information, which prevents it from reaching a higher reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T23:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2116559048878974/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "264b5f64-9329-81a6-b92a-e189978133e5",
       "title": "Sharing room for rent near Barking station",
@@ -2245,7 +2262,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T06:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1425185041902347/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
