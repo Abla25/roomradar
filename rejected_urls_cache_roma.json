@@ -1,37 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1338550801269944/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:36:30.055084"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338545901270434/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:36:30.057484"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338513461273678/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:37:06.395644"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2147657892424830/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:37:48.955551"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2147652589092027/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:37:48.957966"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2147576535766299/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:38:24.431477"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2734287470103554/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:39:03.593469"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2734260230106278/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T08:39:03.595811"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1338581024600255/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T09:30:10.678634"
@@ -1895,8 +1863,56 @@
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736097473255887/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-04T08:38:30.179707"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2149301738927112/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:27:28.652278"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2149291155594837/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:27:28.654766"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736133853252249/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:28:08.588251"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736130149919286/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:28:08.590740"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736124156586552/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:28:44.912276"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31067154599595965/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:29:26.717521"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31067128369598588/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:29:26.720002"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31067122896265802/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:29:26.722582"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31066851832959575/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:30:03.536727"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1712371026124011/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:30:46.585947"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1712369416124172/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:30:46.588453"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1712367306124383/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T09:31:24.032055"
     }
   },
-  "total_rejected_count": 1887,
-  "timestamp": "2025-09-04T08:36:10.025768"
+  "total_rejected_count": 1899,
+  "timestamp": "2025-09-04T09:27:03.027743"
 }

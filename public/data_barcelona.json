@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-04T08:44:29.366Z",
+  "generatedAt": "2025-09-04T09:36:54.755Z",
   "city": "barcelona",
-  "count": 1224,
-  "totalRejectedCount": 1969,
+  "count": 1227,
+  "totalRejectedCount": 1972,
   "results": [
+    {
+      "id": "264b5f64-9329-8179-8d82-e0de58861205",
+      "title": "Individual room for rent in Plaza Virrei Amat, Barcelona",
+      "overview": "Renting out a single room with balcony, furniture, and services included, in a sociable and respectful environment, near metro L5 and various amenities.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing contains a clear description, photos of the room, and contact information, with no indicators of a scam, which warrants a high reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4028051930857766/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541625242_10234279112612098_8033518744537877374_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=612nF1A1yV4Q7kNvwHPr4Qh&_nc_oc=Adn3PWHoOu1Qno74fn9PLEgpjHYKJzT2xpMK1bfx_UnPwzGmXGAfUT4tosVvI3h38-w&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Mir-Rjov-6-RUl03o_RkzA&oh=00_AfYh9gA5lLQS-4qeqihlGfV6Y1Fd30v8uUzXRtLSm-5AVw&oe=68BF137C"
+    },
+    {
+      "id": "264b5f64-9329-812e-a777-f3ba17a2f32d",
+      "title": "Room for rent for one person in Hospitalet de Llobregat",
+      "overview": "Room available for a single person, near L5 Can Vidalet metro station, serious people only",
+      "description": "Se alquila habitación para persona sola para entrar el día de hoy o mañana comunicarse al número [PHONE NUMBER CENSORED] está ubicada en la parada de metro L5 Can vidalet (Hospitalet de Llobregat) personas serías porfavor sino no llamen, Gracias.",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description, a contact number, and an image, which indicates a good level of information completeness, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T09:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312011332364709/",
+      "status": "active",
+      "imageUrl": "https://scontent.fpnq15-1.fna.fbcdn.net/v/t39.30808-6/541625847_2309349342814648_6635096724693701013_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Y8QSGNuCfIQQ7kNvwGMpJmJ&_nc_oc=AdnWPfcJ_Yeqlbxi1SRNXA-2ZyuzpeaUCDKTF1eaQrpKeXfUE4B8yNd0rRRqdgXOVEk&_nc_zt=23&_nc_ht=scontent.fpnq15-1.fna&_nc_gid=6Mv8rk9vyJfKtQ9M6uVsGw&oh=00_AfYjWPdb3Y28H_RwOcyMjLOu8ZYn_7JTQU2heFbmHIhSvg&oe=68BF1C20"
+    },
+    {
+      "id": "264b5f64-9329-81cb-8262-c9686f94d019",
+      "title": "Large room for rent in Barcelona city center",
+      "overview": "A large room is available for two women and two girls, also accepting couples, located in Barcelona city center",
+      "description": "Habitacione grande disponible para dos mujeres y dos chicas También quiero aceptar pareja [PHONE NUMBER CENSORED] Barcelona centro",
+      "price": "N/A",
+      "zone": "Barcelona city center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description of the room, a specific location, and a contact number, along with a photo of the room. However, the price is not specified, which prevents it from reaching the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T09:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312069385692237/",
+      "status": "active",
+      "imageUrl": "https://scontent.fpnq15-1.fna.fbcdn.net/v/t39.30808-6/540980036_122217361568089183_4863436642720645371_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=c4ydTt-Nc1MQ7kNvwFZ-idz&_nc_oc=Adn2aHBK-EdxT05slXiZSXOOK5NRskCdhoVskQ2vKQo3y2sZRQyLSvPHYzw92jlm5tg&_nc_zt=23&_nc_ht=scontent.fpnq15-1.fna&_nc_gid=IP65-zIY8FQcCZ_A-aDfjQ&oh=00_AfZWVOkW7D76nPOnI6p18PN4j-biZioDyioshtSs2P--eQ&oe=68BF17E6"
+    },
     {
       "id": "264b5f64-9329-81a1-9d2e-ccfe908f0c32",
       "title": "Room available near metro L5 Pubilla Cases",
@@ -52,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T08:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080885860883612/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -358,7 +409,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T23:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080583284247203/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541489086_122217309188089183_7933029546835654792_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XZOznWYK3ZsQ7kNvwH8NovU&_nc_oc=Adk2hnCSEEEdYXRaoFQJAetbTpCo2uHfx7yte_3hBM7YgpSF57PhKUZjASmoX9rsVF8&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Xv0QY4LOXiOc-UOmVjf_bQ&oh=00_Afbz-RIGzPysl5og670NmPy4cY84h4Bw0ZY1kgrt_xoKtw&oe=68BE7F6A"
     },
     {
@@ -664,7 +715,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T18:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080456027593262/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fgel2-1.fna.fbcdn.net/v/t39.30808-6/540672687_122128594766925908_6487851221313052453_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eAnmVorD3QcQ7kNvwFmm4_5&_nc_oc=AdlJ-3Pcla3vR2cneVCL4eZ5Sl_PK6uw4V0fZL8aiyH8fem9pL-gd4GooejCBdjEadY&_nc_zt=23&_nc_ht=scontent.fgel2-1.fna&_nc_gid=gHP247KhloWQoTrGQ48GiA&oh=00_Afa4VtlUjaVmCh0z6kA4VLK6uRzeUZr3n5zIU9lQNkokhw&oe=68BE6F5C"
     },
     {
@@ -1004,7 +1055,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1078017470761216/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc10-1.fna.fbcdn.net/v/t39.30808-6/540684898_10234267654925663_9026247128127275862_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AGYhKb6AwxwQ7kNvwHPNZcj&_nc_oc=AdklLtYWfR6mBKlIcyXBGZNBsOFAi7mlir2R1JUnKaNPFtElIrYvSEzdTKbbNuM-A86G9LV50xPxzL-D5O0Z-dro&_nc_zt=23&_nc_ht=scontent.fixc10-1.fna&_nc_gid=O5oiqajs8DKNDqFX_S5GgA&oh=00_AfY9xLUF6wlVkutZpp86TYnPJVuMWs0nqU92wYKIKcQe9Q&oe=68BDD9D5"
     },
     {
@@ -3707,7 +3758,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T10:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078516784453853/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbom15-1.fna.fbcdn.net/v/t39.30808-6/540621401_10233341095644387_5701832964640988382_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=3sIM9LXBv1AQ7kNvwEpsts2&_nc_oc=AdkgBpdOqy7hdDjsQSpVjfaxJhb9WAD-2XP_gp7vx02Q1dR4mThfDeUFOmo2pAJSSjY&_nc_zt=23&_nc_ht=scontent.fbom15-1.fna&_nc_gid=L3iR9xWJqF3N-qPNPmu3kg&oh=00_AfVoN2RMd0yhgt536egHBpiNtd9jfbR8hfYU39Mdk7fCFg&oe=68BB3C6C"
     },
     {
@@ -11935,7 +11986,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T22:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4303160376583138/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -15352,7 +15403,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T00:07:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1070922531470710/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
