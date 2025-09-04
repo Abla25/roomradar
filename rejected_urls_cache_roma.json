@@ -1,53 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1338332544625103/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:57:37.478106"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338327114625646/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:57:37.480591"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338317274626630/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:14.071624"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338309231294101/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:14.074080"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338301487961542/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:14.076436"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338297821295242/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:51.482348"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338271624631195/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:51.484830"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1338251114633246/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:58:51.487265"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2147395325784420/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T01:59:28.959417"
-    },
-    "https://www.facebook.com/groups/244234206083096/posts/2181811612325336/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T02:00:48.529500"
-    },
-    "https://www.facebook.com/groups/244234206083096/posts/2181790978994066/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T02:00:48.532073"
-    },
-    "https://www.facebook.com/groups/244234206083096/posts/2181776472328850/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-02T02:00:48.536590"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1338403724617985/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-02T03:13:12.211788"
@@ -1894,5 +1846,5 @@
     }
   },
   "total_rejected_count": 1862,
-  "timestamp": "2025-09-04T01:50:36.497862"
+  "timestamp": "2025-09-04T03:01:20.584908"
 }
