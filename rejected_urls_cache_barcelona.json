@@ -1111,8 +1111,12 @@
     "https://www.facebook.com/groups/365556558673981/posts/1077014464194850/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-04T03:34:05.184920"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4311863265712849/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-04T05:22:16.754522"
     }
   },
-  "total_rejected_count": 1949,
-  "timestamp": "2025-09-04T04:26:56.419307"
+  "total_rejected_count": 1950,
+  "timestamp": "2025-09-04T05:21:55.197310"
 }

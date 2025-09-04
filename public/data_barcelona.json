@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-04T04:31:08.848Z",
+  "generatedAt": "2025-09-04T05:25:48.585Z",
   "city": "barcelona",
-  "count": 1216,
-  "totalRejectedCount": 1949,
+  "count": 1217,
+  "totalRejectedCount": 1950,
   "results": [
+    {
+      "id": "264b5f64-9329-81f8-9172-ccd77818bdf4",
+      "title": "Apartment and Private Room for Rent in Barcelona",
+      "overview": "One-bedroom apartment with living room and private room available in a shared accommodation, ideal for students or young professionals",
+      "description": "APARTMENT AND PRIVATE ROOM FOR RENT One-bedroom apartment with living room available. Located in Barcelona, close to public transportation, shops, and the university. Private room also available in shared accommodation. Ideal for students, young professionals, or couples. Contact me for more information and a viewing.",
+      "price": "N/A",
+      "zone": "Barcelona",
+      "zoneMacro": "Nou Barris",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides a clear description of the apartment and its location, and includes a contact method for more information. The presence of an image also adds to the reliability. However, the price is not specified, which is why it doesn't achieve a perfect score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-04T05:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080771387561726/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel46-1.fna.fbcdn.net/v/t39.30808-6/542088270_122129691098932544_1597593539172392147_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tek4u4e_lxIQ7kNvwE-bGTX&_nc_oc=AdloIugQS5DbdboA8o1nkF_TIjhjuFOhxv2ru72M_8E8ZusCwzdvwj3dSnQE9Tvawd8&_nc_zt=23&_nc_ht=scontent.fdel46-1.fna&_nc_gid=0VDtLd8uJmJ5zVnX6dysAg&oh=00_AfYfPoQKB5r-nMvx9_DLvgQkMN1w70FY9PAndf_eG9GT-w&oe=68BEFA6A"
+    },
     {
       "id": "264b5f64-9329-81a8-aee0-fc1347e68dc9",
       "title": "Room for rent in family environment near Sagrada Familia",
@@ -16508,7 +16525,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-24T08:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072062235099308/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom28-1.fna.fbcdn.net/v/t39.30808-6/537386132_122126582702932544_1025952971865595391_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=sPg6Q73pKv0Q7kNvwGsvKg6&_nc_oc=AdnEWdQ0hexiP-q192HKZX2qgkYYo9Oj6Bvu-NCVUvtzjedhg7V4Ah12GUpt3yfnHik&_nc_zt=23&_nc_ht=scontent.fbom28-1.fna&_nc_gid=qrWLAIzJEnSRhpKAdDmAfg&oh=00_AfXnGXzINHiF4ml8erlpctP3teuL1ZnXD_kP9I9F_kLl9g&oe=68B08E31"
     },
     {
