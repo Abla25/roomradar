@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T22:31:38.534Z",
+  "generatedAt": "2025-09-05T23:28:59.357Z",
   "city": "roma",
-  "count": 718,
-  "totalRejectedCount": 2271,
+  "count": 720,
+  "totalRejectedCount": 2274,
   "results": [
+    {
+      "id": "265b5f64-9329-81c8-b7f3-d0803f03d210",
+      "title": "Double room for rent in Collido Labaro",
+      "overview": "Double room for rent in Collido Labaro at 400€ plus expenses",
+      "description": "Si affitta stanza matrimoniale a 400€ più spese colli d’oro labaro",
+      "price": "400€",
+      "zone": "Collido Labaro",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post contains basic information about the room and price, but lacks photos and detailed description, which decreases the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T23:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737618309770470/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-813f-a6af-d510fac931ad",
+      "title": "Room for rent in Tiburtina area",
+      "overview": "A room is available for rent in a shared apartment in the Tiburtina area, with a price of 275 euros per month plus expenses, and a minimum contract of one year",
+      "description": "⚠️ Affittasi posto letto in stanza doppia in zona Tiburtina disponibile da subito⚠️ (Dobbiamo organizzare 1 o 2 giorni per fare le visite, in questi giorni, 10 e 11, probabilmente di mattina) Il prezzo è di 275€ più spese che di solito vengono ad essere 50€ ogni mese circa (include wi-fi, acqua, gas, luce e spese condominiali). Zona molto tranquilla, vicino a supermercati, ben collegata con i mezzi (autobus 448,163 e metro B fermata monti tiburtini e Tiburtina), molto vicino alla sapienza. La casa ha un bagno e oltre a quella doppia, altre due singole, una cucina con Lavatrice e frigorifero nuovi e due balconi di cui uno con tavolino e sedie. Il contratto è registrato e legale, NO tempi brevi, quindi NO erasmus, almeno un anno di contratto. Le coinquiline sono studentesse molto tranquille, di 20, 22 e 26 anni. Cerchiamo, quindi, una nostra coetanea che sia soprattutto rispettosa degli spazi comuni e che contribuisca all’armonia creata in casa.🫶🏻",
+      "price": "275€ + 50€ expenses",
+      "zone": "Tiburtina",
+      "zoneMacro": "Monti",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and contract terms, and includes a photo of the room",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737621793103455/",
+      "status": "active",
+      "imageUrl": "https://scontent.fidr4-3.fna.fbcdn.net/v/t39.30808-6/541649137_24320334124325586_6913696733508977604_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=WxOUFRiRgsQQ7kNvwGBznkW&_nc_oc=AdkO9WrcvN7P06EV3JYLg-_jO2O8zUHevaL4j_MOreJKgVvYhMFc4SNVE2F8iCVrsXE&_nc_zt=23&_nc_ht=scontent.fidr4-3.fna&_nc_gid=PX5SphXpNjX5j74IResf7g&oh=00_AfatT9MVITaQOLzJzXAqHKYCWzGgXyVjsyobVji85f6gvQ&oe=68C14640"
+    },
     {
       "id": "265b5f64-9329-819e-9341-d1e0c021cb24",
       "title": "Room for rent in Tiburtina area",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T22:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1713584859335961/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel1-7.fna.fbcdn.net/v/t39.30808-6/542823083_24320326927659639_7715854116871669187_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=uXMPo2ljk-YQ7kNvwGmu0fo&_nc_oc=AdmLI0gdTbuo-dCaTGrkptvsmEaBwoV_Hm5aDcxMhA-vahRaerSYuyXAIADGxDd0yrw&_nc_zt=23&_nc_ht=scontent.fdel1-7.fna&_nc_gid=1wkf1JRKAoNAmK20Kju36g&oh=00_Afa392Qrt7dKwDi0jBZQUnxuCSNdgWFg-oTN9trSMOkHmA&oe=68C1466E"
     },
     {
@@ -35,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T22:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1341420704316287/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

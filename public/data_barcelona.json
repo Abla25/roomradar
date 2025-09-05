@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T22:31:31.659Z",
+  "generatedAt": "2025-09-05T23:28:50.420Z",
   "city": "barcelona",
-  "count": 1343,
-  "totalRejectedCount": 2164,
+  "count": 1344,
+  "totalRejectedCount": 2165,
   "results": [
+    {
+      "id": "265b5f64-9329-81c2-af7e-ff54778e4736",
+      "title": "Two rooms available for rent",
+      "overview": "The owner has two rooms available, with contact information provided for interested parties",
+      "description": "Tengo dos habitaciones libres L3 [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "L3",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "While the post clearly states the availability of rooms for rent and provides a location (L3), it lacks photos, a specific price, and detailed descriptions, which are essential for a higher reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T23:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4313731865525989/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-8190-93af-fe66f22d5c03",
       "title": "Room for Rent in Santa Caterina",
@@ -2891,7 +2908,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T14:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4311307972435045/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
