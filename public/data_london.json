@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T05:29:14.953Z",
+  "generatedAt": "2025-09-05T06:40:17.427Z",
   "city": "london",
-  "count": 545,
-  "totalRejectedCount": 713,
+  "count": 546,
+  "totalRejectedCount": 714,
   "results": [
+    {
+      "id": "265b5f64-9329-8159-8c2d-e71250d0baef",
+      "title": "Double Room for Rent in Colliers Wood",
+      "overview": "A spacious and cosy double room is available for rent in a 2 bed flat, ideal for a young working female professional",
+      "description": "I have a lovely double furnished room in my 2 bed flat available for a young working female professional. - Location Colliers Wood / Mitcham border - In between Wimbledon and Tooting - on the Northern line so very convenient getting anywhere in London. - Spacious and cosy double room. - Modern ELECTRIC HEATED FLOORING technology in the whole apartment - Very well kept and beautiful gated development with CCTV cameras - Private assigned parking space - Ultrafast broadband - Quiet, private and very secure Walking distance to Colliers Wood tube station (Nothern Line), Phipps Bridge Tram, well connected with plenty of busses. Just a few minutes to Tandem shopping centre, all supermarkets around: Lidl, Aldi, Asda, Sainsburys, M&S, Mitcham town centre, gyms. The area has some of London's best parks (Morden Hall ~ 10min walk) and the nearby food market of Abbey Mills. Single occupancy - £980 p/m all bills included.",
+      "price": "£980",
+      "zone": "Colliers Wood / Mitcham border",
+      "zoneMacro": "Merton",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description of the room and amenities, photos are provided, and the price is clearly stated, which suggests a high level of completeness and legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T06:38:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426780875076097/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542839226_31610809451843348_8218523128275583878_n.jpg?stp=cp6_dst-jpg_p526x395_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=_gOCaDteL64Q7kNvwG0IjaY&_nc_oc=Adm_ugTMhI31_p7urKiz5lh2vw8WdXZkpuApigArO8qEYMg6SseCVnYybqPrAWqQHTk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=MWKS_7BQWMFVoCGGz3jkMQ&oh=00_AfabXkEk72BN9jjdQc0ieXuWkO0o0uevPP5QMssrDF706w&oe=68C05410"
+    },
     {
       "id": "265b5f64-9329-81fd-a972-e539a5369b6f",
       "title": "5 bedroom house for rent in East London",
@@ -409,7 +426,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T20:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1426507058436812/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-del2-3.xx.fbcdn.net/v/t39.30808-6/541048285_31603863605871266_5517349448581251154_n.jpg?stp=cp6_dst-jpg_p526x395_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-mP35sxOxAoQ7kNvwFlRoOd&_nc_oc=AdkPJR4sBKwRjOiOYauSwC4U6KGobO6_DojV9ji_9-KlJeSonmeYN1pWUnxSrhSacTc&_nc_zt=23&_nc_ht=scontent-del2-3.xx&_nc_gid=a15uuM8GiBHFRhC5yQ2iVw&oh=00_AfYjlnYTO1s7fovDKNy5acM27jDy_qT5NRoDAHDkPfvpTg&oe=68BFCBA2"
     },
     {
