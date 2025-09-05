@@ -1,101 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1339730944485263/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:39:40.298369"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339719331153091/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:39:40.301241"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339689614489396/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:40:21.088249"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339688734489484/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:40:21.090618"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339687561156268/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:40:21.092984"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339670721157952/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:40:58.601997"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339550677836623/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:41:37.812617"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1339475857844105/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:41:37.816684"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2148866575637295/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:42:14.429044"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2148860618971224/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:42:14.431481"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2148830772307542/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:42:50.909904"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2148578905666062/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:42:50.912336"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31057230287255063/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:43:30.513899"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31057055790605846/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:43:30.516299"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31055676470743778/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:44:13.342303"
-    },
-    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31055653304079428/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:44:13.344696"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711929929501454/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:44:51.675563"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711929389501508/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:44:51.678035"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711906976170416/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:45:42.946052"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711904089504038/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:45:42.948505"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711901766170937/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:45:42.950775"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711892062838574/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:46:19.486563"
-    },
-    "https://www.facebook.com/groups/244234206083096/posts/2183318818841282/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:47:03.223903"
-    },
-    "https://www.facebook.com/groups/244234206083096/posts/2183307588842405/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T18:47:03.226324"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1339763887815302/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T20:30:42.663353"
@@ -1787,8 +1691,32 @@
     "https://www.facebook.com/groups/244234206083096/posts/2184975078675656/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-05T18:40:24.847628"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150531215470831/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:21:07.489316"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150517868805499/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:21:07.491596"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150509535472999/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:21:07.494210"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31091690980475660/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:21:41.875300"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713504892677291/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:22:19.257914"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713497809344666/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T19:22:19.260206"
     }
   },
-  "total_rejected_count": 2241,
-  "timestamp": "2025-09-05T18:35:47.068127"
+  "total_rejected_count": 2247,
+  "timestamp": "2025-09-05T19:20:39.573918"
 }

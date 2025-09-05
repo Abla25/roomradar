@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T18:46:31.556Z",
+  "generatedAt": "2025-09-05T19:27:22.976Z",
   "city": "roma",
-  "count": 704,
-  "totalRejectedCount": 2241,
+  "count": 705,
+  "totalRejectedCount": 2247,
   "results": [
+    {
+      "id": "265b5f64-9329-8177-b302-f20c1ba26683",
+      "title": "Room for rent for a female student",
+      "overview": "Single room for rent in a 100 sqm apartment, close to university and public transportation",
+      "description": "Affittasi a STUDENTESSA camera singola di 20 mq, zona Giardinetti. nelle vicinanze dell'Università di Tor Vergata, a pochi metri dalla fermata autobus e pochi minuti a piedi dalla metro C. Appartamento di 100 mq al terzo piano, molto luminoso e silenzioso. La casa è dotata di Wi-Fi, bagno, ampia cucina, ampio balcone e ingresso (più altre due stanze già occupate), si trova in una strada chiusa, tranquilla. Contratto a canone concordato. Contattatemi in privato.",
+      "price": "N/A",
+      "zone": "Giardinetti",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room and location, and includes a photo, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T19:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1713496809344766/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/543092209_1932682557530016_1567763950388571002_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=vVmiKguCWnYQ7kNvwHjQZ-x&_nc_oc=AdkcCq5Ck9za3m5Ri4-dI7RWyxJPlmEzgrNUlYYC2erlgSUbA2XspMN4gF8dO4ggXf4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=1SdQXlw-WeJdM5FVEbpHhw&oh=00_Afb0BYQmpvmdlkcHdraF_ujowIycn6aMtqGvAov0wfCfWw&oe=68C1203E"
+    },
     {
       "id": "265b5f64-9329-8114-aa2b-dfef97b6e557",
       "title": "Room for rent in Tiburtina",
