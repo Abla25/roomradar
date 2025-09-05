@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T14:38:02.265Z",
+  "generatedAt": "2025-09-05T15:35:31.105Z",
   "city": "barcelona",
-  "count": 1318,
-  "totalRejectedCount": 2118,
+  "count": 1320,
+  "totalRejectedCount": 2123,
   "results": [
+    {
+      "id": "265b5f64-9329-81f8-a7c5-e179d27ee016",
+      "title": "Room for rent near Sant Ildefonso metro",
+      "overview": "A room is available for rent near the Sant Ildefonso metro, only for women",
+      "description": "Se alquila habitación metro sant Ildefonso 350, solo chicas",
+      "price": "350",
+      "zone": "Sant Ildefonso",
+      "zoneMacro": "Eixample",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed information, but it provides some basic details and seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T15:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4313403168892192/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-81f8-aec6-f57db4f2b451",
+      "title": "Double room for rent in Passige de Gracias, Barcelona",
+      "overview": "A large double room with a balcony is available for rent in the Passige de Gracias area of Barcelona, preferably for women and students",
+      "description": "Habitacion grande double con balcon disponible Zona de passige de gracias Solo para mujeres y estudiantes y chicas Room available Zona passige de gracias Barcelona Más información por watsap 00[PHONE NUMBER CENSORED] Parada metro 3 minutos Bus 24 hora 1 minutos",
+      "price": "N/A",
+      "zone": "Passige de Gracias, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed information, but it provides contact information and seems to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T15:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4313429665556209/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-81ab-9d21-f7e6f4695328",
       "title": "Room for rent in Sant Boi de Llobregat",
@@ -2925,7 +2959,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T06:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2245276312642231/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel88-1.fna.fbcdn.net/v/t39.30808-6/541226688_122217203342089183_2110858285877199541_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lWJXOlYdsDkQ7kNvwF8TfWc&_nc_oc=AdkX8bCvhyrbcP2MTH2axFTtpeAebsl-Gd7zsiTFwksYnO3ZMDiizbb-3_AFvhmvP1c&_nc_zt=23&_nc_ht=scontent.fdel88-1.fna&_nc_gid=54B1EzJ0ryPuTp980_R4-w&oh=00_Afa5WXPujtYf2SlBcH-3sfHSenaxVu9frebwWoHue3KhYg&oe=68BDA86C"
     },
     {
