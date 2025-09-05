@@ -1,13 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/986691378511610/posts/2187735911740478/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T01:49:16.037169"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2245138235989372/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T02:58:59.168434"
-    },
     "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1079964030975795/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T04:27:41.857931"
@@ -1075,8 +1067,16 @@
     "https://www.facebook.com/groups/986691378511610/posts/2189523294895073/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-05T01:52:36.567494"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4312695042296338/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T03:02:11.587444"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4312417282324114/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T03:02:11.589303"
     }
   },
-  "total_rejected_count": 2060,
-  "timestamp": "2025-09-05T01:49:05.969017"
+  "total_rejected_count": 2062,
+  "timestamp": "2025-09-05T03:01:45.631665"
 }

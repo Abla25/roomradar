@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T02:02:19.784Z",
+  "generatedAt": "2025-09-05T03:07:42.382Z",
   "city": "barcelona",
-  "count": 1279,
-  "totalRejectedCount": 2060,
+  "count": 1280,
+  "totalRejectedCount": 2062,
   "results": [
+    {
+      "id": "265b5f64-9329-81f5-b727-efbe9794a10f",
+      "title": "Individual room for rent",
+      "overview": "A room is available for rent, suitable for one person, near Linea Azul L5",
+      "description": "SE ALQUILA HABITACIÓN INDIVIDUAL PARA PERSONA SOLA LINEA AZUL L5",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but lacks photos and details, and there are no visible contacts",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T03:02:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312533185645857/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-81ba-b1a8-f5d0c4025c9f",
       "title": "Individual room for rent near metro line L5",
@@ -18,7 +35,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T01:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081250184180513/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
