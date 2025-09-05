@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-04T23:28:42.441Z",
+  "generatedAt": "2025-09-05T02:02:19.784Z",
   "city": "barcelona",
-  "count": 1276,
-  "totalRejectedCount": 2050,
+  "count": 1279,
+  "totalRejectedCount": 2060,
   "results": [
+    {
+      "id": "265b5f64-9329-81ba-b1a8-f5d0c4025c9f",
+      "title": "Individual room for rent near metro line L5",
+      "overview": "A single room is available for rent, located near metro line L5, 5 minutes from the metro",
+      "description": "SE ALQUILA HABITACIÓN INDIVIDUAL PARA PERSONA SOLA LINEA AZUL L5 A 5 MIN DEL METRO",
+      "price": "N/A",
+      "zone": "Near metro line L5",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The listing lacks photos, price information, and other essential details, making it less reliable and potentially a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T01:50:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081250184180513/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-81d0-9fec-cf671306e6f5",
+      "title": "Room for rent in Santa Coloma de Gramanet",
+      "overview": "A room is available for rent in Santa Coloma de Gramanet for 450 euros, only for one girl",
+      "description": "Habitación en Santa Coloma de gramanet 450 solo 1 chica",
+      "price": "450",
+      "zone": "Santa Coloma de Gramanet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a clear description of the room, including price and location, and includes a photo, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T01:50:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081426277496237/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/544457986_24432810096382179_4452022119008582813_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2s1Lo3FFA5IQ7kNvwFYymEx&_nc_oc=Adm5rGsG6vMMK7mVPkN9NUnfEOuM7wUhspFYZodiczZZY-CSVp0JmW8FYeyjyT_q_vo&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=H0JT4lsli9lGI1gf3ITZLw&oh=00_AfZFwcOJP0ettzkEmHkHXYe9wNNKIYzf_ETM0jzDbsqFgg&oe=68C00D1C"
+    },
+    {
+      "id": "265b5f64-9329-8107-ae49-f06fa9155788",
+      "title": "Room for Rent in Carmelo, Barcelona",
+      "overview": "A room for rent in a good location near metro L5, with supermarkets and other amenities nearby",
+      "description": "Se alquila habitación en el barrio del Carmelo Barcelona buena ubicación cerca del metro L5 a 300 metros supermercados etc más información [PHONE NUMBER CENSORED]. 500€",
+      "price": "500€",
+      "zone": "Carmelo, Barcelona",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, location, and price, and includes a contact phone number, but the reliability score is not 5 because there might be some missing information",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T01:49:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312718588960650/",
+      "status": "active",
+      "imageUrl": "https://scontent.fmaa1-1.fna.fbcdn.net/v/t39.30808-6/516324034_122152296110790993_5090695010017109646_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=woNdVqHKllkQ7kNvwGXw2cS&_nc_oc=Adkb0dbW2t4SLGWZQ5RgMcc06rGziDwWSIo2eB2D-wrZKswsm0bf7RWvuImrP8hsMC1gzCafSvW7lOwgWtlqqWfi&_nc_zt=23&_nc_ht=scontent.fmaa1-1.fna&_nc_gid=d6eOKCTB-ul1r_XGe9gv2Q&oh=00_AfYidzMbNiP9G1ZHyJlXmQkKih8GcFsKXJ_hszHw6kLZhw&oe=68C015A1"
+    },
     {
       "id": "264b5f64-9329-81a6-b8ad-c5aada0cc7e1",
       "title": "Room for Rent in Llucmajor",
@@ -86,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T23:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081346050837593/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpat11-3.fna.fbcdn.net/v/t39.30808-6/514262003_122152271552790993_3527676275357030413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=mbApNYo2WeIQ7kNvwEGrfsK&_nc_oc=AdmrGYFkzixsz4LedOV6nFuW5TJQPiw7XL4xafTvgNh1HToGYMee950wpRK1dO-SiXEZSnBd2Ee2IgFZa2dkENUC&_nc_zt=23&_nc_ht=scontent.fpat11-3.fna&_nc_gid=n6DU9KUdrel--4J3wF5u1A&oh=00_Afb40fhU5fiG6dqNBAOdgG7A_lVT6efdCA6CSuPLnTz1Ng&oe=68BFD850"
     },
     {
@@ -4030,7 +4081,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T18:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078854554420076/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
