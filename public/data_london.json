@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T16:38:05.269Z",
+  "generatedAt": "2025-09-05T17:30:06.596Z",
   "city": "london",
-  "count": 578,
-  "totalRejectedCount": 762,
+  "count": 579,
+  "totalRejectedCount": 764,
   "results": [
+    {
+      "id": "265b5f64-9329-8111-93cb-d2fe43f5c1e3",
+      "title": "Room for rent in 4 sharing house in Barking",
+      "overview": "A room is available for rent in a 4 sharing house in Barking",
+      "description": "4 sharing Available in Barking 🏠",
+      "price": "N/A",
+      "zone": "Barking",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks essential details such as price, room information, and photos, but it does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T17:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1427157188371799/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-81e6-b2e4-ccd5a04ec62c",
       "title": "En-suite Room for Rent in Highgate",
@@ -800,7 +817,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T22:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116466958888183/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/543096215_10239572519993203_3869825626603036564_n.jpg?stp=cp6_dst-jpegr_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=828PEsUDfyEQ7kNvwHJ3ZWs&_nc_oc=Adlcb2zVKc7Cxlbioyeu1XZ4dvOHsOdAaBg4HsaWzH7TvJjPJb8EmdUcEiy0pzAUdZw&_nc_zt=23&se=-1&_nc_ht=scontent-cdg4-2.xx&_nc_gid=VYinWSPx5zfRMv0NueCvxg&oh=00_AfY5kyM3dM1xuyIQqo14VwZ99Z5xxid1OBXCSZ4mhY9B3w&oe=68BFEE3E"
     },
     {

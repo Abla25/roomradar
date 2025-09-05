@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T16:38:01.474Z",
+  "generatedAt": "2025-09-05T17:29:54.417Z",
   "city": "roma",
-  "count": 697,
-  "totalRejectedCount": 2223,
+  "count": 699,
+  "totalRejectedCount": 2228,
   "results": [
+    {
+      "id": "265b5f64-9329-812e-8ebb-c0e755f7fed5",
+      "title": "Last room available in shared apartment",
+      "overview": "Last room available in a 3-room shared apartment in the Labaro-Prima Porta area, near the S. Andrea Hospital. The room costs 330 euros per month, excluding expenses. Preferably for women with a demonstrable income or students with a guarantor.",
+      "description": "Ultima stanza disponibile in appartamento condiviso (3 stanze). Zona Labaro-Prima Porta. Vicino all'Ospedale S. Andrea. 330 a stanza spese escluse. Solo donne referenziate con reddito dimostrabile oppure (se studentesse) con garante. Meglio se automunite: c'è l'autobus per aggiungere il trenino che porta a piazzale Flaminio in 20 minuti. Questo autobus non è frequente.",
+      "price": "330",
+      "zone": "Labaro-Prima Porta",
+      "zoneMacro": "Flaminio",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a clear description of the room, includes photos, and specifies the preferred tenant type, which suggests a genuine rental opportunity.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T17:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/244234206083096/posts/2184939895345841/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543385327_25532535919669437_5920752439323669095_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tjSI1nyJTFAQ7kNvwGBKj3B&_nc_oc=AdncwYsmwmEOnIpGbtC6lQ8KPlWIIGT7NWQKifgB1t_34XHaEGx9OrK5Q8buwTCuAwU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=1uOEOTKR_TBKJVaL4-hD5w&oh=00_AfbrM5s1Yyo9asz3SjJDAfw0hqwWoPPU-qsJTtuqBOdO2g&oe=68C0EA79"
+    },
+    {
+      "id": "265b5f64-9329-8127-9ab6-fb7f277ddfb7",
+      "title": "Charming loft for rent in Aurelio",
+      "overview": "A fully furnished and renovated loft with independent entrance, available for medium-term rent (3-12 months) in a quiet residential area, close to public transportation and the Vatican.",
+      "description": "Affittasi grazioso loft, completamente arredato e ristrutturato, con ingresso indipendente, per medio periodo (3-12 mesi). Sito al piano terra di una palazzina d'epoca in zona Aurelio (via Del Fontanile Arenato), tra via Aurelia Antica e via della Pisana a 4 km dal Vaticano. L'appartamento è composto da: salone con divano letto, bagno, angolo cottura, soppalco, cameretta e lavanderia/ripostiglio. Lo completa un giardino interno pavimentato. Giardino condominiale con possibilità di parcheggio a turnazione e porta biciclette. La zona residenziale è tranquilla, fornita di servizi e ben collegata grazie ai mezzi pubblici. Prezzo: 1.100 Eur mensili compreso di TUTTO: affitto, luce, gas, riscaldamento, internet wi-fi con fibra, condominio, registrazione del contratto, lenzuola e asciugamani. No perditempo, referenziati. Libero da fine ottobre. Se interessati potete scrivermi a [EMAIL CENSORED] Grazie",
+      "price": "1,100 Eur/month",
+      "zone": "Aurelio",
+      "zoneMacro": "Aurelio",
+      "rooms": "N/A",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description of the loft, photos, and contact information, making it a reliable listing. The price includes all utilities and services, and the owner seems to be a trustworthy person.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T17:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150462365477716/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-6.fna.fbcdn.net/v/t39.30808-6/543132325_10163798786389645_1748544050467512678_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cnsEt71LzrsQ7kNvwFBzYbM&_nc_oc=AdmowKTv1infVPybp4EdS247-T4skc8Xd6J__dpxrbPozlEhfWGUPpBHfmcWI3WKlQM&_nc_zt=23&_nc_ht=scontent.fdel27-6.fna&_nc_gid=7VjLkRn01g6DEoOvOcUqsg&oh=00_AfZwk2NBIgbGvVTloUtM8CBxM3d-u4glxGelCBjnK7xMMw&oe=68C0F282"
+    },
     {
       "id": "265b5f64-9329-8199-beb6-d1236cdb62b8",
       "title": "Room for rent in shared apartment in Pigneto, Rome",
@@ -4234,7 +4268,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T12:59:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1338685871256437/",
-      "status": "verification_needed",
+      "status": "expired",
       "imageUrl": ""
     },
     {
