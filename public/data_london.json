@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T07:31:53.306Z",
+  "generatedAt": "2025-09-05T08:39:09.700Z",
   "city": "london",
-  "count": 550,
-  "totalRejectedCount": 716,
+  "count": 551,
+  "totalRejectedCount": 719,
   "results": [
+    {
+      "id": "265b5f64-9329-813b-b5a0-cb376833f195",
+      "title": "Double Rooms for Rent in Hatfield",
+      "overview": "Two double rooms available for rent in Hatfield, fully furnished with bills included and free cleaning every two weeks",
+      "description": "Rooms Available in Hatfield AL10 ✨ 🛏 2x Double Rooms – £600 PCM + £600 deposit ✨ Bills Included ✅ 🧹 Free Cleaning Every 2 Weeks 📚 Fully Furnished – reading chair & study desk in all rooms 📶 High-Speed Wi-Fi 🚶‍♀️ 5 mins to Uni & Business Park 📍 Location: Hatfield AL10 📩 DM me for viewing – rooms going fast! 🔑",
+      "price": "£600 PCM",
+      "zone": "Hatfield AL10",
+      "zoneMacro": "",
+      "rooms": "2",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the rooms, including price, location, and amenities, but lacks photos and the language used seems somewhat promotional, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T08:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1426862505067934/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-81a8-91a6-e1ee1add7bf9",
       "title": "Two double bedrooms available for rent",
