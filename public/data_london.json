@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-05T03:07:55.922Z",
+  "generatedAt": "2025-09-05T04:36:07.171Z",
   "city": "london",
-  "count": 542,
-  "totalRejectedCount": 709,
+  "count": 545,
+  "totalRejectedCount": 713,
   "results": [
+    {
+      "id": "265b5f64-9329-81fd-a972-e539a5369b6f",
+      "title": "5 bedroom house for rent in East London",
+      "overview": "A landlord is renting out a 5 bedroom house with 2 bathrooms, outdoor toilet, and a huge garden, located near Gants Hill station",
+      "description": "Hello i am a landlord and I'm looking for someone to move into a 5 bhk bedroom house. 🛌4-5 Bedrooms 🚽x2 bathroom and outdoor toilet 🚗 x2 Driveway with parking space 🏡 Huge garden 2 King size 2 Double size 1 box room 📍Gants hill station 4 mins walking distance Central line Near ilford 📍East london 🛍️🛒 Groceries and food shops all within 1 min walking distance. Friends & family welcome Students, bachelors welcome ‼️‼️Still need to do flooring, carpet for stairs & doors once the full house is taken‼️‼️‼️ 07831 665640 If i dont pick up please text me so i can call you back.",
+      "price": "N/A",
+      "zone": "East London",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and does not provide a clear price, but it seems to be a genuine rental listing with contact information available",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T04:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2116642228870656/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-81d6-88f1-d4bcc7cf1063",
+      "title": "1-4 bedroom properties available for rent",
+      "overview": "A property owner offering 1-4 bedroom properties for rent to individuals with a stable source of income, regardless of credit history",
+      "description": "I'm a Property owner I have 1bd,2bd, 3bd and 4bd currently available to move in immediately. I'm open to working with misdemeanor with low credit as long as you have a stable source of income, so if you're interested don't hesitate to inbox me and send me your zip code area thank you",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and contact information, and the property owner seems willing to work with tenants, but the price and zone are not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T04:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844818876117408/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541856883_122129739002934508_3740735691306858637_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-3luhAR-bSoQ7kNvwG7hjiM&_nc_oc=AdkWrJ1hkReNllfyesgeAcT6Ves5A8ngXGB87_ZBj7t3otwBDOnnKJo1ZTPwrdj5Z6w&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Yph_KDaQl3NgGdQKSr5qZw&oh=00_AfYUOp_QiHJB243zSzAwO9ewz8zXAzN5xEC0HEs4N9455A&oe=68C01BF0"
+    },
+    {
+      "id": "265b5f64-9329-81e6-89d9-d90ac393510d",
+      "title": "Houses, apartments, and studios for rent",
+      "overview": "A private landlord offering houses, apartments, and studios for rent with utilities included and pets allowed",
+      "description": "Hello I’m Bradley Scart , I’m a private landlord, I have houses, apartment & studios for rent with immediate approval, utilities included and pets allowed..They are all in good areas with no criminal records you want..If you’re interested send me a private message now for more information.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "Lambeth",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and contact information, and the landlord seems legitimate, but the price and zone are not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T04:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1844820199450609/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542983976_122146056710407912_3036460919827214876_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rOAu4nXI4ewQ7kNvwHsz21J&_nc_oc=Adla1Z6-fvtyBChWPBu1oAixDhga0spnEGBxOq3Q0IIZyccxqBWKmiUDuwL6gOqZQT0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Kzq4Nry3j9MaEBik-xfwKg&oh=00_AfZOjsrhLi6l6i9kAjqDu_KN65mkicFEaXGCqn2MFmcFcA&oe=68C041C1"
+    },
     {
       "id": "265b5f64-9329-811c-a7a1-fe2825fe363e",
       "title": "5 Bedroom House for Rent",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T03:06:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116642442203968/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -103,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T01:59:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1844775189455110/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542712940_122129689304934508_7511094280533325736_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=gXx_aV2sB44Q7kNvwFTvN4Z&_nc_oc=AdnfruERgTb-4q6kwSPiH860l5O04kO9qpKtpbhODWnOyOkUHJzO695HNWPZLBW9bQ4&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=NqKhtkeQzYgtTXVX1XTtoA&oh=00_AfaFYqxd-LckMwORPysEAh4ZxgUSied61anT2BpWNbzA7g&oe=68C00268"
     },
     {
@@ -732,7 +783,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T13:03:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116144625587083/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

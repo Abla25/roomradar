@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T03:07:42.382Z",
+  "generatedAt": "2025-09-05T04:35:52.559Z",
   "city": "barcelona",
-  "count": 1280,
+  "count": 1281,
   "totalRejectedCount": 2062,
   "results": [
+    {
+      "id": "265b5f64-9329-81a2-a3f8-e05c4e2ea24f",
+      "title": "Spacious room for rent in Cornella de Llobregat",
+      "overview": "A spacious room is available for rent in a large apartment with a balcony in Cornella de Llobregat, near metro L5 Sant Idelfons and Tram Via El Pedro. The room is suitable for a single woman or a mother with a child, and is available for long-term rent. The apartment has a family atmosphere and is non-smoking.",
+      "description": "Se alquila amplia habitación en Cornella de Llobregat (cerca al metro L5 Sant Idelfons y Tram Via El Pedro). - Solo chica o madre con niño, que trabaje, sea responsable y limpia. - Habitacion amplia, cama 2 plazas, armario cómoda y mesa de noche. - Larga estancia - NO fumadores - Ambiente familiar. - Piso grande con balcón Información al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Cornella de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides a detailed description of the room and the apartment, includes a photo, and has contact information available. However, the price is not specified, which prevents it from achieving a perfect reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T04:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081263950845803/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr2-2.fna.fbcdn.net/v/t39.30808-6/541516857_10238302916016358_1901426031191666096_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=I8YaFjAOJnMQ7kNvwEGy_C-&_nc_oc=AdlxmRXmMC4b15WVDHl1Pi3WAzCl7FkQ36Jx2_dAGKoffwLy1tiITWsHY89jQR0UO5P37g1-8P7r11rmvACoLZUU&_nc_zt=23&_nc_ht=scontent.fblr2-2.fna&_nc_gid=7rx8hPWZ5GNGp-sScpKNUA&oh=00_AfazFm5aIKTipOue7A65HNZwBrDCkFQtbnp31fKMbDX5oA&oe=68C029EE"
+    },
     {
       "id": "265b5f64-9329-81f5-b727-efbe9794a10f",
       "title": "Individual room for rent",
@@ -5645,7 +5662,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T16:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308320772733765/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
