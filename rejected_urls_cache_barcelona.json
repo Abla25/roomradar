@@ -1,13 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027410844255208/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T17:19:54.719340"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027258330937126/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T17:19:54.720814"
-    },
     "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080463124259219/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T18:32:57.608178"
@@ -1007,8 +999,48 @@
     "https://www.facebook.com/groups/986691378511610/posts/2190009854846417/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-05T17:23:39.432949"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082084510763747/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:32:00.157178"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082080690764129/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:32:00.158645"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082079240764274/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:32:44.389878"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081936357445229/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:32:44.391585"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247388155764380/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:33:22.411566"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247386062431256/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:33:22.413067"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247385439097985/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:33:22.414690"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247377849098744/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:33:57.576218"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2190202234827179/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:34:36.940839"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2190195878161148/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T18:34:36.943394"
     }
   },
-  "total_rejected_count": 2139,
-  "timestamp": "2025-09-05T17:19:44.215186"
+  "total_rejected_count": 2149,
+  "timestamp": "2025-09-05T18:31:00.264232"
 }

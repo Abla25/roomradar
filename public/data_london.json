@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T17:30:06.596Z",
+  "generatedAt": "2025-09-05T18:46:42.094Z",
   "city": "london",
-  "count": 579,
-  "totalRejectedCount": 764,
+  "count": 581,
+  "totalRejectedCount": 773,
   "results": [
+    {
+      "id": "265b5f64-9329-810a-ad62-feaab8f77c77",
+      "title": "3 bedroom house for rent in Edgware",
+      "overview": "A refurbished 3 bedroom house with a garden and driveway parking",
+      "description": "House🏡 Edgware HA8 3 bedroom Refurbished kitchen Un Furnished Garden Driveway Parking 1 month rent 1 month deposit Available now 🏡KRP ESTATES 🏡",
+      "price": "N/A",
+      "zone": "Edgware HA8",
+      "zoneMacro": "Barnet",
+      "rooms": "3",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, making it less reliable",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T18:42:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1845430326056263/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-8185-b537-ef318fd7623b",
+      "title": "5 bedroom house for rent in East London",
+      "overview": "A landlord is renting out a 5 bedroom house in East London, with 2 bathrooms, a huge garden, and parking space",
+      "description": "Hello i am a landlord and I'm looking for someone to move into a 5 bhk bedroom house. 🛌4-5 Bedrooms 🚽x2 bathroom and outdoor toilet 🚗 x2 Driveway with parking space 🏡 Huge garden 2 King size 2 Double size 1 box room 📍Gants hill station 4 mins walking distance Central line Near ilford 📍East london 🛍️🛒 Groceries and food shops all within 1 min walking distance. Friends & family welcome Students, bachelors welcome ‼️‼️Still need to do flooring, carpet for stairs & doors once the full house is taken‼️‼️‼️ 07831 665640 If i dont pick up please text me so i can call you back.",
+      "price": "N/A",
+      "zone": "East London, near Gants Hill station",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post lacks photos and pricing information, but it appears to be a legitimate rental listing with contact information provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T18:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1427203978367120/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-8111-93cb-d2fe43f5c1e3",
       "title": "Room for rent in 4 sharing house in Barking",
@@ -596,7 +630,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T04:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2116642228870656/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
