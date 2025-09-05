@@ -1,29 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/633912783969846/posts/1711795752848205/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:37:20.202683"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711787082849072/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:37:20.205154"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711781816182932/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:37:20.207574"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711778406183273/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:37:59.950687"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711756729518774/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:37:59.953169"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1711593572868423/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-03T13:38:34.741592"
-    },
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2735447659987535/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-03T14:28:12.805030"
@@ -1739,8 +1715,92 @@
     "https://www.facebook.com/groups/244234206083096/posts/2184788488694315/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-05T13:41:03.443546"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150348875489065/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:26:37.971478"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150344708822815/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:26:37.973784"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2150339405490012/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:26:37.976276"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737319216467046/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:27:16.322097"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737319019800399/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:27:16.324382"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737310756467892/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:27:16.326835"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737301499802151/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:27:56.715101"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737281876470780/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:27:56.718137"
+    },
+    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737278156471152/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:28:31.477340"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31088511300793628/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:29:08.593771"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31088260070818751/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:29:08.596117"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31088124007499024/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:29:08.598374"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31087663960878362/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:29:47.408241"
+    },
+    "https://www.facebook.com/groups/AffittoCaseRoma/posts/31087570510887707/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:29:47.410582"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713333072694473/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:30:27.248027"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713330279361419/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:30:27.250371"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713329812694799/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:30:27.252625"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713312652696515/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:31:05.273859"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713311169363330/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:31:05.276220"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713306249363822/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:31:45.038171"
+    },
+    "https://www.facebook.com/groups/633912783969846/posts/1713302706030843/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T14:31:45.040786"
     }
   },
-  "total_rejected_count": 2178,
-  "timestamp": "2025-09-05T13:35:41.886682"
+  "total_rejected_count": 2199,
+  "timestamp": "2025-09-05T14:25:51.744243"
 }
