@@ -1087,8 +1087,16 @@
     "https://www.facebook.com/groups/1674520359717832/posts/2246861202483742/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-05T06:34:51.998289"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4313049232260919/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T07:22:35.354792"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2246945245808671/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-05T07:23:18.727286"
     }
   },
-  "total_rejected_count": 2068,
-  "timestamp": "2025-09-05T06:34:24.227522"
+  "total_rejected_count": 2070,
+  "timestamp": "2025-09-05T07:22:07.443902"
 }

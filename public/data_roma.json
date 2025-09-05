@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-05T06:40:13.205Z",
+  "generatedAt": "2025-09-05T07:31:49.295Z",
   "city": "roma",
-  "count": 650,
-  "totalRejectedCount": 2074,
+  "count": 653,
+  "totalRejectedCount": 2085,
   "results": [
+    {
+      "id": "265b5f64-9329-8157-854a-c67b548cbe44",
+      "title": "Single room for rent",
+      "overview": "A single room is available for rent in a 85 sqm apartment, fully furnished and with air conditioning, near the University La Sapienza",
+      "description": "SOLO DONNE / NO UOMINI Affittasi camera singola con CABINA ARMADIO completamente arredata a STUDENTESSE E/O LAVORATRICI in appartamento di 85 mq appena ristrutturato. Le camere sono ampie e luminose e tutte dotate di letto matrimoniale, scrivania, ampio armadio e aria condizionata. La cucina è provvista di ogni utensile necessario (FORNETTO ELETTRICO E FORNO A MICROONDE compreso). Il bagno è ampio cosi come la doccia ed è provvisto di LAVASCIUGA appena comprata (da non sottovalutare la comodità di poter lavare e asciugare i propri vestiti d'inverno in pochissimo tempo). Lo stabile è dotato d'ascensore il che rende comodissimo il trasporto delle valige. L' appartamento è ubicato a soli 10 metri dalla facoltà di lingue orientali e dal dipartimento ISO (edificio Marco Polo) dell' università La Sapienza. La fermata del tram (3,19) è al fronte dello stabile cosi da poter raggiungere il Colosseo in pochissimi minuti, la staz. Tiburtina in soli 10 min, mentre se si desidera far due passi la stazione Termini è a soli 15 min di cammino. Per ulteriori info contattare SOLO Via whatsapp il num [PHONE NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Near University La Sapienza",
+      "zoneMacro": "Centro Storico",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a detailed description of the room and the apartment, and includes a photo, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T07:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737000246498943/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541877247_1114130707531276_1274352357202794817_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1yNWtPaP-TAQ7kNvwEp-oxa&_nc_oc=AdlhTJ7NLfXYznhEsx9Ai5LITZBH1yyiWwDwwcONzXSQIaGmVBT303MohEXrvinaCZQ&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=DAUWC9F0HWH8M_4saZfsuQ&oh=00_AfbhjL6rzOFz6f7hotKD1o4zNHFVgaS79gwAA9RRGIEVRA&oe=68C060E0"
+    },
+    {
+      "id": "265b5f64-9329-8136-b447-d691ef470b6a",
+      "title": "Single rooms for rent for students in a quiet apartment",
+      "overview": "Renting out single rooms in a spacious and well-organized apartment with 4 single rooms, common room, kitchen, 2 bathrooms, and a large terrace. The apartment is located in a residential area near Via Gasperina, with many services and public transportation options nearby.",
+      "description": "AFFITTO STANZE SINGOLE PER STUDENTI Si affittano stanze luminose e silenziose in un appartamento tranquillo, situato in una piccola palazzina residenziale nei pressi di Via Gasperina, in un quartiere servitissimo: supermercati, farmacia, ufficio postale, centri commerciali, ristoranti, bar, parrucchieri e altri servizi a pochi passi. L’appartamento, spazioso e ben organizzato, è composto da: • 4 camere singole • 1 Sala comune • Cucina abitabile • 2 bagni • Ripostiglio • Ampio terrazzo Completamente arredato, è dotato di riscaldamento autonomo e si trova in una posizione strategica: • 🚗 l’Università di Tor Vergata è raggiungibile in soli 5 minuti in auto o scooter • 🚌 vicino alle linee bus 504, 507, 509, che collegano a l’Università di Tor Vergata • 🚇 vicino la fermata Metro A – Anagnina • 📌 Spese condominiali contenute (circa 20€/mese) • 💡Utenze da dividere tra gli studenti • 📄 Contratto regolarmente registrato per studenti • 💶 Prezzi variabili in base alla metratura della stanza (circa 400-500€).",
+      "price": "400-500€",
+      "zone": "Via Gasperina",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including the number of rooms, location, and amenities. It also includes a photo of the apartment and mentions a registered contract for students, which increases the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T07:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737017223163912/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544604429_10238410809144190_8577907308745704131_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E7rCtiS6gU0Q7kNvwFFJsmC&_nc_oc=Adk6IjWsfn3ByHVOwKakB2vSOkUR--g1tLRz25WtcvA16W1WFQQopI9ibAtgueqPB0c&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fybUCybrluGkLwb-cro9cg&oh=00_AfaoSdNyk2FKzeUHO8iWWPkqHukUaDhaicGQ2J9yedwDsQ&oe=68C07677"
+    },
+    {
+      "id": "265b5f64-9329-8104-993c-ca03b2b214fb",
+      "title": "Room for rent in Flaminio",
+      "overview": "A room is available for rent in the Flaminio neighborhood with a temporary contract from October 2025 to June 2026",
+      "description": "Affittasi stanza nel Quartiere Flaminio con contratto transitorio da ottobre 2025 al 30 giugno 2026. 600€ + spese Contatto tramite dm",
+      "price": "600€ + spese",
+      "zone": "Flaminio",
+      "zoneMacro": "Flaminio",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description, price, and contract details, as well as a photo, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T07:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150066618850624/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541996566_24120286930986550_7627050869308317928_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XU9a2S6z1RkQ7kNvwEAvIwU&_nc_oc=AdkYrFn8ouWl1FHQm0xJb86njD-SFf2rYoZULCIlx0q0bAAtFEohRA7N3T_qOakQNYM&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=vuMa-F-xcAUfJRqYlWhwyg&oh=00_AfYz0zrbfXuppD_8Gp3QHjdEjHKPcfJM2duMK9MBxuoUEQ&oe=68C05F0F"
+    },
     {
       "id": "265b5f64-9329-8160-b7cc-e93e1223069b",
       "title": "Elegant room for rent in Nomentana center",
@@ -1140,7 +1191,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T09:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736084763257158/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/541423091_1113340564276957_8484444207618686694_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=npacoPl5W9IQ7kNvwHDpzwu&_nc_oc=AdlpkA1ysVt8XJGY6Nyvd9_gZVgq29Urq9k40YNy1cwwQU2xW9TFPsuF4cw99ZE1dbM&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=XTOdJPb6iWX9xK4ba6P2Cg&oh=00_Afay2h8txFGGp6KkbU0EJOgINqlaVg-zbMgu02s0n9vJ9A&oe=68BF0D78"
     },
     {
@@ -1208,7 +1259,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T08:38:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2736107559921545/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/543111600_10238399467620659_1419026510904211834_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BpFrAPrd4YkQ7kNvwF_YAT8&_nc_oc=AdlA0xAoIh31pGI-FpQS7HxEFbrVvd9qUPTf3C-xFx7OJZh2N_ha9QIhluSIjaQ-UFI&_nc_zt=23&_nc_ht=scontent.fixc4-1.fna&_nc_gid=7Tu9oWwJc1MaAh-X2jYCJg&oh=00_AfaNpsfIlPgeyNhRh8G3ztTyAb_Iijju1PAdOxZwnG85Qw&oe=68BF2304"
     },
     {
