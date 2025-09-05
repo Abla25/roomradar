@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-05T20:38:54.705Z",
+  "generatedAt": "2025-09-05T21:29:03.182Z",
   "city": "roma",
-  "count": 711,
-  "totalRejectedCount": 2262,
+  "count": 715,
+  "totalRejectedCount": 2268,
   "results": [
+    {
+      "id": "265b5f64-9329-8135-b544-e026dcc90dc1",
+      "title": "Renting a large single room in Boccea area",
+      "overview": "Large single room for rent in Boccea, Casalotti area, including expenses, for 450",
+      "description": "Affitto camera singola grande zona boccea, casalotti 450 compreso spese",
+      "price": "450",
+      "zone": "Boccea, Casalotti",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but lacks photos and detailed information, which raises some concerns about its legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1713481819346265/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-8176-ab2e-dfcaeb7c5160",
+      "title": "Entire apartment for rent in Tuscolana area",
+      "overview": "A fully renovated apartment with 2 large rooms, kitchen, bathroom, and balcony is available for rent in the Tuscolana area, near the Lucio Sestio metro station",
+      "description": "Affitto Intero appartamento zona Tuscolana, Lucio Sestio. 2 enormi stanze da 20 mq , cucina abitabile. Bagno, stanzino e balcone. Completamente ristrutturato, finestre nuove , condizionatore. Servizio di portineria in condominio tranquillo e pulito. Zona piena di servizi, negozi e supermercati. A 500 MT dalla metro Lucio Sestio. Visitabile da settembre. Affitto solo a studenti/studentesse No lavoratori .",
+      "price": "N/A",
+      "zone": "Tuscolana",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, but the price is not specified and there is a restriction on who can rent it",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150543515469601/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540573805_10236023407275969_3396653604730736655_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=p0ZRnCps4V0Q7kNvwHqTa4s&_nc_oc=AdlYtW7T4f5CWe0tTH4e5doE896UHIfgb03MHdRHZnqV7adiy9cnGPowj9dYiMCRZe4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=NMr16KL_Mxp6xkS672GjGw&oh=00_AfZeDB1ZwKPTiQad23EyY_i8QfuDgR4hD4fwfeS0KBjWyg&oe=68C10EC6"
+    },
+    {
+      "id": "265b5f64-9329-8199-bd3a-fd1bcdeaae46",
+      "title": "Single room for rent near Sapienza University",
+      "overview": "A single room is available for rent in a shared house near Sapienza University, with a monthly rent of 370 euros plus expenses",
+      "description": "Si affitta a ragazza, preferibilmente studentessa (socievole, gentile e solare) della sapienza, a partire da *Settembre* stanza singola con letto ad una piazza e mezza, molto ampia! La casa è vicinissima all’università, 20 minuti a piedi e 7 minuti con l’autobus. Zona Indipendenza, metro vicina Castro pretorio e Repubblica, zona Porta Pia. Contattate solo se seriamente interessati, grazie!💗💗 DA SETTEMBRE!!! Costo= 370+ spese In casa siamo una ragazza ed un ragazzo",
+      "price": "370 euros",
+      "zone": "Zona Indipendenza",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the house and the rent, but there are no photos available and the contact information is not explicitly stated",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1341236111001413/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-811e-9870-ffe06d251c07",
+      "title": "Single room for rent near Policlinico",
+      "overview": "A single room is available for rent in a shared apartment near Policlinico, with a minimum stay of one year and a monthly rent of 500 euros",
+      "description": "📍POLICLINICO Affittasi stanza singola libera dal 1 ottobre a ragazzo/a lavoratore. L’ appartamento è composto da tre singole (le altre due attualmente occupate da due ragazzi lavoratori ), bagno, bagnetto, sgabuzzino e cucina abitabile. Non importa se ragazza o ragazzo: basta essere tranquilli, ordinati e magari non disadattati. Entrambi lavoriamo 50% smart (tendenzialmente giovedì e venerdì qualcuno è sempre a casa quindi) e spesso siamo fuori Roma - trovare qualcuno con queste caratteristiche sarebbe ottimo! Regolare contratto registrato (minimo un anno di permanenza) richiesta una caparra. Nel canone mensile (500 euro) sono incluse tutte le spese tranne l’energia elettrica e il conguaglio del riscaldamento se presente. L’appartamento si trova in via Augusto Murri (strada privata nei pressi di viale Ippocrate), 5 minuti a piedi da Metro Policlinico. No animali! Per le foto scrivere in pvt",
+      "price": "500 euros",
+      "zone": "Policlinico",
+      "zoneMacro": "Eur",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the apartment and the rent, but there are no photos available and the contact information is not explicitly stated",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1341388737652817/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-814a-987e-eef79076c25f",
       "title": "2 rooms for rent in Via Mascagni",
@@ -86,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T20:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2150542345469718/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/542711599_1403039330800059_9170428029798799925_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=TfeFgJuhJ3gQ7kNvwEgd9iy&_nc_oc=Adkc-ZMlxSZM_pHGzDVay9Z3xfcj9UZMBNjK2XnogxdcgKD79dGNkwYPEOqITIZtbbg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_Hatx478hCsnCvSbi868jQ&oh=00_AfZZxdb-3z9XokQdQH0N4Ee5ahHSNlQuMnUUTtgBT6rT-Q&oe=68C10AA4"
     },
     {
@@ -273,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T16:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1713402889354158/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1956,7 +2024,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T12:52:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1340154124442945/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fmaa12-3.fna.fbcdn.net/v/t39.30808-6/541788951_24462862176703698_186608105220967665_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DMmKoKis_K8Q7kNvwHHrkGz&_nc_oc=AdnuakKOPrzrWUufJoubxQQ-2Y-J82wa4HNHe9gQ3qjTgw7Kz1AOLpGiYKW8JkpACn8&_nc_zt=23&_nc_ht=scontent.fmaa12-3.fna&_nc_gid=0DXuo1j5ZIkLyR6itkedvA&oh=00_AfaIABs7n0uwDto-LczWB_fKmdOX7NxcpdY1zUP9tHpweA&oe=68BF466D"
     },
     {

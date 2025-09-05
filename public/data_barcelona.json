@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T20:38:45.911Z",
+  "generatedAt": "2025-09-05T21:28:55.964Z",
   "city": "barcelona",
-  "count": 1338,
-  "totalRejectedCount": 2156,
+  "count": 1340,
+  "totalRejectedCount": 2160,
   "results": [
+    {
+      "id": "265b5f64-9329-8108-a96e-e895be6fc9a3",
+      "title": "Room for Rent for Lone Female",
+      "overview": "Renting a room for a single woman near Rambla Just Olivera station",
+      "description": "Alquilo habitación para dama sola cerca de la estación Rambla Just Olivera 350€",
+      "price": "350€",
+      "zone": "Rambla Just Olivera",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and has limited information, which raises concerns about its legitimacy, but the presence of a specific location and price suggests it might be genuine.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2190281941485875/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-8125-9e87-f139db62bfac",
+      "title": "Room for rent in Prat de Llobregat for a single woman",
+      "overview": "The post is offering a room for rent in Prat de Llobregat, specifically for a single woman",
+      "description": "Alquilo habitación en Prat de llobregat para chica sola para más información llamar al número [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Prat de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post appears to be a genuine rental listing, but lacks photos and detailed information, and the contact method is a phone number which may not be reliable",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T21:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4313676565531519/",
+      "status": "active",
+      "imageUrl": "https://scontent.fpnq13-3.fna.fbcdn.net/v/t39.30808-6/542008281_1319182516544532_958646424083530818_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kaliPB8fFf4Q7kNvwF2ae1M&_nc_oc=AdmM3t-P5myopHiZrCr5-Md2lX5fpj8imcb4lKACmEozwz56LHvqRrUOiwYaZdCmSrU&_nc_zt=23&_nc_ht=scontent.fpnq13-3.fna&_nc_gid=_nvfCi8jQUUf95ZMPN6U1Q&oh=00_AfaGoIBio6jDYTrpmh0RH1sX91JcmKIH7sUfI-Yy-bl3HQ&oe=68C13526"
+    },
     {
       "id": "265b5f64-9329-8174-a2f7-cf45097ff1a8",
       "title": "Two rooms for rent near metro station",
@@ -10643,7 +10677,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T09:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1076215418017323/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
