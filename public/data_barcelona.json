@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-05T04:35:52.559Z",
+  "generatedAt": "2025-09-05T05:28:52.537Z",
   "city": "barcelona",
-  "count": 1281,
-  "totalRejectedCount": 2062,
+  "count": 1284,
+  "totalRejectedCount": 2066,
   "results": [
+    {
+      "id": "265b5f64-9329-81d1-bdd4-de3a828adefd",
+      "title": "Room for rent in Pubillas Casas",
+      "overview": "A room is available for rent in Pubillas Casas, specifically for a female",
+      "description": "Hola se alquila una habitación para chica en pubillas casas",
+      "price": "N/A",
+      "zone": "Pubillas Casas",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "This post lacks photos, price information, and detailed contact information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T05:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4028556624140630/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "265b5f64-9329-812a-940f-eb5937be8abd",
+      "title": "Room for rent in Hospitalet de Llobregat",
+      "overview": "A room is available for rent in Hospitalet de Llobregat, near the Can Vidalet metro station, for a single person",
+      "description": "Se alquila habitación para persona sola en la parada de metro Can vidalet L5 (Hospitalet de Llobregat) comunicarse a este número [PHONE NUMBER CENSORED] personas serías y que deseen la habitación para entrar hoy o mañana gracias.",
+      "price": "N/A",
+      "zone": "Hospitalet de Llobregat",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "This post includes a photo and contact information, but the price is not specified, which prevents it from being rated as a 5",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T05:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4027988927530733/",
+      "status": "active",
+      "imageUrl": "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/540487856_1491081861905283_1592828009895130189_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SU2nNWz_8QQQ7kNvwHNvM8G&_nc_oc=AdnlQ8C9SLHW_EfqGmcEr94wHB5qvlkqQ4esbv0LnfNmFpPPxfYnYjp0I1EJqT3E5tw&_nc_zt=23&_nc_ht=scontent.fmaa8-1.fna&_nc_gid=bznaEFwbYQaCk2RzkycytA&oh=00_AfbpIq2rDUn3QOCraNEiQkBL79mVlhEEWRMZJBcyTL67Lw&oe=68C059F7"
+    },
+    {
+      "id": "265b5f64-9329-8188-af7a-f7f968dce1cf",
+      "title": "Room for rent",
+      "overview": "A single room is being rented out for 380 euros per month, with a one-month deposit required",
+      "description": "Alquilo habitacion cama sencilla a una calle estacion fabra i puig , al lado del hipercore , para estudiante o persona sola (no parejas) apartir de 1 de octubre, ~380 el mes y un mes de fianza, para compartir con dos personas, lugar muy limpio y de confianza, no se aceptan visitas, escribir solo interesados, gracias !",
+      "price": "380€",
+      "zone": "Fabra i Puig",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the room and the rental terms, but there is no information about the landlord or the rental agreement, and no photos of the room are provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T05:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4312376968994812/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcgp29-1.fna.fbcdn.net/v/t39.30808-6/542050086_4218953021764975_978428076964201877_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=GqEo-apkE_0Q7kNvwFwxRoj&_nc_oc=Adl4-Qy72Ch0YrdZxc_tg1yZbJAUXwUOKch7hPOX-EHh-p_mlEfMdI7mCg_bd7iONPM&_nc_zt=23&_nc_ht=scontent.fcgp29-1.fna&_nc_gid=fjHCLfAwg15UZOaxj3Sy_g&oh=00_AfbM0P2paz1hhgELd2kCDBTO_D2v8hpRxSiDBnCjMvcoSg&oe=68C008DB"
+    },
     {
       "id": "265b5f64-9329-81a2-a3f8-e05c4e2ea24f",
       "title": "Spacious room for rent in Cornella de Llobregat",
@@ -528,7 +579,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T16:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2189257788254957/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542094347_4218957618431182_1849196521875384286_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wMagGksZyxcQ7kNvwGCWoLk&_nc_oc=AdkUGEAOhK3RsPt4w0OPuooHbXtooKute2ERAv8BnXEmjhQhQz4TQv-PfxyEKVjhPKc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=U6Ao33h7_Pyh-wX-cjZPFg&oh=00_AfYrKQ3J8xZ13sI-jSzIrPsPFtlIvLG_qYA8bsgzNBSs9w&oe=68BF7A05"
     },
     {
@@ -953,7 +1004,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T09:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4312011332364709/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpnq15-1.fna.fbcdn.net/v/t39.30808-6/541625847_2309349342814648_6635096724693701013_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Y8QSGNuCfIQQ7kNvwGMpJmJ&_nc_oc=AdnWPfcJ_Yeqlbxi1SRNXA-2ZyuzpeaUCDKTF1eaQrpKeXfUE4B8yNd0rRRqdgXOVEk&_nc_zt=23&_nc_ht=scontent.fpnq15-1.fna&_nc_gid=6Mv8rk9vyJfKtQ9M6uVsGw&oh=00_AfYjWPdb3Y28H_RwOcyMjLOu8ZYn_7JTQU2heFbmHIhSvg&oe=68BF1C20"
     },
     {
@@ -1055,7 +1106,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T08:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4312032815695894/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
