@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-05T13:02:41.622Z",
+  "generatedAt": "2025-09-05T13:44:45.876Z",
   "city": "roma",
-  "count": 682,
-  "totalRejectedCount": 2158,
+  "count": 683,
+  "totalRejectedCount": 2178,
   "results": [
+    {
+      "id": "265b5f64-9329-811b-9e2a-c05ccdf8f0c3",
+      "title": "Large fully renovated apartment for rent",
+      "overview": "A fully renovated apartment near Roma Tiburtina station, comprising 3 bedrooms with air conditioning, 2 bathrooms, a kitchen, and large balconies. Only two rooms are available, one with a private bathroom. Preference for female tenants.",
+      "description": "Salve, disponibile ampio appartamento completamente ristrutturato,vicinissimo alla stazione Roma Tiburtina. Comprende 3 camere da letto tutte con aria condizionata, 2 bagni di cui uno privato dentro la camera, cucina, ripostiglio, ampi balconi in tutte le stanze. Attualmente disponibile solo due stanze, una delle due è quella con il bagno privato!. Solo ragazze grazie. Per qualsiasi cosa contattatemi",
+      "price": "N/A",
+      "zone": "Roma Tiburtina",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a detailed description of the apartment and its features, includes a photo, and has contact information available, which increases its reliability. However, the lack of price information prevents it from achieving the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T13:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150233788833907/",
+      "status": "active",
+      "imageUrl": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-6/544856814_24820677360899705_806083233908444273_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pvAizmfjcMMQ7kNvwGmrRnB&_nc_oc=AdlU5WIrb182buL3wn7t4wmwprRpQiyLHBYwR4p0P3rbBK0GzMS_OXR92ZuHr2eRyPsglaSiWaKD_Eyt2ecCZMWY&_nc_zt=23&_nc_ht=scontent.fidr4-1.fna&_nc_gid=RmduhkYUcnUsoxsieDM-Bg&oh=00_AfaqmClpBCGHNXx2IM3mLmUbjmYTu4pTg13-JEVTZHOxjA&oe=68C0C68D"
+    },
     {
       "id": "265b5f64-9329-8122-891a-f384b9a2871e",
       "title": "Fully renovated apartment for rent",
@@ -69,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T12:52:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1341056477686043/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fstv9-1.fna.fbcdn.net/v/t39.30808-6/542452900_24712537885101876_2470280482163265220_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-3tp6-lmGTIQ7kNvwEQsjeb&_nc_oc=Adl1W3ujpgSiIDFjzpYA5iKvK-5ca5lJyCft2ztI4epeXwedBQov_N4K6TqPrmRLsx0&_nc_zt=23&_nc_ht=scontent.fstv9-1.fna&_nc_gid=0DYYdDbYe7auL_stHpWevg&oh=00_AfauMA0UVj2ZGeT3ER9qRZ7XEBgxC0txQmjrKWDokGENwg&oe=68C09A55"
     },
     {

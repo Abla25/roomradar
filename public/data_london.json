@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-05T13:02:46.560Z",
+  "generatedAt": "2025-09-05T13:44:53.554Z",
   "city": "london",
-  "count": 567,
-  "totalRejectedCount": 741,
+  "count": 569,
+  "totalRejectedCount": 745,
   "results": [
+    {
+      "id": "265b5f64-9329-8148-98e0-daf470fc91f3",
+      "title": "Private Landlord Seeking Clean and Honest Tenant",
+      "overview": "A private landlord is looking for a tenant to rent their place, no credit or background check required",
+      "description": "I’m a private landlord I just need a clean and honest tenant for my place I do not check credit or any background check... message me if only you are ready to move in or secure the place for your move in date",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing has a photo and a clear description of the landlord's requirements, but lacks specific details about the property and pricing, which reduces its reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T13:42:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1845212486078047/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542709385_122105874044993244_2222165792975264702_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=eG1CljoHnToQ7kNvwEF3YF5&_nc_oc=AdmjTNQ9S6Qfhbz8C2AFghoAPYkBSrX7zlmrlVeg-hPKDwKRTDQm7TQtGUJHI9bARPA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=VT1KdfzdjTIyrn_0iTUTsQ&oh=00_AfbJiIEMERbVzS34sNR6TxJcLvDmBZMK6HOjfNS9hLwN5Q&oe=68C0CCFC"
+    },
+    {
+      "id": "265b5f64-9329-812f-858f-c9ea24d4f8e5",
+      "title": "Double room for rent in Canning Town",
+      "overview": "A double room is available for rent in Canning Town, with all expenses included",
+      "description": "One double room available, around canning town. From anytime, everything included, if u interest, inbox me",
+      "price": "N/A",
+      "zone": "Canning Town",
+      "zoneMacro": "East London",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, and the contact method is unclear, which raises concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-05T13:41:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1845246832741279/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "265b5f64-9329-81cd-b361-e89940b8bad1",
       "title": "Room for rent in Notting Hill",
@@ -1718,7 +1752,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T03:02:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1844079872857975/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542004616_122127002444933232_4161791193033936806_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UHDxtZM2WPIQ7kNvwFqsvZT&_nc_oc=AdnopsQJxNr_3LxtS-W1OByrYxdqfV1XPPl6Vo9lUs56gpr-sKKQ-GhngcRQa3oQYtI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=_NoXcw8kmDowKip2vkyDcw&oh=00_AfbGxUCmmy-bso1-t3PpvrKYYo1fwnrhlhyse1pE8KtgKw&oe=68BEBD78"
     },
     {
