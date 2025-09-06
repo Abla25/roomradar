@@ -73,6 +73,26 @@
   <!-- Cookie Banner -->
   <script src="js/cookie-banner.js"></script>
   
+  <!-- Google Analytics Integration -->
+  <script>
+    // Set your Google Analytics Measurement ID here
+    // This should match the ID in your main index.html
+    window.GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // TODO: Replace with your actual GA4 Measurement ID
+  </script>
+  
+  <!-- Load RoomRadar Analytics -->
+  <script type="module">
+    import RoomRadarAnalytics from '../js/analytics.js';
+    
+    // Initialize analytics for all users (authenticated and anonymous)
+    if (window.GA_MEASUREMENT_ID && window.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+      window.analytics = new RoomRadarAnalytics(window.GA_MEASUREMENT_ID);
+      console.log('📊 RoomRadar Analytics initialized for PAGE_NAME');
+    } else {
+      console.warn('⚠️ Google Analytics Measurement ID not configured. Please set GA_MEASUREMENT_ID in template.');
+    }
+  </script>
+  
   <!-- Page-specific scripts -->
   <script>
     // Mobile menu functions

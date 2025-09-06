@@ -5857,5 +5857,150 @@
       }, 200);
     })();
   </script>
+
+  <!-- Google Analytics Integration -->
+  <script>
+    // Set your Google Analytics Measurement ID here
+    // Replace 'G-XXXXXXXXXX' with your actual Measurement ID from Google Analytics
+    window.GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // TODO: Replace with your actual GA4 Measurement ID
+  </script>
+  
+  <!-- Load RoomRadar Analytics -->
+  <script type="module">
+    import RoomRadarAnalytics from './assets/js/analytics.js';
+    
+    // Initialize analytics for all users (authenticated and anonymous)
+    if (window.GA_MEASUREMENT_ID && window.GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+      window.analytics = new RoomRadarAnalytics(window.GA_MEASUREMENT_ID);
+      console.log('📊 RoomRadar Analytics initialized for all users');
+      
+      // Set up city tracking integration with existing functions
+      setupCityAnalyticsIntegration();
+    } else {
+      console.warn('⚠️ Google Analytics Measurement ID not configured. Please set GA_MEASUREMENT_ID in index.html');
+    }
+    
+    // Function to integrate analytics with existing city selection logic
+    function setupCityAnalyticsIntegration() {
+      // Track when user selects a city from dropdown
+      const citySelect = document.getElementById('city-select');
+      if (citySelect) {
+        citySelect.addEventListener('change', function() {
+          const selectedCity = this.value;
+          if (selectedCity && window.analytics) {
+            // Track city selection
+            window.analytics.trackCustomEvent('city_selected_dropdown', {
+              event_category: 'User Interaction',
+              event_label: selectedCity,
+              selected_city: selectedCity
+            });
+            
+            // Track user engagement level
+            const isFirstSelection = !localStorage.getItem('selectedCity');
+            if (isFirstSelection) {
+              window.analytics.trackCustomEvent('first_city_selection', {
+                event_category: 'User Engagement',
+                event_label: selectedCity,
+                selected_city: selectedCity
+              });
+            }
+            
+            console.log('📊 City selection tracked:', selectedCity);
+          }
+        });
+      }
+      
+      // Override the original startCitySearch function to add analytics
+      if (window.startCitySearch) {
+        const originalStartCitySearch = window.startCitySearch;
+        window.startCitySearch = function(showNotification, scrollToResults) {
+          const selectedCity = document.getElementById('city-select')?.value;
+          
+          // Track search initiation
+          if (selectedCity && window.analytics) {
+            window.analytics.trackCustomEvent('city_search_started', {
+              event_category: 'User Interaction',
+              event_label: selectedCity,
+              selected_city: selectedCity,
+              show_notification: showNotification,
+              scroll_to_results: scrollToResults
+            });
+          }
+          
+          // Call original function
+          return originalStartCitySearch.call(this, showNotification, scrollToResults);
+        };
+      }
+      
+      // Override changeCity function to add analytics
+      if (window.changeCity) {
+        const originalChangeCity = window.changeCity;
+        window.changeCity = function() {
+          const currentCityText = document.getElementById('current-city-text');
+          const currentCity = currentCityText ? currentCityText.textContent : 'unknown';
+          
+          // Track city change initiation
+          if (window.analytics) {
+            window.analytics.trackCustomEvent('city_change_initiated', {
+              event_category: 'User Interaction',
+              event_label: currentCity,
+              previous_city: currentCity
+            });
+          }
+          
+          // Call original function
+          return originalChangeCity.call(this);
+        };
+      }
+      
+      // Track when listings are loaded for a city
+      if (window.loadListingsForCity) {
+        const originalLoadListingsForCity = window.loadListingsForCity;
+        window.loadListingsForCity = function(city, scrollToResults) {
+          // Track listings load
+          if (window.analytics) {
+            window.analytics.trackCustomEvent('listings_loaded', {
+              event_category: 'Content Interaction',
+              event_label: city,
+              selected_city: city,
+              scroll_to_results: scrollToResults
+            });
+            
+            // Track user engagement with results
+            setTimeout(() => {
+              const listingsCount = document.querySelectorAll('.listing-card').length;
+              window.analytics.trackCustomEvent('listings_displayed', {
+                event_category: 'Content Interaction',
+                event_label: city,
+                selected_city: city,
+                value: listingsCount
+              });
+            }, 1000);
+          }
+          
+          // Call original function
+          return originalLoadListingsForCity.call(this, city, scrollToResults);
+        };
+      }
+      
+      // Track user returning to site with saved city
+      const savedCity = localStorage.getItem('selectedCity');
+      if (savedCity && window.analytics) {
+        window.analytics.trackCustomEvent('returning_user_with_city', {
+          event_category: 'User Engagement',
+          event_label: savedCity,
+          selected_city: savedCity
+        });
+        
+        // Set user property for segmentation
+        window.analytics.setUserProperty('returning_user', 'yes');
+        window.analytics.setUserProperty('preferred_city', savedCity);
+      } else if (window.analytics) {
+        window.analytics.setUserProperty('returning_user', 'no');
+      }
+      
+      console.log('🔗 City analytics integration completed');
+    }
+  </script>
 </body>
 </html>
