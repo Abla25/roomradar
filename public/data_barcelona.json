@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T03:01:08.456Z",
+  "generatedAt": "2025-09-06T03:35:39.197Z",
   "city": "barcelona",
-  "count": 1348,
-  "totalRejectedCount": 2171,
+  "count": 1349,
+  "totalRejectedCount": 2172,
   "results": [
+    {
+      "id": "266b5f64-9329-81b4-9151-c14d5de454f1",
+      "title": "Room for rent for a woman in Badalona",
+      "overview": "A room is available for rent in the LaSalut/Llefià area of Badalona",
+      "description": "Se alquila habitación a mujer o chica sola zona BADALONA AL DIA (LaSalut/Llefià)",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a clear price, but it seems to be a legitimate room rental posting with a specific location.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T03:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082294450742753/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-8147-b5bd-ebf84966b29b",
       "title": "Beautiful room for rent near the beach",
@@ -1752,7 +1769,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T13:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1081074764198055/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
