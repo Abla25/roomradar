@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-06T17:26:29.223Z",
+  "generatedAt": "2025-09-06T18:43:47.628Z",
   "city": "barcelona",
-  "count": 1384,
-  "totalRejectedCount": 2232,
+  "count": 1389,
+  "totalRejectedCount": 2238,
   "results": [
+    {
+      "id": "266b5f64-9329-816f-91c3-cfd51a986d87",
+      "title": "Apartment for Rent in Sagrada Familia",
+      "overview": "An apartment for rent in the Sagrada Familia area, with limited information provided.",
+      "description": "Alquilo piso en Sagrada Familia [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "This listing lacks detail, does not include photos, and only provides a phone number, making its reliability low due to the absence of essential information and the potential for it being a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T18:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4021520911510868/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81c4-b4d2-f39e6fd4ef30",
+      "title": "Individual Room for Rent in Plaza Virrei Amat, Barcelona",
+      "overview": "A single room for rent in a shared apartment, suitable for a respectful and sociable male tenant with a stable job, located in the Plaza Virrei Amat area of Barcelona.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat (Barcelona)",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "This listing has a clear and detailed description, includes photos of the room, and provides contact information, making it seem reliable and not like a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T18:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4030149227314703/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-4.fna.fbcdn.net/v/t39.30808-6/544849618_10234303779508755_4232625574671805903_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=npyNxhqtU0YQ7kNvwHx5fv0&_nc_oc=AdmFnnMFP8yss9EVaQY-jUwj49kmhQnnQIBC9M11E5jmvsevGRoFqK6edFxiBdH09vc&_nc_zt=23&_nc_ht=scontent.fluh1-4.fna&_nc_gid=5lZTjok1blIGP9tln39XpA&oh=00_AfYItRMoowrHeWHoP94aFuQHr34wPlYwhixWZj1vfCPDTA&oe=68C251BA"
+    },
+    {
+      "id": "266b5f64-9329-81c0-8208-eaaf97369485",
+      "title": "2 rooms for rent in Barcelona",
+      "overview": "2 rooms for rent in Calle Arnau d'Oms 47, Barcelona, with a minimum stay of 3 months and maximum of 1 year",
+      "description": "Alquilo 2 habitaciones! SOLO UNA PERSONA PREFIERO UNA CHICA O SEÑORA CON EL TRABAJO ESTABLE ! NO PAREJA NO MASCOTAS POR FAVOR!! Ubicación es Calle Arnau d'Oms 47 08016 Barcelona! Muy bien comunicado con centro comercial y metro L1 Fabra i Puig y Metro Virrei Amat L5 Para mas información solo whatsapp no llamadas [PHONE NUMBER CENSORED] Las habitaciones están disponibles para entrar a partir de hoy 06/09/2025 Mínimo estancia 3 meses y máximo 1 año Un saludo a todos",
+      "price": "N/A",
+      "zone": "Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post is a direct rental listing with detailed information about the rooms, location, and contract terms, as well as a photo, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T18:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4314113342154508/",
+      "status": "active",
+      "imageUrl": "https://scontent.fisk3-1.fna.fbcdn.net/v/t39.30808-6/544813894_1698977547433601_6803478834693410694_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rGljnLePIL8Q7kNvwGbAv3C&_nc_oc=Adm-NH_6_lHgGbgIE5hQE5f4aEAOmuW3sos8-VoOOSUQH-0A_ZQ_3TQRSeLYXIkZnEMfVBLLf1aOZZGn99llF-Dz&_nc_zt=23&_nc_ht=scontent.fisk3-1.fna&_nc_gid=Dl-YxdXzAfHV7XGk_W2Zxg&oh=00_AfZ4JddHT_PbBoq46ANC57_2lF_-4NN6yAfqtvGs2K2_mQ&oe=68C23725"
+    },
+    {
+      "id": "266b5f64-9329-81c4-8cfe-d210940a38b9",
+      "title": "Room for rent in El Prat",
+      "overview": "Room for rent in El Prat de Llobregat for a single female",
+      "description": "Alquilo habitación en el Prat de llobregat de llobregat para chica sola más información llamar al número [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "El Prat de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post is a direct rental listing with contact information, but the price is not specified and there is limited information about the room.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T18:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4314472588785250/",
+      "status": "active",
+      "imageUrl": "https://scontent.fisk3-1.fna.fbcdn.net/v/t39.30808-6/544742682_1319791116483672_497908195286120543_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MyyJ4v8ID8wQ7kNvwG-3PUc&_nc_oc=AdmI3-nGhXFm9XF0S8cjx2Xf0DMbqpdOBaqjCJ6ats5qRXIfF82OuCezOgMD0Y7h4Ew-QybUhHr1D2nuVuSTWOhx&_nc_zt=23&_nc_ht=scontent.fisk3-1.fna&_nc_gid=Dl-YxdXzAfHV7XGk_W2Zxg&oh=00_AfbP3bd3zmkuMl04GIAuLcFmNUOCH0aTHBoqsufFmN7_XQ&oe=68C24240"
+    },
+    {
+      "id": "266b5f64-9329-812e-840b-cfa62986e60c",
+      "title": "Room for rent near La Florida metro",
+      "overview": "A room is available for rent in a family-friendly environment near La Florida metro, preferably for a male tenant",
+      "description": "Hola estamos alquilando una habitación para una sola persona de preferencia \" hombre\" cerca del metro de la florida es un buen ambiente familiar para más información [PHONE NUMBER CENSORED] gracias",
+      "price": "N/A",
+      "zone": "La Florida",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and has limited information, but it appears to be a genuine rental listing with contact information provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T18:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4314525638779945/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-81ef-ba93-cfe11c8b8abf",
       "title": "Medium-sized room for rent for women",
@@ -35,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T17:18:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1080205437209086/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel92-1.fna.fbcdn.net/v/t39.30808-6/544906990_10234303777348701_4511464279739100793_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9uGQFDQA8n4Q7kNvwHaMN06&_nc_oc=AdlOJAnHKlTU71boTLKGA-5ERtxFFmi_loYK2EloEL98Q7trl3lU2i9qBzxDjVS9ko4&_nc_zt=23&_nc_ht=scontent.fdel92-1.fna&_nc_gid=_Fc6o5Nsm3U7xFSW8jIC5w&oh=00_AfbxCv9gb_Mn0wWsaLwFrTY_WEgx4hK2L-IACMJ-nZLMTg&oe=68C24457"
     },
     {
@@ -426,7 +511,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T10:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082483540723844/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -783,7 +868,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T21:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4313676565531519/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpnq13-3.fna.fbcdn.net/v/t39.30808-6/542008281_1319182516544532_958646424083530818_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kaliPB8fFf4Q7kNvwF2ae1M&_nc_oc=AdmM3t-P5myopHiZrCr5-Md2lX5fpj8imcb4lKACmEozwz56LHvqRrUOiwYaZdCmSrU&_nc_zt=23&_nc_ht=scontent.fpnq13-3.fna&_nc_gid=_nvfCi8jQUUf95ZMPN6U1Q&oh=00_AfaGoIBio6jDYTrpmh0RH1sX91JcmKIH7sUfI-Yy-bl3HQ&oe=68C13526"
     },
     {
@@ -3656,7 +3741,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T12:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080188214286710/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
