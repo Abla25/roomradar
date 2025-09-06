@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-06T11:26:51.054Z",
+  "generatedAt": "2025-09-06T12:57:27.764Z",
   "city": "roma",
-  "count": 746,
-  "totalRejectedCount": 2330,
+  "count": 750,
+  "totalRejectedCount": 2348,
   "results": [
+    {
+      "id": "266b5f64-9329-81dc-aee4-d44cb8184739",
+      "title": "Double room for rent in Rome",
+      "overview": "A double room is available for rent in a shared apartment in Rome, starting from mid-October",
+      "description": "Si libera una stanza DOPPIA da metà ottobre per ragazze. L’appartamento si trova in via Capraia/Zona Tuffello, vicino alla metro B Jonio e con fermata dell’autobus verso Nomentana e Termini sotto casa. È composto da una stanza singola (GIÀ OCCUPATA), DOPPIA, bagno e cucina abitabile con lavastoviglie. La zona è tranquilla e dotata di tutti i servizi. Per maggiori informazioni scrivere in privato!😊",
+      "price": "N/A",
+      "zone": "Via Capraia/Zona Tuffello",
+      "zoneMacro": "Esquilino",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and pricing information, but it seems like a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T12:50:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31100919949552763/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-8173-b167-ffd66dd25d70",
+      "title": "Room for rent in Piazza Irnerio",
+      "overview": "A room is available for rent in the Piazza Irnerio area, with no additional information provided",
+      "description": "Affittasi stanza disponibile da subito in zona Piazza Irnerio.",
+      "price": "N/A",
+      "zone": "Piazza Irnerio",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post lacks detailed information, but it appears to be a genuine rental listing with a photo provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T12:49:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738020296396938/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/516397491_2670919206593872_5252122520758474361_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XkG3oh7hOfIQ7kNvwHzOwAv&_nc_oc=Adnle9Sft8_LR6PHOQWZO9p32DqFSTkhll6Tfm4_KpW3WrBvG0dYINFdbJjhCcfj0KA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Moteiee-Kt-dCnALECcv5A&oh=00_AfaNEtwMr73Il2IYfVpAyb4Ui09olMt38H9FYgEwiZK6Lw&oe=68C1F5D9"
+    },
+    {
+      "id": "266b5f64-9329-8198-9937-d13951b3c492",
+      "title": "Marital room for rent in Piazzale delle Medaglie d'oro",
+      "overview": "A marital room with a private balcony is available for rent in a 4-room house with 2 bathrooms, a large terrace, and a kitchen, with a registered contract and a two-month deposit",
+      "description": "Camera matrimoniale in casa mista (lavoratori) con balcone privato molto luminosa di 15mq su Piazzale delle Medaglie d'oro, si libera a fine settembre, bus 913 e notturno davanti al portone, tutti i servizi sotto casa con portineria. La casa è composta di 4 camere, 2 bagni, grande terrazzo, cucina abitabile 2 frigo, salone, ripostiglio scaffalato, in condominio molto signorile. Costo 600 oltre spese condominiali di 55 incluso wi-fi con fibra in casa. Bollette gas 9 al bimestre, luce 35 al bimestre, riscaldamento per 4 mesi 25 al mese. Contratto registrato con due mesi di caparra.",
+      "price": "600",
+      "zone": "Piazzale delle Medaglie d'oro",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the room and the house, includes a photo, and mentions a registered contract, which suggests a high level of legitimacy and reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T12:48:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738058416393126/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544608713_10238764065629677_3209870990446517872_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2BHOHfHlAUcQ7kNvwEcLkjb&_nc_oc=Adl7NjE25y5sv1wcqcmU0BrebA2BxK96uN4W9snSaeoukt7Dc_iBqQkM6XqU8R_x5q0&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=aaYxJJd_St1z3kkrelmfNw&oh=00_AfaKBaMNTsTMF9YBclG1bnI85vUqRb_aOaybbxuZzsQZdQ&oe=68C1EAFF"
+    },
+    {
+      "id": "266b5f64-9329-81f5-954e-c0ba8cfba788",
+      "title": "Single room for rent in Rome, near Monti Tiburtini metro station",
+      "overview": "A single room is available for rent in a 4-bedroom apartment, with 2 bathrooms, near the Monti Tiburtini metro station, for 500€ per month, plus utilities and condo fees",
+      "description": "Affitto solo a studentesse STANZA SINGOLA a 8 min a piedi dalla stazione metro B Monti Tiburtini. Canone mensile 500€ + utenze e condominio. Si organizzano visite lunedì dalle ore 13 in poi e martedì entro le ore 16. Appartamento sito al quarto piano, luminoso, con 4 stanze singole e 2 bagni. Se interessati scrivetemi un pvt.",
+      "price": "500€",
+      "zone": "Monti Tiburtini",
+      "zoneMacro": "Monti",
+      "rooms": "4",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, price, and location, as well as a photo, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T12:46:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738123723053262/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/543122460_10235794589458937_1997381107475932289_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=fA1u4ZLjcCYQ7kNvwFsi3_-&_nc_oc=Adnei7XitkMcI2A1XT0BzqNc6m5tFyB6CThsUuKKmYb50rQQP6ALT7ncaNQF2lIPY6g&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=QZKoY_GZmWzQp2i9CsGhkg&oh=00_AfYFZA64oS68eGksLjKEAQ8HQvaPFiOkTcwX86C17rY0dA&oe=68C1E859"
+    },
     {
       "id": "266b5f64-9329-81c0-aba2-c58224e0935d",
       "title": "Spacious single room for rent in Prenestina, Rome",
@@ -52,7 +120,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1341825697609121/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -69,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/244234206083096/posts/2185466595293171/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fudr2-2.fna.fbcdn.net/v/t39.30808-6/542742138_2670922079926918_3433292960937936333_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OwLyohVVwWkQ7kNvwFH1-k3&_nc_oc=AdmAqYltcnfY3jCWC-Kl_ueMUaYQlhq7XjcxH2jNB0a3oEeJH5FAb19PqJma4yujTgqscffYnjltF3BfYOzRsEnu&_nc_zt=23&_nc_ht=scontent.fudr2-2.fna&_nc_gid=REplcB3icHFhlTLevuG14g&oh=00_AfbmUQ1koY7NEntybZfxzw7Cc1KBqLlwFHVQ9fV1XIE34Q&oe=68C1E7F8"
     },
     {
@@ -103,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T10:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2151033255420627/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544608713_10238764065629677_3209870990446517872_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2BHOHfHlAUcQ7kNvwHV-DCS&_nc_oc=Adnd3rF5jIme3YvnEvC755xEeALEG2XGtZvf0eeCdQRdl29Rq6gcBYVOy49rqlBMJ4g&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=_5LB5-Q6gC_8CDFnYgQ-Ug&oh=00_Afaz4Obop9MP41OF9xvJYeYzvytWi2pFveDajwbrWf5CGg&oe=68C1EAFF"
     },
     {
