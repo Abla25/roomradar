@@ -1,17 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4312056759026833/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-04T09:24:38.850485"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4312026059029903/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-04T09:24:38.852078"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4028029287526697/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-04T09:26:28.811352"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4312108095688366/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-04T10:24:37.199948"
@@ -875,8 +863,40 @@
     "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082533537385511/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-06T09:21:21.982641"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4314146618817847/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:21:29.064699"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4314145895484586/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:21:29.066050"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4314140185485157/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:21:29.067411"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4314138022152040/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:22:04.496117"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247894849047044/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:23:24.283130"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2247869565716239/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:23:24.284460"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4029954020667557/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:23:58.477499"
+    },
+    "https://www.facebook.com/groups/986691378511610/posts/2190704704776932/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-06T10:24:34.632462"
     }
   },
-  "total_rejected_count": 2188,
-  "timestamp": "2025-09-06T09:20:18.984260"
+  "total_rejected_count": 2196,
+  "timestamp": "2025-09-06T10:20:50.074393"
 }

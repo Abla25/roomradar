@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-06T09:33:27.141Z",
+  "generatedAt": "2025-09-06T10:31:47.159Z",
   "city": "barcelona",
-  "count": 1358,
-  "totalRejectedCount": 2188,
+  "count": 1361,
+  "totalRejectedCount": 2196,
   "results": [
+    {
+      "id": "266b5f64-9329-8153-9f51-ec1f8bcbe7b6",
+      "title": "Room for rent near Artigues metro station",
+      "overview": "A room is available for rent near the metro station Artigues sant adrian L2 lila",
+      "description": "Disponible habitación a dos calles del metro Artigues sant adrian L2 lila",
+      "price": "N/A",
+      "zone": "Artigues sant adrian",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a clear description of the room's location and includes a photo, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T10:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2190657078115028/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542758966_10227024516218487_6500180235741108001_n.jpg?stp=cp6_dst-jpg_s565x565_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4vLv4CVarSEQ7kNvwFj1ABB&_nc_oc=AdmBXF4CmuXYzg9z5UbxFtu5C9fBguN8TdcNjgQ0VoiZIQ75nZJDSFxDqBL0cChL1Pg&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=9nuFbxg3pbxxyxuELCzrbw&oh=00_AfZuQJ75EJzFf3CXLAcuPfUTOjV4vYsSOE-aYuUVqABKUQ&oe=68C1D474"
+    },
+    {
+      "id": "266b5f64-9329-81c7-87c3-f06157a77f9e",
+      "title": "Room for rent in Sagrada Familia",
+      "overview": "Room available for 2 people with 2 beds, suitable for couples, friends, or family members, located in the Sagrada Familia area",
+      "description": "Hola buen día tengo habitación disponible para 2 personas con 2 camas, bien sea para pareja, primos, primas, amig@s, madre e hija o padre e hijo, como gusten es en sagrada Familia excelente sector disponible desde hoy mismo más info [PHONE NUMBER CENSORED] whatsapp mensaje o llamada",
+      "price": "N/A",
+      "zone": "Sagrada Familia",
+      "zoneMacro": "Eixample",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a clear price, but it does include a contact method and seems to be a genuine rental offer",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T10:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082483540723844/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81bc-b2a8-d57ad5959704",
+      "title": "Room available for rent",
+      "overview": "Room available for rent, only for girls or mothers with children",
+      "description": "Habitacion lista para entrar hoy [PHONE NUMBER CENSORED] SOLO CHICAS O MADRES CON HIJOS",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks information about the price, zone, and rooms, and there are no clear indicators of trustworthiness, but it has an image and contact information.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T10:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4313996065499569/",
+      "status": "active",
+      "imageUrl": "https://scontent.fknu2-1.fna.fbcdn.net/v/t15.5256-10/543367347_1275194724008969_2385877178099373321_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=117846&_nc_ohc=Wd23i7Th0KMQ7kNvwFPRKsv&_nc_oc=AdnUZ35p2dLyKsiC363DBP0Q2OSWOb9x3kB0fEuEfAiwfPYSmgEiGmWe_oHRnOaW-mo&_nc_zt=23&_nc_ht=scontent.fknu2-1.fna&_nc_gid=FFO0j3kudyMdiHwuVFeb5Q&oh=00_AfawCSuvasvGvMKhj5Q04J0Huxuw04wgewk5P3a60RzRtg&oe=68C1CCB2"
+    },
     {
       "id": "266b5f64-9329-81b9-8a55-c54010fc0ef3",
       "title": "Family renting independent apartment in Sant Cugat del Valles",
@@ -52,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T08:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4029879187341707/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fgau3-6.fna.fbcdn.net/v/t15.5256-10/544005717_1485426575923303_2315383214870482117_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=117846&_nc_ohc=ML6FLKtQhA0Q7kNvwEyxJMe&_nc_oc=Adnxzl7D1HPsrKgTEAoD8H46PL4yngNHATmV9R2nN8cGDR7NX0ufjZUrA_XKbI7HDXmAsJ4xXrvyGU-pVgAe2NYA&_nc_zt=23&_nc_ht=scontent.fgau3-6.fna&_nc_gid=-AmRFwIZv9GDyHVfUVGQBA&oh=00_AfZvF_RQ01iYzNeR2dgQrteShgsyJIQSKeLfyRdeJrNxoQ&oe=68C1AAB6"
     },
     {
@@ -7566,7 +7617,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T09:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4307914209441088/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
