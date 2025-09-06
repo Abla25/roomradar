@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-06T19:22:02.942Z",
+  "generatedAt": "2025-09-06T20:32:26.287Z",
   "city": "barcelona",
-  "count": 1391,
-  "totalRejectedCount": 2244,
+  "count": 1396,
+  "totalRejectedCount": 2249,
   "results": [
+    {
+      "id": "266b5f64-9329-8171-a71d-ed9f36b20058",
+      "title": "Room for rent near Santa Eulalia metro",
+      "overview": "Room available for rent, 600€ for couples and 450€ for singles, including expenses and one month's deposit, available from September 10th",
+      "description": "Alquilo habitación a una cuadra del metro Santa Eulalia Para parejas 600€ gastos incluidos más 1 mes de fianza, disponible para entrar el 10 de Septiembre. Persona sola 450€ gastos incluidos más 1 mes de fianza. La pueden ir a ver personalmente sin compromiso. Busco personas que les guste vivir en un ambiente limpio, que respete la convivencia y el espacio y el descanso de los demás",
+      "price": "450-600€",
+      "zone": "Santa Eulalia",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post seems legitimate, but there are no photos provided, and the contact information is not directly available, which raises some concerns about the reliability of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T20:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2191064824740920/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-811b-8d7f-d1d3e84a8776",
+      "title": "Room for rent in attic apartment",
+      "overview": "Room for rent in attic apartment with terrace in Santa Coloma de Gramanet, suitable for one or two girls",
+      "description": "se alquila habitacion en atico con terraza en santa coloma de gramanet para CHICA o DOS CHICAS mas info al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Santa Coloma de Gramanet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a phone number for contact, has an image of the room, and seems to be a genuine rental listing, but lacks information on the price",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T20:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4030433367286289/",
+      "status": "active",
+      "imageUrl": "https://scontent-maa3-2.xx.fbcdn.net/v/t39.30808-6/544901294_122182693040450425_8049547838152494405_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n7WDp_FGEqgQ7kNvwGKOA3I&_nc_oc=Admh1PRc_k8ypHIgxDaEcKCuFb0Mm9HWU97t7OGTIxFXAl7xe-jQfIRTGQPeQ43cSKk&_nc_zt=23&_nc_ht=scontent-maa3-2.xx&_nc_gid=1O2TD_Qzk18KfAs_bmTZcQ&oh=00_AfaH8YdVfRN3yReIIqUOl949PAFZNxj_2FVUJvncUFJ0Bg&oe=68C25EFC"
+    },
+    {
+      "id": "266b5f64-9329-81ab-9f60-cf891880b16f",
+      "title": "Two rooms for rent for girls",
+      "overview": "Two rooms available for rent, specifically for female tenants, in a shared accommodation",
+      "description": "Hola se alquila dos habitaciones para chicas en pubillas casas",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post mentions the number of rooms and the target tenants but lacks crucial details such as price, location, and photos, which are necessary for a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T20:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082923474013184/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81df-a7d8-c906d2cd4923",
+      "title": "Room for rent in Cambuxeras",
+      "overview": "Room available near metro line L5 in Cambuxeras, close to public transportation",
+      "description": "SE ALQUILA HABITACIÓN EN CAMBUXERAS LINEA AZUL L5 A MENOS DE 5 MIN DEL METRO",
+      "price": "N/A",
+      "zone": "Cambuxeras",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some basic information about the listing, including location and proximity to public transportation, but lacks photos and specific details about the room or price, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T20:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082924734013058/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-8146-b545-fbf8e2fa3481",
+      "title": "Room for rent in Barcelona's Canvidalet neighborhood",
+      "overview": "A room is available for rent in the Canvidalet neighborhood of Barcelona, for a single person, with contact information via WhatsApp",
+      "description": "Habitación Disponible desde ya. Barrio de canvidalet,Barcelona Persona sola.) Información WhatsApp [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Canvidalet, Barcelona",
+      "zoneMacro": "Nou Barris",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some information about the rental and includes contact details, but lacks photos and specific details about the room, which reduces its reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T20:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4314454302120412/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/544979560_122230715378180172_6269263259477834760_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=IPryqQTAphkQ7kNvwG1Ag6G&_nc_oc=AdmN6npPtGMyWMfQpWh1I4-fqDNTux7V5FgxBOKnQWjAYHEz6w0_ue8LNy8oggbhiws&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=csHmPOV34iUQ5vMbAla_JQ&oh=00_AfbKNpDeMltJruzcv6AQqQCt6AB4VaQCHkbsZXgxYm_X7w&oe=68C25982"
+    },
     {
       "id": "266b5f64-9329-81b6-b898-ddcae9a72256",
       "title": "Room for rent in Barcelona city center",
@@ -358,7 +443,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T13:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082553280716870/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1004,7 +1089,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T19:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082098870762311/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -3690,7 +3775,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T14:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4311142305784945/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel1-8.fna.fbcdn.net/v/t39.30808-6/539651856_122182232204450425_3436649564005696461_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=k5rhD_3huhwQ7kNvwHufzxU&_nc_oc=AdkzHHzU7aAY5sIjlz6W1lMzFK-2CH8yuz_B5eray5wd1FRNWrJT90m9YlwOthMXnqo&_nc_zt=23&_nc_ht=scontent.fdel1-8.fna&_nc_gid=_7PSogiBm38bvH_I1XcmvQ&oh=00_AfYKwd4b0Kw-J_FzTAyYZ_LE037xlGFgRucCtIVFF2B3OQ&oe=68BE0441"
     },
     {
@@ -12360,7 +12445,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T15:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2183419178838818/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
