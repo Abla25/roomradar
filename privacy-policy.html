@@ -467,6 +467,10 @@
 
   <!-- Firebase SDK -->
   <script type="module">
+    // Import and inject Vercel Analytics
+    import { inject } from '@vercel/analytics';
+    inject();
+
     // Import Firebase configuration
     import { initializeFirebase } from './assets/js/firebase-config.js';
     
