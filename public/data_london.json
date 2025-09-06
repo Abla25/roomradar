@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T18:43:58.819Z",
+  "generatedAt": "2025-09-06T19:22:16.753Z",
   "city": "london",
-  "count": 643,
-  "totalRejectedCount": 870,
+  "count": 645,
+  "totalRejectedCount": 873,
   "results": [
+    {
+      "id": "266b5f64-9329-817a-92fe-cf7f856ad269",
+      "title": "Prime Location House for Rent",
+      "overview": "A fully furnished 3-bedroom house with shared kitchen and bathroom, perfect for students or working professionals",
+      "description": "📍 Prime Location – Just a 12-minute walk to Manor Park Station (Elizabeth Line) or East Ham Station (Hammersmith & City Line), offering fast and easy access to Central London. ✨ Property Highlights: This is a bright and fully furnished 3-bedroom house with a shared kitchen and bathroom. A clean and peaceful environment – perfect for students or working professionals. 🛏 Available Rooms: • 2x Medium Double Rooms – £745/month each • 1x Spacious Master Room – £850/month (single) | £950/month (couples) ✅ All bills included ✅ High-speed Wi-Fi ✅ Excellent transport connections 📌 Address: 59 Chesterford Road, London, E12 6LD",
+      "price": "745-950",
+      "zone": "London, E12 6LD",
+      "zoneMacro": "Central London",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information, includes photos, and seems like a genuine rental listing with excellent transport connections",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T19:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118062908728588/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd1-3.fna.fbcdn.net/v/t45.5328-9/544424039_1463657304881063_5952597018352932626_n.jpg?stp=c13.66.500.261a_dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=b8e0be&_nc_ohc=d3n9RA-6B4UQ7kNvwHIvGsh&_nc_oc=AdkfBFW99ERVgCwK8-PDkOBU5sR28Fy-jGbKv1LHRDBDOoz_GkTucQU_xjqzE67Bmb0&_nc_zt=23&_nc_ht=scontent.famd1-3.fna&_nc_gid=pPLohFgBpRaKPdy2PAd8zQ&oh=00_AfZAerfl6EoHsV6jQ2-wqmI2Jb5dO-A1WnuGZC4xESuDow&oe=68C249E0"
+    },
+    {
+      "id": "266b5f64-9329-816c-9f41-ec7585d156f7",
+      "title": "Fully Furnished 3-Bedroom House for Rent in London",
+      "overview": "A fully furnished 3-bedroom house with shared kitchen and bathroom, ideal for students and working professionals, located in a great area with excellent transport links",
+      "description": "📍 Great Location – Only a 12-minute walk to Manor Park (Elizabeth Line) or East Ham (Hammersmith & City Line) with quick connections to Central London. ✨ About the Property: A fully furnished 3-bedroom house with shared kitchen and bathroom. Clean, quiet, and ideal for both students and working professionals. 🛏 Rooms Available: 2 Medium Double Room: £745/month 1 Large Master Room: £850/month (£950 for couples) ✅ All bills included ✅ Fast Wi-Fi available ✅ Excellent transport links 📌 Address: 59 Chesterford Rd, London, E12 6LD",
+      "price": "£745-£850/month",
+      "zone": "London, E12 6LD",
+      "zoneMacro": "Central London",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the property, including photos, and seems legitimate, with a clear description of the rental terms and amenities",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T19:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24297352769933754/",
+      "status": "expired",
+      "imageUrl": "https://scontent.fluh1-2.fna.fbcdn.net/v/t45.5328-9/544424039_1463657304881063_5952597018352932626_n.jpg?stp=c13.66.500.261a_dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=b8e0be&_nc_ohc=d3n9RA-6B4UQ7kNvwEst7av&_nc_oc=Adn2pk1ADis2vcTB4CFLvv9XpCMMMZbsltnXkl2cVUycSu2TkK0MInMdNyMB97GTehs&_nc_zt=23&_nc_ht=scontent.fluh1-2.fna&_nc_gid=hqzP76v3jvHse9WUK8SfFQ&oh=00_AfYjR5w6q3RxsqtMyNzVlwDHwZOBU_m3WIK3gwngyYxDsw&oe=68C249E0"
+    },
     {
       "id": "266b5f64-9329-8172-bf99-d50e72f8b2c7",
       "title": "Modern and Cozy Double Room for Rent in Upper Clapton",
@@ -120,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T18:40:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1846220142643948/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t45.5328-9/544424039_1463657304881063_5952597018352932626_n.jpg?stp=c13.66.500.261a_dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=b8e0be&_nc_ohc=d3n9RA-6B4UQ7kNvwHKMlvf&_nc_oc=AdlVCusOJvCZMMwwNpM2yejRnGBiuvcgsRLVWS6B_bFNkHROI6HoujBq16EdS85My-4&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=MhuynhZgzV8gqMtpPogbsw&oh=00_AfZizF3TnM7vtYuX1JitL8yzdSAThncK-o3zVoZmT1HuOA&oe=68C249E0"
     },
     {

@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T18:43:47.628Z",
+  "generatedAt": "2025-09-06T19:22:02.942Z",
   "city": "barcelona",
-  "count": 1389,
-  "totalRejectedCount": 2238,
+  "count": 1391,
+  "totalRejectedCount": 2244,
   "results": [
+    {
+      "id": "266b5f64-9329-81b6-b898-ddcae9a72256",
+      "title": "Room for rent in Barcelona city center",
+      "overview": "A 14m² room for single use in a quiet neighborhood, 2 minutes from Sants Station, with a small kitchen/office available. LGBTQIA+ friendly.",
+      "description": "Una habitación para estudiantes Hola, somos Matt y Xavier. Alquilamos habitación en el centro de Barcelona. A 2 minutos a pie de Sants Estación (tren y metro). A 10 minutos a pie de Montjuïc, con jardines y parques. En un bonito edificio antiguo, en un barrio tranquilo. La habitación tiene 14 m² y es de uso individual. Se puede usar una pequeña cocina/office. Somos LGTBIQA+ friendly. Precio mensual: 450 € con todos los gastos incluidos + 1 mes de depósito (450 €). Disponible a partir del 8 de Septiembre . Para más información, por favor escribir a wtsp [PHONE NUMBER CENSORED] (Xavier). Estaré encantado en ayudarte con todo lo que necesites. Gracias! — A room for students Hi we are Matt and Xavier living in Barcelona. We have a room for rent in the center of the city. A 2-minute walk from Sants Station train and subway. A 10-minute walk from Montjuïc, with gardens and parks. Located in a beautiful old building, in a quiet neighborhood. The room is 14 m² and is for single use. A small kitchen/office is available. We are LGBTQIA+ friendly. Monthly price: €450 with all bills included + 1 month of deposit €450 Available from September 8th. For more information, please WhatsApp at [PHONE NUMBER CENSORED] (Xavier) I'd be happy to explain you with anything you need. Thank you!",
+      "price": "450 €",
+      "zone": "Barcelona city center",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post is well-structured, includes photos, and provides clear contact information. The description of the room and location is detailed, and the owners seem friendly and open-minded.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T19:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2248208325682363/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh4-1.fna.fbcdn.net/v/t39.30808-6/544805615_10225919807376917_2202619523932520231_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=p2K-65SKY5IQ7kNvwGKI_1G&_nc_oc=AdloL9X99NI1qdVm-tcfJLyTqlslXkz_8LvkPMjzCRk_YxfaL1aBcSGNBURUw1d9Vww&_nc_zt=23&_nc_ht=scontent.fluh4-1.fna&_nc_gid=S12JatkClG1v6kP69hRzWA&oh=00_AfaoqZ3f_vyVOcVGBr1iW7T93lUTObh5-RPQlt43STJB7g&oe=68C243D9"
+    },
+    {
+      "id": "266b5f64-9329-817b-8a6a-c8dfa0e90c88",
+      "title": "Room for rent in Barcelona for 6-8 months",
+      "overview": "Room available for a woman in a quiet apartment, near Vilapicina metro station",
+      "description": "Барселона, сдаётся комната на (6-8мес), для женщины, в малонаселённой квартире . Метро 5 ост Vilapicina.",
+      "price": "N/A",
+      "zone": "Vilapicina",
+      "zoneMacro": "Nou Barris",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "Low reliability due to lack of photos, incomplete information, and no clear contact details",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T19:16:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082907354014796/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-816f-91c3-cfd51a986d87",
       "title": "Apartment for Rent in Sagrada Familia",
@@ -2636,7 +2670,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1078689857360644/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fjai8-1.fna.fbcdn.net/v/t39.30808-6/542461309_10225899078178700_2667544356538911773_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=q6fiblMN5_YQ7kNvwFd7Mq-&_nc_oc=AdnEOwwBF3rudZv0uCn6DB7Bq44NwxKEHIBe_LjQ8E71hYNcRKACdPPA8-g6gPiDDAY&_nc_zt=23&_nc_ht=scontent.fjai8-1.fna&_nc_gid=pRHaD2GGEf_GMwim6eMjdA&oh=00_AfZgARin8kvcU2Khte0Wxvq2XAHMg3zoiQOhOv3trg2t6w&oe=68BF4157"
     },
     {

@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T18:43:52.931Z",
+  "generatedAt": "2025-09-06T19:22:08.621Z",
   "city": "roma",
-  "count": 776,
-  "totalRejectedCount": 2416,
+  "count": 777,
+  "totalRejectedCount": 2418,
   "results": [
+    {
+      "id": "266b5f64-9329-81bb-8082-f012f7137c8a",
+      "title": "Single room for rent in Torre Gaia, near Metro C and University of Tor Vergata",
+      "overview": "Single room for rent in a shared apartment with two other students, located near Metro C and the University of Tor Vergata, for 350€ plus utilities",
+      "description": "Torre Gaia - Tor vergata Affittasi stanza singola 350€ più luce e gas, vicino Metro C ed Università di Tor Vergata. Appartamento in condivisione con altre 2 studentesse.",
+      "price": "350€",
+      "zone": "Torre Gaia, near Metro C and University of Tor Vergata",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a photo, a clear description of the room and location, and a specific price, but it lacks contact information and the summary is brief.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T19:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1342113280913696/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/545369918_10238080390018515_4094370518107715981_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2twU_UKNf8cQ7kNvwGRTOxs&_nc_oc=AdnWW07yWfhR8kQ2sS98vKibOQ8LmGk5GuLhvMOJsPXMZQ3sRIPhHIIm5r33G68D4oM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ro_NvDCqCZKVbBMYP-UbKQ&oh=00_AfbzX94TzrahZHLLxw4CsPhVuIy3z_cvm2lKpMT5IFRELw&oe=68C251C3"
+    },
     {
       "id": "266b5f64-9329-81ed-a077-f3625d03d7a5",
       "title": "Large room for rent in Valle Aurelia, Rome",
