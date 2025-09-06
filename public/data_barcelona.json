@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T13:37:43.543Z",
+  "generatedAt": "2025-09-06T14:29:53.805Z",
   "city": "barcelona",
-  "count": 1372,
-  "totalRejectedCount": 2211,
+  "count": 1374,
+  "totalRejectedCount": 2216,
   "results": [
+    {
+      "id": "266b5f64-9329-810b-8ae9-e6969212b9bc",
+      "title": "Room for rent in Badalona",
+      "overview": "Room for rent in a quiet apartment in Badalona, seeking serious individuals",
+      "description": "Se alquila habitación en badalona ,piso tranquilo solo personas serias [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post has limited information, no photos, and only a phone number for contact, which makes it difficult to assess the accommodation's legitimacy and the landlord's credibility.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T14:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082663460705852/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-8169-824a-e60e89322a8c",
+      "title": "Room for rent in Munjuic",
+      "overview": "A room for rent in Munjuic, suitable for a responsible and clean working woman, near Plaza Espana, 300 euros",
+      "description": "Se alquila habitación en munjuic. persona chica responsable , TRABAJADORA Y LIMPIA Plaza españa.M L1 L3. 300€",
+      "price": "300€",
+      "zone": "Munjuic",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some information about the room rental, but there are no photos and limited details, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T14:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082713724034159/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-8179-80fd-e483daea27ed",
       "title": "Clean and responsible person wanted for room rental",
@@ -766,7 +800,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T18:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2190185811495488/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -7158,7 +7192,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T16:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078006734504858/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

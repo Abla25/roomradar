@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T13:38:06.954Z",
+  "generatedAt": "2025-09-06T14:30:11.481Z",
   "city": "london",
-  "count": 628,
-  "totalRejectedCount": 847,
+  "count": 629,
+  "totalRejectedCount": 853,
   "results": [
+    {
+      "id": "266b5f64-9329-8175-a59b-cc60c7706859",
+      "title": "Spacious Double Room for Rent in London",
+      "overview": "A spacious double room is available for rent in a shared flat in London, with bills included and great transport links",
+      "description": "2 Beds 2 Baths - Apartment HA0 2 London, UK Spacious Double Room – HA02 LP (Bills Included) 📍 HA0, near tube, buses & Tesco 💷 £800/month (bills included) 🛋️ Furnished, garden access 🚻 2 toilets, shared flat with 3 housemates 📅 Available 1st Sept ✅ Great transport links ✅ Shops nearby ✅ Friendly household 📞 Contact/WhatsApp for details",
+      "price": "£800/month",
+      "zone": "HA0",
+      "zoneMacro": "Brent",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, including photos, and the price is clearly stated, with a reliable contact method available",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T14:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24295525446783153/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544907863_24275219992147211_1590150066043690926_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-acjSdBTd7YQ7kNvwHvY2Lg&_nc_oc=AdnYSaGAFVE_UZaxMekOrcqYIN9Yk8DbLqqz78gKMZ_mFUEKxwZR5aw2rz7msxRsAAs&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=CXdTW1x4jY1AsZ-zK7PgNg&oh=00_AfZ8CUGuC2oA4ikpADm9dkbvABOXuN8dwZDkoSNOl-omgw&oe=68C2009A"
+    },
     {
       "id": "266b5f64-9329-81c9-9f14-e69b03e13b22",
       "title": "Room available for rent immediately",
