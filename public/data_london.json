@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T06:37:23.768Z",
+  "generatedAt": "2025-09-06T07:27:43.366Z",
   "city": "london",
-  "count": 606,
-  "totalRejectedCount": 814,
+  "count": 607,
+  "totalRejectedCount": 817,
   "results": [
+    {
+      "id": "266b5f64-9329-8168-809a-ee8ad68bdc26",
+      "title": "Single room for rent in a large house",
+      "overview": "Single room available in a large, less populated house in the Redbridge-Gants Hill area, within 8-7 minutes walking distance",
+      "description": "Доброго ранку Здається Сінгел кімната у малозаселеному великому будинку , район Redbridge -Gants Hill 8-7 хвилин пішки за деталями звертайтесь за телефоном ☎️ +44 [PHONE NUMBER CENSORED] Дякую.",
+      "price": "N/A",
+      "zone": "Redbridge-Gants Hill",
+      "zoneMacro": "Redbridge",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing is brief, lacks photos, and only provides a phone number for contact, which raises some concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2117622048772674/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-816f-bf6a-e8b139ac529e",
       "title": "North East London Room Rental",

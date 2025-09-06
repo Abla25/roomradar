@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T06:37:13.334Z",
+  "generatedAt": "2025-09-06T07:27:24.792Z",
   "city": "barcelona",
-  "count": 1350,
-  "totalRejectedCount": 2176,
+  "count": 1352,
+  "totalRejectedCount": 2178,
   "results": [
+    {
+      "id": "266b5f64-9329-8115-93b1-c677b5893f07",
+      "title": "Large double room with balcony for rent",
+      "overview": "A large double room with a balcony is available for rent in the Passige de Gracias area, preferentially for women and students",
+      "description": "Habitacion grande double con balcon disponible Zona de passige de gracias Solo para mujeres y estudiantes y chicas Room available Zona passige de gracias Más información por watsap 00[PHONE NUMBER CENSORED] Parada metro 3 minutos Bus 24 hora 1 minutos",
+      "price": "N/A",
+      "zone": "Passige de Gracias",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and provides some information about the room and its location, and it does not seem to be a scam, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082459080726290/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel27-3.fna.fbcdn.net/v/t39.30808-6/542759624_122217619490089183_8407988218941107385_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kHdndUFt12kQ7kNvwGEDBkM&_nc_oc=Adn5f7kFXGrRyLPIxNFVh_2OS8A67z37rJu2vUaREd38npC3Vy01XxaA0UQM7u50x8VzhQ1GAPCoS791yZyIct5S&_nc_zt=23&_nc_ht=scontent.fdel27-3.fna&_nc_gid=R2L7WRzJptq4VJ0rT7riVg&oh=00_AfZxEh1vTvZWQCN3IUr5X6aemspNdJV4V--uoctytcbDXA&oe=68C1B6CB"
+    },
+    {
+      "id": "266b5f64-9329-81a0-8f47-c6fe91b29e57",
+      "title": "Two rooms for rent in L3 area",
+      "overview": "Two big rooms available for rent in Barcelona center",
+      "description": "Tengo dos habitaciones libres L3 [PHONE NUMBER CENSORED] Barcelona center Tow big room available",
+      "price": "N/A",
+      "zone": "Barcelona center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and does not provide enough information about the rooms or the rent, but it seems to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082469480725250/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-8117-a71f-e4296d863929",
       "title": "Renting a marital room to one or two girls",
@@ -120,7 +154,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T23:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4313731865525989/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -545,7 +579,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T15:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4313429665556209/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

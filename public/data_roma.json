@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-06T06:37:18.669Z",
+  "generatedAt": "2025-09-06T07:27:33.917Z",
   "city": "roma",
-  "count": 726,
-  "totalRejectedCount": 2289,
+  "count": 729,
+  "totalRejectedCount": 2300,
   "results": [
+    {
+      "id": "266b5f64-9329-81a6-9b64-d003a9fcf265",
+      "title": "Renting out 2 single rooms in a renovated apartment",
+      "overview": " Apartment with 5 single rooms, kitchen, 2 bathrooms, and common spaces. Rent is 400-450 euros per month, plus expenses. Seeking reliable and respectful tenants.",
+      "description": "🟢 AFFITTASI ULTIME 2 CAMERE SINGOLE IN APPARTAMENTO APPENA RISTRUTTURATO – ZONA TORRE MAURA / TOR VERGATA Disponibile da subito. Casa mista. Non affitto per brevi periodi. 📍 Viale di Torre Maura 82 – Roma (Verificate la distanza da lavoro/università su Google Maps!) 🚌 Trasporti: • Autobus: 552, 556, 557, 213, 106, 313, N18 • Metro: Ⓜ️ Metro C: Torre Maura / Torre Spaccata Ⓜ️ Metro A (via bus 556/557): Anagnina o Subaugusta 💶 Prezzo: 400€/mese stanza numero 5 e 450€/mese stanza numero 2 con balcone (+ spese: condominio, luce e gas, tranne la fibra veloce che è inclusa nel prezzo) 🔐 Caparra: 2 mensilità 📜 Contratto: Regolare 3+2 🏠 Appartamento ristrutturato, composto da: ✔️ 5 camere singole molto ampie (letto matrimoniale con contenitore) ✔️ Cucina abitabile completamente attrezzata con balcone ✔️ 2 bagni finestrati con docce ✔️ Spazi comuni curati e ordinati ✔️ Stanza arredata con scrivania e scarpiera 🔎 Cerchiamo: ✅ Lavoratori e studenti referenziati ✅ Persone serie, rispettose, ordinate e molto attente alla pulizia ✅ Documentazione a garanzia della solvibilità economica ❌ NO uso doppia ❌ NO animali 🚭 NO fumo in casa ⚠️ In casa è richiesta massima attenzione alle regole di pulizia e di buona convivenza civile",
+      "price": "400-450€/mese",
+      "zone": "Torre Maura / Tor Vergata - Roma",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including photos, location, and expenses. It also specifies the type of tenants they are looking for, which suggests a reliable and trustworthy landlord.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1713848682642912/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr20-4.fna.fbcdn.net/v/t39.30808-6/542201874_10225885014505522_5239866318592592708_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4XLhC8yFrlEQ7kNvwEAd6Yt&_nc_oc=Adn4os8SuhRWaNW1dJpdzxS2MXQTOapLvWuicHPbeEuXTlHBxZ_q89rkJYT2719Y4fsvVCYh_YhAowjBtL09hC17&_nc_zt=23&_nc_ht=scontent.fblr20-4.fna&_nc_gid=CqtoJPJ2vu5EdtyIDUqqzQ&oh=00_Afb5tuQ6vv_WEvzDSMAaMZi40zTMA_gp2UlsVOoNJkUC1g&oe=68C1A260"
+    },
+    {
+      "id": "266b5f64-9329-81a0-a91a-e244c3c7d7fb",
+      "title": "Renting a single room to students",
+      "overview": "A single room is available for rent to students and teachers in the Grotte Celoni area, near the University of Torvergata, with good bus and metro connections",
+      "description": "Affitto stanza singola a studenti e docenti zona grotte celoni vicino all'università di torvergata ben collegata con autobus e metro c",
+      "price": "N/A",
+      "zone": "Grotte Celoni",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and price information, which are essential for a reliable rental listing, but it provides some details about the location and target audience.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150817495442203/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81c5-bc53-e4467d123b76",
+      "title": "Room for rent in Via Sambucuccio d'Alando",
+      "overview": "A room is available for rent in a 4th floor apartment near Piazza Bologna metro station, seeking a respectful tenant",
+      "description": "Stanza in affitto in Via Sambucuccio d'Alando a 500 € al mese. La stanza si trova in un appartamento al 4° piano vicino alla stazione della metropolitana di Piazza Bologna. Affittasi a chi desidera soggiornare in un ambiente tranquillo, ordinato e pulitissimo, nel rispetto delle aree comuni.",
+      "price": "500 €",
+      "zone": "Via Sambucuccio d'Alando",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the room and location, but lacks photos and contact information, making it less reliable.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T07:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1341684570956567/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-81b1-b95a-cb4d184bff77",
       "title": "Single Room for Rent in Grotte Celoni",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T06:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737834659748835/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1939,7 +1990,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T15:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1712584969435950/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541832040_10225868948583884_8441185326185007726_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=D1urGVT3_ZYQ7kNvwFJtdXc&_nc_oc=AdlStwILP3l5Hqfj6maDlX-gWM3LJm58YX3rpk2C5tj4LKouLlarvpgw_GSlNbL9X2g&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=wQsuREWBsFkxAzXGRGdVfA&oh=00_AfY23m8uTWullSQHMiZWmo6ox3j8j9dJgOZQxjzuzS9aSQ&oe=68BF7AEE"
     },
     {
