@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T15:31:54.248Z",
+  "generatedAt": "2025-09-06T16:37:58.067Z",
   "city": "london",
-  "count": 630,
-  "totalRejectedCount": 856,
+  "count": 632,
+  "totalRejectedCount": 863,
   "results": [
+    {
+      "id": "266b5f64-9329-81af-b257-f0de9418f4d1",
+      "title": "Master bedroom for rent",
+      "overview": "A sharing master bedroom available for a female near Queensbury, with vegetarian, no smoking, and no alcohol preferences",
+      "description": "🏠🏠🏠 Sharing master bedroom available for girl's Near Queensbury (Honeypot lane) HA7. (All amenities nearby) Bus stops just 1min Walk from the property. *Vegetarian only* *No Smoking & No Alcohol* Contact: [VAT NUMBER CENSORED] (WhatsApp msg only).",
+      "price": "N/A",
+      "zone": "Queensbury (Honeypot lane) HA7",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post seems legitimate but lacks photos and has specific preferences that might be restrictive, also it doesn't seem to have a clear price.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T16:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1427727581648093/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81a8-99a7-f9d00a4bb5c0",
+      "title": "Studio for rent in London",
+      "overview": "Standard studio for rent in Therese House, available for sublets from September 7th, 2025 to August 30th, 2026",
+      "description": "[Studio for sale in London – Therese House] I have a booking but because I will be staying with a friend, I need to find someone to replace the contract. Available for Sublets. • Room: Standard Studio • Time: 07/09/2025 – 30/08/2026 (51 weeks) • Rent: £480/week • Address: 29–30 Glasshouse Yard, EC3A 4JN ✨ Fully furnished, private studio (kitchen + private WC), electricity, water, gas, internet included. ✨ Amenities: study room, common room, games room, laundry, CCTV, postal service. 🚇 Location: • 2 minutes walk to Barbican Station (Circle, H&C, Metropolitan). • 5 minutes to Farringdon/Elizabeth Line. • Near many bus stations, go straight to City, Shoreditch, Soho, King's Cross. • Walking distance to City, Bayes, UoL, UCL, LSE ✅ Booking confirmed, just need to transfer the name to Yugo. I can support to reduce part of the initial fee. Inbox me if you need more info.",
+      "price": "£480/week",
+      "zone": "N/A",
+      "zoneMacro": "Central London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains detailed information, photos, and specific amenities, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T16:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1427878338299684/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544825289_2072905003235692_8725664610584943022_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n68c61jI_hIQ7kNvwFItmyI&_nc_oc=Adm_TLahJR3aVII217biFeSkmaZzSJA--1SOEGNM5rVykcUEIRjMX2lZkKQvuRfHz9E&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=IQrpNPOSmxDTNKAvmMeuAw&oh=00_AfaumTWkaNW2FtX11Ey5dV4ZhIz459i9x8oSx9lALC5q8A&oe=68C246DE"
+    },
     {
       "id": "266b5f64-9329-81c1-806e-dfed9953e6df",
       "title": "Single room for rent in Ilford",
@@ -3707,7 +3741,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T09:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1425276061893245/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
