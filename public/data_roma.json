@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T22:26:23.877Z",
+  "generatedAt": "2025-09-06T23:29:38.331Z",
   "city": "roma",
-  "count": 782,
-  "totalRejectedCount": 2429,
+  "count": 784,
+  "totalRejectedCount": 2437,
   "results": [
+    {
+      "id": "266b5f64-9329-8159-a531-f3b54dbb67f4",
+      "title": "Room for rent in Trastevere",
+      "overview": "A room is available for rent in a large apartment located in the heart of Trastevere, with a shared kitchen, living room, and terrazzo",
+      "description": "Cercasi coinquilina – Trastevere Si affitta stanza in ampio appartamento situato nel cuore di Trastevere. L’abitazione è composta da ingresso, salotto, sala da pranzo, cucina abitabile, terrazzo e due camere da letto, ciascuna con bagno annesso. 📍 Posizione: a soli 2 minuti a piedi dalla fermata del tram Trastevere / Ministero della Pubblica Istruzione, ben collegata con il resto della città. 💶 Prezzo: 750 € mensili tutto incluso (spese condominiali e utenze). 📅 Disponibilità: visitabile da fine settembre, con ingresso a partire da ottobre.",
+      "price": "750 €",
+      "zone": "Trastevere",
+      "zoneMacro": "Trastevere",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the apartment and location, but there are no photos and limited contact information, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738460336352934/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81d0-a472-c5f6d300a386",
+      "title": "Monolocale for rent near LUISS university",
+      "overview": "A 28 sqm monolocale with a loft is available for rent, recently renovated and furnished, with a small outdoor space, located 650 meters from LUISS university, for 700 euro all inclusive",
+      "description": "LUISS ( Sede di Viale Romania) a 650 metri REALI a piedi , affittasi MONOLOCALE 28 mq con soppalco appena studente/ssa LUISS completamente ristrutturato ed arredato anche di utensili con piccolo spazio esterno, il contratto sarà regolarmente registrato agenzia delle entrate, nuovissimo 700 euro TUTTO compreso ( tranne luce a consumo in bolletta)libero da subito visitabile sempre, contatto esclusivamente telefonico NO WASSUP, NO AGENZIE , SOLO LUISS ,cell [PHONE NUMBER CENSORED] Gianluca",
+      "price": "700 euro",
+      "zone": "Near LUISS university, Viale Romania",
+      "zoneMacro": "Eur",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo, a specific location, and a clear description of the property, but the reliability score is not 5 because there is no information about the landlord's identity or reviews",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738534959678805/",
+      "status": "active",
+      "imageUrl": "https://scontent-del2-2.xx.fbcdn.net/v/t39.30808-6/544842730_10237762146662729_8454533542050523480_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4S7rC1fAffsQ7kNvwG6Bkaa&_nc_oc=AdkwKw4ScFsN4rB3GF8EGCHFLp98O_iRXLgwXfjvVNvgKlupgeNtWez1lGQ5EYuJKs0&_nc_zt=23&_nc_ht=scontent-del2-2.xx&_nc_gid=dz_YXETVgZN9Xa9IQHk-9A&oh=00_AfY5ut_F0SxoqunHX7J0-EbOFD6mA3007bWMlsw9lCLf4A&oe=68C29E7E"
+    },
     {
       "id": "266b5f64-9329-81f2-bbc2-c1a8c3868acc",
       "title": "Single room for rent in Torre Gaia",
@@ -52,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T21:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1714269259267521/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T22:26:10.184Z",
+  "generatedAt": "2025-09-06T23:29:29.664Z",
   "city": "barcelona",
-  "count": 1401,
-  "totalRejectedCount": 2255,
+  "count": 1402,
+  "totalRejectedCount": 2260,
   "results": [
+    {
+      "id": "266b5f64-9329-81af-b7dc-e50291329888",
+      "title": "Room for rent in Pubillas",
+      "overview": "The user is renting out a room with private bathroom, available from September 8th",
+      "description": "Hola alquilo habitación en pubillas casas ,persona sola con baño privado a partir del 8 de septiembre escribirme por mesenger",
+      "price": "N/A",
+      "zone": "Pubillas",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and has limited information, but it appears to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T23:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4314695752096267/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-8155-9384-c00f4ef69811",
       "title": "Room for couples near Hospital Clinic",
