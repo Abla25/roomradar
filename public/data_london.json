@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T07:27:43.366Z",
+  "generatedAt": "2025-09-06T08:37:16.842Z",
   "city": "london",
-  "count": 607,
-  "totalRejectedCount": 817,
+  "count": 608,
+  "totalRejectedCount": 822,
   "results": [
+    {
+      "id": "266b5f64-9329-81e0-8a20-f9cac102c5a6",
+      "title": "Room shared with muslim Pakistani boy in Peckham",
+      "overview": "Room available for rent in Peckham, shared with muslim Pakistani boy",
+      "description": "Hello guys, I have room shared with muslim Pakistani boy in Peckham if anyone need contact me.",
+      "price": "N/A",
+      "zone": "Peckham",
+      "zoneMacro": "Southwark",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post is relevant but lacks photos, and the contact information is limited, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1845816032684359/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "266b5f64-9329-8168-809a-ee8ad68bdc26",
       "title": "Single room for rent in a large house",

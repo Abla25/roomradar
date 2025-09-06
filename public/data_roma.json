@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-06T07:27:33.917Z",
+  "generatedAt": "2025-09-06T08:37:09.080Z",
   "city": "roma",
-  "count": 729,
-  "totalRejectedCount": 2300,
+  "count": 733,
+  "totalRejectedCount": 2303,
   "results": [
+    {
+      "id": "266b5f64-9329-8170-b448-f070138b0aed",
+      "title": "Single room for rent in shared apartment",
+      "overview": "A single room is available for rent in a shared apartment in via Matera, with a monthly rent of 600 euros, excluding expenses, and the landlord is looking for a female roommate",
+      "description": "Subaffitto stanza singola da subito fino al 31/12/25, in casa con due camere da letto delle quali una è occupata da una studentessa di 23 anni, motivo per il quale si ricerca una coinquilina donna. La casa si trova in via Matera ( piazza Re di Roma) la quale è una zona molto ben frequentata, tranquilla e con tutti i servizi intorno. Cognome mensile €600 al di fuori delle spese . Per info : [PHONE NUMBER CENSORED] Alessia",
+      "price": "600",
+      "zone": "via Matera (piazza Re di Roma)",
+      "zoneMacro": "Appio Latino",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides sufficient information about the rental, including photos, price, and location, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T08:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1713788242648956/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542760675_122250131156212289_7807510492027785584_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5w-T-f1_Bb4Q7kNvwH8QqSq&_nc_oc=Adlvnk_q2caYcu0FhGiJoozd_-BvP2F2TL3LtJFNNiWuWRKoagyPwcZEcZ9ooW9aa3A&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=3OwsOYYK5r8gKpzWCZqHTg&oh=00_AfbHh4XPc2QJ_6uDHYg2E3WIHkh3cqOulNNQ8zJ49SSq3g&oe=68C1D5C6"
+    },
+    {
+      "id": "266b5f64-9329-815a-b1c1-dd9da872633a",
+      "title": "Spacious Room for Rent in Bravetta",
+      "overview": "A spacious room with two beds is available for rent in a quiet building in the Bravetta area, close to public transportation and 20 minutes from the metro and train station.",
+      "description": "Affittasi Stanza con Due Posti Letto a Bravetta Disponibile da subito, affittiamo una spaziosa stanza con due posti letto in zona Bravetta. L'appartamento è ben collegato, situato al terzo piano di un edificio tranquillo. Cerchiamo 2 ragazze o una coppia. Nella casa esistono delle regole,per cui cerchiamo persone pulite ed educate,no perditempo. 📍 Posizione: Zona Bravetta 🚌 Collegamenti: Autobus 899(la domenica non passa) e 98 A 20 minuti dalla metro di Cornelia A 20 minuti dalla stazione di San Pietro Contattare su whatsapp per messaggio(perché lavoro): Yuliya [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Bravetta",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes a detailed description, photos, and contact information, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T08:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1713862099308237/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/544881253_816262964418774_5493311355488389269_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=C84KUSSC8DkQ7kNvwHA9Awq&_nc_oc=Admy6MfmbGGXCiB7c7YKhn6utBJrGdAuw9pT9PaFgNRK3gJIJgrPGwIERT1FUJfb360&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=wJLm4gXLXO59eqpnguF7JA&oh=00_AfaFQ3o2iG7dnyQ4fq9V0rZ1nCVu5hXlDdsdaobJOGaKhA&oe=68C1D506"
+    },
+    {
+      "id": "266b5f64-9329-814a-b2e0-c5f45f3ead95",
+      "title": "Room for rent in Monteverde area",
+      "overview": "A room is available for rent in the Monteverde area, with a monthly price of 500 euros. The landlord is looking for a clean and tidy person to share the apartment with.",
+      "description": "Affittasi stanza in zona Monteverde nuovo! Solo persone pulite e ordinate (prerogativa) 500 € mensili Un solo coinquilino (me)",
+      "price": "500",
+      "zone": "Monteverde",
+      "zoneMacro": "Monteverde",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides some basic information about the room and the price, and includes a photo. However, the description is brief and lacks details about the apartment and the landlord's expectations, which reduces the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T08:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150951458762140/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543104927_24830407639908805_53811723771327343_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AxDECSyiY7UQ7kNvwHEEHPs&_nc_oc=AdlrBhdEscXvCrZHh4PIa_M2RjRLaO-zcQFs6Zg5nyjfFlYL71HTmR3JEZuMfzlgjEw&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=ZjA8E860A1D_VvLQw0rFhw&oh=00_Afb5SprBoxlz6AvaJEAGDUc-Cts9gm7KBE08m-NY1L8uTw&oe=68C1BFCB"
+    },
+    {
+      "id": "266b5f64-9329-810b-8fbb-eae6281a9567",
+      "title": "Single room for rent in Laurentina area",
+      "overview": "A single room is available for rent in a 3-bedroom apartment in the Laurentina area, with a terrace, 2 bathrooms, and a large kitchen. The apartment is new and located in a residential area with services nearby.",
+      "description": "AFFITTASI STANZA SINGOLA zona LAURENTINA SERAFICO (Zona lussuosa residenziale con tutti i tipi di servizi a pochi metri) 700MT circa dalla stazione metro e Cotral, palazzo circondato in gran parte da un parco. L'appartamento con 3 camere ( si affitta una soltanto) con letto matrimoniale, 2 bagni , cucina grande, terrazzo verandato. Disponibilità di posto auto privato. Appartamento Nuovo. Si affitta SOLO ED ESCLUSIVAMENTE RAGAZZI. Appartamento FRIENDLY. Prezzo 550euro tutto incluso DISPONIBILE DAL 1 NOVEMBRE. Si richiede deposito di 1 mensilità e mezza. Maggiori info scrivete in privato.",
+      "price": "550",
+      "zone": "Laurentina",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a detailed description of the apartment, includes photos, and specifies the price and availability. The request for a deposit and the mention of a private parking space add to the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T08:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2150955645428388/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/543508546_2827930237397422_6036840220771323261_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jaDIYDYxZlYQ7kNvwFu128u&_nc_oc=AdmY01Zgzaz6WLMu6okbeWwVwgZ_MAvywYeoUu7Oi562eIfZnHQDicaFiQSwCAWglL8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=mP1ZjwHrXAWFtSOiNsS3gA&oh=00_Afbe-rbpwiFk6GHxTZ3OcMDDKlAV1SxgP_T-WgfEXYtFzA&oe=68C1AC49"
+    },
     {
       "id": "266b5f64-9329-81a6-9b64-d003a9fcf265",
       "title": "Renting out 2 single rooms in a renovated apartment",
@@ -1123,7 +1191,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T09:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1713094286051685/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/542458044_24821912754091627_4491987866468724680_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=93C4NspnbFcQ7kNvwGjnEbi&_nc_oc=Adk_7uoo1v4gUfspTbwd09dp_3jvfErC-EG1ctDTZc7I2whKKdDxedS9XcAKjsXsM14&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=CEI5RQ8Z3s-lhxzHLFEwiA&oh=00_AfZUgHX7jyW8u0n-CZRY_WNa2Zed0RwjVrHTkcnQ55lIVA&oe=68C0778B"
     },
     {
@@ -1667,7 +1735,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T20:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2149707578886528/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel6-1.fna.fbcdn.net/v/t39.30808-6/542686635_2826560834201029_5795872139992797203_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=j5uiWNfzuC8Q7kNvwH82saz&_nc_oc=AdnzYUktrOJn6eoDsHv6MHbOYNhsc6gVH5D6lXtykT672AefWHuDl7V0b6jnjw6lYey2wguoUmPL5OVFLiHh0Gm4&_nc_zt=23&_nc_ht=scontent.fdel6-1.fna&_nc_gid=Qt7vtPD6Df0GPCHT6BOYOQ&oh=00_AfZfG2-yFBvtU8_vYm8Otmk-h8Vh5P3cJR5wrH71UIFpvw&oe=68BFAD9A"
     },
     {
@@ -7056,7 +7124,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T10:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2732351666963801/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
