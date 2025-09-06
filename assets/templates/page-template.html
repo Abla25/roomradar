@@ -53,6 +53,10 @@
     // Import Firebase configuration and lazy loader
     import { initializeFirebase } from '../js/firebase-config.js';
     import lazyLoader from '../js/lazy-loader.js';
+
+    // Import and inject Vercel Analytics
+    import { inject } from '@vercel/analytics';
+    inject();
     
     // Initialize Firebase for this page
     initializeFirebase('PAGE_NAME')
