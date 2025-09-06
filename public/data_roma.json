@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-06T05:24:30.294Z",
+  "generatedAt": "2025-09-06T06:37:18.669Z",
   "city": "roma",
-  "count": 724,
-  "totalRejectedCount": 2286,
+  "count": 726,
+  "totalRejectedCount": 2289,
   "results": [
+    {
+      "id": "266b5f64-9329-81b1-b95a-cb4d184bff77",
+      "title": "Single Room for Rent in Grotte Celoni",
+      "overview": "A single room is available for rent in the Grotte Celoni area, close to the University of Tor Vergata. The area is well-connected to public transportation.",
+      "description": "Affitto stanza singola a studenti e docenti zona grotte celoni vicino all'università di torvergata ben collegata con autobus e metro c",
+      "price": "N/A",
+      "zone": "Grotte Celoni",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information about the apartment and its amenities. It also does not include any photos, which decreases the reliability score. Additionally, the post does not provide direct contact information.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T06:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737834659748835/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "266b5f64-9329-81d2-8fc4-fdb3679c1d21",
+      "title": "Single Room for Rent in Trionfale/Monte Mario",
+      "overview": "A single room is available for rent in a renovated apartment with two bedrooms, located in a quiet residential area. The apartment has a small entrance, two spacious bedrooms, a kitchen, and a bathroom. It is well-connected to public transportation and amenities.",
+      "description": "SI AFFITTA UNA CAMERA SINGOLA A RAGAZZO, a partire da Settembre, in appartamento con due stanze,ristrutturato, sito al piano terra di un palazzo di 4 piani, in zona Trionfale/Monte Mario. La casa si compone di un piccolo ingresso, due ampie camere da letto matrimoniali, una cucina ed un bagno. L'appartamento è molto luminoso, in contesto residenziale silenzioso e tranquillo. Le spese di condominio includono il consumo di acqua e il riscaldamento, l'appartamento è dotato di rete wi-fi. La zona è tranquilla, ben servita dai mezzi di trasporto e tutti i servizi necessari. La stazione del treno è a meno di 500mt, così come la fermata dell'autobus. Molti supermercati in zona, ristoranti, bar e negozi. L'Università Cattolica del Sacro Cuore è facilmente raggiungibile a piedi. l'altra camera è occupata da uno studente 500 euro (spese escluse)",
+      "price": "500 euro (spese escluse)",
+      "zone": "Trionfale/Monte Mario",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides a detailed description of the apartment, its location, and the amenities. It also includes a photo of the apartment, which increases the reliability score. However, the score is not 5 because the post does not provide direct contact information.",
+      "datePublished": "",
+      "dateAdded": "2025-09-06T06:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2737905249741776/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc14-1.fna.fbcdn.net/v/t39.30808-6/544845529_10238619341084888_5914993142596488688_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=71E5tZRoceMQ7kNvwGDozJ8&_nc_oc=AdnBLWftQoUoyqIzQxZ0Oz2Ycij0oD2jucZez8CPFXzdY8cijXePMDMKUc3pSQi4bU1M4_zD2cl0x1NjxZHxXI7P&_nc_zt=23&_nc_ht=scontent.fixc14-1.fna&_nc_gid=7xZEzwr3s3yJlO3MyDV6Ag&oh=00_AfZ60RDa0tR3HJ7QJQsHPM1U2hX_B0Ku-sSx2eTRZX7ezA&oe=68C1B1E3"
+    },
     {
       "id": "266b5f64-9329-8102-bca5-ed730a58973c",
       "title": "Two Rooms for Rent in Modern Attic",
@@ -8671,7 +8705,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T17:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1335779438213747/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.flko7-2.fna.fbcdn.net/v/t39.30808-6/538171897_10238435349765220_6134407745184219946_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XXRH1-UzNCkQ7kNvwFhbMtK&_nc_oc=Adk-f8aHfzGM0L8D5YfVCjLEHhc4Z7f8kflSPDluQx1GdV2667Kh2jNS-ZGyy_XvxFk&_nc_zt=23&_nc_ht=scontent.flko7-2.fna&_nc_gid=3RJ0O9d3H6dTDHx7asixww&oh=00_AfUWuYX17zdSkigYFo5xSFiKay3VmsC1Sv1zDHli6Y-PLg&oe=68B7BDFD"
     },
     {
