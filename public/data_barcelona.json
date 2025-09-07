@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T13:00:04.595Z",
+  "generatedAt": "2025-09-07T13:36:13.424Z",
   "city": "barcelona",
-  "count": 1435,
-  "totalRejectedCount": 2323,
+  "count": 1437,
+  "totalRejectedCount": 2327,
   "results": [
+    {
+      "id": "267b5f64-9329-81c7-9136-f274e363147b",
+      "title": "Furnished studio apartment for rent",
+      "overview": "A furnished studio apartment is available for rent in El Raval, with a modern and spacious design, excellent metro and bus connections, and proximity to the port and beach",
+      "description": "¡Disponible! Estudio Amueblado en El Raval Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval Precio 950€ x mes Condiciones Mes entrante, 2 Meses Fianza Contrató Temporal 6 meses Totalmente amueblado y listo para mudarse Disponible desde ya Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the apartment, including price, location, and amenities, and includes a photo, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T13:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031047227224903/",
+      "status": "active",
+      "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t39.30808-6/545551951_10243697477439364_837747337649685134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=l2NaXxqF5bkQ7kNvwFgckXm&_nc_oc=AdlGw69C52LZyqmVncGI9nBD-ZtIUCG9_j89lhWvzKhLFarAqLKsJMlB68bBedlC5K0&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=bAp1WSsAJ-S0ivLeBGlsiA&oh=00_AfbogXFRRshTQiKde9uc00OM8IfLMJB55Zuwte12EfLOHw&oe=68C3448C"
+    },
+    {
+      "id": "267b5f64-9329-8102-bbc8-d966d772c7f1",
+      "title": "Room for rent in the city center",
+      "overview": "A quiet room in the center of the city, suitable for students or individuals with a budget of 300-400 euros",
+      "description": "Hola, tengo una habitación en el centro. Un presupuesto de entre 300 y 400 euros es suficiente para los hijos que viven en Barcelona. Es una habitación tranquila que no se adapta a ningún sitio.",
+      "price": "300-400 euros",
+      "zone": "City center",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed information, which raises concerns about its legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T13:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083493120622886/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-812e-9e5c-d7e2798eb513",
       "title": "Room for rent for a single man",
@@ -35,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T12:44:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2248757158960813/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.ftrv2-1.fna.fbcdn.net/v/t39.30808-6/545551951_10243697477439364_837747337649685134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SZxPEXidmwMQ7kNvwG0_nwu&_nc_oc=AdlrbvGFlIWNi-lgt-Z7beu9ttkF41czmNXbgOChXrWx8ytytwKjAg9JsgPNTlNDlCY&_nc_zt=23&_nc_ht=scontent.ftrv2-1.fna&_nc_gid=ym4c8LBD3d1AJBvD9QIpuw&oh=00_AfYAGtcG7RtA7zyQ-mCUkHfby8oAraj_2rdk6621aFPZzg&oe=68C3448C"
     },
     {
