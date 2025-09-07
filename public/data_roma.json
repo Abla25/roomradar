@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-07T17:27:57.298Z",
+  "generatedAt": "2025-09-07T18:44:21.463Z",
   "city": "roma",
-  "count": 837,
-  "totalRejectedCount": 2550,
+  "count": 840,
+  "totalRejectedCount": 2569,
   "results": [
+    {
+      "id": "267b5f64-9329-8138-a2a3-f32bb1c2e597",
+      "title": "Room for rent in Santa Maria del Soccorso",
+      "overview": "Room available immediately in Santa Maria del Soccorso, priority given to medical students or similar, must be clean and respectful",
+      "description": "Ciao a tutti sì libera da subito stanza in zina santa Maria del soccorso- precedenza a studenti di medicina o similari- possibilmente con esperienza di convivenza, pulite e rispettose",
+      "price": "N/A",
+      "zone": "Santa Maria del Soccorso",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, but it seems to be a genuine rental offer with specific requirements for the tenant.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T18:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1714936035867510/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8151-b7c1-f87b83a48c1e",
+      "title": "Studio Apartment for Rent in LUISS University Area",
+      "overview": "A studio apartment is available for rent in the LUISS University area, featuring a bedroom, kitchen, and bathroom, with double conditioning and centralized heating",
+      "description": "📍 Affittasi Monolocale – Viale Somalia 289 (zona Università LUISS) 🛏 Ambiente composto da: zona notte con cabina armadio, corridoio con cucina abitabile con finestra, e bagno spazioso con lavatrice. ❗️Immobile con doppio condizionatore e riscaldamento centralizzato, con elettrodomestici e portone blindato. 🏢 5° piano con ascensore. 🎓 A 10 minuti a piedi dalle sedi LUISS di Via Parenzo e Via Pola 🚇 A 2 minuti a piedi dalla metro B Libia , fermata bus a 2 minuti. 📦 Arredamento da concordare. 🏠 Condominio tranquillo con servizio di portineria, luminoso e riservato. 🗓️Libero da subito. 📃 Contratto transitorio per non residenti, di 12 mesi. 💰 Prezzo: *850€ al mese*. 💸 SPESE INCLUSE. Info [PHONE NUMBER CENSORED] Alessandro https://chat.whatsapp.com/Jp8lnkIwIQU32WhDBs24ZZ",
+      "price": "850€",
+      "zone": "Università LUISS",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "This listing is highly reliable as it includes photos, detailed description, and contact information, with no apparent scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T18:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31118180291160062/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544995631_2211124039350768_3522923014959412382_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VHnk0CJnF58Q7kNvwEdqSj0&_nc_oc=AdmXA9PsSttu7JzDEtPcykSsm72NjOaso4ih3Y_42tPaHeAE574hyUv7nje2bo_32HA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=JgIrJvnp7Rkr7UqZpan9mg&oh=00_AfZL90SrxQvItYvnx9tNG6spgV0aOSqn-wffTPAclX_kBQ&oe=68C38CAD"
+    },
+    {
+      "id": "267b5f64-9329-81ab-8b29-eb9fd1c65045",
+      "title": "Room for rent in a shared apartment",
+      "overview": "A room is available for rent in a shared apartment in Piazza Bologna, with a convenient location and basic amenities",
+      "description": "Ciao! Si libera un posto letto in doppia in un appartamento a Piazza Bologna, esattamente a Viale delle Province. La posizione è davvero comoda: in meno di cinque minuti sei alla fermata della metro e in dieci arrivi all’università La Sapienza. La zona è super servita e hai tutto quello che ti può servire sotto casa. L’appartamento è piccolo ma funzionale: c’è la nostra stanza doppia (con balconcino silenzioso sul cortile interno), una camera singola occupata da un’altra ragazza, una cucina e un bagno. Al momento siamo due coinquiline e cerchiamo una terza ragazza per condividere la casa con noi. L’ambiente è tranquillo e pensiamo sia perfetto per chi studia o lavora in zona. Il posto letto è già disponibile da subito, quindi se ti interessa scrivimi pure in privato così ci mettiamo d’accordo per una visita o per darti tutte le informazioni.",
+      "price": "N/A",
+      "zone": "Piazza Bologna",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some information about the apartment and its location, but lacks photos and detailed pricing information, which raises some concerns about its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T18:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2152124838644802/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8154-b980-cf0624dd656e",
       "title": "Room for rent in Piazza Bologna",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T17:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1342816457510045/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -120,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T15:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31118069544504470/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2976,7 +3027,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T09:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1713126852715095/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -6835,7 +6886,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T06:40:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2147448712445748/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fixc16-1.fna.fbcdn.net/v/t39.30808-6/540113567_10238016500741323_951071098117748872_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ra6fPL3uUIQQ7kNvwE5aIkB&_nc_oc=AdkxOi-2i1wP9AhrEbXYfSTxQbRL7E6ln5oq5xJHbkcaQWM5AJSKyMh5sDKluDUkSh8&_nc_zt=23&_nc_ht=scontent.fixc16-1.fna&_nc_gid=-XG0T6_zO0H7_nPmJGNvTg&oh=00_AfUvNXtLts2nvUxcfj-OdkjFRf-AqSXqX0o8D5KAFkUplg&oe=68BC75A7"
     },
     {
@@ -8807,7 +8858,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T12:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1337152254743132/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -9198,7 +9249,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T19:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1708928279801619/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fnag9-1.fna.fbcdn.net/v/t39.30808-6/540787399_3156832587808569_6159905800181044199_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=6qjiELvZFTYQ7kNvwH0CGbZ&_nc_oc=Adnp66J8gr3EFGxnHPizT0vTlxRARm_30rvNSLjR8YP6TX06iny951hpon11R3uQIQA&_nc_zt=23&_nc_ht=scontent.fnag9-1.fna&_nc_gid=L7sSDfEdtB0A0d6CnHUC4w&oh=00_AfVYsf3srwZDUzQdhVtjOFSwRKFxy70gxxdOALsh9JBaJw&oe=68B921DF"
     },
     {
@@ -13312,7 +13363,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T11:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2142887692901850/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/540943034_25576572025265229_3253541923181899534_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VcMqfU25vqMQ7kNvwEyxqrX&_nc_oc=AdkPT20vxP-4pCn50V_2numbeQG1ShETaKBWJ7MI3owRUTGHT1GkwLqRdqtKN4WpGeM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=AdPYAB5lDjV05NeQ3neuzw&oh=00_AfXFbXFhmnHlHR6SEg81snAjtDDIsVJohAlDvxghWaB34w&oe=68B4BEE0"
     },
     {
