@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-07T10:35:54.720Z",
+  "generatedAt": "2025-09-07T11:26:57.784Z",
   "city": "london",
-  "count": 676,
-  "totalRejectedCount": 939,
+  "count": 679,
+  "totalRejectedCount": 942,
   "results": [
+    {
+      "id": "267b5f64-9329-8119-89f8-fe8bfc011c82",
+      "title": "Renovated double room for rent in Dagenham",
+      "overview": "Renovated double room available in Dagenham, including bills and furniture, close to tube station and bus stop",
+      "description": "Double Room RENOVATED Available from 01/10/2025 RENOVATED Wardrobe, bills, bed and mattress included All bills included HEATING 24/7 London Dagenham AreA RENT 750 pound/Month House in front of TUBE STATION and BUS STOP For info massage in private",
+      "price": "750 pound/Month",
+      "zone": "Dagenham",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains detailed information, includes a photo, and seems legitimate, which raises the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846609735938322/",
+      "status": "active",
+      "imageUrl": "https://scontent.fraj3-3.fna.fbcdn.net/v/t39.30808-6/545617008_4155084421444257_3649698307289813347_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1mjh8lF7F8gQ7kNvwFDoo54&_nc_oc=AdkR9SDULQJ75vu9NBkyEqjqQGe4ep91MJ4-OJK_KhNDrCN49uZ6DW61jdUo965zzngh4J5M7zFB1RLjmVB8DmNQ&_nc_zt=23&_nc_ht=scontent.fraj3-3.fna&_nc_gid=1mb4M4BOnG1lGpEiNBJEVg&oh=00_AfZyWDJtm1AZxXEQDKavkCRFbtVRqvqXTDAzouu4e6Zf3A&oe=68C30FBE"
+    },
+    {
+      "id": "267b5f64-9329-8120-b718-e83be3008207",
+      "title": "Budget accommodation in Dagenham",
+      "overview": "Budget accommodation available in Dagenham for female and male",
+      "description": "Budget accommodation available in Dagenham heathway for female and male pm me for more information Thanks",
+      "price": "N/A",
+      "zone": "Dagenham",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "N/A",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information, photos, and seems incomplete, which lowers the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846672182598744/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-814c-ab6c-f9cebf200717",
+      "title": "Modern Studio Flat for Rent",
+      "overview": "A modern, fully furnished studio flat available for rent in London, including all bills and flexible lease options",
+      "description": "Modern Studio Flat | £700 PCM – All Bills Included Move into this beautifully furnished studio flat in a sought-after London location — perfect for students or professionals looking for a clean, secure, and pet-friendly space. Stylish & fully furnished All bills included: WiFi, gas, electricity, water, council tax Flexible lease options Pets considered £700/month – all-inclusive, no hidden fees Available to move in immediately Serious enquiries only. Message on WhatSpp: +44 7[PHONE NUMBER CENSORED] to check availability or discuss your preferred area and budget.",
+      "price": "£700",
+      "zone": "London",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a detailed description, photos, and contact information, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846692339263395/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom10-1.fna.fbcdn.net/v/t39.30808-6/544985303_122115307310973033_4278347712493115121_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SaN4aDllgQQQ7kNvwHvvQlh&_nc_oc=AdlWrVkNSJHDjyRy0fo-l7F_L_mYF5rCJvJQcpVX-qjm3fwbUZ3YiAOYpXfGxylnAo4&_nc_zt=23&_nc_ht=scontent.fbom10-1.fna&_nc_gid=W2ZqWnajZ9MoiGcT2ejxRw&oh=00_AfafLjLDTitSSpR-J2XxP8UKYhJO3-je-ks5ZSY60C2plQ&oe=68C350E9"
+    },
     {
       "id": "267b5f64-9329-8159-b4ef-fb8eae989e39",
       "title": "Double Bedroom for Rent in Shared Flat in Romford",
@@ -52,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T10:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1846644829268146/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/543378448_4155129591439740_5070773557048677098_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=idiv2SU7MCAQ7kNvwHOQgyC&_nc_oc=Adk-UR-u4P-N8X_V-TH6wB0k_S2psQPSJr0q9eQrZ_FmtpmWt8nT8QxcE5yzYZ3Tkgs&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=6NcdAPpTPoBnTZo_kTT3tw&oh=00_Afar8J4cz3VY0OA2VfvDNo5OQa9t5dqdDxLaJ8TWfzdKpg&oe=68C341CC"
     },
     {
@@ -987,7 +1038,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T11:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1845903312675631/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/544849674_122115036590973033_137166802226444808_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=60zT-NhLhDkQ7kNvwHhNS1d&_nc_oc=AdkHkq9J246XgJ_-auMtAnk62x4K8emm87DOIiMWC8pcXwSbcnYQlKBozWbvG7T5EjY&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=oFKDAQ8WYxA6zGzwwW-5pw&oh=00_AfYl5NAi3URRhqHHb7Lg_pJmTRJQBzA4YQAij9FTL4_8tA&oe=68C1C6CB"
     },
     {

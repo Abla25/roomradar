@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-07T10:35:39.479Z",
+  "generatedAt": "2025-09-07T11:26:44.444Z",
   "city": "barcelona",
-  "count": 1428,
-  "totalRejectedCount": 2299,
+  "count": 1431,
+  "totalRejectedCount": 2310,
   "results": [
+    {
+      "id": "267b5f64-9329-8188-a9ef-f5a13dfbc3a2",
+      "title": "Spacious room for rent in El Carmel",
+      "overview": "Renting out a spacious and luminous room suitable for a couple or a mother and daughter in the El Carmel area.",
+      "description": "Se alquila habitación super amplia luminosa para pareja o madre e hija en el Carmel",
+      "price": "N/A",
+      "zone": "El Carmel",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks a detailed description, price information, and photos, which reduces its reliability. However, it still appears to be a genuine rental listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2191585488022187/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-81ab-ba58-ef818b848a02",
+      "title": "Individual room for rent in Plaza Virrei Amat, Barcelona",
+      "overview": "Renting out an individual room with a balcony, suitable for a single person who is orderly, has a stable job, and is sociable and respectful. No smokers allowed.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room, the price, and the location. It also provides contact information and includes a photo of the room, which suggests that it is a genuine listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2191588201355249/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr17-1.fna.fbcdn.net/v/t39.30808-6/542686362_10234315238635226_5562616842716964582_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tPps0914DB0Q7kNvwFSc9jw&_nc_oc=Adly-hf4gtLNoZm7WrAeMbQAMgTXU79w22g9Q81kQBdr8mcjenuWUBSURiUhLl11bkQ&_nc_zt=23&_nc_ht=scontent.fblr17-1.fna&_nc_gid=EBU1xpYXG8FZ0e5on8DoXg&oh=00_AfbO0xIXHxhQKJ4bp7_F17ptW0zJkX6Jt45NFMuWZYQXPA&oe=68C34E5E"
+    },
+    {
+      "id": "267b5f64-9329-81ce-9312-c0be2544b976",
+      "title": "Room for rent in Badalona",
+      "overview": "Room rental in Badalona with double bed, available from October, storage possible",
+      "description": "Buenos días. Se alquila habitación en Badalona con cama de matrimonio a mujer o mujer con hijo a partir del mes de octubre. Posibilidad de guardad parte de ropa en un trastero.",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the room, but no price or images are available, and there is limited information about the accommodation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T11:18:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083433997295465/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8152-8c40-dca375b5d0eb",
       "title": "Two rooms available for rent in L3",
@@ -698,7 +749,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T18:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4030149227314703/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh1-4.fna.fbcdn.net/v/t39.30808-6/544849618_10234303779508755_4232625574671805903_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=npyNxhqtU0YQ7kNvwHx5fv0&_nc_oc=AdmFnnMFP8yss9EVaQY-jUwj49kmhQnnQIBC9M11E5jmvsevGRoFqK6edFxiBdH09vc&_nc_zt=23&_nc_ht=scontent.fluh1-4.fna&_nc_gid=5lZTjok1blIGP9tln39XpA&oh=00_AfYItRMoowrHeWHoP94aFuQHr34wPlYwhixWZj1vfCPDTA&oe=68C251BA"
     },
     {
@@ -2296,7 +2347,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T09:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2189802838200452/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
