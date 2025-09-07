@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-07T15:34:27.453Z",
+  "generatedAt": "2025-09-07T16:35:00.632Z",
   "city": "london",
-  "count": 684,
-  "totalRejectedCount": 959,
+  "count": 688,
+  "totalRejectedCount": 965,
   "results": [
+    {
+      "id": "267b5f64-9329-812f-886a-e0fc06af26b9",
+      "title": "Master bedroom and box room for rent",
+      "overview": "A master bedroom and a box room are available for rent, with more details available upon request",
+      "description": "Master Bedrooms and box room available . DM for more details.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks essential information, such as price and location, and does not include any photos, making it difficult to assess its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T16:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846744895924806/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8177-a573-f09e9a91dc05",
+      "title": "Large double room for rent near Barking station",
+      "overview": "A large double room is available for rent near Barking station, with a preference for a Muslim student to share",
+      "description": "Hello large double room available near barking station. Sharing, i m looking for someone to share with preferably muslim student. Price is 380pounds",
+      "price": "380 pounds",
+      "zone": "Near Barking station",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "1",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks photos and has limited information, which raises concerns about its legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T16:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846864379246191/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-81ac-a82e-d9b77ffb2ac0",
+      "title": "Semi double room for rent in Upton Park",
+      "overview": "A semi double room is available for rent in Upton Park, suitable for single people",
+      "description": "One semi double room available from 1st October Location upton park, E13 9LN Only for single people Contact [VAT NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Upton Park, E13 9LN",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T16:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846872019245427/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel88-1.fna.fbcdn.net/v/t39.30808-6/543538889_4225074241093045_6259991039867495530_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=e5iMmDqPxjAQ7kNvwHp9ZW5&_nc_oc=AdlYFulnEG2EUGagiqGNuqlKb6mt9Pt0kV7IBgErY0rTAtbPLgT_BIid_bcgu3MqkUc&_nc_zt=23&_nc_ht=scontent.fdel88-1.fna&_nc_gid=hFQQRJ2Fs-DnOb0_yeqXJg&oh=00_AfZzWZV4UB_qq1tUtp1mDOt_x8M0cBi-sZUptKiHYdbUog&oe=68C3816A"
+    },
+    {
+      "id": "267b5f64-9329-811b-ab37-eabd29b630a4",
+      "title": "Single room for rent in Kingsbury for single Hindu male",
+      "overview": "A live-in landlord is renting out a single room in a shared Hindu Gujarati/Hindi speaking house in Kingsbury, with all bills included and vegetarian only",
+      "description": "Are you still in need of a place to stay? This place is for MALES ONLY I am a Gujarati, a live-in Landlord at HA3 Kingsbury area. 🇳🇪 🇳🇪 Jay Siya Ram All rooms for SINGLE HINDU MALE PREFERRED ●SINGLE ROOM (BoxRoom) £650PM plus 1 months deposit ALL BILLS INCLUDED FOR SINGLE MALES PREFERRED per Room. The house is Sharing in HINDU Gujarati/Hindi speaking house. VEGETARIAN ONLY - FOOD NOT PROVIDED The environment is a very Spritual & peaceful one. This is a Home from Home accommodation. ● There is parking space for upto 3 cars in the drive way. ● weekly cleaner cleans communal areas. ***This accommodation is NOT SUITABLE for SWAMINARAYANS*** [VAT NUMBER CENSORED] Regards Tulsibhai A link to my property. https://www.spareroom.co.uk/flatshare/greater_london/kingsbury/16458710utm_source=copy_link&utm_medium=social_share&utm_campaign=advert_share",
+      "price": "£650PM",
+      "zone": "Kingsbury, HA3",
+      "zoneMacro": "Brent",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the room and the environment, but there are no photos and the language used may be considered restrictive or biased",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T16:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1428521748235343/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-813b-b6c9-c61eb1fc817b",
       "title": "Self-contained studio flat for rent",
@@ -885,7 +953,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T17:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1846146692651293/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/543182358_4224161554517647_150207378285225340_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=rbTlz4ONv4gQ7kNvwESci3H&_nc_oc=AdnGsIOY7MJwFnfL3GwtpCLGjPKAx7SwqARRqM5vPHeq4UatZ73AU_CWpqietLOkT78&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=yrZTbWXqZSOEsHI7biebng&oh=00_AfauPkD7FfS8hyxrWYEK-QPnqowWXUIXygG3Jzaqip0F5Q&oe=68C238CD"
     },
     {
@@ -10048,7 +10116,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-29T15:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2111343119400567/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fraj1-1.fna.fbcdn.net/v/t39.30808-6/540532108_24359566623653968_8484863487124108114_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0WtEx4OQweYQ7kNvwHX1yKb&_nc_oc=AdmBMU_4dtzDo8AqsEbEJnykCgads5EY284vLm8fCeKTj4fXDu9z3mSr85r9-zHHte0&_nc_zt=23&_nc_ht=scontent.fraj1-1.fna&_nc_gid=RtgG4PYHnmmTNVdnqho31w&oh=00_AfWRIMy3l3AfxC-gifkaXXXaKymPaFOm-cFjCb8OBQ3tmA&oe=68B79F5B"
     },
     {
@@ -10949,7 +11017,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-28T18:40:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1421079182312933/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
