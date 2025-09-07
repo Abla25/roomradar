@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-07T11:26:44.444Z",
+  "generatedAt": "2025-09-07T13:00:04.595Z",
   "city": "barcelona",
-  "count": 1431,
-  "totalRejectedCount": 2310,
+  "count": 1435,
+  "totalRejectedCount": 2323,
   "results": [
+    {
+      "id": "267b5f64-9329-812e-9e5c-d7e2798eb513",
+      "title": "Room for rent for a single man",
+      "overview": "A individual room is for rent in Barcelona, near Plaza Virrei Amat, for a single man who is orderly, has a stable job, and is sociable and respectful",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat (Barcelona)",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a clear description of the room, includes photos, and has contact information available, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T12:46:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1080869087142721/",
+      "status": "active",
+      "imageUrl": "https://scontent.fidr4-1.fna.fbcdn.net/v/t39.30808-6/543419722_10234315225394895_1994140354336067837_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cyhVro1Q0x0Q7kNvwFHk2AJ&_nc_oc=AdkhQmb0yr_0gpyA23a4-ISvizVSb6lA-yLs5G2m_d8Z27HNN38ApcYAt5txA7jdZwRXF80EAixj7uFuGgTePNsZ&_nc_zt=23&_nc_ht=scontent.fidr4-1.fna&_nc_gid=wkf-qoFbAA-MlU1VrKY4Tg&oh=00_AfaFPZmekt8-_g9_rRNT5WHiIRA2vHqo3xEuYRD-uLfuEA&oe=68C3626D"
+    },
+    {
+      "id": "267b5f64-9329-814e-b765-f1a3c0b69c60",
+      "title": "Furnished studio for rent in El Raval",
+      "overview": "A furnished studio is available for rent in El Raval, with modern amenities and excellent connections to metro and bus",
+      "description": "¡Disponible! Estudio Amueblado en El Raval Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval Precio 950€ x mes Condiciones Mes entrante, 2 Meses Fianza Contrató Temporal 6 meses Totalmente amueblado y listo para mudarse Disponible desde ya Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the rental, including price, location, and amenities, and includes photos, making it a highly reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T12:44:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2248757158960813/",
+      "status": "active",
+      "imageUrl": "https://scontent.ftrv2-1.fna.fbcdn.net/v/t39.30808-6/545551951_10243697477439364_837747337649685134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SZxPEXidmwMQ7kNvwG0_nwu&_nc_oc=AdlrbvGFlIWNi-lgt-Z7beu9ttkF41czmNXbgOChXrWx8ytytwKjAg9JsgPNTlNDlCY&_nc_zt=23&_nc_ht=scontent.ftrv2-1.fna&_nc_gid=ym4c8LBD3d1AJBvD9QIpuw&oh=00_AfYAGtcG7RtA7zyQ-mCUkHfby8oAraj_2rdk6621aFPZzg&oe=68C3448C"
+    },
+    {
+      "id": "267b5f64-9329-81c8-9f2d-ddbb1ae9b657",
+      "title": "Two rooms for rent in Pubillas",
+      "overview": "Two rooms are available for rent in Pubillas, specifically for female tenants",
+      "description": "Hola se alquila dos habitaciones para chicas en pubillas casas",
+      "price": "N/A",
+      "zone": "Pubillas",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine rental listing for rooms in a specific location.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T12:43:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083036877335177/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8173-940f-d5b72d884054",
+      "title": "Room for rent in Olesa de Montserrat",
+      "overview": "A room is available for rent in Olesa de Montserrat for a male tenant",
+      "description": "Buenos días alquilo habitación en olesa de Montserrat para chico tel.[PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Olesa de Montserrat",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine rental listing with contact information provided.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T12:43:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083391913966340/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8188-a9ef-f5a13dfbc3a2",
       "title": "Spacious room for rent in El Carmel",
@@ -35,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T11:20:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2191588201355249/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fblr17-1.fna.fbcdn.net/v/t39.30808-6/542686362_10234315238635226_5562616842716964582_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tPps0914DB0Q7kNvwFSc9jw&_nc_oc=Adly-hf4gtLNoZm7WrAeMbQAMgTXU79w22g9Q81kQBdr8mcjenuWUBSURiUhLl11bkQ&_nc_zt=23&_nc_ht=scontent.fblr17-1.fna&_nc_gid=EBU1xpYXG8FZ0e5on8DoXg&oh=00_AfbO0xIXHxhQKJ4bp7_F17ptW0zJkX6Jt45NFMuWZYQXPA&oe=68C34E5E"
     },
     {
@@ -647,7 +715,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T20:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1082923474013184/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -2925,7 +2993,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T20:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2246535705849625/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbom2-2.fna.fbcdn.net/v/t39.30808-6/543122452_10243658282459514_8753894222227430050_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=X4_p_TPvx2AQ7kNvwHA9-kS&_nc_oc=AdmvW1_PsOdPomibWaTYOBrtAmWF8gWT8-k_7yAyzbDmaFtpEyJAWYGc65gQmztbjWE&_nc_zt=23&_nc_ht=scontent.fbom2-2.fna&_nc_gid=TDIA-l7AKxiWSMEJWQ2XBg&oh=00_AfYT01jo8lNbIB-G3T4Raocc5ziUNZvpCc8XKb8oZwr21g&oe=68BFB2C1"
     },
     {

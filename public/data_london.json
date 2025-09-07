@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-07T11:26:57.784Z",
+  "generatedAt": "2025-09-07T13:00:34.818Z",
   "city": "london",
-  "count": 679,
-  "totalRejectedCount": 942,
+  "count": 680,
+  "totalRejectedCount": 943,
   "results": [
+    {
+      "id": "267b5f64-9329-81f7-9888-dab772a1b26a",
+      "title": "Double Room for Rent in Calm Residential Area",
+      "overview": "A double room is available for rent in a calm residential area, suitable for Telugu or Hindi speaking people, with a 15-minute walk to Gantshill station and a 3-minute walk to a bus stop",
+      "description": "Double room available immediately Telugu/Hindi speaking people IG5 Rent - 800/month(Inc bills) 15 min walk to gantshill station 3 min walk to bustop Near to A406 highway Calm residential area WhatsApp:[VAT NUMBER CENSORED]",
+      "price": "800",
+      "zone": "IG5",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides essential details such as price, location, and contact information, but lacks photos, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T12:59:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118623652005847/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8119-89f8-fe8bfc011c82",
       "title": "Renovated double room for rent in Dagenham",
@@ -1055,7 +1072,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T11:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1427705124983672/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
