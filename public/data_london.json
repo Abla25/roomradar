@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T06:38:30.680Z",
+  "generatedAt": "2025-09-07T07:24:30.002Z",
   "city": "london",
-  "count": 659,
-  "totalRejectedCount": 919,
+  "count": 661,
+  "totalRejectedCount": 923,
   "results": [
+    {
+      "id": "267b5f64-9329-81b2-8809-d153dfaec908",
+      "title": "Room for rent in Stratford",
+      "overview": "A spacious room in a semi-detached house with a garden, shared with a female professional and her dog",
+      "description": "🌿 Room for Rent – Female Housemate Wanted (Stratford) 🌿 📍 Location: 15 mins walk to Stratford 8 mins walk to Maryland station (Elizabeth Line 🚉 – quick to central London!) A spacious room is available in a lovely semi-detached house with a garden in Stratford, shared with a 37-year-old professional female and her Vizsla dog 🐶. ✨ The home includes: Bright, spacious living room Washing machine Dishwasher Fully equipped kitchen Dedicated office area (great for WFH) Two bathrooms → one with toilet & sink, the other with bathtub/shower 🚿 Professional house cleaning - Twice a month Garden with BBQ and pizza oven area All bills included – £950 rent + £150 bills = £1100 fixed per month (covers council tax, heating, electricity, wifi, etc.) Looking for a female housemate who is tidy, easy-going, and happy to share with both a professional and a very affectionate pup. If this sounds like your next home, send a message! 💫 Additional perks: 🌿 Wanstead Flats nearby if you enjoy nature. 🌿 Local coffee shops nearby with amazing quiality",
+      "price": "£1100 per month",
+      "zone": "Stratford",
+      "zoneMacro": "East London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a detailed description of the room and the house, includes photos, and provides information about the bills and the expected housemate, which suggests a high level of reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T07:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118432488691630/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/544880782_10234023926373445_9203146933571117535_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jk8lsvuz4KIQ7kNvwHppqhc&_nc_oc=AdlbEskplZ4bzp84ALVM85aFqmAleWJ4NNFv4rSTQBwHy8JxVifZ4c5WmVah-EtgDoE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=2qREyeByz0ceIC_prs8asw&oh=00_AfbtHsTuwboFzBkyH8t4Hg5H132PSNVrStZKdrrCP-yMhg&oe=68C302D5"
+    },
+    {
+      "id": "267b5f64-9329-810f-b9c8-da930972c1da",
+      "title": "Private landlord seeking tenant for 1-3 bedroom place",
+      "overview": "The post is from a private landlord looking for a clean and honest tenant for their 1-3 bedroom place, with no credit or background checks required",
+      "description": "I’m a private landlord I just need a clean and honest tenant for my place I do not check credit or any background check... message me if only you are ready to move in or secure the place for your move in date 1Bedroom 2 Bedroom 3Bedroom",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and specific details about the property, and the landlord's requirements are vague, which raises some concerns about the listing's legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T07:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846549072611055/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8166-90bb-cbf6160af0c0",
       "title": "Furnished Apartment for Rent",
@@ -52,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T04:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1846414782624484/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542709385_122105874044993244_2222165792975264702_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VpUYYjR_JxUQ7kNvwHAw-Gq&_nc_oc=Adl1_jT8ew9z6vJVskyTdK1WIhm9pMmn7bsYIHRNmLq0_fGTXq6hxx0xacimxql7ZEM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=E99J8MGG3pyaUvuKEW3XiQ&oh=00_AfYRFzRYrPA0O4nysDPc419CZIWdBZvtQNUjM8PYMA1tKw&oe=68C2C73C"
     },
     {
