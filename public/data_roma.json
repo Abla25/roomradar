@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-07T22:28:13.779Z",
+  "generatedAt": "2025-09-07T23:26:18.315Z",
   "city": "roma",
-  "count": 856,
-  "totalRejectedCount": 2608,
+  "count": 860,
+  "totalRejectedCount": 2619,
   "results": [
+    {
+      "id": "267b5f64-9329-8187-993f-e3e905ac8911",
+      "title": "Room for rent in Marconi zone",
+      "overview": "Single room with double bed for rent in a shared apartment, available from October 1st",
+      "description": "Affittasi ZONA MARCONI (piazza della radio)(adiacente stazione trastevere) in appartamento con zona comune cucina abitabile un bagno un bagnetto e 3 camere già affittate. 1 CAMERA SINGOLA CON LETTO MATRIMONIALE €500 (Wi-Fi e tassa rifiuti incluse ) più spese ,la stanza è libera dal 1 OTTOBRE 1 mese di deposito , contratto transitorio per studentesse o lavoratrici non residenti SOLO RAGAZZE",
+      "price": "€500",
+      "zone": "Marconi",
+      "zoneMacro": "Trastevere",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides some details about the room and location, but lacks photos and seems to be a text-only post, which raises some concerns about its legitimacy.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739475359584765/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8156-8091-c2c4cec2b98b",
+      "title": "Small room for rent",
+      "overview": "A small room is available for rent, suitable for one person, located on Via Cassia and La Giustiniana",
+      "description": "Se alquila un cuarto chico a persona sola..en vía Cassia e la Gusitiniana inf [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Via Cassia and La Giustiniana",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine rental listing with contact information provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2152306565293296/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8102-b405-ed8af303ea2d",
+      "title": "Single Room for Rent in Shared Apartment",
+      "overview": "A single room is available for rent in a shared apartment in the Trieste area, with a monthly rent of 420€ (excluding electricity and gas costs), starting from October.",
+      "description": "🏠 Stanza singola in Appartamento condiviso - Zona Trieste 📍Via Alfredo Casella 49 🗓️ Disponibile da ottobre 💰 420€ spese luce e gas escluse Si affitta una stanza singola luminosa e completamente arredata, in appartamento da condividere con una ragazza di 22 anni ed un ragazzo di 27 anni. Zona Quartiere Trieste, ben collegata da mezzi pubblici e vicina alla fermata della Metro B1 Libia. L’appartamento è composto da 3 camere da letto, cucina abitabile, salotto e bagno. La stanza dispone di letto singolo, armadio, scrivania, sedia da studio e accesso a balcone condiviso con la stanza affianco. 💶 Canone mensile: 420€ (450€ da gennaio) incluso di condominio e acqua, escluse spese di luce e gas. 👥 Si cercano persone pulite, educate e rispettose degli spazi comuni e non. No matricole e persone con animali. Per maggiori informazioni e per fissare una visita contattare in privato.",
+      "price": "420€",
+      "zone": "Trieste",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, apartment, and location, including photos and contact instructions, and does not exhibit scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T23:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1342963320828692/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/543188006_1914690062754215_1292594066228619049_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=w4nR7LAWvH4Q7kNvwG8rtcs&_nc_oc=AdmSA5qzAZGIEhUW_QQi8AsKut8pRKrZqLyvCo-i5n8zbna8dwG7bOiipHB60WYEF5U&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=STczKWK0jFfWo201BoJ0Xw&oh=00_AfZ5IFbuPQZkEa4-Xtm5Jb-hsp1zeJNuB4VVU_DcCjt6bw&oe=68C3F8C2"
+    },
+    {
+      "id": "267b5f64-9329-8198-bbef-f8732531a367",
+      "title": "Single room for rent in Repubblica/Termini area",
+      "overview": "A single room is available for rent in an apartment with two girls, close to Repubblica/Termini area, for €300 plus expenses",
+      "description": "📌 AFFITTASI STANZA SINGOLA – ROMA (solo studentesse) 🔹 Zona: Via Modena 37, 00184 Roma (Repubblica / Termini) 🔹 In appartamento con 2 ragazze (21 e 24 anni) 🔹 Stanza singola arredata – €300 + spese 🔹 Disponibile dal 20 settembre 🔹 Appartamento con cucina, bagno, Wi-Fi, lavatrice ❗ Solo per studentesse – No famiglie, no coppie",
+      "price": "€300 + expenses",
+      "zone": "Via Modena 37, 00184 Roma (Repubblica/Termini)",
+      "zoneMacro": "Esquilino",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the room, location, and price, and includes a photo, which increases its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T23:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1342985044159853/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/544604990_122128513424932166_1548506303441895843_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1filJmuOAsMQ7kNvwFNALmK&_nc_oc=AdmLeCyKYDO8AG1Zm-Erz0gr3zyQV9eQQOgAq9Ts4UCjwm_c9OqhBgV9d1tlxaWivTw&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=yXilVnktV2d95v3ovKEvFA&oh=00_AfbsTHCkF4AHEJeuRVepgBzSJOG_euHR0czg18fQiuO6Cg&oe=68C3FF4E"
+    },
     {
       "id": "267b5f64-9329-8179-b6cd-f0fe695c8d01",
       "title": "Single Room for Rent in Shared Apartment",
@@ -35,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T22:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1715051639189283/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/543188006_1914690062754215_1292594066228619049_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aWTDEZ4IFGYQ7kNvwFd1PLw&_nc_oc=AdnVuS9qqJBjLOanUTWY8cnhMTGVsCd3Oolqo1SBo-BfcL1X3Ft9R_OSFAjZrtdK0Yc&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=-HA_rIUX89ELINRysJo7pA&oh=00_AfbF0W1OsdAFnAF1yrEEmAoZva4f_ECcEKoQL8FV9woF0g&oe=68C3C082"
     },
     {
@@ -7090,7 +7158,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T08:39:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2734289223436712/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fhyd11-1.fna.fbcdn.net/v/t39.30808-6/541411781_10237582574644807_1317778420826974280_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n7n1aDCM3AcQ7kNvwEl5f1D&_nc_oc=AdkiTIUIWLaoPtpLICY1cCxZimdm91nKhb9ioivvxXDV8wUUHaa0t293WdkNHFyNcx4&_nc_zt=23&_nc_ht=scontent.fhyd11-1.fna&_nc_gid=nqGqkndRQ-UnffYliltmfw&oh=00_AfW1pr3qqbmDgcnn90GVKw1UfYs7U1_V_gGPzLLNx48NqQ&oe=68BC8819"
     },
     {
@@ -8178,7 +8246,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T09:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2733404330191868/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
