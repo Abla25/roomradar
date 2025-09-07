@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-07T05:28:42.519Z",
+  "generatedAt": "2025-09-07T06:38:07.490Z",
   "city": "barcelona",
-  "count": 1409,
-  "totalRejectedCount": 2271,
+  "count": 1410,
+  "totalRejectedCount": 2275,
   "results": [
+    {
+      "id": "267b5f64-9329-8168-9b8d-cbc238d6d43c",
+      "title": "Double Room for Rent",
+      "overview": "Double room with exterior window, spacious and very bright, for two girls, in the Via Julia area, available from October 1st",
+      "description": "Dispondre de habitacion doble con ventana exterior, amplia muy luminosa, para dos chicas, por la zona de via julia a partir del 1 de octubre mas información imbox",
+      "price": "N/A",
+      "zone": "Via Julia",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price or contact information, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T06:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2248495422320320/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-81b1-be0c-fd2af64dd9b9",
       "title": "Room for rent in Urgell area",
@@ -35,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T05:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4314880548744454/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

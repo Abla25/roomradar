@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T05:28:49.099Z",
+  "generatedAt": "2025-09-07T06:38:24.128Z",
   "city": "roma",
-  "count": 790,
-  "totalRejectedCount": 2446,
+  "count": 792,
+  "totalRejectedCount": 2450,
   "results": [
+    {
+      "id": "267b5f64-9329-8151-905c-cfbe74218b3a",
+      "title": "Elegant room for rent in Nomentana center",
+      "overview": "Renting out a elegantly decorated room with private bathroom in a fully renovated apartment in Nomentana center, close to metro Libia and Nomentana station",
+      "description": "Nomentana centro adiacenze viale Libia vicino metro Libia e staz. Nomentana affittasi in condominio elegante ed in appartamento interamente ristrutturato stanza elegantemente arredata con bagno personale euro 650,00 + 100,00 per spese omnicomprensive , internet illimitato compreso nelle spese TELEFONARE AL [PHONE NUMBER CENSORED]/[PHONE NUMBER CENSORED] solo ragazze",
+      "price": "650.00 + 100.00 for expenses",
+      "zone": "Nomentana center",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room and its location, and includes contact information, but it seems to be targeted only at girls and the price is slightly high compared to similar listings",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T06:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1714543365906777/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc8-4.fna.fbcdn.net/v/t39.30808-6/544833282_2519650141735661_35855491825793468_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=lS8Z7jl9rM4Q7kNvwFhkyfF&_nc_oc=Adnv3esG-4UtNmqDtZUrV62P-08JEsZkhHKHNKYuQVTEgY3Dx40udz6AB6BKsPN4-KhswtPnLacjiLUgARmLuTiJ&_nc_zt=23&_nc_ht=scontent.fixc8-4.fna&_nc_gid=F8pOR4lmI074gImBnCc5xw&oh=00_AfYAomeGjUn-hBsCtaFBp47FfMMax0qMc2YAxhURgc7xGA&oe=68C2E073"
+    },
+    {
+      "id": "267b5f64-9329-814f-8d8d-e9e308f645d7",
+      "title": "Cheap Monolocal Apartment for Rent in Vieste Starting September",
+      "overview": "Monolocal apartment available for rent in Vieste starting September",
+      "description": "VIESTE OFFERTISSIMA LOCAZIONE MONOLOCALE SETTEMBRE DA 250",
+      "price": "250",
+      "zone": "Vieste",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing seems to be a real rental offer, but it lacks photos and detailed information, which raises some concerns about its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T06:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31112572435054181/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-81c9-b646-d12dd2785a6a",
       "title": "3 spacious rooms available for rent",
@@ -1769,7 +1803,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T14:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1713313922696388/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541741235_2518210441879631_4538604937558160255_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Xuu8jkBoQhwQ7kNvwHaMLF1&_nc_oc=AdmlX339tt_ikM3NBW--Qp9bsJPqY9ohWS5DZbzLsnltSLfamcsFaiKr1e8fK2bibI0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=3sjhTjpWvlqm2FLjb2xL6A&oh=00_AfbHE3PfCyjUIvbH5la60MIi_tarGyy7ZXFHgOY8AjpbeA&oe=68C0CBC7"
     },
     {
@@ -5033,7 +5067,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T23:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31045468231764602/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
