@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-07T03:13:01.451Z",
+  "generatedAt": "2025-09-07T04:32:42.073Z",
   "city": "barcelona",
-  "count": 1406,
+  "count": 1407,
   "totalRejectedCount": 2270,
   "results": [
+    {
+      "id": "267b5f64-9329-818f-a3a0-f63fa545d251",
+      "title": "Double room for rent in Via Julia area",
+      "overview": "A double room with an exterior window is available for rent, suitable for two girls, starting from October 1st",
+      "description": "Dispondre de habitacion doble con ventana exterior, amplia muy luminosa, para dos chicas, por la zona de via julia a partir del 1 de octubre mas información imbox",
+      "price": "N/A",
+      "zone": "Via Julia",
+      "zoneMacro": "Sant Andreu",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a clear price or contact information, but it seems to be a genuine room rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T04:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083152677323597/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8144-a44c-f132be6e82a1",
       "title": "Room for solo female or two females with children",
