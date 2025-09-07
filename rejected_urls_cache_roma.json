@@ -1519,8 +1519,12 @@
     "https://www.facebook.com/groups/romaffitti/posts/1342359644222393/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-07T04:28:22.653107"
+    },
+    "https://www.facebook.com/groups/1800846897105933/posts/2151630478694238/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-07T05:24:34.191194"
     }
   },
-  "total_rejected_count": 2445,
-  "timestamp": "2025-09-07T04:28:04.089928"
+  "total_rejected_count": 2446,
+  "timestamp": "2025-09-07T05:23:39.666821"
 }

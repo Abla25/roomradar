@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T04:33:04.090Z",
+  "generatedAt": "2025-09-07T05:28:54.722Z",
   "city": "london",
-  "count": 657,
-  "totalRejectedCount": 913,
+  "count": 659,
+  "totalRejectedCount": 916,
   "results": [
+    {
+      "id": "267b5f64-9329-8166-90bb-cbf6160af0c0",
+      "title": "Furnished Apartment for Rent",
+      "overview": "A furnished 1B apartment is available for rent, with utilities included and a negotiable rent, in a nice neighborhood, pet-friendly, with parking available",
+      "description": "Hi everyone! I’m Looking for a tenant to Rent Out the apartment 1B 1B furnished unit . Owner pay for all utilities and the rent is negotiable . I'm also willing to do long and short term lease agreements , but you have to let me know 30 days before moving out so I have enough time to find a replacement It is furnished with Microwave, gas stove, refrigerator, in-unit laundry and amenities Walkable distance from campus.. Utilities costs are included in the rent. Lease Available for both long and short term rent.. *Parking available *Nice neighborhood *Pets Friendly * parking space available Available for short term and long term with parking spot available. Noise level at its minimal Utilities include Oven Microwave TV Dryer Move in is available as soon as possible Let me know If you are interested feel free to message me !",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The reliability score is 2 because the post lacks photos and the rent price is not specified, although it provides some details about the apartment and its amenities",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T05:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846481589284470/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-81ad-9a4e-f8ca0800c853",
+      "title": "One bed space for rent in Ilford",
+      "overview": "One bed space available for a student in Ilford",
+      "description": "Hi, One bed space available in Ilford for Boy (student only) 📍: IG1 Rent: £375 Deposit: One month Dm for more details. Thanks.",
+      "price": "£375",
+      "zone": "Ilford, IG1",
+      "zoneMacro": "Redbridge",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and contains limited information, which raises concerns about its reliability and authenticity.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T05:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1428271331593718/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-81a7-8147-c08bb176186e",
       "title": "Private landlord seeking tenant",
@@ -2075,7 +2109,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T01:59:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1844821379450491/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
