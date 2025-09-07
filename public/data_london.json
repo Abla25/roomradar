@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T14:28:09.553Z",
+  "generatedAt": "2025-09-07T15:34:27.453Z",
   "city": "london",
-  "count": 682,
-  "totalRejectedCount": 952,
+  "count": 684,
+  "totalRejectedCount": 959,
   "results": [
+    {
+      "id": "267b5f64-9329-813b-b6c9-c61eb1fc817b",
+      "title": "Self-contained studio flat for rent",
+      "overview": "A self-contained studio flat is available for rent, including all bills, located near Newbury Park station",
+      "description": "Hi A self contained studio flat available for rent £1150.00 including all bills. No kids No benefits. Very close to Newbury Park station Parking Road IG2 7NS Call [VAT NUMBER CENSORED] Afsor",
+      "price": "£1150.00",
+      "zone": "Newbury Park, IG2 7NS",
+      "zoneMacro": "Redbridge",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description, price, location, and contact information, as well as a photo, indicating a high level of completeness and legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T15:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118681622000050/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/543696531_1849718039085597_1759001734030200214_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=117846&_nc_ohc=9aGhGB-vHhoQ7kNvwEFQBzq&_nc_oc=Adnk7w-vG5wBV8HhRP14I6dXcx7hoAvgvWTQHpwU-OUVDKJLtr2oeu2W1TKc__mhcoU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=pHOkFnixjiUII4Xu-t7KTA&oh=00_AfapQcc90-nCP7XzP-aFapE7TzW8HKbpVxoHPVZ3r3UcnQ&oe=68C35B52"
+    },
+    {
+      "id": "267b5f64-9329-813c-8623-d35c86bd68c1",
+      "title": "Double room for rent in calm house",
+      "overview": "A double room is available for rent in a quiet and clean house, near Chadwell Heath station and bus stops",
+      "description": "🙏Hi, Nice double room good for couple/ two girls very calm quiet and clean house. Chadwell heath station Elizabeth line (very near 4 minutes) Bus stop both sides of the house(1&2 minutes) If anyone looking for peaceful atmosphere please WhatsApp. [VAT NUMBER CENSORED].",
+      "price": "N/A",
+      "zone": "Chadwell Heath",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some information about the rental listing, but there are no photos and the price is not specified, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T15:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1428579518229566/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8114-9f49-d776f1b01af9",
       "title": "Furnished Apartment in West London for Sublet",
@@ -2704,7 +2738,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-04T20:33:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1426500865104098/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {

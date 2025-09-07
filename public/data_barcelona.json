@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-07T14:27:50.844Z",
+  "generatedAt": "2025-09-07T15:34:08.417Z",
   "city": "barcelona",
-  "count": 1439,
-  "totalRejectedCount": 2334,
+  "count": 1442,
+  "totalRejectedCount": 2339,
   "results": [
+    {
+      "id": "267b5f64-9329-8131-a49a-dff5de08fdb0",
+      "title": "Room for rent in Badalona",
+      "overview": "A room is available for rent in a ground floor apartment with a patio in Badalona",
+      "description": "Se alquila habitación, disponible a partir de hoy mismo, en Badalona ( la salut), es un bajo con patio.",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo of the room and provides some details about the location and the apartment, but the price is not specified.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T15:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083530750619123/",
+      "status": "active",
+      "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/544821733_24563291733354523_3316623545496604436_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=p7_Afzq6oI0Q7kNvwGG1t4r&_nc_oc=Adlql33g_mBahrVIlIVovWHRxevc1pa6kCIj_AZ--wyn2yrxBuOJ4F8NSIcjW6OUdxA&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=iPlyiL4M4aRrE4z7ufwhfQ&oh=00_AfafIGvBrfGFdEaS_8XtqDplY4jzJD5dUj_168JrJIqQnw&oe=68C363D8"
+    },
+    {
+      "id": "267b5f64-9329-816b-b516-d2170b3bc527",
+      "title": "Room for rent on Marina street 94",
+      "overview": "A room is available for rent on Marina street 94, with contact information provided",
+      "description": "Alquilo habitación calle Marina 94 Whats [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and detailed information, but it appears to be a genuine rental listing with contact information provided",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T15:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083575970614601/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-8115-9c82-e509ee0325d3",
+      "title": "Room for rent in a quiet apartment near metro line 1",
+      "overview": "A room is available for rent in a quiet apartment located near metro line 1, preferably for a Latina person, with 2 cats in the household",
+      "description": "Habitación aún disponible Alquilo habitación individual interior; a persona preferentemente latina. El piso es muy tranquilo y esta ubicado en la plaza española muy cerca del metro linea 1 parada santa eulalia y cerca de la linea 5 collblanc. Busco persona que sea responsable, que tenga trabajo estable, no tenga vacíos Y sobre todo que sea muy organizada en cuanto a la limpieza. Pedimos un mes de fianza. Debo mencionar que tengo 2 gatitos (por si hay alguien que no le agrade los animalitos o tenga alergias.)",
+      "price": "N/A",
+      "zone": "Plaza Española",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a detailed description of the room and the household, including the presence of cats, and has a photo, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T15:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4315113992054443/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544919151_2776920842517072_6746840395649964132_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0myVRsQ6dH4Q7kNvwFExQvR&_nc_oc=AdlCm2V3kKqmV1gX_jL2KlHVueojAq3eSrMJ5qVe1qFmPglyNZlehH7jCDw_rfaZZ8I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=6o3RbyJ8z-ivMveUkyJplw&oh=00_AfZwIIWkhXD-KswdEgjQDtRLbv3JCeGUzorJP-POXE7G2A&oe=68C33937"
+    },
     {
       "id": "267b5f64-9329-8102-85b6-c98434ea74e5",
       "title": "Furnished studio for rent in El Raval",
@@ -35,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T14:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4315314345367741/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel22-1.fna.fbcdn.net/v/t39.30808-6/545205222_24563254406691589_1643846099800929730_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=LLP-ml_1kgoQ7kNvwHxkd2k&_nc_oc=Adm3CpNP8exl1Eux1psSP78mhAwaJLxKSlNdCb3buLFaLkxcnNbpeirxGEALjw7qhQU&_nc_zt=23&_nc_ht=scontent.fdel22-1.fna&_nc_gid=RZ3VPEYOrHi8bQ16no9lEA&oh=00_AfaRLMGY0snMaEo-kVfhE1HxXP8RoGnCS8mFkQjF6Wh2AA&oe=68C350D7"
     },
     {
@@ -14995,7 +15046,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-27T07:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2182334882280581/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fccu2-1.fna.fbcdn.net/v/t39.30808-6/539383772_1055403616482578_5802181037191021012_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Jjqu1pfZvDsQ7kNvwE5LaQK&_nc_oc=AdmhbNug_TTk64gh1eXANojkI6bbyFBXorVy8ShwNhSsm-9ABkHl6YHIUf-dESlsMLg&_nc_zt=23&_nc_ht=scontent.fccu2-1.fna&_nc_gid=Ztm1BEkZrg1dLEIxldE8qg&oh=00_AfVKy1xLGtoQT_FtBJN7t0uhD1vuOrvXigdi41yDEESecg&oe=68B475A5"
     },
     {
