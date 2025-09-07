@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T13:36:13.424Z",
+  "generatedAt": "2025-09-07T14:27:50.844Z",
   "city": "barcelona",
-  "count": 1437,
-  "totalRejectedCount": 2327,
+  "count": 1439,
+  "totalRejectedCount": 2334,
   "results": [
+    {
+      "id": "267b5f64-9329-8102-85b6-c98434ea74e5",
+      "title": "Furnished studio for rent in El Raval",
+      "overview": "Furnished studio available for rent in El Raval, with modern amenities and excellent transportation connections",
+      "description": "¡Disponible! Estudio Amueblado en El Raval Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval Precio 950€ x mes Condiciones Mes entrante, 2 Meses Fianza Contrató Temporal 6 meses Totalmente amueblado y listo para mudarse Disponible desde ya Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the property, including its location, amenities, and price. It also includes a photo, which increases its reliability, and does not appear to have any scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4315202342045608/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel22-1.fna.fbcdn.net/v/t39.30808-6/545551951_10243697477439364_837747337649685134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=l2NaXxqF5bkQ7kNvwEUzdfM&_nc_oc=AdlNnK5FzxhRoCrNdyy8maaVmAlr6tpFswIrQ0uByg9DeJt6KZB2k7PWPmqNtvz_eSg&_nc_zt=23&_nc_ht=scontent.fdel22-1.fna&_nc_gid=wutnd0YAELKaL9LFQiWM5A&oh=00_AfZH9QWwexBakx9uatz06dlxxmhcj1M1s2M-rbO8u-KfEw&oe=68C3448C"
+    },
+    {
+      "id": "267b5f64-9329-81e6-9af3-c8d0e78a76a0",
+      "title": "Room for rent in Badalona",
+      "overview": "Room available for rent in Badalona, La Salut area, starting immediately",
+      "description": "Se alquila habitación disponible a partir de hoy, en Badalona ( La salut).",
+      "price": "N/A",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description of the location and availability, and includes a photo, which increases its reliability. However, the price is not specified, which prevents it from reaching the highest reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4315314345367741/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel22-1.fna.fbcdn.net/v/t39.30808-6/545205222_24563254406691589_1643846099800929730_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=LLP-ml_1kgoQ7kNvwHxkd2k&_nc_oc=Adm3CpNP8exl1Eux1psSP78mhAwaJLxKSlNdCb3buLFaLkxcnNbpeirxGEALjw7qhQU&_nc_zt=23&_nc_ht=scontent.fdel22-1.fna&_nc_gid=RZ3VPEYOrHi8bQ16no9lEA&oh=00_AfaRLMGY0snMaEo-kVfhE1HxXP8RoGnCS8mFkQjF6Wh2AA&oe=68C350D7"
+    },
     {
       "id": "267b5f64-9329-81c7-9136-f274e363147b",
       "title": "Furnished studio apartment for rent",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T13:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031047227224903/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t39.30808-6/545551951_10243697477439364_837747337649685134_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=l2NaXxqF5bkQ7kNvwFgckXm&_nc_oc=AdlGw69C52LZyqmVncGI9nBD-ZtIUCG9_j89lhWvzKhLFarAqLKsJMlB68bBedlC5K0&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=bAp1WSsAJ-S0ivLeBGlsiA&oh=00_AfbogXFRRshTQiKde9uc00OM8IfLMJB55Zuwte12EfLOHw&oe=68C3448C"
     },
     {
@@ -7651,7 +7685,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T02:10:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1076305254265771/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcpq14-1.fna.fbcdn.net/v/t39.30808-6/540739803_25577363538520843_4869826785957587187_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pkCko0119d0Q7kNvwEtVgBJ&_nc_oc=Adn8zbvnBS-cGqfCOlndXUEy3K8B7I9WbncaBJ1HVHspjD6a6Ayczfi0RkqU2y3gaUw&_nc_zt=23&_nc_ht=scontent.fcpq14-1.fna&_nc_gid=esGkIl1reh97MAH3cFVqgQ&oh=00_AfUApei0Q_hIe5kr5YlSkI5YpRwhP0Z7j2c2VDyVjx9qIQ&oe=68BAD7AB"
     },
     {

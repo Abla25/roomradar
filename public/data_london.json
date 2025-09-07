@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T13:36:32.629Z",
+  "generatedAt": "2025-09-07T14:28:09.553Z",
   "city": "london",
-  "count": 680,
-  "totalRejectedCount": 948,
+  "count": 682,
+  "totalRejectedCount": 952,
   "results": [
+    {
+      "id": "267b5f64-9329-8114-9f49-d776f1b01af9",
+      "title": "Furnished Apartment in West London for Sublet",
+      "overview": "One bedroom apartment available for sublet in West London, suitable for single or couple, fully furnished with all amenities, great location with access to parks, eateries, and shops nearby",
+      "description": "Available 1 October - SUBLET IN WEST LONDON 🏡 . One bedroom available in apartment available to sublet, suitable for single or couple, full furnished with all amenities. 📆 1 October 2025 onwards-Asap move in Mobile and whats app - 07918 066780 📍 SL25A, West London , 2 mins walking from Train station 💰 £1100 all billls inclusive no deposit . 🌟 Great location with access to parks, INCREDIBLE eateries and shops nearby. everything you need within a 10 min walk, including access to train/bus stations and Elizabeth/GWR line.",
+      "price": "£1100",
+      "zone": "West London",
+      "zoneMacro": "West London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the apartment, includes photos, and has a clear contact method, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118693125332233/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/545055379_122180542346449120_1366748182878895211_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QgbBAyPt4_wQ7kNvwG0sYX3&_nc_oc=AdkcDTYyrgS1fCT6YdeQOKkGn6Ql4QMX0Mu5dXfO3url7NBNr5VSF5yfsQGu-tSrnBc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=DAnPRvkmj5AEpgvb4E4hzw&oh=00_AfbONED_Cyqjxm8jl4nSk6evnnAdTfdJnVPhhKahS-iVoA&oe=68C36145"
+    },
+    {
+      "id": "267b5f64-9329-8155-a519-dca81877f60f",
+      "title": "Room for rent in Hounslow",
+      "overview": "A space is available for rent in Hounslow, including all bills and WiFi",
+      "description": "Space Available in Hounslow Tw5 9AW Rent £300& £150 Deposit All bills Include in rent & Wifi Available Anyone interested",
+      "price": "£300",
+      "zone": "Hounslow Tw5 9AW",
+      "zoneMacro": "Hounslow",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide detailed information about the space, but it includes some basic details such as price and location.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1846638635935432/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-81f7-9888-dab772a1b26a",
       "title": "Double Room for Rent in Calm Residential Area",
@@ -4489,7 +4523,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T09:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843480439584585/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/540969067_2254613918321679_1663325548422697256_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=U0p2DoB5WsIQ7kNvwGDwG0P&_nc_oc=Adk8y7H-lPuHBBI4nXpWfWq-pD0SkFdf3Z3cSghCJNH41K-l7nKj9FxXGSIc-f56Vx0&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=NcAc72cdvjz0fIg4CFmIqA&oh=00_Afb9hMX4nCCUBdhbBNzbHag_g1esMtune337zzFDog_shg&oe=68BDACB8"
     },
     {

@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-07T13:36:24.355Z",
+  "generatedAt": "2025-09-07T14:27:58.973Z",
   "city": "roma",
-  "count": 823,
-  "totalRejectedCount": 2521,
+  "count": 825,
+  "totalRejectedCount": 2524,
   "results": [
+    {
+      "id": "267b5f64-9329-812f-95c9-d21d33cc1b6d",
+      "title": "Single room for rent in Quartiere Africano",
+      "overview": "A single room is available for rent in a 4-bedroom apartment in Quartiere Africano, with utilities included",
+      "description": "✨ Ciao a tutti! Dal 1° ottobre si libera la mia stanza singola nel Quartiere Africano, a pochi minuti a piedi sia dalla metro Libia che da Sant’Agnese Annibaliano. L'annuncio è rivolto per sole ragazze. 💶 Affitto: 610 € al mese, utenze incluse (luce, acqua, gas, internet e condominio). 🏡 L’appartamento è composto da 4 stanze singole totali ed è abitato da sole ragazze (studentesse e giovani lavoratrici tra i 24 e i 27 anni). La casa è spaziosa, luminosa e ben collegata. 📩 Per info o per fissare una visita, scrivetemi in privato!",
+      "price": "610 €",
+      "zone": "Quartiere Africano",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, utilities, and price, and has a photo, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2151810548676231/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/545392160_31695105763407952_8607934267353841911_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qRBFPCT6D0QQ7kNvwEo_lOt&_nc_oc=AdmJYUTrORqC9imnkYSxbCJ7pyHnOEnbQD-O2jZtZ3LQplStSGBI5xXBryF7eNTIrGA&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=pQn0JLbQ1TM8YJcxit7tnQ&oh=00_AfZPM9Mn1gedlZAsDUnoEbZHi3j-tkIkyr3ykpnoiWRUaw&oe=68C37665"
+    },
+    {
+      "id": "267b5f64-9329-81e3-af63-d2323521fdc4",
+      "title": "Single room for rent in San Lorenzo",
+      "overview": "A single room is available for rent in a shared apartment in San Lorenzo, Rome, with a monthly rent of €350, excluding utilities",
+      "description": "Affittasi Stanza Singola per Lavoratori o Studenti-Lavoratori 📍 Zona : San Lorenzo, Roma (a 350 metri dalla Sapienza) �💰 Affitto: € 350 al mese (utenze escluse) 📆 Disponibile dal: 1° ottobre Si affitta stanza singola arredata in appartamento condiviso con altri due lavoratori, in una traversa tranquilla del quartiere San Lorenzo, a pochi minuti dalla Sapienza e ben collegata con i mezzi pubblici. La stanza è luminosa, silenziosa e dotata di: letto singolo, comodino, armadio, libreria, scrivania, sedia. L'appartamento è composto da: cucina abitabile, due bagni in condivisione, Wi‑Fi, lavatrice. Zona servitissima da supermercati, negozi, bar, fermate bus e tram. Vicino a Termini e Tiburtina. Se interessati contattarmi in privato.",
+      "price": "€350",
+      "zone": "San Lorenzo, Rome",
+      "zoneMacro": "San Lorenzo",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides detailed information about the room, including photos, and seems to be a genuine rental offer",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T14:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1342650767526614/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/544824983_10233989921683683_6006483831279083127_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=1_kSJYQcBhYQ7kNvwH3rA7F&_nc_oc=Adm21iJPTM2m0vOirYjcizTJd2yK35n-vPJYHGy1v3USJF6mfi8z6iK5rIwci1iElfM&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=3SswgaFvDSfroimgIYCOyw&oh=00_AfYF10A3TL6ldzQic_NEDDuGRSm8JlOPzZxFMrGZQjN1QQ&oe=68C361C6"
+    },
     {
       "id": "267b5f64-9329-81b2-912a-e29ca5f0c84d",
       "title": "Single Room for Rent in Quartiere Africano",
@@ -18,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T13:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1714627872564993/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/543461484_31695116340073561_8335365495378424443_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=wk-gh3aCfrUQ7kNvwETsmLE&_nc_oc=AdkqahrZIzMJmeRpsxodYiO97cJFbcrz6W0lnpnrMp2-bcTEowrL8646m0FkclXwKvs&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=70dyrF6O0od4qm0CbmlSTQ&oh=00_AfbSFKt-9wleEDd7qhSPt-s_d3mACLK_kU0oRTv2PBL5zw&oe=68C33654"
     },
     {
@@ -239,7 +273,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T12:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739068786292089/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.flko9-1.fna.fbcdn.net/v/t39.30808-6/544957728_10233989962684708_1327208415062311163_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=LgIxgnnBfAAQ7kNvwG0LuaZ&_nc_oc=AdmkOeVXIO3Wxvzjq5ynM5E-yAceeiQEAqFiqAK8uguwzhZSmYyi16_IiYDJUa5b3K-5s73m-psP2CBk1Z7imOxw&_nc_zt=23&_nc_ht=scontent.flko9-1.fna&_nc_gid=YGlTRk_6Q5P0FsbtwoUwkg&oh=00_AfZAtWdCVIM6h2l_q2DcAGo40NUf_KOHyCxgWE8GCHenYg&oe=68C3667F"
     },
     {
