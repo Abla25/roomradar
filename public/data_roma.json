@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-07T18:44:21.463Z",
+  "generatedAt": "2025-09-07T19:26:19.261Z",
   "city": "roma",
-  "count": 840,
-  "totalRejectedCount": 2569,
+  "count": 841,
+  "totalRejectedCount": 2576,
   "results": [
+    {
+      "id": "267b5f64-9329-81db-8584-f6d2dd82e99c",
+      "title": "Room for rent in Labaro",
+      "overview": "A matrimonial room is available for rent in Labaro for 400 euros plus expenses",
+      "description": "Cercasi coinquilina !!! Stanza matrimoniale a LABARO / 400€ + spese Più informazioni al priv",
+      "price": "400€ + expenses",
+      "zone": "Labaro",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and has limited information, but it appears to be a genuine rental listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T19:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1342898770835147/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8138-a2a3-f32bb1c2e597",
       "title": "Room for rent in Santa Maria del Soccorso",
@@ -2296,7 +2313,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T20:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1341357847655906/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
