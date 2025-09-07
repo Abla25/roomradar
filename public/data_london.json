@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-06T23:29:43.584Z",
+  "generatedAt": "2025-09-07T02:05:24.086Z",
   "city": "london",
-  "count": 653,
-  "totalRejectedCount": 886,
+  "count": 654,
+  "totalRejectedCount": 897,
   "results": [
+    {
+      "id": "267b5f64-9329-8140-bcdb-f751a27bbbe4",
+      "title": "Room for Rent in South East London",
+      "overview": "A room is available for rent in a house in South East London, starting from September 27th, with a monthly rent of £850, excluding bills.",
+      "description": "ROOM AVAILABLE / TENANCY DROP OUT 🚨✨ Hello all 🥰🫶 I unfortunately have to pull out of my tenancy agreement and i am now looking preferably for a woman in her mid to late 20’s to take over my tenancy starting late this month on 27th September. Rent will be £850 a month (excluding bills however won’t be that much as split 4 ways) Location: 17 Barriedale, South East London (SE146RW). It’s a lovely house and well connected area 🌸 You’ll be joining 3 friendly, gorgeous girlies; Abbi (Media and Stories Officer)👮 Em (Graphic Designer)👩🏽‍🎨and Gina (Marketing professional - currently Freelance)👩🏻‍💻 Message me for enquiries 😇 x",
+      "price": "£850",
+      "zone": "South East London",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, the location, and the rent. It also includes a photo of the room and contact information for enquiries. However, the reliability score is not 5 because the post is from a Facebook group and not a verified rental platform.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T02:04:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2118216062046606/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd2-3.fna.fbcdn.net/v/t39.30808-6/544979168_122139463460860759_4849499373361880082_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=emlMU-BWPqEQ7kNvwE4Sxo6&_nc_oc=Admy6etTsOk2XA7oElt0WUepiV36fclR18l7hqw8FUoM4aob6yvsheb0bsCWNrcBaS0&_nc_zt=23&_nc_ht=scontent.fhyd2-3.fna&_nc_gid=9YFLHQb5TgP0SZTO3QFDEQ&oh=00_AfasmVfqAaCQyZkfMl53w9Tda3m-SdAthuu7byW85uhQiQ&oe=68C28CC1"
+    },
     {
       "id": "266b5f64-9329-81ad-9ec6-e5e749a38860",
       "title": "Christiana Berry Offers Apartments for Rent",
@@ -443,7 +460,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T13:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2117809292087283/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545383269_10233328934904490_7619442722823364811_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9iqnKe8xQ8EQ7kNvwHkrbPd&_nc_oc=AdkKXog5PZNCqiTIZYXxg-5ZqyI3pclB8Aj-uPijJjeTDH-Ei68irZNhuioBCHGd4kY&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=4t4Dw6RcRri44DCaIeBmbA&oh=00_AfZ24HecfJ1LPswqNPFWpQ1cCwObWb6hl4a1hKoLdDLlwA&oe=68C218F5"
     },
     {
