@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-07T21:28:14.006Z",
+  "generatedAt": "2025-09-07T22:28:05.930Z",
   "city": "barcelona",
-  "count": 1455,
-  "totalRejectedCount": 2383,
+  "count": 1460,
+  "totalRejectedCount": 2391,
   "results": [
+    {
+      "id": "267b5f64-9329-8115-bff7-c9d19be8df30",
+      "title": "Room for rent in Hospitalet",
+      "overview": "Room for single person in Hospitalet, near line 5 Collblanc, for non-smokers without pets, requires fixed employment",
+      "description": "Se alquilan una habitaciones para persona sola en hospitalet línea 5 collblanc (personas con trabajo fijo, no fumadoras, sin mascota). No escribir a este Facebook (yo solo publico) para más información directamente escribir al +34 [PHONE NUMBER CENSORED] (NO LLAMADAS).",
+      "price": "N/A",
+      "zone": "Hospitalet, near line 5 Collblanc",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing has a clear description of the room and requirements for the tenant, it includes a contact phone number and has a photo, which increases its reliability, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2191971101316959/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/545029164_1499202434590273_6449343187134703349_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pxzN2opQEUgQ7kNvwHKl2ar&_nc_oc=AdlWuQvgOSX8P_lY-jlJtOiAQsXPnKUMyhZynheJk93atRkmokEaiZVFtB_Hb_7VLD8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=bAu9T2QbzXBPwVQVeWp6lA&oh=00_AfYE7Dop2EEqbgQNguW9LYt-VyYO5rfRP5db8M5wQwf83g&oe=68C3C8FC"
+    },
+    {
+      "id": "267b5f64-9329-8131-9bdc-c80d695d7f43",
+      "title": "Room for rent in Madrid Usera",
+      "overview": "Room available for a single person in Madrid Usera, contact 687639621 for more information",
+      "description": "Alkilo habitación en Madrid usera para persona sola contactar al [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Madrid Usera",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a contact number and an image, which increases the reliability, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083648027274062/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd8-1.fna.fbcdn.net/v/t39.30808-6/544907309_3971427476500864_5878981894915952256_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MV3MhHhZ0_gQ7kNvwFIVJpc&_nc_oc=Admte9c8OKLYZDfQDB0DSeAfQ_2M-ezZYTjQ5B5Nu7ivVmGlZyIgh5cMGaGsqeKouRk&_nc_zt=23&_nc_ht=scontent.famd8-1.fna&_nc_gid=DOw3cotFslymfroDck0Rwg&oh=00_AfYTM_hPGA1861Quhzy3gaQd5gAhRkVv_Hg4iETR42CRGQ&oe=68C3F232"
+    },
+    {
+      "id": "267b5f64-9329-81ac-9ad0-db5a9281ca45",
+      "title": "Room for rent for a couple",
+      "overview": "A room for rent in Santa Coloma, available for a couple, with immediate entry",
+      "description": "Alquilo habitación para pareja para entrar ya mismo en santa coloma jente que trabaje [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Santa Coloma",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks details, has no photos, and seems brief, which raises concerns about its legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083736307265234/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "267b5f64-9329-811a-874e-fdd231120660",
+      "title": "Room for rent for a single woman",
+      "overview": "A room for rent in a quiet apartment in Santa Coloma, available for a single woman, with 3 current occupants",
+      "description": "Hola! Se alquila esta habitación a señorita sola. Es un piso tranquilo, ya actualmente vivimos 3 personas de 24 a 27 años Zona: Santa Coloma, metro cerca es Artigues San Adria Línea morada para entrar este 15 de septiembre",
+      "price": "N/A",
+      "zone": "Santa Coloma",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post contains relevant information, has photos, and seems legitimate, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083746817264183/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd8-1.fna.fbcdn.net/v/t39.30808-6/545375147_24377727295229449_835014986334303278_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UKLoL4DDFDEQ7kNvwFQMgiK&_nc_oc=AdkbtXVXUwub4ffzyIDPCJmluMPMZkyg7E-Mgbw4UTaQLiYU-rc1mwQU3EAzE62iECA&_nc_zt=23&_nc_ht=scontent.famd8-1.fna&_nc_gid=tuUBZCApyW8eltLlziIZrg&oh=00_AfZHtGxdeY9TDIHuQrIXTzY_u1KT1ddqxX5qciPN4fMRtA&oe=68C3EF08"
+    },
+    {
+      "id": "267b5f64-9329-81eb-90de-eed584332b9c",
+      "title": "Double room for rent in Barcelona city center",
+      "overview": "A double room is available for rent in the center of Barcelona, specifically for women",
+      "description": "Double room available center of Barcelona just for woman girls [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Barcelona city center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides some details about the room and includes a contact number, but lacks specific price information and could be more detailed; photos are present",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:20:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4315656815333494/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd15-2.fna.fbcdn.net/v/t39.30808-6/544914609_122217810950089183_6556779898167495630_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tUTPWYfCJ-YQ7kNvwEuO2Ta&_nc_oc=AdkAJp_3U8NO1e53Mrj6EmxqWJ75-4U9a-wPEcAC0OxTIMLV_0potSM9IJLQKAkD1m0&_nc_zt=23&_nc_ht=scontent.famd15-2.fna&_nc_gid=ujPcQTzXeA17J-4GXdzMiQ&oh=00_Afb8XbubS2W3l0fVHrBGV8phLLPJAuBtuq2yRrNe9ryXmg&oe=68C3E838"
+    },
     {
       "id": "267b5f64-9329-8192-ad19-c6d4490d2eb9",
       "title": "Room for rent in Llucmajor",
@@ -494,7 +579,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T10:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2248718558964673/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -8722,7 +8807,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T15:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1078015811170617/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -8739,7 +8824,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T15:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308247532741089/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fbom3-1.fna.fbcdn.net/v/t39.30808-6/540012001_4217853395160217_3735240742633619738_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=iDf8DduLOhgQ7kNvwEcrXri&_nc_oc=Adkj5E5Tj0hYfXsN36kPWtqQ4Gu-mI4wFMKyvxvYTXHmTsIaFLdWG6FbQPnmfqvWfzfgh4CUb0lNr4f7J_eesiHb&_nc_zt=23&_nc_ht=scontent.fbom3-1.fna&_nc_gid=wgjYzl0XhcmsmkSz7pQI6w&oh=00_AfVir7exhgeRwWX1UErIO1JcNVuN9rI4FCNIfrx3r37OFw&oe=68BA3EC3"
     },
     {
@@ -8875,7 +8960,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T13:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4308077962758046/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -16950,7 +17035,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-26T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1073800101592188/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -18616,7 +18701,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T05:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1072463985059133/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fcok17-1.fna.fbcdn.net/v/t39.30808-6/537924194_755101410746718_300482776405134791_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=S-zbg0qg1LUQ7kNvwGKpTEh&_nc_oc=Adn2LE4nSXtXEkaNMdLoEeLSa1cxeCLacCOICOO_GqUjB1twc4RJqAlp5ivSKV1m09Y&_nc_zt=23&_nc_ht=scontent.fcok17-1.fna&_nc_gid=kcVAcKkSD7sCMjzXHoYkgw&oh=00_AfXQZyNOeMGdI99TncgCiTZuWKbHlruxDIkerZYxxyJi9g&oe=68B1B25F"
     },
     {

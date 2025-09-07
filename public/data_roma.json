@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-07T21:28:23.094Z",
+  "generatedAt": "2025-09-07T22:28:13.779Z",
   "city": "roma",
-  "count": 852,
-  "totalRejectedCount": 2602,
+  "count": 856,
+  "totalRejectedCount": 2608,
   "results": [
+    {
+      "id": "267b5f64-9329-8179-b6cd-f0fe695c8d01",
+      "title": "Single Room for Rent in Shared Apartment",
+      "overview": "A single room is available for rent in a shared apartment with 5 single rooms, 2 bathrooms, a kitchen, and a small living area. The apartment has a tranquil and friendly atmosphere.",
+      "description": "LIBERA STANZA SINGOLA in via dell'Annunziatella. Cerchiamo una nuova coinquilina per il nostro appartamento condiviso composto da 5 stanze singole, due bagni, una cucina e una piccola zona soggiorno. Vicino a linee bus 716, 670, 160, 669. Al momento nella casa abito io, con altri tre ragazzi e stiamo cercando un'altra ragazza per la singola. Prezzo 400€ più utenze. Ogni stanza è climatizzata e in casa l’atmosfera è tranquilla e amichevole: ognuno ha i propri spazi, ma ci piace trovarci ogni tanto e condividere filmetti insieme! :)",
+      "price": "400€",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "5",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description of the apartment, its amenities, and the atmosphere. It also includes a photo of the room and provides information about the current occupants and the price, which suggests a high level of completeness and transparency. There are no obvious scam indicators, and the presence of photos further increases the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1715009072526873/",
+      "status": "active",
+      "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/544889552_797320452770002_1380052813543111412_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ti_rnX8m08wQ7kNvwF4iXQz&_nc_oc=Adl8_r4UYbVTJ3QELe013-hts2-wqL0mH5J0OC9QaAaw2xu6k7XBZU5_jko9w2qsd4Y&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=-HA_rIUX89ELINRysJo7pA&oh=00_AfbQfO5oP796JEWvCKHNB0ee8VuBzIKM5mPgZLNAx7uwrQ&oe=68C3CCCC"
+    },
+    {
+      "id": "267b5f64-9329-81fd-9812-e7d8a19647b5",
+      "title": "Single room for rent in shared apartment in Trieste zone",
+      "overview": "A single room in a shared apartment is available for rent in the Trieste zone, with a monthly rent of 420€ excluding utilities, the apartment has 3 bedrooms, a kitchen, living room, and bathroom",
+      "description": "🏠 Stanza singola in Appartamento condiviso - Zona Trieste 📍Via Alfredo Casella 49 🗓️ Disponibile da ottobre 💰 420€ spese luce e gas escluse Si affitta una stanza singola luminosa e completamente arredata, in appartamento da condividere con una ragazza di 22 anni ed un ragazzo di 27 anni. Zona Quartiere Trieste, ben collegata da mezzi pubblici e vicina alla fermata della Metro B1 Libia. L’appartamento è composto da 3 camere da letto, cucina abitabile, salotto e bagno. La stanza dispone di letto singolo, armadio, scrivania, sedia da studio e accesso a balcone condiviso con la stanza affianco. 💶 Canone mensile: 420€ (450€ da gennaio) incluso di condominio e acqua, escluse spese di luce e gas. 👥 Si cercano persone pulite, educate e rispettose degli spazi comuni e non. No matricole e persone con animali. Per maggiori informazioni e per fissare una visita contattare in privato.",
+      "price": "420€",
+      "zone": "Trieste",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the apartment, including photos, and provides detailed information about the rent and utilities, the presence of photos and the completeness of the information suggests a high level of reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1715051639189283/",
+      "status": "active",
+      "imageUrl": "https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/543188006_1914690062754215_1292594066228619049_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aWTDEZ4IFGYQ7kNvwFd1PLw&_nc_oc=AdnVuS9qqJBjLOanUTWY8cnhMTGVsCd3Oolqo1SBo-BfcL1X3Ft9R_OSFAjZrtdK0Yc&_nc_zt=23&_nc_ht=scontent-del1-2.xx&_nc_gid=-HA_rIUX89ELINRysJo7pA&oh=00_AfbF0W1OsdAFnAF1yrEEmAoZva4f_ECcEKoQL8FV9woF0g&oe=68C3C082"
+    },
+    {
+      "id": "267b5f64-9329-81ee-9f22-ee0e29206538",
+      "title": "Single Room for Rent in Shared Apartment in Trieste Zone",
+      "overview": "A single room is available for rent in a shared apartment in the Trieste zone, with a monthly rent of 420€ excluding light and gas expenses. The apartment has 3 bedrooms, a kitchen, living room, and bathroom. The room is fully furnished and has access to a shared balcony.",
+      "description": "🏠 Stanza singola in Appartamento condiviso - Zona Trieste 📍Via Alfredo Casella 49 🗓️ Disponibile da ottobre 💰 420€ spese luce e gas escluse Si affitta una stanza singola luminosa e completamente arredata, in appartamento da condividere con una ragazza di 22 anni ed un ragazzo di 27 anni. Zona Quartiere Trieste, ben collegata da mezzi pubblici e vicina alla fermata della Metro B1 Libia. L’appartamento è composto da 3 camere da letto, cucina abitabile, salotto e bagno. La stanza dispone di letto singolo, armadio, scrivania, sedia da studio e accesso a balcone condiviso con la stanza affianco. 💶 Canone mensile: 420€ (450€ da gennaio) incluso di condominio e acqua, escluse spese di luce e gas. 👥 Si cercano persone pulite, educate e rispettose degli spazi comuni e non. No matricole e persone con animali. Per maggiori informazioni e per fissare una visita contattare in privato.",
+      "price": "420€",
+      "zone": "Trieste",
+      "zoneMacro": "Parioli",
+      "rooms": "3",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the apartment and the room, includes photos, and specifies the rent and expenses. The contact information is also available, and there are no indicators of a scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31122635950714496/",
+      "status": "expired",
+      "imageUrl": "https://scontent.fatq1-1.fna.fbcdn.net/v/t39.30808-6/543188006_1914690062754215_1292594066228619049_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aWTDEZ4IFGYQ7kNvwHx5fdW&_nc_oc=AdkJEJYr2et5bc3-vphnC4bhH9Ucxbayyq1t6dRLJj81JoSGYCWAYGeNPAKib4dqtfQ&_nc_zt=23&_nc_ht=scontent.fatq1-1.fna&_nc_gid=9_tloKB4nrrAhcGRNqh62Q&oh=00_Afa0dPQ75rBjhrJxLIg058ds9X5ybGFl6Vp4w3UFecndeA&oe=68C3C082"
+    },
+    {
+      "id": "267b5f64-9329-816a-9145-dc57df9f8cd3",
+      "title": "Single room for rent in Rome",
+      "overview": "Single room for rent in Rome, furnished, bright and spacious with balcony",
+      "description": "A Roma si affitta stanza singola arredata luminosa e ampia con balcone Prezzo modico Tutte le spese incluse Quartiere Aurelio Boccea [EMAIL CENSORED]",
+      "price": "N/A",
+      "zone": "Aurelio Boccea",
+      "zoneMacro": "Aurelio",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing has some information about the room and location, but lacks photos and has a relatively low level of detail, which reduces its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-07T22:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739427536256214/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-81d0-b230-c73bd064586e",
       "title": "Single Room for Rent in San Lorenzo",
@@ -6903,7 +6971,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T12:58:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1338727194585638/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/541332650_4247561695479486_1016862019602418378_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=EByXyxpfA_kQ7kNvwHnvp9J&_nc_oc=AdmUmpYlVTwcdg3PYAbleh3t-WiY-KkOpIKMMW0dsZDq4Mh8svN3id39jsAYEFYZpUI&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=eUArTWrXIsql3QM3q6XJsQ&oh=00_AfWLNVhIDwOivVrnO3z1RZ9BHjKuKSRmajbEf18bwTE3tQ&oe=68BCB614"
     },
     {
@@ -6954,7 +7022,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T10:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1338605427931148/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -7294,7 +7362,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T21:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/1800846897105933/posts/2147317909125495/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/541166965_2710798552654607_8072127196083592757_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XOz7tvE6aRAQ7kNvwE6YAR8&_nc_oc=AdlAdS9TDKeCelOB2mG9gAZEu2HnCDBD01OvKXM7Gq6y7zrvrN2fkQH7QnhPApvy5ls&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=toyBAuzyxTC3whR0RdjJDw&oh=00_AfW-5Fmt5_SPBzu3sJZ7M4ChkiPioc4cO-qYzbeXvuG8IA&oe=68BBEFEA"
     },
     {
@@ -7719,7 +7787,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T14:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1710272916333822/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fvns6-2.fna.fbcdn.net/v/t39.30808-6/541415466_24667414042882419_6736191841548831008_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UfPKFemFGW8Q7kNvwGsACqZ&_nc_oc=AdnIWWGHA2o0ISk4VrNFHoq9Kza9CVgvXYtHX7Xe0xF6qoF5DS_v8n996zMX3Y3ernqtdWmaISxkX6cxVMDR-9GF&_nc_zt=23&_nc_ht=scontent.fvns6-2.fna&_nc_gid=1JJ-t8uGKQCwRx3TsWRcJw&oh=00_AfVOIGLnhoxeNvqvIEWteSg_y6BdmhFQMXsOCM_vxyiFGg&oe=68BB6270"
     },
     {
@@ -9249,7 +9317,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T08:32:00.000+00:00",
       "link": "https://www.facebook.com/groups/633912783969846/posts/1709310946430019/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent.fpnq7-2.fna.fbcdn.net/v/t39.30808-6/540012466_10237506574034433_2835005722957085751_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kEqRnws9KDkQ7kNvwFGgKji&_nc_oc=Admhx1NU9FGKiUILnkJ2yP8_us7Wi1H4PHfdVhamFQ7LgttNKx5N4vwMucuqGC8ZiTF6oPvVQhCZeOwR55txG37Y&_nc_zt=23&_nc_ht=scontent.fpnq7-2.fna&_nc_gid=HRQEfIcqSs5WZMZCKY6tzQ&oh=00_AfW13yeGVpil4Hp48xCyKbqyY0vRH5NTNEy4Zi9x8AjEBg&oe=68B9BF98"
     },
     {
