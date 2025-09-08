@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-08T21:31:58.231Z",
+  "generatedAt": "2025-09-08T22:33:49.950Z",
   "city": "london",
-  "count": 749,
-  "totalRejectedCount": 1076,
+  "count": 752,
+  "totalRejectedCount": 1080,
   "results": [
+    {
+      "id": "268b5f64-9329-8117-9a75-d82dbdc8d795",
+      "title": "Room for rent in Limehouse",
+      "overview": "Room available for rent in a shared flat in Limehouse, near Canary Wharf",
+      "description": "Hi friends, I am moving out of my room in Limehouse (E14) as I am moving in with my friend. It is 5 min walk from Limehouse DLR and 20 mins walk from Canary Wharf Elizabeth Line. There is a Lidl 5 mins walk away and plenty of gyms nearby in Canary Wharf. You’ll be sharing with 3 others, who are working professionals and pretty chill. The agency for this property is pretty responsive to any issues and everything has been smooth so far. Key Takeways: - £975 all bills included - Sharing Bathroom with 1 other person. The others have an ensuite - Available ASAP. I’m flexible to move whenever the new person would like to move in but ideally by end of September/early October - Cleaner once every 3 weeks for all shared spaces, including this toilet - 12 month contract with break clause if you decide to move - 1 month deposit protected in DPS scheme - Dishwasher and Washing Machine/ Dryer in house - The agency will sort out the paperwork and I can handover the keys. They aren’t too stringent on checks compared to other places - MUST be a single professional and cannot accept couples, students, or tenants with pets NB: The 3rd picture with the dark green bedding is how my room currently looks now. Will be arranging viewings in the coming few days!",
+      "price": "£975",
+      "zone": "Limehouse (E14)",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and amenities, and includes a photo, which increases reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T22:32:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2119672731900939/",
+      "status": "active",
+      "imageUrl": "https://scontent.fhyd2-3.fna.fbcdn.net/v/t39.30808-6/544884430_24494862173455508_6650234911230865149_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Cbt5f8Rn_U8Q7kNvwH_i6Vc&_nc_oc=AdmMhS2DLKRpXucePcem0zrTRQlOcy3lJoCxJc-_Ta8ppFt5zUCpBAecBv3pfQ5CIBs&_nc_zt=23&_nc_ht=scontent.fhyd2-3.fna&_nc_gid=ldsra4ce0OxXpVCe7s3ZZQ&oh=00_Afb-ccYT2Bzhks8T0oIDyhM7tleBQv3DevXijX37REB9ag&oe=68C53028"
+    },
+    {
+      "id": "268b5f64-9329-8164-8ad1-c1aee823c70f",
+      "title": "Studio apartment in Harrow for rent",
+      "overview": "A studio apartment in Harrow is available for rent, with all bills included, for 800 pounds",
+      "description": "studio in Harrow £800 all bills included",
+      "price": "800",
+      "zone": "Harrow",
+      "zoneMacro": "Harrow",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but it lacks photos and detailed information, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T22:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1847811355818160/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-81dd-a0cb-f03023e60faa",
+      "title": "Room for Rent in Kingsbury for Single Hindu Male",
+      "overview": "A live-in landlord is renting out a single room in a shared Hindu Gujarati/Hindi speaking house in the Kingsbury area, with all bills included and a vegetarian only environment",
+      "description": "Live in vaishnav cook reduced rent Are you still in need of a place to stay? I am a Gujarati, a live-in Landlord at HA3 Kingsbury area. 🇳🇪 🇳🇪 Jay Siya Ram All rooms for SINGLE HINDU MALE PREFERRED ●SINGLE ROOM (BoxRoom) £650PM plus 1 months deposit ALL BILLS INCLUDED FOR SINGLE MALES PREFERRED per Room. The house is Sharing in HINDU Gujarati/Hindi speaking house. VEGETARIAN ONLY The environment is a very Spritual & peaceful one. This is a Home from Home accommodation. ● There is parking space for upto 3 cars in the drive way. ● weekly cleaner cleans communal areas. ***This accommodation is NOT SUITABLE for SWAMINARAYANS*** [VAT NUMBER CENSORED] A link to my property. https://www.spareroom.co.uk/flatshare/greater_london/kingsbury/16458710utm_source=copy_link&utm_medium=social_share&utm_campaign=advert_sha",
+      "price": "£650PM",
+      "zone": "Kingsbury, HA3",
+      "zoneMacro": "Brent",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides detailed information about the room, price, and environment, and includes a phone number for contact, but lacks photos, which reduces the reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T22:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1429526821468169/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "268b5f64-9329-818e-a5bd-dc65472ca6bd",
       "title": "Luxury 1-bedroom flat for rent in North West London",
@@ -817,7 +868,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T10:40:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1428799898207528/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -1106,7 +1157,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T16:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1428521748235343/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -6427,7 +6478,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T20:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1843137702952192/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541706652_4208588462800812_1987632015322283211_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=IS4WaNv9t9gQ7kNvwEZEkOa&_nc_oc=AdmZe7qTLkw2_2f0KnqYVqGcHmm3BRy5fglbTzAV6qHBjopQmt39s9sbugw5qNws9DY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yMY2lUMyb4q7NzSJIcZEcQ&oh=00_AfUanXwYpLD2XsdGRF_AZI5WWEqlmaFT-W3xxuK1Ofv-8g&oe=68BD41B2"
     },
     {
@@ -9742,7 +9793,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T22:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1422714732149378/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -9793,7 +9844,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-30T21:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/I6680/posts/24241840238818341/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": "https://scontent-del2-1.xx.fbcdn.net/v/t39.30808-6/540623092_24221214884214389_1424066433656748263_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=jshM7CjW3n8Q7kNvwEbhwaS&_nc_oc=AdnxIZTA6CvpgZfZs1KxDmygIMUrjT1pcS7FktZmNz032nTM_rspxBpeKmyHp7uFQ7Q&_nc_zt=23&_nc_ht=scontent-del2-1.xx&_nc_gid=uCbqyCdmMIqnrRTkoleuiQ&oh=00_AfWftvywNHf5vqWZAU_puis-SQvUfZI5cPm0-kjyv8q_eA&oe=68B932A0"
     },
     {
