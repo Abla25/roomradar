@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-08T06:42:39.800Z",
+  "generatedAt": "2025-09-08T07:33:15.371Z",
   "city": "roma",
-  "count": 861,
-  "totalRejectedCount": 2630,
+  "count": 863,
+  "totalRejectedCount": 2640,
   "results": [
+    {
+      "id": "268b5f64-9329-814d-a472-dfd4efa02983",
+      "title": "Room for rent in Cornelia, Metro A, €650 all inclusive",
+      "overview": "A single room with a double bed and private balcony is available for rent in a recently renovated apartment with an elevator, exclusively for a worker from outside the city, with a monthly fee of €650 all inclusive",
+      "description": "Cornelia Metro A €650 TUTTO INCLUSO Camera singola con letto matrimoniale e balcone privato Esclusivamente per ragazzo lavoratore fuorisede Cauzione una mensilità Appartamento di recente ristrutturazione con ascensore In zona ricca di attività commerciali di ogni genere Metro A, capolinea bus Atac e Cotral a 650 metri Ulteriori info in chat",
+      "price": "€650",
+      "zone": "Cornelia, Metro A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some information about the apartment and the rent, but there are no photos and the contact information is not publicly available, which raises some concerns about the reliability of the listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T07:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2152557381934881/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-81c0-9428-de57048dfc95",
+      "title": "Apartment with two bedrooms for rent in San Lorenzo",
+      "overview": "A two-bedroom apartment with four single rooms, two bathrooms, and a kitchen is available for rent in San Lorenzo, starting from October, for 550€ per month, including utilities, reserved for women",
+      "description": "Ciao! Il nostro appartamento con due camere da letto, che comprende quattro camere singole, due bagni e una spaziosa cucina abitabile, sarà disponibile a inizio ottobre. L'affitto è di 550 €, utenze incluse, e si trova a San Lorenzo. Questo annuncio è riservato alle donne. Per maggiori informazioni, inviaci un messaggio!",
+      "price": "550€",
+      "zone": "San Lorenzo",
+      "zoneMacro": "San Lorenzo",
+      "rooms": "4",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some details about the apartment, but there are no photos and limited contact information",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T07:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1343232137468477/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "268b5f64-9329-8105-a61e-e6cdfba57e67",
       "title": "Studio for rent in Cassia Tomba area",
@@ -2755,7 +2789,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-05T18:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1341306044327753/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
