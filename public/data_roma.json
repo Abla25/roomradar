@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-08T16:46:54.083Z",
+  "generatedAt": "2025-09-08T17:29:42.464Z",
   "city": "roma",
-  "count": 915,
-  "totalRejectedCount": 2766,
+  "count": 916,
+  "totalRejectedCount": 2770,
   "results": [
+    {
+      "id": "268b5f64-9329-8169-b4ce-c8fb69b6fb6c",
+      "title": "Attico for rent in Gregorio VII area",
+      "overview": "Elegant attic apartment located in a prestigious historic area, fully furnished and equipped with a large terrace",
+      "description": "AFFITTO Zona Gregorio VII a due passi dalla Basilica di San Pietro, quartiere storico e prestigioso, fornito da ogni tipo di servizio e ben collegato da mezzi pubblici, poco distante troviamo la stazione del treno San Pietro. Precisamente in Via San Sotero: proponiamo in locazione in un elegante palazzina anni 60' con ascensore, appartamento al quinto e ultimo piano di mq 45 circa, splendido attico completamente arredato, con terrazzo perimetrale di 150mq circa, molto luminoso, panoramico. Composto da: ingresso, zona pranzo, cucina con accesso sul terrazzo, camera da letto con parquet e accesso sul terrazzo, e servizio con vasca. Richiesta Euro 1.250,00 Contratto 3+2 Le spese di condominio che ammontano ad Euro 150,00 includono: servizio acqua, riscaldamento, tari e condominio. Solo referenziati No per uso ricettivo. Per ulteriori informazioni e per visionarlo contattaci Musicasa Immobili Musicasa Srl Agenzia Immobiliare ☎️ 06-6897148 📲 [PHONE NUMBER CENSORED] 🌐 www.musicasa.it 📧 [EMAIL CENSORED]",
+      "price": "1250.00",
+      "zone": "Gregorio VII",
+      "zoneMacro": "Eur",
+      "rooms": "N/A",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides a detailed description of the property, includes photos, and has a clear contact method. The agency also seems reputable and provides additional information about the property.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T17:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/AffittoCaseRoma/posts/31133999722911452/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544848240_122168298692522848_3344436094445233945_n.jpg?stp=dst-jpg_p261x260_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gSbTnOG-4DMQ7kNvwHN03UX&_nc_oc=AdnsF_LKMxK9SzF_h8gAXARbXttCa6u-YbsEA200l3f6k7OxivLYq2qCqLIGVdtperM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=BoRhwa2Rbf4iETwl59_blg&oh=00_AfYmgmhRWqI_75Yso2tzvSxb09GBDuyNRoT1ji7DIByDtA&oe=68C4DABE"
+    },
     {
       "id": "268b5f64-9329-81f1-96e4-c8b61e6ff4f1",
       "title": "Two bedroom apartment for rent in Viale Palmiro Togliatti",
