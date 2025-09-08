@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-08T11:30:43.472Z",
+  "generatedAt": "2025-09-08T13:09:18.067Z",
   "city": "london",
-  "count": 726,
-  "totalRejectedCount": 1026,
+  "count": 729,
+  "totalRejectedCount": 1033,
   "results": [
+    {
+      "id": "268b5f64-9329-811d-937c-c32ce551e1e7",
+      "title": "Double Room for Rent Near Train Station",
+      "overview": "A double room is available for rent, suitable for two people, with a 5-minute walking distance from the train station",
+      "description": "Double room available for two girls can share boys can share in lu1 5 minutes walking distance from train station",
+      "price": "N/A",
+      "zone": "lu1",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, which are essential details for a rental listing, but it does provide a location and a brief description of the room",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T13:08:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2119370178597861/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-81f7-a527-ffe45e13277c",
+      "title": "Private landlord seeking tenant",
+      "overview": "A private landlord is looking for a clean and honest tenant for their place, no credit or background checks required",
+      "description": "I’m a private landlord I just need a clean and honest tenant for my place I do not check credit or any background check... message me if only you are ready to move in or secure the place for your move in date",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post seems legitimate, but the reliability score is not higher because there are no specific details about the property and no contact information other than a message request, and there is only one image.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T13:07:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1847471522518810/",
+      "status": "active",
+      "imageUrl": "https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/545355037_122128095560933232_5798037206934755192_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XeaNGykcopgQ7kNvwHsuXsi&_nc_oc=AdnHkUIgDqwdvXS9rg8XK7fT1wl-C2fd48HJzDFmX_9e6di5yt5mrbZLE4OBbfoS47M&_nc_zt=23&_nc_ht=scontent.fjai5-1.fna&_nc_gid=ECqRdJQEk7KlqD3glZmo6g&oh=00_AfZ7Cxs_geUaCrj2PsfplQI8uPCV-ROoxz2NRneRymWauA&oe=68C482A1"
+    },
+    {
+      "id": "268b5f64-9329-81af-8d6d-d0b9a3f94741",
+      "title": "Single Room for Rent in IG2 7SZ",
+      "overview": "A single room is available for rent, preferably for a female occupant",
+      "description": "IG2 7SZ Single Room available only girl",
+      "price": "N/A",
+      "zone": "IG2 7SZ",
+      "zoneMacro": "Redbridge",
+      "rooms": "1",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks photos, price information, and contact details, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T13:06:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1847476702518292/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "268b5f64-9329-815f-b8c9-d42354081541",
       "title": "Double room for rent in South London",
@@ -1140,7 +1191,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T07:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/181439002455412/posts/1846549072611055/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -9198,7 +9249,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-31T03:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1422786705475514/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
