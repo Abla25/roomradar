@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-08T13:39:02.896Z",
+  "generatedAt": "2025-09-08T14:33:32.146Z",
   "city": "london",
-  "count": 730,
-  "totalRejectedCount": 1037,
+  "count": 731,
+  "totalRejectedCount": 1044,
   "results": [
+    {
+      "id": "268b5f64-9329-811b-a55f-d36549e86d71",
+      "title": "Spacious 2BHK Apartment for Rent in Croydon",
+      "overview": "A 2BHK apartment with a great view, located in Croydon, is available for rent. It features a gated community, secured motorcycle parking, and a peaceful location.",
+      "description": "🏢Accommodation Available - Suitable for Couples/Boys Spacious 2BHK Apartment with an amazing view! Location: Croydon Just 10 mins walk to East Croydon Station and 15 mins to West Croydon Station. ✅️Gated community ✅️Secured motorcycle parking ✅️Peaceful & convenient location Perfect for anyone looking for comfort with great connectivity. DM for more details",
+      "price": "N/A",
+      "zone": "Croydon",
+      "zoneMacro": "Croydon",
+      "rooms": "2",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and does not provide a price, which raises concerns about its reliability. However, it provides a good description of the apartment and its location.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T14:31:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2119496378585241/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "268b5f64-9329-8141-b67c-f4b4f7ead55c",
       "title": "Studio Flat for Rent in Hammersmith",
