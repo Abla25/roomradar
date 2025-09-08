@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-08T22:33:29.890Z",
+  "generatedAt": "2025-09-08T23:33:50.801Z",
   "city": "barcelona",
-  "count": 1509,
-  "totalRejectedCount": 2513,
+  "count": 1513,
+  "totalRejectedCount": 2520,
   "results": [
+    {
+      "id": "268b5f64-9329-81e1-98fa-c91d3efbbc5f",
+      "title": "Room for Rent in Badalona",
+      "overview": "A room is available for rent in Badalona, with a minimum stay of 6 months. The room comes with a desk, large window, wardrobe, fan, sofa, and table. The building is close to metro lines L1 and L2.",
+      "description": "Buenas! Ofrezco habitación en Badalona, para ingresar en OCTUBRE. Estancia mínima 6 meses (si la convivencia va bien) Precio 450€ con gastos incluidos. La habitación cuenta con escritorio, ventana grande, placard, ventilador, canapé y mesita. Buscamos sí o sí a alguien que esté trabajando. NO SE PUEDE EMPADRONAR! No parejas. No teletrabajo. Y lo más importante que la persona que venga acepte mascotas, tenemos un perro. Metro L1 y L2 a 10’ caminando. Para más información: comunicarse por [MESSAGING CONTACT CENSORED] Solo contestaré msj de personas que estén trabajando.",
+      "price": "450€",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room, its amenities, and the terms of the rental. Photos of the room are provided, and contact information is given. The listing also specifies requirements for the tenant, such as being employed and accepting pets, which suggests a genuine rental opportunity.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T23:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1081867357042894/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccu27-2.fna.fbcdn.net/v/t39.30808-6/544736972_2180850892417358_5802335333827095468_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-gOo86xV4jMQ7kNvwFQW5T5&_nc_oc=Adk6E6uMLIVXSvb1eobyH89SsVz6fGGgeewvMJsIRV7wo7T2WgIJGfdYEpb2tJ-jF54&_nc_zt=23&_nc_ht=scontent.fccu27-2.fna&_nc_gid=C_kIcVqhnWdvlLrGOeKP_w&oh=00_AfZ40r4CbgEs0VguoWnqteJ74cVAskcAOElrlynyX_IXmg&oe=68C54537"
+    },
+    {
+      "id": "268b5f64-9329-81b1-bcf2-ed211216ad15",
+      "title": "Two rooms for rent in Sants Montjuic",
+      "overview": "Two rooms available in a quiet area, near Paral-lel metro station, with additional costs",
+      "description": "Hola, tengo dos habitaciones disponible , zona Sants Montjuic ( Metro del Paral-lel) zona tranquila 400+ gastos",
+      "price": "400",
+      "zone": "Sants Montjuic",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and detailed information, which raises concerns about its legitimacy and completeness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T23:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084493087189556/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-81b7-859f-d92847e3e304",
+      "title": "Room for rent in Via Favencia",
+      "overview": "A room is available for rent in Via Favencia, with the metro lines L3 and L4 nearby, and the tenant can move in immediately",
+      "description": "Alquilo habitación en vía favencia roquetes metro Serca L3 y L4 para entrar ya información [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Via Favencia",
+      "zoneMacro": "Nou Barris",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and specific details about the location and availability, but the price is not mentioned",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T23:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4316102635288912/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok6-2.fna.fbcdn.net/v/t39.30808-6/544843799_1307859297385650_2907239524010156201_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=o_2ZVx2atj4Q7kNvwFlbqKi&_nc_oc=AdnbSNYoMhz1_xgijTmdHmLikrAMkiUQ_aOzLEx7gb52AnfqeF_UX9DY_ZyR8AHYgfs&_nc_zt=23&_nc_ht=scontent.fcok6-2.fna&_nc_gid=n21XkJlDb9zwxMe7WQLX7Q&oh=00_AfYwDvPlpY52xqN0ipAEJTAd8p0B9Ypof-qyGF0rz6f31A&oe=68C53A6B"
+    },
+    {
+      "id": "268b5f64-9329-8115-979c-df2da6cc330d",
+      "title": "Room for rent for a single girl in Santa Coloma",
+      "overview": "A room is available for rent for a single girl in Santa Coloma, with the tenant able to move in on September 15th, and the metro line is nearby",
+      "description": "Hola! Buenas noches! Se alquila esta habitación para chica sola. Para ingresar este 15de septiembre. 📍Santa Coloma. Metro cerca es línea morada Artigues de San Adria.",
+      "price": "N/A",
+      "zone": "Santa Coloma",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and specific details about the location and availability, but the price is not mentioned",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T23:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4316582178574291/",
+      "status": "active",
+      "imageUrl": "https://scontent.fcok6-1.fna.fbcdn.net/v/t39.30808-6/545600314_24385609494441229_2164525879422854120_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5jWZMeE-owsQ7kNvwHPmKvV&_nc_oc=Adl8D-29jHMgpcuZCtzEzbAR7Ak9nCbdQJUAfsZj9RIZm9SDrFyxh08raAZl5fWXkY4&_nc_zt=23&_nc_ht=scontent.fcok6-1.fna&_nc_gid=n21XkJlDb9zwxMe7WQLX7Q&oh=00_AfYrJVYbAF8ZrNweGRd362_8HQ-950Sy3o5U3n6g-Dc9Wg&oe=68C5276A"
+    },
     {
       "id": "268b5f64-9329-812e-a3f1-d27b930231fc",
       "title": "Room for Rent for Woman in Badalona",
@@ -273,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T18:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2249806075522588/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpat2-2.fna.fbcdn.net/v/t39.30808-6/545111720_2180712829097831_569127881439222074_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-n57e0VRhC8Q7kNvwEACygv&_nc_oc=Adl5zx_G9CNiH-wmqsbs_fZQFZXC-JRrh23vmaGIHLrtxId8IN5F-T0YJl_0pjcinWZcCktEG5IMhp5GElxqFTBi&_nc_zt=23&_nc_ht=scontent.fpat2-2.fna&_nc_gid=TeTyASC9fFrCdHwUpFa2Rw&oh=00_AfZ_K8Yzg9LDEgPnRhhH0PzOYUQI28DMm4LSeONd1eT2cg&oe=68C4FC61"
     },
     {
@@ -290,7 +358,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T18:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084339193871612/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -902,7 +970,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T22:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083746817264183/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd8-1.fna.fbcdn.net/v/t39.30808-6/545375147_24377727295229449_835014986334303278_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UKLoL4DDFDEQ7kNvwFQMgiK&_nc_oc=AdkbtXVXUwub4ffzyIDPCJmluMPMZkyg7E-Mgbw4UTaQLiYU-rc1mwQU3EAzE62iECA&_nc_zt=23&_nc_ht=scontent.famd8-1.fna&_nc_gid=tuUBZCApyW8eltLlziIZrg&oh=00_AfZHtGxdeY9TDIHuQrIXTzY_u1KT1ddqxX5qciPN4fMRtA&oe=68C3EF08"
     },
     {
