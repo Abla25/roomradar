@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-08T13:09:18.067Z",
+  "generatedAt": "2025-09-08T13:39:02.896Z",
   "city": "london",
-  "count": 729,
-  "totalRejectedCount": 1033,
+  "count": 730,
+  "totalRejectedCount": 1037,
   "results": [
+    {
+      "id": "268b5f64-9329-8141-b67c-f4b4f7ead55c",
+      "title": "Studio Flat for Rent in Hammersmith",
+      "overview": "A bright and stylish fully furnished studio flat in the heart of Hammersmith, available for rent",
+      "description": "📍 Hammersmith, W6 – Studio Flat A bright and stylish fully furnished studio flat in the heart of Hammersmith, just 2 minutes from Ravenscourt Park Tube and 5 minutes from Hammersmith Station. This charming studio features high ceilings, wooden flooring, immaculate furnishings, and plenty of natural light. The property also offers free use of a washing machine and tumble dryer, secure bike storage, and parking available. Rent: £1,430 pcm (£320 pw) Available now. Perfect for students, professionals, or couples looking for a modern home in a fantastic location. Arrange a viewing today.",
+      "price": "£1,430 pcm",
+      "zone": "Hammersmith, W6",
+      "zoneMacro": "West London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post provides a detailed description of the property, includes photos, and has a clear price and location, indicating a high level of reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T13:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24310813375254360/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/545547692_1815518109392563_7027738186400755168_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=cLVxOfJWxSIQ7kNvwFR1ZGC&_nc_oc=AdlkiU6hbsSIPRCxgXqw4jJDDJUSMImOJIp1ytbwub9VfvdaewcGXPjf0UeTQL5lieI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=47ir8UXdLClyADj325qIYw&oh=00_AfYqEF6jP_UahVlMAlo6yg6PFUlP0ebALvmCOdJvlqCPpg&oe=68C4A76A"
+    },
     {
       "id": "268b5f64-9329-811d-937c-c32ce551e1e7",
       "title": "Double Room for Rent Near Train Station",
