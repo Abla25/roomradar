@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-08T20:47:37.310Z",
+  "generatedAt": "2025-09-08T21:31:58.231Z",
   "city": "london",
-  "count": 747,
-  "totalRejectedCount": 1075,
+  "count": 749,
+  "totalRejectedCount": 1076,
   "results": [
+    {
+      "id": "268b5f64-9329-818e-a5bd-dc65472ca6bd",
+      "title": "Luxury 1-bedroom flat for rent in North West London",
+      "overview": "A 1-bedroom luxury flat is available for rent in North West London, with a furnished interior and great building amenities, including a corner store and Co-Op nearby.",
+      "description": "Renting a 1-bedroom luxury flat in North West London on Finchley Road for £1,900 per month. 12 minutes walk from Golders Green station and 5-7 minutes bus access to Cricklewood, Finchley Road and West Hampstead Station. Furnished (Sofa, bed, kitchenware and coffee table). Great building with a corner store and a Co-Op within 25 seconds walk. 10-minute walk to Hampstead Heath. Available immediately.",
+      "price": "£1,900 per month",
+      "zone": "North West London",
+      "zoneMacro": "West London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a detailed description of the property, including its location, amenities, and price, along with a photo of the property, which suggests a high level of completeness and authenticity, with no apparent scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T21:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24312821025053595/",
+      "status": "active",
+      "imageUrl": "https://scontent-pnq1-2.xx.fbcdn.net/v/t39.30808-6/544903934_25416703677931513_3478832005068498028_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=aSYWTKdirKUQ7kNvwFqLSzQ&_nc_oc=AdkFBIV8hxzPIeWfKrj0QK35N4ysnu-XpxjCeJ9-1Y2glxE_nVW_FgEeoeil0l2s8Vmkp16etSvWVcbHI4K3Q933&_nc_zt=23&_nc_ht=scontent-pnq1-2.xx&_nc_gid=keJerv5sOstpNHF9ZH9fmA&oh=00_AfY4oHEyD_ffqb6Kd7vIwxA6G8i-qwJBAhkrHJ0SZXfWeQ&oe=68C4F8DD"
+    },
+    {
+      "id": "268b5f64-9329-81ef-b199-cac436d00461",
+      "title": "Stunning Couple Room for Rent in 3-Bed Apartment",
+      "overview": "A beautiful couple room is available for rent in a 3-bedroom apartment, shared with 2 other tenants. The apartment is located near Wembley Central and North Wembley stations, with easy access to London. All amenities, including shops and cafes, are nearby.",
+      "description": "🤩 Quarto de casal deslumbrante para alugar em um 🏡 apartamento de 3 quartos. Apenas compartilhando com mais 2 inquilinos 🥳 📍 Fácil acesso para qualquer lugar de Londres a partir das estações Wembley Central ou North Wembley com as linhas Bakerloo e Overground. Apenas 7 minutos de distância – HA9 7LL. 🏬 Todas as comodidades de Wembley Central e North Wembley bem pertinho (Tk Maxx, Primark, supermercados e cafés). 💰 Todas as contas já incluídas no preço. Pagamento semanal, quinzenal ou mensal. £220 por semana. 🤝🏼 Para melhor acomodar você, pedimos apenas 2 semanas de depósito + 2 semanas de aluguel adiantado. 👇 Entre em contato hoje mesmo https://wa.me/message/CZJPDXWFYXUYN1",
+      "price": "£220 per week",
+      "zone": "Wembley, London (HA9 7LL)",
+      "zoneMacro": "Brent",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room and apartment, photos are available, and contact information is provided. The payment terms and deposit requirements are also specified, which adds to the reliability of the listing. There are no apparent scam indicators, which justifies a high reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T21:29:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1429477108139807/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544931893_1078796061092025_5750642290123986003_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Agwz07615lkQ7kNvwHgPUXA&_nc_oc=AdmQkFIyeqPxwAWrI6W49aTzWK0rdPTFHw7y2sciUbPGHXu-YaEnCouivQhJkhcQT4o&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=u6PjQ-JU4xPs6Ux8ubYgjA&oh=00_AfZaTHX1d5PmnBQ2cT7rd9bwPtqkAjR2K59CDAqd5hOGSQ&oe=68C51D4C"
+    },
     {
       "id": "268b5f64-9329-8188-a2fe-faad2aa5b47d",
       "title": "Rooms Available in E12 Area",
@@ -103,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T20:41:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1429478011473050/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/545780747_1078799387758359_4674839881828318870_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=14dO0iokGF0Q7kNvwEueboU&_nc_oc=AdktzqCtE57naH0cIsdGGL2v_s5uvUSVZRYkJAWN-VWPgvddebCqP2LgXkrkDhcSgvc&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=i_2dwODtphz4oImwDmoQrw&oh=00_AfakPb8w5tHx3iVy1-AtruJ_yv2t1XHgPwoumhcyZ7aXfw&oe=68C4EAC3"
     },
     {

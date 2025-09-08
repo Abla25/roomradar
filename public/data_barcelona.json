@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-08T20:47:16.913Z",
+  "generatedAt": "2025-09-08T21:31:31.853Z",
   "city": "barcelona",
-  "count": 1503,
-  "totalRejectedCount": 2501,
+  "count": 1506,
+  "totalRejectedCount": 2506,
   "results": [
+    {
+      "id": "268b5f64-9329-810d-8af7-ca061b594164",
+      "title": "Room for Rent for a Male in a Quiet Apartment",
+      "overview": "A room for rent in a quiet apartment near Plaza España, suitable for a male",
+      "description": "Alquilo habitación para chico piso trankilo muy limpio serca plaza España tel [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "Plaza España",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post contains some relevant information, but lacks photos and detailed description, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T21:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2192700141244055/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-81b0-b029-e25f5113729e",
+      "title": "Exterior room with terrace for rent",
+      "overview": "An exterior room with a terrace is available for rent",
+      "description": "Alquilo habitación exterior con terraza.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes an image and a clear title, which increases its reliability. However, the price and zone information are not available.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T21:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2249799718856557/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel5-2.fna.fbcdn.net/v/t39.30808-6/545349108_122145237194826546_2804170696175918896_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ox-4QHhp-swQ7kNvwErah39&_nc_oc=AdmFkoenWY9qW9M9I-79kw-AQQ1SO6qk9bBP8RgMr1Kr0BfGr9ZIeHe4406VGKUYzGY&_nc_zt=23&_nc_ht=scontent.fdel5-2.fna&_nc_gid=RByGlw7RDKzQEvYls5zdNg&oh=00_AfbSy-CdqytdjwAlE9zShPUgadGzoZdG7AHji1cFI7lCKw&oe=68C52376"
+    },
+    {
+      "id": "268b5f64-9329-811a-a609-eebeadb00adb",
+      "title": "Cozy loft apartment for rent in Barcelona",
+      "overview": "A cozy loft apartment is available for rent near Plaça d’Espanya in Barcelona",
+      "description": "🏠 Cozy Loft for Rent near Plaça d’Espanya – Barcelona!",
+      "price": "N/A",
+      "zone": "Barcelona",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear title, a summary, and an image, which increases its reliability. However, the price and room information are not available.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T21:21:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2249907642179098/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel5-3.fna.fbcdn.net/v/t39.30808-6/544620705_31268722492773574_384130847662934848_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=8-rFCr9gMNkQ7kNvwH5KxBZ&_nc_oc=Adnzmx_EufBazYC4pCeaV2x3371lseYuVSc_xxh7u2cAB8hSwlVOaE7uPC156joETvU&_nc_zt=23&_nc_ht=scontent.fdel5-3.fna&_nc_gid=MOlVgm6r9AdcY2yAP6B59g&oh=00_AfYYiB5EJ0kWnBuME6oqTV-JpPFFdamm8rXKv8rDwsLMGg&oe=68C51944"
+    },
     {
       "id": "268b5f64-9329-8116-a24a-d7513628acfd",
       "title": "Interior room for rent",
@@ -120,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T18:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2192622621251807/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/543508631_122145239342826546_5122719376800003412_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=XNF3Gb6y03kQ7kNvwF5_msy&_nc_oc=AdnkrMNaQAAaMjojSP_V_KcuL8r62x3sQa9sYwnwF2tOf1sZoNlr1MLEU569OX_sOuM&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=MWukB9AROZOEYG_bl9epLg&oh=00_AfZz0fqXxlwWdMgo90QtBA5oLLQ9vC1NMqXQENoP-5Hu0g&oe=68C4DBAD"
     },
     {
@@ -18378,7 +18429,7 @@
       "datePublished": "",
       "dateAdded": "2025-08-25T19:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2180991459081590/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
