@@ -1343,8 +1343,20 @@
     "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739504969581804/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-08T01:59:09.282370"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1343180767473614/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-08T05:24:42.063542"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1343172507474440/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-08T05:24:42.065359"
+    },
+    "https://www.facebook.com/groups/romaffitti/posts/1343134597478231/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-08T05:24:42.067535"
     }
   },
-  "total_rejected_count": 2622,
-  "timestamp": "2025-09-08T04:32:09.490083"
+  "total_rejected_count": 2625,
+  "timestamp": "2025-09-08T05:24:20.555315"
 }

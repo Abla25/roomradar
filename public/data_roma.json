@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-08T04:33:07.705Z",
+  "generatedAt": "2025-09-08T05:26:52.532Z",
   "city": "roma",
-  "count": 860,
-  "totalRejectedCount": 2622,
+  "count": 861,
+  "totalRejectedCount": 2625,
   "results": [
+    {
+      "id": "268b5f64-9329-8105-a61e-e6cdfba57e67",
+      "title": "Studio for rent in Cassia Tomba area",
+      "overview": "Studio apartment available for rent in Cassia Tomba area, near Tomba di Nerone, starting from October",
+      "description": "Affitto monolocale zona cassia tomba di Nerone disponibile dai primi di ottobre, foto e prezzo in privato",
+      "price": "N/A",
+      "zone": "Cassia Tomba",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks essential information such as price and photos, and the contact method is private, which raises concerns about the listing's legitimacy.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T05:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1714727822554998/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "267b5f64-9329-8187-993f-e3e905ac8911",
       "title": "Room for rent in Marconi zone",
@@ -851,7 +868,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T12:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739035192962115/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
