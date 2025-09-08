@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-08T14:33:12.315Z",
+  "generatedAt": "2025-09-08T15:37:56.381Z",
   "city": "barcelona",
-  "count": 1486,
-  "totalRejectedCount": 2467,
+  "count": 1489,
+  "totalRejectedCount": 2472,
   "results": [
+    {
+      "id": "268b5f64-9329-81c3-9094-c5ae9c468942",
+      "title": "Room for rent near Santa Eulalia metro station",
+      "overview": "A room is available for rent near Santa Eulalia metro station, with a double bed, TV, and expenses included for 400 euros, suitable for one person",
+      "description": "Se alquila habitación metro santa Eulalia L1 muy cerca da metro para un chico 400 euros gastos incluido cama doble con TV Habitación",
+      "price": "400 euros",
+      "zone": "Near Santa Eulalia metro station",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The listing provides specific details about the room and price, but lacks photos, which affects its reliability and trustworthiness.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T15:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2192505701263499/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "268b5f64-9329-812c-b451-df3691d1aa9b",
+      "title": "Room for rent in central Barcelona",
+      "overview": "A room is available for rent in the central area of Barcelona",
+      "description": "Room for rent central Barcelona",
+      "price": "N/A",
+      "zone": "Central Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post has a clear title and summary, and includes a photo, but the price is not specified",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T15:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2249671565536039/",
+      "status": "active",
+      "imageUrl": "https://scontent.famd5-3.fna.fbcdn.net/v/t39.30808-6/545667600_10163085883712192_1670855582746511419_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=mKfYB0D_xFgQ7kNvwFB_dbM&_nc_oc=AdnjeJNcLmTUm5AorOzdCaAOMyd5j8L1JDJ6jThtYgX0B7B-BbkJw84A5nSn3vikDKE&_nc_zt=23&_nc_ht=scontent.famd5-3.fna&_nc_gid=6XeTiT3ti5ZhyUtDSJ1QJQ&oh=00_Afaazlnxtf5IV6Ok0gQBab596dRCKy_rIKcozMGkMTvIVw&oe=68C4D08D"
+    },
+    {
+      "id": "268b5f64-9329-815b-989b-ff68863d0c15",
+      "title": "Spacious Room for Rent in El Putxet",
+      "overview": "A comfortable individual room with direct sunlight in a familiar apartment in the El Putxet neighborhood, furnished with a single bed, study desk, and a mobile clothes rack",
+      "description": "AVAILABLE NOW - Long Term Spacious, comfortable individual room, with direct sunlight. The apartment has a balcony in the El Putxet neighborhood. Familiar apartment. It is furnished with a single bed, study desk, and a mobile clothes rack. Quiet area with excellent public transport connections. 550€ /month, all expenses included",
+      "price": "550€",
+      "zone": "El Putxet",
+      "zoneMacro": "Sant Martí",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, a specific price, and photos of the room, making it a reliable listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T15:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4316351838597325/",
+      "status": "active",
+      "imageUrl": "https://scontent.frdp5-1.fna.fbcdn.net/v/t39.30808-6/545028915_2165177840643177_2847908412798030902_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=OjlLS_JocUMQ7kNvwGt2eoh&_nc_oc=Adk8wkhxFAk5aqeejmNnwn1gKbhJVSIBWnPLe6MyDWiJNYp_gnVyP8p-H-ExKs9gy1s&_nc_zt=23&_nc_ht=scontent.frdp5-1.fna&_nc_gid=Phn3kWYtIZcwgJXkL3qkLw&oh=00_AfZW1xQHRPMpzB-jEThFgOuc7SUgHk6r0g3IM__lsSXBJQ&oe=68C4C0DC"
+    },
     {
       "id": "268b5f64-9329-81f0-ac74-e249d15baff9",
       "title": "Room for rent for a small person",
@@ -1633,7 +1684,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-06T19:16:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2248208325682363/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh4-1.fna.fbcdn.net/v/t39.30808-6/544805615_10225919807376917_2202619523932520231_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=p2K-65SKY5IQ7kNvwGKI_1G&_nc_oc=AdloL9X99NI1qdVm-tcfJLyTqlslXkz_8LvkPMjzCRk_YxfaL1aBcSGNBURUw1d9Vww&_nc_zt=23&_nc_ht=scontent.fluh4-1.fna&_nc_gid=S12JatkClG1v6kP69hRzWA&oh=00_AfaoqZ3f_vyVOcVGBr1iW7T93lUTObh5-RPQlt43STJB7g&oe=68C243D9"
     },
     {
@@ -5220,7 +5271,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T16:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080362430935955/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
