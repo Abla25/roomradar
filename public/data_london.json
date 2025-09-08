@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-08T10:57:08.260Z",
+  "generatedAt": "2025-09-08T11:30:43.472Z",
   "city": "london",
-  "count": 724,
-  "totalRejectedCount": 1025,
+  "count": 726,
+  "totalRejectedCount": 1026,
   "results": [
+    {
+      "id": "268b5f64-9329-815f-b8c9-d42354081541",
+      "title": "Double room for rent in South London",
+      "overview": "A double room is available for rent in a maisonette located in South London, close to Tooting Broadway Station, with an open-plan kitchen and living area, and a balcony with a garden",
+      "description": "✨ Double Room in South London – Available 13th November ✨ Hi everyone! I’m Mica, the current tenant, and I’m looking for someone to take over my tenancy in a South London maisonette. 📍 Location 10 min walk to Tooting Broadway Station (Northern Line) Close to Tooting High Street (Sainsbury’s right by the tube) 💸 Rent & Costs Rent: £620 PCM (paid on the 13th) Deposit: £653.84 Bills: approx. £100/month 🏡 The Room & Flat Spacious unfurnished double room Maisonette managed by Foxtons Open-plan kitchen/living area with balcony Balcony with spiral staircase to garden Bedrooms/bathroom/living space are 15 steps up Doorbell system (no intercom) 👯 Housemates You’ll be living with two WOC in their late 20s/early 30s – Halema and Yoseol. 🌈 Looking for someone who is: Must be: Female or non-binary 25+ Preferable (not a dealbreaker): POC If this sounds like the right fit for you, please DM me abit yourself and we can arrange a viewing 💌 — Mica",
+      "price": "£620",
+      "zone": "South London",
+      "zoneMacro": "South London",
+      "rooms": "N/A",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the room, location, and amenities, and includes a photo of the room, which suggests that it is a genuine and trustworthy listing, and the tenant is looking for a specific type of person to take over the tenancy",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T11:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2119386345262911/",
+      "status": "active",
+      "imageUrl": "https://scontent.fknu1-2.fna.fbcdn.net/v/t39.30808-6/545645955_1457558225496124_8138592363109725570_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=bihh9HTp0pEQ7kNvwGSW13c&_nc_oc=AdmVt8pTn47-U8LnP70snSfdgCSGqbVtB5O4wh5HhmhhyIvmKRLCHL2GZ1apj03jwoOZoorcWaguMtEjpO-b0pUr&_nc_zt=23&_nc_ht=scontent.fknu1-2.fna&_nc_gid=GhAQwRsHrvD--nf2UWPJ0g&oh=00_AfZJ1ap8hE88x3vWohMyVRe6mGpeMP04nfwEeavMmmcpUQ&oe=68C487CD"
+    },
+    {
+      "id": "268b5f64-9329-817c-abc6-f898712e7df2",
+      "title": "Double room for rent in South West London",
+      "overview": "A bright and spacious double room is available for rent in a flat located in South West London, close to Colliers Wood and Mitcham, with modern electric heated flooring and private parking",
+      "description": "Bright very spacious double room in South West London for a young working professional female. - Location Colliers Wood / Mitcham border - In between Wimbledon and Tooting - on the Northern line so very convenient getting anywhere in London. - Very private, only 2 rooms in a flat. - Spacious and cosy double room. - Fully furnished. New furniture. - Modern ELECTRIC HEATED FLOORING technology in the whole apartment - Very well kept and beautiful gated development with CCTV cameras - Private assigned parking space - Ultrafast broadband - Quiet and very secure Walking distance to Colliers Wood tube station (Nothern Line), Phipps Bridge Tram, well connected with plenty of busses. Just a few minutes to Tandem shopping centre, all supermarkets around: Lidl, Aldi, Asda, Sainsburys, M&S, Mitcham town centre, gyms. The area has some of London's best parks (Morden Hall ~ 10min walk) and the nearby food market of Abbey Mills. Single occupancy - £980 p/m all bills included.",
+      "price": "£980",
+      "zone": "South West London",
+      "zoneMacro": "Merton",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing provides detailed information about the room, location, and amenities, and includes a photo of the room, which suggests that it is a genuine and trustworthy listing",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T11:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2119390318595847/",
+      "status": "active",
+      "imageUrl": "https://scontent.fknu1-6.fna.fbcdn.net/v/t39.30808-6/545008089_31659751230282503_4692150056045571141_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NK5ewsxroLIQ7kNvwF_b5JX&_nc_oc=AdnQBj3BsFXi5zVb81GcxsdvY8w0zjbn8DKCX_UakUVCiyD0NfosxLZwJbbeKPUXJusYxSbRGp5Wrf4XDsJtDhmc&_nc_zt=23&_nc_ht=scontent.fknu1-6.fna&_nc_gid=xXr2Lof0h3mnHAawcy4Ngw&oh=00_AfYLhCoJ4VUoeDlRSMacV41Lubi92eclkFLnNPObjDGH8A&oe=68C47798"
+    },
     {
       "id": "268b5f64-9329-8137-9997-f093354ce1dd",
       "title": "1-bedroom flat for rent in Kensington",
@@ -545,7 +579,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T17:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2118827521985460/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbbi6-1.fna.fbcdn.net/v/t39.30808-6/542759824_31649344097989883_8138537366470751010_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=b8r_BV27WnYQ7kNvwHYFEPt&_nc_oc=Adn5ZtuArlAJgqsJwp2ovFyHy0KFIhZea8_ndembAke7-3FyZUZZXWedemUza9D_Toc&_nc_zt=23&_nc_ht=scontent.fbbi6-1.fna&_nc_gid=RIWbeSDYC1rPlZrLZtVPDw&oh=00_AfZNAXb55u3c3--PBbeKgQu9M3_eBxfEvToEIEVsF4yyJg&oe=68C3756F"
     },
     {

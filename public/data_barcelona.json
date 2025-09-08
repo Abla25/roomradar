@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-08T10:56:48.556Z",
+  "generatedAt": "2025-09-08T11:30:12.865Z",
   "city": "barcelona",
-  "count": 1477,
-  "totalRejectedCount": 2447,
+  "count": 1478,
+  "totalRejectedCount": 2449,
   "results": [
+    {
+      "id": "268b5f64-9329-812a-99e5-c115553ac0c7",
+      "title": "Room for Rent in Plaza Virrei Amat, Barcelona",
+      "overview": "Individual room for rent in a shared apartment, includes services and furniture, located in Plaza Virrei Amat, Barcelona",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a clear description of the room, services, and location, as well as contact information and a photo, which increases the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T11:19:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1081515150411448/",
+      "status": "active",
+      "imageUrl": "https://scontent.faqa6-1.fna.fbcdn.net/v/t39.30808-6/545578947_10234327104731871_8716743672724438062_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=04GVFCfekYwQ7kNvwFOPzHJ&_nc_oc=AdlruCbzMRTuzBLjllzb1_ISJMd4bLLtUansHcG1uVqkTVeooQEzNpLzbr6g9hP4NbQ&_nc_zt=23&_nc_ht=scontent.faqa6-1.fna&_nc_gid=qiKXYYoLO8MLYANg3A-t-Q&oh=00_AfZ8vUKrzSUViqXFl0helcBXvDC2SoI-OwuToHECHuqY6w&oe=68C49809"
+    },
     {
       "id": "268b5f64-9329-816f-941b-d8284cb2001f",
       "title": "Room for rent for single woman or mother with child",
@@ -35,7 +52,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T10:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031957133800579/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/544643133_10234327109771997_3548826208028046263_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=RXK_drD2SUsQ7kNvwFaQO1x&_nc_oc=AdnK3jZLX6s-MrCrliGkDuSCas3GCvpLmsZBOjETGrr1tYfeaTz9X16G6gqKrqL6G2Q&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=C4dkFms81_8YfdsyO1cMtg&oh=00_AfYKVAtrqBALZb3J72DZL6WtrjgYaMFQIKUC3aBFs1AvQA&oe=68C4986F"
     },
     {
