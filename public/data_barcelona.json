@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-08T07:33:00.469Z",
+  "generatedAt": "2025-09-08T08:40:58.814Z",
   "city": "barcelona",
-  "count": 1468,
-  "totalRejectedCount": 2426,
+  "count": 1470,
+  "totalRejectedCount": 2430,
   "results": [
+    {
+      "id": "268b5f64-9329-8178-905a-c4d17d094f5b",
+      "title": "Room for rent on Lleida street in El Prat",
+      "overview": "A room is available for rent on Lleida street in El Prat, with a good location and a recently renovated apartment, available for entry in early October.",
+      "description": "Se alquila habitación en calle lleida,en el Prat. Muy buena ubicación. Para entrar a primeros de octubre. Solo soy una persona viviendo, el piso esta recién reformado. Más información por privado.",
+      "price": "N/A",
+      "zone": "El Prat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo and provides some detailed information about the room and location, but lacks a specified price and contact details.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083634157275449/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc1-5.fna.fbcdn.net/v/t39.30808-6/545391678_10234066416993900_4022862499842597109_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FlwX_FdgOGgQ7kNvwHiM-rN&_nc_oc=AdlhlA3dmCbkWDkna0r9V2k3wb-m_Zxj5GIfcTkoS_MXma_ugIDn8wpZkIdlB3GSkQBKbrldpvuiH7m-Mo1NtqTz&_nc_zt=23&_nc_ht=scontent.fixc1-5.fna&_nc_gid=oY5rkjtDDAcvU_0W19_GBg&oh=00_AfbaGaP010g9VzR4rLNbVdGFLaP_1fZWx_Jdfq0mbOa7cA&oe=68C4502A"
+    },
+    {
+      "id": "268b5f64-9329-8124-9a4f-f99c07596098",
+      "title": "Room for rent for couples in Santa Eulalia",
+      "overview": "A room is available for rent in Santa Eulalia, with the option to communicate privately for more information.",
+      "description": "Se alquila habitación pareja en santa eulalia, comunicarse al privado.",
+      "price": "N/A",
+      "zone": "Santa Eulalia",
+      "zoneMacro": "L'Hospitalet de Llobregat",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks detailed information and photos, and the request to communicate privately may indicate a potential scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-08T08:34:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084085550563643/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "268b5f64-9329-81af-bf7f-ebd570eae90d",
       "title": "Private bedroom with bathroom for rent",
@@ -273,7 +307,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T19:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031287840534175/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/545391678_10234066416993900_4022862499842597109_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=FlwX_FdgOGgQ7kNvwG7XQfe&_nc_oc=AdnotYMyW71THlUryiw5A0QznWqZ7biTYQsx7FOjRMmb0p0qAq6QqCbMlmxcoLHzLf0&_nc_zt=23&_nc_ht=scontent.fixc4-3.fna&_nc_gid=X7G2q0DHJzafh-fn-qQ4sw&oh=00_AfZSDjKtoj_dE8BwfZ5MWHr5rVYNROjxMl20-eb6Z26zpw&oe=68C3A76A"
     },
     {
