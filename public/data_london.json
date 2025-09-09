@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-09T15:32:31.678Z",
+  "generatedAt": "2025-09-09T16:37:14.589Z",
   "city": "london",
-  "count": 799,
-  "totalRejectedCount": 1120,
+  "count": 802,
+  "totalRejectedCount": 1125,
   "results": [
+    {
+      "id": "269b5f64-9329-815d-a2e6-d1ed7e2ab714",
+      "title": "Rooms Available",
+      "overview": "A person has rooms available for rent",
+      "description": "I have rooms available - Tenho quartos disponiveis",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The listing includes photos, but lacks detailed information about the rooms, price, and location, which reduces its reliability score",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T16:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2120348638500015/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom26-1.fna.fbcdn.net/v/t39.30808-6/545256727_767908742875442_3853972499539412385_n.jpg?stp=dst-jpg_p565x565_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=-_9HnQ7hweoQ7kNvwHKVRKA&_nc_oc=AdmulJI2bQ5OSqAwBrbc42Biew5RBptOswRGN3wjSDIYET3_oRtIZJ3ADcEKfSRSdC23l3Hh2EL13WY8dX_ompke&_nc_zt=23&_nc_ht=scontent.fbom26-1.fna&_nc_gid=YNhOte_bVYnwBFAdymnmIw&oh=00_AfZjp20aeJPqWzOea-qqfMalTBPNUf2PHe-ISPHXpg0F4Q&oe=68C6103F"
+    },
+    {
+      "id": "269b5f64-9329-8147-a491-e7e71a836913",
+      "title": "Spacious Double Room for Rent in Catford",
+      "overview": "A double room for rent in Catford, available immediately, with all bills included and off-street parking",
+      "description": "ROOM FOR RENT IN CATFORD 👋 I have a spacious double room for rent. Available immediately. No pets or couples. Catford SE6 1BH. £850 PCM. All bills included. 1 months deposit required. Females only please. There is off street parking and a lovely west facing garden 🌴🌳🌻 Sharing with myself, my cat (outdoor)and a small dog. DM me for more information. Thanks 🙂",
+      "price": "£850 PCM",
+      "zone": "Catford SE6 1BH",
+      "zoneMacro": "Lewisham",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a clear description of the room, price, and location, as well as photos of the property, and the contact information is readily available, indicating a high level of completeness and legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T16:35:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2120374115164134/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom19-3.fna.fbcdn.net/v/t39.30808-6/541834709_10230414454887410_3816111111779791480_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=llz49vFj_vcQ7kNvwFhlaPW&_nc_oc=Adl8fOuJ_hvtpb5a3RqVK0IodzjvE8zRFT1JfTGSWQZaUAI6SWB_2Zka4hGZ00re2LMKVPPWzQPS3R1R9BtmcDxc&_nc_zt=23&_nc_ht=scontent.fbom19-3.fna&_nc_gid=6HxX9j7U8fP2zGKPxWaueA&oh=00_AfYxpue2erIr6GhTpqtQnXYcvOBK9yinENPCC2gKHKKS4A&oe=68C61992"
+    },
+    {
+      "id": "269b5f64-9329-81b0-8674-dce68da75996",
+      "title": "Modern house share for rent",
+      "overview": "Modern house share available in Whitechapel, E1 5JH",
+      "description": "🏡 Modern House Share – Whitechapel, E1 5JH",
+      "price": "N/A",
+      "zone": "Whitechapel, E1 5JH",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear title and a location, and it includes an image, but the price and other details are not available.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T16:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1430046098082908/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom10-1.fna.fbcdn.net/v/t39.30808-6/545939851_1304583344368772_1676342544879032911_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=M0Vr_JIwxe4Q7kNvwH8iexc&_nc_oc=AdmSr-GHr3WCeHn0LsMsp9rN5xuHOS6LsXUKyCG_kQnBmuFm6tQijHrSa0wCwF7FbpA&_nc_zt=23&_nc_ht=scontent.fbom10-1.fna&_nc_gid=dC_wmCOiEjtj6LldKh9Dtw&oh=00_AfZATWTYaEafIZh3v2nF6wemk7iYjMJnnbE99Tp95hpliQ&oe=68C62F4D"
+    },
     {
       "id": "269b5f64-9329-8138-a3d4-ce6d092636c3",
       "title": "House for Rent in Thorton Heath",
@@ -35,7 +86,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T15:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2120327385168807/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fhyd1-4.fna.fbcdn.net/v/t39.30808-6/544910221_1304560131037760_7732213768487626447_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=epRweyzs8nIQ7kNvwFa7rVD&_nc_oc=Adm6K33I5AIjZk4KCi_YrrJVEi-WhcruyjcSxUy2YG1kdetr0h6-codUgncDmB5TfpsluzKaI-Aa5PwxikbF4uHi&_nc_zt=23&_nc_ht=scontent.fhyd1-4.fna&_nc_gid=_tRvZcvncTqNM2qLV7cgBw&oh=00_AfbKhvkzlk4z0iXrwQamg7d8fK5WGew3EcMr5oa3f5wX8g&oe=68C60C87"
     },
     {
@@ -6189,7 +6240,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T15:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2115467215654824/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/541834709_10230414454887410_3816111111779791480_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=dKMGL1KBRhQQ7kNvwEjP-r_&_nc_oc=AdlwZIUGGy3kBai_fCkHa7wJ-wHmoxXfg-ggieS3VL6NTYVthLIrUh6yj23Nim6Eqe4&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=7SIuJ3oFN5WMC9VA7mtFAw&oh=00_AfbGPsYJtGrxB6f0VtpgrmlVb4yITGwKRxAcO6TXJPlovQ&oe=68BE3092"
     },
     {
