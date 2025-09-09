@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-09T04:34:18.714Z",
+  "generatedAt": "2025-09-09T05:27:59.423Z",
   "city": "roma",
-  "count": 935,
-  "totalRejectedCount": 2855,
+  "count": 937,
+  "totalRejectedCount": 2856,
   "results": [
+    {
+      "id": "269b5f64-9329-8135-a2e2-d1ebb2488531",
+      "title": "Room available just outside Rome in Ariccia",
+      "overview": "A room is available in a house just outside Rome, in Ariccia, shared with the owner and their dog",
+      "description": "Disponibilità di una stanza poco fuori Roma, Ariccia di preciso. In casa siamo io e il mio cane.",
+      "price": "N/A",
+      "zone": "Ariccia",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes an image and provides some details about the accommodation, but the price is not specified, which reduces the reliability score.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T05:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2153239261866693/",
+      "status": "active",
+      "imageUrl": "https://scontent-maa3-2.xx.fbcdn.net/v/t39.30808-6/544926636_4313560422207536_1569488527455954482_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=QjUrzVx5dTMQ7kNvwE8G72J&_nc_oc=Adns83gJqWJaMnVJFq4NMcKcHiBX5B5ViBvFCsqLYfzXFT_w4qqRZsRRv5Fv6Gbl7sI&_nc_zt=23&_nc_ht=scontent-maa3-2.xx&_nc_gid=gjub62tLwG4XBZDo6h_E8A&oh=00_AfZZZiWdl4XHIS-js8Abgcod-NBmHwi4jxA14PD_HC2UDg&oe=68C57A27"
+    },
+    {
+      "id": "269b5f64-9329-81a8-a9a9-c45068c09290",
+      "title": "3 spacious rooms available in Largo Preneste area",
+      "overview": "3 spacious rooms available in Largo Preneste area, no additional details provided",
+      "description": "disponibili 3 stanze spaziose in zona largo preneste.",
+      "price": "N/A",
+      "zone": "Largo Preneste",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes an image of the rooms, which increases reliability, but the price is not specified and there is limited information about the accommodation.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T05:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1800846897105933/posts/2153293808527905/",
+      "status": "active",
+      "imageUrl": "https://scontent-maa3-3.xx.fbcdn.net/v/t39.30808-6/545077845_3676697942632293_5085721256682314623_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=k4CavpFBPpkQ7kNvwFVF5p-&_nc_oc=AdlaFdoLx1QnUSco1nD7UAkEKzrA219k6Y4m2ZfT008uL5YHkatqC-Eh30PPMbIULao&_nc_zt=23&_nc_ht=scontent-maa3-3.xx&_nc_gid=1sj-rBcg1485ZAZghlM2MA&oh=00_AfZCz--DELHPHc6T8vhGYYlujzxw6FxycB4LSoZ32NGIxA&oe=68C57E16"
+    },
     {
       "id": "269b5f64-9329-81af-93fc-f457d98d4703",
       "title": "Single Room for Rent in Rome",
@@ -1497,7 +1531,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T21:24:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739325672933067/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fcok4-1.fna.fbcdn.net/v/t39.30808-6/545808385_4312266279003617_2833100238908753334_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Glc2mUjPsS8Q7kNvwENFYfq&_nc_oc=Adkc1ca8NPehFFdda9aIRFAsEWlQuNv0oUyBaMmDoRXRAyNqezsFNdjkBw82e4sPe4M&_nc_zt=23&_nc_ht=scontent.fcok4-1.fna&_nc_gid=HMTf7jnOXtvfapCgQCOqdg&oh=00_AfZkrklokKjmbiVUtF_w1IkdWRIQVS39M9xACATwYp-2Sg&oe=68C3B04A"
     },
     {
@@ -2483,7 +2517,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T05:25:00.000+00:00",
       "link": "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2738729172992717/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fluh1-3.fna.fbcdn.net/v/t39.30808-6/545436282_3674982986137122_7080079394446181242_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=UGp81VIDY-UQ7kNvwE0n-U1&_nc_oc=AdlPVSmrVehYxOaWnK3yNd1CRkrs-RCwcHUQjiQWaxkv0olqbotgWBtz5vmYwL_aglA&_nc_zt=23&_nc_ht=scontent.fluh1-3.fna&_nc_gid=VkVEpS3Wa-6GUUOIagdj_w&oh=00_Afae0dzI3G-L-preHR_MR4J50NLTbZEaeFOJC_R7YM38PQ&oe=68C2F302"
     },
     {

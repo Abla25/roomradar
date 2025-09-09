@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-09T04:33:59.537Z",
+  "generatedAt": "2025-09-09T05:27:40.334Z",
   "city": "barcelona",
-  "count": 1518,
-  "totalRejectedCount": 2542,
+  "count": 1519,
+  "totalRejectedCount": 2544,
   "results": [
+    {
+      "id": "269b5f64-9329-810b-92a9-fe0b2a8e96eb",
+      "title": "Room for rent in Badalona",
+      "overview": "Room for rent in Badalona, available for single person, with double bed, TV, and two bedside tables",
+      "description": "Se alquila habitación en Badalona para persona SOLA, preferiblemente hombre, la habitación cuenta con cama doble, televisor y dos mesitas de tocador. NO pedimos fianza 🫶🏻 Disponible para ingreso inmediato. 350€ alquiler servicios incluido. Ubicado a unas calles de la parada de Metro L2 Sant Roc. 🚇 Dejo foticos de la habitación y el piso por si están interesados. Para contactar al [PHONE NUMBER CENSORED]",
+      "price": "350€",
+      "zone": "Badalona",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the room, includes photos, and provides contact information, making it a reliable listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T05:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4316568348575674/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545362791_2862105237329446_3313783705873061434_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=A-rV1_cgZsAQ7kNvwGRmwy-&_nc_oc=Adk6qMWYRbvZjH-MmRJtWubbC-78U00YCqhEAQLHeh6MHvoqNCRJvZ3KmQDCpmmSzyE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=uiAifjo-ixwDas43Cp1WgA&oh=00_Afa3GqBWkzTGpxJDbHqgdX1SBdCaswFIZV89fe0fwi23Nw&oe=68C576A5"
+    },
     {
       "id": "269b5f64-9329-81be-9195-e9d2fdfe41bb",
       "title": "Room for rent in the city center",
@@ -1021,7 +1038,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T22:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083648027274062/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.famd8-1.fna.fbcdn.net/v/t39.30808-6/544907309_3971427476500864_5878981894915952256_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MV3MhHhZ0_gQ7kNvwFIVJpc&_nc_oc=Admte9c8OKLYZDfQDB0DSeAfQ_2M-ezZYTjQ5B5Nu7ivVmGlZyIgh5cMGaGsqeKouRk&_nc_zt=23&_nc_ht=scontent.famd8-1.fna&_nc_gid=DOw3cotFslymfroDck0Rwg&oh=00_AfYTM_hPGA1861Quhzy3gaQd5gAhRkVv_Hg4iETR42CRGQ&oe=68C3F232"
     },
     {
@@ -6495,7 +6512,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T05:22:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080004374305094/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
