@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-08T23:33:50.801Z",
+  "generatedAt": "2025-09-09T02:05:13.414Z",
   "city": "barcelona",
-  "count": 1513,
-  "totalRejectedCount": 2520,
+  "count": 1515,
+  "totalRejectedCount": 2530,
   "results": [
+    {
+      "id": "269b5f64-9329-81bf-a204-ee014b3a04ec",
+      "title": "Room for rent in central Barcelona",
+      "overview": "Room available in a new, fully furnished flat in the center of Barcelona, with a double bed and desk",
+      "description": "Hi! I’m Cris 😊, the owner of the flat in the listing. I’m 25 years old and I have a room available from September 16st, right in the center of Barcelona! PRICE 750€ There’s a great vibe at home — we’re clean, tidy, friendly people with zero issues between us! I’m looking for someone similar: clean, organized, and with a good attitude who brings their own personality to the house. The apartment is new, fully furnished, and quite spacious — everyone has their own space and everything you need is here. I really value someone who’s respectful and committed to keeping the place clean. The room has a double bed, a large wardrobe, a desk (great for students or remote work), and some nice decor If you have any questions or want to visit (in person or by video), feel free to reach out — I’m sure you’ll love it! You can message me on Facebook or Instagram: cristianafonsoroyo Big hug, Cristian. 😊",
+      "price": "750",
+      "zone": "Central Barcelona",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "Photos are present, and contact information is available, with a clear and detailed description of the room and flat",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T01:54:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032263193769973/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/545392440_10231070149720052_5799583794630915435_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=2-RwbPCqCH0Q7kNvwFJKyok&_nc_oc=AdnM4oVTdWxsSChN2K2v4bSqUX9gpdyqwFNTMhu8ZRLvumu8KKXvnCRC0GaSGqFVnDI&_nc_zt=23&_nc_ht=scontent.fixc4-3.fna&_nc_gid=eLgTtCPHCXBmO_XfD1GasQ&oh=00_AfaFXHl6Dhjv1SLZuho90zZb6ppzpASeSuOyt03W8aQz3Q&oe=68C530B2"
+    },
+    {
+      "id": "269b5f64-9329-8167-9727-ee3f0ed7375b",
+      "title": "Room for rent in shared house",
+      "overview": "Room available in a shared house in Verdaguer, with shared kitchen and living spaces",
+      "description": "Hola, me llamo Daniel y quiero presentarles la casa que alquila la empresa. Consta de una habitación, dos baños, dos cocinas compartidas y tres refrigeradores (por supuesto, cada uno tendrá su propio espacio). Cada persona tiene su propio espacio o sala de estar donde puede sentarse y comer. También hay un pequeño salón donde se puede fumar si se fuma. La habitación tiene un armario para guardar las cosas, otro para guardar las pequeñas, una mesa pequeña y una cama doble (si quieren traer a alguien, nadie lleva nada consigo. Hay un grupo de personas en la casa donde pueden anunciar que alguien viene de visita durante 3 o 4 días). La gente de la casa es sociable. El horario es tranquilo. Se puede cocinar en la casa. También hay utensilios, platos, cucharas, etc. El pago se realiza a la cuenta de la empresa. El alquiler siempre es de 600 y el depósito de 630. En cuanto a la limpieza, la empleada doméstica viene cada dos días y limpia la casa. Si desea alquilar esta sala, puedo ponerlo en contacto con el Sr. George, un hombre especial que es responsable de todas las finanzas de la empresa. La casa esta Ubica en Verdaguer Linia 4/5 (azul y amarilla ) Wasap [PHONE NUMBER CENSORED]",
+      "price": "600",
+      "zone": "Verdaguer",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "Photos are present, and contact information is available, but some details are missing",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T01:54:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031787460484213/",
+      "status": "active",
+      "imageUrl": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/544984300_3349429778542359_7980603080900339768_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=HOnyyNjT48wQ7kNvwH-Jilx&_nc_oc=AdmmyKxgycyFCbE61Cz51if7_sIxP9m0OsNyjMmXDYGtVTNWY5lm-YTOKu_TSWaRovE&_nc_zt=23&_nc_ht=scontent.fixc4-3.fna&_nc_gid=NOjPWlNEFbBN_0Q5s3pWig&oh=00_Afby1mNTBodgM6OZM7flsLbRUkIDLfdWevPkQVufkCZICA&oe=68C55C1E"
+    },
     {
       "id": "268b5f64-9329-81e1-98fa-c91d3efbbc5f",
       "title": "Room for Rent in Badalona",
@@ -324,7 +358,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T18:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2249788572191005/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpat2-3.fna.fbcdn.net/v/t39.30808-6/545782029_10231070102998884_5699276000614965235_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Use9xkMM594Q7kNvwFsefor&_nc_oc=Adm7O4rfSK7I3E606_UCcXrNe0FNnb8BevZCoIVA85VpC0qPhCVQZ4tl4yTd4jxkErS0D5g6fliHtH9868egqAe1&_nc_zt=23&_nc_ht=scontent.fpat2-3.fna&_nc_gid=Dmj0uNP3cNvzR1Z4h0f2yQ&oh=00_AfYIX-RcgSMdWUUphicTk_jOwv2mpiWm8oT4LJD3lF01ug&oe=68C4FDFA"
     },
     {
@@ -6155,7 +6189,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T07:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080014437637421/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
