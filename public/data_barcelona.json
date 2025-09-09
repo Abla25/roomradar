@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-09T13:06:43.791Z",
+  "generatedAt": "2025-09-09T13:39:23.435Z",
   "city": "barcelona",
-  "count": 1546,
-  "totalRejectedCount": 2593,
+  "count": 1548,
+  "totalRejectedCount": 2601,
   "results": [
+    {
+      "id": "269b5f64-9329-814f-a0b3-c69b55b7010b",
+      "title": "Single room available for rent in Maresme",
+      "overview": "A single room for rent in Maresme, close to Mercadona and Metro L4, with additional amenities nearby",
+      "description": "Habitación disponible para una sola persona en Maresme. Mercadona a solo 2 minutos y 5 minutos caminando al Metro L4 y a solo 7 minutos al centro comercial Diagonal Mar más información [PHONE NUMBER CENSORED] gracias.",
+      "price": "N/A",
+      "zone": "Maresme",
+      "zoneMacro": "Gràcia",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The listing provides specific details about the location and amenities, includes a photo, and has contact information, but lacks a price, which prevents it from reaching the highest reliability scores.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T13:37:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085061297132735/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom43-1.fna.fbcdn.net/v/t39.30808-6/545661871_3074655429360789_2804493637067641039_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=0ejwBsobIzEQ7kNvwE1xtkV&_nc_oc=AdkGLhVAy1SZc8zKMKSEusIzxnbtXHebVKS2ZsafEtv0h6dFk0Z0yevGPzyr37pdqi0&_nc_zt=23&_nc_ht=scontent.fbom43-1.fna&_nc_gid=f5WkQb9TORFVVI2tDXLdtg&oh=00_Afa7xt7Q4yWslfO8L0tiWjCoN8dqb5llaRxlYULyyIl7Ug&oe=68C5FBC5"
+    },
+    {
+      "id": "269b5f64-9329-811e-a886-f7601db6e2e4",
+      "title": "Furnished Studio for Rent in El Raval",
+      "overview": "A fully furnished and modern studio apartment for rent in the vibrant El Raval neighborhood, with excellent public transportation connections and close proximity to the port and beach.",
+      "description": "¡Disponible! Estudio Amueblado en El Raval Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval Precio 950€ x mes Condiciones Mes entrante, 2 Meses Fianza Contrató Temporal 6 meses Totalmente amueblado y listo para mudarse Disponible desde ya Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description of the apartment, photos are present, and contact information is available, indicating a high level of completeness and legitimacy, with no apparent scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T13:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4317022501863592/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/545527591_10243728670379168_8454089193479517884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tyC8_zvedpMQ7kNvwGta28P&_nc_oc=AdkmjNPeU8Q0IaOXaBVZjkGYqEqAYNw7fx1yzfbKF8KZAOXClRbELH685eukuLkk4Zw&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=Mh3dpFI_JCFLxKt3Bn7y2Q&oh=00_AfYNi9FEworUa85qalQ5QG7o_4UMC4ig7xwy4FxU7667lw&oe=68C603FA"
+    },
     {
       "id": "269b5f64-9329-811e-947c-fb24629adea1",
       "title": "Room for rent near Metro L5 Canvidalet",
@@ -273,7 +307,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T09:28:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2250281108808418/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbho1-4.fna.fbcdn.net/v/t39.30808-6/545527591_10243728670379168_8454089193479517884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tyC8_zvedpMQ7kNvwHA8IXx&_nc_oc=Adk8WdRE4CZuGIipCs0ju1IHNgJ5XlQQ7HRghCaGW6Az9dwc8yb1QU63dkmWdHRcyE4&_nc_zt=23&_nc_ht=scontent.fbho1-4.fna&_nc_gid=jR24gxzroJxaWvaqYstZCA&oh=00_AfYuhLvctCkkot5hkBOU3gjBQ9X6GvJFqalFexVjJlt0rA&oe=68C5CBBA"
     },
     {
