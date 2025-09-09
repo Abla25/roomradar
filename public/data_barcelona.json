@@ -1,9 +1,77 @@
 {
-  "generatedAt": "2025-09-09T09:33:02.017Z",
+  "generatedAt": "2025-09-09T10:37:02.675Z",
   "city": "barcelona",
-  "count": 1531,
-  "totalRejectedCount": 2564,
+  "count": 1535,
+  "totalRejectedCount": 2573,
   "results": [
+    {
+      "id": "269b5f64-9329-8126-a395-f66562e91149",
+      "title": "Room for Rent in Cubellas, Garraf Area",
+      "overview": "Renting room in Cubellas, near Sitges, Vilanova, Cunit, and Calafell. Surrounding areas include Garraf.",
+      "description": "Buenas!!! Alquilo habitación en Cubellas (Zona Garraf) Alrededores Sitges, Vilanova i la gente,Cunit,Calafell..etccc",
+      "price": "N/A",
+      "zone": "Cubellas, Garraf Area",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "Lack of detailed information about the room, price, and services. Photo is provided, but not enough details to ensure reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T10:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2193102391203830/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/535123013_10231396050897280_612997795697745137_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=454cf4&_nc_ohc=oCYPEle3298Q7kNvwFtwJTg&_nc_oc=Adlqdz5W4miUeNEGzItkQ0CGhSSNurCJ7pgRl9rbsZU9bCjWMaIfjMSm4l1k98hGT18&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=xbZ-hpnNyU0ul0-VRX5efQ&oh=00_AfZgltkoS9hqlM7A4tU8QONi1KV19Kgq5LFFhDCwAKclfw&oe=68C5B697"
+    },
+    {
+      "id": "269b5f64-9329-8106-b993-d3de4f98c579",
+      "title": "Individual Room for Rent in Plaza Virrei Amat, Barcelona",
+      "overview": "Renting individual room for a respectful and orderly guy, non-smoker, with a stable job, in Plaza Virrei Amat, Barcelona. The room has a balcony, wardrobe, nightstand, and equipped bed. Services included.",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 Euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "All necessary information is provided, including photos, contact details, and a clear description of the room and its location. No indicators of scam.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T10:30:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2193135991200470/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545545328_10234339013149574_7767924702874947811_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kgY0wV3dsusQ7kNvwHHMz7y&_nc_oc=Adn7jGGJJE79WA_JvS43poOW70fGErcpPCUZl11h4kGjve9N5II0iKcNZ7ZDPE3Vf1Y&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=AqXMh6hr4HfmfhaZzb7kqw&oh=00_AfZyxuyY5Wyq5kKwVjwZLCfQUvWOILV_n3-QmGRgPSA4YQ&oe=68C5DB73"
+    },
+    {
+      "id": "269b5f64-9329-8152-a6ef-f1761b5b6cd8",
+      "title": "Individual room for rent for a male",
+      "overview": "A room for rent for a male, with a balcony, furniture, and services included",
+      "description": "Alquilamos habitación INDIVIDUAL PARA CHICO ordenado con trabajo estable, sociable y respetuoso.NO FUMADOR. Habitación exterior a balcón. Cuenta con armario mesita noche y cama equipada. Precio 450 Euros Servicios incluidos. ZONA PLAZA VIRREI AMAT (BARCELONA). Metro L5. Cerca se dispone de Supermercados,centro de salud, tiendas, centro comercial, bancos y gimnasios . No se admiten visitas, parejas ni mascotas. No atiendo por Messenger gracias. Teléfono / Wasshap de contacto [PHONE NUMBER CENSORED] David.",
+      "price": "450 euros",
+      "zone": "Plaza Virrei Amat, Barcelona",
+      "zoneMacro": "Gràcia",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post provides comprehensive information about the room, includes photos, and has a contact phone number, with no indicators of a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T10:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032881300374829/",
+      "status": "expired",
+      "imageUrl": "https://scontent.famd5-1.fna.fbcdn.net/v/t39.30808-6/545700232_10234338999309228_2388162000590355677_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=VA2n2DL963sQ7kNvwFvy7DP&_nc_oc=Adm6unETV4M8_d8BdNysj2STOC-60_n-t0chIM3gFRToxiQshyqf6MCGqxLnfQHUonSljs5xjJ7WKeROgyOKhx1-&_nc_zt=23&_nc_ht=scontent.famd5-1.fna&_nc_gid=OYqzE2g-7bFIGfeR_B0pjA&oh=00_AfZQyHas4IeyCMvBaw9z5tJhPUEUbZ52RsTpGIkgy_k04Q&oe=68C5E583"
+    },
+    {
+      "id": "269b5f64-9329-811c-a4e5-cf91b88018e1",
+      "title": "Room for couple or single person for rent",
+      "overview": "Room for rent in El Prat de Llobregat for a couple or single person",
+      "description": "Se alquila habitación para pareja o persona sola en el Prat de llobregat info [PHONE NUMBER CENSORED]",
+      "price": "N/A",
+      "zone": "El Prat de Llobregat",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The listing has limited information and no photos, which makes it difficult to assess its reliability, but it does provide a contact number.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T10:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4317090198523489/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "269b5f64-9329-814c-9dfc-ecafa42c3467",
       "title": "Furnished studio apartment for rent in El Raval",
@@ -69,7 +137,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T09:27:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084923560479842/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fagr1-2.fna.fbcdn.net/v/t39.30808-6/535123013_10231396050897280_612997795697745137_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=454cf4&_nc_ohc=oCYPEle3298Q7kNvwF6Zbnc&_nc_oc=AdlVxREcv-tQ9sKK1MREVRv1o9OkmOjTKpJPzkAvXYxsfx2DF-cZP7bgiAeEhDaSMZHmPXsPZ2Wn4X5q8F9y0LFy&_nc_zt=23&_nc_ht=scontent.fagr1-2.fna&_nc_gid=9czZoBO_XbYUNKUuY6MKWw&oh=00_AfYrFOKMb3qM8q9JY271rk-i4LuvUABgIW-Px-fUPl2sXg&oe=68C5B697"
     },
     {
@@ -919,7 +987,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T11:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/365556558673981/posts/1081515150411448/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.faqa6-1.fna.fbcdn.net/v/t39.30808-6/545578947_10234327104731871_8716743672724438062_n.jpg?stp=cp6_dst-jpg_p526x296_tt6&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=04GVFCfekYwQ7kNvwFOPzHJ&_nc_oc=AdlruCbzMRTuzBLjllzb1_ISJMd4bLLtUansHcG1uVqkTVeooQEzNpLzbr6g9hP4NbQ&_nc_zt=23&_nc_ht=scontent.faqa6-1.fna&_nc_gid=qiKXYYoLO8MLYANg3A-t-Q&oh=00_AfZ8vUKrzSUViqXFl0helcBXvDC2SoI-OwuToHECHuqY6w&oe=68C49809"
     },
     {
@@ -1922,7 +1990,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T08:29:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2191472858033450/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fixc2-2.fna.fbcdn.net/v/t39.30808-6/544907622_10234064355928827_8046931604904314722_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=EBD6Q4Xu5OUQ7kNvwGcC9ZT&_nc_oc=Adm-Se7G_HO24HXvF--cMH2RtKlnFs8Nu7t9BqiKSjzfp9vh1Zf9x6uwc0Qen_7UKHk&_nc_zt=23&_nc_ht=scontent.fixc2-2.fna&_nc_gid=oMgKLDWFIs2e0ZObYReWOA&oh=00_AfaeuNNbE4EbK8UVBUAGQuP7DwBB_XvhvNNcSVAhpapjvg&oe=68C3254A"
     },
     {
@@ -6172,7 +6240,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T12:50:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080189424286589/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
