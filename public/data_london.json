@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-09T03:13:41.309Z",
+  "generatedAt": "2025-09-09T04:34:36.857Z",
   "city": "london",
-  "count": 762,
-  "totalRejectedCount": 1093,
+  "count": 763,
+  "totalRejectedCount": 1094,
   "results": [
+    {
+      "id": "269b5f64-9329-8100-9205-da0df8fc6c50",
+      "title": "2 bedroom apartment for rent",
+      "overview": "The apartment has 2 bedrooms and 2 bathrooms and can be rented as a flat share or whole",
+      "description": "The apartment is 2 bedrooms/2 bathrooms. This can be rented as flat share or whole 2 beds.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "2",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the apartment and has photos, but lacks information on price and location",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T04:33:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1429205251500326/",
+      "status": "active",
+      "imageUrl": "https://scontent-del2-1.xx.fbcdn.net/v/t39.30808-6/546222992_3910687455730534_603320125516003629_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eBJC-vw8dyAQ7kNvwHiUo0l&_nc_oc=AdnmJJHmMCohzSm7G8JdGxGmLKMbCSMCMpAlzK2nzlHfy20qmAiBkzH9lWWq0g829mw&_nc_zt=23&_nc_ht=scontent-del2-1.xx&_nc_gid=4oc92DS6SDTTLlgWPauFBQ&oh=00_AfZJ1NmjsXfucv8POuyCCer-XIDOz57vFUZcOcMeroQ8Rg&oe=68C57761"
+    },
     {
       "id": "269b5f64-9329-813f-86ab-f96e69a8619e",
       "title": "Modern 1 Bed Flat for Rent in Ealing",
