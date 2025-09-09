@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-09T06:41:01.414Z",
+  "generatedAt": "2025-09-09T07:31:54.899Z",
   "city": "barcelona",
-  "count": 1519,
-  "totalRejectedCount": 2547,
+  "count": 1522,
+  "totalRejectedCount": 2551,
   "results": [
+    {
+      "id": "269b5f64-9329-810f-9c3d-f4d8c16a92c8",
+      "title": "Room for Rent in Montjuic",
+      "overview": "A room is available for rent in a quiet area of Montjuic, near Metro Plaza Espana",
+      "description": "Hola, tengo habitacion disponible ya , zona Montjuic ( Metro plaza españa) zona tranquila 300€ Para una persona ya sea chica o señora.info.. [PHONE NUMBER CENSORED]",
+      "price": "300€",
+      "zone": "Montjuic",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing has a clear description of the location and price, but it lacks photos and has a phone number that could be a potential scam indicator.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T07:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2193021414545261/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-81b5-907a-cae1273557ce",
+      "title": "Two rooms for rent for girls",
+      "overview": "Two rooms are available for rent for girls in a house",
+      "description": "Hola se alquila dos habitaciones para chicas en pubillas casas",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The listing lacks detailed information, photos, and contact details, which raises concerns about its legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T07:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031402967189329/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-81b9-93a8-c94f50643860",
+      "title": "Double room for rent for one person",
+      "overview": "A double room is available for rent for one person, located on line 5",
+      "description": "Alquiler habitación doble para persona sola en linia 5",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The listing lacks detailed information, photos, and contact details, which raises concerns about its legitimacy and completeness",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T07:24:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032762410386718/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "269b5f64-9329-810b-92a9-fe0b2a8e96eb",
       "title": "Room for rent in Badalona",
@@ -18,7 +69,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T05:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4316568348575674/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545362791_2862105237329446_3313783705873061434_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=A-rV1_cgZsAQ7kNvwGRmwy-&_nc_oc=Adk6qMWYRbvZjH-MmRJtWubbC-78U00YCqhEAQLHeh6MHvoqNCRJvZ3KmQDCpmmSzyE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=uiAifjo-ixwDas43Cp1WgA&oh=00_Afa3GqBWkzTGpxJDbHqgdX1SBdCaswFIZV89fe0fwi23Nw&oe=68C576A5"
     },
     {
@@ -1480,7 +1531,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-07T12:43:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083036877335177/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
