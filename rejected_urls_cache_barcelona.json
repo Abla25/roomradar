@@ -1,13 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4314985195400656/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-07T08:26:33.058184"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083322957306569/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-07T08:27:14.640226"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4315085852057257/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-07T09:20:47.227322"
@@ -1099,8 +1091,40 @@
     "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032786773717615/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T07:24:31.466504"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4317010961864746/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:32:21.349003"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084888487150016/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:33:03.408295"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084887247150140/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:33:03.409910"
+    },
+    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084884517150413/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:33:03.411497"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2250248968811632/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:34:16.686217"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2250242195478976/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:34:16.687772"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032154363780856/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:34:56.868022"
+    },
+    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032291307100495/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-09T08:34:56.869639"
     }
   },
-  "total_rejected_count": 2551,
-  "timestamp": "2025-09-09T07:23:20.935540"
+  "total_rejected_count": 2559,
+  "timestamp": "2025-09-09T08:31:56.906953"
 }

@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-09T07:32:06.970Z",
+  "generatedAt": "2025-09-09T08:45:07.315Z",
   "city": "roma",
-  "count": 944,
-  "totalRejectedCount": 2869,
+  "count": 946,
+  "totalRejectedCount": 2888,
   "results": [
+    {
+      "id": "269b5f64-9329-81aa-84b0-e12f116ff6c0",
+      "title": "Single room for rent near Piazza Bologna",
+      "overview": "Room for rent in a shared house with 4 roommates, 1 salon, 1 kitchen, and a courtyard",
+      "description": "Salve, affitto stanza singola a 200 m da piazza Bologna. La casa dispone di 1 salone, 1 cucina, un ampio bagno, un ripostiglio 3 singole ed una doppia. Il prezzo è di 650 euro circa. Siamo 4 ragazzi ordinati e composti. La casa possiede anche un cortile antistante la struttura totalmente recintato. Grazie mille😃😃",
+      "price": "650 euro",
+      "zone": "Piazza Bologna",
+      "zoneMacro": "Eur",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post contains some information about the listing, but there are no photos and limited contact information, which raises some concerns about the listing's authenticity.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T08:39:00.000+00:00",
+      "link": "https://www.facebook.com/groups/633912783969846/posts/1716055215755592/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-8144-bafd-ee0a844209ff",
+      "title": "50 sqm monolocale for rent in Marconi area",
+      "overview": "Monolocale of 50 sqm available for rent in Marconi area, seeking workers with guarantees",
+      "description": "Libero dal 1⁰ Novembre , monolocale di 50 mq, in zona Marconi . Affitto a lavoratori/ lavoratrici con garanzie. Contratto a canone concordato regolarmente registrato.",
+      "price": "N/A",
+      "zone": "Marconi",
+      "zoneMacro": "Ostiense",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post is a rental listing, but lacks photos and pricing information, which reduces its reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T08:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/romaffitti/posts/1344003117391379/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "269b5f64-9329-8147-9a5e-cb3dbd9566ed",
       "title": "Spacious double room for rent in Rome",
@@ -8569,7 +8603,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T09:30:00.000+00:00",
       "link": "https://www.facebook.com/groups/romaffitti/posts/1338557864602571/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
