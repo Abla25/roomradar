@@ -1,9 +1,94 @@
 {
-  "generatedAt": "2025-09-09T08:44:56.019Z",
+  "generatedAt": "2025-09-09T09:33:02.017Z",
   "city": "barcelona",
-  "count": 1526,
-  "totalRejectedCount": 2559,
+  "count": 1531,
+  "totalRejectedCount": 2564,
   "results": [
+    {
+      "id": "269b5f64-9329-814c-9dfc-ecafa42c3467",
+      "title": "Furnished studio apartment for rent in El Raval",
+      "overview": "A furnished studio apartment with a bathroom, located in El Raval, with excellent metro and bus connections",
+      "description": "¡Disponible! Estudio Amueblado en El Raval Características del Piso: Estudio amueblado muy bonito 1 baño completo Dúplex espacioso y moderno Excelente conexión con metro y bus A minutos del puerto y la playa Situado en el vibrante barrio de El Raval Precio 950€ x mes Condiciones Mes entrante, 2 Meses Fianza Contrató Temporal 6 meses Totalmente amueblado y listo para mudarse Disponible desde ya Para más información o visitas, contáctanos por mensaje directo!",
+      "price": "950€",
+      "zone": "El Raval",
+      "zoneMacro": "Ciutat Vella",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post contains a clear description of the apartment, a price, and photos, but lacks contact information and has a somewhat generic tone",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T09:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2250281108808418/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbho1-4.fna.fbcdn.net/v/t39.30808-6/545527591_10243728670379168_8454089193479517884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tyC8_zvedpMQ7kNvwHA8IXx&_nc_oc=Adk8WdRE4CZuGIipCs0ju1IHNgJ5XlQQ7HRghCaGW6Az9dwc8yb1QU63dkmWdHRcyE4&_nc_zt=23&_nc_ht=scontent.fbho1-4.fna&_nc_gid=jR24gxzroJxaWvaqYstZCA&oh=00_AfYuhLvctCkkot5hkBOU3gjBQ9X6GvJFqalFexVjJlt0rA&oe=68C5CBBA"
+    },
+    {
+      "id": "269b5f64-9329-81b8-946a-c2802e7c3f0b",
+      "title": "Room for rent in Montjuic area",
+      "overview": "A room is available for rent in the Montjuic area, a quiet zone near Metro Plaza España, for 300€, suitable for one person",
+      "description": "Hola, tengo habitacion disponible ya , zona Montjuic ( Metro plaza españa) zona tranquila 300€ Para una persona ya sea chica o señora.info.. [PHONE NUMBER CENSORED]",
+      "price": "300€",
+      "zone": "Montjuic",
+      "zoneMacro": "Sants-Montjuïc",
+      "rooms": "",
+      "reliability": 2,
+      "reliabilityReason": "The post lacks photos and has limited information, but it provides a clear description of the room and contact information, which suggests it might be a genuine listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T09:28:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084827293822802/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-816c-b1f7-db360da4511d",
+      "title": "Large room for rent in Badalona center",
+      "overview": "Large room in Badalona center, close to public transportation and shopping centers, only for males",
+      "description": "Habitación grande en Badalona centro a 1 minuto de la linea L2 y autobuses y centros comerciales Solo chicos",
+      "price": "N/A",
+      "zone": "Badalona center",
+      "zoneMacro": "Badalona",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post has a clear description of the rental, including location and amenities, but lacks pricing information, photos, and seems to be a basic listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T09:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084920370480161/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-819b-bc14-f06b91008f25",
+      "title": "Room for rent in Cubellas",
+      "overview": "Room rental in Cubellas, near Sitges, Vilanova, and other areas",
+      "description": "Buenas!!! Alquilo habitación en Cubellas (Zona Garraf) Alrededores Sitges, Vilanova i la gente,Cunit,Calafell..etccc",
+      "price": "N/A",
+      "zone": "Cubellas (Zona Garraf)",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a photo, location, and has a clear description of the rental, but lacks pricing information and seems to be a legitimate listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T09:27:00.000+00:00",
+      "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084923560479842/",
+      "status": "active",
+      "imageUrl": "https://scontent.fagr1-2.fna.fbcdn.net/v/t39.30808-6/535123013_10231396050897280_612997795697745137_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=454cf4&_nc_ohc=oCYPEle3298Q7kNvwF6Zbnc&_nc_oc=AdlVxREcv-tQ9sKK1MREVRv1o9OkmOjTKpJPzkAvXYxsfx2DF-cZP7bgiAeEhDaSMZHmPXsPZ2Wn4X5q8F9y0LFy&_nc_zt=23&_nc_ht=scontent.fagr1-2.fna&_nc_gid=9czZoBO_XbYUNKUuY6MKWw&oh=00_AfYrFOKMb3qM8q9JY271rk-i4LuvUABgIW-Px-fUPl2sXg&oe=68C5B697"
+    },
+    {
+      "id": "269b5f64-9329-81ef-979d-c25e421fd6a0",
+      "title": "Large room for rent in Badalona center",
+      "overview": "A large room is available for rent in Badalona center, close to public transportation and the beach, only for males",
+      "description": "Habitación grande en Badalona centro a 1 minuto de la linea L2 y playa y autobuses solo chicos",
+      "price": "N/A",
+      "zone": "Badalona center",
+      "zoneMacro": "Badalona",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some information about the room, but lacks details such as price and photos, and may be a potential scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T09:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4317034075195768/",
+      "status": "expired",
+      "imageUrl": ""
+    },
     {
       "id": "269b5f64-9329-81ce-9055-c750c56c00a3",
       "title": "Furnished Studio Apartment for Rent in El Raval",
@@ -18,7 +103,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T08:34:00.000+00:00",
       "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032828023713490/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fpnq9-1.fna.fbcdn.net/v/t39.30808-6/545527591_10243728670379168_8454089193479517884_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tyC8_zvedpMQ7kNvwEOMBp1&_nc_oc=Adm3Z2Ky4Gm_ETW536Q8PvkARbGA6AVonky1ZMOBADcskSii7EeO8h-wDSFaCnU9deE&_nc_zt=23&_nc_ht=scontent.fpnq9-1.fna&_nc_gid=_MlDwigd4w4P68AP_MiBuQ&oh=00_Afbmd3c342DJkC2JjwNDfdTl-V3EgOoeBWvBnoM6LcCAQA&oe=68C5CBBA"
     },
     {
@@ -86,7 +171,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T07:26:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2193021414545261/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
@@ -6376,7 +6461,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-03T07:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1080014437637421/",
-      "status": "expired",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
@@ -6801,7 +6886,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-02T23:19:00.000+00:00",
       "link": "https://www.facebook.com/groups/2723040451261813/posts/4310473605851815/",
-      "status": "active",
+      "status": "verification_needed",
       "imageUrl": ""
     },
     {
