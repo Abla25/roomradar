@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-09T16:36:51.762Z",
+  "generatedAt": "2025-09-09T17:27:39.676Z",
   "city": "barcelona",
-  "count": 1553,
-  "totalRejectedCount": 2623,
+  "count": 1555,
+  "totalRejectedCount": 2632,
   "results": [
+    {
+      "id": "269b5f64-9329-81f0-8b6b-cec92c799887",
+      "title": "Room for rent in city center",
+      "overview": "A room is available for rent in the city center, with private bathroom, for 230 euros per month",
+      "description": "[PHONE NUMBER CENSORED] , Se alquila habitación en la zona centro muy bien ubicada con disponibilidad a baño privado, 230 euros mensuales, preguntar sin compromiso vía WhatsApp",
+      "price": "230",
+      "zone": "city center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a phone number and a photo, but the description is brief and there is no clear indication of the landlord's identity or contact information beyond WhatsApp",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T17:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2193433587837377/",
+      "status": "active",
+      "imageUrl": "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/545814364_757590680390015_2529806400373019069_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kNn71KBMoVUQ7kNvwG-1Hbc&_nc_oc=AdmNlBhXrOlkITKTqSS8hZ81TnuSyfA3dtoXuQpTxp6lGnoiSBx4rZGMvjzMqGDc7es&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=DhZhn3pi9AsRdBA4VGxP3w&oh=00_AfaxskYt_LHnrPuElWUa9gPKDJldFioE5Eh6wZGbKQE30w&oe=68C643A3"
+    },
+    {
+      "id": "269b5f64-9329-81af-a516-c0fd31951e1c",
+      "title": "Room for rent in Urquinaona",
+      "overview": "A room is available for rent in Urquinaona, preferably for a female, with a price of 420 euros including expenses",
+      "description": "Alquilo habitación ,en zona Urquinaona y plaza cataluña, para chicas o señoras,NO PAREJA,NO CHICOS, NO CON NIÑOS,para entrar ya ,precio 420 gasto incluido 200 de fianza mas inf,al pv",
+      "price": "420",
+      "zone": "Urquinaona",
+      "zoneMacro": "Eixample",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post includes a price, location, and preferences for the tenant, and also includes a photo, but does not provide detailed information about the room or the landlord",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T17:22:00.000+00:00",
+      "link": "https://www.facebook.com/groups/365556558673981/posts/1082425256987104/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/544975857_1072455738391606_3828135608185343925_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qrWiu8_3CGoQ7kNvwHTEcxW&_nc_oc=AdledjibM3adFBlGXmk8MHIn1KuWV-4iTih-u6S24IQebcKFT7XzBvlnlfQ8Kvp6mnE&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=ymq_VsRMemfO8r8_5ZTdrQ&oh=00_AfYaLsFyLGyZxC8HazxSRJ4XWksUXYxZnV7sJKR95qzu7w&oe=68C63727"
+    },
     {
       "id": "269b5f64-9329-81b3-89d3-f8e8e6b41269",
       "title": "Room for rent in Boyaca 1, Barcelona",
@@ -987,7 +1021,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T18:36:00.000+00:00",
       "link": "https://www.facebook.com/groups/986691378511610/posts/2192671314580271/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/546084768_756899257125824_8636008211144116329_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=N1lv7kzoDoEQ7kNvwGCeN1J&_nc_oc=AdlNpa2jMzdutozGApkQEhWK7b0EIs_c1aCLqrJULY7PhoDEeHSePSyZ4ffIl8YboBA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tYnBPnxroQVJ672hkHPrCA&oh=00_AfZsLB25X0ekbuZ0H2b12EpE6DO3T6jTpzY8rCcQlRgMNA&oe=68C4F7D9"
     },
     {

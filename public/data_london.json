@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-09T16:37:14.589Z",
+  "generatedAt": "2025-09-09T17:27:54.791Z",
   "city": "london",
-  "count": 802,
-  "totalRejectedCount": 1125,
+  "count": 805,
+  "totalRejectedCount": 1129,
   "results": [
+    {
+      "id": "269b5f64-9329-81de-913c-f0da47f1fe25",
+      "title": "Renovated Double Room for Rent in London",
+      "overview": "A renovated double room is available for rent in a house located in front of a tube station and bus stop in London's Dagenham area, with all bills and heating included",
+      "description": "Double Room RENOVATED Available from 18/10/2025 Wardrobe, bills, bed and mattress included All bills included HEATING 24/7 London Dagenham AreA RENT 750 pound/Month House in front of TUBE STATION and BUS STOP For info massage in private",
+      "price": "750 pound/Month",
+      "zone": "Dagenham, London",
+      "zoneMacro": "Barking and Dagenham",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a photo of the room, provides detailed information about the amenities and location, and has a clear call to action for interested renters, which suggests a high level of reliability and legitimacy",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T17:26:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2120392838495595/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/546360753_4157362817883084_7234679446132018632_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=X1B1z1W7noEQ7kNvwGLVK9S&_nc_oc=AdmR-Gc6KoYbeI5QvcryO0Sbdv-oBVjVYn9H-q6rDfv2qaNuN9dTd7YAOc4ASbotSBg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=1BQ2CAOCpjImb8t57qibgQ&oh=00_AfZjrtNlBGtRDRkRozF4jvvU6VMQkqRf24NU98PbpZs70g&oe=68C6250E"
+    },
+    {
+      "id": "269b5f64-9329-812e-ad55-f6012a77e267",
+      "title": "En-suite room available in Kilburn",
+      "overview": "An en-suite room available for rent in Kilburn, all bills included",
+      "description": "En-suite available in KILBURN High Road -Nw6 7JR All bills included. 1 month rent 1 month deposit. House benefits-any government benefits are welcome . For more information inbox please . Dhina",
+      "price": "N/A",
+      "zone": "KILBURN High Road - NW6 7JR",
+      "zoneMacro": "West London",
+      "rooms": "1",
+      "reliability": 3,
+      "reliabilityReason": "The post provides some information about the room, but lacks details about the price and the house, and includes a photo, but the reliability score is not higher because the post seems to be brief and lacks specific details",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T17:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2120393678495511/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/544833293_708244555560949_8550460166819326771_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xBAVm_2VVYoQ7kNvwEPOwZq&_nc_oc=AdmBFKBZVg6kIXU8OgaGXl1GbqthXDxkYKQacEUeObP9_m5dhWeF4ErBInHJNMpE0g8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=1BQ2CAOCpjImb8t57qibgQ&oh=00_Afa81ERzOXDD5APxufsHOZI8-bsoQqZuNCmV1K1lQ0zV0Q&oe=68C62DC8"
+    },
+    {
+      "id": "269b5f64-9329-81f5-95cc-eb6b14ce26be",
+      "title": "2 bedroom flat for rent in Hackney",
+      "overview": "A 2 bedroom flat available for rent in Hackney, London, without furniture",
+      "description": "🏠 2 bedroom flat 🏠 Квартира с двумя спальными комнатами и одной ванной. Сдается без мебели 📍Well Street, E9 (Hackney) 🗓️ Available now 💷 £2400 + bills + deposit 🏙️ Имеется большой выбор квартир и комнат по всему Лондону. ✉️ Обращаться в личные сообщения по всем вопросам и за подробностями. Телеграм по номеру +380[PHONE NUMBER CENSORED], WhatsApp +4407470884889",
+      "price": "£2400 + bills + deposit",
+      "zone": "Well Street, E9 (Hackney)",
+      "zoneMacro": "East London",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the flat, including location, price, and contact details, and includes a photo, but the reliability score is not 5 because the post seems to be from a rental agency or a company, not a private owner",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T17:25:00.000+00:00",
+      "link": "https://www.facebook.com/groups/478152972719598/posts/2120415181826694/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/543366301_122195105240326029_6726249115483523760_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=DbSDNuqDG6gQ7kNvwGc1YfD&_nc_oc=AdlXQu8mvtCzfMxMFU0u21Q-vdA_w80K6W3SwPd-4urRxIxl-c7paFSfJlkR0SW7vyg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=S3mZ2a-dscIbOU845b-P_w&oh=00_AfYpL6LyeBTR1y5tLErTziCdOY1xrViLvvHT2SV8gavcWw&oe=68C61488"
+    },
     {
       "id": "269b5f64-9329-815d-a2e6-d1ed7e2ab714",
       "title": "Rooms Available",
@@ -511,7 +562,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T10:35:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2120047738530105/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545520182_4156959484590084_1185148040205080643_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=pZ9Jw8FAQIMQ7kNvwEeaydO&_nc_oc=AdkNOkZjLDXyN1IQIM81nBigVxXzx_QfE6oj_umROR9HwiLJBZLE8Qn6myuJUHQ_OyM&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=HThcG-Rkv_PSD3_nYnR6_A&oh=00_AfZ-KyQij_VJr6XxeDY94SSBS_yTH1O6i0WScZTttYsEgg&oe=68C5BF70"
     },
     {
@@ -9028,7 +9079,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-01T13:11:00.000+00:00",
       "link": "https://www.facebook.com/groups/478152972719598/posts/2113677965833749/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/542010246_122193946700326029_6118003895974598851_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=s7s4fROGDoIQ7kNvwFSEIK4&_nc_oc=AdlGFTRk51lqjXCX0rpjnHao4VXmyuj-Af5o6_G9r0CCetX0Fz04gssrM3Nm_toF7uk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=BLf_MtMP3AqRyEfDtxR_vg&oh=00_AfUeovJZ375k8jrz-1zzGhUfBQ7raxQnz2lEnJp81Mmh2g&oe=68BB80FA"
     },
     {
