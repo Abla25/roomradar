@@ -1,9 +1,60 @@
 {
-  "generatedAt": "2025-09-09T02:05:13.414Z",
+  "generatedAt": "2025-09-09T03:13:19.483Z",
   "city": "barcelona",
-  "count": 1515,
-  "totalRejectedCount": 2530,
+  "count": 1518,
+  "totalRejectedCount": 2538,
   "results": [
+    {
+      "id": "269b5f64-9329-81be-9195-e9d2fdfe41bb",
+      "title": "Room for rent in the city center",
+      "overview": "A room is available for rent in the center of Barcelona",
+      "description": "Se alquila habitación en el centro de Barcelona",
+      "price": "N/A",
+      "zone": "Barcelona city center",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 1,
+      "reliabilityReason": "The post lacks essential details such as price, photos, and contact information, indicating a low level of reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T03:07:00.000+00:00",
+      "link": "https://www.facebook.com/groups/apartamentosbarcelona/posts/4032427727086853/",
+      "status": "active",
+      "imageUrl": ""
+    },
+    {
+      "id": "269b5f64-9329-81af-b937-db5e0da841cd",
+      "title": "Rental of exterior room with terrace",
+      "overview": "Rental of an exterior room with a terrace, no additional details provided",
+      "description": "Alquilo habitación exterior con terraza.",
+      "price": "N/A",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 4,
+      "reliabilityReason": "The post is a clear rental listing with a photo provided, but lacks information on price, location, and contact details.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T03:06:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1674520359717832/posts/2249805525522643/",
+      "status": "active",
+      "imageUrl": "https://scontent.fccj6-2.fna.fbcdn.net/v/t39.30808-6/545115279_122145238598826546_7698234232092716305_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=JMKQNWj7uzIQ7kNvwH8uBuj&_nc_oc=Adl9OfxEa3uVqJRzFYssFgzqdjDal4zSlSdTGP6GyBYNGEIQavu0ctHcNyTHexinDelRdgRYq4HjzRMntKMRV1_t&_nc_zt=23&_nc_ht=scontent.fccj6-2.fna&_nc_gid=uPLAPSrjldR3eJofCuYzYg&oh=00_Afbd5e5D2G4uLqi0UOfpqKZBMi4lG3O7eNqgPOyOqLSinA&oe=68C54AD8"
+    },
+    {
+      "id": "269b5f64-9329-819f-834d-ecd0f4ef84de",
+      "title": "Large room for rent in Sabadell",
+      "overview": "A large room is available for rent in Sabadell, close to trains and buses",
+      "description": "Se alquila habitación grande para pareja en sabadell norte cerca de trenes y autobuses,mandar privado por favor",
+      "price": "N/A",
+      "zone": "Sabadell Norte",
+      "zoneMacro": "",
+      "rooms": "1",
+      "reliability": 2,
+      "reliabilityReason": "The listing lacks photos and pricing information, and the contact method is not explicitly stated, which raises some concerns about its reliability.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T03:05:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4316722998560209/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "269b5f64-9329-81bf-a204-ee014b3a04ec",
       "title": "Room for rent in central Barcelona",
@@ -188,7 +239,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T21:21:00.000+00:00",
       "link": "https://www.facebook.com/groups/1674520359717832/posts/2249799718856557/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fdel5-2.fna.fbcdn.net/v/t39.30808-6/545349108_122145237194826546_2804170696175918896_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=ox-4QHhp-swQ7kNvwErah39&_nc_oc=AdmFkoenWY9qW9M9I-79kw-AQQ1SO6qk9bBP8RgMr1Kr0BfGr9ZIeHe4406VGKUYzGY&_nc_zt=23&_nc_ht=scontent.fdel5-2.fna&_nc_gid=RByGlw7RDKzQEvYls5zdNg&oh=00_AfbSy-CdqytdjwAlE9zShPUgadGzoZdG7AHji1cFI7lCKw&oe=68C52376"
     },
     {
@@ -936,7 +987,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-08T03:11:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1083771413928390/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fbek1-4.fna.fbcdn.net/v/t39.30808-6/545158408_4214750368743651_3612551271791434243_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=kZDEfvvMIXsQ7kNvwFzWQ8n&_nc_oc=Adki91o8j-mxj3zWel93AHT2V3oxTzVUF4On33G6RTsF3oNmLeXEJMY9M2Wy_W0QuiVdaK7ScytwmnOh_DmXRv9N&_nc_zt=23&_nc_ht=scontent.fbek1-4.fna&_nc_gid=JhwqmGHxdzrZaRJ7tAKmvw&oh=00_AfZOeudi4OA5TRKTjD-hrRAg0FXhHXMbwTTEK7QDOpkuWw&oe=68C40128"
     },
     {

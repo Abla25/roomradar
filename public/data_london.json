@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-09T02:05:35.988Z",
+  "generatedAt": "2025-09-09T03:13:41.309Z",
   "city": "london",
-  "count": 761,
-  "totalRejectedCount": 1091,
+  "count": 762,
+  "totalRejectedCount": 1093,
   "results": [
+    {
+      "id": "269b5f64-9329-813f-86ab-f96e69a8619e",
+      "title": "Modern 1 Bed Flat for Rent in Ealing",
+      "overview": "A bright and modern 1 bed/1 bath flat with great transport links nearby, available for rent in Ealing",
+      "description": "Hi everyone! 🌿 I’m looking for someone to take over my lease at 60 Fairlea Place, Ealing. It’s a bright and modern 1 bed / 1 bath flat with great transport links nearby. * Rent: £358/week (£1,550/month) * Lease: 23 months * Available: Now If you or anyone you know might be interested, please feel free to comment below to arrange an in person viewing - thanks so much ✨",
+      "price": "£1,550/month",
+      "zone": "Ealing",
+      "zoneMacro": "West London",
+      "rooms": "1",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear description of the property, including the location, rent, and lease details, along with a photo of the property, and provides a way to contact the owner, which suggests a high level of reliability and completeness of information, with no apparent scam indicators.",
+      "datePublished": "",
+      "dateAdded": "2025-09-09T03:12:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24282239141445117/",
+      "status": "active",
+      "imageUrl": "https://scontent.fbom12-2.fna.fbcdn.net/v/t39.30808-6/542487167_2882122261997518_877433304125036670_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=c2SCJIZBMwMQ7kNvwGVDtHs&_nc_oc=Adm7I4MnKrBuYut32rLkLsNJDReRGIElVekCUiFAn0yMAcfnQbWk41BBlMTHS20fKcY&_nc_zt=23&_nc_ht=scontent.fbom12-2.fna&_nc_gid=iRQp8RfB3PlQH95PCTBoeA&oh=00_AfbeC2-kYYguGBiiR4dbc3lireXhriZ29IueAxd4k2oowg&oe=68C3D1EA"
+    },
     {
       "id": "269b5f64-9329-813c-9e6b-cf2f58a4a0b2",
       "title": "Fully furnished studio flat for rent",
