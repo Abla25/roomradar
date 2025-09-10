@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-10T05:25:13.498Z",
+  "generatedAt": "2025-09-10T06:37:54.015Z",
   "city": "london",
-  "count": 833,
-  "totalRejectedCount": 1161,
+  "count": 834,
+  "totalRejectedCount": 1162,
   "results": [
+    {
+      "id": "26ab5f64-9329-81a4-93c0-eeb4b0098639",
+      "title": "3 bedroom house for rent in Little Illford",
+      "overview": "A 3 bedroom house is available for rent in Little Illford, with a specified rent and deposit",
+      "description": "3 Bedroom House 📍E12 5RN, Little Illford Rent 2650, Deposit 2650 WhatsApp : +447453816704",
+      "price": "2650",
+      "zone": "E12 5RN, Little Illford",
+      "zoneMacro": "East London",
+      "rooms": "3",
+      "reliability": 2,
+      "reliabilityReason": "The post provides some details about the rental, including price and location, but there are no photos provided and the contact method is a WhatsApp number, which may indicate a lower reliability",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T06:36:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1430174828070035/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "26ab5f64-9329-81bd-b76f-e5736c480bcc",
       "title": "2 Bedroom Flat for Rent in Wembley",
