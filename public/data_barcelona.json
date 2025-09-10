@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-09T23:27:02.744Z",
+  "generatedAt": "2025-09-10T01:55:56.477Z",
   "city": "barcelona",
-  "count": 1573,
-  "totalRejectedCount": 2665,
+  "count": 1575,
+  "totalRejectedCount": 2672,
   "results": [
+    {
+      "id": "26ab5f64-9329-811d-ba2b-e32207f09afc",
+      "title": "Room for Rent in Barcelona",
+      "overview": "Single room available for rent in Barcelona, located on C/ Telègraf 77 in Guinardó, with independent entrance and services included",
+      "description": "Se alquila Habitacion en Barcelona- C/ Telègraf 77 Guinardó 450€ disponible a partir del día 16/09, con servicios, incluidos entrada independiente desde la calle. Habitación individual. Se requiere un mes de fianza . Para una sola persona . Tel: [PHONE NUMBER CENSORED]. Enviar WhatsApp para coordinar hora de visita .",
+      "price": "450€",
+      "zone": "Guinardó, Barcelona",
+      "zoneMacro": "Horta Guinardó",
+      "rooms": "",
+      "reliability": 5,
+      "reliabilityReason": "The post includes a clear description of the room, price, and location, as well as contact information and a photo, which suggests a high level of completeness and authenticity, and does not seem like a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T01:51:00.000+00:00",
+      "link": "https://www.facebook.com/groups/986691378511610/posts/2193477451166324/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545180678_25478075351782423_4480975732066135870_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eSAvtwY7_3EQ7kNvwGlZf7a&_nc_oc=Adnbp8LR25T-PmIxvqklo4816niORJY1RtzxlYNn3PIgu6CoiezO2rFJvaggoDGIaNI&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=RjTppX-lwCfUDC-72fqv8Q&oh=00_AfY5hyfwzolw5JPZWSzEt1A2B850N4V26BV3HD7bbLY3qQ&oe=68C68081"
+    },
+    {
+      "id": "26ab5f64-9329-81db-881c-c11ef95d4254",
+      "title": "Room for rent in Santa Coloma de Gramenet",
+      "overview": "A room for rent in a family environment, located in Santa Coloma de Gramenet, near metro line L9, Singuerlin station. The room is available for immediate entry, 300€ per month, including expenses, and a 100€ deposit. The ideal tenant is a working girl who is clean, orderly, punctual with payments, and able to live in a family atmosphere.",
+      "description": "Alquilo habitación para ingresar ya mismo 300€ gastos incluidos más 100€ de fianza solo (CHICAS)principalmente q esten trabajando sean limpias ,ordenadas ,sean puntual con el pago ,y sepan convivir en un ambiente familiar un dato(somos una pareja con un bebé )esta ubicada en santa coloma de Gramenet linea de metro L9 parada de metro singuerlin",
+      "price": "300€",
+      "zone": "Santa Coloma de Gramenet",
+      "zoneMacro": "Santa Coloma de Gramenet",
+      "rooms": "1",
+      "reliability": 4,
+      "reliabilityReason": "The post provides detailed information about the room, including price, location, and requirements for the tenant. It also includes a photo of the room, which increases the reliability of the post. However, the reliability score is not 5 because the post does not provide a direct contact method, such as a phone number or email.",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T01:47:00.000+00:00",
+      "link": "https://www.facebook.com/groups/2723040451261813/posts/4317707351795107/",
+      "status": "active",
+      "imageUrl": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/545179289_1076670351202574_4450695355719445968_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=5lrp0WMRz_MQ7kNvwER3473&_nc_oc=Adnf1tq3VrqGfH_GfXB3hpP3pYw2R2Z6w0PKcR-qAWaufAEkPs5La39gcvrytycbA_U&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=ErZsItj9gEid6v1-EqAEQA&oh=00_AfYpt0oZeELj-x2TGuxzqMpx6A0xS-dg8Gm1jNWttB1pGA&oe=68C69331"
+    },
     {
       "id": "269b5f64-9329-815b-ba68-f12cb73b51da",
       "title": "Room for rent on Via Julia",
@@ -307,7 +341,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T18:31:00.000+00:00",
       "link": "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085246700447528/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": "https://scontent.fagr2-1.fna.fbcdn.net/v/t39.30808-6/545180678_25478075351782423_4480975732066135870_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=eSAvtwY7_3EQ7kNvwFnmAbN&_nc_oc=Adk5CQMLLKtvrpYOpeIK-e_yBYHbthrcsC5RA2nIcxCrdI4EM6Dufc477oZWfayDP7c&_nc_zt=23&_nc_ht=scontent.fagr2-1.fna&_nc_gid=QcWaRT0CEAu9RXEBcWMzAA&oh=00_AfYUgPOtZ1_XnYX_fZ6P1I9nxOuYz8humUg1LqgOW7Y6DA&oe=68C64841"
     },
     {

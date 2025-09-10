@@ -1,17 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4315688038663705/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-07T23:19:51.221913"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4315679475331228/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-07T23:19:51.223315"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4315675438664965/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-07T23:19:51.224662"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4315732811992561/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-08T01:55:13.393158"
@@ -1095,8 +1083,36 @@
     "https://www.facebook.com/groups/365556558673981/posts/1081186313777665/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T23:21:57.838579"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4317702341795608/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:47:55.544226"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4317691128463396/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:47:55.545744"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4317673578465151/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:48:34.662749"
+    },
+    "https://www.facebook.com/groups/2723040451261813/posts/4317645751801267/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:48:34.664255"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2250845825418613/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:49:44.486549"
+    },
+    "https://www.facebook.com/groups/1674520359717832/posts/2250833405419855/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:49:44.488055"
+    },
+    "https://www.facebook.com/groups/365556558673981/posts/1082625853633711/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T01:50:24.533514"
     }
   },
-  "total_rejected_count": 2665,
-  "timestamp": "2025-09-09T23:19:38.644164"
+  "total_rejected_count": 2672,
+  "timestamp": "2025-09-10T01:47:04.154716"
 }
