@@ -735,8 +735,12 @@
     "https://www.facebook.com/groups/478152972719598/posts/2120656408469238/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-10T01:54:46.140205"
+    },
+    "https://www.facebook.com/groups/181439002455412/posts/1848685925730703/": {
+      "reason": "AI_NOT_RELEVANT",
+      "timestamp": "2025-09-10T03:00:14.461838"
     }
   },
-  "total_rejected_count": 1159,
-  "timestamp": "2025-09-10T01:51:50.585855"
+  "total_rejected_count": 1160,
+  "timestamp": "2025-09-10T02:59:57.313577"
 }

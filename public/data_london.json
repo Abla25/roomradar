@@ -1,9 +1,26 @@
 {
-  "generatedAt": "2025-09-10T01:56:18.194Z",
+  "generatedAt": "2025-09-10T03:02:24.740Z",
   "city": "london",
-  "count": 829,
-  "totalRejectedCount": 1159,
+  "count": 830,
+  "totalRejectedCount": 1160,
   "results": [
+    {
+      "id": "26ab5f64-9329-81d9-858f-c684548d799c",
+      "title": "Room for rent at £670 pcm",
+      "overview": "A room is available for rent with a price of £670 per month and a £250 deposit, ready to move in",
+      "description": "£670 pcm £250 deposit Ready to move in",
+      "price": "£670 pcm",
+      "zone": "N/A",
+      "zoneMacro": "",
+      "rooms": "N/A",
+      "reliability": 5,
+      "reliabilityReason": "The post contains a clear price, a deposit amount, and a photo, indicating a high level of information completeness and no scam indicators",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T03:00:00.000+00:00",
+      "link": "https://www.facebook.com/groups/181439002455412/posts/1848685165730779/",
+      "status": "active",
+      "imageUrl": "https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/546624483_122122862756964463_1203893536269413844_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=4GDBaesIM7MQ7kNvwHtNUYQ&_nc_oc=AdmTcn-H1US13CyWpbf8ucW6t7qZqPe_MzT91Qisph98zB3r6W5jbEVlurJV3biOjog&_nc_zt=23&_nc_ht=scontent.fblr1-4.fna&_nc_gid=3N3GDMdgh-t3G-evAV_A6g&oh=00_AfZ3sdcFpnYmO0yVelXyzFD7uEe-rxwBt3LCAWpq6gBeww&oe=68C6BAFE"
+    },
     {
       "id": "26ab5f64-9329-817a-b224-fb7ee8a0a14b",
       "title": "Housemate wanted in Canning town",
