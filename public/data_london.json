@@ -1,9 +1,43 @@
 {
-  "generatedAt": "2025-09-10T04:30:07.107Z",
+  "generatedAt": "2025-09-10T05:25:13.498Z",
   "city": "london",
-  "count": 831,
-  "totalRejectedCount": 1160,
+  "count": 833,
+  "totalRejectedCount": 1161,
   "results": [
+    {
+      "id": "26ab5f64-9329-81bd-b76f-e5736c480bcc",
+      "title": "2 Bedroom Flat for Rent in Wembley",
+      "overview": "A 2-bedroom flat with 2 bathrooms is available for rent in Wembley, suitable for professionals to share with 3 housemates, offering comfort and privacy",
+      "description": "2 Beds 2 Baths - Apartment HA0 2LP Harrow Road, Wembley, United Kingdom 𝗦𝗽𝗮𝗰𝗶𝗼𝘂𝘀 𝗗𝗼𝘂𝗯𝗹𝗲 𝗥𝗼𝗼𝗺 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗻𝗲𝗮𝗿 𝘄𝗲𝗺𝗯𝗹𝗲𝘆 𝗮𝗿𝗲𝗮(𝗦𝘂𝗱𝗯𝘂𝗿𝘆 𝘁𝗼𝘄𝗻) Looking for professionals to share a 2-bedroom flat with 3 housemates. The flat has 2 toilets and offers both comfort and privacy. 📍 Location: HA0 2LP (all bus stops and tube station nearby) 💷 Rent: £850 per month (bills included) 🛋️ Fully furnished with Garden access 📅 Available: 1st October ✅ Nearby shops and amenities 📞 Contact/WhatsApp plz. +447424 238518",
+      "price": "£850 per month",
+      "zone": "HA0 2LP, Harrow Road, Wembley, United Kingdom",
+      "zoneMacro": "Harrow",
+      "rooms": "2",
+      "reliability": 5,
+      "reliabilityReason": "The listing includes a detailed description, photos, and contact information, with a clear specification of the rent and amenities, and does not appear to be a scam",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T05:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/I6680/posts/24323610280641336/",
+      "status": "active",
+      "imageUrl": "https://scontent.fvns5-1.fna.fbcdn.net/v/t39.30808-6/546260428_24303537952648748_944183287685615026_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=9C42WoEqokwQ7kNvwGm5Lpu&_nc_oc=AdkMNjCf991HnrfGg-GuNbJNIHzdt6EuSSHFMvw6CCJAybwMylU60J5FYxjaB9skTyo&_nc_zt=23&_nc_ht=scontent.fvns5-1.fna&_nc_gid=KH1BiWXA7shuSb3DzsQUaQ&oh=00_AfbR2DoH0sD9MkcddCdXqghq6itrnTNGQSAPF14jgZZh7w&oe=68C6CD0A"
+    },
+    {
+      "id": "26ab5f64-9329-8189-b8f2-e6ba62f03042",
+      "title": "Deluxe Double Studio for Rent in Sheffield City Centre",
+      "overview": "A spacious deluxe double studio apartment is available for rent, located near the University of Sheffield and Sheffield Hallam University, with amenities like superfast Wi-Fi, private ensuite shower room, and fully-fitted kitchen",
+      "description": "UK Student Accommodation • University of Sheffield (main campus) – 15 min walk • Sheffield Hallam University – 2 min walk Room Type:Deluxe Double Studio (£115/week) POST CODE-S14JA Availability:44weeks What’s Included: • Double bed • Private ensuite shower room • Desk & study chair • Superfast Wi-Fi • Double wardrobe & storage • Private fully-fitted kitchen & dining area This is my room, but by mistake, I booked it for 44 weeks. I actually don’t need it for that long, as my studies will be finishing in January. That is why I am planning to leave the room earlier. The room itself is very spacious and everything is well-maintained. The location is also excellent — there is a grocery shop just downstairs, with Sainsbury’s and Poundland only a minute away. Food shops are right in front, Primark is just a 2-minute walk, the railway station is a 5-minute walk, and the bus stand is only 2 minutes away. Everything you need is close by, and it’s right in the city centre. SHARING ROOM AVAILABLE Per person-57£ per week",
+      "price": "57£ per week",
+      "zone": "Sheffield City Centre",
+      "zoneMacro": "",
+      "rooms": "",
+      "reliability": 3,
+      "reliabilityReason": "The post provides detailed information about the room, location, and amenities, but lacks photos, which is a crucial aspect for verifying the authenticity of the listing. Additionally, the poster mentions they booked the room by mistake and plan to leave early, which might raise some concerns about the reliability of the listing.",
+      "datePublished": "",
+      "dateAdded": "2025-09-10T05:23:00.000+00:00",
+      "link": "https://www.facebook.com/groups/1075915486829306/posts/1430475624706622/",
+      "status": "active",
+      "imageUrl": ""
+    },
     {
       "id": "26ab5f64-9329-8174-a3fd-cba2bbf0907c",
       "title": "Double Bedroom for Rent in Canary Wharf",
@@ -222,7 +256,7 @@
       "datePublished": "",
       "dateAdded": "2025-09-09T23:23:00.000+00:00",
       "link": "https://www.facebook.com/groups/1075915486829306/posts/1430301018057416/",
-      "status": "active",
+      "status": "expired",
       "imageUrl": ""
     },
     {
