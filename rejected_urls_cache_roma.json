@@ -1,45 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1343242187467472/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:28:39.787458"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343240954134262/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:28:39.789404"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343236024134755/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:28:39.791344"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343233740801650/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:29:20.519449"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343227717468919/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:29:20.522192"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343226697469021/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:29:57.748037"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343220134136344/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:29:57.749938"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2152563055267647/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:30:38.835087"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2152557268601559/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:30:38.837838"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2739747526224215/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T07:31:49.602555"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1343265420798482/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-08T08:36:21.981389"
@@ -1078,5 +1038,5 @@
     }
   },
   "total_rejected_count": 2899,
-  "timestamp": "2025-09-10T07:25:14.955187"
+  "timestamp": "2025-09-10T08:33:02.823704"
 }
