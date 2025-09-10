@@ -1,49 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/romaffitti/posts/1343686600756364/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:25:35.610184"
-    },
-    "https://www.facebook.com/groups/romaffitti/posts/1343617507429940/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:25:35.619634"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2153087445215208/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:26:12.879054"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2153084865215466/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:26:12.882600"
-    },
-    "https://www.facebook.com/groups/1800846897105933/posts/2153000261890593/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:26:49.646577"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740365329495768/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:27:27.564168"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740363279495973/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:27:27.566239"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740340189498282/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:28:05.490052"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740339226165045/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:28:05.493624"
-    },
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740331459499155/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:28:44.446852"
-    },
-    "https://www.facebook.com/groups/633912783969846/posts/1715771912450589/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-08T22:29:22.109049"
-    },
     "https://www.facebook.com/groups/romaffitti/posts/1343754877416203/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-08T23:26:29.796991"
@@ -318,5 +274,5 @@
     }
   },
   "total_rejected_count": 2899,
-  "timestamp": "2025-09-10T22:21:37.112312"
+  "timestamp": "2025-09-10T23:20:36.158906"
 }
