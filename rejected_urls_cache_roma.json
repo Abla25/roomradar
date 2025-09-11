@@ -1,9 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/affitti.stanze.studenti.roma/posts/2740409079491393/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T04:32:14.112595"
-    },
     "https://www.facebook.com/groups/1800846897105933/posts/2153246248532661/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T05:25:56.213133"
@@ -182,5 +178,5 @@
     }
   },
   "total_rejected_count": 2899,
-  "timestamp": "2025-09-11T04:27:54.397172"
+  "timestamp": "2025-09-11T05:22:38.337895"
 }

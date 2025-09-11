@@ -1,9 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/1075915486829306/posts/1429670711453780/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T04:33:00.748426"
-    },
     "https://www.facebook.com/groups/478152972719598/posts/2119698305231715/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T06:40:13.204242"
@@ -282,5 +278,5 @@
     }
   },
   "total_rejected_count": 1163,
-  "timestamp": "2025-09-11T04:28:06.436539"
+  "timestamp": "2025-09-11T05:22:55.893657"
 }
