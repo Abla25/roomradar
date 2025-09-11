@@ -1,13 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085396517099213/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T23:20:04.175712"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085083743797157/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T23:20:04.177718"
-    },
     "https://www.facebook.com/groups/365556558673981/posts/1082575050305458/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T23:21:57.837004"
@@ -102,5 +94,5 @@
     }
   },
   "total_rejected_count": 2686,
-  "timestamp": "2025-09-11T22:20:53.528261"
+  "timestamp": "2025-09-11T23:21:07.582959"
 }
