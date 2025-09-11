@@ -1,45 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4317377288494780/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:30:21.536919"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317315901834252/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:30:21.538542"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085169703788561/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:31:04.895569"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085162947122570/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:31:04.898494"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4033209850341974/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:31:40.143911"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1081009967128633/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:32:22.388666"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080987533797543/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:32:22.390240"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080985097131120/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:32:22.391899"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2193396227841113/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:32:57.566859"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2193326404514762/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T16:32:57.568608"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4317444685154707/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T17:20:56.075641"
@@ -294,5 +254,5 @@
     }
   },
   "total_rejected_count": 2686,
-  "timestamp": "2025-09-11T16:28:37.381819"
+  "timestamp": "2025-09-11T17:19:15.711203"
 }
