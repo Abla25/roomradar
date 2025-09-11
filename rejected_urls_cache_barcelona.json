@@ -1,73 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4317165721849270/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:52:23.905285"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317130841852758/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:52:23.906812"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317075481858294/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:52:23.908415"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085021153803416/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:53:53.789916"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085017367137128/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:53:53.792271"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1084933837145481/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:54:43.943837"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2250432725459923/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:55:30.703878"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2250412595461936/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:55:30.705648"
-    },
-    "https://www.facebook.com/groups/1674520359717832/posts/2250371882132674/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:56:06.076220"
-    },
-    "https://www.facebook.com/groups/apartamentosbarcelona/posts/4031497937179832/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:56:50.441533"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080896513806645/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:57:42.486946"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080848700478093/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:58:27.357595"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080825753813721/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:58:27.359133"
-    },
-    "https://www.facebook.com/groups/365556558673981/posts/1080814160481547/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:58:27.360910"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2193250274522375/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:59:17.978396"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2193244041189665/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:59:17.979901"
-    },
-    "https://www.facebook.com/groups/986691378511610/posts/2193185954528807/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T12:59:57.506811"
-    },
     "https://www.facebook.com/groups/2723040451261813/posts/4317237068508802/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T13:35:38.836796"
@@ -442,5 +374,5 @@
     }
   },
   "total_rejected_count": 2686,
-  "timestamp": "2025-09-11T12:47:20.440186"
+  "timestamp": "2025-09-11T13:27:32.545751"
 }
