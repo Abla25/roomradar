@@ -1,45 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/1075915486829306/posts/1429897128097805/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:23:42.345736"
-    },
-    "https://www.facebook.com/groups/1075915486829306/posts/1429893278098190/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:23:42.346786"
-    },
-    "https://www.facebook.com/groups/1075915486829306/posts/1429890228098495/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:23:42.347811"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1848207932445169/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:25:11.870465"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1848207759111853/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:25:58.638114"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1848205885778707/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:25:58.639087"
-    },
-    "https://www.facebook.com/groups/181439002455412/posts/1848190265780269/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:26:48.277790"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2120173388517540/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:27:39.527779"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2120157088519170/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:28:33.036091"
-    },
-    "https://www.facebook.com/groups/478152972719598/posts/2120150815186464/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T11:28:33.037190"
-    },
     "https://www.facebook.com/groups/1075915486829306/posts/1429965491424302/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T13:01:31.666659"
@@ -250,5 +210,5 @@
     }
   },
   "total_rejected_count": 1163,
-  "timestamp": "2025-09-11T11:20:13.961579"
+  "timestamp": "2025-09-11T12:47:56.533551"
 }
