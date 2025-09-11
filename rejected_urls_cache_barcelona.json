@@ -1,45 +1,5 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/2723040451261813/posts/4317237068508802/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:35:38.836796"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317236108508898/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:35:38.838370"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317108088521700/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:35:38.840086"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085094930462705/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:36:51.610703"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085089597129905/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:36:51.612299"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085085900463608/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:36:51.613929"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085084957130369/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:37:28.255852"
-    },
-    "https://www.facebook.com/groups/habitacionesenbarcelona/posts/1085078620464336/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T13:37:28.257476"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317283315170844/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T14:21:58.443071"
-    },
-    "https://www.facebook.com/groups/2723040451261813/posts/4317268375172338/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-09T14:21:58.444663"
-    },
     "https://www.facebook.com/groups/1674520359717832/posts/2250479452121917/": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-09T14:23:16.392519"
@@ -374,5 +334,5 @@
     }
   },
   "total_rejected_count": 2686,
-  "timestamp": "2025-09-11T13:27:32.545751"
+  "timestamp": "2025-09-11T14:22:38.884033"
 }
