@@ -1,14 +1,10 @@
 {
   "urls": {
-    "https://www.facebook.com/groups/1075915486829306/posts/1430490164705168/": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2025-09-10T06:36:21.758875"
-    },
     "https://rss.app": {
       "reason": "AI_NOT_RELEVANT",
       "timestamp": "2025-09-10T08:34:02.993161"
     }
   },
   "total_rejected_count": 1163,
-  "timestamp": "2025-09-12T06:35:09.432513"
+  "timestamp": "2025-09-12T07:22:01.591226"
 }
