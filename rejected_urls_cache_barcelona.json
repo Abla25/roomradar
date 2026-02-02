@@ -1,10 +1,5 @@
 {
-  "urls": {
-    "https://rss.app": {
-      "reason": "AI_NOT_RELEVANT",
-      "timestamp": "2026-01-31T02:31:41.230785"
-    }
-  },
+  "urls": {},
   "total_rejected_count": 2756,
-  "timestamp": "2026-02-01T23:31:43.785487"
+  "timestamp": "2026-02-02T02:45:04.110584"
 }
